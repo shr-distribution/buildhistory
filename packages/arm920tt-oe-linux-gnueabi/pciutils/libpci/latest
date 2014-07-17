@@ -1,10 +1,9 @@
 PV = 3.2.1
 PR = r0
-PKGR = r0.3
-PKG = libpci3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 26767
+PKGSIZE = 27283
 FILES = /usr/lib/libpci.so.*
 FILELIST = /usr/lib/libpci.so.3 /usr/lib/libpci.so.3.2.1
