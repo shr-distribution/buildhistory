@@ -4,8 +4,8 @@ PR = ml2
 PKGV = 1.0.0+gitr0+63b1dff1bc
 PKGR = ml2.0
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.18) python-core
+RDEPENDS = eglibc (>= 2.19) python-core
 RRECOMMENDS = 
-PKGSIZE = 23338
+PKGSIZE = 44130
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*
 FILELIST = /usr/lib/python2.7/site-packages/PyRTC-1.0.0-py2.7.egg-info /usr/lib/python2.7/site-packages/pyrtc.so
