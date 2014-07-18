@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-machine-base
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = kernel-module-bridge kernel-module-g-ether kernel-module-hso kernel-module-libertas-sdio
-RREPLACES = task-machine-base
-RCONFLICTS = task-machine-base
 PKGSIZE = 0
 FILES = 
 FILELIST = 

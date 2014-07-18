@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-distro-base-dbg
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = distro-feed-configs-dbg shr-version-dbg
-RREPLACES = task-distro-base-dbg
-RCONFLICTS = task-distro-base-dbg
 PKGSIZE = 0
 FILES = 
 FILELIST = 
