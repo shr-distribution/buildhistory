@@ -5,6 +5,6 @@ PKGR = r13.0
 RPROVIDES = 
 RDEPENDS = shr-wizard-dev (= 0.0.0+gitr0+1dae79221f-r13.0)
 RRECOMMENDS = 
-PKGSIZE = 7930
+PKGSIZE = 8054
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/shr-wizard/*.a /usr/lib/enlightenment/modules/wizard/*/page_900.a
-FILELIST = /usr/lib/enlightenment/modules/wizard/linux-gnu-i586-0.17.5/page_900.a
+FILELIST = /usr/lib/enlightenment/modules/wizard/linux-gnu-i586-ver-00/page_900.a

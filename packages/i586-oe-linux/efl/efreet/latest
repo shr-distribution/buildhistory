@@ -1,10 +1,10 @@
 PE = 2
-PV = 1.8.4
+PV = 1.10.2
 PR = r0
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = efl (>= 1.8.4) eglibc (>= 2.18)
+RDEPENDS = ecore (>= 1.10.2) ecore-file (>= 1.10.2) eglibc (>= 2.19) eina (>= 1.10.2) eldbus (>= 1.10.2) libeet (>= 1.10.2) libefreet (>= 1.10.2)
 RRECOMMENDS = 
-PKGSIZE = 57192
-FILES = /usr/lib/efreet/*/efreet*create /usr/bin/efreetd /usr/share/efreet
-FILELIST = /usr/bin/efreetd /usr/lib/efreet/linux-gnu-i586-1.8.4/efreet_desktop_cache_create /usr/lib/efreet/linux-gnu-i586-1.8.4/efreet_icon_cache_create /usr/share/efreet/checkme
+PKGSIZE = 61904
+FILES = /usr/share/dbus-1/services/*Efreet* /usr/lib/efreet/*/efreet*create /usr/bin/efreetd /usr/share/efreet
+FILELIST = /usr/bin/efreetd /usr/lib/efreet/v-1.10/efreet_desktop_cache_create /usr/lib/efreet/v-1.10/efreet_icon_cache_create /usr/share/dbus-1/services/org.enlightenment.Efreet.service /usr/share/efreet/checkme
