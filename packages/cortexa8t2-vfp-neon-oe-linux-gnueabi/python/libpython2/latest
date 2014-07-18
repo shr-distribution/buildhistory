@@ -1,9 +1,9 @@
 PV = 2.7.3
 PR = r0.3
-PKGR = r0.3.2
+PKGR = r0.3.3
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19)
 RRECOMMENDS = 
-PKGSIZE = 1150744
+PKGSIZE = 1146000
 FILES = /usr/lib/libpython*.so.*
 FILELIST = /usr/lib/libpython2.7.so.1.0

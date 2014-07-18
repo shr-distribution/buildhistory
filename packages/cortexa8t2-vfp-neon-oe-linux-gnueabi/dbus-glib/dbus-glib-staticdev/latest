@@ -1,8 +1,8 @@
 PV = 0.100.2
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = dbus-glib-dev (= 0.100.2-r0.2)
+RDEPENDS = dbus-glib-dev (= 0.100.2-r0.3)
 RRECOMMENDS = 
 PKGSIZE = 667288
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/dbus-glib/*.a

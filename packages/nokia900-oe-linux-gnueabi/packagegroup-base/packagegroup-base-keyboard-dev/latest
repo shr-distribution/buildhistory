@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-keyboard-dev
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = keymaps-dev
-RREPLACES = task-base-keyboard-dev
-RCONFLICTS = task-base-keyboard-dev
 PKGSIZE = 0
 FILES = 
 FILELIST = 

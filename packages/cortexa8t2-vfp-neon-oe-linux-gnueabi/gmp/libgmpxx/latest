@@ -1,9 +1,9 @@
 PV = 5.1.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = 
+RDEPENDS = eglibc (>= 2.19) gmp (>= 5.1.1) libgcc (>= 4.9.0) libstdc++ (>= 4.9.0)
 RRECOMMENDS = 
-PKGSIZE = 0
+PKGSIZE = 18549
 FILES = /usr/lib/libgmpxx.so.*
-FILELIST = 
+FILELIST = /usr/lib/libgmpxx.so.4 /usr/lib/libgmpxx.so.4.3.1
