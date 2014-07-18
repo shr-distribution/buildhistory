@@ -1,7 +1,6 @@
 PV = 0.25
 PR = r0
-PKGR = r0.3
-PKG = libnfsidmap0
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19)
 RRECOMMENDS = 

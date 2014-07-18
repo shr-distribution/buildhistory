@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-phone-ptest
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-RREPLACES = task-base-phone-ptest
-RCONFLICTS = task-base-phone-ptest
 PKGSIZE = 0
 FILES = 
 FILELIST = 

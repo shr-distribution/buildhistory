@@ -1,8 +1,7 @@
 PE = 1
 PV = 1.2.2
 PR = r1
-PKGR = r1.3
-PKG = libgsm0710-0
+PKGR = r1.4
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19)
 RRECOMMENDS = 

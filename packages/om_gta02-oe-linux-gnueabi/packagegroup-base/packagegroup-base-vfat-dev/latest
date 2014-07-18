@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-vfat-dev
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-RREPLACES = task-base-vfat-dev
-RCONFLICTS = task-base-vfat-dev
 PKGSIZE = 0
 FILES = 
 FILELIST = 

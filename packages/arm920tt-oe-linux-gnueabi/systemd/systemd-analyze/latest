@@ -4,8 +4,8 @@ PR = r0
 PKGV = 213+git0+c9679c652b
 PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19)
+RDEPENDS = eglibc (>= 2.19) libgcc (>= 4.9.0)
 RRECOMMENDS = 
-PKGSIZE = 231312
+PKGSIZE = 202428
 FILES = /usr/bin/systemd-analyze
 FILELIST = /usr/bin/systemd-analyze

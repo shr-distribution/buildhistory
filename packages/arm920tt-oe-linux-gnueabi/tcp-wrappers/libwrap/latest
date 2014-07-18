@@ -1,7 +1,6 @@
 PV = 7.6
 PR = r10
-PKGR = r10.4
-PKG = libwrap0
+PKGR = r10.5
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19)
 RRECOMMENDS = 

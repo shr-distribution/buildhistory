@@ -4,6 +4,6 @@ PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = dbus-glib (>= 0.100.2) dbus-lib (>= 1.8.2) eglibc (>= 2.19) expat (>= 2.1.0) glib-2.0 (>= 2.40.0)
 RRECOMMENDS = 
-PKGSIZE = 18335
+PKGSIZE = 19011
 FILES = /etc/bash_completion.d/dbus-bash-completion.sh /usr/lib/dbus-glib/dbus-bash-completion-helper
 FILELIST = /etc/bash_completion.d/dbus-bash-completion.sh /usr/lib/dbus-glib/dbus-bash-completion-helper

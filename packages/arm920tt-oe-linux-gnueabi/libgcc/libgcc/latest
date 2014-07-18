@@ -4,6 +4,6 @@ PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19)
 RRECOMMENDS = 
-PKGSIZE = 107864
+PKGSIZE = 123624
 FILES = /lib/libgcc*.so.*
 FILELIST = /lib/libgcc_s.so.1

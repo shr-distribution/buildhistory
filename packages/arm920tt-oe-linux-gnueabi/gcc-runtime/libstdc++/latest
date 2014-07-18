@@ -4,6 +4,6 @@ PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19) libgcc (>= 4.9.0)
 RRECOMMENDS = 
-PKGSIZE = 713395
+PKGSIZE = 727471
 FILES = /usr/lib/libstdc++.so.*
 FILELIST = /usr/lib/libstdc++.so.6 /usr/lib/libstdc++.so.6.0.20

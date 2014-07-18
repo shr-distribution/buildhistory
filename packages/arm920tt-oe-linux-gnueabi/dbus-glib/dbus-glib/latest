@@ -4,6 +4,6 @@ PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = dbus-lib (>= 1.8.2) eglibc (>= 2.19) glib-2.0 (>= 2.40.0) libffi (>= 3.1) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 102847
+PKGSIZE = 99283
 FILES = /usr/lib/lib*.so.*
 FILELIST = /usr/lib/libdbus-glib-1.so.2 /usr/lib/libdbus-glib-1.so.2.2.2

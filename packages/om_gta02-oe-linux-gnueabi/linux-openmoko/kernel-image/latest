@@ -1,11 +1,11 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.13
+PKGR = r14.16
 PKG = kernel-image-3.2.52
 RPROVIDES = 
 RDEPENDS = mtd-utils
 RRECOMMENDS = 
-PKGSIZE = 1547808
+PKGSIZE = 1547728
 FILES = /boot/uImage*
 FILELIST = /boot/uImage-3.2.52

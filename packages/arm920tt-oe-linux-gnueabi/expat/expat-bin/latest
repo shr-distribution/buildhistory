@@ -4,6 +4,6 @@ PKGR = r0.5
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19) expat (>= 2.1.0) libgcc (>= 4.9.0)
 RRECOMMENDS = 
-PKGSIZE = 15044
+PKGSIZE = 15520
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/xmlwf
