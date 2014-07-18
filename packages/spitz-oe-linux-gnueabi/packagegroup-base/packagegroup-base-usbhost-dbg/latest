@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-usbhost-dbg
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = usbutils-dbg
-RREPLACES = task-base-usbhost-dbg
-RCONFLICTS = task-base-usbhost-dbg
 PKGSIZE = 0
 FILES = 
 FILELIST = 

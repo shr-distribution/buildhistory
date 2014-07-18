@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-apm
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = apmd fso-apm
 RRECOMMENDS = 
-RREPLACES = task-base-apm
-RCONFLICTS = task-base-apm
 PKGSIZE = 0
 FILES = 
 FILELIST = 

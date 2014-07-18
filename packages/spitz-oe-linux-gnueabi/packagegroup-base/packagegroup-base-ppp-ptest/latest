@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-ppp-ptest
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-RREPLACES = task-base-ppp-ptest
-RCONFLICTS = task-base-ppp-ptest
 PKGSIZE = 0
 FILES = 
 FILELIST = 

@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-ppp-dbg
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = ppp-dbg ppp-dialin-dbg
-RREPLACES = task-base-ppp-dbg
-RCONFLICTS = task-base-ppp-dbg
 PKGSIZE = 0
 FILES = 
 FILELIST = 

@@ -1,9 +1,9 @@
 PV = 4.0.3
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = eglibc-dbg libgcc-dbg libjpeg-turbo-dbg liblzma-dbg libstdc++-dbg tiff-dbg zlib-dbg
-PKGSIZE = 39163
+PKGSIZE = 39373
 FILES = /usr/lib/.debug/libtiffxx.so*
 FILELIST = /usr/lib/.debug/libtiffxx.so.5.2.0

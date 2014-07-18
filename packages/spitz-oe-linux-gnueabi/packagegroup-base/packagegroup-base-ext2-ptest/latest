@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-base-ext2-ptest
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-RREPLACES = task-base-ext2-ptest
-RCONFLICTS = task-base-ext2-ptest
 PKGSIZE = 0
 FILES = 
 FILELIST = 

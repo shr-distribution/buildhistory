@@ -1,9 +1,9 @@
 PV = 0.9.29
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = cairo-dbg eglibc-dbg freetype-dbg glib-2.0-dbg harfbuzz-dbg libgcc-dbg libicudata-dbg libicuuc-dbg libstdc++-dbg
-PKGSIZE = 78014
+PKGSIZE = 78233
 FILES = /usr/lib/.debug/libharfbuzz-icu.so*
 FILELIST = /usr/lib/.debug/libharfbuzz-icu.so.0.929.0
