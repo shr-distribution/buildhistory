@@ -2,8 +2,8 @@ PV = 0.4
 PR = ml2
 PKGR = ml2.0
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.18) libasound (>= 1.0.27.2) python-core
+RDEPENDS = eglibc (>= 2.19) libasound (>= 1.0.27.2) python-core
 RRECOMMENDS = 
-PKGSIZE = 39774
+PKGSIZE = 42654
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*
 FILELIST = /usr/lib/python2.7/site-packages/alsaaudio.so /usr/lib/python2.7/site-packages/pyalsaaudio-0.4-py2.7.egg-info

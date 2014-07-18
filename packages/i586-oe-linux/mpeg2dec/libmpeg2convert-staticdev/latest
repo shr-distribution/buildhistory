@@ -4,6 +4,6 @@ PKGR = r2.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 106028
+PKGSIZE = 105800
 FILES = /usr/lib/libmpeg2convert.a
 FILELIST = /usr/lib/libmpeg2convert.a

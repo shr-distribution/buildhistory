@@ -5,6 +5,6 @@ PKGR = r2.0
 RPROVIDES = 
 RDEPENDS = libcmtspeechdata-dev (= 0.0.0+gitr0+8450345686-r2.0)
 RRECOMMENDS = 
-PKGSIZE = 254696
+PKGSIZE = 238736
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libcmtspeechdata/*.a /usr/lib/libcmtspeechdata-dummy/*.a
 FILELIST = /usr/lib/libcmtspeechdata-dummy/libcmtspeechdata.a /usr/lib/libcmtspeechdata.a

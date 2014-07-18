@@ -1,6 +1,7 @@
 PE = 1
-PV = 210
+PV = 213+gitAUTOINC+c9679c652b
 PR = r0
+PKGV = 213+git0+c9679c652b
 PKGR = r0.0
 RPROVIDES = ru-translation systemd-locale
 RDEPENDS = 

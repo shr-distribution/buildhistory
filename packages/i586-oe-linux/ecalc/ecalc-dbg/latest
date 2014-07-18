@@ -7,5 +7,5 @@ RPROVIDES =
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 0
-FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/ecalc/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ecalc/.debug /usr/lib/matchbox-panel/.debug /usr/src/debug
+FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/ecalc/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ecalc/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ecalc/ecalc/.debug /usr/src/debug
 FILELIST = 

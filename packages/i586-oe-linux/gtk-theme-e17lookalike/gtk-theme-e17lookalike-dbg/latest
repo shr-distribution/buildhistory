@@ -6,5 +6,5 @@ RPROVIDES =
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 0
-FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/gtk-theme-e17lookalike/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gtk-theme-e17lookalike/.debug /usr/lib/matchbox-panel/.debug /usr/src/debug
+FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/gtk-theme-e17lookalike/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gtk-theme-e17lookalike/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gtk-theme-e17lookalike/gtk-theme-e17lookalike/.debug /usr/src/debug
 FILELIST = 

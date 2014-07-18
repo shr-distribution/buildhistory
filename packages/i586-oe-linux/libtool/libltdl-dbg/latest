@@ -4,6 +4,6 @@ PKGR = r6.0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = eglibc-dbg
-PKGSIZE = 84545
+PKGSIZE = 74307
 FILES = /usr/lib/.debug/
 FILELIST = /usr/lib/.debug/libltdl.so.7.3.0

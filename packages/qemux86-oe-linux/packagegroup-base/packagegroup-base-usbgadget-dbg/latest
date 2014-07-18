@@ -1,11 +1,9 @@
 PV = 1.0
-PR = r82
-PKGR = r82.0
-RPROVIDES = task-base-usbgadget-dbg
+PR = r83
+PKGR = r83.0
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-RREPLACES = task-base-usbgadget-dbg
-RCONFLICTS = task-base-usbgadget-dbg
 PKGSIZE = 0
 FILES = 
 FILELIST = 

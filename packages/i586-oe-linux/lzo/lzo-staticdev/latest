@@ -1,10 +1,9 @@
-PV = 2.06
-PR = r1
-PKGR = r1.0
-PKG = liblzo2-staticdev
+PV = 2.08
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = lzo-dev (= 2.06-r1.0)
+RDEPENDS = lzo-dev (= 2.08-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 676030
+PKGSIZE = 688874
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/lzo/*.a
 FILELIST = /usr/lib/liblzo2.a

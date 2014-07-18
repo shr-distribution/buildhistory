@@ -1,9 +1,9 @@
-PV = 2.23.2
-PR = r0
-PKGR = r0.0
+PV = 2.24.2
+PR = r1
+PKGR = r1.0
 RPROVIDES = 
-RDEPENDS = util-linux-dev (= 2.23.2-r0.0)
+RDEPENDS = util-linux-dev (= 2.24.2-r1.0)
 RRECOMMENDS = 
-PKGSIZE = 2876626
+PKGSIZE = 2712210
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/util-linux/*.a
 FILELIST = /usr/lib/libblkid.a /usr/lib/libmount.a /usr/lib/libuuid.a
