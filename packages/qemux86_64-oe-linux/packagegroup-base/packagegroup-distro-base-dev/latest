@@ -1,11 +1,9 @@
 PV = 1.0
 PR = r83
-PKGR = r83.2
-RPROVIDES = task-distro-base-dev
+PKGR = r83.3
+RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = distro-feed-configs-dev shr-version-dev
-RREPLACES = task-distro-base-dev
-RCONFLICTS = task-distro-base-dev
 PKGSIZE = 0
 FILES = 
 FILELIST = 
