@@ -1,9 +1,9 @@
 PV = 2.7.9
 PR = r3.3
-PKGR = r3.3.6
+PKGR = r3.3.7
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19) glib-2.0 (>= 2.40.0) libffi (>= 3.1)
+RDEPENDS = eglibc (>= 2.19) glib-2.0 (>= 2.40.0) libffi (>= 3.1) libpurple (>= 2.7.9)
 RRECOMMENDS = 
-PKGSIZE = 7104
+PKGSIZE = 6176
 FILES = /usr/lib/purple-2/libaim.so
 FILELIST = /usr/lib/purple-2/libaim.so
