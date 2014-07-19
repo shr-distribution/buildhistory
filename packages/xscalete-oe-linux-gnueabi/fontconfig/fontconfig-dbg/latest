@@ -1,6 +1,7 @@
 PV = 2.11.1
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
+PKG = libfontconfig-dbg
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = eglibc-dbg expat-dbg freetype-dbg

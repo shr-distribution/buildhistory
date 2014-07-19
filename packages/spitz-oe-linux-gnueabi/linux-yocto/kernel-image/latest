@@ -1,11 +1,11 @@
 PV = 3.10.43+gitAUTOINC+199943142f_aa677a2d02
 PR = r0
 PKGV = 3.10.43+git0+199943142f_aa677a2d02
-PKGR = r0.7
+PKGR = r0.10
 PKG = kernel-image-3.10.43-ltsi-yocto-standard
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 2718128
+PKGSIZE = 2717368
 FILES = /boot/zImage*
 FILELIST = /boot/zImage-3.10.43-ltsi-yocto-standard
