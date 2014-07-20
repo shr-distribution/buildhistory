@@ -79,7 +79,6 @@ elfe
 elfutils
 embryo
 emtooth2
-enca
 enchant
 enjoy
 estardict
@@ -119,7 +118,6 @@ fsotdld
 fsousaged
 fuser
 gawk
-gawk-common
 gconf
 gconf-locale-cs
 gconf-locale-en-gb
@@ -134,8 +132,6 @@ gdk-pixbuf-locale-en-gb
 glib-networking
 glib-networking-locale-cs
 glib-networking-locale-en-gb
-gnutls
-gnutls-locale-cs
 gpsd
 gpsd-conf
 gpsd-gpsctl
@@ -167,7 +163,6 @@ gst-plugins-ugly-mad
 gstreamer
 gstreamer-locale-cs
 gstreamer-locale-en-gb
-gta04-gps-handler
 gtk+-locale-cs
 gtk+-locale-en-gb
 gtk-immodule-xim
@@ -177,13 +172,11 @@ hdparm
 hicolor-icon-theme
 htop
 i2c-tools
-id3lib
 iliwi
 illume-keyboard-default-alpha
 illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
-intone
 iptables
 json-c
 kernel
@@ -233,7 +226,6 @@ kernel-module-usbnet
 kernel-module-x-tables
 killall
 kmod
-lame
 libacl1
 libapm1
 libapr-1-0
@@ -242,15 +234,10 @@ libasm1
 libasound-module-bluez
 libasound2
 libaspell15
-libass4
 libatk-1.0-0
 libatk-1.0-locale-cs
 libatk-1.0-locale-en-gb
 libattr1
-libavcodec54
-libavformat54
-libavresample1
-libavutil52
 libblkid1
 libbz2-0
 libc6
@@ -265,7 +252,6 @@ libdbus-1-3
 libdbus-glib-1-2
 libdmx1
 libdrm2
-libdvdread4
 libdw1
 libe2p2
 libecore1
@@ -290,7 +276,6 @@ libexif-locale-en-gb
 libexif12
 libexpat1
 libext2fs2
-libfaad2
 libffi6
 libflac8
 libfontconfig1
@@ -320,6 +305,8 @@ libglib-2.0-0
 libglib-2.0-locale-cs
 libglib-2.0-locale-en-gb
 libgmp10
+libgnutls-locale-cs
+libgnutls28
 libgpg-error-locale-cs
 libgpg-error0
 libgps20
@@ -345,7 +332,6 @@ libicui18n53
 libicuuc53
 libidn-locale-cs
 libidn11
-libimlib2-1
 libjpeg8
 libkmod2
 liblightmediascanner-test
@@ -356,11 +342,8 @@ liblzo2-2
 libmad0
 libmenuw5
 libmount1
-libmysqlclient-r16
 libncurses5
 libncursesw5
-libneon-locale-cs
-libneon27
 libnfsidmap0
 libnice
 libnl-3-200
@@ -387,7 +370,6 @@ libpixman-1-0
 libpng16-16
 libpopt-locale-cs
 libpopt0
-libproxy
 libpulse0
 libpulsecommon
 libpurple
@@ -405,6 +387,7 @@ librsvg-2-gtk
 libsamplerate0
 libsdl-1.2-0
 libsdl-image-1.2-0
+libserf-1-1
 libshr-glib0
 libsm6
 libsndfile1
@@ -416,9 +399,7 @@ libss2
 libssl1.0.0
 libstartup-notification-1-0
 libstdc++6
-libswscale2
 libsysfs2
-libtheora
 libthread-db1
 libtiff5
 libtinfo5
@@ -428,14 +409,11 @@ libudev1
 libusb-0.1-4
 libusb-1.0-0
 libuuid1
-libvorbis
 libvorbisidec1
-libvte9
 libwrap0
 libx11-6
 libx11-locale
 libx11-xcb1
-libx264-133
 libxau6
 libxcb-dri2-0
 libxcb-glx0
@@ -464,7 +442,6 @@ libxrender1
 libxslt
 libxss1
 libxtst6
-libxv1
 libxxf86dga1
 libxxf86misc1
 libxxf86vm1
@@ -483,15 +460,12 @@ make
 make-locale-cs
 matchbox-keyboard-im
 mbuffer
-mcnavi
 mdbus2
 mime-support
 mioctl
 mkdump
 mobile-broadband-provider-info
 modutils-initscripts
-mplayer-common
-mplayer2
 mtd-utils
 mtdev
 mterm2
@@ -610,7 +584,6 @@ python-compression
 python-core
 python-crypt
 python-ctypes
-python-curses
 python-datetime
 python-dateutil
 python-dbus
@@ -633,6 +606,7 @@ python-lxml
 python-math
 python-mime
 python-misc
+python-mmap
 python-multiprocessing
 python-netclient
 python-pexpect
@@ -642,7 +616,6 @@ python-pprint
 python-pyalsaaudio
 python-pycairo
 python-pygobject
-python-pygps
 python-pygtk
 python-pyrtc
 python-pyserial
@@ -687,7 +660,6 @@ shr-theme-gry
 shr-version
 shr-wizard
 socat
-speex
 spojegui
 strace
 subversion
@@ -709,7 +681,6 @@ tslib-conf
 ttf-dejavu-common
 ttf-dejavu-sans
 ttf-dejavu-sans-mono
-ttf-liberation-mono
 tzdata
 tzdata-africa
 tzdata-americas
@@ -719,7 +690,6 @@ tzdata-europe
 udev
 udev-extraconf
 udev-hwdb
-udev-utils
 update-alternatives-opkg
 usbutils
 usbutils-ids
@@ -730,16 +700,12 @@ util-linux-locale-cs
 util-linux-mcookie
 util-linux-mount
 vagalume
-vala-terminal
 vim
-vim-data
+vim-common
 vim-help
 vim-syntax
 vim-tutor
 vim-vimrc
-vte-locale-cs
-vte-locale-en-gb
-vte-termcap
 watchdog
 wireless-tools
 wmiconfig
