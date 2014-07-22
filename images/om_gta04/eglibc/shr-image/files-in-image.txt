@@ -474,21 +474,21 @@ drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schem
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers
 -rw-r--r-- root       root                0 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/aim
--rw-r--r-- root       root            48658 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/aim/%gconf.xml
+-rw-r--r-- root       root            52220 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/aim/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/gg
--rw-r--r-- root       root            48386 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/gg/%gconf.xml
+-rw-r--r-- root       root            51928 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/gg/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/icq
--rw-r--r-- root       root            48623 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/icq/%gconf.xml
+-rw-r--r-- root       root            52182 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/icq/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/irc
--rw-r--r-- root       root            48605 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/irc/%gconf.xml
+-rw-r--r-- root       root            52165 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/irc/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/msnim
--rw-r--r-- root       root            49055 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/msnim/%gconf.xml
+-rw-r--r-- root       root            52648 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/msnim/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/sip
--rw-r--r-- root       root            48603 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/sip/%gconf.xml
+-rw-r--r-- root       root            52162 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/sip/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/xmpp
--rw-r--r-- root       root            48873 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/xmpp/%gconf.xml
+-rw-r--r-- root       root            52449 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/xmpp/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/ymsgr
--rw-r--r-- root       root            49097 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/ymsgr/%gconf.xml
+-rw-r--r-- root       root            52687 ./etc/gconf/gconf.xml.defaults/schemas/desktop/gnome/url-handlers/ymsgr/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/system
 -rw-r--r-- root       root                0 ./etc/gconf/gconf.xml.defaults/schemas/system/%gconf.xml
 drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.defaults/schemas/system/gstreamer
@@ -510,7 +510,7 @@ drwxr-xr-x root       root             4096 ./etc/gconf/gconf.xml.system
 drwxr-xr-x root       root             4096 ./etc/gconf/schemas
 -rw-r--r-- root       root            28338 ./etc/gconf/schemas/apps_foxtrotgps.schemas
 -rw-r--r-- root       root             8972 ./etc/gconf/schemas/gstreamer-0.10.schemas
--rw-r--r-- root       root           394877 ./etc/gconf/schemas/purple.schemas
+-rw-r--r-- root       root           423514 ./etc/gconf/schemas/purple.schemas
 -rw-r--r-- root       root              624 ./etc/group
 -rw------- root       root              624 ./etc/group-
 -r-------- root       root              521 ./etc/gshadow
@@ -532,7 +532,7 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 -rw-r--r-- root       root             1633 ./etc/inputrc
 -rw-r--r-- root       root               33 ./etc/issue
 -rw-r--r-- root       root               30 ./etc/issue.net
--rw-r--r-- root       root            18796 ./etc/ld.so.cache
+-rw-r--r-- root       root            18634 ./etc/ld.so.cache
 -rw-r--r-- root       root                0 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -1950,7 +1950,7 @@ lrwxrwxrwx root       root               21 ./usr/bin/pgrep -> /usr/bin/pgrep.pr
 -rwxr-xr-x root       root             4264 ./usr/bin/phoneui-quick-settings
 -rwxr-xr-x root       root              133 ./usr/bin/phoneui-wrapper.sh
 -rwxr-xr-x root       root            14604 ./usr/bin/phoneuid
--rwxr-xr-x root       root           629052 ./usr/bin/pidgin
+-rwxr-xr-x root       root           638556 ./usr/bin/pidgin
 -rwxr-xr-x root       root            30668 ./usr/bin/pidstat
 lrwxrwxrwx root       root               24 ./usr/bin/pinky -> /usr/bin/pinky.coreutils
 -rwxr-xr-x root       root            24532 ./usr/bin/pinky.coreutils
@@ -3327,10 +3327,10 @@ lrwxrwxrwx root       root               16 ./usr/lib/libpopt.so.0 -> libpopt.so
 -rwxr-xr-x root       root            29848 ./usr/lib/libpopt.so.0.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libpulse.so.0 -> libpulse.so.0.17.3
 -rwxr-xr-x root       root           205904 ./usr/lib/libpulse.so.0.17.3
-lrwxrwxrwx root       root               25 ./usr/lib/libpurple-client.so.0 -> libpurple-client.so.0.7.9
--rwxr-xr-x root       root           110176 ./usr/lib/libpurple-client.so.0.7.9
-lrwxrwxrwx root       root               18 ./usr/lib/libpurple.so.0 -> libpurple.so.0.7.9
--rwxr-xr-x root       root           726480 ./usr/lib/libpurple.so.0.7.9
+lrwxrwxrwx root       root               26 ./usr/lib/libpurple-client.so.0 -> libpurple-client.so.0.10.9
+-rwxr-xr-x root       root           110888 ./usr/lib/libpurple-client.so.0.10.9
+lrwxrwxrwx root       root               19 ./usr/lib/libpurple.so.0 -> libpurple.so.0.10.9
+-rwxr-xr-x root       root           742792 ./usr/lib/libpurple.so.0.10.9
 lrwxrwxrwx root       root               29 ./usr/lib/libpyglib-2.0-python.so.0 -> libpyglib-2.0-python.so.0.0.0
 -rwxr-xr-x root       root            10260 ./usr/lib/libpyglib-2.0-python.so.0.0.0
 -r-xr-xr-x root       root          1146000 ./usr/lib/libpython2.7.so.1.0
@@ -3353,8 +3353,6 @@ lrwxrwxrwx root       root               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> 
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           457452 ./usr/lib/libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           242508 ./usr/lib/libssl.so.1.0.0
-lrwxrwxrwx root       root               34 ./usr/lib/libstartup-notification-1.so.0 -> libstartup-notification-1.so.0.0.0
--rwxr-xr-x root       root            22504 ./usr/lib/libstartup-notification-1.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.20
 -rwxr-xr-x root       root           657832 ./usr/lib/libstdc++.so.6.0.20
 lrwxrwxrwx root       root               24 ./usr/lib/libsvn_client-1.so.0 -> libsvn_client-1.so.0.0.0
@@ -3407,8 +3405,6 @@ lrwxrwxrwx root       root               21 ./usr/lib/libxcb-shape.so.0 -> libxc
 -rwxr-xr-x root       root             6704 ./usr/lib/libxcb-shape.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libxcb-shm.so.0 -> libxcb-shm.so.0.0.0
 -rwxr-xr-x root       root             6164 ./usr/lib/libxcb-shm.so.0.0.0
-lrwxrwxrwx root       root               20 ./usr/lib/libxcb-util.so.1 -> libxcb-util.so.1.0.0
--rwxr-xr-x root       root            12424 ./usr/lib/libxcb-util.so.1.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libxcb-xfixes.so.0 -> libxcb-xfixes.so.0.0.0
 -rwxr-xr-x root       root            15092 ./usr/lib/libxcb-xfixes.so.0.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libxcb.so.1 -> libxcb.so.1.1.0
@@ -3507,6 +3503,12 @@ drwxr-xr-x root       root             4096 ./usr/lib/obexd
 -rwxr-xr-x root       root           139820 ./usr/lib/obexd/obexd
 drwxr-xr-x root       root             4096 ./usr/lib/openssh
 -rwxr-xr-x root       root            51284 ./usr/lib/openssh/sftp-server
+drwxr-xr-x root       root             4096 ./usr/lib/openvpn
+drwxr-xr-x root       root             4096 ./usr/lib/openvpn/plugins
+-rwxr-xr-x root       root             1026 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.la
+-rwxr-xr-x root       root             7936 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so
+-rwxr-xr-x root       root             1011 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.la
+-rwxr-xr-x root       root             6460 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
 drwxr-xr-x root       root             4096 ./usr/lib/opkg
 drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/[[
@@ -3778,23 +3780,23 @@ drwxr-xr-x root       root             4096 ./usr/lib/pidgin
 -rwxr-xr-x root       root            16076 ./usr/lib/pidgin/pidginrc.so
 -rwxr-xr-x root       root            16572 ./usr/lib/pidgin/ticker.so
 -rwxr-xr-x root       root             9176 ./usr/lib/pidgin/timestamp.so
--rwxr-xr-x root       root            11600 ./usr/lib/pidgin/timestamp_format.so
+-rwxr-xr-x root       root            11652 ./usr/lib/pidgin/timestamp_format.so
 drwxr-xr-x root       root             4096 ./usr/lib/pulseaudio
 -rwxr-xr-x root       root           317692 ./usr/lib/pulseaudio/libpulsecommon-5.0.so
 drwxr-xr-x root       root             4096 ./usr/lib/purple-2
--rwxr-xr-x root       root             6240 ./usr/lib/purple-2/libicq.so
--rwxr-xr-x root       root            57744 ./usr/lib/purple-2/libirc.so
+-rwxr-xr-x root       root             6264 ./usr/lib/purple-2/libicq.so
+-rwxr-xr-x root       root            62208 ./usr/lib/purple-2/libirc.so
 lrwxrwxrwx root       root               18 ./usr/lib/purple-2/libjabber.so.0 -> libjabber.so.0.0.0
--rwxr-xr-x root       root           257412 ./usr/lib/purple-2/libjabber.so.0.0.0
--rwxr-xr-x root       root           234860 ./usr/lib/purple-2/libmsn.so
+-rwxr-xr-x root       root           261824 ./usr/lib/purple-2/libjabber.so.0.0.0
+-rwxr-xr-x root       root           239828 ./usr/lib/purple-2/libmsn.so
 lrwxrwxrwx root       root               17 ./usr/lib/purple-2/liboscar.so.0 -> liboscar.so.0.0.0
--rwxr-xr-x root       root           182024 ./usr/lib/purple-2/liboscar.so.0.0.0
--rwxr-xr-x root       root            10476 ./usr/lib/purple-2/libxmpp.so
+-rwxr-xr-x root       root           186248 ./usr/lib/purple-2/liboscar.so.0.0.0
+-rwxr-xr-x root       root            10468 ./usr/lib/purple-2/libxmpp.so
 lrwxrwxrwx root       root               16 ./usr/lib/purple-2/libymsg.so.0 -> libymsg.so.0.0.0
--rwxr-xr-x root       root           139344 ./usr/lib/purple-2/libymsg.so.0.0.0
--rwxr-xr-x root       root            27700 ./usr/lib/purple-2/log_reader.so
--rwxr-xr-x root       root            16004 ./usr/lib/purple-2/ssl-gnutls.so
--rwxr-xr-x root       root             4156 ./usr/lib/purple-2/ssl.so
+-rwxr-xr-x root       root           147404 ./usr/lib/purple-2/libymsg.so.0.0.0
+-rwxr-xr-x root       root            27732 ./usr/lib/purple-2/log_reader.so
+-rwxr-xr-x root       root            15952 ./usr/lib/purple-2/ssl-gnutls.so
+-rwxr-xr-x root       root             4176 ./usr/lib/purple-2/ssl.so
 drwxr-xr-x root       root            20480 ./usr/lib/python2.7
 -rw-r--r-- root       root             5744 ./usr/lib/python2.7/Bastion.py
 -rw-r--r-- root       root             6630 ./usr/lib/python2.7/Bastion.pyc
@@ -6561,7 +6563,7 @@ lrwxrwxrwx root       root                7 ./usr/sbin/mkfs.vfat -> mkdosfs
 -rwxr-xr-x root       root             7148 ./usr/sbin/nl-qdisc-list
 lrwxrwxrwx root       root               19 ./usr/sbin/ntpd -> /bin/busybox.nosuid
 -rwxr-xr-x root       root            61192 ./usr/sbin/ntpdate
--rwxr-xr-x root       root           367632 ./usr/sbin/openvpn
+-rwxr-xr-x root       root           429080 ./usr/sbin/openvpn
 lrwxrwxrwx root       root               27 ./usr/sbin/powertop -> /usr/sbin/powertop.powertop
 -rwxr-xr-x root       root           302536 ./usr/sbin/powertop.powertop
 -rwxr-xr-x root       root               36 ./usr/sbin/ppp-dialin
@@ -7234,7 +7236,7 @@ drwxr-xr-x root       root             4096 ./usr/share/applications
 -rw-r--r-- root       root              267 ./usr/share/applications/phoneui-contacts.desktop
 -rw-r--r-- root       root              292 ./usr/share/applications/phoneui-dialer.desktop
 -rw-r--r-- root       root              302 ./usr/share/applications/phoneui-messages.desktop
--rw-r--r-- root       root            11324 ./usr/share/applications/pidgin.desktop
+-rw-r--r-- root       root            12657 ./usr/share/applications/pidgin.desktop
 drwxr-xr-x root       root             4096 ./usr/share/applications/shr-settings-addons-illume
 -rw-r--r-- root       root              322 ./usr/share/applications/shr-settings-addons-illume/appearance.desktop
 -rw-r--r-- root       root              342 ./usr/share/applications/shr-settings-addons-illume/connectivity.desktop
@@ -8515,7 +8517,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_MESSAGES
 -rw-r--r-- root       root             2246 ./usr/share/locale/cs/LC_MESSAGES/libsoup.mo
 -rw-r--r-- root       root            46061 ./usr/share/locale/cs/LC_MESSAGES/make.mo
 -rw-r--r-- root       root             4909 ./usr/share/locale/cs/LC_MESSAGES/nano.mo
--rw-r--r-- root       root           344523 ./usr/share/locale/cs/LC_MESSAGES/pidgin.mo
+-rw-r--r-- root       root           331111 ./usr/share/locale/cs/LC_MESSAGES/pidgin.mo
 -rw-r--r-- root       root             2184 ./usr/share/locale/cs/LC_MESSAGES/popt.mo
 -rw-r--r-- root       root            17220 ./usr/share/locale/cs/LC_MESSAGES/psmisc.mo
 -rw-r--r-- root       root            38008 ./usr/share/locale/cs/LC_MESSAGES/pulseaudio.mo
@@ -8552,7 +8554,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/en_GB/LC_MESSAGES
 -rw-r--r-- root       root             1474 ./usr/share/locale/en_GB/LC_MESSAGES/libc.mo
 -rw-r--r-- root       root           111715 ./usr/share/locale/en_GB/LC_MESSAGES/libexif-12.mo
 -rw-r--r-- root       root             1556 ./usr/share/locale/en_GB/LC_MESSAGES/libsoup.mo
--rw-r--r-- root       root           328346 ./usr/share/locale/en_GB/LC_MESSAGES/pidgin.mo
+-rw-r--r-- root       root           321001 ./usr/share/locale/en_GB/LC_MESSAGES/pidgin.mo
 -rw-r--r-- root       root             2044 ./usr/share/locale/en_GB/LC_MESSAGES/powertop.mo
 -rw-r--r-- root       root            23250 ./usr/share/locale/en_GB/LC_MESSAGES/xkeyboard-config.mo
 drwxr-xr-x root       root             4096 ./usr/share/locale/en_US
@@ -9581,7 +9583,6 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/emblems/1
 -rw-r--r-- root       root              569 ./usr/share/pixmaps/pidgin/emblems/16/male.png
 -rw-r--r-- root       root              940 ./usr/share/pixmaps/pidgin/emblems/16/not-authorized.png
 -rw-r--r-- root       root              732 ./usr/share/pixmaps/pidgin/emblems/16/operator.png
--rw-r--r-- root       root              907 ./usr/share/pixmaps/pidgin/emblems/16/qq-member.png
 -rw-r--r-- root       root              661 ./usr/share/pixmaps/pidgin/emblems/16/secure.png
 -rw-r--r-- root       root              571 ./usr/share/pixmaps/pidgin/emblems/16/unavailable.png
 -rw-r--r-- root       root              268 ./usr/share/pixmaps/pidgin/emblems/16/video.png
@@ -9596,7 +9597,6 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/emblems/s
 -rw-r--r-- root       root             6730 ./usr/share/pixmaps/pidgin/emblems/scalable/game.svg
 -rw-r--r-- root       root             4482 ./usr/share/pixmaps/pidgin/emblems/scalable/male.svg
 -rw-r--r-- root       root             4657 ./usr/share/pixmaps/pidgin/emblems/scalable/not-authorized.svg
--rw-r--r-- root       root            11613 ./usr/share/pixmaps/pidgin/emblems/scalable/qq-member.svg
 -rw-r--r-- root       root             5994 ./usr/share/pixmaps/pidgin/emblems/scalable/secure.svg
 -rw-r--r-- root       root             4600 ./usr/share/pixmaps/pidgin/emblems/scalable/unavailable.svg
 -rw-r--r-- root       root             6964 ./usr/share/pixmaps/pidgin/emblems/scalable/video.svg
@@ -9742,7 +9742,6 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/emotes/de
 -rw-r--r-- root       root             1542 ./usr/share/pixmaps/pidgin/emotes/default/pray.png
 -rw-r--r-- root       root             1242 ./usr/share/pixmaps/pidgin/emotes/default/present.png
 -rw-r--r-- root       root             1453 ./usr/share/pixmaps/pidgin/emotes/default/pumpkin.png
--rw-r--r-- root       root             1436 ./usr/share/pixmaps/pidgin/emotes/default/qq.png
 -rw-r--r-- root       root             1644 ./usr/share/pixmaps/pidgin/emotes/default/question.png
 -rw-r--r-- root       root             1508 ./usr/share/pixmaps/pidgin/emotes/default/quiet.png
 -rw-r--r-- root       root             1385 ./usr/share/pixmaps/pidgin/emotes/default/rain.png
@@ -9895,10 +9894,9 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/protocols
 -rw-r--r-- root       root              908 ./usr/share/pixmaps/pidgin/protocols/16/jabber.png
 -rw-r--r-- root       root              938 ./usr/share/pixmaps/pidgin/protocols/16/meanwhile.png
 -rw-r--r-- root       root              835 ./usr/share/pixmaps/pidgin/protocols/16/msn.png
--rw-r--r-- root       root              490 ./usr/share/pixmaps/pidgin/protocols/16/mxit.png
+-rw-r--r-- root       root              453 ./usr/share/pixmaps/pidgin/protocols/16/mxit.png
 -rw-r--r-- root       root              745 ./usr/share/pixmaps/pidgin/protocols/16/myspace.png
 -rw-r--r-- root       root              538 ./usr/share/pixmaps/pidgin/protocols/16/novell.png
--rw-r--r-- root       root              986 ./usr/share/pixmaps/pidgin/protocols/16/qq.png
 -rw-r--r-- root       root              492 ./usr/share/pixmaps/pidgin/protocols/16/silc.png
 -rw-r--r-- root       root              845 ./usr/share/pixmaps/pidgin/protocols/16/simple.png
 -rw-r--r-- root       root              543 ./usr/share/pixmaps/pidgin/protocols/16/yahoo.png
@@ -9914,9 +9912,9 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/protocols
 -rw-r--r-- root       root             1472 ./usr/share/pixmaps/pidgin/protocols/22/jabber.png
 -rw-r--r-- root       root             1538 ./usr/share/pixmaps/pidgin/protocols/22/meanwhile.png
 -rw-r--r-- root       root             1281 ./usr/share/pixmaps/pidgin/protocols/22/msn.png
+-rw-r--r-- root       root              590 ./usr/share/pixmaps/pidgin/protocols/22/mxit.png
 -rw-r--r-- root       root             1103 ./usr/share/pixmaps/pidgin/protocols/22/myspace.png
 -rw-r--r-- root       root              745 ./usr/share/pixmaps/pidgin/protocols/22/novell.png
--rw-r--r-- root       root             1436 ./usr/share/pixmaps/pidgin/protocols/22/qq.png
 -rw-r--r-- root       root              796 ./usr/share/pixmaps/pidgin/protocols/22/silc.png
 -rw-r--r-- root       root              611 ./usr/share/pixmaps/pidgin/protocols/22/simple.png
 -rw-r--r-- root       root              860 ./usr/share/pixmaps/pidgin/protocols/22/yahoo.png
@@ -9931,10 +9929,9 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/protocols
 -rw-r--r-- root       root             3853 ./usr/share/pixmaps/pidgin/protocols/48/jabber.png
 -rw-r--r-- root       root             3647 ./usr/share/pixmaps/pidgin/protocols/48/meanwhile.png
 -rw-r--r-- root       root             2778 ./usr/share/pixmaps/pidgin/protocols/48/msn.png
--rw-r--r-- root       root             1689 ./usr/share/pixmaps/pidgin/protocols/48/mxit.png
+-rw-r--r-- root       root             1211 ./usr/share/pixmaps/pidgin/protocols/48/mxit.png
 -rw-r--r-- root       root             2112 ./usr/share/pixmaps/pidgin/protocols/48/myspace.png
 -rw-r--r-- root       root             1873 ./usr/share/pixmaps/pidgin/protocols/48/novell.png
--rw-r--r-- root       root             3649 ./usr/share/pixmaps/pidgin/protocols/48/qq.png
 -rw-r--r-- root       root             1979 ./usr/share/pixmaps/pidgin/protocols/48/silc.png
 -rw-r--r-- root       root             1400 ./usr/share/pixmaps/pidgin/protocols/48/simple.png
 -rw-r--r-- root       root             2439 ./usr/share/pixmaps/pidgin/protocols/48/yahoo.png
@@ -9949,9 +9946,8 @@ drwxr-xr-x root       root             4096 ./usr/share/pixmaps/pidgin/protocols
 -rw-r--r-- root       root            11570 ./usr/share/pixmaps/pidgin/protocols/scalable/jabber.svg
 -rw-r--r-- root       root             8403 ./usr/share/pixmaps/pidgin/protocols/scalable/meanwhile.svg
 -rw-r--r-- root       root             9840 ./usr/share/pixmaps/pidgin/protocols/scalable/msn.svg
--rw-r--r-- root       root             1907 ./usr/share/pixmaps/pidgin/protocols/scalable/mxit.svg
+-rw-r--r-- root       root             1526 ./usr/share/pixmaps/pidgin/protocols/scalable/mxit.svg
 -rw-r--r-- root       root             6437 ./usr/share/pixmaps/pidgin/protocols/scalable/novell.svg
--rw-r--r-- root       root            18217 ./usr/share/pixmaps/pidgin/protocols/scalable/qq.svg
 -rw-r--r-- root       root             7288 ./usr/share/pixmaps/pidgin/protocols/scalable/silc.svg
 -rw-r--r-- root       root             6116 ./usr/share/pixmaps/pidgin/protocols/scalable/simple.svg
 -rw-r--r-- root       root             9014 ./usr/share/pixmaps/pidgin/protocols/scalable/yahoo.svg
@@ -10147,21 +10143,23 @@ drwxr-xr-x root       root             4096 ./usr/share/polkit-1/actions
 drwxr-xr-x root       root             4096 ./usr/share/purple
 drwxr-xr-x root       root             4096 ./usr/share/purple/ca-certs
 -rw-r--r-- root       root             1505 ./usr/share/purple/ca-certs/AOL_Member_CA.pem
+-rw-r--r-- root       root             1521 ./usr/share/purple/ca-certs/AddTrust_External_Root.pem
 -rw-r--r-- root       root             1323 ./usr/share/purple/ca-certs/America_Online_Root_Certification_Authority_1.pem
--rw-r--r-- root       root             2151 ./usr/share/purple/ca-certs/CAcert_Class3.pem
+-rw-r--r-- root       root             1282 ./usr/share/purple/ca-certs/Baltimore_CyberTrust_Root.pem
+-rw-r--r-- root       root             2610 ./usr/share/purple/ca-certs/CAcert_Class3.pem
 -rw-r--r-- root       root             2569 ./usr/share/purple/ca-certs/CAcert_Root.pem
 -rw-r--r-- root       root             1319 ./usr/share/purple/ca-certs/Deutsche_Telekom_Root_CA_2.pem
+-rw-r--r-- root       root             2256 ./usr/share/purple/ca-certs/DigiCertHighAssuranceCA-3.pem
+-rw-r--r-- root       root             1367 ./usr/share/purple/ca-certs/DigiCertHighAssuranceEVRootCA.pem
+-rw-r--r-- root       root             1663 ./usr/share/purple/ca-certs/Entrust.net_2048.pem
 -rw-r--r-- root       root             1740 ./usr/share/purple/ca-certs/Entrust.net_Secure_Server_CA.pem
 -rw-r--r-- root       root             1144 ./usr/share/purple/ca-certs/Equifax_Secure_CA.pem
 -rw-r--r-- root       root              964 ./usr/share/purple/ca-certs/Equifax_Secure_Global_eBusiness_CA-1.pem
 -rw-r--r-- root       root              876 ./usr/share/purple/ca-certs/GTE_CyberTrust_Global_Root.pem
 -rw-r--r-- root       root             1449 ./usr/share/purple/ca-certs/Go_Daddy_Class_2_CA.pem
--rw-r--r-- root       root             1809 ./usr/share/purple/ca-certs/Microsoft_Internet_Authority.pem
 -rw-r--r-- root       root             1818 ./usr/share/purple/ca-certs/Microsoft_Internet_Authority_2010.pem
--rw-r--r-- root       root             2202 ./usr/share/purple/ca-certs/Microsoft_Secure_Server_Authority.pem
 -rw-r--r-- root       root             2167 ./usr/share/purple/ca-certs/Microsoft_Secure_Server_Authority_2010.pem
 -rw-r--r-- root       root             2760 ./usr/share/purple/ca-certs/StartCom_Certification_Authority.pem
--rw-r--r-- root       root             1826 ./usr/share/purple/ca-certs/StartCom_Free_SSL_CA.pem
 -rw-r--r-- root       root             1155 ./usr/share/purple/ca-certs/Thawte_Premium_Server_CA.pem
 -rw-r--r-- root       root             1493 ./usr/share/purple/ca-certs/Thawte_Primary_Root_CA.pem
 -rw-r--r-- root       root             1067 ./usr/share/purple/ca-certs/ValiCert_Class_2_VA.pem
@@ -10171,7 +10169,6 @@ drwxr-xr-x root       root             4096 ./usr/share/purple/ca-certs
 -rw-r--r-- root       root             1778 ./usr/share/purple/ca-certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5_2.pem
 -rw-r--r-- root       root             1277 ./usr/share/purple/ca-certs/VeriSign_International_Server_Class_3_CA.pem
 -rw-r--r-- root       root              834 ./usr/share/purple/ca-certs/Verisign_Class3_Primary_CA.pem
--rw-r--r-- root       root              827 ./usr/share/purple/ca-certs/Verisign_RSA_Secure_Server_CA.pem
 drwxr-xr-x root       root             4096 ./usr/share/readline
 -rw-r--r-- root       root             5808 ./usr/share/readline/excallback.c
 -rw-r--r-- root       root            11426 ./usr/share/readline/fileman.c
@@ -15234,7 +15231,7 @@ drwxr-xr-x root       root             4096 ./var/backups
 drwxr-xr-x root       root             4096 ./var/cache
 drwxr-xr-x root       root             4096 ./var/cache/fontconfig
 drwx------ root       root             4096 ./var/cache/ldconfig
--rw------- root       root            18498 ./var/cache/ldconfig/aux-cache
+-rw------- root       root            18354 ./var/cache/ldconfig/aux-cache
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x root       root             4096 ./var/lib/alsa
 -rw-r--r-- root       root               28 ./var/lib/alsa/asound.state
@@ -16328,20 +16325,20 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpulse0.postinst
 -rw-r--r-- root       root              915 ./var/lib/opkg/info/libpulsecommon.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/libpulsecommon.list
--rw-r--r-- root       root              756 ./var/lib/opkg/info/libpurple-plugin-ssl-gnutls.control
+-rw-r--r-- root       root              690 ./var/lib/opkg/info/libpurple-plugin-ssl-gnutls.control
 -rw-r--r-- root       root               32 ./var/lib/opkg/info/libpurple-plugin-ssl-gnutls.list
 -rw-r--r-- root       root              565 ./var/lib/opkg/info/libpurple-plugin-ssl.control
 -rw-r--r-- root       root               25 ./var/lib/opkg/info/libpurple-plugin-ssl.list
--rw-r--r-- root       root              615 ./var/lib/opkg/info/libpurple-protocol-icq.control
+-rw-r--r-- root       root              616 ./var/lib/opkg/info/libpurple-protocol-icq.control
 -rw-r--r-- root       root               47 ./var/lib/opkg/info/libpurple-protocol-icq.list
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/libpurple-protocol-irc.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/libpurple-protocol-irc.list
 -rw-r--r-- root       root              593 ./var/lib/opkg/info/libpurple-protocol-msn.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/libpurple-protocol-msn.list
--rw-r--r-- root       root              773 ./var/lib/opkg/info/libpurple-protocol-xmpp.control
+-rw-r--r-- root       root              739 ./var/lib/opkg/info/libpurple-protocol-xmpp.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/libpurple-protocol-xmpp.list
--rw-r--r-- root       root              795 ./var/lib/opkg/info/libpurple.control
--rw-r--r-- root       root             2227 ./var/lib/opkg/info/libpurple.list
+-rw-r--r-- root       root              794 ./var/lib/opkg/info/libpurple.control
+-rw-r--r-- root       root             2268 ./var/lib/opkg/info/libpurple.list
 -rwxr-xr-x root       root              469 ./var/lib/opkg/info/libpurple.postinst
 -rwxr-xr-x root       root              282 ./var/lib/opkg/info/libpurple.prerm
 -rw-r--r-- root       root              498 ./var/lib/opkg/info/libpyglib-2.0-python0.control
@@ -16397,9 +16394,6 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root             1338 ./var/lib/opkg/info/libssl1.0.0.control
 -rw-r--r-- root       root               25 ./var/lib/opkg/info/libssl1.0.0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libssl1.0.0.postinst
--rw-r--r-- root       root              736 ./var/lib/opkg/info/libstartup-notification-1-0.control
--rw-r--r-- root       root               84 ./var/lib/opkg/info/libstartup-notification-1-0.list
--rwxr-xr-x root       root               90 ./var/lib/opkg/info/libstartup-notification-1-0.postinst
 -rw-r--r-- root       root             2450 ./var/lib/opkg/info/libstdc++6.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libstdc++6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libstdc++6.postinst
@@ -16468,9 +16462,6 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              514 ./var/lib/opkg/info/libxcb-shm0.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxcb-shm0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxcb-shm0.postinst
--rw-r--r-- root       root              878 ./var/lib/opkg/info/libxcb-util1.control
--rw-r--r-- root       root               56 ./var/lib/opkg/info/libxcb-util1.list
--rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxcb-util1.postinst
 -rw-r--r-- root       root              523 ./var/lib/opkg/info/libxcb-xfixes0.control
 -rw-r--r-- root       root               60 ./var/lib/opkg/info/libxcb-xfixes0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxcb-xfixes0.postinst
@@ -16650,8 +16641,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/openssl-conf.list
 -rw-r--r-- root       root             1359 ./var/lib/opkg/info/openssl.control
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/openssl.list
--rw-r--r-- root       root              568 ./var/lib/opkg/info/openvpn.control
--rw-r--r-- root       root               65 ./var/lib/opkg/info/openvpn.list
+-rw-r--r-- root       root              609 ./var/lib/opkg/info/openvpn.control
+-rw-r--r-- root       root              319 ./var/lib/opkg/info/openvpn.list
 -rw-r--r-- root       root              471 ./var/lib/opkg/info/opimd-utils-cli.control
 -rw-r--r-- root       root               19 ./var/lib/opkg/info/opimd-utils-cli.list
 -rw-r--r-- root       root              472 ./var/lib/opkg/info/opimd-utils-data.control
@@ -16806,13 +16797,13 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               19 ./var/lib/opkg/info/phoneuid.conffiles
 -rw-r--r-- root       root              617 ./var/lib/opkg/info/phoneuid.control
 -rw-r--r-- root       root              192 ./var/lib/opkg/info/phoneuid.list
--rw-r--r-- root       root              510 ./var/lib/opkg/info/pidgin-data.control
--rw-r--r-- root       root            33684 ./var/lib/opkg/info/pidgin-data.list
--rw-r--r-- root       root              673 ./var/lib/opkg/info/pidgin-locale-cs.control
+-rw-r--r-- root       root              509 ./var/lib/opkg/info/pidgin-data.control
+-rw-r--r-- root       root            33386 ./var/lib/opkg/info/pidgin-data.list
+-rw-r--r-- root       root              672 ./var/lib/opkg/info/pidgin-locale-cs.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/pidgin-locale-cs.list
--rw-r--r-- root       root              688 ./var/lib/opkg/info/pidgin-locale-en-gb.control
+-rw-r--r-- root       root              687 ./var/lib/opkg/info/pidgin-locale-en-gb.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/pidgin-locale-en-gb.list
--rw-r--r-- root       root             1290 ./var/lib/opkg/info/pidgin.control
+-rw-r--r-- root       root             1251 ./var/lib/opkg/info/pidgin.control
 -rw-r--r-- root       root              218 ./var/lib/opkg/info/pidgin.list
 -rw-r--r-- root       root              311 ./var/lib/opkg/info/pointercal.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/pointercal.list
@@ -17213,9 +17204,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            82717 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6492308 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          6497569 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           300086 ./var/lib/opkg/lists/oe-om_gta04
--rw-r--r-- root       root           213147 ./var/lib/opkg/status
+-rw-r--r-- root       root           212456 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 drwxr-xr-x root       root             4096 ./var/lock
