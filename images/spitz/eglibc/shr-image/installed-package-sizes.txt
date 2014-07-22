@@ -26,13 +26,13 @@
 2191	KiB advancedcaching
 2074	KiB shared-mime-info
 2064	KiB subversion
+2009	KiB libpurple
 1987	KiB python-pygtk
 1968	KiB python-misc
 1967	KiB vim-tutor
-1946	KiB libpurple
 1876	KiB python-lxml
 1842	KiB shr-splash-theme-logo
-1668	KiB pidgin-data
+1630	KiB pidgin-data
 1577	KiB xserver-xorg
 1559	KiB libx11-locale
 1541	KiB liberation-fonts
@@ -68,8 +68,8 @@
 724	KiB luajit
 706	KiB libgnutls28
 700	KiB python-ecore
+700	KiB pidgin
 694	KiB libstdc++6
-692	KiB pidgin
 690	KiB libedje1
 686	KiB python-lang
 683	KiB numptyphysics
@@ -98,6 +98,7 @@
 464	KiB libgpsd20
 462	KiB findutils
 453	KiB libevent
+442	KiB openvpn
 435	KiB python-compression
 427	KiB om-neon
 405	KiB libpixman-1-0
@@ -111,7 +112,6 @@
 372	KiB openssl
 371	KiB python-logging
 367	KiB estardict
-365	KiB openvpn
 364	KiB eina
 363	KiB eglibc-binary-localedata-cs-cz
 355	KiB e2fsprogs-mke2fs
@@ -125,15 +125,15 @@
 343	KiB libical
 340	KiB libpulsecommon
 338	KiB libedje-utils
-336	KiB pidgin-locale-cs
 334	KiB openssh-keygen
 334	KiB libgstfarsight-0.10-0
 325	KiB mobile-broadband-provider-info
+323	KiB pidgin-locale-cs
 323	KiB eglibc-charmap-utf-8
-321	KiB pidgin-locale-en-gb
 321	KiB mtd-utils-ubifs
 320	KiB vagalume
 319	KiB powertop
+313	KiB pidgin-locale-en-gb
 307	KiB python-vobject
 306	KiB kbd
 288	KiB rsync
@@ -153,11 +153,11 @@
 253	KiB libecore1
 249	KiB libssl1.0.0
 248	KiB fsotdld
+245	KiB libpurple-protocol-msn
 244	KiB shr-theme
 244	KiB kernel-module-bluetooth
 243	KiB ecore-x
 239	KiB libfontconfig1
-238	KiB libpurple-protocol-msn
 236	KiB e2fsprogs
 234	KiB libsdl-1.2-0
 233	KiB ppp
@@ -302,6 +302,7 @@
 67	KiB cronie
 66	KiB python-sqlite3
 65	KiB util-linux-fsck
+65	KiB libpurple-protocol-irc
 65	KiB libfsotransport3
 65	KiB libeio1
 65	KiB gconf-locale-cs
@@ -316,7 +317,6 @@
 61	KiB libusb-1.0-0
 61	KiB libeo1
 60	KiB libz1
-60	KiB libpurple-protocol-irc
 60	KiB libice6
 60	KiB gst-plugins-base-typefindfunctions
 60	KiB elementary-configs
@@ -427,7 +427,6 @@
 23	KiB libxrandr2
 23	KiB libwrap0
 23	KiB libsysfs2
-23	KiB libstartup-notification-1-0
 23	KiB libpam-runtime
 23	KiB libgif4
 23	KiB kernel-module-hci-uart
@@ -509,7 +508,6 @@
 14	KiB fsoraw
 14	KiB fsogsmd-config
 14	KiB alsa-conf-base
-13	KiB libxcb-util1
 13	KiB libpyglib-2.0-python0
 13	KiB kernel-module-udc-core
 13	KiB gdk-pixbuf-loader-png

@@ -1,11 +1,11 @@
-spitz: shr-image configured for shr 2013.07-next-20140719
+spitz: shr-image configured for shr 2013.07-next-20140722
 Configured metadata layers:
 meta-jama         = "master:1818963dda7b85375bc5dd80d5ec9cbd23f46cb8"
 meta-shr-distro   
 meta-shr          
 meta-aurora       
 meta-fso          
-meta-android      = "jansa/master:f8a51b0216f75826a990b8f11a3d4344013dc32d"
+meta-android      = "jansa/master:935556452d94f5d1cd368d68309ae15b23f0f7bd"
 meta-oe           
 meta-efl          
 meta-gnome        
@@ -17,15 +17,15 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:fb44d3ca747d318f8bf97ea1a3cb63f7a304652a"
+meta-systemd      = "master-next:107991377280d2e7d91e496df4821557a1e324f2"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
 meta-palm         
 meta-openmoko     
-meta-samsung      = "jansa/master:f8a51b0216f75826a990b8f11a3d4344013dc32d"
+meta-samsung      = "jansa/master:935556452d94f5d1cd368d68309ae15b23f0f7bd"
 meta-browser      = "jansa/master:5843b367128ee17372f56889d934dceb6fb20278"
 meta-games        = "master:c4b6f594246328155fc2fe52aebe8920c078d608"
 meta-handheld     = "jansa/master:37e2130114fe2decd871635a32bbeb2fe1b8254d"
-meta              = "jansa/master:47920c71df38bd3de92e7367957127b02e99dfda"
+meta              = "jansa/master:4dd649101ffbba84726c1031783ce42e28a8b18c"
 

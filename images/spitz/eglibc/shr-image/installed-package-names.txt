@@ -385,7 +385,6 @@ libsoup-2.4-locale-en-gb
 libsqlite3-0
 libss2
 libssl1.0.0
-libstartup-notification-1-0
 libstdc++6
 libsysfs2
 libthread-db1
@@ -408,7 +407,6 @@ libxcb-keysyms1
 libxcb-render0
 libxcb-shape0
 libxcb-shm0
-libxcb-util1
 libxcb-xfixes0
 libxcb1
 libxcomposite1
