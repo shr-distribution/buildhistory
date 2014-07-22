@@ -3,7 +3,7 @@
 21025	KiB libicudata53
 12234	KiB vim-common
 10978	KiB systemd
-6681	KiB python-elementary
+6693	KiB python-elementary
 6341	KiB e-wm
 6256	KiB fbreader
 6225	KiB terminology-themes
@@ -21,7 +21,7 @@
 3225	KiB subversion
 3067	KiB libglib-2.0-0
 2917	KiB file
-2746	KiB libpurple
+2819	KiB libpurple
 2739	KiB frameworkd
 2704	KiB ncurses-terminfo
 2663	KiB xkeyboard-config
@@ -43,8 +43,8 @@
 1846	KiB libperl5
 1842	KiB shr-splash-theme-logo
 1814	KiB libpython2.7-1.0
-1668	KiB pidgin-data
 1658	KiB fsogsmd
+1630	KiB pidgin-data
 1559	KiB libx11-locale
 1541	KiB liberation-fonts
 1519	KiB libfso-glib2
@@ -58,13 +58,13 @@
 1304	KiB libx11-6
 1279	KiB gawk
 1229	KiB python-netclient
-1208	KiB python-evas
+1207	KiB python-evas
 1201	KiB e2fsprogs-e2fsck
 1103	KiB python-xml
 1099	KiB iptables
 1098	KiB python-gst
 1090	KiB libgnutls28
-1054	KiB pidgin
+1064	KiB pidgin
 1047	KiB babiloo-efl
 1037	KiB wpa-supplicant
 1009	KiB python-ctypes
@@ -80,8 +80,8 @@
 885	KiB luajit
 830	KiB libedje1
 816	KiB libsoup-2.4
+797	KiB python-ecore
 796	KiB python-lang
-796	KiB python-ecore
 790	KiB udev
 789	KiB tcpdump
 765	KiB dbus-1
@@ -93,6 +93,7 @@
 737	KiB s3c24xx-gpio
 736	KiB s3c64xx-gpio
 729	KiB findutils
+696	KiB openvpn
 680	KiB libpixman-1-0
 669	KiB shr-settings
 638	KiB libevent
@@ -102,7 +103,6 @@
 605	KiB screen
 593	KiB fsodeviced
 591	KiB python-pyyaml
-586	KiB openvpn
 581	KiB busybox
 573	KiB libjpeg8
 561	KiB gconf
@@ -144,22 +144,22 @@
 363	KiB libsdl-1.2-0
 363	KiB eglibc-binary-localedata-cs-cz
 361	KiB libcurl4
+356	KiB libpurple-protocol-msn
 356	KiB fsotdld
 351	KiB coreutils-locale-cs
-346	KiB libpurple-protocol-msn
 344	KiB libgee2
 343	KiB eglibc-utils
 342	KiB ppp
 341	KiB nano
 340	KiB libnl-route-3-200
-336	KiB pidgin-locale-cs
 336	KiB emtooth2
 335	KiB libharfbuzz0
 325	KiB mobile-broadband-provider-info
+323	KiB pidgin-locale-cs
 323	KiB eglibc-charmap-utf-8
-321	KiB pidgin-locale-en-gb
 317	KiB libpulse0
 314	KiB libfontconfig1
+313	KiB pidgin-locale-en-gb
 311	KiB fsoaudiod
 311	KiB eve
 307	KiB python-vobject
@@ -287,6 +287,7 @@
 102	KiB libserf-1-1
 102	KiB libfsotransport3
 101	KiB watchdog
+101	KiB libpurple-protocol-irc
 101	KiB libgstrtp-0.10-0
 100	KiB pxaregs
 99	KiB ffphonelog
@@ -297,7 +298,6 @@
 94	KiB libglib-2.0-locale-cs
 93	KiB python-sqlite3
 93	KiB libxcb-glx0
-93	KiB libpurple-protocol-irc
 93	KiB libfribidi0
 92	KiB util-linux-fsck
 92	KiB ntpdate
@@ -406,7 +406,6 @@
 37	KiB libxrandr2
 37	KiB libxcb-render0
 36	KiB util-linux-mount
-36	KiB libstartup-notification-1-0
 36	KiB libgif4
 36	KiB gst-plugins-good-autodetect
 35	KiB wpa-supplicant-passphrase
@@ -487,7 +486,6 @@
 20	KiB ncurses-terminfo-base
 20	KiB libxfixes3
 20	KiB libxdmcp6
-20	KiB libxcb-util1
 20	KiB killall
 20	KiB kernel-3.14.5-yocto-standard
 20	KiB gdk-pixbuf-locale-en-gb
