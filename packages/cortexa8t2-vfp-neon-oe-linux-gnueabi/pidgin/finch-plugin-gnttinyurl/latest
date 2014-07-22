@@ -1,9 +1,9 @@
-PV = 2.7.9
-PR = r3.3
-PKGR = r3.3.5
+PV = 2.10.9
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = eglibc (>= 2.19) glib-2.0 (>= 2.40.0) libffi (>= 3.1)
 RRECOMMENDS = 
-PKGSIZE = 10240
+PKGSIZE = 10260
 FILES = /usr/lib/finch/gnttinyurl.so
 FILELIST = /usr/lib/finch/gnttinyurl.so
