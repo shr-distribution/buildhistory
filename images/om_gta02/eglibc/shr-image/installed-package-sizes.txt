@@ -26,12 +26,12 @@
 2086	KiB subversion
 2074	KiB shared-mime-info
 2032	KiB python-pygtk
-1970	KiB libpurple
+2032	KiB libpurple
 1969	KiB python-misc
 1967	KiB vim-tutor
 1900	KiB python-lxml
 1842	KiB shr-splash-theme-logo
-1668	KiB pidgin-data
+1630	KiB pidgin-data
 1605	KiB xserver-xorg
 1559	KiB libx11-locale
 1541	KiB liberation-fonts
@@ -69,7 +69,7 @@
 715	KiB libgnutls28
 711	KiB python-ecore
 710	KiB libstdc++6
-700	KiB pidgin
+708	KiB pidgin
 697	KiB libedje1
 691	KiB python-lang
 686	KiB numptyphysics
@@ -98,6 +98,7 @@
 469	KiB findutils
 464	KiB libgpsd20
 463	KiB libevent
+450	KiB openvpn
 435	KiB python-compression
 427	KiB om-neon
 410	KiB libpixman-1-0
@@ -109,7 +110,6 @@
 387	KiB python-pickle
 384	KiB libfreetype6
 375	KiB openssl
-373	KiB openvpn
 371	KiB python-logging
 367	KiB sysstat
 367	KiB estardict
@@ -127,13 +127,13 @@
 338	KiB openssh-keygen
 338	KiB libgstfarsight-0.10-0
 338	KiB libedje-utils
-336	KiB pidgin-locale-cs
 325	KiB mobile-broadband-provider-info
 324	KiB vagalume
 323	KiB powertop
+323	KiB pidgin-locale-cs
 323	KiB eglibc-charmap-utf-8
-321	KiB pidgin-locale-en-gb
 317	KiB kernel-module-ipv6
+313	KiB pidgin-locale-en-gb
 307	KiB python-vobject
 291	KiB rsync
 290	KiB libsndfile1
@@ -152,10 +152,10 @@
 254	KiB python-pexpect
 253	KiB libssl1.0.0
 251	KiB fsotdld
+248	KiB libpurple-protocol-msn
 244	KiB shr-theme
 243	KiB libfontconfig1
 243	KiB ecore-x
-241	KiB libpurple-protocol-msn
 240	KiB libsdl-1.2-0
 238	KiB e2fsprogs
 236	KiB ppp
@@ -307,6 +307,7 @@
 67	KiB cronie
 65	KiB util-linux-fsck
 65	KiB ntpdate
+65	KiB libpurple-protocol-irc
 65	KiB libeio1
 65	KiB gconf-locale-cs
 64	KiB wmiconfig
@@ -323,7 +324,6 @@
 61	KiB libeo1
 61	KiB kernel-module-fat
 60	KiB libts-1.0-0
-60	KiB libpurple-protocol-irc
 60	KiB libkmod2
 60	KiB gst-plugins-base-typefindfunctions
 60	KiB elementary-configs
@@ -429,7 +429,6 @@
 25	KiB kernel-module-snd-timer
 25	KiB hicolor-icon-theme
 25	KiB ecore-imf
-24	KiB libstartup-notification-1-0
 24	KiB kernel-module-usbnet
 24	KiB gst-plugins-good-autodetect
 24	KiB gst-plugins-base-volume
@@ -524,7 +523,6 @@
 14	KiB fsoraw
 14	KiB fsogsmd-config
 14	KiB alsa-conf-base
-13	KiB libxcb-util1
 13	KiB libpyglib-2.0-python0
 13	KiB gdk-pixbuf-loader-png
 13	KiB fso-apm

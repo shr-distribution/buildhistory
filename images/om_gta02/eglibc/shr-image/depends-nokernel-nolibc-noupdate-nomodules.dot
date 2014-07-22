@@ -1764,13 +1764,10 @@ digraph depends {
 "libpurple" -> "libz1";
 "libpurple-plugin-ssl" -> "libffi6";
 "libpurple-plugin-ssl" -> "libglib-2.0-0";
-"libpurple-plugin-ssl-gnutls" -> "libcap2";
 "libpurple-plugin-ssl-gnutls" -> "libffi6";
-"libpurple-plugin-ssl-gnutls" -> "libgcrypt";
 "libpurple-plugin-ssl-gnutls" -> "libglib-2.0-0";
 "libpurple-plugin-ssl-gnutls" -> "libgmp10";
 "libpurple-plugin-ssl-gnutls" -> "libgnutls28";
-"libpurple-plugin-ssl-gnutls" -> "libgpg-error0";
 "libpurple-plugin-ssl-gnutls" -> "libpurple-plugin-ssl";
 "libpurple-plugin-ssl-gnutls" -> "libz1";
 "libpurple-plugin-ssl-gnutls" -> "nettle";
@@ -1784,7 +1781,6 @@ digraph depends {
 "libpurple-protocol-xmpp" -> "gstreamer";
 "libpurple-protocol-xmpp" -> "libffi6";
 "libpurple-protocol-xmpp" -> "libglib-2.0-0";
-"libpurple-protocol-xmpp" -> "libgstfarsight-0.10-0";
 "libpurple-protocol-xmpp" -> "libgstinterfaces-0.10-0";
 "libpurple-protocol-xmpp" -> "libidn11";
 "libpurple-protocol-xmpp" -> "libpurple";
@@ -1867,12 +1863,6 @@ digraph depends {
 "libsoup-2.4-locale-en-gb" -> "virtual-locale-en-gb" [style=dotted];
 "libss2" -> "libcom-err2";
 "libssl1.0.0" -> "libcrypto1.0.0";
-"libstartup-notification-1-0" -> "libx11-6";
-"libstartup-notification-1-0" -> "libx11-xcb1";
-"libstartup-notification-1-0" -> "libxau6";
-"libstartup-notification-1-0" -> "libxcb-util1";
-"libstartup-notification-1-0" -> "libxcb1";
-"libstartup-notification-1-0" -> "libxdmcp6";
 "libtiff5" -> "libjpeg8";
 "libtiff5" -> "liblzma5";
 "libtiff5" -> "libz1";
@@ -1903,9 +1893,6 @@ digraph depends {
 "libxcb-shm0" -> "libxau6";
 "libxcb-shm0" -> "libxcb1";
 "libxcb-shm0" -> "libxdmcp6";
-"libxcb-util1" -> "libxau6";
-"libxcb-util1" -> "libxcb1";
-"libxcb-util1" -> "libxdmcp6";
 "libxcb-xfixes0" -> "libxau6";
 "libxcb-xfixes0" -> "libxcb1";
 "libxcb-xfixes0" -> "libxdmcp6";
@@ -2097,6 +2084,7 @@ digraph depends {
 "openssl" -> "libssl1.0.0";
 "openvpn" -> "libcrypto1.0.0";
 "openvpn" -> "liblzo2-2";
+"openvpn" -> "libpam";
 "openvpn" -> "libssl1.0.0";
 "opimd-utils" -> "ffphonelog";
 "opimd-utils" -> "opimd-utils-cli" [style=dotted];
@@ -2433,7 +2421,6 @@ digraph depends {
 "pidgin" -> "libpurple-protocol-irc" [style=dotted];
 "pidgin" -> "libpurple-protocol-xmpp" [style=dotted];
 "pidgin" -> "libsm6";
-"pidgin" -> "libstartup-notification-1-0";
 "pidgin" -> "libx11-6";
 "pidgin" -> "libxau6";
 "pidgin" -> "libxcb-render0";
