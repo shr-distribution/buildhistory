@@ -2061,7 +2061,7 @@ lrwxrwxrwx root       root               24 ./usr/bin/users -> /usr/bin/users.co
 lrwxrwxrwx root       root               23 ./usr/bin/vdir -> /usr/bin/vdir.coreutils
 -rwxr-xr-x root       root           132200 ./usr/bin/vdir.coreutils
 lrwxrwxrwx root       root                3 ./usr/bin/view -> vim
--rwxr-xr-x root       root          1980696 ./usr/bin/vim
+-rwxr-xr-x root       root          1989784 ./usr/bin/vim
 lrwxrwxrwx root       root                3 ./usr/bin/vimdiff -> vim
 -rwxr-xr-x root       root             2084 ./usr/bin/vimtutor
 lrwxrwxrwx root       root               17 ./usr/bin/vlock -> /bin/busybox.suid
@@ -2871,7 +2871,7 @@ lrwxrwxrwx root       root               14 ./usr/lib/libGL.so.1 -> libGL.so.1.2
 lrwxrwxrwx root       root               18 ./usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
 -rwxr-xr-x root       root            39336 ./usr/lib/libGLESv2.so.2.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libICE.so.6 -> libICE.so.6.3.0
--rwxr-xr-x root       root            97488 ./usr/lib/libICE.so.6.3.0
+-rwxr-xr-x root       root            97360 ./usr/lib/libICE.so.6.3.0
 lrwxrwxrwx root       root               20 ./usr/lib/libSDL-1.2.so.0 -> libSDL-1.2.so.0.11.4
 -rwxr-xr-x root       root           371744 ./usr/lib/libSDL-1.2.so.0.11.4
 lrwxrwxrwx root       root               25 ./usr/lib/libSDL_image-1.2.so.0 -> libSDL_image-1.2.so.0.8.4
@@ -2897,9 +2897,9 @@ lrwxrwxrwx root       root               16 ./usr/lib/libXext.so.6 -> libXext.so
 lrwxrwxrwx root       root               18 ./usr/lib/libXfixes.so.3 -> libXfixes.so.3.1.0
 -rwxr-xr-x root       root            20424 ./usr/lib/libXfixes.so.3.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libXfont.so.1 -> libXfont.so.1.4.1
--rwxr-xr-x root       root           247776 ./usr/lib/libXfont.so.1.4.1
-lrwxrwxrwx root       root               15 ./usr/lib/libXft.so.2 -> libXft.so.2.3.1
--rwxr-xr-x root       root            86304 ./usr/lib/libXft.so.2.3.1
+-rwxr-xr-x root       root           241440 ./usr/lib/libXfont.so.1.4.1
+lrwxrwxrwx root       root               15 ./usr/lib/libXft.so.2 -> libXft.so.2.3.2
+-rwxr-xr-x root       root            86304 ./usr/lib/libXft.so.2.3.2
 lrwxrwxrwx root       root               14 ./usr/lib/libXi.so.6 -> libXi.so.6.1.0
 -rwxr-xr-x root       root            61784 ./usr/lib/libXi.so.6.1.0
 lrwxrwxrwx root       root               20 ./usr/lib/libXinerama.so.1 -> libXinerama.so.1.0.0
@@ -3081,8 +3081,8 @@ lrwxrwxrwx root       root               16 ./usr/lib/libgdbm.so.4 -> libgdbm.so
 -rwxr-xr-x root       root            44600 ./usr/lib/libgdbm.so.4.0.0
 lrwxrwxrwx root       root               27 ./usr/lib/libgdk-x11-2.0.so.0 -> libgdk-x11-2.0.so.0.2400.22
 -rwxr-xr-x root       root           725360 ./usr/lib/libgdk-x11-2.0.so.0.2400.22
-lrwxrwxrwx root       root               29 ./usr/lib/libgdk_pixbuf-2.0.so.0 -> libgdk_pixbuf-2.0.so.0.3000.7
--rwxr-xr-x root       root           131792 ./usr/lib/libgdk_pixbuf-2.0.so.0.3000.7
+lrwxrwxrwx root       root               29 ./usr/lib/libgdk_pixbuf-2.0.so.0 -> libgdk_pixbuf-2.0.so.0.3000.8
+-rwxr-xr-x root       root           131792 ./usr/lib/libgdk_pixbuf-2.0.so.0.3000.8
 lrwxrwxrwx root       root               15 ./usr/lib/libgee.so.2 -> libgee.so.2.0.0
 -rwxr-xr-x root       root           352384 ./usr/lib/libgee.so.2.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libgif.so.4 -> libgif.so.4.1.6
@@ -3233,14 +3233,14 @@ lrwxrwxrwx root       root               16 ./usr/lib/libopkg.so.1 -> libopkg.so
 -rwxr-xr-x root       root           187880 ./usr/lib/libopkg.so.1.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libpanelw.so.5 -> libpanelw.so.5.9
 -rwxr-xr-x root       root            11568 ./usr/lib/libpanelw.so.5.9
-lrwxrwxrwx root       root               24 ./usr/lib/libpango-1.0.so.0 -> libpango-1.0.so.0.3600.3
--rwxr-xr-x root       root           274768 ./usr/lib/libpango-1.0.so.0.3600.3
-lrwxrwxrwx root       root               29 ./usr/lib/libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.3600.3
--rwxr-xr-x root       root            45416 ./usr/lib/libpangocairo-1.0.so.0.3600.3
-lrwxrwxrwx root       root               27 ./usr/lib/libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.3600.3
--rwxr-xr-x root       root            74688 ./usr/lib/libpangoft2-1.0.so.0.3600.3
-lrwxrwxrwx root       root               27 ./usr/lib/libpangoxft-1.0.so.0 -> libpangoxft-1.0.so.0.3600.3
--rwxr-xr-x root       root            28560 ./usr/lib/libpangoxft-1.0.so.0.3600.3
+lrwxrwxrwx root       root               24 ./usr/lib/libpango-1.0.so.0 -> libpango-1.0.so.0.3600.5
+-rwxr-xr-x root       root           274768 ./usr/lib/libpango-1.0.so.0.3600.5
+lrwxrwxrwx root       root               29 ./usr/lib/libpangocairo-1.0.so.0 -> libpangocairo-1.0.so.0.3600.5
+-rwxr-xr-x root       root            45416 ./usr/lib/libpangocairo-1.0.so.0.3600.5
+lrwxrwxrwx root       root               27 ./usr/lib/libpangoft2-1.0.so.0 -> libpangoft2-1.0.so.0.3600.5
+-rwxr-xr-x root       root            74688 ./usr/lib/libpangoft2-1.0.so.0.3600.5
+lrwxrwxrwx root       root               27 ./usr/lib/libpangoxft-1.0.so.0 -> libpangoxft-1.0.so.0.3600.5
+-rwxr-xr-x root       root            28560 ./usr/lib/libpangoxft-1.0.so.0.3600.5
 lrwxrwxrwx root       root               16 ./usr/lib/libpcap.so.1 -> libpcap.so.1.5.3
 -rwxr-xr-x root       root           255200 ./usr/lib/libpcap.so.1.5.3
 lrwxrwxrwx root       root               15 ./usr/lib/libpci.so.3 -> libpci.so.3.2.1
@@ -12968,14 +12968,14 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/autoload
 -rw-r--r-- root       root            24864 ./usr/share/vim/vim74/autoload/getscript.vim
 -rw-r--r-- root       root             5331 ./usr/share/vim/vim74/autoload/gnat.vim
 -rw-r--r-- root       root             6093 ./usr/share/vim/vim74/autoload/gzip.vim
--rw-r--r-- root       root            24280 ./usr/share/vim/vim74/autoload/htmlcomplete.vim
+-rw-r--r-- root       root            25450 ./usr/share/vim/vim74/autoload/htmlcomplete.vim
 -rw-r--r-- root       root            27028 ./usr/share/vim/vim74/autoload/javascriptcomplete.vim
--rw-r--r-- root       root           436486 ./usr/share/vim/vim74/autoload/netrw.vim
+-rw-r--r-- root       root           443333 ./usr/share/vim/vim74/autoload/netrw.vim
 -rw-r--r-- root       root            10143 ./usr/share/vim/vim74/autoload/netrwFileHandlers.vim
 -rw-r--r-- root       root            10146 ./usr/share/vim/vim74/autoload/netrwSettings.vim
 -rw-r--r-- root       root             2701 ./usr/share/vim/vim74/autoload/netrw_gitignore.vim
 -rw-r--r-- root       root             1232 ./usr/share/vim/vim74/autoload/paste.vim
--rw-r--r-- root       root           337089 ./usr/share/vim/vim74/autoload/phpcomplete.vim
+-rw-r--r-- root       root           338360 ./usr/share/vim/vim74/autoload/phpcomplete.vim
 -rw-r--r-- root       root            21507 ./usr/share/vim/vim74/autoload/python3complete.vim
 -rw-r--r-- root       root            22019 ./usr/share/vim/vim74/autoload/pythoncomplete.vim
 -rw-r--r-- root       root            23554 ./usr/share/vim/vim74/autoload/rubycomplete.vim
@@ -13084,16 +13084,16 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/compiler
 -rw-r--r-- root       root              645 ./usr/share/vim/vim74/delmenu.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root            11936 ./usr/share/vim/vim74/doc/arabic.txt
--rw-r--r-- root       root            57580 ./usr/share/vim/vim74/doc/autocmd.txt
--rw-r--r-- root       root            71223 ./usr/share/vim/vim74/doc/change.txt
+-rw-r--r-- root       root            57621 ./usr/share/vim/vim74/doc/autocmd.txt
+-rw-r--r-- root       root            71237 ./usr/share/vim/vim74/doc/change.txt
 -rw-r--r-- root       root            45574 ./usr/share/vim/vim74/doc/cmdline.txt
 -rw-r--r-- root       root             7182 ./usr/share/vim/vim74/doc/debug.txt
 -rw-r--r-- root       root             5643 ./usr/share/vim/vim74/doc/debugger.txt
 -rw-r--r-- root       root            20187 ./usr/share/vim/vim74/doc/develop.txt
--rw-r--r-- root       root            15746 ./usr/share/vim/vim74/doc/diff.txt
--rw-r--r-- root       root            61902 ./usr/share/vim/vim74/doc/digraph.txt
--rw-r--r-- root       root            69584 ./usr/share/vim/vim74/doc/editing.txt
--rw-r--r-- root       root           337596 ./usr/share/vim/vim74/doc/eval.txt
+-rw-r--r-- root       root            15745 ./usr/share/vim/vim74/doc/diff.txt
+-rw-r--r-- root       root            62087 ./usr/share/vim/vim74/doc/digraph.txt
+-rw-r--r-- root       root            69627 ./usr/share/vim/vim74/doc/editing.txt
+-rw-r--r-- root       root           342938 ./usr/share/vim/vim74/doc/eval.txt
 -rw-r--r-- root       root             9704 ./usr/share/vim/vim74/doc/farsi.txt
 -rw-r--r-- root       root            23810 ./usr/share/vim/vim74/doc/filetype.txt
 -rw-r--r-- root       root            23186 ./usr/share/vim/vim74/doc/fold.txt
@@ -13117,17 +13117,17 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             7396 ./usr/share/vim/vim74/doc/if_ruby.txt
 -rw-r--r-- root       root             3679 ./usr/share/vim/vim74/doc/if_sniff.txt
 -rw-r--r-- root       root            22629 ./usr/share/vim/vim74/doc/if_tcl.txt
--rw-r--r-- root       root            38665 ./usr/share/vim/vim74/doc/indent.txt
+-rw-r--r-- root       root            38926 ./usr/share/vim/vim74/doc/indent.txt
 -rw-r--r-- root       root            74255 ./usr/share/vim/vim74/doc/index.txt
--rw-r--r-- root       root            81820 ./usr/share/vim/vim74/doc/insert.txt
--rw-r--r-- root       root            38143 ./usr/share/vim/vim74/doc/intro.txt
--rw-r--r-- root       root            61591 ./usr/share/vim/vim74/doc/map.txt
+-rw-r--r-- root       root            81819 ./usr/share/vim/vim74/doc/insert.txt
+-rw-r--r-- root       root            38182 ./usr/share/vim/vim74/doc/intro.txt
+-rw-r--r-- root       root            62032 ./usr/share/vim/vim74/doc/map.txt
 -rw-r--r-- root       root            58261 ./usr/share/vim/vim74/doc/mbyte.txt
 -rw-r--r-- root       root            30524 ./usr/share/vim/vim74/doc/message.txt
 -rw-r--r-- root       root             7733 ./usr/share/vim/vim74/doc/mlang.txt
 -rw-r--r-- root       root            51023 ./usr/share/vim/vim74/doc/motion.txt
 -rw-r--r-- root       root            36594 ./usr/share/vim/vim74/doc/netbeans.txt
--rw-r--r-- root       root           353273 ./usr/share/vim/vim74/doc/options.txt
+-rw-r--r-- root       root           355298 ./usr/share/vim/vim74/doc/options.txt
 -rw-r--r-- root       root             4787 ./usr/share/vim/vim74/doc/os_390.txt
 -rw-r--r-- root       root             5461 ./usr/share/vim/vim74/doc/os_amiga.txt
 -rw-r--r-- root       root            10937 ./usr/share/vim/vim74/doc/os_beos.txt
@@ -13141,10 +13141,10 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             2595 ./usr/share/vim/vim74/doc/os_unix.txt
 -rw-r--r-- root       root            32102 ./usr/share/vim/vim74/doc/os_vms.txt
 -rw-r--r-- root       root            18041 ./usr/share/vim/vim74/doc/os_win32.txt
--rw-r--r-- root       root            56776 ./usr/share/vim/vim74/doc/pattern.txt
+-rw-r--r-- root       root            57171 ./usr/share/vim/vim74/doc/pattern.txt
 -rw-r--r-- root       root            21079 ./usr/share/vim/vim74/doc/pi_getscript.txt
 -rw-r--r-- root       root             1296 ./usr/share/vim/vim74/doc/pi_gzip.txt
--rw-r--r-- root       root           143156 ./usr/share/vim/vim74/doc/pi_netrw.txt
+-rw-r--r-- root       root           145480 ./usr/share/vim/vim74/doc/pi_netrw.txt
 -rw-r--r-- root       root             2269 ./usr/share/vim/vim74/doc/pi_paren.txt
 -rw-r--r-- root       root             4122 ./usr/share/vim/vim74/doc/pi_spec.txt
 -rw-r--r-- root       root             6657 ./usr/share/vim/vim74/doc/pi_tar.txt
@@ -13152,7 +13152,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             5832 ./usr/share/vim/vim74/doc/pi_zip.txt
 -rw-r--r-- root       root            31160 ./usr/share/vim/vim74/doc/print.txt
 -rw-r--r-- root       root            60743 ./usr/share/vim/vim74/doc/quickfix.txt
--rw-r--r-- root       root            68974 ./usr/share/vim/vim74/doc/quickref.txt
+-rw-r--r-- root       root            69084 ./usr/share/vim/vim74/doc/quickref.txt
 -rw-r--r-- root       root            12744 ./usr/share/vim/vim74/doc/quotes.txt
 -rw-r--r-- root       root            10694 ./usr/share/vim/vim74/doc/recover.txt
 -rw-r--r-- root       root             8285 ./usr/share/vim/vim74/doc/remote.txt
@@ -13160,19 +13160,19 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             4976 ./usr/share/vim/vim74/doc/rileft.txt
 -rw-r--r-- root       root             3090 ./usr/share/vim/vim74/doc/russian.txt
 -rw-r--r-- root       root            13977 ./usr/share/vim/vim74/doc/scroll.txt
--rw-r--r-- root       root             6755 ./usr/share/vim/vim74/doc/sign.txt
--rw-r--r-- root       root            61907 ./usr/share/vim/vim74/doc/spell.txt
+-rw-r--r-- root       root             6769 ./usr/share/vim/vim74/doc/sign.txt
+-rw-r--r-- root       root            62000 ./usr/share/vim/vim74/doc/spell.txt
 -rw-r--r-- root       root             7198 ./usr/share/vim/vim74/doc/sponsor.txt
--rw-r--r-- root       root            67731 ./usr/share/vim/vim74/doc/starting.txt
--rw-r--r-- root       root           209383 ./usr/share/vim/vim74/doc/syntax.txt
+-rw-r--r-- root       root            67917 ./usr/share/vim/vim74/doc/starting.txt
+-rw-r--r-- root       root           209381 ./usr/share/vim/vim74/doc/syntax.txt
 -rw-r--r-- root       root            13568 ./usr/share/vim/vim74/doc/tabpage.txt
--rw-r--r-- root       root           297424 ./usr/share/vim/vim74/doc/tags
+-rw-r--r-- root       root           298403 ./usr/share/vim/vim74/doc/tags
 -rw-r--r-- root       root            35929 ./usr/share/vim/vim74/doc/tagsrch.txt
--rw-r--r-- root       root            41137 ./usr/share/vim/vim74/doc/term.txt
+-rw-r--r-- root       root            41138 ./usr/share/vim/vim74/doc/term.txt
 -rw-r--r-- root       root            20556 ./usr/share/vim/vim74/doc/tips.txt
--rw-r--r-- root       root           274253 ./usr/share/vim/vim74/doc/todo.txt
+-rw-r--r-- root       root           273974 ./usr/share/vim/vim74/doc/todo.txt
 -rw-r--r-- root       root            14025 ./usr/share/vim/vim74/doc/uganda.txt
--rw-r--r-- root       root            16532 ./usr/share/vim/vim74/doc/undo.txt
+-rw-r--r-- root       root            16539 ./usr/share/vim/vim74/doc/undo.txt
 -rw-r--r-- root       root             7098 ./usr/share/vim/vim74/doc/usr_01.txt
 -rw-r--r-- root       root            18528 ./usr/share/vim/vim74/doc/usr_02.txt
 -rw-r--r-- root       root            23487 ./usr/share/vim/vim74/doc/usr_03.txt
@@ -13180,7 +13180,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root            22249 ./usr/share/vim/vim74/doc/usr_05.txt
 -rw-r--r-- root       root             9587 ./usr/share/vim/vim74/doc/usr_06.txt
 -rw-r--r-- root       root            15970 ./usr/share/vim/vim74/doc/usr_07.txt
--rw-r--r-- root       root            19374 ./usr/share/vim/vim74/doc/usr_08.txt
+-rw-r--r-- root       root            19375 ./usr/share/vim/vim74/doc/usr_08.txt
 -rw-r--r-- root       root            11449 ./usr/share/vim/vim74/doc/usr_09.txt
 -rw-r--r-- root       root            29180 ./usr/share/vim/vim74/doc/usr_10.txt
 -rw-r--r-- root       root            12612 ./usr/share/vim/vim74/doc/usr_11.txt
@@ -13199,14 +13199,14 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root            10394 ./usr/share/vim/vim74/doc/usr_31.txt
 -rw-r--r-- root       root             5373 ./usr/share/vim/vim74/doc/usr_32.txt
 -rw-r--r-- root       root            23184 ./usr/share/vim/vim74/doc/usr_40.txt
--rw-r--r-- root       root            83880 ./usr/share/vim/vim74/doc/usr_41.txt
+-rw-r--r-- root       root            84019 ./usr/share/vim/vim74/doc/usr_41.txt
 -rw-r--r-- root       root            13798 ./usr/share/vim/vim74/doc/usr_42.txt
 -rw-r--r-- root       root             7050 ./usr/share/vim/vim74/doc/usr_43.txt
 -rw-r--r-- root       root            29176 ./usr/share/vim/vim74/doc/usr_44.txt
 -rw-r--r-- root       root            17912 ./usr/share/vim/vim74/doc/usr_45.txt
 -rw-r--r-- root       root            17661 ./usr/share/vim/vim74/doc/usr_90.txt
 -rw-r--r-- root       root             9192 ./usr/share/vim/vim74/doc/usr_toc.txt
--rw-r--r-- root       root            26627 ./usr/share/vim/vim74/doc/various.txt
+-rw-r--r-- root       root            26691 ./usr/share/vim/vim74/doc/various.txt
 -rw-r--r-- root       root            13906 ./usr/share/vim/vim74/doc/version4.txt
 -rw-r--r-- root       root           308561 ./usr/share/vim/vim74/doc/version5.txt
 -rw-r--r-- root       root           577046 ./usr/share/vim/vim74/doc/version6.txt
@@ -13217,7 +13217,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root            49436 ./usr/share/vim/vim74/doc/windows.txt
 -rw-r--r-- root       root             4631 ./usr/share/vim/vim74/doc/workshop.txt
 -rw-r--r-- root       root             1965 ./usr/share/vim/vim74/evim.vim
--rw-r--r-- root       root            69050 ./usr/share/vim/vim74/filetype.vim
+-rw-r--r-- root       root            69436 ./usr/share/vim/vim74/filetype.vim
 -rw-r--r-- root       root              280 ./usr/share/vim/vim74/ftoff.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root              971 ./usr/share/vim/vim74/ftplugin.vim
@@ -13291,7 +13291,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root              430 ./usr/share/vim/vim74/ftplugin/help.vim
 -rw-r--r-- root       root              375 ./usr/share/vim/vim74/ftplugin/hostconf.vim
 -rw-r--r-- root       root              424 ./usr/share/vim/vim74/ftplugin/hostsaccess.vim
--rw-r--r-- root       root             2935 ./usr/share/vim/vim74/ftplugin/html.vim
+-rw-r--r-- root       root             1625 ./usr/share/vim/vim74/ftplugin/html.vim
 -rw-r--r-- root       root              331 ./usr/share/vim/vim74/ftplugin/htmldjango.vim
 -rw-r--r-- root       root              442 ./usr/share/vim/vim74/ftplugin/indent.vim
 -rw-r--r-- root       root             1005 ./usr/share/vim/vim74/ftplugin/initex.vim
@@ -13355,12 +13355,17 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root             1797 ./usr/share/vim/vim74/ftplugin/python.vim
 -rw-r--r-- root       root              459 ./usr/share/vim/vim74/ftplugin/qf.vim
 -rw-r--r-- root       root              427 ./usr/share/vim/vim74/ftplugin/quake.vim
+-rw-r--r-- root       root              804 ./usr/share/vim/vim74/ftplugin/r.vim
 -rw-r--r-- root       root              437 ./usr/share/vim/vim74/ftplugin/racc.vim
 -rw-r--r-- root       root              426 ./usr/share/vim/vim74/ftplugin/readline.vim
 -rw-r--r-- root       root              740 ./usr/share/vim/vim74/ftplugin/registry.vim
 -rw-r--r-- root       root              709 ./usr/share/vim/vim74/ftplugin/reva.vim
+-rw-r--r-- root       root              684 ./usr/share/vim/vim74/ftplugin/rhelp.vim
+-rw-r--r-- root       root             1204 ./usr/share/vim/vim74/ftplugin/rmd.vim
 -rw-r--r-- root       root              419 ./usr/share/vim/vim74/ftplugin/rnc.vim
+-rw-r--r-- root       root              983 ./usr/share/vim/vim74/ftplugin/rnoweb.vim
 -rw-r--r-- root       root              620 ./usr/share/vim/vim74/ftplugin/rpl.vim
+-rw-r--r-- root       root             1049 ./usr/share/vim/vim74/ftplugin/rrst.vim
 -rw-r--r-- root       root              444 ./usr/share/vim/vim74/ftplugin/rst.vim
 -rw-r--r-- root       root            15852 ./usr/share/vim/vim74/ftplugin/ruby.vim
 -rw-r--r-- root       root              580 ./usr/share/vim/vim74/ftplugin/sass.vim
@@ -13387,6 +13392,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root             1207 ./usr/share/vim/vim74/ftplugin/tcsh.vim
 -rw-r--r-- root       root              418 ./usr/share/vim/vim74/ftplugin/terminfo.vim
 -rw-r--r-- root       root             1641 ./usr/share/vim/vim74/ftplugin/tex.vim
+-rw-r--r-- root       root              433 ./usr/share/vim/vim74/ftplugin/text.vim
 -rw-r--r-- root       root              404 ./usr/share/vim/vim74/ftplugin/treetop.vim
 -rw-r--r-- root       root              434 ./usr/share/vim/vim74/ftplugin/tt2html.vim
 -rw-r--r-- root       root              422 ./usr/share/vim/vim74/ftplugin/udevconf.vim
@@ -13453,7 +13459,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root              996 ./usr/share/vim/vim74/indent/gitolite.vim
 -rw-r--r-- root       root             2189 ./usr/share/vim/vim74/indent/haml.vim
 -rw-r--r-- root       root             1407 ./usr/share/vim/vim74/indent/hamster.vim
--rw-r--r-- root       root            14812 ./usr/share/vim/vim74/indent/html.vim
+-rw-r--r-- root       root            31381 ./usr/share/vim/vim74/indent/html.vim
 -rw-r--r-- root       root              273 ./usr/share/vim/vim74/indent/htmldjango.vim
 -rw-r--r-- root       root             1566 ./usr/share/vim/vim74/indent/idlang.vim
 -rw-r--r-- root       root             1841 ./usr/share/vim/vim74/indent/ishd.vim
@@ -13478,7 +13484,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root             5653 ./usr/share/vim/vim74/indent/pascal.vim
 -rw-r--r-- root       root             5811 ./usr/share/vim/vim74/indent/perl.vim
 -rw-r--r-- root       root             3503 ./usr/share/vim/vim74/indent/perl6.vim
--rw-r--r-- root       root            19420 ./usr/share/vim/vim74/indent/php.vim
+-rw-r--r-- root       root            21181 ./usr/share/vim/vim74/indent/php.vim
 -rw-r--r-- root       root             1622 ./usr/share/vim/vim74/indent/postscr.vim
 -rw-r--r-- root       root             2643 ./usr/share/vim/vim74/indent/pov.vim
 -rw-r--r-- root       root             1454 ./usr/share/vim/vim74/indent/prolog.vim
@@ -13486,7 +13492,11 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root             5744 ./usr/share/vim/vim74/indent/python.vim
 -rw-r--r-- root       root            14786 ./usr/share/vim/vim74/indent/r.vim
 -rw-r--r-- root       root              681 ./usr/share/vim/vim74/indent/readline.vim
+-rw-r--r-- root       root             2849 ./usr/share/vim/vim74/indent/rhelp.vim
+-rw-r--r-- root       root             1115 ./usr/share/vim/vim74/indent/rmd.vim
+-rw-r--r-- root       root              795 ./usr/share/vim/vim74/indent/rnoweb.vim
 -rw-r--r-- root       root             1835 ./usr/share/vim/vim74/indent/rpl.vim
+-rw-r--r-- root       root             1137 ./usr/share/vim/vim74/indent/rrst.vim
 -rw-r--r-- root       root             1387 ./usr/share/vim/vim74/indent/rst.vim
 -rw-r--r-- root       root            17546 ./usr/share/vim/vim74/indent/ruby.vim
 -rw-r--r-- root       root             1018 ./usr/share/vim/vim74/indent/sass.vim
@@ -13593,7 +13603,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/af/LC_MES
 -rw-r--r-- root       root           121358 ./usr/share/vim/vim74/lang/af/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ca
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ca/LC_MESSAGES
--rw-r--r-- root       root           151536 ./usr/share/vim/vim74/lang/ca/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           151535 ./usr/share/vim/vim74/lang/ca/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/cs
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/cs.cp1250
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/cs.cp1250/LC_MESSAGES
@@ -13602,43 +13612,43 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/cs/LC_MES
 -rw-r--r-- root       root           107010 ./usr/share/vim/vim74/lang/cs/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/de
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/de/LC_MESSAGES
--rw-r--r-- root       root           151106 ./usr/share/vim/vim74/lang/de/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           151105 ./usr/share/vim/vim74/lang/de/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/en_GB
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/en_GB/LC_MESSAGES
 -rw-r--r-- root       root             8426 ./usr/share/vim/vim74/lang/en_GB/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/eo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/eo/LC_MESSAGES
--rw-r--r-- root       root           166594 ./usr/share/vim/vim74/lang/eo/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           166593 ./usr/share/vim/vim74/lang/eo/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/es
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/es/LC_MESSAGES
--rw-r--r-- root       root           162083 ./usr/share/vim/vim74/lang/es/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           162081 ./usr/share/vim/vim74/lang/es/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/fi
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/fi/LC_MESSAGES
--rw-r--r-- root       root           153614 ./usr/share/vim/vim74/lang/fi/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           153613 ./usr/share/vim/vim74/lang/fi/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/fr
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/fr/LC_MESSAGES
--rw-r--r-- root       root           170910 ./usr/share/vim/vim74/lang/fr/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           170908 ./usr/share/vim/vim74/lang/fr/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ga
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ga/LC_MESSAGES
--rw-r--r-- root       root           155051 ./usr/share/vim/vim74/lang/ga/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           155050 ./usr/share/vim/vim74/lang/ga/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/it
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/it/LC_MESSAGES
--rw-r--r-- root       root           168636 ./usr/share/vim/vim74/lang/it/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           168635 ./usr/share/vim/vim74/lang/it/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ja
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ja.euc-jp
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ja.euc-jp/LC_MESSAGES
--rw-r--r-- root       root           165987 ./usr/share/vim/vim74/lang/ja.euc-jp/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           165986 ./usr/share/vim/vim74/lang/ja.euc-jp/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ja.sjis
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ja.sjis/LC_MESSAGES
--rw-r--r-- root       root           165986 ./usr/share/vim/vim74/lang/ja.sjis/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           165985 ./usr/share/vim/vim74/lang/ja.sjis/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ja/LC_MESSAGES
--rw-r--r-- root       root           189055 ./usr/share/vim/vim74/lang/ja/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           189054 ./usr/share/vim/vim74/lang/ja/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko.UTF-8/LC_MESSAGES
--rw-r--r-- root       root           162816 ./usr/share/vim/vim74/lang/ko.UTF-8/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           162815 ./usr/share/vim/vim74/lang/ko.UTF-8/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko/LC_MESSAGES
--rw-r--r-- root       root           146906 ./usr/share/vim/vim74/lang/ko/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           146905 ./usr/share/vim/vim74/lang/ko/LC_MESSAGES/vim.mo
 -rw-r--r-- root       root               73 ./usr/share/vim/vim74/lang/menu_af.latin1.vim
 -rw-r--r-- root       root               92 ./usr/share/vim/vim74/lang/menu_af.utf-8.vim
 -rw-r--r-- root       root             5521 ./usr/share/vim/vim74/lang/menu_af_af.latin1.vim
@@ -13773,58 +13783,58 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko/LC_MES
 -rw-r--r-- root       root            13583 ./usr/share/vim/vim74/lang/menu_zh_tw.utf-8.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/nb
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/nb/LC_MESSAGES
--rw-r--r-- root       root           142306 ./usr/share/vim/vim74/lang/nb/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           142304 ./usr/share/vim/vim74/lang/nb/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/nl
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/nl/LC_MESSAGES
--rw-r--r-- root       root           103779 ./usr/share/vim/vim74/lang/nl/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           103776 ./usr/share/vim/vim74/lang/nl/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/no
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/no/LC_MESSAGES
--rw-r--r-- root       root           142306 ./usr/share/vim/vim74/lang/no/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           142304 ./usr/share/vim/vim74/lang/no/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pl
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pl.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pl.UTF-8/LC_MESSAGES
--rw-r--r-- root       root           169253 ./usr/share/vim/vim74/lang/pl.UTF-8/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           169268 ./usr/share/vim/vim74/lang/pl.UTF-8/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pl.cp1250
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pl.cp1250/LC_MESSAGES
--rw-r--r-- root       root           166497 ./usr/share/vim/vim74/lang/pl.cp1250/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           166512 ./usr/share/vim/vim74/lang/pl.cp1250/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pl/LC_MESSAGES
--rw-r--r-- root       root           166501 ./usr/share/vim/vim74/lang/pl/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           166516 ./usr/share/vim/vim74/lang/pl/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pt_BR
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pt_BR/LC_MESSAGES
--rw-r--r-- root       root           155113 ./usr/share/vim/vim74/lang/pt_BR/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           155111 ./usr/share/vim/vim74/lang/pt_BR/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru.cp1251
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru.cp1251/LC_MESSAGES
--rw-r--r-- root       root           171240 ./usr/share/vim/vim74/lang/ru.cp1251/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           171239 ./usr/share/vim/vim74/lang/ru.cp1251/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru/LC_MESSAGES
--rw-r--r-- root       root           218770 ./usr/share/vim/vim74/lang/ru/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           218769 ./usr/share/vim/vim74/lang/ru/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk.cp1250
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk.cp1250/LC_MESSAGES
--rw-r--r-- root       root           142563 ./usr/share/vim/vim74/lang/sk.cp1250/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           142561 ./usr/share/vim/vim74/lang/sk.cp1250/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk/LC_MESSAGES
--rw-r--r-- root       root           142567 ./usr/share/vim/vim74/lang/sk/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           142565 ./usr/share/vim/vim74/lang/sk/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sv
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sv/LC_MESSAGES
--rw-r--r-- root       root           143673 ./usr/share/vim/vim74/lang/sv/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           143671 ./usr/share/vim/vim74/lang/sv/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/uk
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/uk.cp1251
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/uk.cp1251/LC_MESSAGES
--rw-r--r-- root       root           164158 ./usr/share/vim/vim74/lang/uk.cp1251/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           164157 ./usr/share/vim/vim74/lang/uk.cp1251/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/uk/LC_MESSAGES
--rw-r--r-- root       root           205397 ./usr/share/vim/vim74/lang/uk/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           205396 ./usr/share/vim/vim74/lang/uk/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/vi
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/vi/LC_MESSAGES
 -rw-r--r-- root       root           138963 ./usr/share/vim/vim74/lang/vi/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_CN
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_CN.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_CN.UTF-8/LC_MESSAGES
--rw-r--r-- root       root           135244 ./usr/share/vim/vim74/lang/zh_CN.UTF-8/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           135243 ./usr/share/vim/vim74/lang/zh_CN.UTF-8/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_CN.cp936
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_CN.cp936/LC_MESSAGES
--rw-r--r-- root       root           124422 ./usr/share/vim/vim74/lang/zh_CN.cp936/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           124420 ./usr/share/vim/vim74/lang/zh_CN.cp936/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_CN/LC_MESSAGES
--rw-r--r-- root       root           124425 ./usr/share/vim/vim74/lang/zh_CN/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           124424 ./usr/share/vim/vim74/lang/zh_CN/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_TW
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_TW.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/zh_TW.UTF-8/LC_MESSAGES
@@ -13842,7 +13852,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/macros/hanoi
 -rw-r--r-- root       root             9160 ./usr/share/vim/vim74/macros/justify.vim
 -rw-r--r-- root       root              288 ./usr/share/vim/vim74/macros/less.bat
 -rwxr-xr-x root       root              588 ./usr/share/vim/vim74/macros/less.sh
--rw-r--r-- root       root             4776 ./usr/share/vim/vim74/macros/less.vim
+-rw-r--r-- root       root             5173 ./usr/share/vim/vim74/macros/less.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/macros/life
 -rw-r--r-- root       root              230 ./usr/share/vim/vim74/macros/life/click.me
 -rw-r--r-- root       root             7550 ./usr/share/vim/vim74/macros/life/life.vim
@@ -13865,14 +13875,14 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/macros/urm
 -rw-r--r-- root       root             1092 ./usr/share/vim/vim74/macros/urm/examples
 -rw-r--r-- root       root              630 ./usr/share/vim/vim74/macros/urm/urm
 -rw-r--r-- root       root               96 ./usr/share/vim/vim74/macros/urm/urm.vim
--rw-r--r-- root       root            38494 ./usr/share/vim/vim74/menu.vim
+-rw-r--r-- root       root            38584 ./usr/share/vim/vim74/menu.vim
 -rw-r--r-- root       root             2650 ./usr/share/vim/vim74/mswin.vim
--rw-r--r-- root       root            55434 ./usr/share/vim/vim74/optwin.vim
+-rw-r--r-- root       root            55705 ./usr/share/vim/vim74/optwin.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/plugin
 -rw-r--r-- root       root              889 ./usr/share/vim/vim74/plugin/README.txt
 -rw-r--r-- root       root             1393 ./usr/share/vim/vim74/plugin/getscriptPlugin.vim
 -rw-r--r-- root       root             1969 ./usr/share/vim/vim74/plugin/gzip.vim
--rw-r--r-- root       root             5425 ./usr/share/vim/vim74/plugin/matchparen.vim
+-rw-r--r-- root       root             5604 ./usr/share/vim/vim74/plugin/matchparen.vim
 -rw-r--r-- root       root             9586 ./usr/share/vim/vim74/plugin/netrwPlugin.vim
 -rw-r--r-- root       root             1414 ./usr/share/vim/vim74/plugin/rrhelper.vim
 -rw-r--r-- root       root              499 ./usr/share/vim/vim74/plugin/spellfile.vim
@@ -13982,7 +13992,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             3385 ./usr/share/vim/vim74/syntax/bst.vim
 -rw-r--r-- root       root             9631 ./usr/share/vim/vim74/syntax/btm.vim
 -rw-r--r-- root       root             1955 ./usr/share/vim/vim74/syntax/bzr.vim
--rw-r--r-- root       root            24831 ./usr/share/vim/vim74/syntax/c.vim
+-rw-r--r-- root       root            24957 ./usr/share/vim/vim74/syntax/c.vim
 -rw-r--r-- root       root             4697 ./usr/share/vim/vim74/syntax/cabal.vim
 -rw-r--r-- root       root             5030 ./usr/share/vim/vim74/syntax/calendar.vim
 -rw-r--r-- root       root              921 ./usr/share/vim/vim74/syntax/catalog.vim
@@ -14012,7 +14022,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root              799 ./usr/share/vim/vim74/syntax/conf.vim
 -rw-r--r-- root       root             1847 ./usr/share/vim/vim74/syntax/config.vim
 -rw-r--r-- root       root             4183 ./usr/share/vim/vim74/syntax/context.vim
--rw-r--r-- root       root             2046 ./usr/share/vim/vim74/syntax/cpp.vim
+-rw-r--r-- root       root             2278 ./usr/share/vim/vim74/syntax/cpp.vim
 -rw-r--r-- root       root             1185 ./usr/share/vim/vim74/syntax/crm.vim
 -rw-r--r-- root       root             2566 ./usr/share/vim/vim74/syntax/crontab.vim
 -rw-r--r-- root       root             6090 ./usr/share/vim/vim74/syntax/cs.vim
@@ -14051,7 +14061,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             5071 ./usr/share/vim/vim74/syntax/diva.vim
 -rw-r--r-- root       root             4305 ./usr/share/vim/vim74/syntax/django.vim
 -rw-r--r-- root       root              132 ./usr/share/vim/vim74/syntax/dns.vim
--rw-r--r-- root       root             9548 ./usr/share/vim/vim74/syntax/dnsmasq.vim
+-rw-r--r-- root       root             9851 ./usr/share/vim/vim74/syntax/dnsmasq.vim
 -rw-r--r-- root       root            10771 ./usr/share/vim/vim74/syntax/docbk.vim
 -rw-r--r-- root       root              193 ./usr/share/vim/vim74/syntax/docbksgml.vim
 -rw-r--r-- root       root              191 ./usr/share/vim/vim74/syntax/docbkxml.vim
@@ -14160,7 +14170,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            27423 ./usr/share/vim/vim74/syntax/ishd.vim
 -rw-r--r-- root       root             5361 ./usr/share/vim/vim74/syntax/iss.vim
 -rw-r--r-- root       root             2446 ./usr/share/vim/vim74/syntax/ist.vim
--rw-r--r-- root       root             8525 ./usr/share/vim/vim74/syntax/j.vim
+-rw-r--r-- root       root             8806 ./usr/share/vim/vim74/syntax/j.vim
 -rw-r--r-- root       root             9202 ./usr/share/vim/vim74/syntax/jal.vim
 -rw-r--r-- root       root            27113 ./usr/share/vim/vim74/syntax/jam.vim
 -rw-r--r-- root       root             1006 ./usr/share/vim/vim74/syntax/jargon.vim
@@ -14173,6 +14183,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             5892 ./usr/share/vim/vim74/syntax/jproperties.vim
 -rw-r--r-- root       root             3122 ./usr/share/vim/vim74/syntax/jsp.vim
 -rw-r--r-- root       root            36137 ./usr/share/vim/vim74/syntax/kconfig.vim
+-rw-r--r-- root       root              986 ./usr/share/vim/vim74/syntax/kivy.vim
 -rw-r--r-- root       root             6579 ./usr/share/vim/vim74/syntax/kix.vim
 -rw-r--r-- root       root             2367 ./usr/share/vim/vim74/syntax/kscript.vim
 -rw-r--r-- root       root             2918 ./usr/share/vim/vim74/syntax/kwt.vim
@@ -14255,7 +14266,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            13666 ./usr/share/vim/vim74/syntax/ncf.vim
 -rw-r--r-- root       root             1922 ./usr/share/vim/vim74/syntax/netrc.vim
 -rw-r--r-- root       root             6049 ./usr/share/vim/vim74/syntax/netrw.vim
--rw-r--r-- root       root             2555 ./usr/share/vim/vim74/syntax/ninja.vim
+-rw-r--r-- root       root             2624 ./usr/share/vim/vim74/syntax/ninja.vim
 -rw-r--r-- root       root              755 ./usr/share/vim/vim74/syntax/nosyntax.vim
 -rw-r--r-- root       root            14384 ./usr/share/vim/vim74/syntax/nqc.vim
 -rw-r--r-- root       root             8040 ./usr/share/vim/vim74/syntax/nroff.vim
@@ -14314,7 +14325,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            11886 ./usr/share/vim/vim74/syntax/python.vim
 -rw-r--r-- root       root              596 ./usr/share/vim/vim74/syntax/qf.vim
 -rw-r--r-- root       root             8538 ./usr/share/vim/vim74/syntax/quake.vim
--rw-r--r-- root       root             7628 ./usr/share/vim/vim74/syntax/r.vim
+-rw-r--r-- root       root             7838 ./usr/share/vim/vim74/syntax/r.vim
 -rw-r--r-- root       root             5607 ./usr/share/vim/vim74/syntax/racc.vim
 -rw-r--r-- root       root             7593 ./usr/share/vim/vim74/syntax/radiance.vim
 -rw-r--r-- root       root            17601 ./usr/share/vim/vim74/syntax/ratpoison.vim
@@ -14329,14 +14340,16 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             3171 ./usr/share/vim/vim74/syntax/resolv.vim
 -rw-r--r-- root       root             7764 ./usr/share/vim/vim74/syntax/reva.vim
 -rw-r--r-- root       root            15598 ./usr/share/vim/vim74/syntax/rexx.vim
--rw-r--r-- root       root            10077 ./usr/share/vim/vim74/syntax/rhelp.vim
+-rw-r--r-- root       root            10630 ./usr/share/vim/vim74/syntax/rhelp.vim
 -rw-r--r-- root       root             2438 ./usr/share/vim/vim74/syntax/rib.vim
+-rw-r--r-- root       root             2650 ./usr/share/vim/vim74/syntax/rmd.vim
 -rw-r--r-- root       root             2251 ./usr/share/vim/vim74/syntax/rnc.vim
 -rw-r--r-- root       root              817 ./usr/share/vim/vim74/syntax/rng.vim
 -rw-r--r-- root       root             2058 ./usr/share/vim/vim74/syntax/rnoweb.vim
 -rw-r--r-- root       root             1840 ./usr/share/vim/vim74/syntax/robots.vim
 -rw-r--r-- root       root             2159 ./usr/share/vim/vim74/syntax/rpcgen.vim
 -rw-r--r-- root       root            25985 ./usr/share/vim/vim74/syntax/rpl.vim
+-rw-r--r-- root       root             1337 ./usr/share/vim/vim74/syntax/rrst.vim
 -rw-r--r-- root       root             8266 ./usr/share/vim/vim74/syntax/rst.vim
 -rw-r--r-- root       root             2740 ./usr/share/vim/vim74/syntax/rtf.vim
 -rw-r--r-- root       root            28422 ./usr/share/vim/vim74/syntax/ruby.vim
@@ -14577,13 +14590,15 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/tutor
 -rw-r--r-- root       root            33314 ./usr/share/vim/vim74/tutor/tutor.sk
 -rw-r--r-- root       root            33311 ./usr/share/vim/vim74/tutor/tutor.sk.cp1250
 -rw-r--r-- root       root            35526 ./usr/share/vim/vim74/tutor/tutor.sk.utf-8
+-rw-r--r-- root       root            33060 ./usr/share/vim/vim74/tutor/tutor.sr.cp1250
+-rw-r--r-- root       root            33557 ./usr/share/vim/vim74/tutor/tutor.sr.utf-8
 -rw-r--r-- root       root            27798 ./usr/share/vim/vim74/tutor/tutor.sv
 -rw-r--r-- root       root            28700 ./usr/share/vim/vim74/tutor/tutor.sv.utf-8
 -rw-r--r-- root       root            28186 ./usr/share/vim/vim74/tutor/tutor.tr.iso9
 -rw-r--r-- root       root            30226 ./usr/share/vim/vim74/tutor/tutor.tr.utf-8
 -rw-r--r-- root       root            33257 ./usr/share/vim/vim74/tutor/tutor.utf-8
 -rw-r--r-- root       root            32339 ./usr/share/vim/vim74/tutor/tutor.vi.utf-8
--rw-r--r-- root       root             4892 ./usr/share/vim/vim74/tutor/tutor.vim
+-rw-r--r-- root       root             5190 ./usr/share/vim/vim74/tutor/tutor.vim
 -rw-r--r-- root       root            24356 ./usr/share/vim/vim74/tutor/tutor.zh.big5
 -rw-r--r-- root       root            30041 ./usr/share/vim/vim74/tutor/tutor.zh.euc
 -rw-r--r-- root       root            31397 ./usr/share/vim/vim74/tutor/tutor.zh.utf-8
@@ -16324,7 +16339,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              616 ./var/lib/opkg/info/libxfont1.control
 -rw-r--r-- root       root               50 ./var/lib/opkg/info/libxfont1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxfont1.postinst
--rw-r--r-- root       root             1181 ./var/lib/opkg/info/libxft2.control
+-rw-r--r-- root       root             1159 ./var/lib/opkg/info/libxft2.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libxft2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxft2.postinst
 -rw-r--r-- root       root              733 ./var/lib/opkg/info/libxi6.control
@@ -16945,13 +16960,13 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              858 ./var/lib/opkg/info/vagalume.control
 -rw-r--r-- root       root             1179 ./var/lib/opkg/info/vagalume.list
 -rw-r--r-- root       root              459 ./var/lib/opkg/info/vim-common.control
--rw-r--r-- root       root            36012 ./var/lib/opkg/info/vim-common.list
+-rw-r--r-- root       root            36395 ./var/lib/opkg/info/vim-common.list
 -rw-r--r-- root       root              457 ./var/lib/opkg/info/vim-help.control
 -rw-r--r-- root       root             4895 ./var/lib/opkg/info/vim-help.list
 -rw-r--r-- root       root              459 ./var/lib/opkg/info/vim-syntax.control
--rw-r--r-- root       root            22024 ./var/lib/opkg/info/vim-syntax.list
+-rw-r--r-- root       root            22134 ./var/lib/opkg/info/vim-syntax.list
 -rw-r--r-- root       root              458 ./var/lib/opkg/info/vim-tutor.control
--rw-r--r-- root       root             2608 ./var/lib/opkg/info/vim-tutor.list
+-rw-r--r-- root       root             2693 ./var/lib/opkg/info/vim-tutor.list
 -rw-r--r-- root       root              458 ./var/lib/opkg/info/vim-vimrc.control
 -rw-r--r-- root       root               21 ./var/lib/opkg/info/vim-vimrc.list
 -rw-r--r-- root       root              610 ./var/lib/opkg/info/vim.control
@@ -16987,7 +17002,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/xf86-input-mouse.list
 -rw-r--r-- root       root              748 ./var/lib/opkg/info/xf86-input-vmmouse.control
 -rw-r--r-- root       root              150 ./var/lib/opkg/info/xf86-input-vmmouse.list
--rw-r--r-- root       root              534 ./var/lib/opkg/info/xf86-video-vmware.control
+-rw-r--r-- root       root              603 ./var/lib/opkg/info/xf86-video-vmware.control
 -rw-r--r-- root       root               75 ./var/lib/opkg/info/xf86-video-vmware.list
 -rw-r--r-- root       root              823 ./var/lib/opkg/info/xhost.control
 -rw-r--r-- root       root               15 ./var/lib/opkg/info/xhost.list
@@ -17026,8 +17041,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- root       root            82717 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6356949 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root            82730 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root          6357129 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           333713 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           198209 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
