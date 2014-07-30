@@ -520,7 +520,7 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 -rw-r--r-- root       root             1633 ./etc/inputrc
 -rw-r--r-- root       root               33 ./etc/issue
 -rw-r--r-- root       root               30 ./etc/issue.net
--rw-r--r-- root       root            18814 ./etc/ld.so.cache
+-rw-r--r-- root       root            18875 ./etc/ld.so.cache
 -rw-r--r-- root       root                0 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -1602,7 +1602,7 @@ lrwxrwxrwx root       root               11 ./usr/bin/compose -> run-mailcap
 lrwxrwxrwx root       root               25 ./usr/bin/csplit -> /usr/bin/csplit.coreutils
 -rwxr-xr-x root       root           118768 ./usr/bin/csplit.coreutils
 -rwxr-xr-x root       root            17952 ./usr/bin/csslint-0.6
--rwxr-xr-x root       root           156696 ./usr/bin/curl
+-rwxr-xr-x root       root           157048 ./usr/bin/curl
 lrwxrwxrwx root       root               22 ./usr/bin/cut -> /usr/bin/cut.coreutils
 -rwxr-xr-x root       root            40744 ./usr/bin/cut.coreutils
 -rwxr-xr-x root       root            12424 ./usr/bin/cvt
@@ -2026,6 +2026,7 @@ lrwxrwxrwx root       root               26 ./usr/bin/timeout -> /usr/bin/timeou
 -r-xr-xr-x root       root             7720 ./usr/bin/tload
 lrwxrwxrwx root       root               19 ./usr/bin/top -> /usr/bin/top.procps
 -r-xr-xr-x root       root            58328 ./usr/bin/top.procps
+-rwxr-xr-x root       root             8400 ./usr/bin/touchpad-edge-detector
 lrwxrwxrwx root       root               21 ./usr/bin/tr -> /usr/bin/tr.coreutils
 -rwxr-xr-x root       root            48200 ./usr/bin/tr.coreutils
 lrwxrwxrwx root       root               17 ./usr/bin/traceroute -> /bin/busybox.suid
@@ -2901,7 +2902,7 @@ lrwxrwxrwx root       root               17 ./usr/lib/libXfont.so.1 -> libXfont.
 lrwxrwxrwx root       root               15 ./usr/lib/libXft.so.2 -> libXft.so.2.3.2
 -rwxr-xr-x root       root            86304 ./usr/lib/libXft.so.2.3.2
 lrwxrwxrwx root       root               14 ./usr/lib/libXi.so.6 -> libXi.so.6.1.0
--rwxr-xr-x root       root            61784 ./usr/lib/libXi.so.6.1.0
+-rwxr-xr-x root       root            61720 ./usr/lib/libXi.so.6.1.0
 lrwxrwxrwx root       root               20 ./usr/lib/libXinerama.so.1 -> libXinerama.so.1.0.0
 -rwxr-xr-x root       root             9056 ./usr/lib/libXinerama.so.1.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libXmuu.so.1 -> libXmuu.so.1.0.0
@@ -3025,6 +3026,8 @@ lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so.1 -> l
 -rwxr-xr-x root       root            40792 ./usr/lib/libethumb_client.so.1.10.2
 lrwxrwxrwx root       root               17 ./usr/lib/libevas.so.1 -> libevas.so.1.10.2
 -rwxr-xr-x root       root          2026296 ./usr/lib/libevas.so.1.10.2
+lrwxrwxrwx root       root               17 ./usr/lib/libevdev.so.2 -> libevdev.so.2.0.3
+-rwxr-xr-x root       root           100344 ./usr/lib/libevdev.so.2.0.3
 lrwxrwxrwx root       root               21 ./usr/lib/libevent-2.0.so.5 -> libevent-2.0.so.5.1.9
 -rwxr-xr-x root       root           289336 ./usr/lib/libevent-2.0.so.5.1.9
 lrwxrwxrwx root       root               26 ./usr/lib/libevent_core-2.0.so.5 -> libevent_core-2.0.so.5.1.9
@@ -6280,7 +6283,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/xorg/modules
 drwxr-xr-x root       root             4096 ./usr/lib/xorg/modules/drivers
 -rwxr-xr-x root       root            54616 ./usr/lib/xorg/modules/drivers/vmware_drv.so
 drwxr-xr-x root       root             4096 ./usr/lib/xorg/modules/input
--rwxr-xr-x root       root            58536 ./usr/lib/xorg/modules/input/evdev_drv.so
+-rwxr-xr-x root       root            58728 ./usr/lib/xorg/modules/input/evdev_drv.so
 -rwxr-xr-x root       root            22256 ./usr/lib/xorg/modules/input/kbd_drv.so
 -rwxr-xr-x root       root            48896 ./usr/lib/xorg/modules/input/mouse_drv.so
 -rwxr-xr-x root       root            15384 ./usr/lib/xorg/modules/input/vmmouse_drv.so
@@ -8498,7 +8501,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/en_US/LC_MESSAGES
 drwxr-xr-x root       root             4096 ./usr/share/man
 drwxr-xr-x root       root             4096 ./usr/share/mime
 -rw-r--r-- root       root             1441 ./usr/share/mime/XMLnamespaces
--rw-r--r-- root       root             8494 ./usr/share/mime/aliases
+-rw-r--r-- root       root             8910 ./usr/share/mime/aliases
 drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2251 ./usr/share/mime/application/andrew-inset.xml
 -rw-r--r-- root       root             2813 ./usr/share/mime/application/annodex.xml
@@ -8511,7 +8514,8 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2831 ./usr/share/mime/application/gnunet-directory.xml
 -rw-r--r-- root       root             2474 ./usr/share/mime/application/gzip.xml
 -rw-r--r-- root       root             3343 ./usr/share/mime/application/illustrator.xml
--rw-r--r-- root       root             2998 ./usr/share/mime/application/javascript.xml
+-rw-r--r-- root       root             3035 ./usr/share/mime/application/javascript.xml
+-rw-r--r-- root       root              460 ./usr/share/mime/application/json.xml
 -rw-r--r-- root       root             3780 ./usr/share/mime/application/mac-binhex40.xml
 -rw-r--r-- root       root             2812 ./usr/share/mime/application/mathematica.xml
 -rw-r--r-- root       root             3069 ./usr/share/mime/application/mathml+xml.xml
@@ -8526,9 +8530,9 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2895 ./usr/share/mime/application/ogg.xml
 -rw-r--r-- root       root             2623 ./usr/share/mime/application/oxps.xml
 -rw-r--r-- root       root             2800 ./usr/share/mime/application/pdf.xml
--rw-r--r-- root       root             3978 ./usr/share/mime/application/pgp-encrypted.xml
--rw-r--r-- root       root             2806 ./usr/share/mime/application/pgp-keys.xml
--rw-r--r-- root       root             3390 ./usr/share/mime/application/pgp-signature.xml
+-rw-r--r-- root       root             3990 ./usr/share/mime/application/pgp-encrypted.xml
+-rw-r--r-- root       root             2818 ./usr/share/mime/application/pgp-keys.xml
+-rw-r--r-- root       root             3402 ./usr/share/mime/application/pgp-signature.xml
 -rw-r--r-- root       root             3150 ./usr/share/mime/application/pkcs10.xml
 -rw-r--r-- root       root              467 ./usr/share/mime/application/pkcs7-mime.xml
 -rw-r--r-- root       root             3370 ./usr/share/mime/application/pkcs7-signature.xml
@@ -8561,29 +8565,30 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root              337 ./usr/share/mime/application/vnd.lotus-wordpro.xml
 -rw-r--r-- root       root             3041 ./usr/share/mime/application/vnd.mozilla.xul+xml.xml
 -rw-r--r-- root       root             3022 ./usr/share/mime/application/vnd.ms-access.xml
+-rw-r--r-- root       root             2501 ./usr/share/mime/application/vnd.ms-asf.xml
 -rw-r--r-- root       root             2909 ./usr/share/mime/application/vnd.ms-cab-compressed.xml
--rw-r--r-- root       root             2045 ./usr/share/mime/application/vnd.ms-excel.addin.macroEnabled.12.xml
--rw-r--r-- root       root             2475 ./usr/share/mime/application/vnd.ms-excel.sheet.binary.macroEnabled.12.xml
--rw-r--r-- root       root             2766 ./usr/share/mime/application/vnd.ms-excel.sheet.macroEnabled.12.xml
--rw-r--r-- root       root             3103 ./usr/share/mime/application/vnd.ms-excel.template.macroEnabled.12.xml
+-rw-r--r-- root       root             2045 ./usr/share/mime/application/vnd.ms-excel.addin.macroenabled.12.xml
+-rw-r--r-- root       root             2475 ./usr/share/mime/application/vnd.ms-excel.sheet.binary.macroenabled.12.xml
+-rw-r--r-- root       root             2766 ./usr/share/mime/application/vnd.ms-excel.sheet.macroenabled.12.xml
+-rw-r--r-- root       root             3103 ./usr/share/mime/application/vnd.ms-excel.template.macroenabled.12.xml
 -rw-r--r-- root       root             3131 ./usr/share/mime/application/vnd.ms-excel.xml
 -rw-r--r-- root       root             2613 ./usr/share/mime/application/vnd.ms-htmlhelp.xml
--rw-r--r-- root       root             2096 ./usr/share/mime/application/vnd.ms-powerpoint.addin.macroEnabled.12.xml
--rw-r--r-- root       root             2917 ./usr/share/mime/application/vnd.ms-powerpoint.presentation.macroEnabled.12.xml
--rw-r--r-- root       root             2725 ./usr/share/mime/application/vnd.ms-powerpoint.slide.macroEnabled.12.xml
--rw-r--r-- root       root             2911 ./usr/share/mime/application/vnd.ms-powerpoint.slideshow.macroEnabled.12.xml
--rw-r--r-- root       root             3233 ./usr/share/mime/application/vnd.ms-powerpoint.template.macroEnabled.12.xml
+-rw-r--r-- root       root             2096 ./usr/share/mime/application/vnd.ms-powerpoint.addin.macroenabled.12.xml
+-rw-r--r-- root       root             2917 ./usr/share/mime/application/vnd.ms-powerpoint.presentation.macroenabled.12.xml
+-rw-r--r-- root       root             2725 ./usr/share/mime/application/vnd.ms-powerpoint.slide.macroenabled.12.xml
+-rw-r--r-- root       root             2911 ./usr/share/mime/application/vnd.ms-powerpoint.slideshow.macroenabled.12.xml
+-rw-r--r-- root       root             3233 ./usr/share/mime/application/vnd.ms-powerpoint.template.macroenabled.12.xml
 -rw-r--r-- root       root             3155 ./usr/share/mime/application/vnd.ms-powerpoint.xml
 -rw-r--r-- root       root              358 ./usr/share/mime/application/vnd.ms-publisher.xml
 -rw-r--r-- root       root             2580 ./usr/share/mime/application/vnd.ms-tnef.xml
--rw-r--r-- root       root             2593 ./usr/share/mime/application/vnd.ms-word.document.macroEnabled.12.xml
--rw-r--r-- root       root             2927 ./usr/share/mime/application/vnd.ms-word.template.macroEnabled.12.xml
+-rw-r--r-- root       root             2593 ./usr/share/mime/application/vnd.ms-word.document.macroenabled.12.xml
+-rw-r--r-- root       root             2927 ./usr/share/mime/application/vnd.ms-word.template.macroenabled.12.xml
 -rw-r--r-- root       root             3198 ./usr/share/mime/application/vnd.ms-works.xml
 -rw-r--r-- root       root             2632 ./usr/share/mime/application/vnd.ms-wpl.xml
 -rw-r--r-- root       root             2630 ./usr/share/mime/application/vnd.nintendo.snes.rom.xml
 -rw-r--r-- root       root             2424 ./usr/share/mime/application/vnd.oasis.opendocument.chart-template.xml
 -rw-r--r-- root       root             2539 ./usr/share/mime/application/vnd.oasis.opendocument.chart.xml
--rw-r--r-- root       root             2889 ./usr/share/mime/application/vnd.oasis.opendocument.database.xml
+-rw-r--r-- root       root             2936 ./usr/share/mime/application/vnd.oasis.opendocument.database.xml
 -rw-r--r-- root       root             2440 ./usr/share/mime/application/vnd.oasis.opendocument.formula-template.xml
 -rw-r--r-- root       root             2614 ./usr/share/mime/application/vnd.oasis.opendocument.formula.xml
 -rw-r--r-- root       root             2617 ./usr/share/mime/application/vnd.oasis.opendocument.graphics-flat-xml.xml
@@ -8618,7 +8623,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             3314 ./usr/share/mime/application/vnd.stardivision.impress.xml
 -rw-r--r-- root       root             2882 ./usr/share/mime/application/vnd.stardivision.mail.xml
 -rw-r--r-- root       root             2807 ./usr/share/mime/application/vnd.stardivision.math.xml
--rw-r--r-- root       root             3141 ./usr/share/mime/application/vnd.stardivision.writer.xml
+-rw-r--r-- root       root             3202 ./usr/share/mime/application/vnd.stardivision.writer.xml
 -rw-r--r-- root       root             3053 ./usr/share/mime/application/vnd.sun.xml.calc.template.xml
 -rw-r--r-- root       root             3211 ./usr/share/mime/application/vnd.sun.xml.calc.xml
 -rw-r--r-- root       root             3032 ./usr/share/mime/application/vnd.sun.xml.draw.template.xml
@@ -8706,6 +8711,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2570 ./usr/share/mime/application/x-font-vfont.xml
 -rw-r--r-- root       root             3090 ./usr/share/mime/application/x-frame.xml
 -rw-r--r-- root       root             2698 ./usr/share/mime/application/x-gameboy-rom.xml
+-rw-r--r-- root       root              397 ./usr/share/mime/application/x-gamecube-rom.xml
 -rw-r--r-- root       root             2856 ./usr/share/mime/application/x-gba-rom.xml
 -rw-r--r-- root       root             2788 ./usr/share/mime/application/x-gdbm.xml
 -rw-r--r-- root       root             3094 ./usr/share/mime/application/x-gedcom.xml
@@ -8731,6 +8737,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root              338 ./usr/share/mime/application/x-iff.xml
 -rw-r--r-- root       root             2698 ./usr/share/mime/application/x-ipod-firmware.xml
 -rw-r--r-- root       root             2870 ./usr/share/mime/application/x-it87.xml
+-rw-r--r-- root       root              449 ./usr/share/mime/application/x-iwork-keynote-sffkey.xml
 -rw-r--r-- root       root             2741 ./usr/share/mime/application/x-java-archive.xml
 -rw-r--r-- root       root             2464 ./usr/share/mime/application/x-java-jce-keystore.xml
 -rw-r--r-- root       root             2531 ./usr/share/mime/application/x-java-jnlp-file.xml
@@ -8762,6 +8769,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2933 ./usr/share/mime/application/x-lrzip-compressed-tar.xml
 -rw-r--r-- root       root             2184 ./usr/share/mime/application/x-lrzip.xml
 -rw-r--r-- root       root             2637 ./usr/share/mime/application/x-lyx.xml
+-rw-r--r-- root       root              322 ./usr/share/mime/application/x-lz4.xml
 -rw-r--r-- root       root             2194 ./usr/share/mime/application/x-lzip.xml
 -rw-r--r-- root       root             3298 ./usr/share/mime/application/x-lzma-compressed-tar.xml
 -rw-r--r-- root       root             2584 ./usr/share/mime/application/x-lzma.xml
@@ -8786,7 +8794,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2889 ./usr/share/mime/application/x-navi-animation.xml
 -rw-r--r-- root       root             2492 ./usr/share/mime/application/x-nes-rom.xml
 -rw-r--r-- root       root             3281 ./usr/share/mime/application/x-netcdf.xml
--rw-r--r-- root       root             3091 ./usr/share/mime/application/x-netshow-channel.xml
+-rw-r--r-- root       root             3099 ./usr/share/mime/application/x-netshow-channel.xml
 -rw-r--r-- root       root             2604 ./usr/share/mime/application/x-nintendo-ds-rom.xml
 -rw-r--r-- root       root             1944 ./usr/share/mime/application/x-nzb.xml
 -rw-r--r-- root       root             2583 ./usr/share/mime/application/x-object.xml
@@ -8794,6 +8802,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             3128 ./usr/share/mime/application/x-oleo.xml
 -rw-r--r-- root       root             2450 ./usr/share/mime/application/x-pak.xml
 -rw-r--r-- root       root             2686 ./usr/share/mime/application/x-par2.xml
+-rw-r--r-- root       root              341 ./usr/share/mime/application/x-pc-engine-rom.xml
 -rw-r--r-- root       root             2811 ./usr/share/mime/application/x-pef-executable.xml
 -rw-r--r-- root       root             2933 ./usr/share/mime/application/x-perl.xml
 -rw-r--r-- root       root             2807 ./usr/share/mime/application/x-php.xml
@@ -8811,6 +8820,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2689 ./usr/share/mime/application/x-rar.xml
 -rw-r--r-- root       root              408 ./usr/share/mime/application/x-raw-disk-image-xz-compressed.xml
 -rw-r--r-- root       root              330 ./usr/share/mime/application/x-raw-disk-image.xml
+-rw-r--r-- root       root              257 ./usr/share/mime/application/x-riff.xml
 -rw-r--r-- root       root             2541 ./usr/share/mime/application/x-rpm.xml
 -rw-r--r-- root       root             2745 ./usr/share/mime/application/x-ruby.xml
 -rw-r--r-- root       root             2743 ./usr/share/mime/application/x-sami.xml
@@ -8826,7 +8836,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             3337 ./usr/share/mime/application/x-sms-rom.xml
 -rw-r--r-- root       root              409 ./usr/share/mime/application/x-source-rpm.xml
 -rw-r--r-- root       root             2655 ./usr/share/mime/application/x-spss-por.xml
--rw-r--r-- root       root             2295 ./usr/share/mime/application/x-spss-sav.xml
+-rw-r--r-- root       root             2322 ./usr/share/mime/application/x-spss-sav.xml
 -rw-r--r-- root       root             2760 ./usr/share/mime/application/x-sqlite2.xml
 -rw-r--r-- root       root             2760 ./usr/share/mime/application/x-sqlite3.xml
 -rw-r--r-- root       root             2771 ./usr/share/mime/application/x-stuffit.xml
@@ -8849,6 +8859,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2676 ./usr/share/mime/application/x-ufraw.xml
 -rw-r--r-- root       root             2530 ./usr/share/mime/application/x-ustar.xml
 -rw-r--r-- root       root             2990 ./usr/share/mime/application/x-wais-source.xml
+-rw-r--r-- root       root              455 ./usr/share/mime/application/x-wii-rom.xml
 -rw-r--r-- root       root             3038 ./usr/share/mime/application/x-windows-themepack.xml
 -rw-r--r-- root       root             3428 ./usr/share/mime/application/x-wpg.xml
 -rw-r--r-- root       root             1954 ./usr/share/mime/application/x-wwf.xml
@@ -8861,6 +8872,7 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2477 ./usr/share/mime/application/x-xzpdf.xml
 -rw-r--r-- root       root             2362 ./usr/share/mime/application/x-yaml.xml
 -rw-r--r-- root       root             2684 ./usr/share/mime/application/x-zerosize.xml
+-rw-r--r-- root       root              359 ./usr/share/mime/application/x-zip-compressed-fb2.xml
 -rw-r--r-- root       root             2485 ./usr/share/mime/application/x-zoo.xml
 -rw-r--r-- root       root             2713 ./usr/share/mime/application/xhtml+xml.xml
 -rw-r--r-- root       root             2554 ./usr/share/mime/application/xml-dtd.xml
@@ -8870,10 +8882,10 @@ drwxr-xr-x root       root            24576 ./usr/share/mime/application
 -rw-r--r-- root       root             2962 ./usr/share/mime/application/xspf+xml.xml
 -rw-r--r-- root       root             2566 ./usr/share/mime/application/zip.xml
 drwxr-xr-x root       root             4096 ./usr/share/mime/audio
--rw-r--r-- root       root             2550 ./usr/share/mime/audio/AMR-WB.xml
--rw-r--r-- root       root             2403 ./usr/share/mime/audio/AMR.xml
 -rw-r--r-- root       root              355 ./usr/share/mime/audio/aac.xml
 -rw-r--r-- root       root             3092 ./usr/share/mime/audio/ac3.xml
+-rw-r--r-- root       root             2550 ./usr/share/mime/audio/amr-wb.xml
+-rw-r--r-- root       root             2403 ./usr/share/mime/audio/amr.xml
 -rw-r--r-- root       root             2387 ./usr/share/mime/audio/annodex.xml
 -rw-r--r-- root       root             2839 ./usr/share/mime/audio/basic.xml
 -rw-r--r-- root       root             2571 ./usr/share/mime/audio/flac.xml
@@ -8881,7 +8893,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/audio
 -rw-r--r-- root       root             2294 ./usr/share/mime/audio/mp2.xml
 -rw-r--r-- root       root             2504 ./usr/share/mime/audio/mp4.xml
 -rw-r--r-- root       root             2686 ./usr/share/mime/audio/mpeg.xml
--rw-r--r-- root       root             2328 ./usr/share/mime/audio/ogg.xml
+-rw-r--r-- root       root             2355 ./usr/share/mime/audio/ogg.xml
 -rw-r--r-- root       root             2952 ./usr/share/mime/audio/prs.sid.xml
 -rw-r--r-- root       root              351 ./usr/share/mime/audio/vnd.dts.hd.xml
 -rw-r--r-- root       root              303 ./usr/share/mime/audio/vnd.dts.xml
@@ -8903,8 +8915,9 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/audio
 -rw-r--r-- root       root             3369 ./usr/share/mime/audio/x-mod.xml
 -rw-r--r-- root       root             3256 ./usr/share/mime/audio/x-mpegurl.xml
 -rw-r--r-- root       root             3408 ./usr/share/mime/audio/x-ms-asx.xml
--rw-r--r-- root       root             2726 ./usr/share/mime/audio/x-ms-wma.xml
+-rw-r--r-- root       root             2734 ./usr/share/mime/audio/x-ms-wma.xml
 -rw-r--r-- root       root             2490 ./usr/share/mime/audio/x-musepack.xml
+-rw-r--r-- root       root              313 ./usr/share/mime/audio/x-opus+ogg.xml
 -rw-r--r-- root       root             2307 ./usr/share/mime/audio/x-psf.xml
 -rw-r--r-- root       root             2879 ./usr/share/mime/audio/x-psflib.xml
 -rw-r--r-- root       root             2537 ./usr/share/mime/audio/x-riff.xml
@@ -8922,9 +8935,9 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/audio
 -rw-r--r-- root       root             3264 ./usr/share/mime/audio/x-xi.xml
 -rw-r--r-- root       root             3127 ./usr/share/mime/audio/x-xm.xml
 -rw-r--r-- root       root             2417 ./usr/share/mime/audio/x-xmf.xml
--rw-r--r-- root       root            14340 ./usr/share/mime/generic-icons
--rw-r--r-- root       root            24155 ./usr/share/mime/globs
--rw-r--r-- root       root            26865 ./usr/share/mime/globs2
+-rw-r--r-- root       root            14616 ./usr/share/mime/generic-icons
+-rw-r--r-- root       root            24492 ./usr/share/mime/globs
+-rw-r--r-- root       root            27235 ./usr/share/mime/globs2
 -rw-r--r-- root       root                0 ./usr/share/mime/icons
 drwxr-xr-x root       root             4096 ./usr/share/mime/image
 -rw-r--r-- root       root             3063 ./usr/share/mime/image/bmp.xml
@@ -8951,6 +8964,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/image
 -rw-r--r-- root       root             3040 ./usr/share/mime/image/vnd.ms-modi.xml
 -rw-r--r-- root       root             2556 ./usr/share/mime/image/vnd.rn-realpix.xml
 -rw-r--r-- root       root             2430 ./usr/share/mime/image/vnd.wap.wbmp.xml
+-rw-r--r-- root       root              272 ./usr/share/mime/image/webp.xml
 -rw-r--r-- root       root             3018 ./usr/share/mime/image/x-3ds.xml
 -rw-r--r-- root       root             2880 ./usr/share/mime/image/x-adobe-dng.xml
 -rw-r--r-- root       root              309 ./usr/share/mime/image/x-apple-ios-png.xml
@@ -9019,7 +9033,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/inode
 -rw-r--r-- root       root             2719 ./usr/share/mime/inode/mount-point.xml
 -rw-r--r-- root       root             2242 ./usr/share/mime/inode/socket.xml
 -rw-r--r-- root       root             2970 ./usr/share/mime/inode/symlink.xml
--rw-r--r-- root       root            23059 ./usr/share/mime/magic
+-rw-r--r-- root       root            23448 ./usr/share/mime/magic
 drwxr-xr-x root       root             4096 ./usr/share/mime/message
 -rw-r--r-- root       root             3414 ./usr/share/mime/message/delivery-status.xml
 -rw-r--r-- root       root             3429 ./usr/share/mime/message/disposition-notification.xml
@@ -9028,7 +9042,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/message
 -rw-r--r-- root       root             3405 ./usr/share/mime/message/partial.xml
 -rw-r--r-- root       root             2901 ./usr/share/mime/message/rfc822.xml
 -rw-r--r-- root       root             3112 ./usr/share/mime/message/x-gnu-rmail.xml
--rw-r--r-- root       root           113372 ./usr/share/mime/mime.cache
+-rw-r--r-- root       root           115108 ./usr/share/mime/mime.cache
 drwxr-xr-x root       root             4096 ./usr/share/mime/model
 -rw-r--r-- root       root             2937 ./usr/share/mime/model/vrml.xml
 drwxr-xr-x root       root             4096 ./usr/share/mime/multipart
@@ -9043,11 +9057,11 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/multipart
 -rw-r--r-- root       root             3513 ./usr/share/mime/multipart/x-mixed-replace.xml
 drwxr-xr-x root       root             4096 ./usr/share/mime/packages
 -rw-r--r-- root       root              342 ./usr/share/mime/packages/edje.xml
--rw-r--r-- root       root            13436 ./usr/share/mime/subclasses
+-rw-r--r-- root       root            13637 ./usr/share/mime/subclasses
 drwxr-xr-x root       root             4096 ./usr/share/mime/text
 -rw-r--r-- root       root             2787 ./usr/share/mime/text/cache-manifest.xml
 -rw-r--r-- root       root             2844 ./usr/share/mime/text/calendar.xml
--rw-r--r-- root       root             2748 ./usr/share/mime/text/css.xml
+-rw-r--r-- root       root             2720 ./usr/share/mime/text/css.xml
 -rw-r--r-- root       root             2627 ./usr/share/mime/text/csv.xml
 -rw-r--r-- root       root             3413 ./usr/share/mime/text/enriched.xml
 -rw-r--r-- root       root             2560 ./usr/share/mime/text/html.xml
@@ -9092,8 +9106,8 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/text
 -rw-r--r-- root       root             1947 ./usr/share/mime/text/x-go.xml
 -rw-r--r-- root       root             2735 ./usr/share/mime/text/x-google-video-pointer.xml
 -rw-r--r-- root       root             3069 ./usr/share/mime/text/x-haskell.xml
--rw-r--r-- root       root             2645 ./usr/share/mime/text/x-iMelody.xml
 -rw-r--r-- root       root             2740 ./usr/share/mime/text/x-idl.xml
+-rw-r--r-- root       root             2645 ./usr/share/mime/text/x-imelody.xml
 -rw-r--r-- root       root             2929 ./usr/share/mime/text/x-install.xml
 -rw-r--r-- root       root             3047 ./usr/share/mime/text/x-iptables.xml
 -rw-r--r-- root       root             2872 ./usr/share/mime/text/x-java.xml
@@ -9149,8 +9163,8 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/text
 -rw-r--r-- root       root             2370 ./usr/share/mime/text/x-xmi.xml
 -rw-r--r-- root       root             2593 ./usr/share/mime/text/x-xslfo.xml
 -rw-r--r-- root       root             2735 ./usr/share/mime/text/xmcd.xml
--rw-r--r-- root       root              918 ./usr/share/mime/treemagic
--rw-r--r-- root       root            14864 ./usr/share/mime/types
+-rw-r--r-- root       root              964 ./usr/share/mime/treemagic
+-rw-r--r-- root       root            15099 ./usr/share/mime/types
 -rw-r--r-- root       root                4 ./usr/share/mime/version
 drwxr-xr-x root       root             4096 ./usr/share/mime/video
 -rw-r--r-- root       root             3638 ./usr/share/mime/video/3gpp.xml
@@ -9175,8 +9189,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/video
 -rw-r--r-- root       root              336 ./usr/share/mime/video/x-matroska-3d.xml
 -rw-r--r-- root       root             2779 ./usr/share/mime/video/x-matroska.xml
 -rw-r--r-- root       root             2682 ./usr/share/mime/video/x-mng.xml
--rw-r--r-- root       root             2501 ./usr/share/mime/video/x-ms-asf.xml
--rw-r--r-- root       root             2715 ./usr/share/mime/video/x-ms-wmv.xml
+-rw-r--r-- root       root             2723 ./usr/share/mime/video/x-ms-wmv.xml
 -rw-r--r-- root       root             2867 ./usr/share/mime/video/x-msvideo.xml
 -rw-r--r-- root       root             2507 ./usr/share/mime/video/x-nsv.xml
 -rw-r--r-- root       root             2402 ./usr/share/mime/video/x-ogm+ogg.xml
@@ -15181,7 +15194,7 @@ drwxr-xr-x root       root             4096 ./var/backups
 drwxr-xr-x root       root             4096 ./var/cache
 drwxr-xr-x root       root             4096 ./var/cache/fontconfig
 drwx------ root       root             4096 ./var/cache/ldconfig
--rw------- root       root            18505 ./var/cache/ldconfig/aux-cache
+-rw------- root       root            18567 ./var/cache/ldconfig/aux-cache
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x root       root             4096 ./var/lib/alsa
 -rw-r--r-- root       root               28 ./var/lib/alsa/asound.state
@@ -15647,98 +15660,98 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              531 ./var/lib/opkg/info/json-c.control
 -rw-r--r-- root       root              100 ./var/lib/opkg/info/json-c.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/json-c.postinst
--rw-r--r-- root       root              506 ./var/lib/opkg/info/kernel-3.14.5-yocto-standard.control
+-rw-r--r-- root       root              505 ./var/lib/opkg/info/kernel-3.14.5-yocto-standard.control
 -rw-r--r-- root       root              100 ./var/lib/opkg/info/kernel-3.14.5-yocto-standard.list
 -rwxr-xr-x root       root              223 ./var/lib/opkg/info/kernel-3.14.5-yocto-standard.postinst
--rw-r--r-- root       root              478 ./var/lib/opkg/info/kernel-module-binfmt-misc.control
+-rw-r--r-- root       root              477 ./var/lib/opkg/info/kernel-module-binfmt-misc.control
 -rw-r--r-- root       root               60 ./var/lib/opkg/info/kernel-module-binfmt-misc.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-binfmt-misc.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-binfmt-misc.postrm
--rw-r--r-- root       root              496 ./var/lib/opkg/info/kernel-module-crc-ccitt.control
+-rw-r--r-- root       root              495 ./var/lib/opkg/info/kernel-module-crc-ccitt.control
 -rw-r--r-- root       root              106 ./var/lib/opkg/info/kernel-module-crc-ccitt.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-crc-ccitt.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-crc-ccitt.postrm
--rw-r--r-- root       root              516 ./var/lib/opkg/info/kernel-module-ip-tables.control
+-rw-r--r-- root       root              515 ./var/lib/opkg/info/kernel-module-ip-tables.control
 -rw-r--r-- root       root               74 ./var/lib/opkg/info/kernel-module-ip-tables.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-ip-tables.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-ip-tables.postrm
--rw-r--r-- root       root              594 ./var/lib/opkg/info/kernel-module-ipt-masquerade.control
+-rw-r--r-- root       root              593 ./var/lib/opkg/info/kernel-module-ipt-masquerade.control
 -rw-r--r-- root       root               79 ./var/lib/opkg/info/kernel-module-ipt-masquerade.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-ipt-masquerade.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-ipt-masquerade.postrm
--rw-r--r-- root       root              559 ./var/lib/opkg/info/kernel-module-iptable-filter.control
+-rw-r--r-- root       root              558 ./var/lib/opkg/info/kernel-module-iptable-filter.control
 -rw-r--r-- root       root               79 ./var/lib/opkg/info/kernel-module-iptable-filter.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-iptable-filter.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-iptable-filter.postrm
--rw-r--r-- root       root              604 ./var/lib/opkg/info/kernel-module-iptable-nat.control
+-rw-r--r-- root       root              603 ./var/lib/opkg/info/kernel-module-iptable-nat.control
 -rw-r--r-- root       root               76 ./var/lib/opkg/info/kernel-module-iptable-nat.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-iptable-nat.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-iptable-nat.postrm
--rw-r--r-- root       root              554 ./var/lib/opkg/info/kernel-module-nf-conntrack-ipv4.control
+-rw-r--r-- root       root              553 ./var/lib/opkg/info/kernel-module-nf-conntrack-ipv4.control
 -rw-r--r-- root       root               82 ./var/lib/opkg/info/kernel-module-nf-conntrack-ipv4.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-nf-conntrack-ipv4.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-nf-conntrack-ipv4.postrm
--rw-r--r-- root       root              481 ./var/lib/opkg/info/kernel-module-nf-conntrack.control
+-rw-r--r-- root       root              480 ./var/lib/opkg/info/kernel-module-nf-conntrack.control
 -rw-r--r-- root       root              129 ./var/lib/opkg/info/kernel-module-nf-conntrack.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-nf-conntrack.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-nf-conntrack.postrm
--rw-r--r-- root       root              487 ./var/lib/opkg/info/kernel-module-nf-defrag-ipv4.control
+-rw-r--r-- root       root              486 ./var/lib/opkg/info/kernel-module-nf-defrag-ipv4.control
 -rw-r--r-- root       root              333 ./var/lib/opkg/info/kernel-module-nf-defrag-ipv4.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-nf-defrag-ipv4.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-nf-defrag-ipv4.postrm
--rw-r--r-- root       root              528 ./var/lib/opkg/info/kernel-module-nf-nat-ipv4.control
+-rw-r--r-- root       root              527 ./var/lib/opkg/info/kernel-module-nf-nat-ipv4.control
 -rw-r--r-- root       root               76 ./var/lib/opkg/info/kernel-module-nf-nat-ipv4.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-nf-nat-ipv4.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-nf-nat-ipv4.postrm
--rw-r--r-- root       root              491 ./var/lib/opkg/info/kernel-module-nf-nat.control
+-rw-r--r-- root       root              490 ./var/lib/opkg/info/kernel-module-nf-nat.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/kernel-module-nf-nat.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-nf-nat.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-nf-nat.postrm
--rw-r--r-- root       root              469 ./var/lib/opkg/info/kernel-module-nls-utf8.control
+-rw-r--r-- root       root              468 ./var/lib/opkg/info/kernel-module-nls-utf8.control
 -rw-r--r-- root       root              157 ./var/lib/opkg/info/kernel-module-nls-utf8.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-nls-utf8.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-nls-utf8.postrm
--rw-r--r-- root       root              544 ./var/lib/opkg/info/kernel-module-ppp-async.control
+-rw-r--r-- root       root              543 ./var/lib/opkg/info/kernel-module-ppp-async.control
 -rw-r--r-- root       root               71 ./var/lib/opkg/info/kernel-module-ppp-async.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-ppp-async.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-ppp-async.postrm
--rw-r--r-- root       root              525 ./var/lib/opkg/info/kernel-module-ppp-deflate.control
+-rw-r--r-- root       root              524 ./var/lib/opkg/info/kernel-module-ppp-deflate.control
 -rw-r--r-- root       root              132 ./var/lib/opkg/info/kernel-module-ppp-deflate.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-ppp-deflate.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-ppp-deflate.postrm
--rw-r--r-- root       root              498 ./var/lib/opkg/info/kernel-module-ppp-generic.control
+-rw-r--r-- root       root              497 ./var/lib/opkg/info/kernel-module-ppp-generic.control
 -rw-r--r-- root       root               73 ./var/lib/opkg/info/kernel-module-ppp-generic.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-ppp-generic.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-ppp-generic.postrm
--rw-r--r-- root       root              457 ./var/lib/opkg/info/kernel-module-slhc.control
+-rw-r--r-- root       root              456 ./var/lib/opkg/info/kernel-module-slhc.control
 -rw-r--r-- root       root              127 ./var/lib/opkg/info/kernel-module-slhc.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-slhc.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-slhc.postrm
--rw-r--r-- root       root              530 ./var/lib/opkg/info/kernel-module-snd-ens1370.control
+-rw-r--r-- root       root              529 ./var/lib/opkg/info/kernel-module-snd-ens1370.control
 -rw-r--r-- root       root              169 ./var/lib/opkg/info/kernel-module-snd-ens1370.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-snd-ens1370.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-snd-ens1370.postrm
--rw-r--r-- root       root              511 ./var/lib/opkg/info/kernel-module-snd-rawmidi.control
+-rw-r--r-- root       root              510 ./var/lib/opkg/info/kernel-module-snd-rawmidi.control
 -rw-r--r-- root       root              122 ./var/lib/opkg/info/kernel-module-snd-rawmidi.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-snd-rawmidi.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-snd-rawmidi.postrm
--rw-r--r-- root       root              499 ./var/lib/opkg/info/kernel-module-softdog.control
+-rw-r--r-- root       root              498 ./var/lib/opkg/info/kernel-module-softdog.control
 -rw-r--r-- root       root              181 ./var/lib/opkg/info/kernel-module-softdog.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-softdog.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-softdog.postrm
--rw-r--r-- root       root              487 ./var/lib/opkg/info/kernel-module-tun.control
+-rw-r--r-- root       root              486 ./var/lib/opkg/info/kernel-module-tun.control
 -rw-r--r-- root       root              116 ./var/lib/opkg/info/kernel-module-tun.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-tun.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-tun.postrm
--rw-r--r-- root       root              525 ./var/lib/opkg/info/kernel-module-uvesafb.control
+-rw-r--r-- root       root              524 ./var/lib/opkg/info/kernel-module-uvesafb.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/kernel-module-uvesafb.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-uvesafb.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-uvesafb.postrm
--rw-r--r-- root       root              508 ./var/lib/opkg/info/kernel-module-x-tables.control
+-rw-r--r-- root       root              507 ./var/lib/opkg/info/kernel-module-x-tables.control
 -rw-r--r-- root       root               68 ./var/lib/opkg/info/kernel-module-x-tables.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/kernel-module-x-tables.postinst
 -rwxr-xr-x root       root              119 ./var/lib/opkg/info/kernel-module-x-tables.postrm
--rw-r--r-- root       root              483 ./var/lib/opkg/info/kernel.control
+-rw-r--r-- root       root              482 ./var/lib/opkg/info/kernel.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/kernel.list
 -rw-r--r-- root       root              789 ./var/lib/opkg/info/killall.control
 -rw-r--r-- root       root               24 ./var/lib/opkg/info/killall.list
@@ -15878,6 +15891,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeo1.postinst
 -rw-r--r-- root       root              613 ./var/lib/opkg/info/liberation-fonts.control
 -rw-r--r-- root       root              737 ./var/lib/opkg/info/liberation-fonts.list
+-rw-r--r-- root       root              440 ./var/lib/opkg/info/libevdev.control
+-rw-r--r-- root       root               82 ./var/lib/opkg/info/libevdev.list
+-rwxr-xr-x root       root               90 ./var/lib/opkg/info/libevdev.postinst
 -rw-r--r-- root       root              501 ./var/lib/opkg/info/libevent.control
 -rw-r--r-- root       root              297 ./var/lib/opkg/info/libevent.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libevent.postinst
@@ -16826,7 +16842,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root              881 ./var/lib/opkg/info/shadow.postinst
 -rwxr-xr-x root       root              585 ./var/lib/opkg/info/shadow.postrm
 -rw-r--r-- root       root              575 ./var/lib/opkg/info/shared-mime-info.control
--rw-r--r-- root       root            29082 ./var/lib/opkg/info/shared-mime-info.list
+-rw-r--r-- root       root            29517 ./var/lib/opkg/info/shared-mime-info.list
 -rw-r--r-- root       root             1868 ./var/lib/opkg/info/shr-e-gadgets.control
 -rw-r--r-- root       root             1217 ./var/lib/opkg/info/shr-e-gadgets.list
 -rw-r--r-- root       root              518 ./var/lib/opkg/info/shr-settings-addons-illume.control
@@ -16994,7 +17010,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root             4994 ./var/lib/opkg/info/xcursor-transparent-theme.list
 -rw-r--r-- root       root              996 ./var/lib/opkg/info/xdpyinfo.control
 -rw-r--r-- root       root               18 ./var/lib/opkg/info/xdpyinfo.list
--rw-r--r-- root       root             1018 ./var/lib/opkg/info/xf86-input-evdev.control
+-rw-r--r-- root       root             1039 ./var/lib/opkg/info/xf86-input-evdev.control
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/xf86-input-evdev.list
 -rw-r--r-- root       root              663 ./var/lib/opkg/info/xf86-input-keyboard.control
 -rw-r--r-- root       root               68 ./var/lib/opkg/info/xf86-input-keyboard.list
@@ -17042,9 +17058,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            82730 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6357129 ./var/lib/opkg/lists/oe-core2-64
--rw-r--r-- root       root           333713 ./var/lib/opkg/lists/oe-qemux86_64
--rw-r--r-- root       root           198209 ./var/lib/opkg/status
+-rw-r--r-- root       root          6360326 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root           377865 ./var/lib/opkg/lists/oe-qemux86_64
+-rw-r--r-- root       root           198369 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 drwxr-xr-x root       root             4096 ./var/lock

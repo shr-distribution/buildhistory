@@ -32,7 +32,7 @@
 2332	KiB xserver-xorg
 2237	KiB libicui18n53
 2183	KiB advancedcaching
-2089	KiB shared-mime-info
+2097	KiB shared-mime-info
 2085	KiB libaspell15
 2041	KiB gstreamer
 2033	KiB vim-tutor
@@ -280,6 +280,7 @@
 109	KiB libexif-locale-en-gb
 108	KiB opimd-utils
 106	KiB v86d
+106	KiB libevdev
 105	KiB python-pycairo
 103	KiB libglade-2.0-0
 102	KiB pam-plugin-unix
