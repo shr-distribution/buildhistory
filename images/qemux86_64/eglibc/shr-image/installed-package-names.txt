@@ -41,7 +41,6 @@ e-wm-menu-shr
 e-wm-sysactions-shr
 e-wm-theme-illume-gry
 e-wm-utils
-e2fsprogs-e2fsck
 ecalc
 ecore-audio
 ecore-con
@@ -174,7 +173,6 @@ iptables
 json-c
 kernel
 kernel-3.14.5-yocto-standard
-kernel-module-binfmt-misc
 kernel-module-crc-ccitt
 kernel-module-ip-tables
 kernel-module-ipt-masquerade
@@ -215,7 +213,6 @@ libc6
 libcairo2
 libcap2
 libcmtspeechdata0
-libcom-err2
 libcroco
 libcrypto1.0.0
 libcurl4
@@ -227,7 +224,6 @@ libdrm-nouveau2
 libdrm-radeon1
 libdrm2
 libdw1
-libe2p2
 libecore1
 libedbus1
 libedje-utils
@@ -250,7 +246,6 @@ libexif-locale-cs
 libexif-locale-en-gb
 libexif12
 libexpat1
-libext2fs2
 libffi6
 libflac8
 libfontconfig1
@@ -275,6 +270,7 @@ libgisi0
 libgl-mesa
 libglade-2.0-0
 libglapi0
+libgles1-mesa
 libgles2-mesa
 libglib-2.0-0
 libglib-2.0-locale-cs
@@ -374,6 +370,7 @@ libsqlite3-0
 libssl1.0.0
 libstdc++6
 libsysfs2
+libtcl8.6-0
 libthread-db1
 libtiff5
 libtinfo5
@@ -434,6 +431,7 @@ make-locale-cs
 matchbox-keyboard-im
 mbuffer
 mdbus2
+mesa-demos
 mesa-megadriver
 mime-support
 mioctl
@@ -474,14 +472,12 @@ opkg-config-base
 packagegroup-base
 packagegroup-base-alsa
 packagegroup-base-bluetooth
-packagegroup-base-extended
 packagegroup-base-ipv6
 packagegroup-base-ppp
 packagegroup-base-usbgadget
 packagegroup-boot
 packagegroup-cli-tools
 packagegroup-cli-tools-debug
-packagegroup-core-boot
 packagegroup-core-ssh-openssh
 packagegroup-core-x11-utils
 packagegroup-core-x11-xserver
@@ -634,13 +630,9 @@ subversion
 sysfsutils
 sysstat
 sysstat-locale-cs
-systemd
-systemd-binfmt
-systemd-compat-units
-systemd-machine-units
-systemd-serialgetty
 tar
 tar-locale-cs
+tcl
 tcpdump
 terminology
 terminology-themes
@@ -656,15 +648,13 @@ tzdata-asia
 tzdata-australia
 tzdata-europe
 udev
-udev-extraconf
 udev-hwdb
 update-alternatives-opkg
-util-linux-agetty
+usb-modeswitch
+usb-modeswitch-data
 util-linux-fdisk
-util-linux-fsck
 util-linux-locale-cs
 util-linux-mcookie
-util-linux-mount
 v86d
 vagalume
 vim

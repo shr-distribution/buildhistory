@@ -2,7 +2,6 @@
 30517	KiB mesa-megadriver
 21025	KiB libicudata53
 12272	KiB vim-common
-10978	KiB systemd
 6693	KiB python-elementary
 6341	KiB e-wm
 6256	KiB fbreader
@@ -21,6 +20,7 @@
 3225	KiB subversion
 3067	KiB libglib-2.0-0
 2917	KiB file
+2834	KiB mesa-demos
 2819	KiB libpurple
 2739	KiB frameworkd
 2704	KiB ncurses-terminfo
@@ -37,12 +37,14 @@
 2041	KiB gstreamer
 2033	KiB vim-tutor
 1983	KiB python-misc
+1976	KiB tcl
 1958	KiB vim
 1943	KiB bluez4
 1933	KiB libcrypto1.0.0
 1846	KiB libperl5
 1842	KiB shr-splash-theme-logo
 1814	KiB libpython2.7-1.0
+1664	KiB libtcl8.6-0
 1658	KiB fsogsmd
 1630	KiB pidgin-data
 1559	KiB libx11-locale
@@ -59,7 +61,6 @@
 1279	KiB gawk
 1229	KiB python-netclient
 1207	KiB python-evas
-1201	KiB e2fsprogs-e2fsck
 1103	KiB python-xml
 1099	KiB iptables
 1098	KiB python-gst
@@ -171,7 +172,6 @@
 285	KiB python-json
 284	KiB nfs-utils-client
 282	KiB libdbus-1-3
-279	KiB libext2fs2
 277	KiB python-textutils
 277	KiB gst-plugins-base-playbin
 274	KiB libexif12
@@ -300,7 +300,6 @@
 93	KiB python-sqlite3
 93	KiB libxcb-glx0
 93	KiB libfribidi0
-92	KiB util-linux-fsck
 92	KiB ntpdate
 92	KiB libusb-1.0-0
 92	KiB libemotion1
@@ -312,6 +311,7 @@
 87	KiB libglib-2.0-locale-en-gb
 87	KiB fsodatad
 86	KiB libelf1
+84	KiB usb-modeswitch
 84	KiB libz1
 84	KiB libxft2
 84	KiB libts-1.0-0
@@ -335,6 +335,7 @@
 69	KiB libgcc1
 69	KiB libeo1
 68	KiB wmiconfig
+68	KiB usb-modeswitch-data
 68	KiB rpcbind
 68	KiB logrotate
 67	KiB opimd-utils-data
@@ -390,7 +391,6 @@
 43	KiB json-c
 42	KiB python-readline
 42	KiB kernel-module-snd-ens1370
-41	KiB systemd-binfmt
 41	KiB python-pyrtc
 41	KiB gst-plugins-good-gconfelements
 40	KiB xauth
@@ -406,16 +406,15 @@
 37	KiB libxrender1
 37	KiB libxrandr2
 37	KiB libxcb-render0
-36	KiB util-linux-mount
 36	KiB libgif4
 36	KiB gst-plugins-good-autodetect
 35	KiB wpa-supplicant-passphrase
-35	KiB util-linux-agetty
 34	KiB libwrap0
 34	KiB gstreamer-locale-cs
 34	KiB findutils-locale-cs
 33	KiB libpciaccess0
 33	KiB liblinebreak1
+33	KiB libgles1-mesa
 33	KiB fsonetworkd
 33	KiB fbset
 32	KiB xdpyinfo
@@ -438,7 +437,6 @@
 29	KiB xmodmap
 29	KiB libasm1
 29	KiB kernel-module-nf-conntrack-ipv4
-28	KiB libe2p2
 28	KiB gtk-immodule-xim
 28	KiB ecore-file
 27	KiB xset
@@ -507,7 +505,6 @@
 17	KiB atd-over-fso
 16	KiB libpurple-protocol-xmpp
 16	KiB kernel-module-ppp-async
-16	KiB kernel-module-binfmt-misc
 16	KiB gst-plugins-base-locale-cs
 16	KiB ecore-input-evas
 15	KiB xhost
@@ -533,7 +530,6 @@
 12	KiB pam-plugin-group
 12	KiB mkdump
 12	KiB libefreet-trash1
-12	KiB libcom-err2
 12	KiB gstreamer-locale-en-gb
 11	KiB python-resource
 11	KiB openssl-conf
@@ -564,7 +560,6 @@
 9	KiB kernel-module-slhc
 9	KiB kernel-module-nf-nat-ipv4
 9	KiB frameworkd-config
-8	KiB udev-extraconf
 8	KiB python-edbus
 8	KiB pam-plugin-securetty
 8	KiB matchbox-keyboard-im
@@ -635,7 +630,6 @@
 2	KiB gst-plugins-good
 2	KiB e-wm-menu-shr
 1	KiB tslib-conf
-1	KiB systemd-serialgetty
 1	KiB shr-splash
 1	KiB opkg-collateral
 1	KiB modutils-initscripts
@@ -648,8 +642,6 @@
 1	KiB busybox-syslog
 0	KiB xserver-nodm-init
 0	KiB ttf-dejavu-common
-0	KiB systemd-machine-units
-0	KiB systemd-compat-units
 0	KiB shr-version
 0	KiB shr-theme-gry
 0	KiB psmisc
@@ -676,14 +668,12 @@
 0	KiB packagegroup-core-x11-xserver
 0	KiB packagegroup-core-x11-utils
 0	KiB packagegroup-core-ssh-openssh
-0	KiB packagegroup-core-boot
 0	KiB packagegroup-cli-tools-debug
 0	KiB packagegroup-cli-tools
 0	KiB packagegroup-boot
 0	KiB packagegroup-base-usbgadget
 0	KiB packagegroup-base-ppp
 0	KiB packagegroup-base-ipv6
-0	KiB packagegroup-base-extended
 0	KiB packagegroup-base-bluetooth
 0	KiB packagegroup-base-alsa
 0	KiB packagegroup-base
