@@ -1455,8 +1455,6 @@ digraph depends {
 "libglade-2.0-0" -> "libxrender1";
 "libglade-2.0-0" -> "libz1";
 "libglade-2.0-0" -> "pango";
-"libgles1-mesa" -> "libdrm2";
-"libgles1-mesa" -> "libglapi0";
 "libgles2-mesa" -> "libdrm2";
 "libgles2-mesa" -> "libglapi0";
 "libglib-2.0-0" -> "libffi6";
@@ -1852,7 +1850,6 @@ digraph depends {
 "libsoup-2.4-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "libsoup-2.4-locale-en-gb" -> "virtual-locale-en-gb" [style=dotted];
 "libssl1.0.0" -> "libcrypto1.0.0";
-"libtcl8.6-0" -> "libz1";
 "libtiff5" -> "libjpeg8";
 "libtiff5" -> "liblzma5";
 "libtiff5" -> "libz1";
@@ -2015,12 +2012,6 @@ digraph depends {
 "matchbox-keyboard-im" -> "pango";
 "mdbus2" -> "libglib-2.0-0";
 "mdbus2" -> "libreadline6";
-"mesa-demos" -> "libegl-mesa";
-"mesa-demos" -> "libgl-mesa";
-"mesa-demos" -> "libgles1-mesa";
-"mesa-demos" -> "libgles2-mesa";
-"mesa-demos" -> "libx11-6";
-"mesa-demos" -> "libxext6";
 "mesa-megadriver" -> "libdrm-intel1";
 "mesa-megadriver" -> "libdrm-nouveau2";
 "mesa-megadriver" -> "libdrm-radeon1";
@@ -2882,7 +2873,6 @@ digraph depends {
 "systemd" -> "util-linux-mount";
 "systemd-serialgetty" -> "systemd";
 "tar-locale-cs" -> "virtual-locale-cs" [style=dotted];
-"tcl" -> "libtcl8.6-0";
 "tcpdump" -> "libpcap1";
 "terminology" -> "ecore-con";
 "terminology" -> "ecore-evas";
@@ -2912,10 +2902,6 @@ digraph depends {
 "udev" -> "libkmod2";
 "udev" -> "udev-hwdb" [style=dotted];
 "udev-extraconf" -> "udev";
-"usb-modeswitch" -> "libusb-1.0-0";
-"usb-modeswitch" -> "tcl";
-"usb-modeswitch" -> "usb-modeswitch-data" [style=dotted];
-"usb-modeswitch-data" -> "usb-modeswitch";
 "util-linux-fdisk" -> "libblkid1";
 "util-linux-fdisk" -> "libuuid1";
 "util-linux-fsck" -> "libblkid1";

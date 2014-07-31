@@ -1683,9 +1683,6 @@ digraph depends {
 "libglade-2.0-0" -> "libz1";
 "libglade-2.0-0" -> "pango";
 "libglapi0" -> "libc6";
-"libgles1-mesa" -> "libc6";
-"libgles1-mesa" -> "libdrm2";
-"libgles1-mesa" -> "libglapi0";
 "libgles2-mesa" -> "libc6";
 "libgles2-mesa" -> "libdrm2";
 "libgles2-mesa" -> "libglapi0";
@@ -2175,8 +2172,6 @@ digraph depends {
 "libstdc++6" -> "libc6";
 "libstdc++6" -> "libgcc1";
 "libsysfs2" -> "libc6";
-"libtcl8.6-0" -> "libc6";
-"libtcl8.6-0" -> "libz1";
 "libthread-db1" -> "libc6";
 "libtiff5" -> "libc6";
 "libtiff5" -> "libjpeg8";
@@ -2394,13 +2389,6 @@ digraph depends {
 "mdbus2" -> "libc6";
 "mdbus2" -> "libglib-2.0-0";
 "mdbus2" -> "libreadline6";
-"mesa-demos" -> "libc6";
-"mesa-demos" -> "libegl-mesa";
-"mesa-demos" -> "libgl-mesa";
-"mesa-demos" -> "libgles1-mesa";
-"mesa-demos" -> "libgles2-mesa";
-"mesa-demos" -> "libx11-6";
-"mesa-demos" -> "libxext6";
 "mesa-megadriver" -> "libc6";
 "mesa-megadriver" -> "libdrm-intel1";
 "mesa-megadriver" -> "libdrm-nouveau2";
@@ -3431,8 +3419,6 @@ digraph depends {
 "tar" -> "libc6";
 "tar" -> "update-alternatives-opkg";
 "tar-locale-cs" -> "virtual-locale-cs" [style=dotted];
-"tcl" -> "libc6";
-"tcl" -> "libtcl8.6-0";
 "tcpdump" -> "libc6";
 "tcpdump" -> "libpcap1";
 "terminology" -> "ecore-con";
@@ -3468,11 +3454,6 @@ digraph depends {
 "udev" -> "libkmod2";
 "udev" -> "udev-hwdb" [style=dotted];
 "udev-extraconf" -> "udev";
-"usb-modeswitch" -> "libc6";
-"usb-modeswitch" -> "libusb-1.0-0";
-"usb-modeswitch" -> "tcl";
-"usb-modeswitch" -> "usb-modeswitch-data" [style=dotted];
-"usb-modeswitch-data" -> "usb-modeswitch";
 "util-linux-agetty" -> "libc6";
 "util-linux-agetty" -> "update-alternatives-opkg";
 "util-linux-fdisk" -> "libblkid1";

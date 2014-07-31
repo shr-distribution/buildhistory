@@ -275,7 +275,6 @@ libgisi0
 libgl-mesa
 libglade-2.0-0
 libglapi0
-libgles1-mesa
 libgles2-mesa
 libglib-2.0-0
 libglib-2.0-locale-cs
@@ -375,7 +374,6 @@ libsqlite3-0
 libssl1.0.0
 libstdc++6
 libsysfs2
-libtcl8.6-0
 libthread-db1
 libtiff5
 libtinfo5
@@ -436,7 +434,6 @@ make-locale-cs
 matchbox-keyboard-im
 mbuffer
 mdbus2
-mesa-demos
 mesa-megadriver
 mime-support
 mioctl
@@ -644,7 +641,6 @@ systemd-machine-units
 systemd-serialgetty
 tar
 tar-locale-cs
-tcl
 tcpdump
 terminology
 terminology-themes
@@ -663,8 +659,6 @@ udev
 udev-extraconf
 udev-hwdb
 update-alternatives-opkg
-usb-modeswitch
-usb-modeswitch-data
 util-linux-agetty
 util-linux-fdisk
 util-linux-fsck

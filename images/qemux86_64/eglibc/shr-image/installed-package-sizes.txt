@@ -21,7 +21,6 @@
 3225	KiB subversion
 3067	KiB libglib-2.0-0
 2917	KiB file
-2834	KiB mesa-demos
 2819	KiB libpurple
 2739	KiB frameworkd
 2704	KiB ncurses-terminfo
@@ -38,14 +37,12 @@
 2041	KiB gstreamer
 2033	KiB vim-tutor
 1983	KiB python-misc
-1976	KiB tcl
 1958	KiB vim
 1943	KiB bluez4
 1933	KiB libcrypto1.0.0
 1846	KiB libperl5
 1842	KiB shr-splash-theme-logo
 1814	KiB libpython2.7-1.0
-1664	KiB libtcl8.6-0
 1658	KiB fsogsmd
 1630	KiB pidgin-data
 1559	KiB libx11-locale
@@ -315,7 +312,6 @@
 87	KiB libglib-2.0-locale-en-gb
 87	KiB fsodatad
 86	KiB libelf1
-84	KiB usb-modeswitch
 84	KiB libz1
 84	KiB libxft2
 84	KiB libts-1.0-0
@@ -339,7 +335,6 @@
 69	KiB libgcc1
 69	KiB libeo1
 68	KiB wmiconfig
-68	KiB usb-modeswitch-data
 68	KiB rpcbind
 68	KiB logrotate
 67	KiB opimd-utils-data
@@ -421,7 +416,6 @@
 34	KiB findutils-locale-cs
 33	KiB libpciaccess0
 33	KiB liblinebreak1
-33	KiB libgles1-mesa
 33	KiB fsonetworkd
 33	KiB fbset
 32	KiB xdpyinfo
