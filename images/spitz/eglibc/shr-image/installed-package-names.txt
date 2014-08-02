@@ -263,6 +263,7 @@ libelf1
 libemotion1
 libeo1
 liberation-fonts
+libevdev
 libevent
 libexif-locale-cs
 libexif-locale-en-gb
