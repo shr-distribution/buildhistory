@@ -137,6 +137,7 @@
 388	KiB eina
 385	KiB libreadline6
 381	KiB enchant
+379	KiB libnl-route-3-200
 378	KiB procps
 376	KiB vagalume
 371	KiB python-logging
@@ -151,7 +152,6 @@
 343	KiB eglibc-utils
 342	KiB ppp
 341	KiB nano
-340	KiB libnl-route-3-200
 336	KiB emtooth2
 335	KiB libharfbuzz0
 325	KiB mobile-broadband-provider-info
@@ -211,11 +211,11 @@
 201	KiB python-difflib
 200	KiB libproxy
 198	KiB libpng16-16
+198	KiB i2c-tools
 196	KiB enjoy
 195	KiB make
 194	KiB xkbcomp
 194	KiB libapr-1-0
-193	KiB i2c-tools
 187	KiB ethumb
 184	KiB elementary-theme-gry
 183	KiB libopkg1
@@ -270,7 +270,7 @@
 123	KiB libphone-ui0
 122	KiB eeze
 121	KiB libmad0
-119	KiB libnl-3-200
+120	KiB libnl-3-200
 118	KiB gst-plugins-base-decodebin2
 118	KiB alsa-utils-alsactl
 117	KiB libyaml-0-2
@@ -292,8 +292,8 @@
 101	KiB libgstrtp-0.10-0
 100	KiB pxaregs
 99	KiB ffphonelog
+97	KiB libnl-nf-3-200
 97	KiB gst-plugins-base-alsa
-96	KiB libnl-nf-3-200
 95	KiB libice6
 94	KiB tzdata
 94	KiB libglib-2.0-locale-cs

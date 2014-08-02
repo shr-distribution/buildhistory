@@ -164,7 +164,7 @@ gtk-theme-e17lookalike_0.1.1+gitr0+4e6035ef54-r8.3_core2-64.ipk
 gtk-theme-e17lookalike-gtkrc_0.1.1+gitr0+4e6035ef54-r8.3_core2-64.ipk
 hicolor-icon-theme_0.12-r1.5_all.ipk
 htop_1.0.3-r0.2_core2-64.ipk
-i2c-tools_3.1.0-r0.3_core2-64.ipk
+i2c-tools_3.1.1-r0.0_core2-64.ipk
 iliwi_0.0.1.1+gitr0+be1ebf0978-r1.3_core2-64.ipk
 illume-keyboard-default-alpha_0.18.7-r0.5_core2-64.ipk
 illume-keyboard-default-terminal_0.18.7-r0.5_core2-64.ipk
@@ -266,7 +266,7 @@ libfsosystem3_2:0.12.0-r6.0.2_core2-64.ipk
 libfsotest3_2:0.12.0-r6.0.2_core2-64.ipk
 libfsotransport3_2:0.12.0-r6.0.2_core2-64.ipk
 libgbm1_2:10.1.3-r0.3_core2-64.ipk
-libgcc1_4.9.0-r0.3_core2-64.ipk
+libgcc1_4.9.1-r0.0_core2-64.ipk
 libgcrypt_1.6.1-r0.2_core2-64.ipk
 libgdbm4_1.11-r0.3_core2-64.ipk
 libgee2_1:0.6.4-r6.2.3_core2-64.ipk
@@ -321,11 +321,11 @@ libncurses5_5.9-r15.1.3_core2-64.ipk
 libncursesw5_5.9-r15.1.3_core2-64.ipk
 libnfsidmap0_0.25-r0.3_core2-64.ipk
 libnice_0.0.13-r4.3_core2-64.ipk
-libnl-3-200_1:3.2.24-r0.2_core2-64.ipk
-libnl-3-cli_1:3.2.24-r0.2_core2-64.ipk
-libnl-3-genl_1:3.2.24-r0.2_core2-64.ipk
-libnl-nf-3-200_1:3.2.24-r0.2_core2-64.ipk
-libnl-route-3-200_1:3.2.24-r0.2_core2-64.ipk
+libnl-3-200_1:3.2.25-r0.0_core2-64.ipk
+libnl-3-cli_1:3.2.25-r0.0_core2-64.ipk
+libnl-3-genl_1:3.2.25-r0.0_core2-64.ipk
+libnl-nf-3-200_1:3.2.25-r0.0_core2-64.ipk
+libnl-route-3-200_1:3.2.25-r0.0_core2-64.ipk
 libogg0_1.3.2-r0.2_core2-64.ipk
 libopkg1_1:0.2.2-r0.2_core2-64.ipk
 libpam_1.1.6-r5.3_core2-64.ipk
@@ -372,7 +372,7 @@ libsoup-2.4-locale-cs_2.46.0-r0.2_core2-64.ipk
 libsoup-2.4-locale-en-gb_2.46.0-r0.2_core2-64.ipk
 libsqlite3-0_3:3.8.5.0-r0.1_core2-64.ipk
 libssl1.0.0_1.0.1h-r0.2_core2-64.ipk
-libstdc++6_4.9.0-r0.3_core2-64.ipk
+libstdc++6_4.9.1-r0.0_core2-64.ipk
 libsysfs2_2.1.0-r5.3_core2-64.ipk
 libthread-db1_2.19-r0.6_core2-64.ipk
 libtiff5_4.0.3-r0.4_core2-64.ipk
@@ -658,7 +658,7 @@ tzdata-europe_2014e-r0.3_all.ipk
 udev_1:213+git0+c9679c652b-r0.3_core2-64.ipk
 udev-extraconf_1.1-r0.2_qemux86_64.ipk
 udev-hwdb_1:213+git0+c9679c652b-r0.3_core2-64.ipk
-update-alternatives-opkg_0.1.8+git2+d14458499a-r0.2_core2-64.ipk
+update-alternatives-opkg_0.1.8+git3+eae0d8fa44-r0.0_core2-64.ipk
 util-linux-agetty_2.24.2-r1.2_core2-64.ipk
 util-linux-fdisk_2.24.2-r1.2_core2-64.ipk
 util-linux-fsck_2.24.2-r1.2_core2-64.ipk
