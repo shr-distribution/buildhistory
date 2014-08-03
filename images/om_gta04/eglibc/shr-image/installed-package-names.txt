@@ -269,6 +269,7 @@ libelf1
 libemotion1
 libeo1
 liberation-fonts
+libevdev
 libevent
 libewebkit0
 libexif-locale-cs
