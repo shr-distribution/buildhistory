@@ -1756,8 +1756,7 @@ lrwxrwxrwx root       root               22 ./usr/bin/env -> /usr/bin/env.coreut
 -rwxr-xr-x root       root             7380 ./usr/bin/evas_cserve2_usage
 -rwxr-xr-x root       root            82800 ./usr/bin/eve
 -rwxr-xr-x root       root            55456 ./usr/bin/event_rpcgen.py
--rwxr-xr-x root       root            13004 ./usr/bin/evtest
--rwxr-xr-x root       root            16908 ./usr/bin/evtest-capture
+-rwxr-xr-x root       root            22316 ./usr/bin/evtest
 lrwxrwxrwx root       root                3 ./usr/bin/ex -> vim
 lrwxrwxrwx root       root               25 ./usr/bin/expand -> /usr/bin/expand.coreutils
 -rwxr-xr-x root       root            22528 ./usr/bin/expand.coreutils
@@ -3777,7 +3776,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/perl/5.20.0/warnings
 lrwxrwxrwx root       root                4 ./usr/lib/perl5 -> perl
 drwxr-xr-x root       root             4096 ./usr/lib/phoneui
 drwxr-xr-x root       root             4096 ./usr/lib/phoneui/modules
--rwxr-xr-x root       root           114220 ./usr/lib/phoneui/modules/shr.so
+-rwxr-xr-x root       root           114260 ./usr/lib/phoneui/modules/shr.so
 drwxr-xr-x root       root             4096 ./usr/lib/pidgin
 -rwxr-xr-x root       root             8696 ./usr/lib/pidgin/history.so
 -rwxr-xr-x root       root            16076 ./usr/lib/pidgin/pidginrc.so
@@ -7847,8 +7846,6 @@ drwxr-xr-x root       root             4096 ./usr/share/evas
 -rw-r--r-- root       root               74 ./usr/share/evas/checkme
 drwxr-xr-x root       root             4096 ./usr/share/eve
 -rw-r--r-- root       root           202567 ./usr/share/eve/default.edj
-drwxr-xr-x root       root             4096 ./usr/share/evtest
--rw-r--r-- root       root             6033 ./usr/share/evtest/evtest-create-device.xsl
 drwxr-xr-x root       root             4096 ./usr/share/ewebkit-0
 drwxr-xr-x root       root             4096 ./usr/share/ewebkit-0/themes
 -rw-r--r-- root       root           154980 ./usr/share/ewebkit-0/themes/default.edj
@@ -15500,8 +15497,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/evas.postinst
 -rw-r--r-- root       root              769 ./var/lib/opkg/info/eve.control
 -rw-r--r-- root       root              119 ./var/lib/opkg/info/eve.list
--rw-r--r-- root       root              492 ./var/lib/opkg/info/evtest.control
--rw-r--r-- root       root              102 ./var/lib/opkg/info/evtest.list
+-rw-r--r-- root       root              452 ./var/lib/opkg/info/evtest.control
+-rw-r--r-- root       root               16 ./var/lib/opkg/info/evtest.list
 -rw-r--r-- root       root              744 ./var/lib/opkg/info/fbreader.control
 -rw-r--r-- root       root             5463 ./var/lib/opkg/info/fbreader.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/fbreader.postinst
@@ -16582,7 +16579,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              127 ./var/lib/opkg/info/logrotate.list
 -rw-r--r-- root       root              432 ./var/lib/opkg/info/lsof.control
 -rw-r--r-- root       root               15 ./var/lib/opkg/info/lsof.list
--rw-r--r-- root       root              682 ./var/lib/opkg/info/ltrace.control
+-rw-r--r-- root       root              698 ./var/lib/opkg/info/ltrace.control
 -rw-r--r-- root       root               33 ./var/lib/opkg/info/ltrace.list
 -rw-r--r-- root       root              475 ./var/lib/opkg/info/luajit.control
 -rw-r--r-- root       root               98 ./var/lib/opkg/info/luajit.list
@@ -17235,9 +17232,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            86392 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6528521 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          6528625 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           300086 ./var/lib/opkg/lists/oe-om_gta04
--rw-r--r-- root       root           212715 ./var/lib/opkg/status
+-rw-r--r-- root       root           212724 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 drwxr-xr-x root       root             4096 ./var/lock

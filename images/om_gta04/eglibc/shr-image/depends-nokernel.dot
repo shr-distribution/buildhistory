@@ -703,7 +703,6 @@ digraph depends {
 "eve" -> "libeldbus1";
 "eve" -> "libewebkit0";
 "evtest" -> "libc6";
-"evtest" -> "libxml2";
 "fbreader" -> "gdk-pixbuf";
 "fbreader" -> "libbz2-0";
 "fbreader" -> "libc6";
