@@ -389,7 +389,6 @@
 35	KiB python-image
 35	KiB libformw5
 35	KiB kernel-module-radio-bcm2048
-35	KiB evtest
 34	KiB sysfsutils
 34	KiB python-pyalsaaudio
 34	KiB libxi6
@@ -453,6 +452,7 @@
 22	KiB libxrender1
 22	KiB kernel-module-cmt-speech
 22	KiB gdk-pixbuf-locale-cs
+22	KiB evtest
 21	KiB xz-locale-cs
 21	KiB rgb
 21	KiB libxcb-render0
