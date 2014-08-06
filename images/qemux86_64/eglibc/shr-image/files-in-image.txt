@@ -1684,8 +1684,7 @@ lrwxrwxrwx root       root               22 ./usr/bin/env -> /usr/bin/env.coreut
 -rwxr-xr-x root       root             9272 ./usr/bin/evas_cserve2_usage
 -rwxr-xr-x root       root           103528 ./usr/bin/eve
 -rwxr-xr-x root       root            55456 ./usr/bin/event_rpcgen.py
--rwxr-xr-x root       root            17664 ./usr/bin/evtest
--rwxr-xr-x root       root            22856 ./usr/bin/evtest-capture
+-rwxr-xr-x root       root            28856 ./usr/bin/evtest
 lrwxrwxrwx root       root                3 ./usr/bin/ex -> vim
 lrwxrwxrwx root       root               25 ./usr/bin/expand -> /usr/bin/expand.coreutils
 -rwxr-xr-x root       root            33968 ./usr/bin/expand.coreutils
@@ -1795,7 +1794,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/link -> /usr/bin/link.core
 lrwxrwxrwx root       root               19 ./usr/bin/logger -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               26 ./usr/bin/logname -> /usr/bin/logname.coreutils
 -rwxr-xr-x root       root            31760 ./usr/bin/logname.coreutils
--rwxr-xr-x root       root           160144 ./usr/bin/ltrace
+-rwxr-xr-x root       root           162512 ./usr/bin/ltrace
 lrwxrwxrwx root       root               12 ./usr/bin/luajit -> luajit-2.0.3
 -rwxr-xr-x root       root           449760 ./usr/bin/luajit-2.0.3
 -rwxr-xr-x root       root           199888 ./usr/bin/make
@@ -7782,8 +7781,6 @@ drwxr-xr-x root       root             4096 ./usr/share/evas
 -rw-r--r-- root       root               74 ./usr/share/evas/checkme
 drwxr-xr-x root       root             4096 ./usr/share/eve
 -rw-r--r-- root       root           202567 ./usr/share/eve/default.edj
-drwxr-xr-x root       root             4096 ./usr/share/evtest
--rw-r--r-- root       root             6033 ./usr/share/evtest/evtest-create-device.xsl
 drwxr-xr-x root       root             4096 ./usr/share/ewebkit-0
 drwxr-xr-x root       root             4096 ./usr/share/ewebkit-0/themes
 -rw-r--r-- root       root           154515 ./usr/share/ewebkit-0/themes/default.edj
@@ -15423,8 +15420,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/evas.postinst
 -rw-r--r-- root       root              758 ./var/lib/opkg/info/eve.control
 -rw-r--r-- root       root              119 ./var/lib/opkg/info/eve.list
--rw-r--r-- root       root              481 ./var/lib/opkg/info/evtest.control
--rw-r--r-- root       root              102 ./var/lib/opkg/info/evtest.list
+-rw-r--r-- root       root              441 ./var/lib/opkg/info/evtest.control
+-rw-r--r-- root       root               16 ./var/lib/opkg/info/evtest.list
 -rw-r--r-- root       root              713 ./var/lib/opkg/info/fbreader.control
 -rw-r--r-- root       root             5463 ./var/lib/opkg/info/fbreader.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/fbreader.postinst
@@ -16417,7 +16414,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              127 ./var/lib/opkg/info/logrotate.list
 -rw-r--r-- root       root              421 ./var/lib/opkg/info/lsof.control
 -rw-r--r-- root       root               15 ./var/lib/opkg/info/lsof.list
--rw-r--r-- root       root              671 ./var/lib/opkg/info/ltrace.control
+-rw-r--r-- root       root              687 ./var/lib/opkg/info/ltrace.control
 -rw-r--r-- root       root               33 ./var/lib/opkg/info/ltrace.list
 -rw-r--r-- root       root              464 ./var/lib/opkg/info/luajit.control
 -rw-r--r-- root       root               98 ./var/lib/opkg/info/luajit.list
@@ -17056,11 +17053,11 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              569 ./var/lib/opkg/info/xz-locale-cs.control
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
--rw-r--r-- root       root                0 ./var/lib/opkg/lists/oe
+-rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            86392 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6387088 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6387192 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           377865 ./var/lib/opkg/lists/oe-qemux86_64
--rw-r--r-- root       root           198369 ./var/lib/opkg/status
+-rw-r--r-- root       root           198378 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/local
 drwxr-xr-x root       root             4096 ./var/lock

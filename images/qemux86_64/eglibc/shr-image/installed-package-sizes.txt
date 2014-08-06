@@ -223,8 +223,8 @@
 175	KiB liblightmediascanner0
 175	KiB elfe
 174	KiB ecore-con
+173	KiB ltrace
 172	KiB python-mime
-171	KiB ltrace
 170	KiB libeldbus1
 166	KiB libgisi0
 163	KiB libexpat1
@@ -381,7 +381,6 @@
 45	KiB python-pyalsaaudio
 45	KiB make-locale-cs
 45	KiB libpci3
-45	KiB evtest
 45	KiB embryo
 44	KiB libgdbm4
 44	KiB gst-plugins-base
@@ -440,6 +439,7 @@
 29	KiB kernel-module-nf-conntrack-ipv4
 28	KiB libe2p2
 28	KiB gtk-immodule-xim
+28	KiB evtest
 28	KiB ecore-file
 27	KiB xset
 27	KiB libphone-utils0
