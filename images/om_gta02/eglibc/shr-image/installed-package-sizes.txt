@@ -389,7 +389,6 @@
 36	KiB alsa-utils-amixer
 35	KiB xinput
 35	KiB python-readline
-35	KiB evtest
 34	KiB sysfsutils
 34	KiB libsdl-image-1.2-0
 34	KiB libdrm2
@@ -453,6 +452,7 @@
 22	KiB gpsd-gpsctl
 22	KiB gdk-pixbuf-locale-cs
 22	KiB fuser
+22	KiB evtest
 21	KiB xz-locale-cs
 21	KiB rgb
 21	KiB libsm6
