@@ -80,7 +80,7 @@ enjoy_0.1.0+gitr0+aa8fec69e8-r0.6_xscalete.ipk
 estardict_0.7-r0.6_xscalete.ipk
 ethumb_2:1.10.2-r0.1_xscalete.ipk
 evas_2:1.10.2-r0.1_xscalete.ipk
-evtest_1.25-r0.5_xscalete.ipk
+evtest_1.31+0+0e14da978e-r0.0_xscalete.ipk
 fbreader_0.12.10-r1.6_xscalete.ipk
 fbset_2.1-r4.5_xscalete.ipk
 fbset-modes_0.1.0-r6.5_spitz.ipk
@@ -351,8 +351,8 @@ libpci3_3.2.1-r0.5_xscalete.ipk
 libpciaccess0_0.13.2-r0.5_xscalete.ipk
 libperl5_5.20.0-r1.2_xscalete.ipk
 libphone-ui-config_0.0.2+gitr0+7b8fb8ec1a-r5.5_spitz.ipk
-libphone-ui-shr_1:0.0.1+gitr0+4948ea3f6d-r0.6_xscalete.ipk
-libphone-ui-shr-locale-cs_1:0.0.1+gitr0+4948ea3f6d-r0.6_xscalete.ipk
+libphone-ui-shr_1:0.0.1+gitr1+25e6160710-r0.0_xscalete.ipk
+libphone-ui-shr-locale-cs_1:0.0.1+gitr1+25e6160710-r0.0_xscalete.ipk
 libphone-ui0_0.0.1+gitr0+ca6d795a50-r0.5_xscalete.ipk
 libphone-utils0_0.0.2+gitr0+781d866bc1-r2.5_xscalete.ipk
 libpixman-1-0_1:0.32.4-r0.5_xscalete.ipk
@@ -440,7 +440,7 @@ locale-base-en-gb_2.19-r0.4_xscalete.ipk
 locale-base-en-us_2.19-r0.4_xscalete.ipk
 logrotate_3.8.7-r0.5_xscalete.ipk
 lsof_4.87-r0.5_xscalete.ipk
-ltrace_git-r0.3_xscalete.ipk
+ltrace_7.2+git0+f44b284219-r0.0_xscalete.ipk
 luajit_2.0.3-r0.3_xscalete.ipk
 make_4.0-r0.5_xscalete.ipk
 make-locale-cs_4.0-r0.5_xscalete.ipk

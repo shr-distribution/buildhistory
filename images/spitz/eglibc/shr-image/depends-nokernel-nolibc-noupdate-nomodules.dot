@@ -620,7 +620,6 @@ digraph depends {
 "evas" -> "libxrender1";
 "evas" -> "libz1";
 "evas" -> "luajit";
-"evtest" -> "libxml2";
 "fbreader" -> "gdk-pixbuf";
 "fbreader" -> "libbz2-0";
 "fbreader" -> "libcurl5";
