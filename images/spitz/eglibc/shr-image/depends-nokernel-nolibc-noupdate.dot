@@ -1841,6 +1841,7 @@ digraph depends {
 "libtinfo5" -> "ncurses-terminfo-base" [style=dotted];
 "libts-1.0-0" -> "pointercal" [style=dotted];
 "libts-1.0-0" -> "tslib-conf";
+"libudev1" -> "libdw1";
 "libusb-0.1-4" -> "libusb-1.0-0";
 "libvorbisidec1" -> "libogg0";
 "libx11-6" -> "libxau6";
@@ -2938,9 +2939,9 @@ digraph depends {
 "systemd" -> "kernel-module-unix" [style=dotted];
 "systemd" -> "kmod";
 "systemd" -> "libacl1";
-"systemd" -> "libattr1";
 "systemd" -> "libblkid1";
 "systemd" -> "libcap2";
+"systemd" -> "libdw1";
 "systemd" -> "libkmod2";
 "systemd" -> "liblzma5";
 "systemd" -> "libpam";
@@ -2949,9 +2950,11 @@ digraph depends {
 "systemd" -> "systemd-compat-units" [style=dotted];
 "systemd" -> "systemd-serialgetty" [style=dotted];
 "systemd" -> "udev";
+"systemd" -> "udev-hwdb" [style=dotted];
 "systemd" -> "util-linux-agetty" [style=dotted];
 "systemd" -> "util-linux-fsck" [style=dotted];
 "systemd" -> "util-linux-mount";
+"systemd" -> "volatile-binds";
 "systemd-binfmt" -> "kernel-module-binfmt-misc" [style=dotted];
 "systemd-serialgetty" -> "systemd";
 "tar-locale-cs" -> "virtual-locale-cs" [style=dotted];
@@ -2982,8 +2985,8 @@ digraph depends {
 "udev" -> "libacl1";
 "udev" -> "libblkid1";
 "udev" -> "libkmod2";
-"udev" -> "udev-hwdb" [style=dotted];
 "udev-extraconf" -> "udev";
+"udev-hwdb" -> "udev";
 "usbutils" -> "libusb-1.0-0";
 "usbutils" -> "libz1";
 "usbutils" -> "usbutils-ids";
