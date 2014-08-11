@@ -733,6 +733,7 @@ vim-help
 vim-syntax
 vim-tutor
 vim-vimrc
+volatile-binds
 watchdog
 wireless-tools
 wmiconfig
