@@ -2206,6 +2206,7 @@ digraph depends {
 "libts-1.0-0" -> "pointercal" [style=dotted];
 "libts-1.0-0" -> "tslib-conf";
 "libudev1" -> "libc6";
+"libudev1" -> "libdw1";
 "libudev1" -> "libgcc1";
 "libusb-0.1-4" -> "libc6";
 "libusb-0.1-4" -> "libusb-1.0-0";
@@ -3416,10 +3417,10 @@ digraph depends {
 "systemd" -> "kernel-module-unix" [style=dotted];
 "systemd" -> "kmod";
 "systemd" -> "libacl1";
-"systemd" -> "libattr1";
 "systemd" -> "libblkid1";
 "systemd" -> "libc6";
 "systemd" -> "libcap2";
+"systemd" -> "libdw1";
 "systemd" -> "libgcc1";
 "systemd" -> "libkmod2";
 "systemd" -> "liblzma5";
@@ -3429,11 +3430,13 @@ digraph depends {
 "systemd" -> "systemd-compat-units" [style=dotted];
 "systemd" -> "systemd-serialgetty" [style=dotted];
 "systemd" -> "udev";
+"systemd" -> "udev-hwdb" [style=dotted];
 "systemd" -> "update-alternatives-opkg";
 "systemd" -> "update-rc.d" [style=dotted];
 "systemd" -> "util-linux-agetty" [style=dotted];
 "systemd" -> "util-linux-fsck" [style=dotted];
 "systemd" -> "util-linux-mount";
+"systemd" -> "volatile-binds";
 "systemd-binfmt" -> "kernel-module-binfmt-misc" [style=dotted];
 "systemd-binfmt" -> "libc6";
 "systemd-binfmt" -> "libgcc1";
@@ -3474,8 +3477,8 @@ digraph depends {
 "udev" -> "libc6";
 "udev" -> "libgcc1";
 "udev" -> "libkmod2";
-"udev" -> "udev-hwdb" [style=dotted];
 "udev-extraconf" -> "udev";
+"udev-hwdb" -> "udev";
 "util-linux-agetty" -> "libc6";
 "util-linux-agetty" -> "update-alternatives-opkg";
 "util-linux-fdisk" -> "libblkid1";

@@ -2,7 +2,7 @@
 30517	KiB mesa-megadriver
 21025	KiB libicudata53
 12272	KiB vim-common
-10978	KiB systemd
+11174	KiB systemd
 6693	KiB python-elementary
 6341	KiB e-wm
 6256	KiB fbreader
@@ -12,7 +12,7 @@
 5334	KiB gdb
 5178	KiB libgtk-2.0
 5102	KiB elementary-themes
-4975	KiB udev-hwdb
+5007	KiB udev-hwdb
 4824	KiB vim-syntax
 4260	KiB libc6
 4115	KiB python-codecs
@@ -80,9 +80,9 @@
 885	KiB luajit
 830	KiB libedje1
 816	KiB libsoup-2.4
+799	KiB udev
 797	KiB python-ecore
 796	KiB python-lang
-790	KiB udev
 789	KiB tcpdump
 765	KiB dbus-1
 759	KiB libsqlite3-0
@@ -320,6 +320,7 @@
 79	KiB openssh-sftp-server
 77	KiB glib-networking
 77	KiB dosfstools
+75	KiB tzdata-asia
 75	KiB libfsotest3
 75	KiB fontconfig-utils
 74	KiB libpam
@@ -327,7 +328,6 @@
 73	KiB libeio1
 73	KiB gst-plugins-base-audioconvert
 72	KiB wpa-supplicant-cli
-72	KiB tzdata-asia
 71	KiB libgstinterfaces-0.10-0
 71	KiB ecore-input
 70	KiB libgsm0710mux3
@@ -389,7 +389,6 @@
 43	KiB json-c
 42	KiB python-readline
 42	KiB kernel-module-snd-ens1370
-41	KiB systemd-binfmt
 41	KiB python-pyrtc
 41	KiB gst-plugins-good-gconfelements
 40	KiB xauth
@@ -401,6 +400,7 @@
 38	KiB opimd-utils-notes
 38	KiB libgles2-mesa
 38	KiB kernel-module-snd-rawmidi
+37	KiB systemd-binfmt
 37	KiB pulseaudio-locale-cs
 37	KiB libxrender1
 37	KiB libxrandr2
@@ -420,6 +420,7 @@
 32	KiB xdpyinfo
 32	KiB libfsosystem3
 32	KiB fuser
+31	KiB tzdata-australia
 31	KiB python-pprint
 31	KiB python-phoneutils
 31	KiB libthread-db1
@@ -429,7 +430,6 @@
 31	KiB libacl1
 31	KiB kernel-module-ip-tables
 31	KiB ecore-imf
-30	KiB tzdata-australia
 30	KiB mterm2
 30	KiB libsm6
 30	KiB e-wm-config-illume2-shr
@@ -634,6 +634,7 @@
 2	KiB gst-plugins-ugly-locale-cs
 2	KiB gst-plugins-good
 2	KiB e-wm-menu-shr
+1	KiB volatile-binds
 1	KiB tslib-conf
 1	KiB systemd-serialgetty
 1	KiB shr-splash
