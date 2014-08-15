@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-udc-core kernel-module-usb-common
-RRECOMMENDS = 
-PKGSIZE = 50672
-FILES = /lib/modules/3.2.12/kernel/drivers/usb/gadget/g_ether.ko /etc/modules-load.d/g_ether.conf /etc/modprobe.d/g_ether.conf
-FILELIST = /lib/modules/3.2.12/kernel/drivers/usb/gadget/g_ether.ko

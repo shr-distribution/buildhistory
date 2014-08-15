@@ -1,9 +1,0 @@
-PV = 6.1p1
-PR = r1
-PKGR = r1.0
-RPROVIDES = 
-RDEPENDS = eglibc (>= 2.17) libgcc (>= 4.7.2) update-alternatives-cworth
-RRECOMMENDS = 
-PKGSIZE = 43824
-FILES = /usr/bin/scp.openssh
-FILELIST = /usr/bin/scp.openssh

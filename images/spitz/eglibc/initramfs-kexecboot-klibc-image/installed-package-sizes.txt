@@ -1,4 +1,0 @@
-112	KiB kexecboot-klibc
-96	KiB kexec-klibc
-48	KiB ubiattach-klibc
-16	KiB run-postinsts

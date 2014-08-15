@@ -1,7 +1,0 @@
-PV = 2.32.0
-PR = r0
-RDEPENDS = 
-RRECOMMENDS = libgnomekbd virtual-locale-vi
-PKGSIZE = 5227
-FILES = /usr/share/locale/vi
-FILELIST = /usr/share/locale/vi/LC_MESSAGES/libgnomekbd.mo

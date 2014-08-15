@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 136
-FILES = /lib/firmware/cis/DP83903.cis
-FILELIST = /lib/firmware/cis/DP83903.cis

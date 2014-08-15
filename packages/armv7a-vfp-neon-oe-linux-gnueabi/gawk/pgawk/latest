@@ -1,7 +1,0 @@
-PV = 4.0.1
-PR = r1
-RDEPENDS = eglibc (>= 2.16) gawk-common libgcc (>= 4.7.2)
-RRECOMMENDS = 
-PKGSIZE = 727736
-FILES = /usr/bin/pgawk*
-FILELIST = /usr/bin/pgawk /usr/bin/pgawk-4.0.1

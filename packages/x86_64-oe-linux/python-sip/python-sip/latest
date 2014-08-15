@@ -1,7 +1,0 @@
-PV = 4.14.2
-PR = r0
-RDEPENDS = eglibc (>= 2.16) python-core
-RRECOMMENDS = 
-PKGSIZE = 120408
-FILES = /usr/lib/python2.7/site-packages/sip.so
-FILELIST = /usr/lib/python2.7/site-packages/sip.so

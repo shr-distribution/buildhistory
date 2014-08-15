@@ -1,9 +1,0 @@
-PV = 0.19.2
-PR = r1
-PKGR = r1.0
-RPROVIDES = 
-RDEPENDS = fribidi-dev (= 0.19.2-r1.0)
-RRECOMMENDS = 
-PKGSIZE = 237962
-FILES = /usr/lib/*.a /lib/*.a /usr/lib/fribidi/*.a
-FILELIST = /usr/lib/libfribidi.a

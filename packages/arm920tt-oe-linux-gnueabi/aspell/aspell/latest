@@ -1,9 +1,0 @@
-PV = 0.60.6.1
-PR = r1
-PKGR = r1.1
-RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19) libaspell (>= 0.60.6.1) libgcc (>= 4.8.2) libstdc++ (>= 4.8.2)
-RRECOMMENDS = 
-PKGSIZE = 121236
-FILES = /usr/bin/aspell
-FILELIST = /usr/bin/aspell

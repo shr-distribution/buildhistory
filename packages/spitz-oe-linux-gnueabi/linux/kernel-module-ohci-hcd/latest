@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-usb-common kernel-module-usbcore
-RRECOMMENDS = 
-PKGSIZE = 38108
-FILES = /lib/modules/3.2.12/kernel/drivers/usb/host/ohci-hcd.ko /etc/modules-load.d/ohci-hcd.conf /etc/modprobe.d/ohci-hcd.conf
-FILELIST = /lib/modules/3.2.12/kernel/drivers/usb/host/ohci-hcd.ko

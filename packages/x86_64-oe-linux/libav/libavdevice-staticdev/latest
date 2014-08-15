@@ -1,9 +1,0 @@
-PV = 0.8.9
-PR = r0
-PKGR = r0.1
-RPROVIDES = 
-RDEPENDS = libav-dev
-RRECOMMENDS = 
-PKGSIZE = 871568
-FILES = /usr/lib/libavdevice.a
-FILELIST = /usr/lib/libavdevice.a

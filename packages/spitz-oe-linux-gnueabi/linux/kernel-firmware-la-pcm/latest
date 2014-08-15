@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 253
-FILES = /lib/firmware/cis/LA-PCM.cis
-FILELIST = /lib/firmware/cis/LA-PCM.cis

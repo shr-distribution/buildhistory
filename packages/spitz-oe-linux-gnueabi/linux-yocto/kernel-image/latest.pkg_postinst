@@ -1,1 +1,0 @@
-	update-alternatives --install /boot/zImage zImage /boot/zImage-3.10.43-ltsi-yocto-standard 31043 || true

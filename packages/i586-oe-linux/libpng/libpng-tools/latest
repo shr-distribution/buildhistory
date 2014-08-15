@@ -1,9 +1,0 @@
-PV = 1.6.10
-PR = r0
-PKGR = r0.0
-RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19) libpng (>= 1.6.10) zlib (>= 1.2.8)
-RRECOMMENDS = 
-PKGSIZE = 46100
-FILES = /usr/bin/png-fix-itxt /usr/bin/pngfix
-FILELIST = /usr/bin/png-fix-itxt /usr/bin/pngfix

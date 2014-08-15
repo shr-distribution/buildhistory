@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-snd kernel-module-soundcore
-RRECOMMENDS = 
-PKGSIZE = 24752
-FILES = /lib/modules/3.2.12/kernel/sound/core/snd-timer.ko /etc/modules-load.d/snd-timer.conf /etc/modprobe.d/snd-timer.conf
-FILELIST = /lib/modules/3.2.12/kernel/sound/core/snd-timer.ko

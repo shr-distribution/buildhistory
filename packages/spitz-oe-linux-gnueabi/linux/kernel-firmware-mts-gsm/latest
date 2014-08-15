@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 13847
-FILES = /lib/firmware/mts_gsm.fw
-FILELIST = /lib/firmware/mts_gsm.fw

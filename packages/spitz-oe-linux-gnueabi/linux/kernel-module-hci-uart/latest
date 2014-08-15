@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-bluetooth
-RRECOMMENDS = 
-PKGSIZE = 22172
-FILES = /lib/modules/3.2.12/kernel/drivers/bluetooth/hci_uart.ko /etc/modules-load.d/hci_uart.conf /etc/modprobe.d/hci_uart.conf
-FILELIST = /lib/modules/3.2.12/kernel/drivers/bluetooth/hci_uart.ko

@@ -1,9 +1,0 @@
-PV = 5.1.3alpha
-PR = r0
-PKGR = r0.5
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 957776
-FILES = /usr/lib/liblzma.a
-FILELIST = /usr/lib/liblzma.a

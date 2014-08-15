@@ -1,7 +1,0 @@
-PV = 2.1.0
-PR = r4
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 167940
-FILES = /lib/lib*.a
-FILELIST = /lib/libsysfs.a

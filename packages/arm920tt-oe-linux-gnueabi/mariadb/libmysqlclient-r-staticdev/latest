@@ -1,9 +1,0 @@
-PV = 5.1.67
-PR = r0
-PKGR = r0.3
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 1918496
-FILES = /usr/lib/libmysqlclient_r.a
-FILELIST = /usr/lib/libmysqlclient_r.a

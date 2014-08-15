@@ -1,8 +1,0 @@
-PV = v19+svnr1387
-PR = r0
-PKG = libportaudio-locale
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = /usr/share/locale
-FILELIST = 

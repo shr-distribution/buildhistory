@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = 
-PKGSIZE = 13764
-FILES = /lib/firmware/ti_5052.fw
-FILELIST = /lib/firmware/ti_5052.fw

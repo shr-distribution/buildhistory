@@ -1,1 +1,0 @@
-\tupdate-alternatives --install /boot/zImage zImage zImage-3.0.72 30072 || true\n\tif [ ! -e "$D/lib/modules/3.0.72" ]; then\n\t\tmkdir -p $D/lib/modules/3.0.72\n\tfi\n\tif [ -n "$D" ]; then\n\t\tdepmodwrapper -a -b $D 3.0.72\n\telse\n\t\tdepmod -a 3.0.72\n\tfi\n

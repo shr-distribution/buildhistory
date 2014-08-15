@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-lib80211
-RRECOMMENDS = 
-PKGSIZE = 5700
-FILES = /lib/modules/3.2.12/kernel/net/wireless/lib80211_crypt_wep.ko /etc/modules-load.d/lib80211_crypt_wep.conf /etc/modprobe.d/lib80211_crypt_wep.conf
-FILELIST = /lib/modules/3.2.12/kernel/net/wireless/lib80211_crypt_wep.ko

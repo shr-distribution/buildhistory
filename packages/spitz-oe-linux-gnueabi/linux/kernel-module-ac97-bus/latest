@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12
-RRECOMMENDS = 
-PKGSIZE = 3688
-FILES = /lib/modules/3.2.12/kernel/sound/ac97_bus.ko /etc/modules-load.d/ac97_bus.conf /etc/modprobe.d/ac97_bus.conf
-FILELIST = /lib/modules/3.2.12/kernel/sound/ac97_bus.ko

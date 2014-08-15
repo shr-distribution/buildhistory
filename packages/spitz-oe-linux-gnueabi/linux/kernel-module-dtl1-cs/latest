@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-bluetooth
-RRECOMMENDS = 
-PKGSIZE = 9140
-FILES = /lib/modules/3.2.12/kernel/drivers/bluetooth/dtl1_cs.ko /etc/modules-load.d/dtl1_cs.conf /etc/modprobe.d/dtl1_cs.conf
-FILELIST = /lib/modules/3.2.12/kernel/drivers/bluetooth/dtl1_cs.ko

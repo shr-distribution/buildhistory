@@ -1,9 +1,0 @@
-PV = 3.2
-PR = r0.5
-PKGR = r0.5.2
-RPROVIDES = 
-RDEPENDS = kernel-3.2.12 kernel-module-bluetooth
-RRECOMMENDS = 
-PKGSIZE = 10144
-FILES = /lib/modules/3.2.12/kernel/drivers/bluetooth/bt3c_cs.ko /etc/modules-load.d/bt3c_cs.conf /etc/modprobe.d/bt3c_cs.conf
-FILELIST = /lib/modules/3.2.12/kernel/drivers/bluetooth/bt3c_cs.ko
