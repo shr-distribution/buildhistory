@@ -1,0 +1,10 @@
+PV = 3.10.43+gitAUTOINC+199943142f_aa677a2d02
+PR = r0
+PKGV = 3.10.43+git0+199943142f_aa677a2d02
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = kernel-3.10.43-ltsi-yocto-standard kernel-module-usbserial
+RRECOMMENDS = 
+PKGSIZE = 11856
+FILES = /lib/modules/3.10.43-ltsi-yocto-standard/kernel/drivers/usb/serial/usb_wwan.ko /etc/modules-load.d/usb_wwan.conf /etc/modprobe.d/usb_wwan.conf
+FILELIST = /lib/modules/3.10.43-ltsi-yocto-standard/kernel/drivers/usb/serial/usb_wwan.ko

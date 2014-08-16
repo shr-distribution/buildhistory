@@ -1,0 +1,10 @@
+PV = 3.10.43+gitAUTOINC+199943142f_aa677a2d02
+PR = r0
+PKGV = 3.10.43+git0+199943142f_aa677a2d02
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 14067
+FILES = /lib/firmware/mts_edge.fw
+FILELIST = /lib/firmware/mts_edge.fw

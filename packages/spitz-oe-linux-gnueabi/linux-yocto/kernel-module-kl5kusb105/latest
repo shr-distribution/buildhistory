@@ -1,0 +1,10 @@
+PV = 3.10.43+gitAUTOINC+199943142f_aa677a2d02
+PR = r0
+PKGV = 3.10.43+git0+199943142f_aa677a2d02
+PKGR = r0.13
+RPROVIDES = 
+RDEPENDS = kernel-3.10.43-ltsi-yocto-standard kernel-module-usbserial
+RRECOMMENDS = 
+PKGSIZE = 9200
+FILES = /lib/modules/3.10.43-ltsi-yocto-standard/kernel/drivers/usb/serial/kl5kusb105.ko /etc/modules-load.d/kl5kusb105.conf /etc/modprobe.d/kl5kusb105.conf
+FILELIST = /lib/modules/3.10.43-ltsi-yocto-standard/kernel/drivers/usb/serial/kl5kusb105.ko
