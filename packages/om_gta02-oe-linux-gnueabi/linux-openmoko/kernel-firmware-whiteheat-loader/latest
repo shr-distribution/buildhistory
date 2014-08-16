@@ -1,0 +1,10 @@
+PE = 1
+PV = 3.2
+PR = r14
+PKGR = r14.22
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 5626
+FILES = /lib/firmware/whiteheat_loader.fw
+FILELIST = /lib/firmware/whiteheat_loader.fw

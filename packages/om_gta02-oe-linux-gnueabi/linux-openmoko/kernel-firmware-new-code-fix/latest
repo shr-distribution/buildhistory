@@ -1,0 +1,10 @@
+PE = 1
+PV = 3.2
+PR = r14
+PKGR = r14.22
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 622
+FILES = /lib/firmware/kaweth/new_code_fix.bin
+FILELIST = /lib/firmware/kaweth/new_code_fix.bin
