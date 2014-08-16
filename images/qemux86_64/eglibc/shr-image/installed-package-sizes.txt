@@ -1,8 +1,8 @@
 30497	KiB mesa-megadriver
 12272	KiB vim-common
-11174	KiB systemd
+10978	KiB systemd
 6693	KiB python-elementary
-6376	KiB e-wm
+6377	KiB e-wm
 6259	KiB fbreader
 6225	KiB terminology-themes
 5780	KiB vim-help
@@ -10,7 +10,7 @@
 5334	KiB gdb
 5177	KiB libgtk-2.0
 5126	KiB elementary-themes
-5007	KiB udev-hwdb
+4975	KiB udev-hwdb
 4824	KiB vim-syntax
 4256	KiB libc6
 4115	KiB python-codecs
@@ -79,9 +79,9 @@
 883	KiB luajit
 841	KiB tcpdump
 816	KiB libsoup-2.4
-799	KiB udev
 797	KiB python-ecore
 796	KiB python-lang
+790	KiB udev
 765	KiB dbus-1
 759	KiB libsqlite3-0
 752	KiB python-pygobject
@@ -385,6 +385,7 @@
 43	KiB json-c
 42	KiB python-readline
 42	KiB kernel-module-snd-ens1370
+41	KiB systemd-binfmt
 41	KiB python-pyrtc
 41	KiB gst-plugins-good-gconfelements
 40	KiB xauth
@@ -396,7 +397,6 @@
 38	KiB opimd-utils-notes
 38	KiB libgles2-mesa
 38	KiB kernel-module-snd-rawmidi
-37	KiB systemd-binfmt
 37	KiB pulseaudio-locale-cs
 37	KiB libxrender1
 37	KiB libxrandr2
