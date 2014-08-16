@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+04c9f42eb1
+PR = r16
+PKGV = 3.13.6+gitr0+04c9f42eb1
+PKGR = r16.13
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 3852
+FILES = /lib/firmware/emi26/loader.fw /lib/firmware/emi62/loader.fw
+FILELIST = /lib/firmware/emi26/loader.fw /lib/firmware/emi62/loader.fw
