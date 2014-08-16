@@ -1,0 +1,11 @@
+PE = 2
+PV = 3.13+gitrAUTOINC+c089e5f8ba
+PR = r74
+PKGV = 3.13+gitr0+c089e5f8ba
+PKGR = r74.22
+RPROVIDES = 
+RDEPENDS = kernel-3.13.0-rc7 kernel-module-phonet
+RRECOMMENDS = 
+PKGSIZE = 26204
+FILES = /lib/modules/3.13.0-rc7/kernel/net/phonet/pn_pep.ko /etc/modules-load.d/pn_pep.conf /etc/modprobe.d/pn_pep.conf
+FILELIST = /lib/modules/3.13.0-rc7/kernel/net/phonet/pn_pep.ko
