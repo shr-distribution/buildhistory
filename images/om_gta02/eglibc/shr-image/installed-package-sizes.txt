@@ -3,7 +3,7 @@
 6225	KiB terminology-themes
 6052	KiB python-elementary
 5780	KiB vim-help
-5621	KiB e-wm
+5622	KiB e-wm
 5126	KiB elementary-themes
 5007	KiB udev-hwdb
 4902	KiB fbreader
