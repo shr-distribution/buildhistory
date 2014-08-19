@@ -2776,7 +2776,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/quic
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shot
 -rw-r--r-- root       root             9475 ./usr/lib/enlightenment/modules/shot/e-module-shot.edj
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shot/linux-gnueabi-arm-ver-00
--rwxr-xr-x root       root            28304 ./usr/lib/enlightenment/modules/shot/linux-gnueabi-arm-ver-00/module.so
+-rwxr-xr-x root       root            28992 ./usr/lib/enlightenment/modules/shot/linux-gnueabi-arm-ver-00/module.so
 -rw-r--r-- root       root             1151 ./usr/lib/enlightenment/modules/shot/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shr-e-gadgets
 -rw-r--r-- root       root            10597 ./usr/lib/enlightenment/modules/shr-e-gadgets/e-module-shr-e-gadgets.edj
@@ -2796,7 +2796,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/sysc
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/systray
 -rw-r--r-- root       root            10045 ./usr/lib/enlightenment/modules/systray/e-module-systray.edj
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/systray/linux-gnueabi-arm-ver-00
--rwxr-xr-x root       root            44784 ./usr/lib/enlightenment/modules/systray/linux-gnueabi-arm-ver-00/module.so
+-rwxr-xr-x root       root            44856 ./usr/lib/enlightenment/modules/systray/linux-gnueabi-arm-ver-00/module.so
 -rw-r--r-- root       root             2037 ./usr/lib/enlightenment/modules/systray/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/tasks
 -rw-r--r-- root       root            12522 ./usr/lib/enlightenment/modules/tasks/e-module-tasks.edj
@@ -2815,7 +2815,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/temp
 -rwxr-xr-x root       root             9024 ./usr/lib/enlightenment/modules/temperature/linux-gnueabi-arm-ver-00/tempget
 -rw-r--r-- root       root              973 ./usr/lib/enlightenment/modules/temperature/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/tiling
--rw-r--r-- root       root            40686 ./usr/lib/enlightenment/modules/tiling/e-module-tiling.edj
+-rw-r--r-- root       root            40762 ./usr/lib/enlightenment/modules/tiling/e-module-tiling.edj
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/tiling/linux-gnueabi-arm-ver-00
 -rwxr-xr-x root       root            64180 ./usr/lib/enlightenment/modules/tiling/linux-gnueabi-arm-ver-00/module.so
 -rw-r--r-- root       root              940 ./usr/lib/enlightenment/modules/tiling/module.desktop
@@ -2834,7 +2834,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/wiza
 -rwxr-xr-x root       root            14716 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/module.so
 -rwxr-xr-x root       root             6292 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_000.so
 -rwxr-xr-x root       root            15156 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_010.so
--rwxr-xr-x root       root            10536 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_011.so
+-rwxr-xr-x root       root            10544 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_011.so
 -rwxr-xr-x root       root            10508 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_020.so
 -rwxr-xr-x root       root             5028 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_030.so
 -rwxr-xr-x root       root             7176 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_040.so
@@ -2857,7 +2857,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/wiza
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/xkbswitch
 -rw-r--r-- root       root             9213 ./usr/lib/enlightenment/modules/xkbswitch/e-module-xkbswitch.edj
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnueabi-arm-ver-00
--rwxr-xr-x root       root            28132 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnueabi-arm-ver-00/module.so
+-rwxr-xr-x root       root            28156 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnueabi-arm-ver-00/module.so
 -rw-r--r-- root       root              992 ./usr/lib/enlightenment/modules/xkbswitch/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/utils
 -rwxr-xr-x root       root            12284 ./usr/lib/enlightenment/utils/enlightenment_alert
@@ -17935,7 +17935,7 @@ drwxr-xr-x root       root            81920 ./var/lib/opkg/info
 -rw-r--r-- root       root             1522 ./var/lib/opkg/info/zaurusd.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- 1026       1026            86507 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root           109610 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           321077 ./var/lib/opkg/lists/oe-spitz
 -rw-r--r-- root       root          6448059 ./var/lib/opkg/lists/oe-xscalete
 -rw-r--r-- root       root           213798 ./var/lib/opkg/status
