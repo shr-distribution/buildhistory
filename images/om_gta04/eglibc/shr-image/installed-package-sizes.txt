@@ -1,7 +1,7 @@
 12272	KiB vim-common
 7703	KiB systemd
 6225	KiB terminology-themes
-5834	KiB python-elementary
+5832	KiB python-elementary
 5780	KiB vim-help
 5467	KiB e-wm
 5126	KiB elementary-themes
@@ -49,7 +49,7 @@
 1132	KiB libperl5
 1116	KiB libpython2.7-1.0
 1078	KiB libcrypto1.0.0
-1049	KiB python-evas
+1048	KiB python-evas
 1047	KiB babiloo-efl
 1003	KiB ttf-dejavu-sans-mono
 1001	KiB python-xml
@@ -72,7 +72,7 @@
 714	KiB iptables
 697	KiB pidgin
 689	KiB python-lang
-682	KiB python-ecore
+681	KiB python-ecore
 678	KiB libgnutls28
 669	KiB shr-settings
 662	KiB numptyphysics
@@ -85,7 +85,7 @@
 610	KiB libgcrypt
 545	KiB udev
 545	KiB python-pyyaml
-528	KiB python-edje
+527	KiB python-edje
 504	KiB python-multiprocessing
 498	KiB serial-forward
 489	KiB python-pygobject
