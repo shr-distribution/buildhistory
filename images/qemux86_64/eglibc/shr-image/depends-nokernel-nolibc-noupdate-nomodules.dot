@@ -2903,7 +2903,6 @@ digraph depends {
 "systemd" -> "e2fsprogs-e2fsck" [style=dotted];
 "systemd" -> "kmod";
 "systemd" -> "libacl1";
-"systemd" -> "libattr1";
 "systemd" -> "libblkid1";
 "systemd" -> "libcap2";
 "systemd" -> "libkmod2";
