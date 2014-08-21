@@ -1,0 +1,10 @@
+PV = 3.16++gitAUTOINC+8ad5be3e2c_033bf6778d
+PR = r0
+PKGV = 3.16++git0+8ad5be3e2c_033bf6778d
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.16.0-yocto-standard kernel-module-gspca-main kernel-module-media kernel-module-videodev
+RRECOMMENDS = 
+PKGSIZE = 21536
+FILES = /lib/modules/3.16.0-yocto-standard/kernel/drivers/media/usb/gspca/gspca_ov534_9.ko /etc/modules-load.d/gspca_ov534_9.conf /etc/modprobe.d/gspca_ov534_9.conf
+FILELIST = /lib/modules/3.16.0-yocto-standard/kernel/drivers/media/usb/gspca/gspca_ov534_9.ko

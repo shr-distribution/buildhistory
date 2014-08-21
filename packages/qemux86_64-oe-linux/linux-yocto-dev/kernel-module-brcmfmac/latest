@@ -1,0 +1,10 @@
+PV = 3.16++gitAUTOINC+8ad5be3e2c_033bf6778d
+PR = r0
+PKGV = 3.16++git0+8ad5be3e2c_033bf6778d
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.16.0-yocto-standard kernel-module-brcmutil kernel-module-cfg80211
+RRECOMMENDS = 
+PKGSIZE = 230856
+FILES = /lib/modules/3.16.0-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko /etc/modules-load.d/brcmfmac.conf /etc/modprobe.d/brcmfmac.conf
+FILELIST = /lib/modules/3.16.0-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko

@@ -1,0 +1,10 @@
+PV = 3.16++gitAUTOINC+8ad5be3e2c_033bf6778d
+PR = r0
+PKGV = 3.16++git0+8ad5be3e2c_033bf6778d
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.16.0-yocto-standard kernel-module-nf-conntrack kernel-module-nf-conntrack-sip kernel-module-nf-nat
+RRECOMMENDS = 
+PKGSIZE = 16000
+FILES = /lib/modules/3.16.0-yocto-standard/kernel/net/netfilter/nf_nat_sip.ko /etc/modules-load.d/nf_nat_sip.conf /etc/modprobe.d/nf_nat_sip.conf
+FILELIST = /lib/modules/3.16.0-yocto-standard/kernel/net/netfilter/nf_nat_sip.ko

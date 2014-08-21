@@ -1,0 +1,10 @@
+PV = 3.16++gitAUTOINC+8ad5be3e2c_033bf6778d
+PR = r0
+PKGV = 3.16++git0+8ad5be3e2c_033bf6778d
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.16.0-yocto-standard kernel-module-llc
+RRECOMMENDS = 
+PKGSIZE = 5584
+FILES = /lib/modules/3.16.0-yocto-standard/kernel/net/802/stp.ko /etc/modules-load.d/stp.conf /etc/modprobe.d/stp.conf
+FILELIST = /lib/modules/3.16.0-yocto-standard/kernel/net/802/stp.ko

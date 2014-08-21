@@ -1,0 +1,10 @@
+PV = 3.16++gitAUTOINC+8ad5be3e2c_033bf6778d
+PR = r0
+PKGV = 3.16++git0+8ad5be3e2c_033bf6778d
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 164445078
+FILES = /boot/vmlinux*
+FILELIST = /boot/vmlinux-3.16.0-yocto-standard

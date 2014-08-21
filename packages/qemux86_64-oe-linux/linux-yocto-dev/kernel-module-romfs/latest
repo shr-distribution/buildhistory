@@ -1,0 +1,10 @@
+PV = 3.16++gitAUTOINC+8ad5be3e2c_033bf6778d
+PR = r0
+PKGV = 3.16++git0+8ad5be3e2c_033bf6778d
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.16.0-yocto-standard
+RRECOMMENDS = 
+PKGSIZE = 14952
+FILES = /lib/modules/3.16.0-yocto-standard/kernel/fs/romfs/romfs.ko /etc/modules-load.d/romfs.conf /etc/modprobe.d/romfs.conf
+FILELIST = /lib/modules/3.16.0-yocto-standard/kernel/fs/romfs/romfs.ko
