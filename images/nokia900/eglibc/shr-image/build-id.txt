@@ -1,4 +1,4 @@
-nokia900: shr-image configured for shr 2013.07-next-20140820
+nokia900: shr-image configured for shr 2013.07-next-20140822
 
 Build Configuration:
 BB_VERSION        = "1.23.1"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "arm-oe-linux-gnueabi"
 MACHINE           = "nokia900"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20140820"
+DISTRO_VERSION    = "2013.07-next-20140822"
 TUNE_FEATURES     = "arm armv7a vfp thumb neon cortexa8"
 TARGET_FPU        = "vfp-neon"
 meta-jama         = "master:1818963dda7b85375bc5dd80d5ec9cbd23f46cb8"
@@ -27,7 +27,7 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:27c3dbbb40d70b66f1dcde5333026592d96b256e"
+meta-systemd      = "jansa/master:992fb561e989df8796b7fcaa9dab9b544b333936"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
