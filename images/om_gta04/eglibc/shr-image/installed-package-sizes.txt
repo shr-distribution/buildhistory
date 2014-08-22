@@ -17,13 +17,13 @@
 2797	KiB frameworkd
 2758	KiB libc6
 2704	KiB ncurses-terminfo
-2673	KiB elementary
+2672	KiB elementary
 2663	KiB xkeyboard-config
 2630	KiB libglib-2.0-0
 2627	KiB mesa-demos
 2396	KiB ttf-dejavu-sans
 2299	KiB terminology
-2261	KiB evas
+2258	KiB evas
 2203	KiB advancedcaching
 2081	KiB shared-mime-info
 2033	KiB vim-tutor
@@ -122,7 +122,7 @@
 342	KiB nettle
 338	KiB openssh-keygen
 335	KiB libtiff5
-334	KiB libedje-utils
+335	KiB libedje-utils
 332	KiB sysstat
 328	KiB libgstfarsight-0.10-0
 325	KiB mobile-broadband-provider-info
@@ -201,9 +201,9 @@
 165	KiB ffalarms
 165	KiB elfe
 164	KiB enjoy
-163	KiB libeldbus1
 163	KiB libdbus-1-3
 161	KiB libmount1
+161	KiB libeldbus1
 159	KiB python-re
 159	KiB mtd-utils
 158	KiB python-threading
@@ -241,8 +241,8 @@
 119	KiB libgps20
 117	KiB liblightmediascanner0
 116	KiB libopkg1
-115	KiB libefreet1
 114	KiB python-stringold
+112	KiB libefreet1
 111	KiB libapr-1-0
 109	KiB libexif-locale-en-gb
 108	KiB opimd-utils
