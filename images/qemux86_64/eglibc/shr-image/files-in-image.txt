@@ -17668,7 +17668,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root           109610 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6619620 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6619419 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           331253 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           201736 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
