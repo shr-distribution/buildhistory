@@ -1,7 +1,7 @@
 12272	KiB vim-common
 8147	KiB systemd
 6225	KiB terminology-themes
-6052	KiB python-elementary
+6050	KiB python-elementary
 5780	KiB vim-help
 5622	KiB e-wm
 5126	KiB elementary-themes
@@ -21,7 +21,7 @@
 2684	KiB libglib-2.0-0
 2663	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
-2381	KiB evas
+2377	KiB evas
 2306	KiB terminology
 2191	KiB advancedcaching
 2085	KiB subversion
@@ -72,7 +72,7 @@
 730	KiB luajit
 721	KiB libcairo2
 715	KiB libgnutls28
-711	KiB python-ecore
+710	KiB python-ecore
 710	KiB libstdc++6
 708	KiB pidgin
 691	KiB python-lang
@@ -94,10 +94,10 @@
 496	KiB s3c64xx-gpio
 491	KiB openssh-ssh
 490	KiB screen
+483	KiB libsqlite3-0
 482	KiB foxtrotgps
 478	KiB dbus-1
 478	KiB busybox
-476	KiB libsqlite3-0
 469	KiB findutils
 463	KiB libevent
 450	KiB openvpn
@@ -128,9 +128,9 @@
 347	KiB libical
 345	KiB libpulsecommon
 339	KiB libgl-mesa
+339	KiB libedje-utils
 338	KiB openssh-keygen
 338	KiB libgstfarsight-0.10-0
-338	KiB libedje-utils
 325	KiB mobile-broadband-provider-info
 324	KiB vagalume
 323	KiB powertop
@@ -244,7 +244,7 @@
 124	KiB linux-firmware-sd8686
 122	KiB liblightmediascanner0
 121	KiB libgcc1
-119	KiB libefreet1
+116	KiB libefreet1
 113	KiB python-stringold
 113	KiB ecore-evas
 112	KiB gdk-pixbuf

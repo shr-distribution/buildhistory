@@ -1785,12 +1785,12 @@ lrwxrwxrwx root       root               19 ./usr/bin/dumpleases -> /bin/busybox
 -rwxr--r-- root       root             4984 ./usr/bin/ecalc
 lrwxrwxrwx root       root               11 ./usr/bin/edit -> run-mailcap
 -rwxr-xr-x root       root           185320 ./usr/bin/edje_cc
--rwxr-xr-x root       root            30784 ./usr/bin/edje_codegen
--rwxr-xr-x root       root            15344 ./usr/bin/edje_decc
+-rwxr-xr-x root       root            30776 ./usr/bin/edje_codegen
+-rwxr-xr-x root       root            15412 ./usr/bin/edje_decc
 -rwxr-xr-x root       root            14260 ./usr/bin/edje_external_inspector
 -rwxr-xr-x root       root            39236 ./usr/bin/edje_inspector
--rwxr-xr-x root       root            20484 ./usr/bin/edje_pick
--rwxr-xr-x root       root            21816 ./usr/bin/edje_player
+-rwxr-xr-x root       root            20944 ./usr/bin/edje_pick
+-rwxr-xr-x root       root            21808 ./usr/bin/edje_player
 -rwxr-xr-x root       root             1177 ./usr/bin/edje_recc
 -rwxr-xr-x root       root             8128 ./usr/bin/edje_watch
 -rwxr-xr-x root       root             4500 ./usr/bin/eeze_disk_ls
@@ -1817,7 +1817,7 @@ lrwxrwxrwx root       root               22 ./usr/bin/env -> /usr/bin/env.coreut
 -rwxr-xr-x root       root            15544 ./usr/bin/es2tri
 -rwxr-xr-x root       root            35064 ./usr/bin/estardict
 -rwxr-xr-x root       root            14116 ./usr/bin/estardict_engine_tests
--rwxr-xr-x root       root             9096 ./usr/bin/ethumb
+-rwxr-xr-x root       root             9088 ./usr/bin/ethumb
 -rwxr-xr-x root       root            26616 ./usr/bin/ethumbd
 -rwxr-xr-x root       root            10100 ./usr/bin/ethumbd_client
 -rwxr-xr-x root       root            22868 ./usr/bin/eu-ar
@@ -2439,7 +2439,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion/v-1.1
 -rwxr-xr-x root       root            15436 ./usr/lib/edje/modules/emotion/v-1.11/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/edje/utils
 drwxr-xr-x root       root             4096 ./usr/lib/edje/utils/v-1.11
--rwxr-xr-x root       root            68884 ./usr/lib/edje/utils/v-1.11/epp
+-rwxr-xr-x root       root            68940 ./usr/lib/edje/utils/v-1.11/epp
 drwxr-xr-x root       root             4096 ./usr/lib/eeze
 drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules
 drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor
@@ -2869,16 +2869,16 @@ drwxr-xr-x root       root             4096 ./usr/lib/evas
 drwxr-xr-x root       root             4096 ./usr/lib/evas/cserve2
 drwxr-xr-x root       root             4096 ./usr/lib/evas/cserve2/bin
 drwxr-xr-x root       root             4096 ./usr/lib/evas/cserve2/bin/v-1.11
--rwxr-xr-x root       root            74068 ./usr/lib/evas/cserve2/bin/v-1.11/evas_cserve2
--rwxr-xr-x root       root            95188 ./usr/lib/evas/cserve2/bin/v-1.11/evas_cserve2_slave
+-rwxr-xr-x root       root            74108 ./usr/lib/evas/cserve2/bin/v-1.11/evas_cserve2
+-rwxr-xr-x root       root            94340 ./usr/lib/evas/cserve2/bin/v-1.11/evas_cserve2_slave
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic/v-1.11
--rwxr-xr-x root       root           315312 ./usr/lib/evas/modules/engines/gl_generic/v-1.11/module.so
+-rwxr-xr-x root       root           315968 ./usr/lib/evas/modules/engines/gl_generic/v-1.11/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11/v-1.11
--rwxr-xr-x root       root            31208 ./usr/lib/evas/modules/engines/gl_x11/v-1.11/module.so
+-rwxr-xr-x root       root            31200 ./usr/lib/evas/modules/engines/gl_x11/v-1.11/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/software_x11
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/software_x11/v-1.11
 -rwxr-xr-x root       root            43220 ./usr/lib/evas/modules/engines/software_x11/v-1.11/module.so
@@ -3072,13 +3072,13 @@ lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.
 lrwxrwxrwx root       root               24 ./usr/lib/libecore_audio.so.1 -> libecore_audio.so.1.11.0
 -rwxr-xr-x root       root            49764 ./usr/lib/libecore_audio.so.1.11.0
 lrwxrwxrwx root       root               22 ./usr/lib/libecore_con.so.1 -> libecore_con.so.1.11.0
--rwxr-xr-x root       root           148644 ./usr/lib/libecore_con.so.1.11.0
+-rwxr-xr-x root       root           148548 ./usr/lib/libecore_con.so.1.11.0
 lrwxrwxrwx root       root               23 ./usr/lib/libecore_evas.so.1 -> libecore_evas.so.1.11.0
--rwxr-xr-x root       root           115208 ./usr/lib/libecore_evas.so.1.11.0
+-rwxr-xr-x root       root           115188 ./usr/lib/libecore_evas.so.1.11.0
 lrwxrwxrwx root       root               23 ./usr/lib/libecore_file.so.1 -> libecore_file.so.1.11.0
 -rwxr-xr-x root       root            21124 ./usr/lib/libecore_file.so.1.11.0
 lrwxrwxrwx root       root               22 ./usr/lib/libecore_imf.so.1 -> libecore_imf.so.1.11.0
--rwxr-xr-x root       root            25728 ./usr/lib/libecore_imf.so.1.11.0
+-rwxr-xr-x root       root            25684 ./usr/lib/libecore_imf.so.1.11.0
 lrwxrwxrwx root       root               27 ./usr/lib/libecore_imf_evas.so.1 -> libecore_imf_evas.so.1.11.0
 -rwxr-xr-x root       root             6300 ./usr/lib/libecore_imf_evas.so.1.11.0
 lrwxrwxrwx root       root               24 ./usr/lib/libecore_input.so.1 -> libecore_input.so.1.11.0
@@ -3092,31 +3092,31 @@ lrwxrwxrwx root       root               20 ./usr/lib/libecore_x.so.1 -> libecor
 lrwxrwxrwx root       root               17 ./usr/lib/libedbus.so.1 -> libedbus.so.1.7.9
 -rwxr-xr-x root       root            45344 ./usr/lib/libedbus.so.1.7.9
 lrwxrwxrwx root       root               17 ./usr/lib/libedje.so.1 -> libedje.so.1.11.0
--rwxr-xr-x root       root           683064 ./usr/lib/libedje.so.1.11.0
+-rwxr-xr-x root       root           683068 ./usr/lib/libedje.so.1.11.0
 lrwxrwxrwx root       root               16 ./usr/lib/libeet.so.1 -> libeet.so.1.11.0
--rwxr-xr-x root       root           151796 ./usr/lib/libeet.so.1.11.0
+-rwxr-xr-x root       root           151804 ./usr/lib/libeet.so.1.11.0
 lrwxrwxrwx root       root               17 ./usr/lib/libeeze.so.1 -> libeeze.so.1.11.0
 -rwxr-xr-x root       root            55736 ./usr/lib/libeeze.so.1.11.0
 lrwxrwxrwx root       root               19 ./usr/lib/libefreet.so.1 -> libefreet.so.1.11.0
--rwxr-xr-x root       root           121804 ./usr/lib/libefreet.so.1.11.0
+-rwxr-xr-x root       root           118788 ./usr/lib/libefreet.so.1.11.0
 lrwxrwxrwx root       root               24 ./usr/lib/libefreet_mime.so.1 -> libefreet_mime.so.1.11.0
 -rwxr-xr-x root       root            21164 ./usr/lib/libefreet_mime.so.1.11.0
 lrwxrwxrwx root       root               25 ./usr/lib/libefreet_trash.so.1 -> libefreet_trash.so.1.11.0
 -rwxr-xr-x root       root             9212 ./usr/lib/libefreet_trash.so.1.11.0
 lrwxrwxrwx root       root               17 ./usr/lib/libeina.so.1 -> libeina.so.1.11.0
--rwxr-xr-x root       root           375652 ./usr/lib/libeina.so.1.11.0
+-rwxr-xr-x root       root           375820 ./usr/lib/libeina.so.1.11.0
 lrwxrwxrwx root       root               16 ./usr/lib/libeio.so.1 -> libeio.so.1.11.0
--rwxr-xr-x root       root            66120 ./usr/lib/libeio.so.1.11.0
+-rwxr-xr-x root       root            66124 ./usr/lib/libeio.so.1.11.0
 lrwxrwxrwx root       root               19 ./usr/lib/libeldbus.so.1 -> libeldbus.so.1.11.0
 -rwxr-xr-x root       root           166972 ./usr/lib/libeldbus.so.1.11.0
 lrwxrwxrwx root       root               23 ./usr/lib/libelementary.so.1 -> libelementary.so.1.11.0
--rwxr-xr-x root       root          2652320 ./usr/lib/libelementary.so.1.11.0
+-rwxr-xr-x root       root          2652224 ./usr/lib/libelementary.so.1.11.0
 -rwxr-xr-x root       root            75420 ./usr/lib/libelf-0.148.so
 lrwxrwxrwx root       root               15 ./usr/lib/libelf.so.1 -> libelf-0.148.so
 lrwxrwxrwx root       root               19 ./usr/lib/libembryo.so.1 -> libembryo.so.1.11.0
 -rwxr-xr-x root       root            39924 ./usr/lib/libembryo.so.1.11.0
 lrwxrwxrwx root       root               20 ./usr/lib/libemotion.so.1 -> libemotion.so.1.11.0
--rwxr-xr-x root       root            73844 ./usr/lib/libemotion.so.1.11.0
+-rwxr-xr-x root       root            73824 ./usr/lib/libemotion.so.1.11.0
 lrwxrwxrwx root       root               15 ./usr/lib/libeo.so.1 -> libeo.so.1.11.0
 -rwxr-xr-x root       root            64280 ./usr/lib/libeo.so.1.11.0
 lrwxrwxrwx root       root               27 ./usr/lib/libestardictengine.so.0 -> libestardictengine.so.0.0.0
@@ -3126,7 +3126,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so.1 -> libethum
 lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so.1 -> libethumb_client.so.1.11.0
 -rwxr-xr-x root       root            37508 ./usr/lib/libethumb_client.so.1.11.0
 lrwxrwxrwx root       root               17 ./usr/lib/libevas.so.1 -> libevas.so.1.11.0
--rwxr-xr-x root       root          1814972 ./usr/lib/libevas.so.1.11.0
+-rwxr-xr-x root       root          1810876 ./usr/lib/libevas.so.1.11.0
 lrwxrwxrwx root       root               17 ./usr/lib/libevdev.so.2 -> libevdev.so.2.0.3
 -rwxr-xr-x root       root            54660 ./usr/lib/libevdev.so.2.0.3
 lrwxrwxrwx root       root               21 ./usr/lib/libevent-2.0.so.5 -> libevent-2.0.so.5.1.9
@@ -3263,8 +3263,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libicalss.so.0 -> libicals
 -rwxr-xr-x root       root            60780 ./usr/lib/libicalss.so.0.48.0
 lrwxrwxrwx root       root               21 ./usr/lib/libicalvcal.so.0 -> libicalvcal.so.0.48.0
 -rwxr-xr-x root       root            51496 ./usr/lib/libicalvcal.so.0.48.0
-lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.11
--rwxr-xr-x root       root           192252 ./usr/lib/libidn.so.11.6.11
+lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.12
+-rwxr-xr-x root       root           192248 ./usr/lib/libidn.so.11.6.12
 lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
 -rwxr-xr-x root       root            17536 ./usr/lib/libip4tc.so.0.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
@@ -3377,7 +3377,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libsoup-2.4.so.1 -> libsou
 lrwxrwxrwx root       root               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> libsoup-gnome-2.4.so.1.7.0
 -rwxr-xr-x root       root             5880 ./usr/lib/libsoup-gnome-2.4.so.1.7.0
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
--rwxr-xr-x root       root           487220 ./usr/lib/libsqlite3.so.0.8.6
+-rwxr-xr-x root       root           494264 ./usr/lib/libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           258908 ./usr/lib/libssl.so.1.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.20
 -rwxr-xr-x root       root           727452 ./usr/lib/libstdc++.so.6.0.20
@@ -5194,13 +5194,13 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/ed
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/efl
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/efl/ecore
 -rw-r--r-- root       root                0 ./usr/lib/python2.7/site-packages/efl/ecore/__init__.py
--rwxr-xr-x root       root           397556 ./usr/lib/python2.7/site-packages/efl/ecore/__init__.so
--rwxr-xr-x root       root           330976 ./usr/lib/python2.7/site-packages/efl/ecore/x.so
--rwxr-xr-x root       root           364856 ./usr/lib/python2.7/site-packages/efl/edje.so
+-rwxr-xr-x root       root           396252 ./usr/lib/python2.7/site-packages/efl/ecore/__init__.so
+-rwxr-xr-x root       root           330748 ./usr/lib/python2.7/site-packages/efl/ecore/x.so
+-rwxr-xr-x root       root           364620 ./usr/lib/python2.7/site-packages/efl/edje.so
 -rwxr-xr-x root       root           204744 ./usr/lib/python2.7/site-packages/efl/edje_edit.so
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/efl/elementary
 -rw-r--r-- root       root             1958 ./usr/lib/python2.7/site-packages/efl/elementary/__init__.py
--rwxr-xr-x root       root            38952 ./usr/lib/python2.7/site-packages/efl/elementary/actionslider.so
+-rwxr-xr-x root       root            38876 ./usr/lib/python2.7/site-packages/efl/elementary/actionslider.so
 -rwxr-xr-x root       root            48340 ./usr/lib/python2.7/site-packages/efl/elementary/background.so
 -rwxr-xr-x root       root            65400 ./usr/lib/python2.7/site-packages/efl/elementary/box.so
 -rwxr-xr-x root       root            32900 ./usr/lib/python2.7/site-packages/efl/elementary/bubble.so
@@ -5208,67 +5208,67 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/ef
 -rwxr-xr-x root       root            78096 ./usr/lib/python2.7/site-packages/efl/elementary/calendar_elm.so
 -rwxr-xr-x root       root            37180 ./usr/lib/python2.7/site-packages/efl/elementary/check.so
 -rwxr-xr-x root       root            62392 ./usr/lib/python2.7/site-packages/efl/elementary/clock.so
--rwxr-xr-x root       root            82668 ./usr/lib/python2.7/site-packages/efl/elementary/colorselector.so
--rwxr-xr-x root       root           129080 ./usr/lib/python2.7/site-packages/efl/elementary/configuration.so
+-rwxr-xr-x root       root            82588 ./usr/lib/python2.7/site-packages/efl/elementary/colorselector.so
+-rwxr-xr-x root       root           129000 ./usr/lib/python2.7/site-packages/efl/elementary/configuration.so
 -rwxr-xr-x root       root            33416 ./usr/lib/python2.7/site-packages/efl/elementary/conformant.so
 -rwxr-xr-x root       root            64072 ./usr/lib/python2.7/site-packages/efl/elementary/ctxpopup.so
 -rwxr-xr-x root       root            94528 ./usr/lib/python2.7/site-packages/efl/elementary/datetime_elm.so
 -rwxr-xr-x root       root            40172 ./usr/lib/python2.7/site-packages/efl/elementary/dayselector.so
--rwxr-xr-x root       root            92432 ./usr/lib/python2.7/site-packages/efl/elementary/diskselector.so
--rwxr-xr-x root       root           289860 ./usr/lib/python2.7/site-packages/efl/elementary/entry.so
--rwxr-xr-x root       root            93664 ./usr/lib/python2.7/site-packages/efl/elementary/fileselector.so
--rwxr-xr-x root       root            65820 ./usr/lib/python2.7/site-packages/efl/elementary/fileselector_button.so
--rwxr-xr-x root       root           102856 ./usr/lib/python2.7/site-packages/efl/elementary/fileselector_entry.so
+-rwxr-xr-x root       root            92356 ./usr/lib/python2.7/site-packages/efl/elementary/diskselector.so
+-rwxr-xr-x root       root           289780 ./usr/lib/python2.7/site-packages/efl/elementary/entry.so
+-rwxr-xr-x root       root            93588 ./usr/lib/python2.7/site-packages/efl/elementary/fileselector.so
+-rwxr-xr-x root       root            65744 ./usr/lib/python2.7/site-packages/efl/elementary/fileselector_button.so
+-rwxr-xr-x root       root           102776 ./usr/lib/python2.7/site-packages/efl/elementary/fileselector_entry.so
 -rwxr-xr-x root       root            57316 ./usr/lib/python2.7/site-packages/efl/elementary/flip.so
--rwxr-xr-x root       root            64704 ./usr/lib/python2.7/site-packages/efl/elementary/flipselector.so
+-rwxr-xr-x root       root            64628 ./usr/lib/python2.7/site-packages/efl/elementary/flipselector.so
 -rwxr-xr-x root       root            33192 ./usr/lib/python2.7/site-packages/efl/elementary/frame.so
--rwxr-xr-x root       root            88692 ./usr/lib/python2.7/site-packages/efl/elementary/general.so
--rwxr-xr-x root       root           304724 ./usr/lib/python2.7/site-packages/efl/elementary/gengrid.so
--rwxr-xr-x root       root           370472 ./usr/lib/python2.7/site-packages/efl/elementary/genlist.so
+-rwxr-xr-x root       root            88616 ./usr/lib/python2.7/site-packages/efl/elementary/general.so
+-rwxr-xr-x root       root           304648 ./usr/lib/python2.7/site-packages/efl/elementary/gengrid.so
+-rwxr-xr-x root       root           370396 ./usr/lib/python2.7/site-packages/efl/elementary/genlist.so
 -rwxr-xr-x root       root            88576 ./usr/lib/python2.7/site-packages/efl/elementary/gesture_layer.so
--rwxr-xr-x root       root            44228 ./usr/lib/python2.7/site-packages/efl/elementary/grid.so
+-rwxr-xr-x root       root            44152 ./usr/lib/python2.7/site-packages/efl/elementary/grid.so
 -rwxr-xr-x root       root            45168 ./usr/lib/python2.7/site-packages/efl/elementary/hover.so
--rwxr-xr-x root       root            75468 ./usr/lib/python2.7/site-packages/efl/elementary/hoversel.so
+-rwxr-xr-x root       root            75392 ./usr/lib/python2.7/site-packages/efl/elementary/hoversel.so
 -rwxr-xr-x root       root            40972 ./usr/lib/python2.7/site-packages/efl/elementary/icon.so
--rwxr-xr-x root       root           106940 ./usr/lib/python2.7/site-packages/efl/elementary/image.so
--rwxr-xr-x root       root           108680 ./usr/lib/python2.7/site-packages/efl/elementary/index.so
+-rwxr-xr-x root       root           106860 ./usr/lib/python2.7/site-packages/efl/elementary/image.so
+-rwxr-xr-x root       root           108600 ./usr/lib/python2.7/site-packages/efl/elementary/index.so
 -rwxr-xr-x root       root            24532 ./usr/lib/python2.7/site-packages/efl/elementary/innerwindow.so
 -rwxr-xr-x root       root            48704 ./usr/lib/python2.7/site-packages/efl/elementary/label.so
 -rwxr-xr-x root       root            24904 ./usr/lib/python2.7/site-packages/efl/elementary/layout.so
 -rwxr-xr-x root       root           133180 ./usr/lib/python2.7/site-packages/efl/elementary/layout_class.so
--rwxr-xr-x root       root           155456 ./usr/lib/python2.7/site-packages/efl/elementary/list.so
+-rwxr-xr-x root       root           155380 ./usr/lib/python2.7/site-packages/efl/elementary/list.so
 -rwxr-xr-x root       root           273752 ./usr/lib/python2.7/site-packages/efl/elementary/map.so
 -rwxr-xr-x root       root            42920 ./usr/lib/python2.7/site-packages/efl/elementary/mapbuf.so
 -rwxr-xr-x root       root            60924 ./usr/lib/python2.7/site-packages/efl/elementary/menu.so
--rwxr-xr-x root       root           106076 ./usr/lib/python2.7/site-packages/efl/elementary/multibuttonentry.so
+-rwxr-xr-x root       root           106000 ./usr/lib/python2.7/site-packages/efl/elementary/multibuttonentry.so
 -rwxr-xr-x root       root            98148 ./usr/lib/python2.7/site-packages/efl/elementary/naviframe.so
--rwxr-xr-x root       root            24284 ./usr/lib/python2.7/site-packages/efl/elementary/need.so
+-rwxr-xr-x root       root            24208 ./usr/lib/python2.7/site-packages/efl/elementary/need.so
 -rwxr-xr-x root       root            48936 ./usr/lib/python2.7/site-packages/efl/elementary/notify.so
 -rwxr-xr-x root       root           245880 ./usr/lib/python2.7/site-packages/efl/elementary/object.so
 -rwxr-xr-x root       root            97628 ./usr/lib/python2.7/site-packages/efl/elementary/object_item.so
 -rwxr-xr-x root       root            33344 ./usr/lib/python2.7/site-packages/efl/elementary/panel.so
 -rwxr-xr-x root       root            41124 ./usr/lib/python2.7/site-packages/efl/elementary/panes.so
 -rwxr-xr-x root       root            48808 ./usr/lib/python2.7/site-packages/efl/elementary/photo.so
--rwxr-xr-x root       root           151328 ./usr/lib/python2.7/site-packages/efl/elementary/photocam.so
+-rwxr-xr-x root       root           151252 ./usr/lib/python2.7/site-packages/efl/elementary/photocam.so
 -rwxr-xr-x root       root            33424 ./usr/lib/python2.7/site-packages/efl/elementary/plug.so
--rwxr-xr-x root       root            71676 ./usr/lib/python2.7/site-packages/efl/elementary/popup.so
+-rwxr-xr-x root       root            71596 ./usr/lib/python2.7/site-packages/efl/elementary/popup.so
 -rwxr-xr-x root       root            56444 ./usr/lib/python2.7/site-packages/efl/elementary/progressbar.so
 -rwxr-xr-x root       root            41676 ./usr/lib/python2.7/site-packages/efl/elementary/radio.so
 -rwxr-xr-x root       root           159920 ./usr/lib/python2.7/site-packages/efl/elementary/scroller.so
--rwxr-xr-x root       root            58132 ./usr/lib/python2.7/site-packages/efl/elementary/segment_control.so
+-rwxr-xr-x root       root            58056 ./usr/lib/python2.7/site-packages/efl/elementary/segment_control.so
 -rwxr-xr-x root       root            23216 ./usr/lib/python2.7/site-packages/efl/elementary/separator.so
 -rwxr-xr-x root       root            69820 ./usr/lib/python2.7/site-packages/efl/elementary/slider.so
--rwxr-xr-x root       root           102640 ./usr/lib/python2.7/site-packages/efl/elementary/slideshow.so
+-rwxr-xr-x root       root           102560 ./usr/lib/python2.7/site-packages/efl/elementary/slideshow.so
 -rwxr-xr-x root       root            65996 ./usr/lib/python2.7/site-packages/efl/elementary/spinner.so
--rwxr-xr-x root       root            49096 ./usr/lib/python2.7/site-packages/efl/elementary/table.so
--rwxr-xr-x root       root            52084 ./usr/lib/python2.7/site-packages/efl/elementary/theme.so
+-rwxr-xr-x root       root            49016 ./usr/lib/python2.7/site-packages/efl/elementary/table.so
+-rwxr-xr-x root       root            52004 ./usr/lib/python2.7/site-packages/efl/elementary/theme.so
 -rwxr-xr-x root       root            74500 ./usr/lib/python2.7/site-packages/efl/elementary/thumb.so
--rwxr-xr-x root       root           151272 ./usr/lib/python2.7/site-packages/efl/elementary/toolbar.so
+-rwxr-xr-x root       root           151196 ./usr/lib/python2.7/site-packages/efl/elementary/toolbar.so
 -rwxr-xr-x root       root           112692 ./usr/lib/python2.7/site-packages/efl/elementary/transit.so
 -rwxr-xr-x root       root            80072 ./usr/lib/python2.7/site-packages/efl/elementary/video.so
--rwxr-xr-x root       root           183748 ./usr/lib/python2.7/site-packages/efl/elementary/web.so
+-rwxr-xr-x root       root           183672 ./usr/lib/python2.7/site-packages/efl/elementary/web.so
 -rwxr-xr-x root       root           216728 ./usr/lib/python2.7/site-packages/efl/elementary/window.so
--rwxr-xr-x root       root          1115468 ./usr/lib/python2.7/site-packages/efl/evas.so
+-rwxr-xr-x root       root          1115236 ./usr/lib/python2.7/site-packages/efl/evas.so
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/elementary
 -rw-r--r-- root       root             2676 ./usr/lib/python2.7/site-packages/elementary/__init__.py
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/evas
@@ -7909,7 +7909,7 @@ drwxr-xr-x root       root             4096 ./usr/share/elementary/config/standa
 -rw-r--r-- root       root            12068 ./usr/share/elementary/config/standard/icon.png
 -rw-r--r-- root       root             2844 ./usr/share/elementary/config/standard/profile.desktop
 drwxr-xr-x root       root             4096 ./usr/share/elementary/themes
--rw-r--r-- root       root          5249491 ./usr/share/elementary/themes/default.edj
+-rw-r--r-- root       root          5249107 ./usr/share/elementary/themes/default.edj
 -rw-r--r-- root       root           188788 ./usr/share/elementary/themes/gry.edj
 drwxr-xr-x root       root             4096 ./usr/share/emtooth2
 drwxr-xr-x root       root             4096 ./usr/share/emtooth2/images
@@ -16083,40 +16083,40 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 -rwxr-xr-x root       root               70 ./var/lib/opkg/info/e2fsprogs.postrm
 -rw-r--r-- root       root              498 ./var/lib/opkg/info/ecalc.control
 -rw-r--r-- root       root               87 ./var/lib/opkg/info/ecalc.list
--rw-r--r-- root       root             1059 ./var/lib/opkg/info/ecore-audio.control
+-rw-r--r-- root       root              988 ./var/lib/opkg/info/ecore-audio.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/ecore-audio.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-audio.postinst
--rw-r--r-- root       root              698 ./var/lib/opkg/info/ecore-con.control
+-rw-r--r-- root       root              627 ./var/lib/opkg/info/ecore-con.control
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/ecore-con.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-con.postinst
--rw-r--r-- root       root              978 ./var/lib/opkg/info/ecore-evas.control
+-rw-r--r-- root       root              868 ./var/lib/opkg/info/ecore-evas.control
 -rw-r--r-- root       root               61 ./var/lib/opkg/info/ecore-evas.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-evas.postinst
--rw-r--r-- root       root              735 ./var/lib/opkg/info/ecore-file.control
+-rw-r--r-- root       root              651 ./var/lib/opkg/info/ecore-file.control
 -rw-r--r-- root       root               61 ./var/lib/opkg/info/ecore-file.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-file.postinst
--rw-r--r-- root       root              975 ./var/lib/opkg/info/ecore-imf-evas.control
+-rw-r--r-- root       root              865 ./var/lib/opkg/info/ecore-imf-evas.control
 -rw-r--r-- root       root               69 ./var/lib/opkg/info/ecore-imf-evas.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-imf-evas.postinst
--rw-r--r-- root       root              607 ./var/lib/opkg/info/ecore-imf.control
+-rw-r--r-- root       root              536 ./var/lib/opkg/info/ecore-imf.control
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/ecore-imf.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-imf.postinst
--rw-r--r-- root       root              941 ./var/lib/opkg/info/ecore-input-evas.control
+-rw-r--r-- root       root              844 ./var/lib/opkg/info/ecore-input-evas.control
 -rw-r--r-- root       root               73 ./var/lib/opkg/info/ecore-input-evas.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-input-evas.postinst
--rw-r--r-- root       root              571 ./var/lib/opkg/info/ecore-input.control
+-rw-r--r-- root       root              513 ./var/lib/opkg/info/ecore-input.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/ecore-input.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-input.postinst
--rw-r--r-- root       root              734 ./var/lib/opkg/info/ecore-ipc.control
+-rw-r--r-- root       root              650 ./var/lib/opkg/info/ecore-ipc.control
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/ecore-ipc.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-ipc.postinst
--rw-r--r-- root       root             1104 ./var/lib/opkg/info/ecore-x.control
+-rw-r--r-- root       root             1007 ./var/lib/opkg/info/ecore-x.control
 -rw-r--r-- root       root              166 ./var/lib/opkg/info/ecore-x.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ecore-x.postinst
--rw-r--r-- root       root              869 ./var/lib/opkg/info/eeze.control
+-rw-r--r-- root       root              772 ./var/lib/opkg/info/eeze.control
 -rw-r--r-- root       root              499 ./var/lib/opkg/info/eeze.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/eeze.postinst
--rw-r--r-- root       root              575 ./var/lib/opkg/info/efl-locale-cs.control
+-rw-r--r-- root       root              556 ./var/lib/opkg/info/efl-locale-cs.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/efl-locale-cs.list
 -rw-r--r-- root       root              363 ./var/lib/opkg/info/eglibc-binary-localedata-cs-cz.control
 -rw-r--r-- root       root              475 ./var/lib/opkg/info/eglibc-binary-localedata-cs-cz.list
@@ -16138,25 +16138,25 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 -rw-r--r-- root       root               44 ./var/lib/opkg/info/eglibc-locale-en-gb.list
 -rw-r--r-- root       root             1479 ./var/lib/opkg/info/eglibc-utils.control
 -rw-r--r-- root       root              186 ./var/lib/opkg/info/eglibc-utils.list
--rw-r--r-- root       root              437 ./var/lib/opkg/info/eina.control
+-rw-r--r-- root       root              418 ./var/lib/opkg/info/eina.control
 -rw-r--r-- root       root               73 ./var/lib/opkg/info/eina.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/eina.postinst
--rw-r--r-- root       root              527 ./var/lib/opkg/info/elementary-configs.control
+-rw-r--r-- root       root              495 ./var/lib/opkg/info/elementary-configs.control
 -rw-r--r-- root       root              643 ./var/lib/opkg/info/elementary-configs.list
--rw-r--r-- root       root              691 ./var/lib/opkg/info/elementary-locale-cs.control
+-rw-r--r-- root       root              659 ./var/lib/opkg/info/elementary-locale-cs.control
 -rw-r--r-- root       root               47 ./var/lib/opkg/info/elementary-locale-cs.list
 -rw-r--r-- root       root              518 ./var/lib/opkg/info/elementary-theme-gry.control
 -rw-r--r-- root       root               37 ./var/lib/opkg/info/elementary-theme-gry.list
--rw-r--r-- root       root              526 ./var/lib/opkg/info/elementary-themes.control
+-rw-r--r-- root       root              494 ./var/lib/opkg/info/elementary-themes.control
 -rw-r--r-- root       root               71 ./var/lib/opkg/info/elementary-themes.list
--rw-r--r-- root       root             2424 ./var/lib/opkg/info/elementary.control
+-rw-r--r-- root       root             2080 ./var/lib/opkg/info/elementary.control
 -rw-r--r-- root       root              641 ./var/lib/opkg/info/elementary.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/elementary.postinst
 -rw-r--r-- root       root             2274 ./var/lib/opkg/info/elfe.control
 -rw-r--r-- root       root              340 ./var/lib/opkg/info/elfe.list
 -rw-r--r-- root       root             1075 ./var/lib/opkg/info/elfutils.control
 -rw-r--r-- root       root              188 ./var/lib/opkg/info/elfutils.list
--rw-r--r-- root       root              470 ./var/lib/opkg/info/embryo.control
+-rw-r--r-- root       root              438 ./var/lib/opkg/info/embryo.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/embryo.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/embryo.postinst
 -rw-r--r-- root       root              654 ./var/lib/opkg/info/emtooth2.control
@@ -16167,10 +16167,10 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 -rw-r--r-- root       root             2255 ./var/lib/opkg/info/estardict.control
 -rw-r--r-- root       root             1477 ./var/lib/opkg/info/estardict.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/estardict.postinst
--rw-r--r-- root       root             1847 ./var/lib/opkg/info/ethumb.control
+-rw-r--r-- root       root             1581 ./var/lib/opkg/info/ethumb.control
 -rw-r--r-- root       root              761 ./var/lib/opkg/info/ethumb.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/ethumb.postinst
--rw-r--r-- root       root             1289 ./var/lib/opkg/info/evas.control
+-rw-r--r-- root       root             1231 ./var/lib/opkg/info/evas.control
 -rw-r--r-- root       root             1347 ./var/lib/opkg/info/evas.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/evas.postinst
 -rw-r--r-- root       root              441 ./var/lib/opkg/info/evtest.control
@@ -16769,45 +16769,45 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 -rw-r--r-- root       root             1471 ./var/lib/opkg/info/libe2p2.control
 -rw-r--r-- root       root               36 ./var/lib/opkg/info/libe2p2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libe2p2.postinst
--rw-r--r-- root       root             1556 ./var/lib/opkg/info/libecore1.control
+-rw-r--r-- root       root             1381 ./var/lib/opkg/info/libecore1.control
 -rw-r--r-- root       root              802 ./var/lib/opkg/info/libecore1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libecore1.postinst
 -rw-r--r-- root       root              565 ./var/lib/opkg/info/libedbus1.control
 -rw-r--r-- root       root               50 ./var/lib/opkg/info/libedbus1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libedbus1.postinst
--rw-r--r-- root       root              740 ./var/lib/opkg/info/libedje-utils.control
+-rw-r--r-- root       root              617 ./var/lib/opkg/info/libedje-utils.control
 -rw-r--r-- root       root              269 ./var/lib/opkg/info/libedje-utils.list
--rw-r--r-- root       root             1777 ./var/lib/opkg/info/libedje1.control
+-rw-r--r-- root       root             1537 ./var/lib/opkg/info/libedje1.control
 -rw-r--r-- root       root              360 ./var/lib/opkg/info/libedje1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libedje1.postinst
--rw-r--r-- root       root              566 ./var/lib/opkg/info/libeet1.control
+-rw-r--r-- root       root              534 ./var/lib/opkg/info/libeet1.control
 -rw-r--r-- root       root               47 ./var/lib/opkg/info/libeet1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeet1.postinst
--rw-r--r-- root       root              875 ./var/lib/opkg/info/libefreet-mime1.control
+-rw-r--r-- root       root              752 ./var/lib/opkg/info/libefreet-mime1.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/libefreet-mime1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libefreet-mime1.postinst
--rw-r--r-- root       root              876 ./var/lib/opkg/info/libefreet-trash1.control
+-rw-r--r-- root       root              753 ./var/lib/opkg/info/libefreet-trash1.control
 -rw-r--r-- root       root               65 ./var/lib/opkg/info/libefreet-trash1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libefreet-trash1.postinst
--rw-r--r-- root       root              833 ./var/lib/opkg/info/libefreet1.control
+-rw-r--r-- root       root              723 ./var/lib/opkg/info/libefreet1.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libefreet1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libefreet1.postinst
 -rw-r--r-- root       root             1249 ./var/lib/opkg/info/libegl-mesa.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libegl-mesa.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libegl-mesa.postinst
--rw-r--r-- root       root              696 ./var/lib/opkg/info/libeio1.control
+-rw-r--r-- root       root              625 ./var/lib/opkg/info/libeio1.control
 -rw-r--r-- root       root               47 ./var/lib/opkg/info/libeio1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeio1.postinst
--rw-r--r-- root       root              594 ./var/lib/opkg/info/libeldbus1.control
+-rw-r--r-- root       root              536 ./var/lib/opkg/info/libeldbus1.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libeldbus1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeldbus1.postinst
 -rw-r--r-- root       root             1015 ./var/lib/opkg/info/libelf1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libelf1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libelf1.postinst
--rw-r--r-- root       root             1139 ./var/lib/opkg/info/libemotion1.control
+-rw-r--r-- root       root             1003 ./var/lib/opkg/info/libemotion1.control
 -rw-r--r-- root       root               55 ./var/lib/opkg/info/libemotion1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libemotion1.postinst
--rw-r--r-- root       root              470 ./var/lib/opkg/info/libeo1.control
+-rw-r--r-- root       root              438 ./var/lib/opkg/info/libeo1.control
 -rw-r--r-- root       root               45 ./var/lib/opkg/info/libeo1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeo1.postinst
 -rw-r--r-- root       root              613 ./var/lib/opkg/info/liberation-fonts.control
@@ -17642,17 +17642,17 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 -rw-r--r-- root       root             2163 ./var/lib/opkg/info/python-dbus.list
 -rw-r--r-- root       root             1697 ./var/lib/opkg/info/python-difflib.control
 -rw-r--r-- root       root               92 ./var/lib/opkg/info/python-difflib.list
--rw-r--r-- root       root              635 ./var/lib/opkg/info/python-ecore.control
+-rw-r--r-- root       root              542 ./var/lib/opkg/info/python-ecore.control
 -rw-r--r-- root       root              293 ./var/lib/opkg/info/python-ecore.list
 -rw-r--r-- root       root              644 ./var/lib/opkg/info/python-edbus.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/python-edbus.list
--rw-r--r-- root       root              555 ./var/lib/opkg/info/python-edje.control
+-rw-r--r-- root       root              488 ./var/lib/opkg/info/python-edje.control
 -rw-r--r-- root       root              184 ./var/lib/opkg/info/python-edje.list
--rw-r--r-- root       root              594 ./var/lib/opkg/info/python-elementary.control
+-rw-r--r-- root       root              514 ./var/lib/opkg/info/python-elementary.control
 -rw-r--r-- root       root             4364 ./var/lib/opkg/info/python-elementary.list
 -rw-r--r-- root       root             1702 ./var/lib/opkg/info/python-elementtree.control
 -rw-r--r-- root       root               47 ./var/lib/opkg/info/python-elementtree.list
--rw-r--r-- root       root              551 ./var/lib/opkg/info/python-evas.control
+-rw-r--r-- root       root              484 ./var/lib/opkg/info/python-evas.control
 -rw-r--r-- root       root              134 ./var/lib/opkg/info/python-evas.list
 -rw-r--r-- root       root             1703 ./var/lib/opkg/info/python-fcntl.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/python-fcntl.list
@@ -18002,9 +18002,9 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root           109610 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6449226 ./var/lib/opkg/lists/oe-arm920tt
+-rw-r--r-- root       root          6442598 ./var/lib/opkg/lists/oe-arm920tt
 -rw-r--r-- root       root           352952 ./var/lib/opkg/lists/oe-om_gta02
--rw-r--r-- root       root           219986 ./var/lib/opkg/status
+-rw-r--r-- root       root           217010 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
