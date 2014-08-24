@@ -3152,8 +3152,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libicalss.so.0 -> libicals
 -rwxr-xr-x root       root            90752 ./usr/lib/libicalss.so.0.48.0
 lrwxrwxrwx root       root               21 ./usr/lib/libicalvcal.so.0 -> libicalvcal.so.0.48.0
 -rwxr-xr-x root       root            84448 ./usr/lib/libicalvcal.so.0.48.0
-lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.11
--rwxr-xr-x root       root           207728 ./usr/lib/libidn.so.11.6.11
+lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.12
+-rwxr-xr-x root       root           210928 ./usr/lib/libidn.so.11.6.12
 lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
 -rwxr-xr-x root       root            28248 ./usr/lib/libip4tc.so.0.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
@@ -3264,7 +3264,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libsoup-2.4.so.1 -> libsou
 lrwxrwxrwx root       root               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> libsoup-gnome-2.4.so.1.7.0
 -rwxr-xr-x root       root             8456 ./usr/lib/libsoup-gnome-2.4.so.1.7.0
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
--rwxr-xr-x root       root           776736 ./usr/lib/libsqlite3.so.0.8.6
+-rwxr-xr-x root       root           786080 ./usr/lib/libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           418176 ./usr/lib/libssl.so.1.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.20
 -rwxr-xr-x root       root          1007848 ./usr/lib/libstdc++.so.6.0.20
@@ -16672,7 +16672,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libice6.postinst
 -rw-r--r-- root       root              831 ./var/lib/opkg/info/libidn-locale-cs.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/libidn-locale-cs.list
--rw-r--r-- root       root              691 ./var/lib/opkg/info/libidn11.control
+-rw-r--r-- root       root              708 ./var/lib/opkg/info/libidn11.control
 -rw-r--r-- root       root               49 ./var/lib/opkg/info/libidn11.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libidn11.postinst
 -rw-r--r-- root       root              595 ./var/lib/opkg/info/libjpeg8.control
@@ -16849,7 +16849,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              578 ./var/lib/opkg/info/libsoup-2.4.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libsoup-2.4.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libsoup-2.4.postinst
--rw-r--r-- root       root              400 ./var/lib/opkg/info/libsqlite3-0.control
+-rw-r--r-- root       root              421 ./var/lib/opkg/info/libsqlite3-0.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libsqlite3-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libsqlite3-0.postinst
 -rw-r--r-- root       root             1287 ./var/lib/opkg/info/libssl1.0.0.control
@@ -17668,9 +17668,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root           109610 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6619419 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6620507 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           331253 ./var/lib/opkg/lists/oe-qemux86_64
--rw-r--r-- root       root           201736 ./var/lib/opkg/status
+-rw-r--r-- root       root           201774 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local

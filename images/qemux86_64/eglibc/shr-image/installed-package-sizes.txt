@@ -82,8 +82,8 @@
 799	KiB udev
 796	KiB python-lang
 796	KiB python-ecore
+768	KiB libsqlite3-0
 765	KiB dbus-1
-759	KiB libsqlite3-0
 752	KiB python-pygobject
 750	KiB serial-forward
 746	KiB python-io
@@ -200,9 +200,9 @@
 214	KiB gtk+-locale-cs
 211	KiB mtd-utils
 207	KiB gst-plugins-base-ogg
+206	KiB libidn11
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
-203	KiB libidn11
 202	KiB libflac8
 201	KiB python-difflib
 198	KiB libpng16-16
