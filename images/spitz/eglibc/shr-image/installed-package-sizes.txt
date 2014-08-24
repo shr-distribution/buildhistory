@@ -1,7 +1,7 @@
 12272	KiB vim-common
 8068	KiB systemd
 6224	KiB terminology-themes
-5999	KiB python-elementary
+5996	KiB python-elementary
 5780	KiB vim-help
 5610	KiB e-wm
 5126	KiB elementary-themes
@@ -84,7 +84,7 @@
 607	KiB tcpdump
 601	KiB libgcrypt
 565	KiB udev
-549	KiB python-edje
+548	KiB python-edje
 536	KiB python-pyyaml
 507	KiB python-multiprocessing
 505	KiB serial-forward
@@ -95,8 +95,8 @@
 487	KiB screen
 487	KiB openssh-ssh
 480	KiB foxtrotgps
+478	KiB libsqlite3-0
 472	KiB busybox
-470	KiB libsqlite3-0
 469	KiB dbus-1
 463	KiB findutils
 453	KiB libevent
@@ -241,8 +241,8 @@
 124	KiB linux-firmware-sd8686
 123	KiB libapr-1-0
 120	KiB liblightmediascanner0
-119	KiB libefreet1
 118	KiB libgcc1
+116	KiB libefreet1
 113	KiB python-stringold
 112	KiB ecore-evas
 111	KiB ltrace
