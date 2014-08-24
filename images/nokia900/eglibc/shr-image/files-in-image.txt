@@ -3286,8 +3286,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libicalss.so.0 -> libicals
 -rwxr-xr-x root       root            56528 ./usr/lib/libicalss.so.0.48.0
 lrwxrwxrwx root       root               21 ./usr/lib/libicalvcal.so.0 -> libicalvcal.so.0.48.0
 -rwxr-xr-x root       root            47408 ./usr/lib/libicalvcal.so.0.48.0
-lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.11
--rwxr-xr-x root       root           189772 ./usr/lib/libidn.so.11.6.11
+lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.12
+-rwxr-xr-x root       root           189760 ./usr/lib/libidn.so.11.6.12
 lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
 -rwxr-xr-x root       root            16292 ./usr/lib/libip4tc.so.0.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
@@ -3398,7 +3398,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libsoup-2.4.so.1 -> libsou
 lrwxrwxrwx root       root               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> libsoup-gnome-2.4.so.1.7.0
 -rwxr-xr-x root       root             5888 ./usr/lib/libsoup-gnome-2.4.so.1.7.0
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
--rwxr-xr-x root       root           457332 ./usr/lib/libsqlite3.so.0.8.6
+-rwxr-xr-x root       root           464488 ./usr/lib/libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           246632 ./usr/lib/libssl.so.1.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.20
 -rwxr-xr-x root       root           657832 ./usr/lib/libstdc++.so.6.0.20
@@ -17041,7 +17041,7 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libice6.postinst
 -rw-r--r-- root       root              842 ./var/lib/opkg/info/libidn-locale-cs.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/libidn-locale-cs.list
--rw-r--r-- root       root              702 ./var/lib/opkg/info/libidn11.control
+-rw-r--r-- root       root              719 ./var/lib/opkg/info/libidn11.control
 -rw-r--r-- root       root               49 ./var/lib/opkg/info/libidn11.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libidn11.postinst
 -rw-r--r-- root       root              606 ./var/lib/opkg/info/libjpeg8.control
@@ -17218,7 +17218,7 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root              589 ./var/lib/opkg/info/libsoup-2.4.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libsoup-2.4.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libsoup-2.4.postinst
--rw-r--r-- root       root              411 ./var/lib/opkg/info/libsqlite3-0.control
+-rw-r--r-- root       root              432 ./var/lib/opkg/info/libsqlite3-0.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libsqlite3-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libsqlite3-0.postinst
 -rw-r--r-- root       root             1298 ./var/lib/opkg/info/libssl1.0.0.control
@@ -18044,9 +18044,9 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root           109610 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6609883 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          6610993 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           271353 ./var/lib/opkg/lists/oe-nokia900
--rw-r--r-- root       root           224050 ./var/lib/opkg/status
+-rw-r--r-- root       root           224088 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local

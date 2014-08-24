@@ -98,9 +98,9 @@
 484	KiB libsoup-2.4
 474	KiB foxtrotgps
 469	KiB libpixman-1-0
+454	KiB libsqlite3-0
 452	KiB dbus-1
 449	KiB busybox
-447	KiB libsqlite3-0
 440	KiB findutils
 437	KiB openvpn
 435	KiB python-compression
