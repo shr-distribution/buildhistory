@@ -106,11 +106,13 @@ digraph depends {
 "e-wm" -> "ecore-ipc";
 "e-wm" -> "ecore-x";
 "e-wm" -> "eeze";
+"e-wm" -> "efreet" [style=dotted];
 "e-wm" -> "eina";
 "e-wm" -> "elementary";
 "e-wm" -> "embryo";
 "e-wm" -> "ethumb";
 "e-wm" -> "evas";
+"e-wm" -> "evas-generic-loader-svg" [style=dotted];
 "e-wm" -> "glibc-utils";
 "e-wm" -> "json-c";
 "e-wm" -> "libasound2";
@@ -378,6 +380,13 @@ digraph depends {
 "eeze" -> "libuuid1";
 "eeze" -> "libz1";
 "efl-locale-cs" -> "virtual-locale-cs" [style=dotted];
+"efreet" -> "ecore-file";
+"efreet" -> "eina";
+"efreet" -> "libc6";
+"efreet" -> "libecore1";
+"efreet" -> "libeet1";
+"efreet" -> "libefreet1";
+"efreet" -> "libeldbus1";
 "eglibc-gconv-iso8859-1" -> "eglibc-gconv";
 "eglibc-gconv-iso8859-1" -> "libc6";
 "eglibc-gconv-utf-16" -> "eglibc-gconv";
@@ -713,6 +722,10 @@ digraph depends {
 "evas" -> "libxrender1";
 "evas" -> "libz1";
 "evas" -> "luajit";
+"evas-generic-loader-svg" -> "libc6";
+"evas-generic-loader-svg" -> "libcairo2";
+"evas-generic-loader-svg" -> "libglib-2.0-0";
+"evas-generic-loader-svg" -> "librsvg-2-2";
 "evtest" -> "libc6";
 "fbreader" -> "gdk-pixbuf";
 "fbreader" -> "libbz2-0";

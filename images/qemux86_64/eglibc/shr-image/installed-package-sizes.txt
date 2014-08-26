@@ -2,7 +2,6 @@
 12272	KiB vim-common
 11174	KiB systemd
 6693	KiB python-elementary
-6377	KiB e-wm
 6259	KiB fbreader
 6225	KiB terminology-themes
 5780	KiB vim-help
@@ -12,6 +11,7 @@
 5126	KiB elementary-themes
 5007	KiB udev-hwdb
 4824	KiB vim-syntax
+4811	KiB e-wm
 4256	KiB libc6
 4115	KiB python-codecs
 3426	KiB elementary
@@ -223,18 +223,18 @@
 172	KiB python-mime
 170	KiB libeldbus1
 166	KiB libgisi0
+164	KiB e-wm-utils
 163	KiB libexpat1
 162	KiB libtinfo5
-161	KiB e-wm-utils
 159	KiB python-re
 158	KiB python-threading
 157	KiB libdbus-glib-1-2
 157	KiB libaprutil-1-0
 156	KiB libncurses5
 153	KiB libfsoframework3
-153	KiB e-wm-locale-cs
 153	KiB curl
 150	KiB libatk-1.0-0
+150	KiB e-wm-locale-cs
 149	KiB xinput-calibrator
 149	KiB libnl-3-cli
 146	KiB gdk-pixbuf
@@ -337,6 +337,7 @@
 67	KiB gtk-theme-e17lookalike
 66	KiB xrandr
 66	KiB openssh-scp
+66	KiB efreet
 65	KiB libformw5
 65	KiB iliwi
 65	KiB gconf-locale-cs
@@ -539,6 +540,7 @@
 11	KiB libpanelw5
 11	KiB libpam-locale-cs
 11	KiB libgsm0710-0
+11	KiB evas-generic-loader-svg
 11	KiB dbus-daemon-proxy
 10	KiB sysstat-locale-cs
 10	KiB libxcb-shm0
@@ -583,7 +585,6 @@
 6	KiB pam-plugin-loginuid
 6	KiB kernel-module-iptable-filter
 6	KiB kernel-module-ipt-masquerade
-6	KiB illume-keyboard-default-terminal
 6	KiB babiloo-efl-locale-en-gb
 6	KiB attr-locale-cs
 5	KiB xcursor-transparent-theme
@@ -602,7 +603,6 @@
 4	KiB libphone-ui-shr-locale-cs
 4	KiB kernel-module-nls-utf8
 4	KiB kernel-module-crc-ccitt
-4	KiB illume-keyboard-default-alpha
 4	KiB gpsd-udev
 4	KiB elementary-locale-cs
 4	KiB e-wm-sysactions-shr

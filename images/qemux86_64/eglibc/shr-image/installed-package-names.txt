@@ -52,6 +52,7 @@ ecore-ipc
 ecore-x
 eeze
 efl-locale-cs
+efreet
 eglibc-binary-localedata-cs-cz
 eglibc-binary-localedata-en-gb
 eglibc-binary-localedata-en-us
@@ -76,6 +77,7 @@ enjoy
 estardict
 ethumb
 evas
+evas-generic-loader-svg
 evtest
 fbreader
 fbset
@@ -161,8 +163,6 @@ hicolor-icon-theme
 htop
 i2c-tools
 iliwi
-illume-keyboard-default-alpha
-illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
