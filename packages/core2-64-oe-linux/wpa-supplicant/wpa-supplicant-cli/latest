@@ -1,9 +1,9 @@
 PV = 2.2
 PR = r0
-PKGR = r0.3
+PKGR = r0.4
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19)
+RDEPENDS = glibc (>= 2.20)
 RRECOMMENDS = 
-PKGSIZE = 73424
+PKGSIZE = 73488
 FILES = /usr/sbin/wpa_cli
 FILELIST = /usr/sbin/wpa_cli
