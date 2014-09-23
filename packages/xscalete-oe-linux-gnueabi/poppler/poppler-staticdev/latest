@@ -1,9 +1,9 @@
 PV = 0.22.4
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = poppler-dev (= 0.22.4-r0.6)
+RDEPENDS = poppler-dev (= 0.22.4-r0.7)
 RRECOMMENDS = 
-PKGSIZE = 16716074
+PKGSIZE = 16714730
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/poppler/*.a
 FILELIST = /usr/lib/libpoppler-cpp.a /usr/lib/libpoppler-glib.a /usr/lib/libpoppler.a

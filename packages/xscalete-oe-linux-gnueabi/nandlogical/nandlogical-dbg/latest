@@ -1,9 +1,9 @@
 PV = 1.1.0
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
 RDEPENDS = 
-RRECOMMENDS = eglibc-dbg
-PKGSIZE = 30749
+RRECOMMENDS = glibc-dbg
+PKGSIZE = 30631
 FILES = /usr/bin/.debug /usr/sbin/.debug /usr/lib/nandlogical/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/nandlogical/.debug /usr/lib/matchbox-panel/.debug /usr/lib/nandlogical/nandlogical/.debug /usr/src/debug
 FILELIST = /usr/bin/.debug/nandlogical /usr/src/debug/nandlogical/1.1.0-r0/survive-1.1.0/nandlogical.c

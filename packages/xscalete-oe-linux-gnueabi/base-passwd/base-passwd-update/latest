@@ -1,8 +1,8 @@
 PV = 3.5.29
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19)
+RDEPENDS = glibc (>= 2.20)
 RRECOMMENDS = 
 PKGSIZE = 15736
 FILES = /usr/sbin/* /usr/share/base-passwd
