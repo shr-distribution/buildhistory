@@ -1,9 +1,10 @@
-PV = 0.18.8
+PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
 PR = r0
+PKGV = 0.18.999+0.19-alpha2+git0+525b963133
 PKGR = r0.1
 RPROVIDES = e-wm-locale uk-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-uk
-PKGSIZE = 88814
+PKGSIZE = 87430
 FILES = /usr/share/locale/uk
 FILELIST = /usr/share/locale/uk/LC_MESSAGES/enlightenment.mo

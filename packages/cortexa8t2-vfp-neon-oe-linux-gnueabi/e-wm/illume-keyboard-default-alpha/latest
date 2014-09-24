@@ -1,9 +1,10 @@
-PV = 0.18.8
+PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
 PR = r0
+PKGV = 0.18.999+0.19-alpha2+git0+525b963133
 PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 4179
+PKGSIZE = 0
 FILES = /usr/lib/enlightenment/modules/illume-keyboard/keyboards/Default.kbd /usr/lib/enlightenment/modules/illume-keyboard/keyboards/alpha.png
-FILELIST = /usr/lib/enlightenment/modules/illume-keyboard/keyboards/Default.kbd /usr/lib/enlightenment/modules/illume-keyboard/keyboards/alpha.png
+FILELIST = 

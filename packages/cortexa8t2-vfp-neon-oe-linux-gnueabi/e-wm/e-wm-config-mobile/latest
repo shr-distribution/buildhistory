@@ -1,11 +1,12 @@
-PV = 0.18.8
+PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
 PR = r0
+PKGV = 0.18.999+0.19-alpha2+git0+525b963133
 PKGR = r0.1
 RPROVIDES = e-wm-config-illume2
 RDEPENDS = 
 RRECOMMENDS = illume-keyboard-default-alpha illume-keyboard-default-numeric illume-keyboard-default-terminal
 RREPLACES = e-wm-config-illume2
 RCONFLICTS = e-wm-config-illume2
-PKGSIZE = 32537
+PKGSIZE = 32378
 FILES = /usr/share/enlightenment/data/config/mobile
 FILELIST = /usr/share/enlightenment/data/config/mobile/e.cfg /usr/share/enlightenment/data/config/mobile/e_bindings.cfg /usr/share/enlightenment/data/config/mobile/enlightenment-mobile.png /usr/share/enlightenment/data/config/mobile/module.battery.cfg /usr/share/enlightenment/data/config/mobile/module.conf.cfg /usr/share/enlightenment/data/config/mobile/module.illume-home.cfg /usr/share/enlightenment/data/config/mobile/module.illume-indicator.cfg /usr/share/enlightenment/data/config/mobile/module.illume-keyboard.cfg /usr/share/enlightenment/data/config/mobile/module.illume-softkey.cfg /usr/share/enlightenment/data/config/mobile/module.illume2.cfg /usr/share/enlightenment/data/config/mobile/profile.desktop
