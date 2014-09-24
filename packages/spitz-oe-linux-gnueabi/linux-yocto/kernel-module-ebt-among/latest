@@ -1,10 +1,10 @@
-PV = 3.10.43+gitAUTOINC+fab23a4d44_e4f08d724d
+PV = 3.10.55+gitAUTOINC+f79a00265e_8e055f3b66
 PR = r0
-PKGV = 3.10.43+git1+fab23a4d44_e4f08d724d
+PKGV = 3.10.55+git0+f79a00265e_8e055f3b66
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.10.43-ltsi-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-3.10.55-ltsi-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 5324
-FILES = /lib/modules/3.10.43-ltsi-yocto-standard/kernel/net/bridge/netfilter/ebt_among.ko /etc/modules-load.d/ebt_among.conf /etc/modprobe.d/ebt_among.conf
-FILELIST = /lib/modules/3.10.43-ltsi-yocto-standard/kernel/net/bridge/netfilter/ebt_among.ko
+FILES = /lib/modules/3.10.55-ltsi-yocto-standard/kernel/net/bridge/netfilter/ebt_among.ko /etc/modules-load.d/ebt_among.conf /etc/modprobe.d/ebt_among.conf
+FILELIST = /lib/modules/3.10.55-ltsi-yocto-standard/kernel/net/bridge/netfilter/ebt_among.ko

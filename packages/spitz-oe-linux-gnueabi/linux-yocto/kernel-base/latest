@@ -1,11 +1,11 @@
-PV = 3.10.43+gitAUTOINC+fab23a4d44_e4f08d724d
+PV = 3.10.55+gitAUTOINC+f79a00265e_8e055f3b66
 PR = r0
-PKGV = 3.10.43+git1+fab23a4d44_e4f08d724d
+PKGV = 3.10.55+git0+f79a00265e_8e055f3b66
 PKGR = r0.1
-PKG = kernel-3.10.43-ltsi-yocto-standard
-RPROVIDES = kernel-3.10.43-ltsi-yocto-standard kernel-base
+PKG = kernel-3.10.55-ltsi-yocto-standard
+RPROVIDES = kernel-3.10.55-ltsi-yocto-standard kernel-base
 RDEPENDS = kernel-image
 RRECOMMENDS = 
 PKGSIZE = 16272
-FILES = /lib/modules/3.10.43-ltsi-yocto-standard/modules.order /lib/modules/3.10.43-ltsi-yocto-standard/modules.builtin
-FILELIST = /lib/modules/3.10.43-ltsi-yocto-standard/modules.builtin /lib/modules/3.10.43-ltsi-yocto-standard/modules.order
+FILES = /lib/modules/3.10.55-ltsi-yocto-standard/modules.order /lib/modules/3.10.55-ltsi-yocto-standard/modules.builtin
+FILELIST = /lib/modules/3.10.55-ltsi-yocto-standard/modules.builtin /lib/modules/3.10.55-ltsi-yocto-standard/modules.order

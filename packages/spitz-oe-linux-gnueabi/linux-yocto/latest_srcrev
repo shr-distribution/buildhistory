@@ -1,4 +1,4 @@
-# SRCREV_machine = "e4f08d724d6663e6d23d19668c97f9e6792c94d2"
-SRCREV_machine = "e4f08d724d6663e6d23d19668c97f9e6792c94d2"
-# SRCREV_meta = "fab23a4d44de25ee77e497cbf8605eadc3aaf3d8"
-SRCREV_meta = "fab23a4d44de25ee77e497cbf8605eadc3aaf3d8"
+# SRCREV_machine = "8e055f3b669c65e83ba7128c248c632eedafad72"
+SRCREV_machine = "8e055f3b669c65e83ba7128c248c632eedafad72"
+# SRCREV_meta = "f79a00265eefbe2fffc2cdb03f67235497a9a87e"
+SRCREV_meta = "f79a00265eefbe2fffc2cdb03f67235497a9a87e"
