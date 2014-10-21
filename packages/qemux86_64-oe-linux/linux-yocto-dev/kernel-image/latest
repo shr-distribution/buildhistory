@@ -1,11 +1,11 @@
-PV = 3.17++gitAUTOINC+9ba007f8d0_1a6dd1205d
+PV = 3.17++gitAUTOINC+229ce53386_0caf16d385
 PR = r0
-PKGV = 3.17++git2+9ba007f8d0_1a6dd1205d
+PKGV = 3.17++git3+229ce53386_0caf16d385
 PKGR = r0.1
-PKG = kernel-image-3.17.0-yocto-standard
+PKG = kernel-image-3.17.1-yocto-standard
 RPROVIDES = kernel-image
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 6476912
+PKGSIZE = 6498864
 FILES = /boot/bzImage*
-FILELIST = /boot/bzImage-3.17.0-yocto-standard
+FILELIST = /boot/bzImage-3.17.1-yocto-standard
