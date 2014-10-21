@@ -1,6 +1,7 @@
-PV = 0.18.8
+PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
 PR = r0
-PKGR = r0.0
+PKGV = 0.18.999+0.19-alpha2+git0+525b963133
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = e-wm-background-light-gradient e-wm-theme-default

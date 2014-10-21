@@ -1,9 +1,10 @@
-PV = 0.18.8
+PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
 PR = r0
-PKGR = r0.0
+PKGV = 0.18.999+0.19-alpha2+git0+525b963133
+PKGR = r0.2
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = e-wm-theme-default
-PKGSIZE = 34144
+PKGSIZE = 34531
 FILES = /usr/share/enlightenment/data/config/standard
 FILELIST = /usr/share/enlightenment/data/config/standard/e.cfg /usr/share/enlightenment/data/config/standard/e_bindings.cfg /usr/share/enlightenment/data/config/standard/enlightenment-standard.png /usr/share/enlightenment/data/config/standard/module.battery.cfg /usr/share/enlightenment/data/config/standard/module.conf.cfg /usr/share/enlightenment/data/config/standard/module.cpufreq.cfg /usr/share/enlightenment/data/config/standard/module.fileman.cfg /usr/share/enlightenment/data/config/standard/module.ibar.cfg /usr/share/enlightenment/data/config/standard/module.ibox.cfg /usr/share/enlightenment/data/config/standard/module.pager.cfg /usr/share/enlightenment/data/config/standard/module.temperature.cfg /usr/share/enlightenment/data/config/standard/profile.desktop
