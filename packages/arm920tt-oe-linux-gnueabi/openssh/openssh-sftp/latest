@@ -1,8 +1,8 @@
 PV = 6.6p1
 PR = r0
-PKGR = r0.4
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = eglibc (>= 2.19)
+RDEPENDS = glibc (>= 2.20)
 RRECOMMENDS = 
 PKGSIZE = 83604
 FILES = /usr/bin/sftp

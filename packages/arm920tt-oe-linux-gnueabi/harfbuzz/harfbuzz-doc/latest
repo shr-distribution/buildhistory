@@ -1,8 +1,8 @@
-PV = 0.9.29
+PV = 0.9.35
 PR = r0
-PKGR = r0.4
+PKGR = r0.2
 PKG = libharfbuzz-doc
-RPROVIDES = 
+RPROVIDES = harfbuzz-doc
 RDEPENDS = 
 RRECOMMENDS = 
 PKGSIZE = 0

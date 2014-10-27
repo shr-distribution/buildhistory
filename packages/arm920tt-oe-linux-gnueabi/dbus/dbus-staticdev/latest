@@ -1,9 +1,9 @@
 PV = 1.8.2
 PR = r0
-PKGR = r0.4
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = dbus-dev (= 1.8.2-r0.4)
+RDEPENDS = dbus-dev (= 1.8.2-r0.6)
 RRECOMMENDS = 
-PKGSIZE = 1474194
+PKGSIZE = 1473966
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/dbus/*.a
 FILELIST = /usr/lib/libdbus-1.a

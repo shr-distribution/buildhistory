@@ -1,9 +1,9 @@
 PV = 3.2.2-14
 PR = r2
-PKGR = r2.6
+PKGR = r2.8
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 21350
+PKGSIZE = 21342
 FILES = /usr/lib/libapm.a
 FILELIST = /usr/lib/libapm.a
