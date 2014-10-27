@@ -1,6 +1,6 @@
 PV = 1.0
 PR = r22
-PKGR = r22.7
+PKGR = r22.8
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = estardict-dbg ffalarms-dbg fso-sounds-dbg fsoraw-dbg linux-firmware-sd8686-dbg mesa-demos-dbg ntpdate-dbg packagegroup-jama-dbg terminology-dbg usb-modeswitch-data-dbg
