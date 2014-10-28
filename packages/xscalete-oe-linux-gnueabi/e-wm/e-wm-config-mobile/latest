@@ -1,7 +1,7 @@
 PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
 PR = r0
 PKGV = 0.18.999+0.19-alpha2+git0+525b963133
-PKGR = r0.1
+PKGR = r0.2
 RPROVIDES = e-wm-config-illume2
 RDEPENDS = 
 RRECOMMENDS = illume-keyboard-default-alpha illume-keyboard-default-numeric illume-keyboard-default-terminal

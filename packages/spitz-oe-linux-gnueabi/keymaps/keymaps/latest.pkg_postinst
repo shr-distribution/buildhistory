@@ -4,16 +4,3 @@
 		fi
 		systemctl $OPTS mask keymap.service
 	fi
-OPTS=""
-
-if [ -n "$D" ]; then
-    OPTS="--root=$D"
-fi
-
-if type systemctl >/dev/null 2>/dev/null; then
-	systemctl $OPTS enable keymaps.service
-
-	if [ -z "$D" -a "enable" = "enable" ]; then
-		systemctl restart keymaps.service
-	fi
-fi

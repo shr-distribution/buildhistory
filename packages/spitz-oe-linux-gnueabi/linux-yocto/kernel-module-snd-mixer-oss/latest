@@ -1,6 +1,6 @@
-PV = 3.10.55+gitAUTOINC+f79a00265e_8e055f3b66
+PV = 3.10.55+gitAUTOINC+f79a00265e_3677ea7f94
 PR = r0
-PKGV = 3.10.55+git0+f79a00265e_8e055f3b66
+PKGV = 3.10.55+git1+f79a00265e_3677ea7f94
 PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = kernel-3.10.55-ltsi-yocto-standard kernel-module-snd kernel-module-soundcore
