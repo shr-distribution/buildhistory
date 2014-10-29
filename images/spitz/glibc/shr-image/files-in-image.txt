@@ -2,7 +2,7 @@ drwxr-xr-x root       root             4096 .
 drwxr-xr-x root       root             4096 ./bin
 lrwxrwxrwx root       root               19 ./bin/ash -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               25 ./bin/base64 -> /usr/bin/base64.coreutils
--rwxr-xr-x root       root           671560 ./bin/bash
+-rwxr-xr-x root       root           675000 ./bin/bash
 lrwxrwxrwx root       root               14 ./bin/busybox -> busybox.nosuid
 -rwxr-xr-x root       root           437464 ./bin/busybox.nosuid
 -rwsr-xr-x root       root            43252 ./bin/busybox.suid
@@ -118,7 +118,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root              817 ./boot/boot.cfg
 -rw-r--r-- root       root             1322 ./boot/icon.xpm
 lrwxrwxrwx root       root               40 ./boot/zImage -> /boot/zImage-3.10.55-ltsi-yocto-standard
--rw-r--r-- root       root          2717656 ./boot/zImage-3.10.55-ltsi-yocto-standard
+-rw-r--r-- root       root          2718912 ./boot/zImage-3.10.55-ltsi-yocto-standard
 drwxr-xr-x root       root             4096 ./dev
 drwxr-xr-x root       root             4096 ./etc
 drwxr-xr-x root       root             4096 ./etc/X11
@@ -911,13 +911,13 @@ drwxr-xr-x root       root             4096 ./etc/systemd/system/multi-user.targ
 lrwxrwxrwx root       root               41 ./etc/systemd/system/multi-user.target.wants/busybox-klogd.service -> /lib/systemd/system/busybox-klogd.service
 lrwxrwxrwx root       root               42 ./etc/systemd/system/multi-user.target.wants/busybox-syslog.service -> /lib/systemd/system/busybox-syslog.service
 lrwxrwxrwx root       root               33 ./etc/systemd/system/multi-user.target.wants/crond.service -> /lib/systemd/system/crond.service
-lrwxrwxrwx root       root               35 ./etc/systemd/system/multi-user.target.wants/keymaps.service -> /lib/systemd/system/keymaps.service
 lrwxrwxrwx root       root               35 ./etc/systemd/system/multi-user.target.wants/ntpdate.service -> /lib/systemd/system/ntpdate.service
 lrwxrwxrwx root       root               47 ./etc/systemd/system/multi-user.target.wants/remote-fs.target -> ../../../../lib/systemd/system/remote-fs.target
 lrwxrwxrwx root       root                9 ./etc/systemd/system/populate-volatile.service -> /dev/null
 lrwxrwxrwx root       root                9 ./etc/systemd/system/shr-splash.service -> /dev/null
 drwxr-xr-x root       root             4096 ./etc/systemd/system/sockets.target.wants
 lrwxrwxrwx root       root               31 ./etc/systemd/system/sockets.target.wants/gpsd.socket -> /lib/systemd/system/gpsd.socket
+lrwxrwxrwx root       root               34 ./etc/systemd/system/sockets.target.wants/rpcbind.socket -> /lib/systemd/system/rpcbind.socket
 lrwxrwxrwx root       root               31 ./etc/systemd/system/sockets.target.wants/sshd.socket -> /lib/systemd/system/sshd.socket
 drwxr-xr-x root       root             4096 ./etc/systemd/system/sysinit.target.wants
 lrwxrwxrwx root       root               42 ./etc/systemd/system/sysinit.target.wants/opkg-configure.service -> /lib/systemd/system/opkg-configure.service
@@ -1309,7 +1309,6 @@ lrwxrwxrwx root       root               39 ./lib/systemd/system/graphical.targe
 -rw-r--r-- root       root              664 ./lib/systemd/system/initrd-udevadm-cleanup-db.service
 -rw-r--r-- root       root              671 ./lib/systemd/system/initrd.target
 -rw-r--r-- root       root              501 ./lib/systemd/system/kexec.target
--rw-r--r-- root       root              189 ./lib/systemd/system/keymaps.service
 -rw-r--r-- root       root              675 ./lib/systemd/system/kmod-static-nodes.service
 -rw-r--r-- root       root              683 ./lib/systemd/system/ldconfig.service
 -rw-r--r-- root       root              395 ./lib/systemd/system/local-fs-pre.target
@@ -1359,7 +1358,8 @@ lrwxrwxrwx root       root               39 ./lib/systemd/system/reboot.target.w
 -rw-r--r-- root       root              486 ./lib/systemd/system/rescue.target
 drwxr-xr-x root       root             4096 ./lib/systemd/system/rescue.target.wants
 lrwxrwxrwx root       root               39 ./lib/systemd/system/rescue.target.wants/systemd-update-utmp-runlevel.service -> ../systemd-update-utmp-runlevel.service
--rw-r--r-- root       root              269 ./lib/systemd/system/rpcbind.service
+-rw-r--r-- root       root              215 ./lib/systemd/system/rpcbind.service
+-rw-r--r-- root       root              132 ./lib/systemd/system/rpcbind.socket
 -rw-r--r-- root       root              500 ./lib/systemd/system/rpcbind.target
 -rw-r--r-- root       root              385 ./lib/systemd/system/run-postinsts.service
 lrwxrwxrwx root       root               15 ./lib/systemd/system/runlevel0.target -> poweroff.target
@@ -1398,7 +1398,7 @@ lrwxrwxrwx root       root               31 ./lib/systemd/system/sockets.target.
 lrwxrwxrwx root       root               30 ./lib/systemd/system/sockets.target.wants/systemd-udevd-kernel.socket -> ../systemd-udevd-kernel.socket
 -rw-r--r-- root       root              380 ./lib/systemd/system/sound.target
 -rw-r--r-- root       root              143 ./lib/systemd/system/sshd.socket
--rw-r--r-- root       root              218 ./lib/systemd/system/sshd@.service
+-rw-r--r-- root       root              235 ./lib/systemd/system/sshd@.service
 -rw-r--r-- root       root              265 ./lib/systemd/system/sshdgenkeys.service
 -rw-r--r-- root       root              441 ./lib/systemd/system/suspend.target
 -rw-r--r-- root       root              353 ./lib/systemd/system/swap.target
@@ -1628,6 +1628,7 @@ drwxr-xr-x root       root             4096 ./sbin
 -rwxr-xr-x root       root            84100 ./sbin/debugfs
 lrwxrwxrwx root       root               17 ./sbin/depmod -> /sbin/depmod.kmod
 lrwxrwxrwx root       root               11 ./sbin/depmod.kmod -> ../bin/kmod
+-rwxr-xr-x root       root            34632 ./sbin/dosfsck
 -rwxr-xr-x root       root            14848 ./sbin/dumpe2fs
 -rwxr-xr-x root       root             9360 ./sbin/e2freefrag
 -rwxr-xr-x root       root           188864 ./sbin/e2fsck
@@ -1644,7 +1645,9 @@ lrwxrwxrwx root       root               21 ./sbin/fsck -> /sbin/fsck.util-linux
 -rwxr-xr-x root       root           188864 ./sbin/fsck.ext4dev
 lrwxrwxrwx root       root               27 ./sbin/fsck.minix -> /sbin/fsck.minix.util-linux
 -rwxr-xr-x root       root            43084 ./sbin/fsck.minix.util-linux
+lrwxrwxrwx root       root                7 ./sbin/fsck.msdos -> dosfsck
 -rwxr-xr-x root       root            23036 ./sbin/fsck.util-linux
+lrwxrwxrwx root       root                7 ./sbin/fsck.vfat -> dosfsck
 lrwxrwxrwx root       root               19 ./sbin/fstrim -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               12 ./sbin/getty -> /sbin/agetty
 lrwxrwxrwx root       root               14 ./sbin/halt -> /bin/systemctl
@@ -1670,12 +1673,15 @@ lrwxrwxrwx root       root               19 ./sbin/logread -> /bin/busybox.nosui
 -rwxr-xr-x root       root             6168 ./sbin/logsave
 lrwxrwxrwx root       root               19 ./sbin/losetup -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               15 ./sbin/lsmod -> /bin/lsmod.kmod
+-rwxr-xr-x root       root            26976 ./sbin/mkdosfs
 -rwxr-xr-x root       root            72512 ./sbin/mke2fs
 -rwxr-xr-x root       root            72512 ./sbin/mkfs.ext2
 -rwxr-xr-x root       root            72512 ./sbin/mkfs.ext3
 -rwxr-xr-x root       root            72512 ./sbin/mkfs.ext4
 -rwxr-xr-x root       root            72512 ./sbin/mkfs.ext4dev
 lrwxrwxrwx root       root               19 ./sbin/mkfs.minix -> /bin/busybox.nosuid
+lrwxrwxrwx root       root                7 ./sbin/mkfs.msdos -> mkdosfs
+lrwxrwxrwx root       root                7 ./sbin/mkfs.vfat -> mkdosfs
 -rwxr-xr-x root       root             4472 ./sbin/mklost+found
 lrwxrwxrwx root       root               19 ./sbin/mkswap -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               18 ./sbin/modinfo -> /sbin/modinfo.kmod
@@ -1735,7 +1741,7 @@ lrwxrwxrwx root       root               25 ./usr/bin/babiloo -> /usr/share/babi
 -rwxr-xr-x root       root            24928 ./usr/bin/base64.coreutils
 lrwxrwxrwx root       root               27 ./usr/bin/basename -> /usr/bin/basename.coreutils
 -rwxr-xr-x root       root            19508 ./usr/bin/basename.coreutils
--r-xr-xr-x root       root             6979 ./usr/bin/bashbug
+-r-xr-xr-x root       root             6980 ./usr/bin/bashbug
 -rwxr-xr-x root       root            11884 ./usr/bin/bindtex
 -rwxr-xr-x root       root            34388 ./usr/bin/bootctl
 lrwxrwxrwx root       root               19 ./usr/bin/bunzip2 -> /bin/busybox.nosuid
@@ -2000,7 +2006,7 @@ lrwxrwxrwx root       root               26 ./usr/bin/logname -> /usr/bin/lognam
 -rwxr-xr-x root       root            13399 ./usr/bin/lsusb.py
 -rwxr-xr-x root       root            98636 ./usr/bin/ltrace
 lrwxrwxrwx root       root               12 ./usr/bin/luajit -> luajit-2.0.3
--rwxr-xr-x root       root           373476 ./usr/bin/luajit-2.0.3
+-rwxr-xr-x root       root           283292 ./usr/bin/luajit-2.0.3
 -rwxr-xr-x root       root           139212 ./usr/bin/make
 -rwxr-xr-x root       root            13936 ./usr/bin/makedb
 -rwxr-xr-x root       root            10920 ./usr/bin/manywin
@@ -2305,7 +2311,7 @@ lrwxrwxrwx root       root               24 ./usr/bin/users -> /usr/bin/users.co
 lrwxrwxrwx root       root               23 ./usr/bin/vdir -> /usr/bin/vdir.coreutils
 -rwxr-xr-x root       root            88708 ./usr/bin/vdir.coreutils
 lrwxrwxrwx root       root                3 ./usr/bin/view -> vim
--rwxr-xr-x root       root          1243644 ./usr/bin/vim
+-rwxr-xr-x root       root          1250596 ./usr/bin/vim
 lrwxrwxrwx root       root                3 ./usr/bin/vimdiff -> vim
 -rwxr-xr-x root       root             2084 ./usr/bin/vimtutor
 lrwxrwxrwx root       root               17 ./usr/bin/vlock -> /bin/busybox.suid
@@ -2348,7 +2354,7 @@ lrwxrwxrwx root       root               22 ./usr/bin/yes -> /usr/bin/yes.coreut
 drwxr-xr-x root       root             4096 ./usr/games
 drwxr-xr-x root       root             4096 ./usr/include
 drwxr-xr-x root       root             4096 ./usr/include/python2.7
--rw-r--r-- root       root            35991 ./usr/include/python2.7/pyconfig.h
+-rw-r--r-- root       root            35988 ./usr/include/python2.7/pyconfig.h
 drwxr-xr-x root       root            20480 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/GConf
 drwxr-xr-x root       root             4096 ./usr/lib/GConf/2
@@ -3261,7 +3267,7 @@ lrwxrwxrwx root       root               29 ./usr/lib/liblightmediascanner.so.0 
 lrwxrwxrwx root       root               21 ./usr/lib/liblinebreak.so.1 -> liblinebreak.so.1.0.2
 -rwxr-xr-x root       root            31468 ./usr/lib/liblinebreak.so.1.0.2
 lrwxrwxrwx root       root               22 ./usr/lib/libluajit-5.1.so.2 -> libluajit-5.1.so.2.0.3
--rwxr-xr-x root       root           373756 ./usr/lib/libluajit-5.1.so.2.0.3
+-rwxr-xr-x root       root           283644 ./usr/lib/libluajit-5.1.so.2.0.3
 lrwxrwxrwx root       root               17 ./usr/lib/liblzma.so.5 -> liblzma.so.5.0.99
 -rwxr-xr-x root       root           106248 ./usr/lib/liblzma.so.5.0.99
 lrwxrwxrwx root       root               16 ./usr/lib/liblzo2.so.2 -> liblzo2.so.2.0.0
@@ -3335,7 +3341,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/libpurple.so.0 -> libpurpl
 -rwxr-xr-x root       root           791268 ./usr/lib/libpurple.so.0.10.9
 lrwxrwxrwx root       root               29 ./usr/lib/libpyglib-2.0-python.so.0 -> libpyglib-2.0-python.so.0.0.0
 -rwxr-xr-x root       root            13080 ./usr/lib/libpyglib-2.0-python.so.0.0.0
--r-xr-xr-x root       root          1191028 ./usr/lib/libpython2.7.so.1.0
+-r-xr-xr-x root       root          1191036 ./usr/lib/libpython2.7.so.1.0
 lrwxrwxrwx root       root               18 ./usr/lib/libreadline.so.6 -> libreadline.so.6.3
 -rwxr-xr-x root       root           184960 ./usr/lib/libreadline.so.6.3
 lrwxrwxrwx root       root               19 ./usr/lib/librsvg-2.so.2 -> librsvg-2.so.2.40.2
@@ -3413,7 +3419,7 @@ lrwxrwxrwx root       root               15 ./usr/lib/libxcb.so.1 -> libxcb.so.1
 lrwxrwxrwx root       root               19 ./usr/lib/libxkbfile.so.1 -> libxkbfile.so.1.0.2
 -rwxr-xr-x root       root            97472 ./usr/lib/libxkbfile.so.1.0.2
 lrwxrwxrwx root       root               16 ./usr/lib/libxml2.so.2 -> libxml2.so.2.9.1
--rwxr-xr-x root       root           906900 ./usr/lib/libxml2.so.2.9.1
+-rwxr-xr-x root       root           908524 ./usr/lib/libxml2.so.2.9.1
 drwxr-xr-x root       root             4096 ./usr/lib/libxslt-plugins
 lrwxrwxrwx root       root               17 ./usr/lib/libxslt.so.1 -> libxslt.so.1.1.28
 -rwxr-xr-x root       root           163696 ./usr/lib/libxslt.so.1.1.28
@@ -3918,7 +3924,7 @@ drwxr-xr-x root       root            20480 ./usr/lib/python2.7
 -rw-r--r-- root       root             2457 ./usr/lib/python2.7/commands.pyc
 -rw-r--r-- root       root             2457 ./usr/lib/python2.7/commands.pyo
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/config
--rw-r--r-- root       root            47071 ./usr/lib/python2.7/config/Makefile
+-rw-r--r-- root       root            47094 ./usr/lib/python2.7/config/Makefile
 -rw-r--r-- root       root             4424 ./usr/lib/python2.7/contextlib.py
 -rw-r--r-- root       root             4430 ./usr/lib/python2.7/contextlib.pyc
 -rw-r--r-- root       root             4430 ./usr/lib/python2.7/contextlib.pyo
@@ -4662,7 +4668,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/lib-dynload
 -rwxr-xr-x root       root             8100 ./usr/lib/python2.7/lib-dynload/_functools.so
 -rwxr-xr-x root       root            11288 ./usr/lib/python2.7/lib-dynload/_hashlib.so
 -rwxr-xr-x root       root            16896 ./usr/lib/python2.7/lib-dynload/_heapq.so
--rwxr-xr-x root       root           107380 ./usr/lib/python2.7/lib-dynload/_io.so
+-rwxr-xr-x root       root           107384 ./usr/lib/python2.7/lib-dynload/_io.so
 -rwxr-xr-x root       root            28348 ./usr/lib/python2.7/lib-dynload/_json.so
 -rwxr-xr-x root       root            12244 ./usr/lib/python2.7/lib-dynload/_locale.so
 -rwxr-xr-x root       root            24588 ./usr/lib/python2.7/lib-dynload/_multibytecodec.so
@@ -4675,7 +4681,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/lib-dynload
 -rwxr-xr-x root       root            32388 ./usr/lib/python2.7/lib-dynload/_testcapi.so
 -rwxr-xr-x root       root            29292 ./usr/lib/python2.7/lib-dynload/array.so
 -rwxr-xr-x root       root            15376 ./usr/lib/python2.7/lib-dynload/binascii.so
--rwxr-xr-x root       root            28264 ./usr/lib/python2.7/lib-dynload/bz2.so
+-rwxr-xr-x root       root            28364 ./usr/lib/python2.7/lib-dynload/bz2.so
 -rwxr-xr-x root       root            56880 ./usr/lib/python2.7/lib-dynload/cPickle.so
 -rwxr-xr-x root       root            12816 ./usr/lib/python2.7/lib-dynload/cStringIO.so
 -rwxr-xr-x root       root            48460 ./usr/lib/python2.7/lib-dynload/cmath.so
@@ -4683,18 +4689,18 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/lib-dynload
 -rwxr-xr-x root       root            66152 ./usr/lib/python2.7/lib-dynload/datetime.so
 -rwxr-xr-x root       root             7928 ./usr/lib/python2.7/lib-dynload/dbm.so
 -rwxr-xr-x root       root             6584 ./usr/lib/python2.7/lib-dynload/dl.so
--rwxr-xr-x root       root            17556 ./usr/lib/python2.7/lib-dynload/fcntl.so
+-rwxr-xr-x root       root            17560 ./usr/lib/python2.7/lib-dynload/fcntl.so
 -rwxr-xr-x root       root             5072 ./usr/lib/python2.7/lib-dynload/future_builtins.so
 -rwxr-xr-x root       root            14192 ./usr/lib/python2.7/lib-dynload/imageop.so
 -rwxr-xr-x root       root            37656 ./usr/lib/python2.7/lib-dynload/itertools.so
 -rwxr-xr-x root       root             9228 ./usr/lib/python2.7/lib-dynload/linuxaudiodev.so
 -rwxr-xr-x root       root            39460 ./usr/lib/python2.7/lib-dynload/math.so
--rwxr-xr-x root       root            15672 ./usr/lib/python2.7/lib-dynload/mmap.so
+-rwxr-xr-x root       root            15676 ./usr/lib/python2.7/lib-dynload/mmap.so
 -rwxr-xr-x root       root            23068 ./usr/lib/python2.7/lib-dynload/operator.so
 -rwxr-xr-x root       root            47780 ./usr/lib/python2.7/lib-dynload/parser.so
 -rwxr-xr-x root       root           147068 ./usr/lib/python2.7/lib-dynload/pyexpat.so
 -rwxr-xr-x root       root            17496 ./usr/lib/python2.7/lib-dynload/readline.so
--rwxr-xr-x root       root            10352 ./usr/lib/python2.7/lib-dynload/resource.so
+-rwxr-xr-x root       root            10356 ./usr/lib/python2.7/lib-dynload/resource.so
 -rwxr-xr-x root       root            19092 ./usr/lib/python2.7/lib-dynload/select.so
 -rwxr-xr-x root       root             7072 ./usr/lib/python2.7/lib-dynload/spwd.so
 -rwxr-xr-x root       root            18200 ./usr/lib/python2.7/lib-dynload/strop.so
@@ -6552,7 +6558,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/tcl8/8.5
 drwxr-xr-x root       root             4096 ./usr/lib/tcl8/8.6
 -rw-r--r-- root       root            41868 ./usr/lib/tcl8/8.6/http-2.8.7.tm
 drwxr-xr-x root       root             4096 ./usr/lib/tmpfiles.d
--rw-r--r-- root       root              577 ./usr/lib/tmpfiles.d/etc.conf
+-rw-r--r-- root       root              617 ./usr/lib/tmpfiles.d/etc.conf
 -rw-r--r-- root       root             1181 ./usr/lib/tmpfiles.d/legacy.conf
 -rw-r--r-- root       root              486 ./usr/lib/tmpfiles.d/systemd-nologin.conf
 -rw-r--r-- root       root              451 ./usr/lib/tmpfiles.d/systemd-remote.conf
@@ -6716,7 +6722,6 @@ lrwxrwxrwx root       root               26 ./usr/sbin/chroot -> /usr/sbin/chroo
 -rwxr-xr-x root       root            36372 ./usr/sbin/crond
 lrwxrwxrwx root       root               19 ./usr/sbin/delgroup -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/sbin/deluser -> /bin/busybox.nosuid
--rwxr-xr-x root       root            34632 ./usr/sbin/dosfsck
 -rwxr-xr-x root       root             9232 ./usr/sbin/eeprog
 -rwxr-xr-x root       root             8036 ./usr/sbin/eeprom
 -rwxr-xr-x root       root             7800 ./usr/sbin/eepromer
@@ -6731,8 +6736,6 @@ lrwxrwxrwx root       root               20 ./usr/sbin/fbset -> /usr/sbin/fbset.
 -rwxr-xr-x root       root             4588 ./usr/sbin/flash_otp_write
 -rwxr-xr-x root       root             4276 ./usr/sbin/flash_unlock
 -rwxr-xr-x root       root             8092 ./usr/sbin/flashcp
-lrwxrwxrwx root       root                7 ./usr/sbin/fsck.msdos -> dosfsck
-lrwxrwxrwx root       root                7 ./usr/sbin/fsck.vfat -> dosfsck
 -rwxr-xr-x root       root             6844 ./usr/sbin/fsoaudiod
 -rwxr-xr-x root       root             4844 ./usr/sbin/fsodatad
 -rwxr-xr-x root       root             6860 ./usr/sbin/fsodeviced
@@ -6771,12 +6774,9 @@ lrwxrwxrwx root       root               19 ./usr/sbin/loadfont -> /bin/busybox.
 -rwxr-xr-x root       root             8012 ./usr/sbin/logoutd
 -rwsr-xr-x root       root           101588 ./usr/sbin/lsof
 -rwxr-xr-x root       root             4772 ./usr/sbin/mioctl
--rwxr-xr-x root       root            26976 ./usr/sbin/mkdosfs
 -rwxr-xr-x root       root             8860 ./usr/sbin/mkdump
 -rwxr-xr-x root       root            32348 ./usr/sbin/mkfs.jffs2
-lrwxrwxrwx root       root                7 ./usr/sbin/mkfs.msdos -> mkdosfs
 -rwxr-xr-x root       root            55252 ./usr/sbin/mkfs.ubifs
-lrwxrwxrwx root       root                7 ./usr/sbin/mkfs.vfat -> mkdosfs
 -rwxr-xr-x root       root             7460 ./usr/sbin/mtd_debug
 -rwxr-xr-x root       root            32792 ./usr/sbin/mtdinfo
 -rwxr-xr-x root       root            20232 ./usr/sbin/mterm2
@@ -6821,7 +6821,7 @@ lrwxrwxrwx root       root               23 ./usr/sbin/rfkill -> /usr/sbin/rfkil
 -rwxr-xr-x root       root            10608 ./usr/sbin/showmount
 -rwxr-xr-x root       root            30880 ./usr/sbin/sm-notify
 -rwxr-xr-x root       root           568172 ./usr/sbin/sshd
--rwxr-xr-x root       root              349 ./usr/sbin/start-statd
+-rwxr-xr-x root       root              366 ./usr/sbin/start-statd
 -rwxr-xr-x root       root            16988 ./usr/sbin/sumtool
 -rwxr-xr-x root       root           621780 ./usr/sbin/tcpdump
 -rwxr-xr-x root       root            21364 ./usr/sbin/ubiattach
@@ -8000,7 +8000,7 @@ drwxr-xr-x root       root             4096 ./usr/share/elementary/config/standa
 -rw-r--r-- root       root            12068 ./usr/share/elementary/config/standard/icon.png
 -rw-r--r-- root       root             2844 ./usr/share/elementary/config/standard/profile.desktop
 drwxr-xr-x root       root             4096 ./usr/share/elementary/themes
--rw-r--r-- root       root          5248884 ./usr/share/elementary/themes/default.edj
+-rw-r--r-- root       root          5249075 ./usr/share/elementary/themes/default.edj
 -rw-r--r-- root       root           188788 ./usr/share/elementary/themes/gry.edj
 drwxr-xr-x root       root             4096 ./usr/share/emtooth2
 drwxr-xr-x root       root             4096 ./usr/share/emtooth2/images
@@ -8031,7 +8031,7 @@ drwxr-xr-x root       root             4096 ./usr/share/emtooth2/images
 -rw-r--r-- root       root             2000 ./usr/share/emtooth2/images/unknown-offline.png
 -rw-r--r-- root       root             1995 ./usr/share/emtooth2/images/unknown-online.png
 drwxr-xr-x root       root             4096 ./usr/share/enjoy
--rw-r--r-- root       root            34591 ./usr/share/enjoy/default.edj
+-rw-r--r-- root       root            34905 ./usr/share/enjoy/default.edj
 drwxr-xr-x root       root             4096 ./usr/share/enlightenment
 -rw-r--r-- root       root             2473 ./usr/share/enlightenment/AUTHORS
 -rw-r--r-- root       root             1359 ./usr/share/enlightenment/COPYING
@@ -13349,12 +13349,12 @@ drwxr-xr-x root       root             4096 ./usr/share/terminology/themes
 -rw-r--r-- root       root           417266 ./usr/share/terminology/themes/base16_ocean_dark.edj
 -rw-r--r-- root       root           418343 ./usr/share/terminology/themes/black.edj
 -rw-r--r-- root       root           839681 ./usr/share/terminology/themes/default.edj
--rw-r--r-- root       root           418276 ./usr/share/terminology/themes/mild.edj
+-rw-r--r-- root       root           418296 ./usr/share/terminology/themes/mild.edj
 -rw-r--r-- root       root           417132 ./usr/share/terminology/themes/mustang.edj
--rw-r--r-- root       root           255424 ./usr/share/terminology/themes/nyanology.edj
+-rw-r--r-- root       root           255413 ./usr/share/terminology/themes/nyanology.edj
 -rw-r--r-- root       root           419107 ./usr/share/terminology/themes/smyck.edj
--rw-r--r-- root       root           839569 ./usr/share/terminology/themes/solarized.edj
--rw-r--r-- root       root           839578 ./usr/share/terminology/themes/solarized_light.edj
+-rw-r--r-- root       root           839641 ./usr/share/terminology/themes/solarized.edj
+-rw-r--r-- root       root           839650 ./usr/share/terminology/themes/solarized_light.edj
 drwxr-xr-x root       root             4096 ./usr/share/themes
 drwxr-xr-x root       root             4096 ./usr/share/themes/Default
 drwxr-xr-x root       root             4096 ./usr/share/themes/Default/gtk-2.0-key
@@ -13823,7 +13823,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/autoload
 -rw-r--r-- root       root            10146 ./usr/share/vim/vim74/autoload/netrwSettings.vim
 -rw-r--r-- root       root             2701 ./usr/share/vim/vim74/autoload/netrw_gitignore.vim
 -rw-r--r-- root       root             1232 ./usr/share/vim/vim74/autoload/paste.vim
--rw-r--r-- root       root           338360 ./usr/share/vim/vim74/autoload/phpcomplete.vim
+-rw-r--r-- root       root           341947 ./usr/share/vim/vim74/autoload/phpcomplete.vim
 -rw-r--r-- root       root            21507 ./usr/share/vim/vim74/autoload/python3complete.vim
 -rw-r--r-- root       root            22019 ./usr/share/vim/vim74/autoload/pythoncomplete.vim
 -rw-r--r-- root       root            23554 ./usr/share/vim/vim74/autoload/rubycomplete.vim
@@ -13892,6 +13892,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/compiler
 -rw-r--r-- root       root             1125 ./usr/share/vim/vim74/compiler/gcc.vim
 -rw-r--r-- root       root              671 ./usr/share/vim/vim74/compiler/gfortran.vim
 -rw-r--r-- root       root             2418 ./usr/share/vim/vim74/compiler/gnat.vim
+-rw-r--r-- root       root              526 ./usr/share/vim/vim74/compiler/go.vim
 -rw-r--r-- root       root              555 ./usr/share/vim/vim74/compiler/haml.vim
 -rw-r--r-- root       root             1052 ./usr/share/vim/vim74/compiler/hp_acc.vim
 -rw-r--r-- root       root              585 ./usr/share/vim/vim74/compiler/icc.vim
@@ -13907,7 +13908,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/compiler
 -rw-r--r-- root       root              701 ./usr/share/vim/vim74/compiler/mipspro_cpp.vim
 -rw-r--r-- root       root              799 ./usr/share/vim/vim74/compiler/modelsim_vcom.vim
 -rw-r--r-- root       root              529 ./usr/share/vim/vim74/compiler/msbuild.vim
--rw-r--r-- root       root              294 ./usr/share/vim/vim74/compiler/msvc.vim
+-rw-r--r-- root       root              293 ./usr/share/vim/vim74/compiler/msvc.vim
 -rw-r--r-- root       root              378 ./usr/share/vim/vim74/compiler/neato.vim
 -rw-r--r-- root       root             1328 ./usr/share/vim/vim74/compiler/ocaml.vim
 -rw-r--r-- root       root              503 ./usr/share/vim/vim74/compiler/onsgmls.vim
@@ -13932,16 +13933,16 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/compiler
 -rw-r--r-- root       root              645 ./usr/share/vim/vim74/delmenu.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root            11936 ./usr/share/vim/vim74/doc/arabic.txt
--rw-r--r-- root       root            57621 ./usr/share/vim/vim74/doc/autocmd.txt
+-rw-r--r-- root       root            58395 ./usr/share/vim/vim74/doc/autocmd.txt
 -rw-r--r-- root       root            71237 ./usr/share/vim/vim74/doc/change.txt
--rw-r--r-- root       root            45574 ./usr/share/vim/vim74/doc/cmdline.txt
+-rw-r--r-- root       root            45687 ./usr/share/vim/vim74/doc/cmdline.txt
 -rw-r--r-- root       root             7182 ./usr/share/vim/vim74/doc/debug.txt
 -rw-r--r-- root       root             5643 ./usr/share/vim/vim74/doc/debugger.txt
 -rw-r--r-- root       root            20187 ./usr/share/vim/vim74/doc/develop.txt
 -rw-r--r-- root       root            15745 ./usr/share/vim/vim74/doc/diff.txt
 -rw-r--r-- root       root            62087 ./usr/share/vim/vim74/doc/digraph.txt
--rw-r--r-- root       root            69627 ./usr/share/vim/vim74/doc/editing.txt
--rw-r--r-- root       root           342938 ./usr/share/vim/vim74/doc/eval.txt
+-rw-r--r-- root       root            70739 ./usr/share/vim/vim74/doc/editing.txt
+-rw-r--r-- root       root           343713 ./usr/share/vim/vim74/doc/eval.txt
 -rw-r--r-- root       root             9704 ./usr/share/vim/vim74/doc/farsi.txt
 -rw-r--r-- root       root            23810 ./usr/share/vim/vim74/doc/filetype.txt
 -rw-r--r-- root       root            23186 ./usr/share/vim/vim74/doc/fold.txt
@@ -13954,7 +13955,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             3215 ./usr/share/vim/vim74/doc/hangulin.txt
 -rw-r--r-- root       root             5714 ./usr/share/vim/vim74/doc/hebrew.txt
 -rw-r--r-- root       root             8249 ./usr/share/vim/vim74/doc/help.txt
--rw-r--r-- root       root            13687 ./usr/share/vim/vim74/doc/helphelp.txt
+-rw-r--r-- root       root            13782 ./usr/share/vim/vim74/doc/helphelp.txt
 -rw-r--r-- root       root             2911 ./usr/share/vim/vim74/doc/howto.txt
 -rw-r--r-- root       root            19904 ./usr/share/vim/vim74/doc/if_cscop.txt
 -rw-r--r-- root       root            13533 ./usr/share/vim/vim74/doc/if_lua.txt
@@ -13966,16 +13967,16 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             3679 ./usr/share/vim/vim74/doc/if_sniff.txt
 -rw-r--r-- root       root            22629 ./usr/share/vim/vim74/doc/if_tcl.txt
 -rw-r--r-- root       root            38926 ./usr/share/vim/vim74/doc/indent.txt
--rw-r--r-- root       root            74255 ./usr/share/vim/vim74/doc/index.txt
--rw-r--r-- root       root            81819 ./usr/share/vim/vim74/doc/insert.txt
+-rw-r--r-- root       root            74303 ./usr/share/vim/vim74/doc/index.txt
+-rw-r--r-- root       root            81936 ./usr/share/vim/vim74/doc/insert.txt
 -rw-r--r-- root       root            38182 ./usr/share/vim/vim74/doc/intro.txt
--rw-r--r-- root       root            62032 ./usr/share/vim/vim74/doc/map.txt
+-rw-r--r-- root       root            62140 ./usr/share/vim/vim74/doc/map.txt
 -rw-r--r-- root       root            58261 ./usr/share/vim/vim74/doc/mbyte.txt
 -rw-r--r-- root       root            30524 ./usr/share/vim/vim74/doc/message.txt
 -rw-r--r-- root       root             7733 ./usr/share/vim/vim74/doc/mlang.txt
 -rw-r--r-- root       root            51023 ./usr/share/vim/vim74/doc/motion.txt
--rw-r--r-- root       root            36594 ./usr/share/vim/vim74/doc/netbeans.txt
--rw-r--r-- root       root           355298 ./usr/share/vim/vim74/doc/options.txt
+-rw-r--r-- root       root            36595 ./usr/share/vim/vim74/doc/netbeans.txt
+-rw-r--r-- root       root           358127 ./usr/share/vim/vim74/doc/options.txt
 -rw-r--r-- root       root             4787 ./usr/share/vim/vim74/doc/os_390.txt
 -rw-r--r-- root       root             5461 ./usr/share/vim/vim74/doc/os_amiga.txt
 -rw-r--r-- root       root            10937 ./usr/share/vim/vim74/doc/os_beos.txt
@@ -13987,9 +13988,9 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             4071 ./usr/share/vim/vim74/doc/os_qnx.txt
 -rw-r--r-- root       root              323 ./usr/share/vim/vim74/doc/os_risc.txt
 -rw-r--r-- root       root             2595 ./usr/share/vim/vim74/doc/os_unix.txt
--rw-r--r-- root       root            32102 ./usr/share/vim/vim74/doc/os_vms.txt
--rw-r--r-- root       root            18041 ./usr/share/vim/vim74/doc/os_win32.txt
--rw-r--r-- root       root            57171 ./usr/share/vim/vim74/doc/pattern.txt
+-rw-r--r-- root       root            32103 ./usr/share/vim/vim74/doc/os_vms.txt
+-rw-r--r-- root       root            18241 ./usr/share/vim/vim74/doc/os_win32.txt
+-rw-r--r-- root       root            57492 ./usr/share/vim/vim74/doc/pattern.txt
 -rw-r--r-- root       root            21079 ./usr/share/vim/vim74/doc/pi_getscript.txt
 -rw-r--r-- root       root             1296 ./usr/share/vim/vim74/doc/pi_gzip.txt
 -rw-r--r-- root       root           145480 ./usr/share/vim/vim74/doc/pi_netrw.txt
@@ -14000,7 +14001,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             5832 ./usr/share/vim/vim74/doc/pi_zip.txt
 -rw-r--r-- root       root            31160 ./usr/share/vim/vim74/doc/print.txt
 -rw-r--r-- root       root            60743 ./usr/share/vim/vim74/doc/quickfix.txt
--rw-r--r-- root       root            69084 ./usr/share/vim/vim74/doc/quickref.txt
+-rw-r--r-- root       root            69150 ./usr/share/vim/vim74/doc/quickref.txt
 -rw-r--r-- root       root            12744 ./usr/share/vim/vim74/doc/quotes.txt
 -rw-r--r-- root       root            10694 ./usr/share/vim/vim74/doc/recover.txt
 -rw-r--r-- root       root             8285 ./usr/share/vim/vim74/doc/remote.txt
@@ -14009,16 +14010,16 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root             3090 ./usr/share/vim/vim74/doc/russian.txt
 -rw-r--r-- root       root            13977 ./usr/share/vim/vim74/doc/scroll.txt
 -rw-r--r-- root       root             6769 ./usr/share/vim/vim74/doc/sign.txt
--rw-r--r-- root       root            62000 ./usr/share/vim/vim74/doc/spell.txt
+-rw-r--r-- root       root            62407 ./usr/share/vim/vim74/doc/spell.txt
 -rw-r--r-- root       root             7198 ./usr/share/vim/vim74/doc/sponsor.txt
 -rw-r--r-- root       root            67917 ./usr/share/vim/vim74/doc/starting.txt
--rw-r--r-- root       root           209381 ./usr/share/vim/vim74/doc/syntax.txt
+-rw-r--r-- root       root           210406 ./usr/share/vim/vim74/doc/syntax.txt
 -rw-r--r-- root       root            13568 ./usr/share/vim/vim74/doc/tabpage.txt
--rw-r--r-- root       root           298403 ./usr/share/vim/vim74/doc/tags
+-rw-r--r-- root       root           299020 ./usr/share/vim/vim74/doc/tags
 -rw-r--r-- root       root            35929 ./usr/share/vim/vim74/doc/tagsrch.txt
 -rw-r--r-- root       root            41138 ./usr/share/vim/vim74/doc/term.txt
 -rw-r--r-- root       root            20556 ./usr/share/vim/vim74/doc/tips.txt
--rw-r--r-- root       root           273974 ./usr/share/vim/vim74/doc/todo.txt
+-rw-r--r-- root       root           276497 ./usr/share/vim/vim74/doc/todo.txt
 -rw-r--r-- root       root            14025 ./usr/share/vim/vim74/doc/uganda.txt
 -rw-r--r-- root       root            16539 ./usr/share/vim/vim74/doc/undo.txt
 -rw-r--r-- root       root             7098 ./usr/share/vim/vim74/doc/usr_01.txt
@@ -14047,25 +14048,25 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/doc
 -rw-r--r-- root       root            10394 ./usr/share/vim/vim74/doc/usr_31.txt
 -rw-r--r-- root       root             5373 ./usr/share/vim/vim74/doc/usr_32.txt
 -rw-r--r-- root       root            23184 ./usr/share/vim/vim74/doc/usr_40.txt
--rw-r--r-- root       root            84019 ./usr/share/vim/vim74/doc/usr_41.txt
+-rw-r--r-- root       root            84081 ./usr/share/vim/vim74/doc/usr_41.txt
 -rw-r--r-- root       root            13798 ./usr/share/vim/vim74/doc/usr_42.txt
 -rw-r--r-- root       root             7050 ./usr/share/vim/vim74/doc/usr_43.txt
 -rw-r--r-- root       root            29176 ./usr/share/vim/vim74/doc/usr_44.txt
 -rw-r--r-- root       root            17912 ./usr/share/vim/vim74/doc/usr_45.txt
 -rw-r--r-- root       root            17661 ./usr/share/vim/vim74/doc/usr_90.txt
 -rw-r--r-- root       root             9192 ./usr/share/vim/vim74/doc/usr_toc.txt
--rw-r--r-- root       root            26691 ./usr/share/vim/vim74/doc/various.txt
+-rw-r--r-- root       root            26752 ./usr/share/vim/vim74/doc/various.txt
 -rw-r--r-- root       root            13906 ./usr/share/vim/vim74/doc/version4.txt
 -rw-r--r-- root       root           308561 ./usr/share/vim/vim74/doc/version5.txt
--rw-r--r-- root       root           577046 ./usr/share/vim/vim74/doc/version6.txt
+-rw-r--r-- root       root           577047 ./usr/share/vim/vim74/doc/version6.txt
 -rw-r--r-- root       root           674805 ./usr/share/vim/vim74/doc/version7.txt
 -rw-r--r-- root       root            42169 ./usr/share/vim/vim74/doc/vi_diff.txt
 -rwxr-xr-x root       root             4517 ./usr/share/vim/vim74/doc/vim2html.pl
 -rw-r--r-- root       root            21727 ./usr/share/vim/vim74/doc/visual.txt
--rw-r--r-- root       root            49436 ./usr/share/vim/vim74/doc/windows.txt
+-rw-r--r-- root       root            49925 ./usr/share/vim/vim74/doc/windows.txt
 -rw-r--r-- root       root             4631 ./usr/share/vim/vim74/doc/workshop.txt
 -rw-r--r-- root       root             1965 ./usr/share/vim/vim74/evim.vim
--rw-r--r-- root       root            69436 ./usr/share/vim/vim74/filetype.vim
+-rw-r--r-- root       root            69783 ./usr/share/vim/vim74/filetype.vim
 -rw-r--r-- root       root              280 ./usr/share/vim/vim74/ftoff.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root              971 ./usr/share/vim/vim74/ftplugin.vim
@@ -14110,6 +14111,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root              355 ./usr/share/vim/vim74/ftplugin/diff.vim
 -rw-r--r-- root       root              419 ./usr/share/vim/vim74/ftplugin/dircolors.vim
 -rw-r--r-- root       root              530 ./usr/share/vim/vim74/ftplugin/docbk.vim
+-rw-r--r-- root       root              356 ./usr/share/vim/vim74/ftplugin/dockerfile.vim
 -rw-r--r-- root       root              777 ./usr/share/vim/vim74/ftplugin/dosbatch.vim
 -rw-r--r-- root       root              446 ./usr/share/vim/vim74/ftplugin/dosini.vim
 -rw-r--r-- root       root             1123 ./usr/share/vim/vim74/ftplugin/dtd.vim
@@ -14129,6 +14131,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root              376 ./usr/share/vim/vim74/ftplugin/gitconfig.vim
 -rw-r--r-- root       root             1434 ./usr/share/vim/vim74/ftplugin/gitrebase.vim
 -rw-r--r-- root       root              157 ./usr/share/vim/vim74/ftplugin/gitsendemail.vim
+-rw-r--r-- root       root              365 ./usr/share/vim/vim74/ftplugin/go.vim
 -rw-r--r-- root       root              421 ./usr/share/vim/vim74/ftplugin/gpg.vim
 -rw-r--r-- root       root              939 ./usr/share/vim/vim74/ftplugin/gprof.vim
 -rw-r--r-- root       root              413 ./usr/share/vim/vim74/ftplugin/group.vim
@@ -14148,6 +14151,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root             1686 ./usr/share/vim/vim74/ftplugin/java.vim
 -rw-r--r-- root       root             1047 ./usr/share/vim/vim74/ftplugin/javascript.vim
 -rw-r--r-- root       root              321 ./usr/share/vim/vim74/ftplugin/jproperties.vim
+-rw-r--r-- root       root              360 ./usr/share/vim/vim74/ftplugin/json.vim
 -rw-r--r-- root       root             2011 ./usr/share/vim/vim74/ftplugin/jsp.vim
 -rw-r--r-- root       root              375 ./usr/share/vim/vim74/ftplugin/kconfig.vim
 -rw-r--r-- root       root              851 ./usr/share/vim/vim74/ftplugin/kwt.vim
@@ -14250,7 +14254,8 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/ftplugin
 -rw-r--r-- root       root             1907 ./usr/share/vim/vim74/ftplugin/vb.vim
 -rw-r--r-- root       root             1681 ./usr/share/vim/vim74/ftplugin/verilog.vim
 -rw-r--r-- root       root             3497 ./usr/share/vim/vim74/ftplugin/vhdl.vim
--rw-r--r-- root       root             2951 ./usr/share/vim/vim74/ftplugin/vim.vim
+-rw-r--r-- root       root             3037 ./usr/share/vim/vim74/ftplugin/vim.vim
+-rw-r--r-- root       root              924 ./usr/share/vim/vim74/ftplugin/vroom.vim
 -rw-r--r-- root       root              469 ./usr/share/vim/vim74/ftplugin/xdefaults.vim
 -rw-r--r-- root       root              422 ./usr/share/vim/vim74/ftplugin/xf86conf.vim
 -rw-r--r-- root       root             2036 ./usr/share/vim/vim74/ftplugin/xhtml.vim
@@ -14269,7 +14274,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root              767 ./usr/share/vim/vim74/indent.vim
 -rw-r--r-- root       root             1639 ./usr/share/vim/vim74/indent/README.txt
 -rw-r--r-- root       root              265 ./usr/share/vim/vim74/indent/aap.vim
--rw-r--r-- root       root            11147 ./usr/share/vim/vim74/indent/ada.vim
+-rw-r--r-- root       root            11145 ./usr/share/vim/vim74/indent/ada.vim
 -rw-r--r-- root       root              290 ./usr/share/vim/vim74/indent/ant.vim
 -rw-r--r-- root       root              231 ./usr/share/vim/vim74/indent/automake.vim
 -rw-r--r-- root       root             7748 ./usr/share/vim/vim74/indent/awk.vim
@@ -14305,15 +14310,17 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root              786 ./usr/share/vim/vim74/indent/framescript.vim
 -rw-r--r-- root       root              817 ./usr/share/vim/vim74/indent/gitconfig.vim
 -rw-r--r-- root       root              996 ./usr/share/vim/vim74/indent/gitolite.vim
+-rw-r--r-- root       root             1885 ./usr/share/vim/vim74/indent/go.vim
 -rw-r--r-- root       root             2189 ./usr/share/vim/vim74/indent/haml.vim
 -rw-r--r-- root       root             1407 ./usr/share/vim/vim74/indent/hamster.vim
--rw-r--r-- root       root            31381 ./usr/share/vim/vim74/indent/html.vim
+-rw-r--r-- root       root            31383 ./usr/share/vim/vim74/indent/html.vim
 -rw-r--r-- root       root              273 ./usr/share/vim/vim74/indent/htmldjango.vim
 -rw-r--r-- root       root             1566 ./usr/share/vim/vim74/indent/idlang.vim
 -rw-r--r-- root       root             1841 ./usr/share/vim/vim74/indent/ishd.vim
 -rw-r--r-- root       root             1785 ./usr/share/vim/vim74/indent/j.vim
 -rw-r--r-- root       root             4115 ./usr/share/vim/vim74/indent/java.vim
 -rw-r--r-- root       root              336 ./usr/share/vim/vim74/indent/javascript.vim
+-rw-r--r-- root       root             4403 ./usr/share/vim/vim74/indent/json.vim
 -rw-r--r-- root       root              462 ./usr/share/vim/vim74/indent/jsp.vim
 -rw-r--r-- root       root             1753 ./usr/share/vim/vim74/indent/ld.vim
 -rw-r--r-- root       root              637 ./usr/share/vim/vim74/indent/lifelines.vim
@@ -14351,7 +14358,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root              241 ./usr/share/vim/vim74/indent/scheme.vim
 -rw-r--r-- root       root              191 ./usr/share/vim/vim74/indent/scss.vim
 -rw-r--r-- root       root             2767 ./usr/share/vim/vim74/indent/sdl.vim
--rw-r--r-- root       root             4396 ./usr/share/vim/vim74/indent/sh.vim
+-rw-r--r-- root       root             4497 ./usr/share/vim/vim74/indent/sh.vim
 -rw-r--r-- root       root             6418 ./usr/share/vim/vim74/indent/sml.vim
 -rw-r--r-- root       root             1204 ./usr/share/vim/vim74/indent/sql.vim
 -rw-r--r-- root       root            13075 ./usr/share/vim/vim74/indent/sqlanywhere.vim
@@ -14365,7 +14372,8 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/indent
 -rw-r--r-- root       root             2044 ./usr/share/vim/vim74/indent/vb.vim
 -rw-r--r-- root       root             7620 ./usr/share/vim/vim74/indent/verilog.vim
 -rw-r--r-- root       root            13801 ./usr/share/vim/vim74/indent/vhdl.vim
--rw-r--r-- root       root             2830 ./usr/share/vim/vim74/indent/vim.vim
+-rw-r--r-- root       root             2923 ./usr/share/vim/vim74/indent/vim.vim
+-rw-r--r-- root       root              379 ./usr/share/vim/vim74/indent/vroom.vim
 -rw-r--r-- root       root              679 ./usr/share/vim/vim74/indent/xf86conf.vim
 -rw-r--r-- root       root              269 ./usr/share/vim/vim74/indent/xhtml.vim
 -rw-r--r-- root       root             1201 ./usr/share/vim/vim74/indent/xinetd.vim
@@ -14507,7 +14515,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko/LC_MES
 -rw-r--r-- root       root              153 ./usr/share/vim/vim74/lang/menu_ca_es.utf-8.vim
 -rw-r--r-- root       root              270 ./usr/share/vim/vim74/lang/menu_chinese(gb)_gb.936.vim
 -rw-r--r-- root       root              284 ./usr/share/vim/vim74/lang/menu_chinese(taiwan)_taiwan.950.vim
--rw-r--r-- root       root            10335 ./usr/share/vim/vim74/lang/menu_chinese_gb.936.vim
+-rw-r--r-- root       root            10457 ./usr/share/vim/vim74/lang/menu_chinese_gb.936.vim
 -rw-r--r-- root       root            12763 ./usr/share/vim/vim74/lang/menu_chinese_taiwan.950.vim
 -rw-r--r-- root       root               82 ./usr/share/vim/vim74/lang/menu_cs.cp1250.vim
 -rw-r--r-- root       root               82 ./usr/share/vim/vim74/lang/menu_cs.latin1.vim
@@ -14623,9 +14631,9 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ko/LC_MES
 -rw-r--r-- root       root               96 ./usr/share/vim/vim74/lang/menu_zh.gb2312.vim
 -rw-r--r-- root       root               82 ./usr/share/vim/vim74/lang/menu_zh_cn.18030.vim
 -rw-r--r-- root       root               98 ./usr/share/vim/vim74/lang/menu_zh_cn.cp936.vim
--rw-r--r-- root       root            10531 ./usr/share/vim/vim74/lang/menu_zh_cn.gb2312.vim
+-rw-r--r-- root       root            10646 ./usr/share/vim/vim74/lang/menu_zh_cn.gb2312.vim
 -rw-r--r-- root       root               82 ./usr/share/vim/vim74/lang/menu_zh_cn.gbk.vim
--rw-r--r-- root       root            11102 ./usr/share/vim/vim74/lang/menu_zh_cn.utf-8.vim
+-rw-r--r-- root       root            11223 ./usr/share/vim/vim74/lang/menu_zh_cn.utf-8.vim
 -rw-r--r-- root       root               89 ./usr/share/vim/vim74/lang/menu_zh_tw.big5.vim
 -rw-r--r-- root       root               89 ./usr/share/vim/vim74/lang/menu_zh_tw.cp950.vim
 -rw-r--r-- root       root            13583 ./usr/share/vim/vim74/lang/menu_zh_tw.utf-8.vim
@@ -14653,9 +14661,9 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/pt_BR/LC_
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru.cp1251
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru.cp1251/LC_MESSAGES
--rw-r--r-- root       root           171239 ./usr/share/vim/vim74/lang/ru.cp1251/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           172515 ./usr/share/vim/vim74/lang/ru.cp1251/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/ru/LC_MESSAGES
--rw-r--r-- root       root           218769 ./usr/share/vim/vim74/lang/ru/LC_MESSAGES/vim.mo
+-rw-r--r-- root       root           220449 ./usr/share/vim/vim74/lang/ru/LC_MESSAGES/vim.mo
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk.cp1250
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/lang/sk.cp1250/LC_MESSAGES
@@ -14725,12 +14733,12 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/macros/urm
 -rw-r--r-- root       root               96 ./usr/share/vim/vim74/macros/urm/urm.vim
 -rw-r--r-- root       root            38584 ./usr/share/vim/vim74/menu.vim
 -rw-r--r-- root       root             2650 ./usr/share/vim/vim74/mswin.vim
--rw-r--r-- root       root            55705 ./usr/share/vim/vim74/optwin.vim
+-rw-r--r-- root       root            55934 ./usr/share/vim/vim74/optwin.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/plugin
 -rw-r--r-- root       root              889 ./usr/share/vim/vim74/plugin/README.txt
 -rw-r--r-- root       root             1393 ./usr/share/vim/vim74/plugin/getscriptPlugin.vim
 -rw-r--r-- root       root             1969 ./usr/share/vim/vim74/plugin/gzip.vim
--rw-r--r-- root       root             5604 ./usr/share/vim/vim74/plugin/matchparen.vim
+-rw-r--r-- root       root             6382 ./usr/share/vim/vim74/plugin/matchparen.vim
 -rw-r--r-- root       root             9586 ./usr/share/vim/vim74/plugin/netrwPlugin.vim
 -rw-r--r-- root       root             1414 ./usr/share/vim/vim74/plugin/rrhelper.vim
 -rw-r--r-- root       root              499 ./usr/share/vim/vim74/plugin/spellfile.vim
@@ -14772,7 +14780,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/print
 -rw-r--r-- root       root             2192 ./usr/share/vim/vim74/print/latin1.ps
 -rw-r--r-- root       root             2220 ./usr/share/vim/vim74/print/mac-roman.ps
 -rw-r--r-- root       root             1976 ./usr/share/vim/vim74/print/prolog.ps
--rw-r--r-- root       root            10393 ./usr/share/vim/vim74/scripts.vim
+-rw-r--r-- root       root            10469 ./usr/share/vim/vim74/scripts.vim
 drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/spell
 -rw-r--r-- root       root              463 ./usr/share/vim/vim74/spell/check_locales.vim
 -rw-r--r-- root       root              934 ./usr/share/vim/vim74/spell/cleanadd.vim
@@ -14786,7 +14794,7 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/spell
 -rw-r--r-- root       root              240 ./usr/share/vim/vim74/spell/he.vim
 -rw-r--r-- root       root              118 ./usr/share/vim/vim74/spell/spell.vim
 -rw-r--r-- root       root              241 ./usr/share/vim/vim74/spell/yi.vim
--rw-r--r-- root       root            36816 ./usr/share/vim/vim74/synmenu.vim
+-rw-r--r-- root       root            36866 ./usr/share/vim/vim74/synmenu.vim
 drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            69056 ./usr/share/vim/vim74/syntax/2html.vim
 -rw-r--r-- root       root             1403 ./usr/share/vim/vim74/syntax/README.txt
@@ -14813,7 +14821,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             1137 ./usr/share/vim/vim74/syntax/arch.vim
 -rw-r--r-- root       root             2181 ./usr/share/vim/vim74/syntax/arduino.vim
 -rw-r--r-- root       root             1297 ./usr/share/vim/vim74/syntax/art.vim
--rw-r--r-- root       root            10858 ./usr/share/vim/vim74/syntax/asciidoc.vim
+-rw-r--r-- root       root            10998 ./usr/share/vim/vim74/syntax/asciidoc.vim
 -rw-r--r-- root       root             4724 ./usr/share/vim/vim74/syntax/asm.vim
 -rw-r--r-- root       root            14642 ./usr/share/vim/vim74/syntax/asm68k.vim
 -rw-r--r-- root       root             2477 ./usr/share/vim/vim74/syntax/asmh8300.vim
@@ -14840,7 +14848,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             3385 ./usr/share/vim/vim74/syntax/bst.vim
 -rw-r--r-- root       root             9631 ./usr/share/vim/vim74/syntax/btm.vim
 -rw-r--r-- root       root             1955 ./usr/share/vim/vim74/syntax/bzr.vim
--rw-r--r-- root       root            24957 ./usr/share/vim/vim74/syntax/c.vim
+-rw-r--r-- root       root            25218 ./usr/share/vim/vim74/syntax/c.vim
 -rw-r--r-- root       root             4697 ./usr/share/vim/vim74/syntax/cabal.vim
 -rw-r--r-- root       root             5030 ./usr/share/vim/vim74/syntax/calendar.vim
 -rw-r--r-- root       root              921 ./usr/share/vim/vim74/syntax/catalog.vim
@@ -14894,9 +14902,9 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             3592 ./usr/share/vim/vim74/syntax/datascript.vim
 -rw-r--r-- root       root             2198 ./usr/share/vim/vim74/syntax/dcd.vim
 -rw-r--r-- root       root             6625 ./usr/share/vim/vim74/syntax/dcl.vim
--rw-r--r-- root       root             2530 ./usr/share/vim/vim74/syntax/debchangelog.vim
--rw-r--r-- root       root             7261 ./usr/share/vim/vim74/syntax/debcontrol.vim
--rw-r--r-- root       root             1348 ./usr/share/vim/vim74/syntax/debsources.vim
+-rw-r--r-- root       root             2529 ./usr/share/vim/vim74/syntax/debchangelog.vim
+-rw-r--r-- root       root             7540 ./usr/share/vim/vim74/syntax/debcontrol.vim
+-rw-r--r-- root       root             1355 ./usr/share/vim/vim74/syntax/debsources.vim
 -rw-r--r-- root       root             1495 ./usr/share/vim/vim74/syntax/def.vim
 -rw-r--r-- root       root             7353 ./usr/share/vim/vim74/syntax/denyhosts.vim
 -rw-r--r-- root       root             3494 ./usr/share/vim/vim74/syntax/desc.vim
@@ -14907,12 +14915,13 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             6538 ./usr/share/vim/vim74/syntax/dircolors.vim
 -rw-r--r-- root       root             1787 ./usr/share/vim/vim74/syntax/dirpager.vim
 -rw-r--r-- root       root             5071 ./usr/share/vim/vim74/syntax/diva.vim
--rw-r--r-- root       root             4305 ./usr/share/vim/vim74/syntax/django.vim
+-rw-r--r-- root       root             4317 ./usr/share/vim/vim74/syntax/django.vim
 -rw-r--r-- root       root              132 ./usr/share/vim/vim74/syntax/dns.vim
 -rw-r--r-- root       root             9851 ./usr/share/vim/vim74/syntax/dnsmasq.vim
 -rw-r--r-- root       root            10771 ./usr/share/vim/vim74/syntax/docbk.vim
 -rw-r--r-- root       root              193 ./usr/share/vim/vim74/syntax/docbksgml.vim
 -rw-r--r-- root       root              191 ./usr/share/vim/vim74/syntax/docbkxml.vim
+-rw-r--r-- root       root              634 ./usr/share/vim/vim74/syntax/dockerfile.vim
 -rw-r--r-- root       root             6617 ./usr/share/vim/vim74/syntax/dosbatch.vim
 -rw-r--r-- root       root             1548 ./usr/share/vim/vim74/syntax/dosini.vim
 -rw-r--r-- root       root             3395 ./usr/share/vim/vim74/syntax/dot.vim
@@ -14972,7 +14981,9 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root              437 ./usr/share/vim/vim74/syntax/gitsendemail.vim
 -rw-r--r-- root       root             4342 ./usr/share/vim/vim74/syntax/gkrellmrc.vim
 -rw-r--r-- root       root             3559 ./usr/share/vim/vim74/syntax/gnash.vim
--rw-r--r-- root       root             9636 ./usr/share/vim/vim74/syntax/gnuplot.vim
+-rw-r--r-- root       root            23886 ./usr/share/vim/vim74/syntax/gnuplot.vim
+-rw-r--r-- root       root             7904 ./usr/share/vim/vim74/syntax/go.vim
+-rw-r--r-- root       root              408 ./usr/share/vim/vim74/syntax/godoc.vim
 -rw-r--r-- root       root             3138 ./usr/share/vim/vim74/syntax/gp.vim
 -rw-r--r-- root       root             5579 ./usr/share/vim/vim74/syntax/gpg.vim
 -rw-r--r-- root       root             2117 ./usr/share/vim/vim74/syntax/gprof.vim
@@ -15000,7 +15011,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root              607 ./usr/share/vim/vim74/syntax/hostsaccess.vim
 -rw-r--r-- root       root            15839 ./usr/share/vim/vim74/syntax/html.vim
 -rw-r--r-- root       root              672 ./usr/share/vim/vim74/syntax/htmlcheetah.vim
--rw-r--r-- root       root             1182 ./usr/share/vim/vim74/syntax/htmldjango.vim
+-rw-r--r-- root       root             1194 ./usr/share/vim/vim74/syntax/htmldjango.vim
 -rw-r--r-- root       root              874 ./usr/share/vim/vim74/syntax/htmlm4.vim
 -rw-r--r-- root       root             8743 ./usr/share/vim/vim74/syntax/htmlos.vim
 -rw-r--r-- root       root            10938 ./usr/share/vim/vim74/syntax/ia64.vim
@@ -15018,7 +15029,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            27423 ./usr/share/vim/vim74/syntax/ishd.vim
 -rw-r--r-- root       root             5361 ./usr/share/vim/vim74/syntax/iss.vim
 -rw-r--r-- root       root             2446 ./usr/share/vim/vim74/syntax/ist.vim
--rw-r--r-- root       root             8806 ./usr/share/vim/vim74/syntax/j.vim
+-rw-r--r-- root       root             9074 ./usr/share/vim/vim74/syntax/j.vim
 -rw-r--r-- root       root             9202 ./usr/share/vim/vim74/syntax/jal.vim
 -rw-r--r-- root       root            27113 ./usr/share/vim/vim74/syntax/jam.vim
 -rw-r--r-- root       root             1006 ./usr/share/vim/vim74/syntax/jargon.vim
@@ -15029,6 +15040,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             1616 ./usr/share/vim/vim74/syntax/jgraph.vim
 -rw-r--r-- root       root             4107 ./usr/share/vim/vim74/syntax/jovial.vim
 -rw-r--r-- root       root             5892 ./usr/share/vim/vim74/syntax/jproperties.vim
+-rw-r--r-- root       root             6282 ./usr/share/vim/vim74/syntax/json.vim
 -rw-r--r-- root       root             3122 ./usr/share/vim/vim74/syntax/jsp.vim
 -rw-r--r-- root       root            36137 ./usr/share/vim/vim74/syntax/kconfig.vim
 -rw-r--r-- root       root              986 ./usr/share/vim/vim74/syntax/kivy.vim
@@ -15139,7 +15151,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            74415 ./usr/share/vim/vim74/syntax/perl6.vim
 -rw-r--r-- root       root             2773 ./usr/share/vim/vim74/syntax/pf.vim
 -rw-r--r-- root       root            82833 ./usr/share/vim/vim74/syntax/pfmain.vim
--rw-r--r-- root       root            81269 ./usr/share/vim/vim74/syntax/php.vim
+-rw-r--r-- root       root            81374 ./usr/share/vim/vim74/syntax/php.vim
 -rw-r--r-- root       root              151 ./usr/share/vim/vim74/syntax/phtml.vim
 -rw-r--r-- root       root             3714 ./usr/share/vim/vim74/syntax/pic.vim
 -rw-r--r-- root       root             6703 ./usr/share/vim/vim74/syntax/pike.vim
@@ -15170,7 +15182,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             4459 ./usr/share/vim/vim74/syntax/ptcap.vim
 -rw-r--r-- root       root             3628 ./usr/share/vim/vim74/syntax/purifylog.vim
 -rw-r--r-- root       root             2045 ./usr/share/vim/vim74/syntax/pyrex.vim
--rw-r--r-- root       root            11886 ./usr/share/vim/vim74/syntax/python.vim
+-rw-r--r-- root       root            11875 ./usr/share/vim/vim74/syntax/python.vim
 -rw-r--r-- root       root              596 ./usr/share/vim/vim74/syntax/qf.vim
 -rw-r--r-- root       root             8538 ./usr/share/vim/vim74/syntax/quake.vim
 -rw-r--r-- root       root             7838 ./usr/share/vim/vim74/syntax/r.vim
@@ -15198,7 +15210,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             2159 ./usr/share/vim/vim74/syntax/rpcgen.vim
 -rw-r--r-- root       root            25985 ./usr/share/vim/vim74/syntax/rpl.vim
 -rw-r--r-- root       root             1337 ./usr/share/vim/vim74/syntax/rrst.vim
--rw-r--r-- root       root             8266 ./usr/share/vim/vim74/syntax/rst.vim
+-rw-r--r-- root       root             8638 ./usr/share/vim/vim74/syntax/rst.vim
 -rw-r--r-- root       root             2740 ./usr/share/vim/vim74/syntax/rtf.vim
 -rw-r--r-- root       root            28422 ./usr/share/vim/vim74/syntax/ruby.vim
 -rw-r--r-- root       root             6524 ./usr/share/vim/vim74/syntax/samba.vim
@@ -15227,7 +15239,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             4101 ./usr/share/vim/vim74/syntax/sinda.vim
 -rw-r--r-- root       root             1682 ./usr/share/vim/vim74/syntax/sindacmp.vim
 -rw-r--r-- root       root             2420 ./usr/share/vim/vim74/syntax/sindaout.vim
--rw-r--r-- root       root            20388 ./usr/share/vim/vim74/syntax/sisu.vim
+-rw-r--r-- root       root            22173 ./usr/share/vim/vim74/syntax/sisu.vim
 -rw-r--r-- root       root            26116 ./usr/share/vim/vim74/syntax/skill.vim
 -rw-r--r-- root       root             4420 ./usr/share/vim/vim74/syntax/sl.vim
 -rw-r--r-- root       root             3638 ./usr/share/vim/vim74/syntax/slang.vim
@@ -15288,7 +15300,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root            17623 ./usr/share/vim/vim74/syntax/tcl.vim
 -rw-r--r-- root       root            13269 ./usr/share/vim/vim74/syntax/tcsh.vim
 -rw-r--r-- root       root             4791 ./usr/share/vim/vim74/syntax/terminfo.vim
--rw-r--r-- root       root            63491 ./usr/share/vim/vim74/syntax/tex.vim
+-rw-r--r-- root       root            63831 ./usr/share/vim/vim74/syntax/tex.vim
 -rw-r--r-- root       root            25856 ./usr/share/vim/vim74/syntax/texinfo.vim
 -rw-r--r-- root       root             2469 ./usr/share/vim/vim74/syntax/texmf.vim
 -rw-r--r-- root       root             7237 ./usr/share/vim/vim74/syntax/tf.vim
@@ -15318,7 +15330,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             2620 ./usr/share/vim/vim74/syntax/upstreamlog.vim
 -rw-r--r-- root       root             3118 ./usr/share/vim/vim74/syntax/usserverlog.vim
 -rw-r--r-- root       root             2272 ./usr/share/vim/vim74/syntax/usw2kagtlog.vim
--rw-r--r-- root       root             3059 ./usr/share/vim/vim74/syntax/valgrind.vim
+-rw-r--r-- root       root             3124 ./usr/share/vim/vim74/syntax/valgrind.vim
 -rw-r--r-- root       root            20622 ./usr/share/vim/vim74/syntax/vb.vim
 -rw-r--r-- root       root            19802 ./usr/share/vim/vim74/syntax/vera.vim
 -rw-r--r-- root       root             5529 ./usr/share/vim/vim74/syntax/verilog.vim
@@ -15331,6 +15343,7 @@ drwxr-xr-x root       root            24576 ./usr/share/vim/vim74/syntax
 -rw-r--r-- root       root             8891 ./usr/share/vim/vim74/syntax/vmasm.vim
 -rw-r--r-- root       root             6975 ./usr/share/vim/vim74/syntax/voscm.vim
 -rw-r--r-- root       root            13217 ./usr/share/vim/vim74/syntax/vrml.vim
+-rw-r--r-- root       root             3601 ./usr/share/vim/vim74/syntax/vroom.vim
 -rw-r--r-- root       root             1393 ./usr/share/vim/vim74/syntax/vsejcl.vim
 -rw-r--r-- root       root             1151 ./usr/share/vim/vim74/syntax/wdiff.vim
 -rw-r--r-- root       root             1271 ./usr/share/vim/vim74/syntax/web.vim
@@ -15406,8 +15419,8 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/tutor
 -rw-r--r-- root       root            35601 ./usr/share/vim/vim74/tutor/tutor.eo.utf-8
 -rw-r--r-- root       root            27596 ./usr/share/vim/vim74/tutor/tutor.es
 -rw-r--r-- root       root            28041 ./usr/share/vim/vim74/tutor/tutor.es.utf-8
--rw-r--r-- root       root            38552 ./usr/share/vim/vim74/tutor/tutor.fr
--rw-r--r-- root       root            39364 ./usr/share/vim/vim74/tutor/tutor.fr.utf-8
+-rw-r--r-- root       root            38553 ./usr/share/vim/vim74/tutor/tutor.fr
+-rw-r--r-- root       root            39365 ./usr/share/vim/vim74/tutor/tutor.fr.utf-8
 -rw-r--r-- root       root            33909 ./usr/share/vim/vim74/tutor/tutor.hr
 -rw-r--r-- root       root            33909 ./usr/share/vim/vim74/tutor/tutor.hr.cp1250
 -rw-r--r-- root       root            34428 ./usr/share/vim/vim74/tutor/tutor.hr.utf-8
@@ -15416,9 +15429,9 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/tutor
 -rw-r--r-- root       root            28954 ./usr/share/vim/vim74/tutor/tutor.hu.utf-8
 -rw-r--r-- root       root            36327 ./usr/share/vim/vim74/tutor/tutor.it
 -rw-r--r-- root       root            36457 ./usr/share/vim/vim74/tutor/tutor.it.utf-8
--rw-r--r-- root       root            33323 ./usr/share/vim/vim74/tutor/tutor.ja.euc
--rw-r--r-- root       root            33323 ./usr/share/vim/vim74/tutor/tutor.ja.sjis
--rw-r--r-- root       root            44060 ./usr/share/vim/vim74/tutor/tutor.ja.utf-8
+-rw-r--r-- root       root            33297 ./usr/share/vim/vim74/tutor/tutor.ja.euc
+-rw-r--r-- root       root            33297 ./usr/share/vim/vim74/tutor/tutor.ja.sjis
+-rw-r--r-- root       root            44024 ./usr/share/vim/vim74/tutor/tutor.ja.utf-8
 -rw-r--r-- root       root            27214 ./usr/share/vim/vim74/tutor/tutor.ko.euc
 -rw-r--r-- root       root            33755 ./usr/share/vim/vim74/tutor/tutor.ko.utf-8
 -rw-r--r-- root       root            34628 ./usr/share/vim/vim74/tutor/tutor.nb
@@ -15430,11 +15443,11 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/tutor
 -rw-r--r-- root       root            34149 ./usr/share/vim/vim74/tutor/tutor.pl
 -rw-r--r-- root       root            34149 ./usr/share/vim/vim74/tutor/tutor.pl.cp1250
 -rw-r--r-- root       root            35451 ./usr/share/vim/vim74/tutor/tutor.pl.utf-8
--rw-r--r-- root       root            36458 ./usr/share/vim/vim74/tutor/tutor.pt
--rw-r--r-- root       root            37201 ./usr/share/vim/vim74/tutor/tutor.pt.utf-8
--rw-r--r-- root       root            28952 ./usr/share/vim/vim74/tutor/tutor.ru
--rw-r--r-- root       root            28952 ./usr/share/vim/vim74/tutor/tutor.ru.cp1251
--rw-r--r-- root       root            46100 ./usr/share/vim/vim74/tutor/tutor.ru.utf-8
+-rw-r--r-- root       root            36459 ./usr/share/vim/vim74/tutor/tutor.pt
+-rw-r--r-- root       root            37202 ./usr/share/vim/vim74/tutor/tutor.pt.utf-8
+-rw-r--r-- root       root            36023 ./usr/share/vim/vim74/tutor/tutor.ru
+-rw-r--r-- root       root            36023 ./usr/share/vim/vim74/tutor/tutor.ru.cp1251
+-rw-r--r-- root       root            57360 ./usr/share/vim/vim74/tutor/tutor.ru.utf-8
 -rw-r--r-- root       root            33314 ./usr/share/vim/vim74/tutor/tutor.sk
 -rw-r--r-- root       root            33311 ./usr/share/vim/vim74/tutor/tutor.sk.cp1250
 -rw-r--r-- root       root            35526 ./usr/share/vim/vim74/tutor/tutor.sk.utf-8
@@ -15444,14 +15457,14 @@ drwxr-xr-x root       root             4096 ./usr/share/vim/vim74/tutor
 -rw-r--r-- root       root            28700 ./usr/share/vim/vim74/tutor/tutor.sv.utf-8
 -rw-r--r-- root       root            28186 ./usr/share/vim/vim74/tutor/tutor.tr.iso9
 -rw-r--r-- root       root            30226 ./usr/share/vim/vim74/tutor/tutor.tr.utf-8
--rw-r--r-- root       root            33257 ./usr/share/vim/vim74/tutor/tutor.utf-8
+-rw-r--r-- root       root            33248 ./usr/share/vim/vim74/tutor/tutor.utf-8
 -rw-r--r-- root       root            32339 ./usr/share/vim/vim74/tutor/tutor.vi.utf-8
 -rw-r--r-- root       root             5190 ./usr/share/vim/vim74/tutor/tutor.vim
--rw-r--r-- root       root            24356 ./usr/share/vim/vim74/tutor/tutor.zh.big5
--rw-r--r-- root       root            30041 ./usr/share/vim/vim74/tutor/tutor.zh.euc
--rw-r--r-- root       root            31397 ./usr/share/vim/vim74/tutor/tutor.zh.utf-8
--rw-r--r-- root       root            38809 ./usr/share/vim/vim74/tutor/tutor.zh_cn.utf-8
--rw-r--r-- root       root            31397 ./usr/share/vim/vim74/tutor/tutor.zh_tw.utf-8
+-rw-r--r-- root       root            24358 ./usr/share/vim/vim74/tutor/tutor.zh.big5
+-rw-r--r-- root       root            30043 ./usr/share/vim/vim74/tutor/tutor.zh.euc
+-rw-r--r-- root       root            31399 ./usr/share/vim/vim74/tutor/tutor.zh.utf-8
+-rw-r--r-- root       root            38811 ./usr/share/vim/vim74/tutor/tutor.zh_cn.utf-8
+-rw-r--r-- root       root            31399 ./usr/share/vim/vim74/tutor/tutor.zh_tw.utf-8
 -rw-r--r-- root       root             3040 ./usr/share/vim/vim74/vimrc_example.vim
 -rw-r--r-- root       root             3040 ./usr/share/vim/vimrc
 drwxr-xr-x root       root             4096 ./usr/share/xml
@@ -16057,13 +16070,13 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root             3838 ./var/lib/opkg/info/alsa-conf.list
 -rw-r--r-- root       root              461 ./var/lib/opkg/info/alsa-states.control
 -rw-r--r-- root       root               27 ./var/lib/opkg/info/alsa-states.list
--rw-r--r-- root       root              558 ./var/lib/opkg/info/alsa-utils-alsactl.control
+-rw-r--r-- root       root              614 ./var/lib/opkg/info/alsa-utils-alsactl.control
 -rw-r--r-- root       root              664 ./var/lib/opkg/info/alsa-utils-alsactl.list
--rw-r--r-- root       root              640 ./var/lib/opkg/info/alsa-utils-alsamixer.control
+-rw-r--r-- root       root              696 ./var/lib/opkg/info/alsa-utils-alsamixer.control
 -rw-r--r-- root       root               19 ./var/lib/opkg/info/alsa-utils-alsamixer.list
--rw-r--r-- root       root              532 ./var/lib/opkg/info/alsa-utils-amixer.control
+-rw-r--r-- root       root              588 ./var/lib/opkg/info/alsa-utils-amixer.control
 -rw-r--r-- root       root               16 ./var/lib/opkg/info/alsa-utils-amixer.list
--rw-r--r-- root       root              523 ./var/lib/opkg/info/alsa-utils-aplay.control
+-rw-r--r-- root       root              579 ./var/lib/opkg/info/alsa-utils-aplay.control
 -rw-r--r-- root       root               32 ./var/lib/opkg/info/alsa-utils-aplay.list
 -rw-r--r-- root       root              802 ./var/lib/opkg/info/apmd.control
 -rw-r--r-- root       root              211 ./var/lib/opkg/info/apmd.list
@@ -16089,7 +16102,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              642 ./var/lib/opkg/info/base-passwd.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/base-passwd.list
 -rwxr-xr-x root       root             1350 ./var/lib/opkg/info/base-passwd.preinst
--rw-r--r-- root       root              651 ./var/lib/opkg/info/bash.control
+-rw-r--r-- root       root             3411 ./var/lib/opkg/info/bash.control
 -rw-r--r-- root       root               27 ./var/lib/opkg/info/bash.list
 -rwxr-xr-x root       root              128 ./var/lib/opkg/info/bash.postinst
 -rwxr-xr-x root       root              111 ./var/lib/opkg/info/bash.postrm
@@ -16114,9 +16127,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              782 ./var/lib/opkg/info/ca-certificates.control
 -rw-r--r-- root       root            11911 ./var/lib/opkg/info/ca-certificates.list
 -rwxr-xr-x root       root               36 ./var/lib/opkg/info/ca-certificates.postinst
--rw-r--r-- root       root              817 ./var/lib/opkg/info/coreutils-locale-cs.control
+-rw-r--r-- root       root              848 ./var/lib/opkg/info/coreutils-locale-cs.control
 -rw-r--r-- root       root              118 ./var/lib/opkg/info/coreutils-locale-cs.list
--rw-r--r-- root       root              759 ./var/lib/opkg/info/coreutils.control
+-rw-r--r-- root       root              790 ./var/lib/opkg/info/coreutils.control
 -rw-r--r-- root       root             2522 ./var/lib/opkg/info/coreutils.list
 -rwxr-xr-x root       root             8070 ./var/lib/opkg/info/coreutils.postinst
 -rwxr-xr-x root       root             6253 ./var/lib/opkg/info/coreutils.postrm
@@ -16140,7 +16153,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              363 ./var/lib/opkg/info/distro-feed-configs.control
 -rw-r--r-- root       root              107 ./var/lib/opkg/info/distro-feed-configs.list
 -rw-r--r-- root       root              649 ./var/lib/opkg/info/dosfstools.control
--rw-r--r-- root       root              118 ./var/lib/opkg/info/dosfstools.list
+-rw-r--r-- root       root               94 ./var/lib/opkg/info/dosfstools.list
 -rw-r--r-- root       root              582 ./var/lib/opkg/info/e-wm-config-default.control
 -rw-r--r-- root       root              289 ./var/lib/opkg/info/e-wm-config-default.list
 -rw-r--r-- root       root              625 ./var/lib/opkg/info/e-wm-config-illume2-shr.control
@@ -16416,27 +16429,27 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               47 ./var/lib/opkg/info/grep.list
 -rwxr-xr-x root       root              211 ./var/lib/opkg/info/grep.postinst
 -rwxr-xr-x root       root              167 ./var/lib/opkg/info/grep.postrm
--rw-r--r-- root       root              804 ./var/lib/opkg/info/gst-plugins-base-alsa.control
+-rw-r--r-- root       root              870 ./var/lib/opkg/info/gst-plugins-base-alsa.control
 -rw-r--r-- root       root               38 ./var/lib/opkg/info/gst-plugins-base-alsa.list
--rw-r--r-- root       root              804 ./var/lib/opkg/info/gst-plugins-base-audioconvert.control
+-rw-r--r-- root       root              870 ./var/lib/opkg/info/gst-plugins-base-audioconvert.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/gst-plugins-base-audioconvert.list
--rw-r--r-- root       root              727 ./var/lib/opkg/info/gst-plugins-base-decodebin2.control
+-rw-r--r-- root       root              793 ./var/lib/opkg/info/gst-plugins-base-decodebin2.control
 -rw-r--r-- root       root               44 ./var/lib/opkg/info/gst-plugins-base-decodebin2.list
--rw-r--r-- root       root              879 ./var/lib/opkg/info/gst-plugins-base-ivorbisdec.control
+-rw-r--r-- root       root              945 ./var/lib/opkg/info/gst-plugins-base-ivorbisdec.control
 -rw-r--r-- root       root               69 ./var/lib/opkg/info/gst-plugins-base-ivorbisdec.list
--rw-r--r-- root       root              740 ./var/lib/opkg/info/gst-plugins-base-locale-cs.control
+-rw-r--r-- root       root              806 ./var/lib/opkg/info/gst-plugins-base-locale-cs.control
 -rw-r--r-- root       root               58 ./var/lib/opkg/info/gst-plugins-base-locale-cs.list
--rw-r--r-- root       root              755 ./var/lib/opkg/info/gst-plugins-base-locale-en-gb.control
+-rw-r--r-- root       root              821 ./var/lib/opkg/info/gst-plugins-base-locale-en-gb.control
 -rw-r--r-- root       root               61 ./var/lib/opkg/info/gst-plugins-base-locale-en-gb.list
--rw-r--r-- root       root              860 ./var/lib/opkg/info/gst-plugins-base-ogg.control
+-rw-r--r-- root       root              926 ./var/lib/opkg/info/gst-plugins-base-ogg.control
 -rw-r--r-- root       root               37 ./var/lib/opkg/info/gst-plugins-base-ogg.list
--rw-r--r-- root       root              789 ./var/lib/opkg/info/gst-plugins-base-playbin.control
+-rw-r--r-- root       root              855 ./var/lib/opkg/info/gst-plugins-base-playbin.control
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/gst-plugins-base-playbin.list
--rw-r--r-- root       root              748 ./var/lib/opkg/info/gst-plugins-base-typefindfunctions.control
+-rw-r--r-- root       root              814 ./var/lib/opkg/info/gst-plugins-base-typefindfunctions.control
 -rw-r--r-- root       root               51 ./var/lib/opkg/info/gst-plugins-base-typefindfunctions.list
--rw-r--r-- root       root              786 ./var/lib/opkg/info/gst-plugins-base-volume.control
+-rw-r--r-- root       root              852 ./var/lib/opkg/info/gst-plugins-base-volume.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/gst-plugins-base-volume.list
--rw-r--r-- root       root              562 ./var/lib/opkg/info/gst-plugins-base.control
+-rw-r--r-- root       root              628 ./var/lib/opkg/info/gst-plugins-base.control
 -rw-r--r-- root       root               83 ./var/lib/opkg/info/gst-plugins-base.list
 -rw-r--r-- root       root              800 ./var/lib/opkg/info/gst-plugins-good-autodetect.control
 -rw-r--r-- root       root               44 ./var/lib/opkg/info/gst-plugins-good-autodetect.list
@@ -16687,10 +16700,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/kernel.list
 -rw-r--r-- root       root              333 ./var/lib/opkg/info/kexecboot-cfg.control
 -rw-r--r-- root       root               30 ./var/lib/opkg/info/kexecboot-cfg.list
--rw-r--r-- root       root              475 ./var/lib/opkg/info/keymaps.control
--rw-r--r-- root       root               41 ./var/lib/opkg/info/keymaps.list
--rwxr-xr-x root       root              337 ./var/lib/opkg/info/keymaps.postinst
--rwxr-xr-x root       root              216 ./var/lib/opkg/info/keymaps.prerm
+-rw-r--r-- root       root              452 ./var/lib/opkg/info/keymaps.control
+-rw-r--r-- root       root                5 ./var/lib/opkg/info/keymaps.list
+-rwxr-xr-x root       root              106 ./var/lib/opkg/info/keymaps.postinst
 -rw-r--r-- root       root              893 ./var/lib/opkg/info/killall.control
 -rw-r--r-- root       root               24 ./var/lib/opkg/info/killall.list
 -rwxr-xr-x root       root               93 ./var/lib/opkg/info/killall.postinst
@@ -16889,7 +16901,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              954 ./var/lib/opkg/info/libgbm1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libgbm1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgbm1.postinst
--rw-r--r-- root       root             2425 ./var/lib/opkg/info/libgcc1.control
+-rw-r--r-- root       root             2475 ./var/lib/opkg/info/libgcc1.control
 -rw-r--r-- root       root               19 ./var/lib/opkg/info/libgcc1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgcc1.postinst
 -rw-r--r-- root       root              765 ./var/lib/opkg/info/libgcrypt.control
@@ -16954,31 +16966,31 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              766 ./var/lib/opkg/info/libgsm0710mux3.control
 -rw-r--r-- root       root               60 ./var/lib/opkg/info/libgsm0710mux3.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgsm0710mux3.postinst
--rw-r--r-- root       root              765 ./var/lib/opkg/info/libgstaudio-0.10-0.control
+-rw-r--r-- root       root              831 ./var/lib/opkg/info/libgstaudio-0.10-0.control
 -rw-r--r-- root       root               67 ./var/lib/opkg/info/libgstaudio-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstaudio-0.10-0.postinst
 -rw-r--r-- root       root              710 ./var/lib/opkg/info/libgstfarsight-0.10-0.control
 -rw-r--r-- root       root              505 ./var/lib/opkg/info/libgstfarsight-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstfarsight-0.10-0.postinst
--rw-r--r-- root       root              712 ./var/lib/opkg/info/libgstinterfaces-0.10-0.control
+-rw-r--r-- root       root              778 ./var/lib/opkg/info/libgstinterfaces-0.10-0.control
 -rw-r--r-- root       root               77 ./var/lib/opkg/info/libgstinterfaces-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstinterfaces-0.10-0.postinst
--rw-r--r-- root       root              708 ./var/lib/opkg/info/libgstnetbuffer-0.10-0.control
+-rw-r--r-- root       root              774 ./var/lib/opkg/info/libgstnetbuffer-0.10-0.control
 -rw-r--r-- root       root               75 ./var/lib/opkg/info/libgstnetbuffer-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstnetbuffer-0.10-0.postinst
--rw-r--r-- root       root              700 ./var/lib/opkg/info/libgstpbutils-0.10-0.control
+-rw-r--r-- root       root              766 ./var/lib/opkg/info/libgstpbutils-0.10-0.control
 -rw-r--r-- root       root               71 ./var/lib/opkg/info/libgstpbutils-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstpbutils-0.10-0.postinst
--rw-r--r-- root       root              825 ./var/lib/opkg/info/libgstriff-0.10-0.control
+-rw-r--r-- root       root              891 ./var/lib/opkg/info/libgstriff-0.10-0.control
 -rw-r--r-- root       root               65 ./var/lib/opkg/info/libgstriff-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstriff-0.10-0.postinst
--rw-r--r-- root       root              684 ./var/lib/opkg/info/libgstrtp-0.10-0.control
+-rw-r--r-- root       root              750 ./var/lib/opkg/info/libgstrtp-0.10-0.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/libgstrtp-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstrtp-0.10-0.postinst
--rw-r--r-- root       root              684 ./var/lib/opkg/info/libgsttag-0.10-0.control
+-rw-r--r-- root       root              750 ./var/lib/opkg/info/libgsttag-0.10-0.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/libgsttag-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgsttag-0.10-0.postinst
--rw-r--r-- root       root              692 ./var/lib/opkg/info/libgstvideo-0.10-0.control
+-rw-r--r-- root       root              758 ./var/lib/opkg/info/libgstvideo-0.10-0.control
 -rw-r--r-- root       root               67 ./var/lib/opkg/info/libgstvideo-0.10-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgstvideo-0.10-0.postinst
 -rw-r--r-- root       root             1772 ./var/lib/opkg/info/libgtk-2.0.control
@@ -17061,11 +17073,11 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              508 ./var/lib/opkg/info/libopkg1.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/libopkg1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libopkg1.postinst
--rw-r--r-- root       root             1211 ./var/lib/opkg/info/libpam-locale-cs.control
+-rw-r--r-- root       root             1261 ./var/lib/opkg/info/libpam-locale-cs.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libpam-locale-cs.list
--rw-r--r-- root       root             1204 ./var/lib/opkg/info/libpam-runtime.control
+-rw-r--r-- root       root             1254 ./var/lib/opkg/info/libpam-runtime.control
 -rw-r--r-- root       root              483 ./var/lib/opkg/info/libpam-runtime.list
--rw-r--r-- root       root             1126 ./var/lib/opkg/info/libpam.control
+-rw-r--r-- root       root             1176 ./var/lib/opkg/info/libpam.control
 -rw-r--r-- root       root              129 ./var/lib/opkg/info/libpam.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpam.postinst
 -rw-r--r-- root       root              510 ./var/lib/opkg/info/libpanelw5.control
@@ -17135,7 +17147,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root             1693 ./var/lib/opkg/info/libpython2.7-1.0.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/libpython2.7-1.0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpython2.7-1.0.postinst
--rw-r--r-- root       root              875 ./var/lib/opkg/info/libreadline6.control
+-rw-r--r-- root       root              897 ./var/lib/opkg/info/libreadline6.control
 -rw-r--r-- root       root              571 ./var/lib/opkg/info/libreadline6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libreadline6.postinst
 -rw-r--r-- root       root             1023 ./var/lib/opkg/info/librsvg-2-2.control
@@ -17182,7 +17194,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root             1304 ./var/lib/opkg/info/libssl1.0.0.control
 -rw-r--r-- root       root               25 ./var/lib/opkg/info/libssl1.0.0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libssl1.0.0.postinst
--rw-r--r-- root       root             2456 ./var/lib/opkg/info/libstdc++6.control
+-rw-r--r-- root       root             2506 ./var/lib/opkg/info/libstdc++6.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libstdc++6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libstdc++6.postinst
 -rw-r--r-- root       root              650 ./var/lib/opkg/info/libsysfs2.control
@@ -17203,7 +17215,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              793 ./var/lib/opkg/info/libts-1.0-0.control
 -rw-r--r-- root       root              323 ./var/lib/opkg/info/libts-1.0-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libts-1.0-0.postinst
--rw-r--r-- root       root              998 ./var/lib/opkg/info/libudev1.control
+-rw-r--r-- root       root             1122 ./var/lib/opkg/info/libudev1.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/libudev1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libudev1.postinst
 -rw-r--r-- root       root              575 ./var/lib/opkg/info/libusb-0.1-4.control
@@ -17289,7 +17301,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              633 ./var/lib/opkg/info/libxkbfile1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxkbfile1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxkbfile1.postinst
--rw-r--r-- root       root             1058 ./var/lib/opkg/info/libxml2.control
+-rw-r--r-- root       root             1093 ./var/lib/opkg/info/libxml2.control
 -rw-r--r-- root       root               85 ./var/lib/opkg/info/libxml2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxml2.postinst
 -rw-r--r-- root       root              866 ./var/lib/opkg/info/libxmuu1.control
@@ -17358,7 +17370,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               16 ./var/lib/opkg/info/mdbus2.list
 -rw-r--r-- root       root             1232 ./var/lib/opkg/info/mesa-demos.control
 -rw-r--r-- root       root             3007 ./var/lib/opkg/info/mesa-demos.list
--rw-r--r-- root       root              436 ./var/lib/opkg/info/mime-support.control
+-rw-r--r-- root       root              450 ./var/lib/opkg/info/mime-support.control
 -rw-r--r-- root       root              306 ./var/lib/opkg/info/mime-support.list
 -rw-r--r-- root       root              489 ./var/lib/opkg/info/mioctl.control
 -rw-r--r-- root       root               17 ./var/lib/opkg/info/mioctl.list
@@ -17399,7 +17411,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              452 ./var/lib/opkg/info/nettle.control
 -rw-r--r-- root       root              190 ./var/lib/opkg/info/nettle.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/nettle.postinst
--rw-r--r-- root       root             1063 ./var/lib/opkg/info/nfs-utils-client.control
+-rw-r--r-- root       root             1138 ./var/lib/opkg/info/nfs-utils-client.control
 -rw-r--r-- root       root              487 ./var/lib/opkg/info/nfs-utils-client.list
 -rwxr-xr-x root       root             5530 ./var/lib/opkg/info/nfs-utils-client.preinst
 -rw-r--r-- root       root              488 ./var/lib/opkg/info/nmon.control
@@ -17539,41 +17551,41 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/packagegroup-shr-minimal-x.list
 -rw-r--r-- root       root              528 ./var/lib/opkg/info/packagegroup-x11-illume.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/packagegroup-x11-illume.list
--rw-r--r-- root       root             1046 ./var/lib/opkg/info/pam-plugin-access.control
+-rw-r--r-- root       root             1096 ./var/lib/opkg/info/pam-plugin-access.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-access.list
--rw-r--r-- root       root             1038 ./var/lib/opkg/info/pam-plugin-deny.control
+-rw-r--r-- root       root             1088 ./var/lib/opkg/info/pam-plugin-deny.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-deny.list
--rw-r--r-- root       root             1034 ./var/lib/opkg/info/pam-plugin-env.control
+-rw-r--r-- root       root             1084 ./var/lib/opkg/info/pam-plugin-env.control
 -rw-r--r-- root       root               25 ./var/lib/opkg/info/pam-plugin-env.list
--rw-r--r-- root       root             1058 ./var/lib/opkg/info/pam-plugin-faildelay.control
+-rw-r--r-- root       root             1108 ./var/lib/opkg/info/pam-plugin-faildelay.control
 -rw-r--r-- root       root               31 ./var/lib/opkg/info/pam-plugin-faildelay.list
--rw-r--r-- root       root             1042 ./var/lib/opkg/info/pam-plugin-group.control
+-rw-r--r-- root       root             1092 ./var/lib/opkg/info/pam-plugin-group.control
 -rw-r--r-- root       root               27 ./var/lib/opkg/info/pam-plugin-group.list
--rw-r--r-- root       root             1050 ./var/lib/opkg/info/pam-plugin-keyinit.control
+-rw-r--r-- root       root             1100 ./var/lib/opkg/info/pam-plugin-keyinit.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/pam-plugin-keyinit.list
--rw-r--r-- root       root             1050 ./var/lib/opkg/info/pam-plugin-lastlog.control
+-rw-r--r-- root       root             1100 ./var/lib/opkg/info/pam-plugin-lastlog.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/pam-plugin-lastlog.list
--rw-r--r-- root       root             1046 ./var/lib/opkg/info/pam-plugin-limits.control
+-rw-r--r-- root       root             1096 ./var/lib/opkg/info/pam-plugin-limits.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-limits.list
--rw-r--r-- root       root             1054 ./var/lib/opkg/info/pam-plugin-loginuid.control
+-rw-r--r-- root       root             1104 ./var/lib/opkg/info/pam-plugin-loginuid.control
 -rw-r--r-- root       root               30 ./var/lib/opkg/info/pam-plugin-loginuid.list
--rw-r--r-- root       root             1038 ./var/lib/opkg/info/pam-plugin-mail.control
+-rw-r--r-- root       root             1088 ./var/lib/opkg/info/pam-plugin-mail.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-mail.list
--rw-r--r-- root       root             1038 ./var/lib/opkg/info/pam-plugin-motd.control
+-rw-r--r-- root       root             1088 ./var/lib/opkg/info/pam-plugin-motd.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-motd.list
--rw-r--r-- root       root             1050 ./var/lib/opkg/info/pam-plugin-nologin.control
+-rw-r--r-- root       root             1100 ./var/lib/opkg/info/pam-plugin-nologin.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/pam-plugin-nologin.list
--rw-r--r-- root       root             1046 ./var/lib/opkg/info/pam-plugin-permit.control
+-rw-r--r-- root       root             1096 ./var/lib/opkg/info/pam-plugin-permit.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/pam-plugin-permit.list
--rw-r--r-- root       root             1046 ./var/lib/opkg/info/pam-plugin-rootok.control
+-rw-r--r-- root       root             1096 ./var/lib/opkg/info/pam-plugin-rootok.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-rootok.list
--rw-r--r-- root       root             1058 ./var/lib/opkg/info/pam-plugin-securetty.control
+-rw-r--r-- root       root             1108 ./var/lib/opkg/info/pam-plugin-securetty.control
 -rw-r--r-- root       root               31 ./var/lib/opkg/info/pam-plugin-securetty.list
--rw-r--r-- root       root             1046 ./var/lib/opkg/info/pam-plugin-shells.control
+-rw-r--r-- root       root             1096 ./var/lib/opkg/info/pam-plugin-shells.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-shells.list
--rw-r--r-- root       root             1038 ./var/lib/opkg/info/pam-plugin-unix.control
+-rw-r--r-- root       root             1088 ./var/lib/opkg/info/pam-plugin-unix.control
 -rw-r--r-- root       root               70 ./var/lib/opkg/info/pam-plugin-unix.list
--rw-r--r-- root       root             1038 ./var/lib/opkg/info/pam-plugin-warn.control
+-rw-r--r-- root       root             1088 ./var/lib/opkg/info/pam-plugin-warn.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-warn.list
 -rw-r--r-- root       root              631 ./var/lib/opkg/info/pango-module-basic-fc.control
 -rw-r--r-- root       root              115 ./var/lib/opkg/info/pango-module-basic-fc.list
@@ -17756,11 +17768,11 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               72 ./var/lib/opkg/info/rfkill.postrm
 -rw-r--r-- root       root              576 ./var/lib/opkg/info/rgb.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/rgb.list
--rw-r--r-- root       root              818 ./var/lib/opkg/info/rpcbind.control
--rw-r--r-- root       root               90 ./var/lib/opkg/info/rpcbind.list
--rwxr-xr-x root       root              243 ./var/lib/opkg/info/rpcbind.postinst
+-rw-r--r-- root       root              840 ./var/lib/opkg/info/rpcbind.control
+-rw-r--r-- root       root              125 ./var/lib/opkg/info/rpcbind.list
+-rwxr-xr-x root       root              271 ./var/lib/opkg/info/rpcbind.postinst
 -rwxr-xr-x root       root             5545 ./var/lib/opkg/info/rpcbind.preinst
--rwxr-xr-x root       root              216 ./var/lib/opkg/info/rpcbind.prerm
+-rwxr-xr-x root       root              246 ./var/lib/opkg/info/rpcbind.prerm
 -rw-r--r-- root       root              472 ./var/lib/opkg/info/rsync.control
 -rw-r--r-- root       root               32 ./var/lib/opkg/info/rsync.list
 -rw-r--r-- root       root              446 ./var/lib/opkg/info/run-postinsts.control
@@ -17835,7 +17847,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              501 ./var/lib/opkg/info/sysstat.control
 -rw-r--r-- root       root              280 ./var/lib/opkg/info/sysstat.list
 -rwxr-xr-x root       root              179 ./var/lib/opkg/info/sysstat.postinst
--rw-r--r-- root       root             1097 ./var/lib/opkg/info/systemd-binfmt.control
+-rw-r--r-- root       root             1221 ./var/lib/opkg/info/systemd-binfmt.control
 -rw-r--r-- root       root              245 ./var/lib/opkg/info/systemd-binfmt.list
 -rwxr-xr-x root       root              255 ./var/lib/opkg/info/systemd-binfmt.postinst
 -rwxr-xr-x root       root              230 ./var/lib/opkg/info/systemd-binfmt.prerm
@@ -17847,7 +17859,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              355 ./var/lib/opkg/info/systemd-serialgetty.control
 -rw-r--r-- root       root              108 ./var/lib/opkg/info/systemd-serialgetty.list
 -rw-r--r-- root       root              100 ./var/lib/opkg/info/systemd.conffiles
--rw-r--r-- root       root             1561 ./var/lib/opkg/info/systemd.control
+-rw-r--r-- root       root             1685 ./var/lib/opkg/info/systemd.control
 -rw-r--r-- root       root            16657 ./var/lib/opkg/info/systemd.list
 -rwxr-xr-x root       root              520 ./var/lib/opkg/info/systemd.postinst
 -rwxr-xr-x root       root              336 ./var/lib/opkg/info/systemd.postrm
@@ -17860,7 +17872,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               58 ./var/lib/opkg/info/tar.postrm
 -rw-r--r-- root       root              648 ./var/lib/opkg/info/tcl.control
 -rw-r--r-- root       root             7590 ./var/lib/opkg/info/tcl.list
--rw-r--r-- root       root              610 ./var/lib/opkg/info/tcpdump.control
+-rw-r--r-- root       root              650 ./var/lib/opkg/info/tcpdump.control
 -rw-r--r-- root       root               18 ./var/lib/opkg/info/tcpdump.list
 -rw-r--r-- root       root              417 ./var/lib/opkg/info/terminology-themes.control
 -rw-r--r-- root       root             1486 ./var/lib/opkg/info/terminology-themes.list
@@ -17894,11 +17906,11 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/udev-extraconf.conffiles
 -rw-r--r-- root       root              657 ./var/lib/opkg/info/udev-extraconf.control
 -rw-r--r-- root       root              315 ./var/lib/opkg/info/udev-extraconf.list
--rw-r--r-- root       root             1023 ./var/lib/opkg/info/udev-hwdb.control
+-rw-r--r-- root       root             1147 ./var/lib/opkg/info/udev-hwdb.control
 -rw-r--r-- root       root              443 ./var/lib/opkg/info/udev-hwdb.list
 -rwxr-xr-x root       root              181 ./var/lib/opkg/info/udev-hwdb.postinst
 -rwxr-xr-x root       root               63 ./var/lib/opkg/info/udev-hwdb.prerm
--rw-r--r-- root       root             1206 ./var/lib/opkg/info/udev.control
+-rw-r--r-- root       root             1330 ./var/lib/opkg/info/udev.control
 -rw-r--r-- root       root             1982 ./var/lib/opkg/info/udev.list
 -rw-r--r-- root       root              561 ./var/lib/opkg/info/update-alternatives-opkg.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/update-alternatives-opkg.list
@@ -17933,16 +17945,16 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              836 ./var/lib/opkg/info/vagalume.control
 -rw-r--r-- root       root             1179 ./var/lib/opkg/info/vagalume.list
 -rw-r--r-- root       root              459 ./var/lib/opkg/info/vim-common.control
--rw-r--r-- root       root            36395 ./var/lib/opkg/info/vim-common.list
+-rw-r--r-- root       root            36703 ./var/lib/opkg/info/vim-common.list
 -rw-r--r-- root       root              457 ./var/lib/opkg/info/vim-help.control
 -rw-r--r-- root       root             4895 ./var/lib/opkg/info/vim-help.list
 -rw-r--r-- root       root              459 ./var/lib/opkg/info/vim-syntax.control
--rw-r--r-- root       root            22134 ./var/lib/opkg/info/vim-syntax.list
+-rw-r--r-- root       root            22325 ./var/lib/opkg/info/vim-syntax.list
 -rw-r--r-- root       root              458 ./var/lib/opkg/info/vim-tutor.control
 -rw-r--r-- root       root             2693 ./var/lib/opkg/info/vim-tutor.list
 -rw-r--r-- root       root              458 ./var/lib/opkg/info/vim-vimrc.control
 -rw-r--r-- root       root               21 ./var/lib/opkg/info/vim-vimrc.list
--rw-r--r-- root       root              610 ./var/lib/opkg/info/vim.control
+-rw-r--r-- root       root              633 ./var/lib/opkg/info/vim.control
 -rw-r--r-- root       root               98 ./var/lib/opkg/info/vim.list
 -rwxr-xr-x root       root               69 ./var/lib/opkg/info/vim.postinst
 -rwxr-xr-x root       root               57 ./var/lib/opkg/info/vim.postrm
@@ -18008,7 +18020,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               19 ./var/lib/opkg/info/xserver-xf86-config.conffiles
 -rw-r--r-- root       root              353 ./var/lib/opkg/info/xserver-xf86-config.control
 -rw-r--r-- root       root               19 ./var/lib/opkg/info/xserver-xf86-config.list
--rw-r--r-- root       root             1424 ./var/lib/opkg/info/xserver-xorg.control
+-rw-r--r-- root       root             1452 ./var/lib/opkg/info/xserver-xorg.control
 -rw-r--r-- root       root              419 ./var/lib/opkg/info/xserver-xorg.list
 -rw-r--r-- root       root              606 ./var/lib/opkg/info/xset.control
 -rw-r--r-- root       root               14 ./var/lib/opkg/info/xset.list
@@ -18021,11 +18033,11 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root              233 ./var/lib/opkg/info/zaurusd.preinst
 -rwxr-xr-x root       root               60 ./var/lib/opkg/info/zaurusd.prerm
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
--rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
+-rw-r--r-- root       root                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88033 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root           320328 ./var/lib/opkg/lists/oe-spitz
--rw-r--r-- root       root          6454754 ./var/lib/opkg/lists/oe-xscalete
--rw-r--r-- root       root           209993 ./var/lib/opkg/status
+-rw-r--r-- root       root           320259 ./var/lib/opkg/lists/oe-spitz
+-rw-r--r-- root       root          6485861 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root           210030 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
