@@ -2187,6 +2187,7 @@ digraph depends {
 "mesa-demos" -> "libx11-6";
 "mesa-demos" -> "libxext6";
 "mime-support" -> "file" [style=dotted];
+"mime-support" -> "perl";
 "mioctl" -> "libglib-2.0-0";
 "mkdump" -> "libfsobasics3";
 "mkdump" -> "libglib-2.0-0";
@@ -3244,6 +3245,7 @@ digraph depends {
 "vagalume" -> "librsvg-2-gtk";
 "vagalume" -> "libxml2";
 "vim" -> "libtinfo5";
+"vim" -> "ncurses-terminfo-base";
 "vim" -> "update-alternatives-opkg";
 "vim" -> "vim-common" [style=dotted];
 "vim" -> "vim-help" [style=dotted];
