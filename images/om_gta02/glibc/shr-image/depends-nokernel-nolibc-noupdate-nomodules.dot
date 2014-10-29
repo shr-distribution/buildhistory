@@ -143,6 +143,7 @@ digraph depends {
 "e-wm" -> "libxss1";
 "e-wm" -> "libxtst6";
 "e-wm" -> "libz1";
+"e-wm" -> "luajit";
 "e-wm" -> "mime-support";
 "e-wm" -> "setxkbmap";
 "e-wm" -> "shared-mime-info";
@@ -247,6 +248,7 @@ digraph depends {
 "ecore-evas" -> "libssl1.0.0";
 "ecore-evas" -> "libstdc++6";
 "ecore-evas" -> "libz1";
+"ecore-evas" -> "luajit";
 "ecore-file" -> "ecore-con";
 "ecore-file" -> "eina";
 "ecore-file" -> "libcrypto1.0.0";
@@ -280,6 +282,7 @@ digraph depends {
 "ecore-imf-evas" -> "libssl1.0.0";
 "ecore-imf-evas" -> "libstdc++6";
 "ecore-imf-evas" -> "libz1";
+"ecore-imf-evas" -> "luajit";
 "ecore-input" -> "eina";
 "ecore-input" -> "libecore1";
 "ecore-input" -> "libeo1";
@@ -301,6 +304,7 @@ digraph depends {
 "ecore-input-evas" -> "libssl1.0.0";
 "ecore-input-evas" -> "libstdc++6";
 "ecore-input-evas" -> "libz1";
+"ecore-input-evas" -> "luajit";
 "ecore-ipc" -> "ecore-con";
 "ecore-ipc" -> "eina";
 "ecore-ipc" -> "libcrypto1.0.0";
@@ -424,6 +428,7 @@ digraph depends {
 "elementary" -> "libxss1";
 "elementary" -> "libxtst6";
 "elementary" -> "libz1";
+"elementary" -> "luajit";
 "elementary-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "elementary-theme-gry" -> "e-wm-theme-illume-gry" [style=dotted];
 "elfutils" -> "libasm1";
@@ -523,6 +528,7 @@ digraph depends {
 "estardict" -> "libxss1";
 "estardict" -> "libxtst6";
 "estardict" -> "libz1";
+"estardict" -> "luajit";
 "ethumb" -> "ecore-audio";
 "ethumb" -> "ecore-con";
 "ethumb" -> "ecore-evas";
@@ -573,6 +579,7 @@ digraph depends {
 "ethumb" -> "libxi6";
 "ethumb" -> "libxtst6";
 "ethumb" -> "libz1";
+"ethumb" -> "luajit";
 "evas" -> "eina";
 "evas" -> "libcrypto1.0.0";
 "evas" -> "libdrm2";
@@ -606,6 +613,7 @@ digraph depends {
 "evas" -> "libxext6";
 "evas" -> "libxrender1";
 "evas" -> "libz1";
+"evas" -> "luajit";
 "evas-generic-loader-svg" -> "libcairo2";
 "evas-generic-loader-svg" -> "libglib-2.0-0";
 "evas-generic-loader-svg" -> "librsvg-2-2";
@@ -1126,7 +1134,8 @@ digraph depends {
 "htop" -> "libncursesw5";
 "htop" -> "libtinfo5";
 "htop" -> "ncurses-terminfo";
-"i2c-tools" -> "perl";
+"i2c-tools" -> "i2c-tools-misc";
+"i2c-tools-misc" -> "perl";
 "iliwi" -> "ecore-con";
 "iliwi" -> "ecore-evas";
 "iliwi" -> "ecore-file";
@@ -1161,6 +1170,7 @@ digraph depends {
 "libaprutil-1-0" -> "libuuid1";
 "libasm1" -> "libelf1";
 "libasound-module-bluez" -> "libasound2";
+"libasound2" -> "alsa-conf";
 "libasound2" -> "alsa-conf-base";
 "libatk-1.0-0" -> "libffi6";
 "libatk-1.0-0" -> "libglib-2.0-0";
@@ -1245,6 +1255,7 @@ digraph depends {
 "libecore1" -> "libxss1";
 "libecore1" -> "libxtst6";
 "libecore1" -> "libz1";
+"libecore1" -> "luajit";
 "libedbus1" -> "eina";
 "libedbus1" -> "libdbus-1-3";
 "libedbus1" -> "libecore1";
@@ -1258,6 +1269,7 @@ digraph depends {
 "libedje-utils" -> "libedje1";
 "libedje-utils" -> "libeet1";
 "libedje-utils" -> "libeio1";
+"libedje-utils" -> "luajit";
 "libedje1" -> "ecore-audio";
 "libedje1" -> "ecore-con";
 "libedje1" -> "ecore-evas";
@@ -1306,6 +1318,7 @@ digraph depends {
 "libedje1" -> "libxi6";
 "libedje1" -> "libxtst6";
 "libedje1" -> "libz1";
+"libedje1" -> "luajit";
 "libeet1" -> "eina";
 "libeet1" -> "libcrypto1.0.0";
 "libeet1" -> "libjpeg8";
@@ -1403,6 +1416,7 @@ digraph depends {
 "libemotion1" -> "libudev1";
 "libemotion1" -> "libuuid1";
 "libemotion1" -> "libz1";
+"libemotion1" -> "luajit";
 "libeo1" -> "eina";
 "liberation-fonts" -> "fontconfig-utils";
 "libexif-locale-cs" -> "virtual-locale-cs" [style=dotted];
@@ -1731,6 +1745,7 @@ digraph depends {
 "libphone-ui-shr" -> "libxss1";
 "libphone-ui-shr" -> "libxtst6";
 "libphone-ui-shr" -> "libz1";
+"libphone-ui-shr" -> "luajit";
 "libphone-ui-shr-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "libphone-ui0" -> "libasound2";
 "libphone-ui0" -> "libffi6";
@@ -2060,6 +2075,7 @@ digraph depends {
 "mesa-demos" -> "libx11-6";
 "mesa-demos" -> "libxext6";
 "mime-support" -> "file" [style=dotted];
+"mime-support" -> "perl";
 "mioctl" -> "libglib-2.0-0";
 "mkdump" -> "libfsobasics3";
 "mkdump" -> "libglib-2.0-0";
@@ -2509,7 +2525,6 @@ digraph depends {
 "python-core" -> "python-readline" [style=dotted];
 "python-crypt" -> "libcrypto1.0.0";
 "python-crypt" -> "libpython2.7-1.0";
-"python-crypt" -> "libssl1.0.0";
 "python-crypt" -> "openssl" [style=dotted];
 "python-crypt" -> "python-core";
 "python-ctypes" -> "libpython2.7-1.0";
@@ -2683,7 +2698,6 @@ digraph depends {
 "python-pyyaml" -> "libyaml-0-2";
 "python-pyyaml" -> "python-core";
 "python-re" -> "python-core";
-"python-readline" -> "libncursesw5";
 "python-readline" -> "libpython2.7-1.0";
 "python-readline" -> "libreadline6";
 "python-readline" -> "python-core";
@@ -2734,6 +2748,7 @@ digraph depends {
 "rpcbind" -> "libtirpc1";
 "rpcbind" -> "libwrap0";
 "rpcbind" -> "shadow";
+"rsync" -> "libacl1";
 "rsync" -> "libpopt0";
 "screen" -> "base-files";
 "screen" -> "libpam";
@@ -2824,6 +2839,7 @@ digraph depends {
 "shr-e-gadgets" -> "libxss1";
 "shr-e-gadgets" -> "libxtst6";
 "shr-e-gadgets" -> "libz1";
+"shr-e-gadgets" -> "luajit";
 "shr-settings" -> "dbus-x11";
 "shr-settings" -> "frameworkd";
 "shr-settings" -> "python";
@@ -2909,6 +2925,7 @@ digraph depends {
 "shr-wizard" -> "libxss1";
 "shr-wizard" -> "libxtst6";
 "shr-wizard" -> "libz1";
+"shr-wizard" -> "luajit";
 "shr-wizard" -> "psmisc";
 "shr-wizard" -> "python-dbus";
 "shr-wizard" -> "python-edbus";
@@ -3019,6 +3036,7 @@ digraph depends {
 "vagalume" -> "librsvg-2-gtk";
 "vagalume" -> "libxml2";
 "vim" -> "libtinfo5";
+"vim" -> "ncurses-terminfo-base";
 "vim" -> "vim-common" [style=dotted];
 "vim" -> "vim-help" [style=dotted];
 "vim" -> "vim-syntax" [style=dotted];

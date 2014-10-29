@@ -1,4 +1,5 @@
 advancedcaching
+alsa-conf
 alsa-conf-base
 alsa-states
 alsa-utils-alsactl
@@ -170,6 +171,7 @@ hdparm
 hicolor-icon-theme
 htop
 i2c-tools
+i2c-tools-misc
 iliwi
 illume-keyboard-numeric-alt
 init-ifupdown
@@ -467,6 +469,7 @@ locale-base-en-us
 logrotate
 lsof
 ltrace
+luajit
 make
 make-locale-cs
 matchbox-keyboard-im
