@@ -2410,6 +2410,7 @@ digraph depends {
 "mesa-megadriver" -> "libpciaccess0";
 "mesa-megadriver" -> "libstdc++6";
 "mime-support" -> "file" [style=dotted];
+"mime-support" -> "perl";
 "mioctl" -> "libc6";
 "mioctl" -> "libglib-2.0-0";
 "mkdump" -> "libc6";
@@ -3535,6 +3536,7 @@ digraph depends {
 "vagalume" -> "libxml2";
 "vim" -> "libc6";
 "vim" -> "libtinfo5";
+"vim" -> "ncurses-terminfo-base";
 "vim" -> "update-alternatives-opkg";
 "vim" -> "vim-common" [style=dotted];
 "vim" -> "vim-help" [style=dotted];
