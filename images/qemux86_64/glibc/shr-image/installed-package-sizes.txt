@@ -8,7 +8,7 @@
 6259	KiB fbreader
 5791	KiB vim-help
 5699	KiB coreutils
-5334	KiB gdb
+5396	KiB gdb
 5177	KiB libgtk-2.0
 5126	KiB elementary-themes
 5039	KiB udev-hwdb
@@ -45,7 +45,7 @@
 1846	KiB libperl5
 1842	KiB shr-splash-theme-logo
 1814	KiB libpython2.7-1.0
-1664	KiB libtcl8.6-0
+1729	KiB libtcl8.6-0
 1658	KiB fsogsmd
 1630	KiB pidgin-data
 1559	KiB libx11-locale
@@ -84,6 +84,7 @@
 885	KiB luajit
 863	KiB udev
 845	KiB tcpdump
+835	KiB findutils
 816	KiB libsoup-2.4
 814	KiB python-ecore
 796	KiB python-lang
@@ -93,7 +94,6 @@
 746	KiB python-io
 745	KiB numptyphysics
 741	KiB serial-forward
-729	KiB findutils
 727	KiB s3c64xx-gpio
 727	KiB s3c24xx-gpio
 695	KiB openvpn
@@ -128,7 +128,7 @@
 447	KiB rsync
 435	KiB nettle
 426	KiB om-neon
-424	KiB strace
+420	KiB strace
 420	KiB python-pickle
 416	KiB tar
 414	KiB socat
@@ -265,6 +265,7 @@
 129	KiB libdrm-intel1
 128	KiB shr-e-gadgets
 126	KiB libegl-mesa
+125	KiB watchdog
 125	KiB kernel-module-nf-conntrack
 124	KiB spojegui
 124	KiB python-stringold
@@ -288,7 +289,6 @@
 102	KiB nmon
 102	KiB libserf-1-1
 102	KiB libfsotransport3
-101	KiB watchdog
 101	KiB libpurple-protocol-irc
 101	KiB libgstrtp-0.10-0
 100	KiB pxaregs
@@ -401,6 +401,7 @@
 41	KiB gst-plugins-good-gconfelements
 40	KiB xauth
 40	KiB gst-plugins-ugly-mad
+40	KiB findutils-locale-cs
 39	KiB libxcursor1
 39	KiB kernel-module-x-tables
 39	KiB kernel-module-tun
@@ -419,7 +420,6 @@
 35	KiB util-linux-agetty
 34	KiB libwrap0
 34	KiB gstreamer-locale-cs
-34	KiB findutils-locale-cs
 33	KiB libpciaccess0
 33	KiB liblinebreak1
 33	KiB libgles1-mesa
@@ -497,7 +497,7 @@
 20	KiB libxfixes3
 20	KiB libxdmcp6
 20	KiB killall
-20	KiB kernel-3.17.1-yocto-standard
+20	KiB kernel-3.17.2-yocto-standard
 20	KiB gdk-pixbuf-locale-en-gb
 20	KiB gdk-pixbuf-loader-png
 20	KiB gdk-pixbuf-loader-jpeg
