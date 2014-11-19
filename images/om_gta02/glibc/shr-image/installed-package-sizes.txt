@@ -10,7 +10,7 @@
 4125	KiB e-wm
 3977	KiB python-codecs
 3739	KiB coreutils
-3633	KiB gdb
+3635	KiB gdb
 3533	KiB libgtk-2.0
 3034	KiB libc6
 2881	KiB file
@@ -24,7 +24,7 @@
 2385	KiB evas
 2350	KiB terminology
 2190	KiB advancedcaching
-2085	KiB subversion
+2086	KiB subversion
 2082	KiB shared-mime-info
 2057	KiB vim-tutor
 2032	KiB python-pygtk
@@ -50,9 +50,9 @@
 1183	KiB libpython2.7-1.0
 1174	KiB libcrypto1.0.0
 1098	KiB python-evas
+1075	KiB libtcl8.6-0
 1053	KiB fsogsmd
 1047	KiB babiloo-efl
-1029	KiB libtcl8.6-0
 1003	KiB ttf-dejavu-sans-mono
 1001	KiB python-xml
 990	KiB libx11-6
@@ -82,10 +82,11 @@
 645	KiB python-io
 626	KiB udev
 623	KiB tcpdump
-609	KiB libgcrypt
+610	KiB libgcrypt
 563	KiB luajit
 556	KiB python-edje
 540	KiB python-pyyaml
+536	KiB findutils
 507	KiB serial-forward
 507	KiB python-pygobject
 507	KiB python-multiprocessing
@@ -99,7 +100,6 @@
 478	KiB dbus-1
 478	KiB busybox
 477	KiB libgpsd22
-469	KiB findutils
 463	KiB libevent
 450	KiB openvpn
 436	KiB python-compression
@@ -174,8 +174,8 @@
 218	KiB libxslt
 215	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
+212	KiB strace
 210	KiB elfutils
-207	KiB strace
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
 205	KiB gst-plugins-base-playbin
@@ -272,6 +272,7 @@
 95	KiB libxkbfile1
 94	KiB tzdata
 94	KiB libglib-2.0-locale-cs
+92	KiB watchdog
 91	KiB libphone-ui0
 91	KiB libexpat1
 90	KiB pxaregs
@@ -297,7 +298,6 @@
 73	KiB libgstrtp-0.10-0
 73	KiB kernel-module-nf-conntrack
 73	KiB ffphonelog
-72	KiB watchdog
 72	KiB omhacks
 72	KiB libglade-2.0-0
 72	KiB libemotion1
@@ -383,6 +383,7 @@
 42	KiB kernel-module-usbserial
 40	KiB logrotate
 40	KiB libgstriff-0.10-0
+40	KiB findutils-locale-cs
 39	KiB xf86-input-evdev
 39	KiB phonefsod
 39	KiB libxi6
@@ -403,7 +404,6 @@
 34	KiB libdrm2
 34	KiB kernel-module-g-file-storage
 34	KiB gstreamer-locale-cs
-34	KiB findutils-locale-cs
 33	KiB libpopt0
 33	KiB kernel-module-ppp-generic
 33	KiB gst-plugins-ugly-mad
