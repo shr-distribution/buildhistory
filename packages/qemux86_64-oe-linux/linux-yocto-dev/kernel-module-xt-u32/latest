@@ -1,10 +1,10 @@
-PV = 3.17++gitAUTOINC+229ce53386_0caf16d385
+PV = 3.17++gitAUTOINC+3283372105_cad8f6f707
 PR = r0
-PKGV = 3.17++git3+229ce53386_0caf16d385
-PKGR = r0.4
+PKGV = 3.17++git4+3283372105_cad8f6f707
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.17.1-yocto-standard kernel-module-x-tables
+RDEPENDS = kernel-3.17.2-yocto-standard kernel-module-x-tables
 RRECOMMENDS = 
 PKGSIZE = 5200
-FILES = /lib/modules/3.17.1-yocto-standard/kernel/net/netfilter/xt_u32.ko /etc/modules-load.d/xt_u32.conf /etc/modprobe.d/xt_u32.conf
-FILELIST = /lib/modules/3.17.1-yocto-standard/kernel/net/netfilter/xt_u32.ko
+FILES = /lib/modules/3.17.2-yocto-standard/kernel/net/netfilter/xt_u32.ko /etc/modules-load.d/xt_u32.conf /etc/modprobe.d/xt_u32.conf
+FILELIST = /lib/modules/3.17.2-yocto-standard/kernel/net/netfilter/xt_u32.ko
