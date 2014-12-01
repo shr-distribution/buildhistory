@@ -45,7 +45,7 @@
 1846	KiB libperl5
 1842	KiB shr-splash-theme-logo
 1814	KiB libpython2.7-1.0
-1729	KiB libtcl8.6-0
+1737	KiB libtcl8.6-0
 1658	KiB fsogsmd
 1630	KiB pidgin-data
 1559	KiB libx11-locale
@@ -69,8 +69,8 @@
 1090	KiB libgnutls28
 1066	KiB libcairo2
 1064	KiB pidgin
+1056	KiB wpa-supplicant
 1047	KiB babiloo-efl
-1037	KiB wpa-supplicant
 1014	KiB python-ctypes
 1003	KiB ttf-dejavu-sans-mono
 994	KiB bash
@@ -217,8 +217,8 @@
 194	KiB xkbcomp
 194	KiB libapr-1-0
 189	KiB ethumb
+188	KiB libopkg1
 184	KiB elementary-theme-gry
-183	KiB libopkg1
 175	KiB python-shell
 175	KiB liblightmediascanner0
 174	KiB ecore-con
@@ -307,7 +307,7 @@
 92	KiB libusb-1.0-0
 92	KiB libfribidi0
 92	KiB libemotion1
-90	KiB cronie
+91	KiB cronie
 89	KiB gst-plugins-base-typefindfunctions
 88	KiB libkmod2
 88	KiB libgstvideo-0.10-0
@@ -325,6 +325,7 @@
 77	KiB xkeyboard-config-locale-cs
 77	KiB glib-networking
 77	KiB dosfstools
+75	KiB wpa-supplicant-cli
 75	KiB tzdata-asia
 75	KiB libfsotest3
 75	KiB fontconfig-utils
@@ -334,7 +335,6 @@
 73	KiB libeo1
 73	KiB libeio1
 73	KiB gst-plugins-base-audioconvert
-72	KiB wpa-supplicant-cli
 71	KiB libgstinterfaces-0.10-0
 71	KiB ecore-input
 70	KiB libgsm0710mux3
@@ -409,6 +409,7 @@
 38	KiB python-crypt
 38	KiB opimd-utils-notes
 38	KiB libgles2-mesa
+37	KiB wpa-supplicant-passphrase
 37	KiB pulseaudio-locale-cs
 37	KiB libxrender1
 37	KiB libxrandr2
@@ -416,7 +417,6 @@
 36	KiB util-linux-mount
 36	KiB libgif4
 36	KiB gst-plugins-good-autodetect
-35	KiB wpa-supplicant-passphrase
 35	KiB util-linux-agetty
 34	KiB libwrap0
 34	KiB gstreamer-locale-cs
@@ -480,6 +480,7 @@
 23	KiB libpam-runtime
 23	KiB libogg0
 22	KiB xf86-input-keyboard
+22	KiB opkg
 22	KiB libxtst6
 22	KiB gdk-pixbuf-locale-cs
 21	KiB xz-locale-cs
@@ -492,7 +493,6 @@
 20	KiB xserver-common
 20	KiB xinit
 20	KiB setxkbmap
-20	KiB opkg
 20	KiB ncurses-terminfo-base
 20	KiB libxfixes3
 20	KiB libxdmcp6
