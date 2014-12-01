@@ -50,8 +50,8 @@
 1183	KiB libpython2.7-1.0
 1174	KiB libcrypto1.0.0
 1098	KiB python-evas
-1075	KiB libtcl8.6-0
-1053	KiB fsogsmd
+1082	KiB libtcl8.6-0
+1054	KiB fsogsmd
 1047	KiB babiloo-efl
 1003	KiB ttf-dejavu-sans-mono
 1001	KiB python-xml
@@ -76,9 +76,9 @@
 708	KiB pidgin
 691	KiB python-lang
 686	KiB numptyphysics
+677	KiB wpa-supplicant
 674	KiB bash
 669	KiB shr-settings
-661	KiB wpa-supplicant
 645	KiB python-io
 626	KiB udev
 623	KiB tcpdump
@@ -230,10 +230,10 @@
 139	KiB kernel-module-scsi-mod
 138	KiB python-pyserial
 136	KiB make
+136	KiB libopkg1
 135	KiB kernel-module-ar6000
 132	KiB xinput-calibrator
 132	KiB python-subprocess
-132	KiB libopkg1
 132	KiB fsodeviced-config
 129	KiB xkbcomp
 129	KiB tzdata-europe
@@ -304,10 +304,10 @@
 71	KiB usb-modeswitch
 70	KiB i2c-tools
 69	KiB pam-plugin-unix
+69	KiB cronie
 68	KiB usb-modeswitch-data
 68	KiB python-sqlite3
 68	KiB ecore-input
-68	KiB cronie
 67	KiB opimd-utils-data
 67	KiB libfsotransport3
 67	KiB gtk-theme-e17lookalike
@@ -320,10 +320,10 @@
 65	KiB gconf-locale-cs
 64	KiB wmiconfig
 64	KiB python-pycairo
+64	KiB libserf-1-1
 64	KiB libnl-nf-3-200
 64	KiB kernel-module-snd
 64	KiB fsodatad
-63	KiB libserf-1-1
 63	KiB libgstvideo-0.10-0
 63	KiB libeo1
 62	KiB libusb-1.0-0
@@ -474,6 +474,7 @@
 21	KiB e-wm-config-default
 20	KiB xserver-common
 20	KiB xmodmap
+20	KiB wpa-supplicant-passphrase
 20	KiB python-phoneutils
 20	KiB ncurses-terminfo-base
 20	KiB mterm2
@@ -492,8 +493,8 @@
 20	KiB ecore-ipc
 20	KiB e2fsprogs-badblocks
 19	KiB xset
-19	KiB wpa-supplicant-passphrase
 19	KiB tzdata-africa
+19	KiB opkg
 19	KiB libnl-3-genl
 19	KiB gdk-pixbuf-loader-gif
 18	KiB python-terminal
@@ -504,7 +505,6 @@
 17	KiB python-zlib
 17	KiB python-fcntl
 17	KiB psmisc-locale-cs
-17	KiB opkg
 17	KiB libgpg-error-locale-cs
 17	KiB libcap2
 17	KiB killall
