@@ -1,4 +1,4 @@
-meta-jama         = master:1818963dda7b85375bc5dd80d5ec9cbd23f46cb8
+meta-jama         = master:5d146e5e7f71ad8a81071199cfe94f1ff7cf6cd5
 meta-shr-distro   = jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff
 meta-shr          = jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff
 meta-aurora       = jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff
