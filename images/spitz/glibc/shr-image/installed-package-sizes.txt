@@ -50,7 +50,7 @@
 1163	KiB libpython2.7-1.0
 1158	KiB libcrypto1.0.0
 1082	KiB python-evas
-1066	KiB libtcl8.6-0
+1071	KiB libtcl8.6-0
 1047	KiB babiloo-efl
 1033	KiB fsogsmd
 1003	KiB ttf-dejavu-sans-mono
@@ -78,7 +78,7 @@
 683	KiB numptyphysics
 669	KiB shr-settings
 666	KiB bash
-653	KiB wpa-supplicant
+665	KiB wpa-supplicant
 640	KiB python-io
 614	KiB udev
 607	KiB tcpdump
@@ -230,11 +230,11 @@
 138	KiB libpng16-16
 136	KiB make
 132	KiB python-subprocess
+132	KiB libopkg1
 132	KiB fsodeviced-config
 131	KiB xinput-calibrator
 129	KiB xkbcomp
 129	KiB tzdata-europe
-128	KiB libopkg1
 126	KiB curl
 124	KiB spojegui
 124	KiB linux-firmware-sd8686
@@ -303,12 +303,12 @@
 68	KiB usb-modeswitch-data
 68	KiB kernel-module-snd
 68	KiB ecore-input
+68	KiB cronie
 67	KiB python-sqlite3
 67	KiB opimd-utils-data
 67	KiB gtk-theme-e17lookalike
 67	KiB gst-plugins-good-flac
 67	KiB gst-plugins-base-alsa
-67	KiB cronie
 65	KiB util-linux-fsck
 65	KiB libfsotransport3
 65	KiB libeio1
@@ -461,6 +461,7 @@
 21	KiB e-wm-config-default
 20	KiB xserver-common
 20	KiB xmodmap
+20	KiB wpa-supplicant-passphrase
 20	KiB python-phoneutils
 20	KiB ncurses-terminfo-base
 20	KiB mterm2
@@ -476,8 +477,8 @@
 20	KiB ecore-file
 20	KiB e2fsprogs-badblocks
 19	KiB xset
-19	KiB wpa-supplicant-passphrase
 19	KiB tzdata-africa
+19	KiB opkg
 19	KiB libnl-3-genl
 19	KiB kernel-module-snd-mixer-oss
 19	KiB gtk-immodule-xim
@@ -489,7 +490,6 @@
 17	KiB python-zlib
 17	KiB python-fcntl
 17	KiB psmisc-locale-cs
-17	KiB opkg
 17	KiB libgpg-error-locale-cs
 17	KiB killall
 16	KiB xinit
