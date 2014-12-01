@@ -56,7 +56,7 @@
 1078	KiB libcrypto1.0.0
 1058	KiB python-evas
 1047	KiB babiloo-efl
-1018	KiB libtcl8.6-0
+1026	KiB libtcl8.6-0
 1003	KiB ttf-dejavu-sans-mono
 1001	KiB python-xml
 985	KiB fsogsmd
@@ -80,8 +80,8 @@
 678	KiB libgnutls28
 669	KiB shr-settings
 662	KiB numptyphysics
+661	KiB wpa-supplicant
 650	KiB bash
-649	KiB wpa-supplicant
 642	KiB libstdc++6
 642	KiB libcairo2
 626	KiB python-io
@@ -188,8 +188,8 @@
 201	KiB libpulse0
 201	KiB gst-plugins-base-playbin
 198	KiB libxslt
+194	KiB nfs-utils-client
 192	KiB libgee2
-188	KiB nfs-utils-client
 186	KiB python-datetime
 186	KiB libasound-module-bluez
 185	KiB libidn11
@@ -245,9 +245,9 @@
 124	KiB linux-firmware-sd8686
 124	KiB libpng16-16
 122	KiB curl
+120	KiB libopkg1
 118	KiB aspell
 117	KiB liblightmediascanner0
-116	KiB libopkg1
 114	KiB python-stringold
 112	KiB libefreet1
 111	KiB libapr-1-0
@@ -314,12 +314,12 @@
 65	KiB libgstrtp-0.10-0
 65	KiB gst-plugins-good-flac
 65	KiB gconf-locale-cs
+64	KiB cronie
 63	KiB python-sqlite3
 63	KiB libfsotransport3
 62	KiB util-linux-fsck
 62	KiB libeio1
 62	KiB fsodatad
-62	KiB cronie
 61	KiB tar-locale-cs
 61	KiB python-pycairo
 61	KiB ntpdate
@@ -328,13 +328,13 @@
 60	KiB gst-plugins-base-typefindfunctions
 60	KiB elementary-configs
 59	KiB libusb-1.0-0
+59	KiB libserf-1-1
 59	KiB libevdev
 59	KiB gconf-locale-en-gb
 59	KiB dosfstools
 58	KiB libelf1
 58	KiB e-wm-icons
 57	KiB libz1
-57	KiB libserf-1-1
 57	KiB libice6
 57	KiB libgstvideo-0.10-0
 57	KiB libexif-locale-cs
@@ -477,7 +477,9 @@
 20	KiB ecore-file
 20	KiB apmd
 19	KiB xset
+19	KiB wpa-supplicant-passphrase
 19	KiB tzdata-africa
+19	KiB opkg
 19	KiB mtdev
 19	KiB libsm6
 19	KiB libpciaccess0
@@ -488,7 +490,6 @@
 19	KiB kernel-module-ip-tables
 19	KiB gpsd-gpsctl
 19	KiB ecore-ipc
-18	KiB wpa-supplicant-passphrase
 18	KiB python-terminal
 18	KiB libmenuw5
 18	KiB libacl1
@@ -498,7 +499,6 @@
 17	KiB python-zlib
 17	KiB python-fcntl
 17	KiB psmisc-locale-cs
-17	KiB opkg
 17	KiB libgpg-error-locale-cs
 17	KiB libfsoresource3
 17	KiB kernel-module-usb-f-rndis
