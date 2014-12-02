@@ -27,13 +27,6 @@ digraph depends {
 "apmd" -> "libapm1";
 "apmd" -> "libc6";
 "apmd" -> "update-rc.d" [style=dotted];
-"atd-over-fso" -> "dbus-1";
-"atd-over-fso" -> "frameworkd";
-"atd-over-fso" -> "libc6";
-"atd-over-fso" -> "libdbus-1-3";
-"atd-over-fso" -> "libdbus-glib-1-2";
-"atd-over-fso" -> "libglib-2.0-0";
-"atd-over-fso" -> "update-rc.d" [style=dotted];
 "attr-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "babiloo-efl" -> "python-compression";
 "babiloo-efl" -> "python-elementary";
@@ -109,6 +102,7 @@ digraph depends {
 "e-wm" -> "ecore-ipc";
 "e-wm" -> "ecore-x";
 "e-wm" -> "eeze";
+"e-wm" -> "efl";
 "e-wm" -> "efreet" [style=dotted];
 "e-wm" -> "eina";
 "e-wm" -> "elementary";
@@ -229,6 +223,7 @@ digraph depends {
 "ecalc" -> "python";
 "ecalc" -> "python-edbus";
 "ecalc" -> "python-elementary";
+"ecore-audio" -> "efl";
 "ecore-audio" -> "eina";
 "ecore-audio" -> "json-c";
 "ecore-audio" -> "libc6";
@@ -256,6 +251,7 @@ digraph depends {
 "ecore-audio" -> "libxi6";
 "ecore-audio" -> "libxtst6";
 "ecore-audio" -> "libz1";
+"ecore-con" -> "efl";
 "ecore-con" -> "eina";
 "ecore-con" -> "libc6";
 "ecore-con" -> "libcrypto1.0.0";
@@ -268,6 +264,7 @@ digraph depends {
 "ecore-con" -> "libz1";
 "ecore-evas" -> "ecore-input";
 "ecore-evas" -> "ecore-input-evas";
+"ecore-evas" -> "efl";
 "ecore-evas" -> "eina";
 "ecore-evas" -> "evas";
 "ecore-evas" -> "libc6";
@@ -287,6 +284,7 @@ digraph depends {
 "ecore-evas" -> "libz1";
 "ecore-evas" -> "luajit";
 "ecore-file" -> "ecore-con";
+"ecore-file" -> "efl";
 "ecore-file" -> "eina";
 "ecore-file" -> "libc6";
 "ecore-file" -> "libcrypto1.0.0";
@@ -298,6 +296,7 @@ digraph depends {
 "ecore-file" -> "libssl1.0.0";
 "ecore-file" -> "libz1";
 "ecore-imf" -> "ecore-input";
+"ecore-imf" -> "efl";
 "ecore-imf" -> "eina";
 "ecore-imf" -> "libc6";
 "ecore-imf" -> "libecore1";
@@ -305,6 +304,7 @@ digraph depends {
 "ecore-imf" -> "libglib-2.0-0";
 "ecore-imf-evas" -> "ecore-imf";
 "ecore-imf-evas" -> "ecore-input";
+"ecore-imf-evas" -> "efl";
 "ecore-imf-evas" -> "eina";
 "ecore-imf-evas" -> "evas";
 "ecore-imf-evas" -> "libc6";
@@ -323,12 +323,14 @@ digraph depends {
 "ecore-imf-evas" -> "libstdc++6";
 "ecore-imf-evas" -> "libz1";
 "ecore-imf-evas" -> "luajit";
+"ecore-input" -> "efl";
 "ecore-input" -> "eina";
 "ecore-input" -> "libc6";
 "ecore-input" -> "libecore1";
 "ecore-input" -> "libeo1";
 "ecore-input" -> "libglib-2.0-0";
 "ecore-input-evas" -> "ecore-input";
+"ecore-input-evas" -> "efl";
 "ecore-input-evas" -> "eina";
 "ecore-input-evas" -> "evas";
 "ecore-input-evas" -> "libc6";
@@ -348,6 +350,7 @@ digraph depends {
 "ecore-input-evas" -> "libz1";
 "ecore-input-evas" -> "luajit";
 "ecore-ipc" -> "ecore-con";
+"ecore-ipc" -> "efl";
 "ecore-ipc" -> "eina";
 "ecore-ipc" -> "libc6";
 "ecore-ipc" -> "libcrypto1.0.0";
@@ -360,6 +363,7 @@ digraph depends {
 "ecore-ipc" -> "libz1";
 "ecore-x" -> "ecore-con";
 "ecore-x" -> "ecore-input";
+"ecore-x" -> "efl";
 "ecore-x" -> "eina";
 "ecore-x" -> "libc6";
 "ecore-x" -> "libcrypto1.0.0";
@@ -387,6 +391,7 @@ digraph depends {
 "ecore-x" -> "libz1";
 "eeze" -> "ecore-con";
 "eeze" -> "ecore-file";
+"eeze" -> "efl";
 "eeze" -> "eina";
 "eeze" -> "libblkid1";
 "eeze" -> "libc6";
@@ -401,6 +406,11 @@ digraph depends {
 "eeze" -> "libudev1";
 "eeze" -> "libuuid1";
 "eeze" -> "libz1";
+"efl" -> "eina";
+"efl" -> "libc6";
+"efl" -> "libecore1";
+"efl" -> "libeo1";
+"efl" -> "libglib-2.0-0";
 "efl-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "efreet" -> "ecore-file";
 "efreet" -> "eina";
@@ -420,6 +430,7 @@ digraph depends {
 "elementary" -> "ecore-input-evas";
 "elementary" -> "ecore-x";
 "elementary" -> "eeze";
+"elementary" -> "efl";
 "elementary" -> "eina";
 "elementary" -> "elementary-configs";
 "elementary" -> "elementary-themes";
@@ -494,6 +505,7 @@ digraph depends {
 "emtooth2" -> "obexd";
 "enjoy" -> "ecore-evas";
 "enjoy" -> "ecore-file";
+"enjoy" -> "efl";
 "enjoy" -> "eina";
 "enjoy" -> "elementary";
 "enjoy" -> "evas";
@@ -526,6 +538,7 @@ digraph depends {
 "estardict" -> "ecore-input-evas";
 "estardict" -> "ecore-x";
 "estardict" -> "eeze";
+"estardict" -> "efl";
 "estardict" -> "eina";
 "estardict" -> "elementary";
 "estardict" -> "embryo";
@@ -591,6 +604,7 @@ digraph depends {
 "ethumb" -> "ecore-input";
 "ethumb" -> "ecore-input-evas";
 "ethumb" -> "eeze";
+"ethumb" -> "efl";
 "ethumb" -> "eina";
 "ethumb" -> "embryo";
 "ethumb" -> "evas";
@@ -634,6 +648,7 @@ digraph depends {
 "ethumb" -> "libxtst6";
 "ethumb" -> "libz1";
 "ethumb" -> "luajit";
+"evas" -> "efl";
 "evas" -> "eina";
 "evas" -> "libc6";
 "evas" -> "libcrypto1.0.0";
@@ -692,36 +707,12 @@ digraph depends {
 "fbset" -> "fbset-modes" [style=dotted];
 "fbset" -> "libc6";
 "fbset" -> "update-alternatives-opkg";
-"ffalarms" -> "alsa-utils-amixer";
-"ffalarms" -> "atd";
-"ffalarms" -> "ecore-con";
-"ffalarms" -> "ecore-evas";
-"ffalarms" -> "ecore-file";
-"ffalarms" -> "ecore-imf";
-"ffalarms" -> "ecore-input";
-"ffalarms" -> "eina";
-"ffalarms" -> "elementary";
-"ffalarms" -> "ethumb";
-"ffalarms" -> "evas";
-"ffalarms" -> "libc6";
-"ffalarms" -> "libecore1";
-"ffalarms" -> "libedje1";
-"ffalarms" -> "libeet1";
-"ffalarms" -> "libefreet-mime1";
-"ffalarms" -> "libefreet-trash1";
-"ffalarms" -> "libefreet1";
-"ffalarms" -> "libeio1";
-"ffalarms" -> "libeldbus1";
-"ffalarms" -> "libemotion1";
-"ffalarms" -> "libeo1";
-"ffalarms" -> "libglib-2.0-0";
-"ffalarms" -> "libical";
-"ffalarms" -> "ttf-dejavu-sans";
 "ffphonelog" -> "ecore-con";
 "ffphonelog" -> "ecore-evas";
 "ffphonelog" -> "ecore-file";
 "ffphonelog" -> "ecore-imf";
 "ffphonelog" -> "ecore-input";
+"ffphonelog" -> "efl";
 "ffphonelog" -> "eina";
 "ffphonelog" -> "elementary";
 "ffphonelog" -> "ethumb";
@@ -1261,30 +1252,6 @@ digraph depends {
 "i2c-tools" -> "i2c-tools-misc";
 "i2c-tools" -> "libc6";
 "i2c-tools-misc" -> "perl";
-"iliwi" -> "ecore-con";
-"iliwi" -> "ecore-evas";
-"iliwi" -> "ecore-file";
-"iliwi" -> "ecore-imf";
-"iliwi" -> "ecore-input";
-"iliwi" -> "eina";
-"iliwi" -> "elementary";
-"iliwi" -> "ethumb";
-"iliwi" -> "evas";
-"iliwi" -> "libc6";
-"iliwi" -> "libecore1";
-"iliwi" -> "libedje1";
-"iliwi" -> "libeet1";
-"iliwi" -> "libefreet-mime1";
-"iliwi" -> "libefreet-trash1";
-"iliwi" -> "libefreet1";
-"iliwi" -> "libeio1";
-"iliwi" -> "libeldbus1";
-"iliwi" -> "libemotion1";
-"iliwi" -> "libeo1";
-"iliwi" -> "libgee2";
-"iliwi" -> "libglib-2.0-0";
-"iliwi" -> "wireless-tools";
-"iliwi" -> "wpa-supplicant";
 "init-ifupdown" -> "netbase";
 "init-ifupdown" -> "update-rc.d" [style=dotted];
 "iptables" -> "kernel-module-ip-tables" [style=dotted];
@@ -1506,6 +1473,7 @@ digraph depends {
 "libecore1" -> "ecore-input-evas";
 "libecore1" -> "ecore-ipc";
 "libecore1" -> "ecore-x";
+"libecore1" -> "efl";
 "libecore1" -> "eina";
 "libecore1" -> "evas";
 "libecore1" -> "libc6";
@@ -1540,6 +1508,7 @@ digraph depends {
 "libecore1" -> "libxtst6";
 "libecore1" -> "libz1";
 "libecore1" -> "luajit";
+"libedbus1" -> "efl";
 "libedbus1" -> "eina";
 "libedbus1" -> "libc6";
 "libedbus1" -> "libdbus-1-3";
@@ -1565,6 +1534,7 @@ digraph depends {
 "libedje1" -> "ecore-input";
 "libedje1" -> "ecore-input-evas";
 "libedje1" -> "eeze";
+"libedje1" -> "efl";
 "libedje1" -> "eina";
 "libedje1" -> "embryo";
 "libedje1" -> "evas";
@@ -1614,6 +1584,7 @@ digraph depends {
 "libeet1" -> "libz1";
 "libefreet-mime1" -> "ecore-con";
 "libefreet-mime1" -> "ecore-file";
+"libefreet-mime1" -> "efl";
 "libefreet-mime1" -> "eina";
 "libefreet-mime1" -> "libc6";
 "libefreet-mime1" -> "libcrypto1.0.0";
@@ -1629,6 +1600,7 @@ digraph depends {
 "libefreet-mime1" -> "libz1";
 "libefreet-trash1" -> "ecore-con";
 "libefreet-trash1" -> "ecore-file";
+"libefreet-trash1" -> "efl";
 "libefreet-trash1" -> "eina";
 "libefreet-trash1" -> "libc6";
 "libefreet-trash1" -> "libcrypto1.0.0";
@@ -1644,6 +1616,7 @@ digraph depends {
 "libefreet-trash1" -> "libz1";
 "libefreet1" -> "ecore-con";
 "libefreet1" -> "ecore-file";
+"libefreet1" -> "efl";
 "libefreet1" -> "eina";
 "libefreet1" -> "libc6";
 "libefreet1" -> "libcrypto1.0.0";
@@ -1670,6 +1643,7 @@ digraph depends {
 "libegl-mesa" -> "libxcb-xfixes0";
 "libegl-mesa" -> "libxcb1";
 "libegl-mesa" -> "libxdmcp6";
+"libeio1" -> "efl";
 "libeio1" -> "eina";
 "libeio1" -> "libc6";
 "libeio1" -> "libcrypto1.0.0";
@@ -1680,6 +1654,7 @@ digraph depends {
 "libeio1" -> "libjpeg8";
 "libeio1" -> "libssl1.0.0";
 "libeio1" -> "libz1";
+"libeldbus1" -> "efl";
 "libeldbus1" -> "eina";
 "libeldbus1" -> "libc6";
 "libeldbus1" -> "libdbus-1-3";
@@ -1690,6 +1665,7 @@ digraph depends {
 "libemotion1" -> "ecore-con";
 "libemotion1" -> "ecore-file";
 "libemotion1" -> "eeze";
+"libemotion1" -> "efl";
 "libemotion1" -> "eina";
 "libemotion1" -> "evas";
 "libemotion1" -> "libblkid1";
@@ -2059,6 +2035,7 @@ digraph depends {
 "libphone-ui-shr" -> "ecore-input-evas";
 "libphone-ui-shr" -> "ecore-x";
 "libphone-ui-shr" -> "eeze";
+"libphone-ui-shr" -> "efl";
 "libphone-ui-shr" -> "eina";
 "libphone-ui-shr" -> "elementary";
 "libphone-ui-shr" -> "embryo";
@@ -2854,7 +2831,6 @@ digraph depends {
 "packagegroup-jama" -> "xinit";
 "packagegroup-jama" -> "xinput-calibrator";
 "packagegroup-jama-shr" -> "estardict";
-"packagegroup-jama-shr" -> "ffalarms";
 "packagegroup-jama-shr" -> "fso-sounds";
 "packagegroup-jama-shr" -> "fsoraw";
 "packagegroup-jama-shr" -> "linux-firmware-sd8686";
@@ -2898,8 +2874,6 @@ digraph depends {
 "packagegroup-shr-gtk" -> "vagalume";
 "packagegroup-shr-minimal-apps" -> "ca-certificates";
 "packagegroup-shr-minimal-apps" -> "ecalc";
-"packagegroup-shr-minimal-apps" -> "ffalarms";
-"packagegroup-shr-minimal-apps" -> "iliwi";
 "packagegroup-shr-minimal-apps" -> "libphone-ui";
 "packagegroup-shr-minimal-apps" -> "libphone-ui-shr";
 "packagegroup-shr-minimal-apps" -> "opimd-utils";
@@ -3174,6 +3148,7 @@ digraph depends {
 "python-ecore" -> "libc6";
 "python-ecore" -> "libecore1";
 "python-ecore" -> "libpython2.7-1.0";
+"python-edbus" -> "efl";
 "python-edbus" -> "eina";
 "python-edbus" -> "libc6";
 "python-edbus" -> "libdbus-1-3";
@@ -3453,6 +3428,7 @@ digraph depends {
 "shr-e-gadgets" -> "ecore-ipc";
 "shr-e-gadgets" -> "ecore-x";
 "shr-e-gadgets" -> "eeze";
+"shr-e-gadgets" -> "efl";
 "shr-e-gadgets" -> "eina";
 "shr-e-gadgets" -> "elementary";
 "shr-e-gadgets" -> "embryo";
@@ -3542,6 +3518,7 @@ digraph depends {
 "shr-wizard" -> "ecore-ipc";
 "shr-wizard" -> "ecore-x";
 "shr-wizard" -> "eeze";
+"shr-wizard" -> "efl";
 "shr-wizard" -> "eina";
 "shr-wizard" -> "elementary";
 "shr-wizard" -> "embryo";
@@ -3645,7 +3622,6 @@ digraph depends {
 "systemd" -> "libpam";
 "systemd" -> "os-release" [style=dotted];
 "systemd" -> "shadow";
-"systemd" -> "systemd-binfmt";
 "systemd" -> "systemd-compat-units" [style=dotted];
 "systemd" -> "systemd-serialgetty" [style=dotted];
 "systemd" -> "udev";
@@ -3656,9 +3632,6 @@ digraph depends {
 "systemd" -> "util-linux-fsck" [style=dotted];
 "systemd" -> "util-linux-mount";
 "systemd" -> "volatile-binds";
-"systemd-binfmt" -> "kernel-module-binfmt-misc" [style=dotted];
-"systemd-binfmt" -> "libc6";
-"systemd-binfmt" -> "libgcc1";
 "systemd-serialgetty" -> "systemd";
 "tar" -> "libc6";
 "tar" -> "update-alternatives-opkg";
