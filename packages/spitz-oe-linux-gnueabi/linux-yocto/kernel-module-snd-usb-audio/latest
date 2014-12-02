@@ -1,7 +1,7 @@
 PV = 3.10.55+gitAUTOINC+f79a00265e_3677ea7f94
 PR = r0
 PKGV = 3.10.55+git1+f79a00265e_3677ea7f94
-PKGR = r0.1
+PKGR = r0.4
 RPROVIDES = 
 RDEPENDS = kernel-3.10.55-ltsi-yocto-standard kernel-module-snd kernel-module-snd-hwdep kernel-module-snd-page-alloc kernel-module-snd-pcm kernel-module-snd-rawmidi kernel-module-snd-seq-device kernel-module-snd-timer kernel-module-snd-usbmidi-lib kernel-module-soundcore
 RRECOMMENDS = 
