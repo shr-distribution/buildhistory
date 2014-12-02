@@ -7,7 +7,6 @@ alsa-utils-alsamixer
 alsa-utils-amixer
 alsa-utils-aplay
 apmd
-atd-over-fso
 attr-locale-cs
 babiloo-efl
 babiloo-efl-locale-en
@@ -56,6 +55,7 @@ ecore-input-evas
 ecore-ipc
 ecore-x
 eeze
+efl
 efl-locale-cs
 efreet
 eina
@@ -76,7 +76,6 @@ evtest
 fbreader
 fbset
 fbset-modes
-ffalarms
 ffphonelog
 file
 findutils
@@ -167,7 +166,6 @@ hicolor-icon-theme
 htop
 i2c-tools
 i2c-tools-misc
-iliwi
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
@@ -178,7 +176,6 @@ kernel
 kernel-3.10.55-ltsi-yocto-standard
 kernel-image-3.10.55-ltsi-yocto-standard
 kernel-module-arc4
-kernel-module-binfmt-misc
 kernel-module-bluetooth
 kernel-module-bnep
 kernel-module-configfs
@@ -663,7 +660,6 @@ sysfsutils
 sysstat
 sysstat-locale-cs
 systemd
-systemd-binfmt
 systemd-compat-units
 systemd-machine-units
 systemd-serialgetty
