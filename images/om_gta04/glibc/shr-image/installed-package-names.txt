@@ -10,7 +10,6 @@ apmd
 aspell
 aspell-locale-cs
 aspell-locale-en-gb
-atd-over-fso
 attr-locale-cs
 babiloo-efl
 babiloo-efl-locale-en
@@ -59,6 +58,7 @@ ecore-input-evas
 ecore-ipc
 ecore-x
 eeze
+efl
 efl-locale-cs
 efreet
 eina
@@ -81,7 +81,6 @@ evtest
 fbreader
 fbset
 fbset-modes
-ffalarms
 ffphonelog
 file
 findutils
@@ -174,7 +173,6 @@ hicolor-icon-theme
 htop
 i2c-tools
 i2c-tools-misc
-iliwi
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
@@ -670,7 +668,6 @@ sysfsutils
 sysstat
 sysstat-locale-cs
 systemd
-systemd-binfmt
 systemd-compat-units
 systemd-machine-units
 systemd-serialgetty
