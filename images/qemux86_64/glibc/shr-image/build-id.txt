@@ -1,4 +1,4 @@
-qemux86-64: shr-image configured for shr 2013.07-next-20141201
+qemux86-64: shr-image configured for shr 2013.07-next-20141203
 
 Build Configuration:
 BB_VERSION        = "1.24.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "x86_64-oe-linux"
 MACHINE           = "qemux86-64"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20141201"
+DISTRO_VERSION    = "2013.07-next-20141203"
 TUNE_FEATURES     = "m64 core2"
 TARGET_FPU        = ""
 meta-jama         = "master:5d146e5e7f71ad8a81071199cfe94f1ff7cf6cd5"
@@ -27,7 +27,7 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:82430353a13ae16447eff6b09695c6cedf642a47"
+meta-systemd      = "jansa/master:49a8836a79bfe428416ff76e73cd9f871f67cea2"
 meta-osmocombb    
 meta-nokia        
 meta-htc          

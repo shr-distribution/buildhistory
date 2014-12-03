@@ -9,7 +9,6 @@ alsa-utils-aplay
 aspell
 aspell-locale-cs
 aspell-locale-en-gb
-atd-over-fso
 attr-locale-cs
 babiloo-efl
 babiloo-efl-locale-en
@@ -55,6 +54,7 @@ ecore-input-evas
 ecore-ipc
 ecore-x
 eeze
+efl
 efl-locale-cs
 efreet
 eina
@@ -77,7 +77,6 @@ evtest
 fbreader
 fbset
 fbset-modes
-ffalarms
 ffphonelog
 file
 findutils
@@ -167,14 +166,12 @@ hicolor-icon-theme
 htop
 i2c-tools
 i2c-tools-misc
-iliwi
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
 json-c
 kernel
 kernel-3.17.2-yocto-standard
-kernel-module-binfmt-misc
 kernel-module-crc-ccitt
 kernel-module-ip-tables
 kernel-module-iptable-filter
@@ -265,7 +262,6 @@ libfsotest3
 libfsotransport3
 libgbm1
 libgcc1
-libgcrypt
 libgdbm4
 libgee2
 libgif4
@@ -281,8 +277,6 @@ libglib-2.0-locale-en-gb
 libgmp10
 libgnutls-locale-cs
 libgnutls28
-libgpg-error-locale-cs
-libgpg-error0
 libgps21
 libgpsd22
 libgsm0710-0
@@ -635,7 +629,6 @@ sysfsutils
 sysstat
 sysstat-locale-cs
 systemd
-systemd-binfmt
 systemd-compat-units
 systemd-machine-units
 systemd-serialgetty
@@ -679,11 +672,7 @@ vim-vimrc
 volatile-binds
 watchdog
 webkit-efl
-wireless-tools
 wmiconfig
-wpa-supplicant
-wpa-supplicant-cli
-wpa-supplicant-passphrase
 xauth
 xcursor-transparent-theme
 xdpyinfo
