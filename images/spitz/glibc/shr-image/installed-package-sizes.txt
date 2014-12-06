@@ -130,13 +130,13 @@
 340	KiB libpulsecommon
 334	KiB openssh-keygen
 334	KiB libgstfarsight-0.10-0
+328	KiB powertop
 327	KiB libgl-mesa
 325	KiB mobile-broadband-provider-info
 323	KiB pidgin-locale-cs
 323	KiB glibc-charmap-utf-8
 321	KiB mtd-utils-ubifs
 320	KiB vagalume
-319	KiB powertop
 313	KiB pidgin-locale-en-gb
 307	KiB rsync
 307	KiB python-vobject
@@ -167,7 +167,7 @@
 236	KiB e2fsprogs
 234	KiB libsdl-1.2-0
 233	KiB ppp
-231	KiB libcurl5
+232	KiB libcurl5
 229	KiB python-math
 226	KiB python-dateutil
 223	KiB emtooth2
