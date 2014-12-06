@@ -87,7 +87,7 @@
 816	KiB libsoup-2.4
 796	KiB python-lang
 768	KiB libsqlite3-0
-765	KiB dbus-1
+767	KiB dbus-1
 752	KiB python-pygobject
 746	KiB python-io
 745	KiB numptyphysics
@@ -117,10 +117,10 @@
 483	KiB libpulsecommon
 483	KiB libdw1
 469	KiB pango
+468	KiB powertop
 467	KiB libgmp10
 464	KiB libtiff5
 456	KiB libgl-mesa
-454	KiB powertop
 452	KiB python-dbus
 448	KiB python-compression
 447	KiB rsync
@@ -234,8 +234,8 @@
 157	KiB libdbus-glib-1-2
 157	KiB libaprutil-1-0
 156	KiB libncurses5
+154	KiB curl
 153	KiB libfsoframework3
-153	KiB curl
 151	KiB efl
 150	KiB libatk-1.0-0
 150	KiB e-wm-locale-cs
@@ -368,9 +368,9 @@
 52	KiB libsdl-image-1.2-0
 52	KiB libedbus1
 51	KiB libgstriff-0.10-0
-51	KiB libdrm-radeon1
 50	KiB python-elementtree
 50	KiB phonefsod
+50	KiB libdrm-radeon1
 49	KiB sysfsutils
 48	KiB xinput
 48	KiB xf86-input-mouse
@@ -452,7 +452,6 @@
 26	KiB aspell-locale-en-gb
 25	KiB python-mmap
 25	KiB libxcb-xfixes0
-25	KiB libdrm-nouveau2
 25	KiB libcap2
 25	KiB hicolor-icon-theme
 25	KiB gst-plugins-base-volume
@@ -463,6 +462,7 @@
 24	KiB libpurple-plugin-ssl-gnutls
 24	KiB libgbm1
 24	KiB libefreet-mime1
+24	KiB libdrm-nouveau2
 24	KiB gdk-pixbuf-loader-xpm
 24	KiB foxtrotgps-locale-cs
 23	KiB xkeyboard-config-locale-en-gb
