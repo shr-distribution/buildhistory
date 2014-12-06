@@ -1,13 +1,13 @@
-om-gta02: shr-image configured for shr 2013.07-next-20141202
+om-gta02: shr-image configured for shr 2013.07-next-20141206
 
 Build Configuration:
-BB_VERSION        = "1.24.0"
+BB_VERSION        = "1.25.0"
 BUILD_SYS         = "x86_64-linux"
 NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "arm-oe-linux-gnueabi"
 MACHINE           = "om-gta02"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20141202"
+DISTRO_VERSION    = "2013.07-next-20141206"
 TUNE_FEATURES     = "arm armv4 thumb arm920t"
 TARGET_FPU        = "soft"
 meta-jama         = "master:5d146e5e7f71ad8a81071199cfe94f1ff7cf6cd5"
@@ -15,7 +15,7 @@ meta-shr-distro
 meta-shr          
 meta-aurora       
 meta-fso          
-meta-android      = "jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff"
+meta-android      = "jansa/master:0cc3f3f677ca6fb621f51f16a74e732cf9e8c0ba"
 meta-oe           
 meta-efl          
 meta-gnome        
@@ -27,15 +27,15 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:e95831fbbc239136c7930d88e1b1a397ceec076e"
+meta-systemd      = "jansa/master:662d9a5c485d04f7d13f6db38b0a79688502b042"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
 meta-palm         
 meta-openmoko     
-meta-samsung      = "jansa/master:6ed1caa16c93938725e709e74d8cdddb048aa2ff"
-meta-browser      = "jansa/master:65d14590890e6e7660ee719c7ce724713bcfc5ea"
+meta-samsung      = "jansa/master:0cc3f3f677ca6fb621f51f16a74e732cf9e8c0ba"
+meta-browser      = "jansa/master:63963cc56c8d0291779693e62b66cb16e5c86883"
 meta-games        = "master:c4b6f594246328155fc2fe52aebe8920c078d608"
 meta-handheld     = "jansa/master:37e2130114fe2decd871635a32bbeb2fe1b8254d"
-meta              = "jansa/master:03da6555068f2e6e3ddc64e00b30e0f58cdf2ff1"
+meta              = "jansa/master:ce785c0df8b3e88f4734af548f306f6652d6ca5d"
 

@@ -95,9 +95,9 @@
 496	KiB s3c64xx-gpio
 491	KiB openssh-ssh
 490	KiB screen
+484	KiB dbus-1
 483	KiB libsqlite3-0
 482	KiB foxtrotgps
-478	KiB dbus-1
 478	KiB busybox
 477	KiB libgpsd22
 463	KiB libevent
@@ -131,9 +131,9 @@
 339	KiB libedje-utils
 338	KiB openssh-keygen
 338	KiB libgstfarsight-0.10-0
+333	KiB powertop
 325	KiB mobile-broadband-provider-info
 324	KiB vagalume
-323	KiB powertop
 323	KiB pidgin-locale-cs
 323	KiB glibc-charmap-utf-8
 317	KiB kernel-module-ipv6
@@ -164,8 +164,8 @@
 240	KiB libsdl-1.2-0
 240	KiB libharfbuzz0
 238	KiB e2fsprogs
+237	KiB libcurl5
 236	KiB ppp
-235	KiB libcurl5
 230	KiB python-math
 226	KiB python-dateutil
 226	KiB emtooth2
@@ -238,7 +238,7 @@
 129	KiB xkbcomp
 129	KiB tzdata-europe
 127	KiB libapr-1-0
-126	KiB curl
+127	KiB curl
 124	KiB spojegui
 124	KiB linux-firmware-sd8686
 122	KiB liblightmediascanner0
@@ -262,12 +262,12 @@
 103	KiB lsof
 100	KiB libvorbisidec1
 100	KiB libtirpc1
+100	KiB libdbus-glib-1-2
 100	KiB libatk-1.0-0
 100	KiB eeze
 99	KiB i2c-tools-misc
 99	KiB alsa-utils-alsactl
 98	KiB kmod
-97	KiB libdbus-glib-1-2
 97	KiB htop
 95	KiB libxkbfile1
 94	KiB tzdata
