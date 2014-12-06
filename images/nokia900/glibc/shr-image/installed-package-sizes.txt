@@ -102,8 +102,8 @@
 484	KiB libsoup-2.4
 474	KiB foxtrotgps
 469	KiB libpixman-1-0
+457	KiB dbus-1
 454	KiB libsqlite3-0
-452	KiB dbus-1
 449	KiB busybox
 437	KiB openvpn
 435	KiB python-compression
@@ -142,8 +142,8 @@
 310	KiB libpulsecommon
 308	KiB rsync
 307	KiB python-vobject
+306	KiB powertop
 303	KiB kbd
-295	KiB powertop
 287	KiB libgl-mesa
 284	KiB libc6-utils
 275	KiB nano
@@ -173,7 +173,7 @@
 224	KiB libsdl-1.2-0
 224	KiB libharfbuzz0
 224	KiB emtooth2
-218	KiB libcurl5
+220	KiB libcurl5
 215	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
 211	KiB strace

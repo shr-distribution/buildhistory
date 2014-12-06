@@ -193,7 +193,7 @@ drwxr-xr-x root       root             4096 ./etc/cron.monthly
 drwxr-xr-x root       root             4096 ./etc/cron.weekly
 -rw------- root       root              653 ./etc/crontab
 drwxr-xr-x root       root             4096 ./etc/dbus-1
--rw-r--r-- root       root             2771 ./etc/dbus-1/session.conf
+-rw-r--r-- root       root             2883 ./etc/dbus-1/session.conf
 drwxr-xr-x root       root             4096 ./etc/dbus-1/session.d
 -rw-r--r-- root       root             2997 ./etc/dbus-1/system.conf
 drwxr-xr-x root       root             4096 ./etc/dbus-1/system.d
@@ -1765,9 +1765,9 @@ lrwxrwxrwx root       root               22 ./usr/bin/cut -> /usr/bin/cut.coreut
 -rwxr-xr-x root       root            25360 ./usr/bin/cut.coreutils
 -rwxr-xr-x root       root             8488 ./usr/bin/cvt
 -rwxr-xr-x root       root             6644 ./usr/bin/dbus-cleanup-sockets
--rwxr-xr-x root       root           232708 ./usr/bin/dbus-daemon
+-rwxr-xr-x root       root           236804 ./usr/bin/dbus-daemon
 -rwxr-xr-x root       root             8468 ./usr/bin/dbus-daemon-proxy
--rwxr-xr-x root       root            16732 ./usr/bin/dbus-launch
+-rwxr-xr-x root       root            16728 ./usr/bin/dbus-launch
 -rwxr-xr-x root       root            10268 ./usr/bin/dbus-monitor
 -rwxr-xr-x root       root             7524 ./usr/bin/dbus-run-session
 -rwxr-xr-x root       root            13568 ./usr/bin/dbus-send
@@ -2524,7 +2524,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/tests
 -rwxr-xr-x root       root              927 ./usr/lib/cornucopia/modules/tests/pluginc.la
 -rwxr-xr-x root       root             4340 ./usr/lib/cornucopia/modules/tests/pluginc.so
 drwxr-xr-x root       root             4096 ./usr/lib/dbus
--rwsr-xr-x root       messagebus     164444 ./usr/lib/dbus/dbus-daemon-launch-helper
+-rwsr-xr-x root       messagebus     165044 ./usr/lib/dbus/dbus-daemon-launch-helper
 -rwxr-xr-x root       root             7276 ./usr/lib/e2initrd_helper
 drwxr-xr-x root       root             4096 ./usr/lib/ecore
 drwxr-xr-x root       root             4096 ./usr/lib/ecore/system
@@ -3114,15 +3114,15 @@ lrwxrwxrwx root       root               25 ./usr/lib/libcmtspeechdata.so.0 -> l
 lrwxrwxrwx root       root               21 ./usr/lib/libcroco-0.6.so.3 -> libcroco-0.6.so.3.0.1
 -rwxr-xr-x root       root           148472 ./usr/lib/libcroco-0.6.so.3.0.1
 lrwxrwxrwx root       root               16 ./usr/lib/libcurl.so.5 -> libcurl.so.5.3.0
--rwxr-xr-x root       root           223260 ./usr/lib/libcurl.so.5.3.0
-lrwxrwxrwx root       root               18 ./usr/lib/libdbus-1.so.3 -> libdbus-1.so.3.8.4
--rwxr-xr-x root       root           167156 ./usr/lib/libdbus-1.so.3.8.4
+-rwxr-xr-x root       root           224768 ./usr/lib/libcurl.so.5.3.0
+lrwxrwxrwx root       root               18 ./usr/lib/libdbus-1.so.3 -> libdbus-1.so.3.8.8
+-rwxr-xr-x root       root           167168 ./usr/lib/libdbus-1.so.3.8.8
 lrwxrwxrwx root       root               23 ./usr/lib/libdbus-glib-1.so.2 -> libdbus-glib-1.so.2.2.2
--rwxr-xr-x root       root            94072 ./usr/lib/libdbus-glib-1.so.2.2.2
+-rwxr-xr-x root       root            94448 ./usr/lib/libdbus-glib-1.so.2.2.2
 lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1.0.0
 -rwxr-xr-x root       root             9200 ./usr/lib/libdmx.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libdrm.so.2 -> libdrm.so.2.4.0
--rwxr-xr-x root       root            28040 ./usr/lib/libdrm.so.2.4.0
+-rwxr-xr-x root       root            27996 ./usr/lib/libdrm.so.2.4.0
 -rwxr-xr-x root       root           134692 ./usr/lib/libdw-0.148.so
 lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.148.so
 lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.12.1
@@ -6899,7 +6899,7 @@ lrwxrwxrwx root       root               19 ./usr/sbin/ntpd -> /bin/busybox.nosu
 -rwxr-xr-x root       root             4564 ./usr/sbin/pnroute
 -rwxr-xr-x root       root             5920 ./usr/sbin/pnstat
 lrwxrwxrwx root       root               27 ./usr/sbin/powertop -> /usr/sbin/powertop.powertop
--rwxr-xr-x root       root           302536 ./usr/sbin/powertop.powertop
+-rwxr-xr-x root       root           313004 ./usr/sbin/powertop.powertop
 -rwxr-xr-x root       root               36 ./usr/sbin/ppp-dialin
 -r-sr-xr-x root       root           211336 ./usr/sbin/pppd
 -rwxr-xr-x root       root            27436 ./usr/sbin/pwck
@@ -8953,7 +8953,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_TIME
 lrwxrwxrwx root       root               27 ./usr/share/locale/cs/LC_TIME/coreutils.mo -> ../LC_MESSAGES/coreutils.mo
 drwxr-xr-x root       root             4096 ./usr/share/locale/cs_CZ
 drwxr-xr-x root       root             4096 ./usr/share/locale/cs_CZ/LC_MESSAGES
--rw-r--r-- root       root             8893 ./usr/share/locale/cs_CZ/LC_MESSAGES/powertop.mo
+-rw-r--r-- root       root             8718 ./usr/share/locale/cs_CZ/LC_MESSAGES/powertop.mo
 drwxr-xr-x 1026       1026             4096 ./usr/share/locale/en
 drwxr-xr-x 1026       1026             4096 ./usr/share/locale/en/LC_MESSAGES
 -rw-r--r-- 1026       1026              428 ./usr/share/locale/en/LC_MESSAGES/babiloo.mo
@@ -16198,10 +16198,10 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rwxr-xr-x root       root              237 ./var/lib/opkg/info/cronie.postinst
 -rwxr-xr-x root       root             5606 ./var/lib/opkg/info/cronie.preinst
 -rwxr-xr-x root       root              212 ./var/lib/opkg/info/cronie.prerm
--rw-r--r-- root       root              604 ./var/lib/opkg/info/curl.control
+-rw-r--r-- root       root              550 ./var/lib/opkg/info/curl.control
 -rw-r--r-- root       root               14 ./var/lib/opkg/info/curl.list
 -rw-r--r-- root       root               49 ./var/lib/opkg/info/dbus-1.conffiles
--rw-r--r-- root       root             1054 ./var/lib/opkg/info/dbus-1.control
+-rw-r--r-- root       root             1057 ./var/lib/opkg/info/dbus-1.control
 -rw-r--r-- root       root              802 ./var/lib/opkg/info/dbus-1.list
 -rwxr-xr-x root       root              299 ./var/lib/opkg/info/dbus-1.postinst
 -rwxr-xr-x root       root             5718 ./var/lib/opkg/info/dbus-1.preinst
@@ -16966,19 +16966,19 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root             1318 ./var/lib/opkg/info/libcrypto1.0.0.control
 -rw-r--r-- root       root               24 ./var/lib/opkg/info/libcrypto1.0.0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libcrypto1.0.0.postinst
--rw-r--r-- root       root              696 ./var/lib/opkg/info/libcurl5.control
+-rw-r--r-- root       root              642 ./var/lib/opkg/info/libcurl5.control
 -rw-r--r-- root       root               48 ./var/lib/opkg/info/libcurl5.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libcurl5.postinst
--rw-r--r-- root       root              877 ./var/lib/opkg/info/libdbus-1-3.control
+-rw-r--r-- root       root              879 ./var/lib/opkg/info/libdbus-1-3.control
 -rw-r--r-- root       root               52 ./var/lib/opkg/info/libdbus-1-3.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdbus-1-3.postinst
--rw-r--r-- root       root              769 ./var/lib/opkg/info/libdbus-glib-1-2.control
+-rw-r--r-- root       root              728 ./var/lib/opkg/info/libdbus-glib-1-2.control
 -rw-r--r-- root       root               62 ./var/lib/opkg/info/libdbus-glib-1-2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdbus-glib-1-2.postinst
 -rw-r--r-- root       root              745 ./var/lib/opkg/info/libdmx1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libdmx1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdmx1.postinst
--rw-r--r-- root       root              721 ./var/lib/opkg/info/libdrm2.control
+-rw-r--r-- root       root              686 ./var/lib/opkg/info/libdrm2.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libdrm2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdrm2.postinst
 -rw-r--r-- root       root             1133 ./var/lib/opkg/info/libdw1.control
@@ -17808,13 +17808,13 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root               23 ./var/lib/opkg/info/pointercal-xinput.list
 -rw-r--r-- root       root              311 ./var/lib/opkg/info/pointercal.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/pointercal.list
--rw-r--r-- root       root              616 ./var/lib/opkg/info/powertop-locale-cs-cz.control
+-rw-r--r-- root       root              612 ./var/lib/opkg/info/powertop-locale-cs-cz.control
 -rw-r--r-- root       root              110 ./var/lib/opkg/info/powertop-locale-cs-cz.list
--rw-r--r-- root       root              616 ./var/lib/opkg/info/powertop-locale-en-gb.control
+-rw-r--r-- root       root              612 ./var/lib/opkg/info/powertop-locale-en-gb.control
 -rw-r--r-- root       root               48 ./var/lib/opkg/info/powertop-locale-en-gb.list
--rw-r--r-- root       root              616 ./var/lib/opkg/info/powertop-locale-en-us.control
+-rw-r--r-- root       root              612 ./var/lib/opkg/info/powertop-locale-en-us.control
 -rw-r--r-- root       root              110 ./var/lib/opkg/info/powertop-locale-en-us.list
--rw-r--r-- root       root              638 ./var/lib/opkg/info/powertop.control
+-rw-r--r-- root       root              634 ./var/lib/opkg/info/powertop.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/powertop.list
 -rwxr-xr-x root       root              101 ./var/lib/opkg/info/powertop.postinst
 -rwxr-xr-x root       root               78 ./var/lib/opkg/info/powertop.postrm
@@ -18202,9 +18202,9 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88189 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6666137 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          6664933 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           271317 ./var/lib/opkg/lists/oe-nokia900
--rw-r--r-- root       root           223877 ./var/lib/opkg/status
+-rw-r--r-- root       root           223871 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
