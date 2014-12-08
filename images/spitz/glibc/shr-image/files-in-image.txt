@@ -2894,7 +2894,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/gconv
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
--rw-r--r-- root       root                0 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
+-rw-r--r-- root       root             1180 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
 -rwxr-xr-x root       root            18772 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so
 -rwxr-xr-x root       root            15360 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
 -rwxr-xr-x root       root            13196 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
@@ -17990,8 +17990,8 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88189 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           320249 ./var/lib/opkg/lists/oe-spitz
--rw-r--r-- root       root          6495538 ./var/lib/opkg/lists/oe-xscalete
--rw-r--r-- root       root           208581 ./var/lib/opkg/status
+-rw-r--r-- root       root          6495545 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root           208586 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
