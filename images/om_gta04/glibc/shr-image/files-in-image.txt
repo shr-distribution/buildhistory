@@ -2932,7 +2932,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/gconv
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
--rw-r--r-- root       root                0 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
+-rw-r--r-- root       root             1180 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
 -rwxr-xr-x root       root            16904 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so
 -rwxr-xr-x root       root            13044 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
 -rwxr-xr-x root       root            12868 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
@@ -18059,9 +18059,9 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88189 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6664933 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          6664940 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           300118 ./var/lib/opkg/lists/oe-om_gta04
--rw-r--r-- root       root           217948 ./var/lib/opkg/status
+-rw-r--r-- root       root           217953 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
