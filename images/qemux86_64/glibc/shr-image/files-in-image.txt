@@ -2842,7 +2842,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/gconv
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0
 drwxr-xr-x root       root             4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
--rw-r--r-- root       root                0 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
+-rw-r--r-- root       root             1180 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
 -rwxr-xr-x root       root            25704 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so
 -rwxr-xr-x root       root            20600 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
 -rwxr-xr-x root       root            19992 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
@@ -17819,7 +17819,7 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- root       root            88189 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          6514836 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           322831 ./var/lib/opkg/lists/oe-qemux86_64
--rw-r--r-- root       root           200944 ./var/lib/opkg/status
+-rw-r--r-- root       root           200949 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
