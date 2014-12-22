@@ -1,7 +1,7 @@
-PV = 3.17++gitAUTOINC+3283372105_cad8f6f707
+PV = 3.17++gitAUTOINC+b81030f9ec_5ff54d8fbf
 PR = r0
-PKGV = 3.17++git4+3283372105_cad8f6f707
-PKGR = r0.4
+PKGV = 3.17++git5+b81030f9ec_5ff54d8fbf
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = kernel-base
 RRECOMMENDS = 

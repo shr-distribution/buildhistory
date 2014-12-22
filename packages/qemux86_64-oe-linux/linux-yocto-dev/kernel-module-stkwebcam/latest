@@ -1,10 +1,10 @@
-PV = 3.17++gitAUTOINC+3283372105_cad8f6f707
+PV = 3.17++gitAUTOINC+b81030f9ec_5ff54d8fbf
 PR = r0
-PKGV = 3.17++git4+3283372105_cad8f6f707
-PKGR = r0.4
+PKGV = 3.17++git5+b81030f9ec_5ff54d8fbf
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = kernel-3.17.2-yocto-standard kernel-module-media kernel-module-v4l2-common kernel-module-videodev
+RDEPENDS = kernel-3.17.6-yocto-standard kernel-module-media kernel-module-v4l2-common kernel-module-videodev
 RRECOMMENDS = 
 PKGSIZE = 40664
-FILES = /lib/modules/3.17.2-yocto-standard/kernel/drivers/media/usb/stkwebcam/stkwebcam.ko /etc/modules-load.d/stkwebcam.conf /etc/modprobe.d/stkwebcam.conf
-FILELIST = /lib/modules/3.17.2-yocto-standard/kernel/drivers/media/usb/stkwebcam/stkwebcam.ko
+FILES = /lib/modules/3.17.6-yocto-standard/kernel/drivers/media/usb/stkwebcam/stkwebcam.ko /etc/modules-load.d/stkwebcam.conf /etc/modprobe.d/stkwebcam.conf
+FILELIST = /lib/modules/3.17.6-yocto-standard/kernel/drivers/media/usb/stkwebcam/stkwebcam.ko

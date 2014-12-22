@@ -1,10 +1,10 @@
-PV = 3.17++gitAUTOINC+3283372105_cad8f6f707
+PV = 3.17++gitAUTOINC+b81030f9ec_5ff54d8fbf
 PR = r0
-PKGV = 3.17++git4+3283372105_cad8f6f707
-PKGR = r0.4
+PKGV = 3.17++git5+b81030f9ec_5ff54d8fbf
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = kernel-3.17.2-yocto-standard kernel-module-nf-conntrack
+RDEPENDS = kernel-3.17.6-yocto-standard kernel-module-nf-conntrack
 RRECOMMENDS = 
-PKGSIZE = 18544
-FILES = /lib/modules/3.17.2-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_sctp.ko /etc/modules-load.d/nf_conntrack_proto_sctp.conf /etc/modprobe.d/nf_conntrack_proto_sctp.conf
-FILELIST = /lib/modules/3.17.2-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_sctp.ko
+PKGSIZE = 18480
+FILES = /lib/modules/3.17.6-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_sctp.ko /etc/modules-load.d/nf_conntrack_proto_sctp.conf /etc/modprobe.d/nf_conntrack_proto_sctp.conf
+FILELIST = /lib/modules/3.17.6-yocto-standard/kernel/net/netfilter/nf_conntrack_proto_sctp.ko
