@@ -34,7 +34,7 @@
 1900	KiB python-lxml
 1842	KiB shr-splash-theme-logo
 1630	KiB pidgin-data
-1602	KiB xserver-xorg
+1601	KiB xserver-xorg
 1559	KiB libx11-locale
 1541	KiB liberation-fonts
 1519	KiB gstreamer
@@ -70,8 +70,8 @@
 758	KiB libedje1
 753	KiB python-gst
 743	KiB iptables
+723	KiB libgnutls28
 721	KiB libcairo2
-715	KiB libgnutls28
 710	KiB libstdc++6
 708	KiB pidgin
 691	KiB python-lang
@@ -100,10 +100,12 @@
 482	KiB foxtrotgps
 478	KiB busybox
 477	KiB libgpsd22
+475	KiB libgl-mesa
 463	KiB libevent
-450	KiB openvpn
+448	KiB openvpn
 436	KiB python-compression
 427	KiB om-neon
+417	KiB procps
 410	KiB libpixman-1-0
 410	KiB fsodeviced
 401	KiB python-dbus
@@ -127,7 +129,6 @@
 351	KiB coreutils-locale-cs
 349	KiB libical
 344	KiB libpulsecommon
-339	KiB libgl-mesa
 339	KiB libedje-utils
 338	KiB openssh-keygen
 338	KiB libgstfarsight-0.10-0
@@ -142,7 +143,6 @@
 307	KiB python-vobject
 290	KiB libsndfile1
 288	KiB libc6-utils
-286	KiB procps
 274	KiB socat
 273	KiB nano
 272	KiB python-json
@@ -174,12 +174,12 @@
 218	KiB libxslt
 215	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
+213	KiB libglapi0
 212	KiB strace
 210	KiB elfutils
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
 205	KiB gst-plugins-base-playbin
-202	KiB libglapi0
 202	KiB libgee2
 201	KiB python-difflib
 200	KiB libext2fs2
@@ -256,6 +256,7 @@
 108	KiB shr-e-gadgets
 108	KiB opimd-utils
 108	KiB libncurses5
+108	KiB libegl-mesa
 107	KiB liblzma5
 106	KiB libgisi0
 104	KiB libtinfo5
@@ -281,7 +282,6 @@
 89	KiB libfsoframework3
 87	KiB libnl-3-200
 87	KiB libglib-2.0-locale-en-gb
-87	KiB libegl-mesa
 85	KiB nmon
 85	KiB gst-plugins-base-decodebin2
 84	KiB liblzo2-2
@@ -392,6 +392,7 @@
 38	KiB python-pyalsaaudio
 38	KiB python-image
 38	KiB opimd-utils-notes
+38	KiB libgbm1
 37	KiB pulseaudio-locale-cs
 36	KiB kernel-module-sd-mod
 36	KiB alsa-utils-amixer
@@ -407,7 +408,6 @@
 33	KiB kernel-module-ppp-generic
 33	KiB gst-plugins-ugly-mad
 32	KiB libnfsidmap0
-32	KiB libgles2-mesa
 32	KiB kernel-module-aes-generic
 31	KiB tzdata-australia
 31	KiB python-pprint
@@ -417,18 +417,18 @@
 31	KiB libgdbm4
 31	KiB json-c
 31	KiB gst-plugins-good-gconfelements
+30	KiB libgles2-mesa
 30	KiB e-wm-config-illume2-shr
 29	KiB kernel-module-autofs4
-28	KiB libgles1-mesa
 27	KiB xdpyinfo
 27	KiB util-linux-mount
 27	KiB python-pyrtc
 27	KiB libxrender1
-27	KiB libgnutls-locale-cs
 27	KiB kernel-module-usbhid
 26	KiB xauth
 26	KiB libxcursor1
 26	KiB libpci3
+26	KiB libgnutls-locale-cs
 26	KiB libc6-thread-db
 26	KiB kernel-module-ohci-hcd
 26	KiB fbset
@@ -496,6 +496,7 @@
 19	KiB libnl-3-genl
 19	KiB gdk-pixbuf-loader-gif
 18	KiB python-terminal
+18	KiB libgles1-mesa
 18	KiB libfsoresource3
 18	KiB kernel-module-s3c2410-udc
 18	KiB kernel-module-bnep
@@ -515,7 +516,6 @@
 16	KiB libss2
 16	KiB libpurple-plugin-ssl-gnutls
 16	KiB libogg0
-16	KiB libgbm1
 16	KiB kernel-module-ip-tables
 16	KiB kernel-3.2.52
 16	KiB gst-plugins-base-locale-cs
