@@ -171,7 +171,7 @@ init-ifupdown
 iptables
 json-c
 kernel
-kernel-3.17.2-yocto-standard
+kernel-3.17.6-yocto-standard
 kernel-module-crc-ccitt
 kernel-module-ip-tables
 kernel-module-iptable-filter

@@ -1,5 +1,5 @@
 42035	KiB webkit-efl
-30497	KiB mesa-megadriver
+31627	KiB mesa-megadriver
 21025	KiB libicudata53
 12290	KiB vim-common
 10690	KiB systemd
@@ -30,7 +30,7 @@
 2453	KiB python-lxml
 2415	KiB terminology
 2396	KiB ttf-dejavu-sans
-2332	KiB xserver-xorg
+2333	KiB xserver-xorg
 2237	KiB libicui18n53
 2182	KiB advancedcaching
 2097	KiB shared-mime-info
@@ -64,9 +64,9 @@
 1229	KiB python-netclient
 1201	KiB e2fsprogs-e2fsck
 1103	KiB python-xml
+1102	KiB libgnutls28
 1099	KiB iptables
 1098	KiB python-gst
-1090	KiB libgnutls28
 1066	KiB libcairo2
 1064	KiB pidgin
 1047	KiB babiloo-efl
@@ -94,11 +94,12 @@
 741	KiB serial-forward
 727	KiB s3c64xx-gpio
 727	KiB s3c24xx-gpio
-695	KiB openvpn
+696	KiB openvpn
 680	KiB libpixman-1-0
 669	KiB shr-settings
 645	KiB python-edje
 638	KiB libevent
+618	KiB libgl-mesa
 612	KiB openssh-ssh
 609	KiB libfreetype6
 605	KiB screen
@@ -107,6 +108,7 @@
 581	KiB busybox
 573	KiB libjpeg8
 560	KiB gconf
+556	KiB procps
 548	KiB libical
 525	KiB foxtrotgps
 517	KiB python-multiprocessing
@@ -120,7 +122,6 @@
 468	KiB powertop
 467	KiB libgmp10
 464	KiB libtiff5
-456	KiB libgl-mesa
 452	KiB python-dbus
 448	KiB python-compression
 447	KiB rsync
@@ -139,7 +140,6 @@
 385	KiB libreadline6
 381	KiB enchant
 379	KiB libnl-route-3-200
-378	KiB procps
 375	KiB vagalume
 371	KiB python-logging
 367	KiB libsndfile1
@@ -166,8 +166,8 @@
 311	KiB fsoaudiod
 307	KiB python-vobject
 307	KiB libxslt
+307	KiB libglapi0
 298	KiB libasound-module-bluez
-291	KiB libglapi0
 285	KiB python-json
 284	KiB nfs-utils-client
 282	KiB libdbus-1-3
@@ -242,6 +242,7 @@
 149	KiB xinput-calibrator
 149	KiB libnl-3-cli
 147	KiB libtirpc1
+147	KiB libegl-mesa
 146	KiB glibc-locale-cs
 146	KiB gdk-pixbuf
 145	KiB liblzma5
@@ -262,13 +263,12 @@
 129	KiB libgps21
 129	KiB libdrm-intel1
 128	KiB shr-e-gadgets
-126	KiB libegl-mesa
 125	KiB watchdog
-125	KiB kernel-module-nf-conntrack
 124	KiB spojegui
 124	KiB python-stringold
 124	KiB linux-firmware-sd8686
 124	KiB libxcb1
+124	KiB kernel-module-nf-conntrack
 123	KiB libphone-ui0
 121	KiB libmad0
 121	KiB eeze
@@ -375,6 +375,7 @@
 48	KiB xinput
 48	KiB xf86-input-mouse
 48	KiB libpopt0
+48	KiB libgbm1
 48	KiB kernel-module-ppp-generic
 48	KiB alsa-utils-amixer
 47	KiB mime-support
@@ -402,7 +403,6 @@
 39	KiB kernel-module-snd-rawmidi
 38	KiB python-crypt
 38	KiB opimd-utils-notes
-38	KiB libgles2-mesa
 37	KiB pulseaudio-locale-cs
 37	KiB libxrender1
 37	KiB libxrandr2
@@ -411,11 +411,11 @@
 36	KiB libgif4
 36	KiB gst-plugins-good-autodetect
 35	KiB util-linux-agetty
+35	KiB libgles2-mesa
 34	KiB libwrap0
 34	KiB gstreamer-locale-cs
 33	KiB libpciaccess0
 33	KiB liblinebreak1
-33	KiB libgles1-mesa
 33	KiB fsonetworkd
 33	KiB fbset
 32	KiB xdpyinfo
@@ -445,10 +445,10 @@
 28	KiB ecore-file
 27	KiB xset
 27	KiB libphone-utils0
-27	KiB libgnutls-locale-cs
 27	KiB libfsoresource3
 27	KiB libfontenc1
 26	KiB mtdev
+26	KiB libgnutls-locale-cs
 26	KiB aspell-locale-en-gb
 25	KiB python-mmap
 25	KiB libxcb-xfixes0
@@ -460,7 +460,6 @@
 24	KiB python-zlib
 24	KiB python-image
 24	KiB libpurple-plugin-ssl-gnutls
-24	KiB libgbm1
 24	KiB libefreet-mime1
 24	KiB libdrm-nouveau2
 24	KiB gdk-pixbuf-loader-xpm
@@ -475,6 +474,7 @@
 22	KiB xf86-input-keyboard
 22	KiB opkg
 22	KiB libxtst6
+22	KiB libgles1-mesa
 22	KiB gdk-pixbuf-locale-cs
 21	KiB xz-locale-cs
 21	KiB xf86-video-fbdev
@@ -490,7 +490,7 @@
 20	KiB libxfixes3
 20	KiB libxdmcp6
 20	KiB killall
-20	KiB kernel-3.17.2-yocto-standard
+20	KiB kernel-3.17.6-yocto-standard
 20	KiB gdk-pixbuf-locale-en-gb
 20	KiB gdk-pixbuf-loader-png
 20	KiB gdk-pixbuf-loader-jpeg
