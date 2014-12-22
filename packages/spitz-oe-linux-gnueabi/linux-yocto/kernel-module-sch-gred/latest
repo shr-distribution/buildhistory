@@ -1,10 +1,10 @@
-PV = 3.10.55+gitAUTOINC+f79a00265e_3677ea7f94
+PV = 3.17.6+gitAUTOINC+b81030f9ec_5ff54d8fbf
 PR = r0
-PKGV = 3.10.55+git1+f79a00265e_3677ea7f94
-PKGR = r0.4
+PKGV = 3.17.6+git0+b81030f9ec_5ff54d8fbf
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.10.55-ltsi-yocto-standard
+RDEPENDS = kernel-3.17.6-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 10536
-FILES = /lib/modules/3.10.55-ltsi-yocto-standard/kernel/net/sched/sch_gred.ko /etc/modules-load.d/sch_gred.conf /etc/modprobe.d/sch_gred.conf
-FILELIST = /lib/modules/3.10.55-ltsi-yocto-standard/kernel/net/sched/sch_gred.ko
+PKGSIZE = 10416
+FILES = /lib/modules/3.17.6-yocto-standard/kernel/net/sched/sch_gred.ko /etc/modules-load.d/sch_gred.conf /etc/modprobe.d/sch_gred.conf
+FILELIST = /lib/modules/3.17.6-yocto-standard/kernel/net/sched/sch_gred.ko

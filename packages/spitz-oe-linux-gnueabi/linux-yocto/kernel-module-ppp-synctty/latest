@@ -1,10 +1,10 @@
-PV = 3.10.55+gitAUTOINC+f79a00265e_3677ea7f94
+PV = 3.17.6+gitAUTOINC+b81030f9ec_5ff54d8fbf
 PR = r0
-PKGV = 3.10.55+git1+f79a00265e_3677ea7f94
-PKGR = r0.4
+PKGV = 3.17.6+git0+b81030f9ec_5ff54d8fbf
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.10.55-ltsi-yocto-standard kernel-module-ppp-generic kernel-module-slhc
+RDEPENDS = kernel-3.17.6-yocto-standard kernel-module-ppp-generic kernel-module-slhc
 RRECOMMENDS = 
-PKGSIZE = 10380
-FILES = /lib/modules/3.10.55-ltsi-yocto-standard/kernel/drivers/net/ppp/ppp_synctty.ko /etc/modules-load.d/ppp_synctty.conf /etc/modprobe.d/ppp_synctty.conf
-FILELIST = /lib/modules/3.10.55-ltsi-yocto-standard/kernel/drivers/net/ppp/ppp_synctty.ko
+PKGSIZE = 10436
+FILES = /lib/modules/3.17.6-yocto-standard/kernel/drivers/net/ppp/ppp_synctty.ko /etc/modules-load.d/ppp_synctty.conf /etc/modprobe.d/ppp_synctty.conf
+FILELIST = /lib/modules/3.17.6-yocto-standard/kernel/drivers/net/ppp/ppp_synctty.ko
