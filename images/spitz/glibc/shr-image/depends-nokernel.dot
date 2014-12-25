@@ -490,10 +490,10 @@ digraph depends {
 "elementary" -> "luajit";
 "elementary-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "elementary-theme-gry" -> "e-wm-theme-illume-gry" [style=dotted];
-"elfutils" -> "libasm1";
 "elfutils" -> "libc6";
 "elfutils" -> "libdw1";
 "elfutils" -> "libelf1";
+"elfutils" -> "libstdc++6";
 "embryo" -> "eina";
 "embryo" -> "libc6";
 "emtooth2" -> "bluez4";
@@ -1247,8 +1247,6 @@ digraph depends {
 "libaprutil-1-0" -> "libexpat1";
 "libaprutil-1-0" -> "libgdbm4";
 "libaprutil-1-0" -> "libuuid1";
-"libasm1" -> "libc6";
-"libasm1" -> "libelf1";
 "libasound-module-bluez" -> "libasound2";
 "libasound-module-bluez" -> "libc6";
 "libasound2" -> "alsa-conf";
@@ -3242,6 +3240,7 @@ digraph depends {
 "rpcbind" -> "shadow";
 "rpcbind" -> "update-rc.d" [style=dotted];
 "rsync" -> "libacl1";
+"rsync" -> "libattr1";
 "rsync" -> "libc6";
 "rsync" -> "libpopt0";
 "run-postinsts" -> "update-rc.d" [style=dotted];

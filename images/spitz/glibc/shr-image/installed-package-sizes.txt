@@ -12,8 +12,8 @@
 3675	KiB coreutils
 3639	KiB gdb
 3485	KiB libgtk-2.0
+3077	KiB file
 2999	KiB libc6
-2881	KiB file
 2792	KiB elementary
 2760	KiB frameworkd
 2748	KiB mesa-demos
@@ -58,7 +58,7 @@
 980	KiB libx11-6
 954	KiB shadow
 949	KiB python-ctypes
-942	KiB libxml2
+946	KiB libxml2
 922	KiB e2fsprogs-e2fsck
 913	KiB python-core
 891	KiB fso-sounds
@@ -102,6 +102,7 @@
 469	KiB dbus-1
 463	KiB libgl-mesa
 453	KiB libevent
+444	KiB libdw1
 440	KiB openvpn
 436	KiB python-compression
 427	KiB om-neon
@@ -124,7 +125,6 @@
 353	KiB libtiff5
 352	KiB sysstat
 351	KiB nettle
-351	KiB libdw1
 351	KiB coreutils-locale-cs
 349	KiB pango
 343	KiB libical
@@ -167,7 +167,7 @@
 236	KiB libharfbuzz0
 236	KiB e2fsprogs
 234	KiB libsdl-1.2-0
-233	KiB ppp
+232	KiB ppp
 232	KiB libcurl5
 229	KiB python-math
 226	KiB python-dateutil
@@ -177,9 +177,9 @@
 215	KiB e-wm-theme-illume-gry
 214	KiB libxslt
 214	KiB gtk+-locale-cs
+212	KiB elfutils
 211	KiB strace
 208	KiB libglapi0
-208	KiB elfutils
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
 201	KiB python-difflib
@@ -228,7 +228,7 @@
 140	KiB e-wm-utils
 138	KiB python-pyserial
 138	KiB libpng16-16
-136	KiB make
+137	KiB make
 132	KiB python-subprocess
 132	KiB libopkg1
 132	KiB fsodeviced-config
@@ -294,10 +294,10 @@
 75	KiB mtd-utils-jffs2
 75	KiB libshr-glib0
 74	KiB libyaml-0-2
+74	KiB libelf1
 73	KiB ffphonelog
 72	KiB libglade-2.0-0
 71	KiB usb-modeswitch
-70	KiB libelf1
 70	KiB i2c-tools
 69	KiB pam-plugin-unix
 69	KiB libgstrtp-0.10-0
@@ -366,13 +366,13 @@
 47	KiB glib-networking
 47	KiB alsa-utils-alsamixer
 45	KiB zaurusd
-45	KiB make-locale-cs
 45	KiB libudev1
+44	KiB make-locale-cs
 44	KiB libedbus1
 44	KiB kernel-module-snd-pcm-oss
 44	KiB kernel-module-rfcomm
 44	KiB gst-plugins-base
-40	KiB logrotate
+41	KiB logrotate
 40	KiB libxext6
 40	KiB libgstriff-0.10-0
 40	KiB findutils-locale-cs
@@ -468,7 +468,6 @@
 20	KiB libmenuw5
 20	KiB libfontenc1
 20	KiB libe2p2
-20	KiB libasm1
 20	KiB libacl1
 20	KiB gdk-pixbuf-locale-en-gb
 20	KiB gdk-pixbuf-loader-xpm

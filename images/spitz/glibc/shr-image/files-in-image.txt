@@ -534,7 +534,7 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 -rw-r--r-- root       root             1633 ./etc/inputrc
 -rw-r--r-- root       root               33 ./etc/issue
 -rw-r--r-- root       root               30 ./etc/issue.net
--rw-r--r-- root       root            18405 ./etc/ld.so.cache
+-rw-r--r-- root       root            18348 ./etc/ld.so.cache
 -rw-r--r-- root       root                0 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -542,7 +542,7 @@ drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1960 ./etc/libphoneui.conf
 lrwxrwxrwx root       root               29 ./etc/localtime -> /usr/share/zoneinfo/Universal
 -rw-r--r-- root       root            10944 ./etc/login.defs
--rw-r--r-- root       root              662 ./etc/logrotate.conf
+-rw-r--r-- root       root              665 ./etc/logrotate.conf
 drwxr-xr-x root       root             4096 ./etc/logrotate.d
 -rw-r--r-- root       root            14867 ./etc/ltrace.conf
 -rw-r--r-- root       root                0 ./etc/machine-id
@@ -1844,15 +1844,15 @@ lrwxrwxrwx root       root               22 ./usr/bin/env -> /usr/bin/env.coreut
 -rwxr-xr-x root       root             9084 ./usr/bin/ethumb
 -rwxr-xr-x root       root            26616 ./usr/bin/ethumbd
 -rwxr-xr-x root       root            10100 ./usr/bin/ethumbd_client
--rwxr-xr-x root       root            22568 ./usr/bin/eu-ar
--rwxr-xr-x root       root            20508 ./usr/bin/eu-elfcmp
--rwxr-xr-x root       root            74268 ./usr/bin/eu-elflint
--rwxr-xr-x root       root            11808 ./usr/bin/eu-findtextrel
--rwxr-xr-x root       root             2919 ./usr/bin/eu-make-debug-archive
--rwxr-xr-x root       root            20556 ./usr/bin/eu-objdump
--rwxr-xr-x root       root            11700 ./usr/bin/eu-ranlib
--rwxr-xr-x root       root            12896 ./usr/bin/eu-strings
--rwxr-xr-x root       root            35852 ./usr/bin/eu-unstrip
+-rwxr-xr-x root       root            23452 ./usr/bin/eu-ar
+-rwxr-xr-x root       root            24672 ./usr/bin/eu-elfcmp
+-rwxr-xr-x root       root            74904 ./usr/bin/eu-elflint
+-rwxr-xr-x root       root            11824 ./usr/bin/eu-findtextrel
+-rwxr-xr-x root       root             2911 ./usr/bin/eu-make-debug-archive
+-rwxr-xr-x root       root            12284 ./usr/bin/eu-ranlib
+-rwxr-xr-x root       root            17136 ./usr/bin/eu-stack
+-rwxr-xr-x root       root            12976 ./usr/bin/eu-strings
+-rwxr-xr-x root       root            37104 ./usr/bin/eu-unstrip
 -rwxr-xr-x root       root             7384 ./usr/bin/evas_cserve2_client
 -rwxr-xr-x root       root             8492 ./usr/bin/evas_cserve2_debug
 -rwxr-xr-x root       root            16500 ./usr/bin/evas_cserve2_shm_debug
@@ -1880,7 +1880,7 @@ lrwxrwxrwx root       root               25 ./usr/bin/factor -> /usr/bin/factor.
 lrwxrwxrwx root       root               22 ./usr/bin/fgconsole -> /usr/bin/fgconsole.kbd
 -rwxr-xr-x root       root             5184 ./usr/bin/fgconsole.kbd
 -rwxr-xr-x root       root            48240 ./usr/bin/filan
--rwxr-xr-x root       root            12576 ./usr/bin/file
+-rwxr-xr-x root       root            13364 ./usr/bin/file
 lrwxrwxrwx root       root               23 ./usr/bin/find -> /usr/bin/find.findutils
 -rwxr-xr-x root       root           171056 ./usr/bin/find.findutils
 lrwxrwxrwx root       root               19 ./usr/bin/flock -> /bin/busybox.nosuid
@@ -1989,14 +1989,14 @@ lrwxrwxrwx root       root               23 ./usr/bin/link -> /usr/bin/link.core
 lrwxrwxrwx root       root               19 ./usr/bin/logger -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               26 ./usr/bin/logname -> /usr/bin/logname.coreutils
 -rwxr-xr-x root       root            18500 ./usr/bin/logname.coreutils
--rwxr-xr-x root       root            40208 ./usr/bin/logrotate
+-rwxr-xr-x root       root            40928 ./usr/bin/logrotate
 -rwxr-xr-x root       root             6304 ./usr/bin/lsattr
 -rwxr-xr-x root       root            73852 ./usr/bin/lsusb
 -rwxr-xr-x root       root            13399 ./usr/bin/lsusb.py
 -rwxr-xr-x root       root            98636 ./usr/bin/ltrace
 lrwxrwxrwx root       root               12 ./usr/bin/luajit -> luajit-2.0.3
 -rwxr-xr-x root       root           283292 ./usr/bin/luajit-2.0.3
--rwxr-xr-x root       root           139212 ./usr/bin/make
+-rwxr-xr-x root       root           140164 ./usr/bin/make
 -rwxr-xr-x root       root            13936 ./usr/bin/makedb
 -rwxr-xr-x root       root            10920 ./usr/bin/manywin
 -rwxr-xr-x root       root            10908 ./usr/bin/mapscrn
@@ -2140,7 +2140,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/reset -> /bin/busybox.nosu
 -rwxr-xr-x root       root            46256 ./usr/bin/rfcomm
 lrwxrwxrwx root       root                4 ./usr/bin/rnano -> nano
 -rwxr-xr-x root       root            71508 ./usr/bin/rpcgen
--rwxr-xr-x root       root           314016 ./usr/bin/rsync
+-rwxr-xr-x root       root           314088 ./usr/bin/rsync
 -rwxr-xr-x root       root              167 ./usr/bin/run-calibrate.sh
 -rwxr-xr-x root       root            16898 ./usr/bin/run-mailcap
 lrwxrwxrwx root       root               25 ./usr/bin/runcon -> /usr/bin/runcon.coreutils
@@ -2290,7 +2290,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/uniq -> /usr/bin/uniq.core
 lrwxrwxrwx root       root               25 ./usr/bin/unlink -> /usr/bin/unlink.coreutils
 -rwxr-xr-x root       root            18552 ./usr/bin/unlink.coreutils
 lrwxrwxrwx root       root               19 ./usr/bin/unzip -> /bin/busybox.nosuid
--rwxr-xr-x root       root             4342 ./usr/bin/update-alternatives
+-rwxr-xr-x root       root             4341 ./usr/bin/update-alternatives
 -rwxr-xr-x root       root            33256 ./usr/bin/update-mime-database
 -rwxr-xr-x root       root            10460 ./usr/bin/updatedb
 lrwxrwxrwx root       root               25 ./usr/bin/uptime -> /usr/bin/uptime.coreutils
@@ -2335,8 +2335,8 @@ lrwxrwxrwx root       root               24 ./usr/bin/xargs -> /usr/bin/xargs.fi
 -rwxr-xr-x root       root             1335 ./usr/bin/xinput_calibrator_once.sh
 -rwxr-xr-x root       root           132360 ./usr/bin/xkbcomp
 -rwxr-xr-x root       root            14659 ./usr/bin/xkeystone
--rwxr-xr-x root       root            11252 ./usr/bin/xmlcatalog
--rwxr-xr-x root       root            45140 ./usr/bin/xmllint
+-rwxr-xr-x root       root            11260 ./usr/bin/xmlcatalog
+-rwxr-xr-x root       root            47948 ./usr/bin/xmllint
 -rwxr-xr-x root       root            20364 ./usr/bin/xmodmap
 -rwxr-xr-x root       root            43032 ./usr/bin/xrandr
 -rwxr-xr-x root       root            10204 ./usr/bin/xrotfontdemo
@@ -2506,32 +2506,36 @@ drwxr-xr-x root       root             4096 ./usr/lib/elementary/modules/prefs/v
 -rw-r--r-- root       root             5425 ./usr/lib/elementary/modules/prefs/v-1.12.1/elm_prefs_swallow.edj
 -rwxr-xr-x root       root            44360 ./usr/lib/elementary/modules/prefs/v-1.12.1/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/elfutils
--rwxr-xr-x root       root            10632 ./usr/lib/elfutils/libebl_alpha-0.148.so
-lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_alpha.so -> libebl_alpha-0.148.so
--rwxr-xr-x root       root            15752 ./usr/lib/elfutils/libebl_arm-0.148.so
-lrwxrwxrwx root       root               19 ./usr/lib/elfutils/libebl_arm.so -> libebl_arm-0.148.so
--rwxr-xr-x root       root            39824 ./usr/lib/elfutils/libebl_i386-0.148.so
-lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_i386.so -> libebl_i386-0.148.so
--rwxr-xr-x root       root            14112 ./usr/lib/elfutils/libebl_ia64-0.148.so
-lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_ia64.so -> libebl_ia64-0.148.so
--rwxr-xr-x root       root             4372 ./usr/lib/elfutils/libebl_m68k-0.148.so
-lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_m68k.so -> libebl_m68k-0.148.so
--rwxr-xr-x root       root             7648 ./usr/lib/elfutils/libebl_mips-0.148.so
-lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_mips.so -> libebl_mips-0.148.so
--rwxr-xr-x root       root             9940 ./usr/lib/elfutils/libebl_parisc-0.148.so
-lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_parisc.so -> libebl_parisc-0.148.so
--rwxr-xr-x root       root            14832 ./usr/lib/elfutils/libebl_ppc-0.148.so
-lrwxrwxrwx root       root               19 ./usr/lib/elfutils/libebl_ppc.so -> libebl_ppc-0.148.so
--rwxr-xr-x root       root            12412 ./usr/lib/elfutils/libebl_ppc64-0.148.so
-lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_ppc64.so -> libebl_ppc64-0.148.so
--rwxr-xr-x root       root             6596 ./usr/lib/elfutils/libebl_s390-0.148.so
-lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_s390.so -> libebl_s390-0.148.so
--rwxr-xr-x root       root             8812 ./usr/lib/elfutils/libebl_sh-0.148.so
-lrwxrwxrwx root       root               18 ./usr/lib/elfutils/libebl_sh.so -> libebl_sh-0.148.so
--rwxr-xr-x root       root            15300 ./usr/lib/elfutils/libebl_sparc-0.148.so
-lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_sparc.so -> libebl_sparc-0.148.so
--rwxr-xr-x root       root            41316 ./usr/lib/elfutils/libebl_x86_64-0.148.so
-lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_x86_64.so -> libebl_x86_64-0.148.so
+-rwxr-xr-x root       root            24392 ./usr/lib/elfutils/libebl_aarch64-0.160.so
+lrwxrwxrwx root       root               23 ./usr/lib/elfutils/libebl_aarch64.so -> libebl_aarch64-0.160.so
+-rwxr-xr-x root       root            10644 ./usr/lib/elfutils/libebl_alpha-0.160.so
+lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_alpha.so -> libebl_alpha-0.160.so
+-rwxr-xr-x root       root            17476 ./usr/lib/elfutils/libebl_arm-0.160.so
+lrwxrwxrwx root       root               19 ./usr/lib/elfutils/libebl_arm.so -> libebl_arm-0.160.so
+-rwxr-xr-x root       root            40464 ./usr/lib/elfutils/libebl_i386-0.160.so
+lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_i386.so -> libebl_i386-0.160.so
+-rwxr-xr-x root       root            14112 ./usr/lib/elfutils/libebl_ia64-0.160.so
+lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_ia64.so -> libebl_ia64-0.160.so
+-rwxr-xr-x root       root             5824 ./usr/lib/elfutils/libebl_m68k-0.160.so
+lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_m68k.so -> libebl_m68k-0.160.so
+-rwxr-xr-x root       root             7688 ./usr/lib/elfutils/libebl_mips-0.160.so
+lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_mips.so -> libebl_mips-0.160.so
+-rwxr-xr-x root       root             9940 ./usr/lib/elfutils/libebl_parisc-0.160.so
+lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_parisc.so -> libebl_parisc-0.160.so
+-rwxr-xr-x root       root            14844 ./usr/lib/elfutils/libebl_ppc-0.160.so
+lrwxrwxrwx root       root               19 ./usr/lib/elfutils/libebl_ppc.so -> libebl_ppc-0.160.so
+-rwxr-xr-x root       root            14800 ./usr/lib/elfutils/libebl_ppc64-0.160.so
+lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_ppc64.so -> libebl_ppc64-0.160.so
+-rwxr-xr-x root       root            12580 ./usr/lib/elfutils/libebl_s390-0.160.so
+lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_s390.so -> libebl_s390-0.160.so
+-rwxr-xr-x root       root             8876 ./usr/lib/elfutils/libebl_sh-0.160.so
+lrwxrwxrwx root       root               18 ./usr/lib/elfutils/libebl_sh.so -> libebl_sh-0.160.so
+-rwxr-xr-x root       root            15300 ./usr/lib/elfutils/libebl_sparc-0.160.so
+lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_sparc.so -> libebl_sparc-0.160.so
+-rwxr-xr-x root       root            10548 ./usr/lib/elfutils/libebl_tilegx-0.160.so
+lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_tilegx.so -> libebl_tilegx-0.160.so
+-rwxr-xr-x root       root            41980 ./usr/lib/elfutils/libebl_x86_64-0.160.so
+lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_x86_64.so -> libebl_x86_64-0.160.so
 drwxr-xr-x root       root             4096 ./usr/lib/enjoy
 -rwxr-xr-x root       root             4940 ./usr/lib/enjoy/albumart-lastfm.so
 -rwxr-xr-x root       root             7004 ./usr/lib/enjoy/fso.so
@@ -3009,10 +3013,8 @@ lrwxrwxrwx root       root               15 ./usr/lib/libapm.so.1 -> libapm.so.1
 -rwxr-xr-x root       root             8308 ./usr/lib/libapm.so.1.0.0
 lrwxrwxrwx root       root               17 ./usr/lib/libapr-1.so.0 -> libapr-1.so.0.5.1
 -rwxr-xr-x root       root           126344 ./usr/lib/libapr-1.so.0.5.1
-lrwxrwxrwx root       root               21 ./usr/lib/libaprutil-1.so.0 -> libaprutil-1.so.0.5.3
--rwxr-xr-x root       root           105828 ./usr/lib/libaprutil-1.so.0.5.3
--rwxr-xr-x root       root            20532 ./usr/lib/libasm-0.148.so
-lrwxrwxrwx root       root               15 ./usr/lib/libasm.so.1 -> libasm-0.148.so
+lrwxrwxrwx root       root               21 ./usr/lib/libaprutil-1.so.0 -> libaprutil-1.so.0.5.4
+-rwxr-xr-x root       root           105828 ./usr/lib/libaprutil-1.so.0.5.4
 lrwxrwxrwx root       root               18 ./usr/lib/libasound.so.2 -> libasound.so.2.0.0
 -rwxr-xr-x root       root           824520 ./usr/lib/libasound.so.2.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.21209.1
@@ -3040,8 +3042,8 @@ lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1
 -rwxr-xr-x root       root             9928 ./usr/lib/libdmx.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libdrm.so.2 -> libdrm.so.2.4.0
 -rwxr-xr-x root       root            32608 ./usr/lib/libdrm.so.2.4.0
--rwxr-xr-x root       root           157596 ./usr/lib/libdw-0.148.so
-lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.148.so
+-rwxr-xr-x root       root           204996 ./usr/lib/libdw-0.160.so
+lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.160.so
 lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.12.1
 -rwxr-xr-x root       root           154848 ./usr/lib/libecore.so.1.12.1
 lrwxrwxrwx root       root               24 ./usr/lib/libecore_audio.so.1 -> libecore_audio.so.1.12.1
@@ -3090,8 +3092,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libeldbus.so.1 -> libeldbu
 -rwxr-xr-x root       root           171080 ./usr/lib/libeldbus.so.1.12.1
 lrwxrwxrwx root       root               23 ./usr/lib/libelementary.so.1 -> libelementary.so.1.12.1
 -rwxr-xr-x root       root          2663436 ./usr/lib/libelementary.so.1.12.1
--rwxr-xr-x root       root            71328 ./usr/lib/libelf-0.148.so
-lrwxrwxrwx root       root               15 ./usr/lib/libelf.so.1 -> libelf-0.148.so
+-rwxr-xr-x root       root            75424 ./usr/lib/libelf-0.160.so
+lrwxrwxrwx root       root               15 ./usr/lib/libelf.so.1 -> libelf-0.160.so
 lrwxrwxrwx root       root               19 ./usr/lib/libembryo.so.1 -> libembryo.so.1.12.1
 -rwxr-xr-x root       root            37812 ./usr/lib/libembryo.so.1.12.1
 lrwxrwxrwx root       root               20 ./usr/lib/libemotion.so.1 -> libemotion.so.1.12.1
@@ -3273,7 +3275,7 @@ lrwxrwxrwx root       root               16 ./usr/lib/liblzo2.so.2 -> liblzo2.so
 lrwxrwxrwx root       root               15 ./usr/lib/libmad.so.0 -> libmad.so.0.2.1
 -rwxr-xr-x root       root            85048 ./usr/lib/libmad.so.0.2.1
 lrwxrwxrwx root       root               17 ./usr/lib/libmagic.so.1 -> libmagic.so.1.0.0
--rwxr-xr-x root       root            89724 ./usr/lib/libmagic.so.1.0.0
+-rwxr-xr-x root       root            93916 ./usr/lib/libmagic.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libmenuw.so.5 -> libmenuw.so.5.9
 -rwxr-xr-x root       root            20720 ./usr/lib/libmenuw.so.5.9
 lrwxrwxrwx root       root               17 ./usr/lib/libmtdev.so.1 -> libmtdev.so.1.0.0
@@ -3418,8 +3420,8 @@ lrwxrwxrwx root       root               15 ./usr/lib/libxcb.so.1 -> libxcb.so.1
 -rwxr-xr-x root       root            82000 ./usr/lib/libxcb.so.1.1.0
 lrwxrwxrwx root       root               19 ./usr/lib/libxkbfile.so.1 -> libxkbfile.so.1.0.2
 -rwxr-xr-x root       root            97472 ./usr/lib/libxkbfile.so.1.0.2
-lrwxrwxrwx root       root               16 ./usr/lib/libxml2.so.2 -> libxml2.so.2.9.1
--rwxr-xr-x root       root           908524 ./usr/lib/libxml2.so.2.9.1
+lrwxrwxrwx root       root               16 ./usr/lib/libxml2.so.2 -> libxml2.so.2.9.2
+-rwxr-xr-x root       root           908972 ./usr/lib/libxml2.so.2.9.2
 drwxr-xr-x root       root             4096 ./usr/lib/libxslt-plugins
 lrwxrwxrwx root       root               17 ./usr/lib/libxslt.so.1 -> libxslt.so.1.1.28
 -rwxr-xr-x root       root           163696 ./usr/lib/libxslt.so.1.1.28
@@ -6810,7 +6812,7 @@ lrwxrwxrwx root       root               19 ./usr/sbin/ntpd -> /bin/busybox.nosu
 lrwxrwxrwx root       root               27 ./usr/sbin/powertop -> /usr/sbin/powertop.powertop
 -rwxr-xr-x root       root           335544 ./usr/sbin/powertop.powertop
 -rwxr-xr-x root       root               36 ./usr/sbin/ppp-dialin
--r-sr-xr-x root       root           216756 ./usr/sbin/pppd
+-r-sr-xr-x root       root           215564 ./usr/sbin/pppd
 -rwxr-xr-x root       root            27152 ./usr/sbin/pwck
 -rwxr-xr-x root       root            24100 ./usr/sbin/pwconv
 -rwxr-xr-x root       root            20624 ./usr/sbin/pwunconv
@@ -8859,7 +8861,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_MESSAGES
 -rw-r--r-- root       root             8778 ./usr/share/locale/cs/LC_MESSAGES/libidn.mo
 -rw-r--r-- root       root             3663 ./usr/share/locale/cs/LC_MESSAGES/libphone-ui-shr.mo
 -rw-r--r-- root       root             2246 ./usr/share/locale/cs/LC_MESSAGES/libsoup.mo
--rw-r--r-- root       root            46061 ./usr/share/locale/cs/LC_MESSAGES/make.mo
+-rw-r--r-- root       root            44904 ./usr/share/locale/cs/LC_MESSAGES/make.mo
 -rw-r--r-- root       root             4909 ./usr/share/locale/cs/LC_MESSAGES/nano.mo
 -rw-r--r-- root       root           331111 ./usr/share/locale/cs/LC_MESSAGES/pidgin.mo
 -rw-r--r-- root       root             2184 ./usr/share/locale/cs/LC_MESSAGES/popt.mo
@@ -9680,7 +9682,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/x-content
 drwxr-xr-x root       root             4096 ./usr/share/mime/x-epoc
 -rw-r--r-- root       root             2529 ./usr/share/mime/x-epoc/x-sisx-app.xml
 drwxr-xr-x root       root             4096 ./usr/share/misc
--rw-r--r-- root       root          2847784 ./usr/share/misc/magic.mgc
+-rw-r--r-- root       root          3043456 ./usr/share/misc/magic.mgc
 drwxr-xr-x root       root             4096 ./usr/share/mobile-broadband-provider-info
 -rw-r--r-- root       root             4410 ./usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd
 -rw-r--r-- root       root           328308 ./usr/share/mobile-broadband-provider-info/serviceproviders.xml
@@ -16026,7 +16028,7 @@ drwxr-xr-x root       root             4096 ./var/backups
 drwxr-xr-x root       root             4096 ./var/cache
 drwxr-xr-x root       root             4096 ./var/cache/fontconfig
 drwx------ root       root             4096 ./var/cache/ldconfig
--rw------- root       root            18143 ./var/cache/ldconfig/aux-cache
+-rw------- root       root            18083 ./var/cache/ldconfig/aux-cache
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x root       root             4096 ./var/lib/alsa
 -rw-r--r-- root       root               28 ./var/lib/alsa/asound.state
@@ -16222,8 +16224,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root             2097 ./var/lib/opkg/info/elementary.control
 -rw-r--r-- root       root              641 ./var/lib/opkg/info/elementary.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/elementary.postinst
--rw-r--r-- root       root             1108 ./var/lib/opkg/info/elfutils.control
--rw-r--r-- root       root              188 ./var/lib/opkg/info/elfutils.list
+-rw-r--r-- root       root             1021 ./var/lib/opkg/info/elfutils.control
+-rw-r--r-- root       root              186 ./var/lib/opkg/info/elfutils.list
 -rw-r--r-- root       root              483 ./var/lib/opkg/info/embryo.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/embryo.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/embryo.postinst
@@ -16702,9 +16704,6 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              612 ./var/lib/opkg/info/libaprutil-1-0.control
 -rw-r--r-- root       root              117 ./var/lib/opkg/info/libaprutil-1-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libaprutil-1-0.postinst
--rw-r--r-- root       root             1085 ./var/lib/opkg/info/libasm1.control
--rw-r--r-- root       root               46 ./var/lib/opkg/info/libasm1.list
--rwxr-xr-x root       root               90 ./var/lib/opkg/info/libasm1.postinst
 -rw-r--r-- root       root              806 ./var/lib/opkg/info/libasound-module-bluez.control
 -rw-r--r-- root       root              171 ./var/lib/opkg/info/libasound-module-bluez.list
 -rw-r--r-- root       root              740 ./var/lib/opkg/info/libasound2.control
@@ -16767,8 +16766,8 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              675 ./var/lib/opkg/info/libdrm2.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libdrm2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdrm2.postinst
--rw-r--r-- root       root             1122 ./var/lib/opkg/info/libdw1.control
--rw-r--r-- root       root             1005 ./var/lib/opkg/info/libdw1.list
+-rw-r--r-- root       root             1032 ./var/lib/opkg/info/libdw1.control
+-rw-r--r-- root       root             1159 ./var/lib/opkg/info/libdw1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdw1.postinst
 -rw-r--r-- root       root             1530 ./var/lib/opkg/info/libe2p2.control
 -rw-r--r-- root       root               36 ./var/lib/opkg/info/libe2p2.list
@@ -16805,7 +16804,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              615 ./var/lib/opkg/info/libeldbus1.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libeldbus1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeldbus1.postinst
--rw-r--r-- root       root             1065 ./var/lib/opkg/info/libelf1.control
+-rw-r--r-- root       root              975 ./var/lib/opkg/info/libelf1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libelf1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libelf1.postinst
 -rw-r--r-- root       root             1086 ./var/lib/opkg/info/libemotion1.control
@@ -17280,7 +17279,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root              633 ./var/lib/opkg/info/libxkbfile1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxkbfile1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxkbfile1.postinst
--rw-r--r-- root       root             1093 ./var/lib/opkg/info/libxml2.control
+-rw-r--r-- root       root             1112 ./var/lib/opkg/info/libxml2.control
 -rw-r--r-- root       root               85 ./var/lib/opkg/info/libxml2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxml2.postinst
 -rw-r--r-- root       root              866 ./var/lib/opkg/info/libxmuu1.control
@@ -17754,7 +17753,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root              271 ./var/lib/opkg/info/rpcbind.postinst
 -rwxr-xr-x root       root             5688 ./var/lib/opkg/info/rpcbind.preinst
 -rwxr-xr-x root       root              246 ./var/lib/opkg/info/rpcbind.prerm
--rw-r--r-- root       root              472 ./var/lib/opkg/info/rsync.control
+-rw-r--r-- root       root              494 ./var/lib/opkg/info/rsync.control
 -rw-r--r-- root       root               32 ./var/lib/opkg/info/rsync.list
 -rw-r--r-- root       root              446 ./var/lib/opkg/info/run-postinsts.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/run-postinsts.list
@@ -18013,8 +18012,8 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88189 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           318501 ./var/lib/opkg/lists/oe-spitz
--rw-r--r-- root       root          6497959 ./var/lib/opkg/lists/oe-xscalete
--rw-r--r-- root       root           208814 ./var/lib/opkg/status
+-rw-r--r-- root       root          6496496 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root           208636 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
