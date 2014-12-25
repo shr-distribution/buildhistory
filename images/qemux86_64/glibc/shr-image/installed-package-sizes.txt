@@ -19,8 +19,8 @@
 3454	KiB elementary
 3327	KiB python-pygtk
 3225	KiB subversion
+3116	KiB file
 3066	KiB libglib-2.0-0
-2917	KiB file
 2859	KiB evas
 2831	KiB mesa-demos
 2819	KiB libpurple
@@ -55,8 +55,8 @@
 1469	KiB glibc-binary-localedata-en-us
 1469	KiB glibc-binary-localedata-en-gb
 1462	KiB libsamplerate0
+1420	KiB libxml2
 1419	KiB shadow
-1418	KiB libxml2
 1417	KiB libphone-ui-shr
 1305	KiB libx11-6
 1279	KiB gawk
@@ -101,6 +101,7 @@
 638	KiB libevent
 618	KiB libgl-mesa
 612	KiB openssh-ssh
+610	KiB libdw1
 609	KiB libfreetype6
 605	KiB screen
 593	KiB fsodeviced
@@ -117,7 +118,6 @@
 492	KiB sysstat
 484	KiB libgpsd22
 483	KiB libpulsecommon
-483	KiB libdw1
 469	KiB pango
 468	KiB powertop
 467	KiB libgmp10
@@ -167,6 +167,7 @@
 307	KiB python-vobject
 307	KiB libxslt
 307	KiB libglapi0
+305	KiB elfutils
 298	KiB libasound-module-bluez
 285	KiB python-json
 284	KiB nfs-utils-client
@@ -175,7 +176,6 @@
 277	KiB python-textutils
 277	KiB gst-plugins-base-playbin
 274	KiB libexif12
-270	KiB elfutils
 270	KiB ca-certificates
 263	KiB tzdata-americas
 258	KiB libnice
@@ -209,9 +209,9 @@
 202	KiB libflac8
 202	KiB ecore-con
 201	KiB python-difflib
+199	KiB make
 198	KiB libpng16-16
 196	KiB enjoy
-195	KiB make
 194	KiB xkbcomp
 194	KiB libapr-1-0
 189	KiB ethumb
@@ -306,13 +306,13 @@
 92	KiB libusb-1.0-0
 92	KiB libfribidi0
 91	KiB cronie
+90	KiB libelf1
 89	KiB gst-plugins-base-typefindfunctions
 88	KiB libkmod2
 88	KiB libgstvideo-0.10-0
 88	KiB gst-plugins-good-flac
 87	KiB libglib-2.0-locale-en-gb
 87	KiB fsodatad
-86	KiB libelf1
 84	KiB usb-modeswitch
 84	KiB libz1
 84	KiB libxft2
@@ -352,6 +352,7 @@
 62	KiB libudev1
 62	KiB elementary-configs
 61	KiB tar-locale-cs
+60	KiB logrotate
 60	KiB libxi6
 60	KiB ecore-audio
 60	KiB alsa-utils-aplay
@@ -360,7 +361,6 @@
 58	KiB e-wm-icons
 57	KiB xf86-input-evdev
 57	KiB perl
-57	KiB logrotate
 57	KiB libexif-locale-cs
 55	KiB glibc-gconv
 54	KiB shadow-locale-cs
@@ -382,9 +382,9 @@
 47	KiB libdrm2
 46	KiB libnfsidmap0
 45	KiB python-pyalsaaudio
-45	KiB make-locale-cs
 45	KiB libpci3
 45	KiB embryo
+44	KiB make-locale-cs
 44	KiB libgdbm4
 44	KiB gst-plugins-base
 43	KiB libsysfs2

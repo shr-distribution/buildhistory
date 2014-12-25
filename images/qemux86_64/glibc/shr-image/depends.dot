@@ -485,6 +485,7 @@ digraph depends {
 "elfutils" -> "libc6";
 "elfutils" -> "libdw1";
 "elfutils" -> "libelf1";
+"elfutils" -> "libstdc++6";
 "embryo" -> "eina";
 "embryo" -> "libc6";
 "emtooth2" -> "bluez4";
@@ -3171,6 +3172,7 @@ digraph depends {
 "rpcbind" -> "shadow";
 "rpcbind" -> "update-rc.d" [style=dotted];
 "rsync" -> "libacl1";
+"rsync" -> "libattr1";
 "rsync" -> "libc6";
 "rsync" -> "libpopt0";
 "run-postinsts" -> "update-rc.d" [style=dotted];
