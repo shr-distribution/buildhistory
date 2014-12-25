@@ -14,8 +14,8 @@
 3607	KiB gdb
 3525	KiB coreutils
 3349	KiB libgtk-2.0
+3070	KiB file
 3015	KiB kernel-image-3.13.0-rc7
-2877	KiB file
 2794	KiB frameworkd
 2749	KiB libc6
 2704	KiB ncurses-terminfo
@@ -65,7 +65,7 @@
 934	KiB libx11-6
 908	KiB python-core
 891	KiB fso-sounds
-884	KiB libxml2
+885	KiB libxml2
 862	KiB e2fsprogs-e2fsck
 848	KiB gawk
 795	KiB openssh-sshd
@@ -110,6 +110,7 @@
 428	KiB om-neon
 426	KiB libevent
 415	KiB libgl-mesa
+407	KiB libdw1
 397	KiB python-dbus
 393	KiB procps
 390	KiB util-linux-locale-cs
@@ -135,7 +136,6 @@
 325	KiB mobile-broadband-provider-info
 323	KiB pidgin-locale-cs
 323	KiB glibc-charmap-utf-8
-321	KiB libdw1
 320	KiB vagalume
 317	KiB libjpeg8
 313	KiB pidgin-locale-en-gb
@@ -230,9 +230,9 @@
 133	KiB grep
 133	KiB e-wm-utils
 132	KiB python-subprocess
+132	KiB make
 132	KiB fsodeviced-config
 131	KiB librsvg-2-2
-130	KiB make
 129	KiB xkbcomp
 129	KiB tzdata-europe
 129	KiB libncursesw5
@@ -319,6 +319,7 @@
 63	KiB python-sqlite3
 63	KiB libfsotransport3
 62	KiB util-linux-fsck
+62	KiB libelf1
 62	KiB libeio1
 62	KiB fsodatad
 62	KiB elementary-configs
@@ -332,7 +333,6 @@
 59	KiB libevdev
 59	KiB gconf-locale-en-gb
 59	KiB dosfstools
-58	KiB libelf1
 58	KiB e-wm-icons
 57	KiB libz1
 57	KiB libice6
@@ -367,9 +367,9 @@
 46	KiB mdbus2
 46	KiB libpam
 46	KiB alsa-utils-aplay
-45	KiB make-locale-cs
 45	KiB libgstinterfaces-0.10-0
 45	KiB gst-plugins-base-audioconvert
+44	KiB make-locale-cs
 44	KiB kernel-module-phonet
 44	KiB gst-plugins-base
 43	KiB libgsm0710mux3
@@ -486,7 +486,6 @@
 19	KiB libnl-3-genl
 19	KiB libefreet-mime1
 19	KiB libe2p2
-19	KiB libasm1
 19	KiB kernel-module-ip-tables
 19	KiB gpsd-gpsctl
 19	KiB ecore-ipc
