@@ -246,7 +246,6 @@ libacl1
 libapm1
 libapr-1-0
 libaprutil-1-0
-libasm1
 libasound-module-bluez
 libasound2
 libatk-1.0-0

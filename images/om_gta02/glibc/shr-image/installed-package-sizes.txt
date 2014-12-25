@@ -12,8 +12,8 @@
 3739	KiB coreutils
 3635	KiB gdb
 3533	KiB libgtk-2.0
+3077	KiB file
 3034	KiB libc6
-2881	KiB file
 2812	KiB elementary
 2760	KiB frameworkd
 2757	KiB mesa-demos
@@ -57,7 +57,7 @@
 1001	KiB python-xml
 990	KiB libx11-6
 965	KiB shadow
-958	KiB libxml2
+960	KiB libxml2
 951	KiB python-ctypes
 922	KiB e2fsprogs-e2fsck
 914	KiB python-core
@@ -103,6 +103,7 @@
 475	KiB libgl-mesa
 463	KiB libevent
 448	KiB openvpn
+447	KiB libdw1
 436	KiB python-compression
 427	KiB om-neon
 417	KiB procps
@@ -124,7 +125,6 @@
 359	KiB e2fsprogs-mke2fs
 355	KiB pango
 355	KiB libtiff5
-354	KiB libdw1
 353	KiB nettle
 351	KiB coreutils-locale-cs
 349	KiB libical
@@ -139,7 +139,7 @@
 323	KiB glibc-charmap-utf-8
 317	KiB kernel-module-ipv6
 313	KiB pidgin-locale-en-gb
-309	KiB rsync
+311	KiB rsync
 307	KiB python-vobject
 290	KiB libsndfile1
 288	KiB libc6-utils
@@ -172,11 +172,11 @@
 225	KiB libpulse0
 221	KiB fsoaudiod
 218	KiB libxslt
+217	KiB elfutils
 215	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
 213	KiB libglapi0
 212	KiB strace
-210	KiB elfutils
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
 205	KiB gst-plugins-base-playbin
@@ -225,10 +225,10 @@
 143	KiB obexd
 143	KiB grep
 141	KiB e-wm-utils
+140	KiB make
 139	KiB libpng16-16
 139	KiB kernel-module-scsi-mod
 138	KiB python-pyserial
-136	KiB make
 136	KiB libopkg1
 135	KiB kernel-module-ar6000
 132	KiB xinput-calibrator
@@ -371,16 +371,16 @@
 47	KiB glib-networking
 47	KiB fsogsmd-module-modem-ti-calypso
 47	KiB alsa-utils-alsamixer
-45	KiB make-locale-cs
 45	KiB libudev1
 45	KiB kernel-module-snd-soc-wm8753
+44	KiB make-locale-cs
 44	KiB libedbus1
 44	KiB kernel-module-rfcomm
 44	KiB gst-plugins-base
 43	KiB kernel-module-snd-pcm-oss
 42	KiB libxext6
 42	KiB kernel-module-usbserial
-40	KiB logrotate
+41	KiB logrotate
 40	KiB libgstriff-0.10-0
 40	KiB findutils-locale-cs
 39	KiB xf86-input-evdev
@@ -479,7 +479,6 @@
 20	KiB mtdev
 20	KiB libfontenc1
 20	KiB libe2p2
-20	KiB libasm1
 20	KiB libacl1
 20	KiB kernel-module-tun
 20	KiB kernel-module-snd-mixer-oss
