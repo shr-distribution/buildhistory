@@ -1,9 +1,10 @@
-PV = 0.18.8
+PV = 0.19.2+gitAUTOINC+be0d07877e
 PR = r0
-PKGR = r0.1
+PKGV = 0.19.2+git0+be0d07877e
+PKGR = r0.0
 RPROVIDES = e-wm-locale nl-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-nl
-PKGSIZE = 98990
+PKGSIZE = 96915
 FILES = /usr/share/locale/nl
 FILELIST = /usr/share/locale/nl/LC_MESSAGES/enlightenment.mo

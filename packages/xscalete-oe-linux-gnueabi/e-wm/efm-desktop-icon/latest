@@ -1,9 +1,10 @@
-PV = 0.18.8
+PV = 0.19.2+gitAUTOINC+be0d07877e
 PR = r0
-PKGR = r0.1
+PKGV = 0.19.2+git0+be0d07877e
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 1135
+PKGSIZE = 2198
 FILES = /usr/share/applications/efm.desktop /usr/share/applications/enlightenment_filemanager.desktop /usr/share/icons/e-module-fileman.png
 FILELIST = /usr/share/applications/enlightenment_filemanager.desktop
