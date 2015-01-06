@@ -1,10 +1,10 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.31
+PKGR = r14.34
 RPROVIDES = 
 RDEPENDS = kernel-3.2.52 kernel-module-usb-common kernel-module-usbcore
 RRECOMMENDS = 
-PKGSIZE = 20988
+PKGSIZE = 21180
 FILES = /lib/modules/3.2.52/kernel/drivers/block/ub.ko /etc/modules-load.d/ub.conf /etc/modprobe.d/ub.conf
 FILELIST = /lib/modules/3.2.52/kernel/drivers/block/ub.ko
