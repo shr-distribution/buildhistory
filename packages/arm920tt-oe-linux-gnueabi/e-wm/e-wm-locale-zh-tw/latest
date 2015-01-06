@@ -1,10 +1,9 @@
-PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
+PV = 0.19.2
 PR = r0
-PKGV = 0.18.999+0.19-alpha2+git0+525b963133
-PKGR = r0.4
+PKGR = r0.0
 RPROVIDES = e-wm-locale zh-tw-translation
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-zh-tw
-PKGSIZE = 85526
+PKGSIZE = 84973
 FILES = /usr/share/locale/zh_TW
 FILELIST = /usr/share/locale/zh_TW/LC_MESSAGES/enlightenment.mo
