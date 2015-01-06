@@ -1,8 +1,8 @@
 PE = 5
-PV = 3.13.6+gitrAUTOINC+04c9f42eb1
+PV = 3.13.6+gitrAUTOINC+4305e9432a
 PR = r16
-PKGV = 3.13.6+gitr0+04c9f42eb1
-PKGR = r16.25
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.1
 RPROVIDES = 
 RDEPENDS = kernel-3.13.6 kernel-module-configfs
 RRECOMMENDS = 
