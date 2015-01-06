@@ -1,10 +1,9 @@
-PV = 0.18.999+0.19-alpha2+gitAUTOINC+525b963133
+PV = 0.18.8
 PR = r0
-PKGV = 0.18.999+0.19-alpha2+git0+525b963133
-PKGR = r0.4
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 3698
+PKGSIZE = 3777
 FILES = /usr/share/enlightenment/data/input_methods
 FILELIST = /usr/share/enlightenment/data/input_methods/fcitx.imc /usr/share/enlightenment/data/input_methods/gcin.imc /usr/share/enlightenment/data/input_methods/hime.imc /usr/share/enlightenment/data/input_methods/ibus.imc /usr/share/enlightenment/data/input_methods/iiimf.imc /usr/share/enlightenment/data/input_methods/scim.imc /usr/share/enlightenment/data/input_methods/uim.imc
