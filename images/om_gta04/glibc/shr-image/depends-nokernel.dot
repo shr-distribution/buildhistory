@@ -692,7 +692,6 @@ digraph depends {
 "evas" -> "libssl1.0.0";
 "evas" -> "libstdc++6";
 "evas" -> "libtiff5";
-"evas" -> "libudev1";
 "evas" -> "libx11-6";
 "evas" -> "libx11-xcb1";
 "evas" -> "libxau6";
@@ -1142,6 +1141,7 @@ digraph depends {
 "gst-plugins-good-flac" -> "libxml2";
 "gst-plugins-good-flac" -> "libz1";
 "gst-plugins-good-gconfelements" -> "gconf";
+"gst-plugins-good-gconfelements" -> "gst-plugins-good";
 "gst-plugins-good-gconfelements" -> "gstreamer";
 "gst-plugins-good-gconfelements" -> "libc6";
 "gst-plugins-good-gconfelements" -> "libdbus-1-3";
@@ -1937,6 +1937,7 @@ digraph depends {
 "libpanelw5" -> "libtinfo5";
 "libpcap1" -> "libc6";
 "libpci3" -> "libc6";
+"libpci3" -> "libudev1";
 "libpci3" -> "libz1";
 "libpciaccess0" -> "libc6";
 "libperl5" -> "libc6";
@@ -2477,6 +2478,7 @@ digraph depends {
 "nmon" -> "libncursesw5";
 "nmon" -> "libtinfo5";
 "ntpdate" -> "libc6";
+"ntpdate" -> "libgcc1";
 "numptyphysics" -> "libc6";
 "numptyphysics" -> "libgcc1";
 "numptyphysics" -> "libpng16-16";
@@ -3103,9 +3105,11 @@ digraph depends {
 "python-io" -> "libssl1.0.0";
 "python-io" -> "python-core";
 "python-io" -> "python-math";
+"python-io" -> "python-netclient";
 "python-io" -> "python-textutils";
 "python-json" -> "libc6";
 "python-json" -> "libpython2.7-1.0";
+"python-json" -> "python-codecs";
 "python-json" -> "python-core";
 "python-json" -> "python-math";
 "python-json" -> "python-re";
