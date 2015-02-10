@@ -1,10 +1,10 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.34
+PKGR = r14.37
 RPROVIDES = 
 RDEPENDS = kernel-3.2.52
 RRECOMMENDS = 
-PKGSIZE = 30008
+PKGSIZE = 29916
 FILES = /lib/modules/3.2.52/kernel/fs/autofs4/autofs4.ko /etc/modules-load.d/autofs4.conf /etc/modprobe.d/autofs4.conf
 FILELIST = /lib/modules/3.2.52/kernel/fs/autofs4/autofs4.ko
