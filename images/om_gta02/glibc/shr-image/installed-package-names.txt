@@ -174,7 +174,6 @@ i2c-tools-misc
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
-json-c
 kernel
 kernel-3.2.52
 kernel-image-3.2.52
@@ -346,6 +345,7 @@ libice6
 libidn-locale-cs
 libidn11
 libjpeg8
+libjson-c2
 libkmod2
 liblightmediascanner-test
 liblightmediascanner0
@@ -412,6 +412,7 @@ libss2
 libssl1.0.0
 libstdc++6
 libsysfs2
+libsystemd0
 libtcl8.6-0
 libtiff5
 libtinfo5
@@ -466,7 +467,6 @@ locale-base-en-us
 logrotate
 lsof
 ltrace
-luajit
 make
 make-locale-cs
 matchbox-keyboard-im
@@ -508,8 +508,7 @@ opimd-utils-cli
 opimd-utils-data
 opimd-utils-notes
 opkg
-opkg-collateral
-opkg-config-base
+opkg-arch-config
 os-release
 packagegroup-base
 packagegroup-base-alsa
@@ -709,13 +708,20 @@ update-alternatives-opkg
 usb-modeswitch
 usb-modeswitch-data
 usbutils
-usbutils-ids
+util-linux
 util-linux-agetty
+util-linux-cfdisk
 util-linux-fdisk
 util-linux-fsck
 util-linux-locale-cs
+util-linux-losetup
 util-linux-mcookie
+util-linux-mkfs
 util-linux-mount
+util-linux-readprofile
+util-linux-sfdisk
+util-linux-swaponoff
+util-linux-umount
 vagalume
 vim
 vim-common
