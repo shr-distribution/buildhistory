@@ -1,0 +1,9 @@
+PV = 0.19.2
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 34545
+FILES = /usr/share/enlightenment/data/config/tiling
+FILELIST = /usr/share/enlightenment/data/config/tiling/e.cfg /usr/share/enlightenment/data/config/tiling/e_bindings.cfg /usr/share/enlightenment/data/config/tiling/enlightenment-tiling.png /usr/share/enlightenment/data/config/tiling/module.battery.cfg /usr/share/enlightenment/data/config/tiling/module.conf.cfg /usr/share/enlightenment/data/config/tiling/module.cpufreq.cfg /usr/share/enlightenment/data/config/tiling/module.fileman.cfg /usr/share/enlightenment/data/config/tiling/module.ibar.cfg /usr/share/enlightenment/data/config/tiling/module.ibox.cfg /usr/share/enlightenment/data/config/tiling/module.pager.cfg /usr/share/enlightenment/data/config/tiling/module.temperature.cfg /usr/share/enlightenment/data/config/tiling/module.tiling.cfg /usr/share/enlightenment/data/config/tiling/profile.desktop
