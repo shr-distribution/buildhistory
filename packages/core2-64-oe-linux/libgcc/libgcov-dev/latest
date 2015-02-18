@@ -1,9 +1,9 @@
-PV = 4.9.1
+PV = 4.9.2
 PR = r0
-PKGR = r0.6
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 202106
-FILES = /usr/lib/x86_64-oe-linux/4.9.1/libgcov.a
-FILELIST = /usr/lib/x86_64-oe-linux/4.9.1/libgcov.a
+PKGSIZE = 201986
+FILES = /usr/lib/x86_64-oe-linux/4.9.2/libgcov.a
+FILELIST = /usr/lib/x86_64-oe-linux/4.9.2/libgcov.a
