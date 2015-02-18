@@ -1,9 +1,0 @@
-PV = 1.0
-PR = r83
-PKGR = r83.10
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = apmd-dbg fso-apm-dbg
-PKGSIZE = 0
-FILES = 
-FILELIST = 

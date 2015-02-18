@@ -1,9 +1,0 @@
-PV = 1.1.6
-PR = r5
-PKGR = r5.10
-RPROVIDES = pam-plugin-debug-suffix
-RDEPENDS = glibc (>= 2.20) libpam (>= 1.1.6) libpam-suffix
-RRECOMMENDS = 
-PKGSIZE = 4572
-FILES = /lib/security/pam_debug.so
-FILELIST = /lib/security/pam_debug.so

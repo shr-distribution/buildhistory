@@ -1,9 +1,0 @@
-PV = 1.0
-PR = r83
-PKGR = r83.10
-RPROVIDES = 
-RDEPENDS = mtd-utils mtd-utils-jffs2 mtd-utils-ubifs nandlogical zaurusd
-RRECOMMENDS = 
-PKGSIZE = 0
-FILES = 
-FILELIST = 

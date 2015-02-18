@@ -1,9 +1,0 @@
-PV = 0.19.2
-PR = r0
-PKGR = r0.1
-RPROVIDES = e-wm-locale he-translation
-RDEPENDS = 
-RRECOMMENDS = virtual-locale-he
-PKGSIZE = 37807
-FILES = /usr/share/locale/he
-FILELIST = /usr/share/locale/he/LC_MESSAGES/enlightenment.mo

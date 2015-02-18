@@ -1,9 +1,0 @@
-PV = 1.0
-PR = r83
-PKGR = r83.10
-RPROVIDES = 
-RDEPENDS = 
-RRECOMMENDS = mtd-utils-dbg mtd-utils-jffs2-dbg mtd-utils-ubifs-dbg nandlogical-dbg zaurusd-dbg
-PKGSIZE = 0
-FILES = 
-FILELIST = 
