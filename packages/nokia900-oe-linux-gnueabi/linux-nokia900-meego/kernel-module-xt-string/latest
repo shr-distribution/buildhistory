@@ -1,0 +1,11 @@
+PE = 2
+PV = 3.13+gitrAUTOINC+6777d27309
+PR = r74
+PKGV = 3.13+gitr1+6777d27309
+PKGR = r74.1
+RPROVIDES = 
+RDEPENDS = kernel-3.13.0-rc7 kernel-module-x-tables
+RRECOMMENDS = 
+PKGSIZE = 4712
+FILES = /lib/modules/3.13.0-rc7/kernel/net/netfilter/xt_string.ko /etc/modules-load.d/xt_string.conf /etc/modprobe.d/xt_string.conf
+FILELIST = /lib/modules/3.13.0-rc7/kernel/net/netfilter/xt_string.ko

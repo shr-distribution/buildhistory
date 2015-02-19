@@ -1,0 +1,11 @@
+PE = 2
+PV = 3.13+gitrAUTOINC+6777d27309
+PR = r74
+PKGV = 3.13+gitr1+6777d27309
+PKGR = r74.1
+RPROVIDES = 
+RDEPENDS = kernel-3.13.0-rc7
+RRECOMMENDS = 
+PKGSIZE = 27880
+FILES = /lib/modules/3.13.0-rc7/kernel/net/netfilter/x_tables.ko /etc/modules-load.d/x_tables.conf /etc/modprobe.d/x_tables.conf
+FILELIST = /lib/modules/3.13.0-rc7/kernel/net/netfilter/x_tables.ko

@@ -1,0 +1,11 @@
+PE = 2
+PV = 3.13+gitrAUTOINC+6777d27309
+PR = r74
+PKGV = 3.13+gitr1+6777d27309
+PKGR = r74.1
+RPROVIDES = 
+RDEPENDS = kernel-3.13.0-rc7
+RRECOMMENDS = 
+PKGSIZE = 12184
+FILES = /lib/modules/3.13.0-rc7/kernel/net/sched/cls_u32.ko /etc/modules-load.d/cls_u32.conf /etc/modprobe.d/cls_u32.conf
+FILELIST = /lib/modules/3.13.0-rc7/kernel/net/sched/cls_u32.ko

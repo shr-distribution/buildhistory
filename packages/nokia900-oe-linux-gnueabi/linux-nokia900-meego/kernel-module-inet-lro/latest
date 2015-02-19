@@ -1,0 +1,11 @@
+PE = 2
+PV = 3.13+gitrAUTOINC+6777d27309
+PR = r74
+PKGV = 3.13+gitr1+6777d27309
+PKGR = r74.1
+RPROVIDES = 
+RDEPENDS = kernel-3.13.0-rc7
+RRECOMMENDS = 
+PKGSIZE = 8088
+FILES = /lib/modules/3.13.0-rc7/kernel/net/ipv4/inet_lro.ko /etc/modules-load.d/inet_lro.conf /etc/modprobe.d/inet_lro.conf
+FILELIST = /lib/modules/3.13.0-rc7/kernel/net/ipv4/inet_lro.ko
