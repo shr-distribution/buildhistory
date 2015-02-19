@@ -1,0 +1,10 @@
+PV = 3.19++gitAUTOINC+5487f9ee81_380c5d15c4
+PR = r0
+PKGV = 3.19++git0+5487f9ee81_380c5d15c4
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.19.0-rc6-yocto-standard kernel-module-parport
+RRECOMMENDS = 
+PKGSIZE = 42000
+FILES = /lib/modules/3.19.0-rc6-yocto-standard/kernel/drivers/parport/parport_pc.ko /etc/modules-load.d/parport_pc.conf /etc/modprobe.d/parport_pc.conf
+FILELIST = /lib/modules/3.19.0-rc6-yocto-standard/kernel/drivers/parport/parport_pc.ko

@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = kernel-3.13.6 kernel-module-asn1-decoder kernel-module-asymmetric-keys kernel-module-mpi kernel-module-oid-registry kernel-module-public-key kernel-module-rsa
+RRECOMMENDS = 
+PKGSIZE = 12540
+FILES = /lib/modules/3.13.6/kernel/crypto/asymmetric_keys/x509_key_parser.ko /etc/modules-load.d/x509_key_parser.conf /etc/modprobe.d/x509_key_parser.conf
+FILELIST = /lib/modules/3.13.6/kernel/crypto/asymmetric_keys/x509_key_parser.ko

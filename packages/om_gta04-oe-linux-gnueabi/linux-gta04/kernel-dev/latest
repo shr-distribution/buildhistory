@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = kernel-base-dev
+PKGSIZE = 2262730
+FILES = /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/3.13.6/build
+FILELIST = /boot/Module.symvers-3.13.6 /boot/System.map-3.13.6 /boot/config-3.13.6

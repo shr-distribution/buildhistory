@@ -1,0 +1,12 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+PKG = kernel-image-3.13.6
+RPROVIDES = kernel-image
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 3370680
+FILES = /boot/uImage*
+FILELIST = /boot/uImage-3.13.6

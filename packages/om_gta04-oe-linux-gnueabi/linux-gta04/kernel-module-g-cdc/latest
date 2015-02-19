@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = kernel-3.13.6 kernel-module-configfs kernel-module-libcomposite kernel-module-u-ether
+RRECOMMENDS = 
+PKGSIZE = 10308
+FILES = /lib/modules/3.13.6/kernel/drivers/usb/gadget/g_cdc.ko /etc/modules-load.d/g_cdc.conf /etc/modprobe.d/g_cdc.conf
+FILELIST = /lib/modules/3.13.6/kernel/drivers/usb/gadget/g_cdc.ko

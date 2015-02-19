@@ -1,0 +1,11 @@
+PE = 2
+PV = 2.6.37+gitrAUTOINC+e465ff7527
+PR = r74
+PKGV = 2.6.37+gitr0+e465ff7527
+PKGR = r74.16
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = kernel-base-dev
+PKGSIZE = 1467835
+FILES = /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/2.6.37/build
+FILELIST = /boot/Module.symvers-2.6.37 /boot/System.map-2.6.37 /boot/config-2.6.37

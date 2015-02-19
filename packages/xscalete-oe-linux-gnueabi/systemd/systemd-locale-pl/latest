@@ -1,0 +1,11 @@
+PE = 1
+PV = 218+gitAUTOINC+820aced6f6
+PR = r0
+PKGV = 218+git0+820aced6f6
+PKGR = r0.0
+RPROVIDES = pl-translation systemd-locale
+RDEPENDS = 
+RRECOMMENDS = virtual-locale-pl
+PKGSIZE = 11750
+FILES = /usr/share/locale/pl
+FILELIST = /usr/share/locale/pl/LC_MESSAGES/systemd.mo

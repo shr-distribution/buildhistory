@@ -1,0 +1,11 @@
+PV = 3.19++gitAUTOINC+5487f9ee81_380c5d15c4
+PR = r0
+PKGV = 3.19++git0+5487f9ee81_380c5d15c4
+PKGR = r0.1
+PKG = kernel-3.19.0-rc6-yocto-standard
+RPROVIDES = kernel-3.19.0-rc6-yocto-standard kernel-base
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 20280
+FILES = /lib/modules/3.19.0-rc6-yocto-standard/modules.order /lib/modules/3.19.0-rc6-yocto-standard/modules.builtin
+FILELIST = /lib/modules/3.19.0-rc6-yocto-standard/modules.builtin /lib/modules/3.19.0-rc6-yocto-standard/modules.order

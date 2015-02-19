@@ -1,0 +1,12 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+PKG = kernel-3.13.6
+RPROVIDES = kernel-3.13.6 kernel-base
+RDEPENDS = kernel-image
+RRECOMMENDS = 
+PKGSIZE = 20741
+FILES = /lib/modules/3.13.6/modules.order /lib/modules/3.13.6/modules.builtin
+FILELIST = /lib/modules/3.13.6/modules.builtin /lib/modules/3.13.6/modules.order

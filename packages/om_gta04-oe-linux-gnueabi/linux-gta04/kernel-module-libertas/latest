@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = kernel-3.13.6 kernel-module-cfg80211 kernel-module-lib80211
+RRECOMMENDS = 
+PKGSIZE = 148556
+FILES = /lib/modules/3.13.6/kernel/drivers/net/wireless/libertas/libertas.ko /etc/modules-load.d/libertas.conf /etc/modprobe.d/libertas.conf
+FILELIST = /lib/modules/3.13.6/kernel/drivers/net/wireless/libertas/libertas.ko

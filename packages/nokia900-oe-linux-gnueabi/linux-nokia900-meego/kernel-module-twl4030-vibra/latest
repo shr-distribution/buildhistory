@@ -1,0 +1,11 @@
+PE = 2
+PV = 2.6.37+gitrAUTOINC+e465ff7527
+PR = r74
+PKGV = 2.6.37+gitr0+e465ff7527
+PKGR = r74.16
+RPROVIDES = 
+RDEPENDS = kernel-2.6.37 kernel-module-ff-memless
+RRECOMMENDS = 
+PKGSIZE = 8984
+FILES = /lib/modules/2.6.37/kernel/drivers/input/misc/twl4030-vibra.ko /etc/modules-load.d/twl4030-vibra.conf /etc/modprobe.d/twl4030-vibra.conf
+FILELIST = /lib/modules/2.6.37/kernel/drivers/input/misc/twl4030-vibra.ko

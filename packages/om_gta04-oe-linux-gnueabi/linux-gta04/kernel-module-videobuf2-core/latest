@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = kernel-3.13.6 kernel-module-media kernel-module-videodev
+RRECOMMENDS = 
+PKGSIZE = 39836
+FILES = /lib/modules/3.13.6/kernel/drivers/media/v4l2-core/videobuf2-core.ko /etc/modules-load.d/videobuf2-core.conf /etc/modprobe.d/videobuf2-core.conf
+FILELIST = /lib/modules/3.13.6/kernel/drivers/media/v4l2-core/videobuf2-core.ko

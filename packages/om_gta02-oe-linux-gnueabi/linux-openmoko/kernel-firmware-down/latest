@@ -1,0 +1,10 @@
+PE = 1
+PV = 3.2
+PR = r14
+PKGR = r14.37
+RPROVIDES = 
+RDEPENDS = 
+RRECOMMENDS = 
+PKGSIZE = 18098
+FILES = /lib/firmware/edgeport/down.fw
+FILELIST = /lib/firmware/edgeport/down.fw

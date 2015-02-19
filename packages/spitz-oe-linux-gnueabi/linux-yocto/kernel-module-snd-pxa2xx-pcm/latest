@@ -1,0 +1,10 @@
+PV = 3.17.8+gitAUTOINC+f24c2bf9c2_0409b1fbed
+PR = r0
+PKGV = 3.17.8+git0+f24c2bf9c2_0409b1fbed
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.17.8-yocto-standard kernel-module-snd kernel-module-snd-pcm kernel-module-snd-pxa2xx-lib kernel-module-snd-timer kernel-module-soundcore
+RRECOMMENDS = 
+PKGSIZE = 4244
+FILES = /lib/modules/3.17.8-yocto-standard/kernel/sound/arm/snd-pxa2xx-pcm.ko /etc/modules-load.d/snd-pxa2xx-pcm.conf /etc/modprobe.d/snd-pxa2xx-pcm.conf
+FILELIST = /lib/modules/3.17.8-yocto-standard/kernel/sound/arm/snd-pxa2xx-pcm.ko

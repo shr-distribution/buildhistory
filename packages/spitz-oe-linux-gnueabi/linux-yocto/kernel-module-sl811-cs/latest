@@ -1,0 +1,10 @@
+PV = 3.17.8+gitAUTOINC+f24c2bf9c2_0409b1fbed
+PR = r0
+PKGV = 3.17.8+git0+f24c2bf9c2_0409b1fbed
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.17.8-yocto-standard kernel-module-sl811-hcd
+RRECOMMENDS = 
+PKGSIZE = 5496
+FILES = /lib/modules/3.17.8-yocto-standard/kernel/drivers/usb/host/sl811_cs.ko /etc/modules-load.d/sl811_cs.conf /etc/modprobe.d/sl811_cs.conf
+FILELIST = /lib/modules/3.17.8-yocto-standard/kernel/drivers/usb/host/sl811_cs.ko

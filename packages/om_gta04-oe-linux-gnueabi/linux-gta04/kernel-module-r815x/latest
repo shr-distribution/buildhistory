@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = kernel-3.13.6 kernel-module-cdc-ether kernel-module-mii kernel-module-usbnet
+RRECOMMENDS = 
+PKGSIZE = 7316
+FILES = /lib/modules/3.13.6/kernel/drivers/net/usb/r815x.ko /etc/modules-load.d/r815x.conf /etc/modprobe.d/r815x.conf
+FILELIST = /lib/modules/3.13.6/kernel/drivers/net/usb/r815x.ko

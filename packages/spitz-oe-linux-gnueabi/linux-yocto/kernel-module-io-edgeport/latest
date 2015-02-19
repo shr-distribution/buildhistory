@@ -1,0 +1,10 @@
+PV = 3.17.8+gitAUTOINC+f24c2bf9c2_0409b1fbed
+PR = r0
+PKGV = 3.17.8+git0+f24c2bf9c2_0409b1fbed
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.17.8-yocto-standard kernel-module-usbserial
+RRECOMMENDS = 
+PKGSIZE = 27628
+FILES = /lib/modules/3.17.8-yocto-standard/kernel/drivers/usb/serial/io_edgeport.ko /etc/modules-load.d/io_edgeport.conf /etc/modprobe.d/io_edgeport.conf
+FILELIST = /lib/modules/3.17.8-yocto-standard/kernel/drivers/usb/serial/io_edgeport.ko

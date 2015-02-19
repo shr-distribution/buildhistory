@@ -1,0 +1,11 @@
+PE = 5
+PV = 3.13.6+gitrAUTOINC+4305e9432a
+PR = r16
+PKGV = 3.13.6+gitr1+4305e9432a
+PKGR = r16.4
+RPROVIDES = 
+RDEPENDS = kernel-3.13.6 kernel-module-media kernel-module-v4l2-common kernel-module-videobuf-core kernel-module-videobuf-dma-contig kernel-module-videodev
+RRECOMMENDS = 
+PKGSIZE = 39604
+FILES = /lib/modules/3.13.6/kernel/drivers/media/platform/omap/omap-vout.ko /etc/modules-load.d/omap-vout.conf /etc/modprobe.d/omap-vout.conf
+FILELIST = /lib/modules/3.13.6/kernel/drivers/media/platform/omap/omap-vout.ko

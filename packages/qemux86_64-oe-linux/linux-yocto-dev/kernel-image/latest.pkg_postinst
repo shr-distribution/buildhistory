@@ -1,0 +1,1 @@
+	update-alternatives --install /boot/bzImage bzImage /boot/bzImage-3.19.0-rc6-yocto-standard 31919 || true

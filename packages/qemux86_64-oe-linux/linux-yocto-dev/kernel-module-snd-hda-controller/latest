@@ -1,0 +1,10 @@
+PV = 3.19++gitAUTOINC+5487f9ee81_380c5d15c4
+PR = r0
+PKGV = 3.19++git0+5487f9ee81_380c5d15c4
+PKGR = r0.1
+RPROVIDES = 
+RDEPENDS = kernel-3.19.0-rc6-yocto-standard kernel-module-snd-hda-codec
+RRECOMMENDS = 
+PKGSIZE = 38928
+FILES = /lib/modules/3.19.0-rc6-yocto-standard/kernel/sound/pci/hda/snd-hda-controller.ko /etc/modules-load.d/snd-hda-controller.conf /etc/modprobe.d/snd-hda-controller.conf
+FILELIST = /lib/modules/3.19.0-rc6-yocto-standard/kernel/sound/pci/hda/snd-hda-controller.ko

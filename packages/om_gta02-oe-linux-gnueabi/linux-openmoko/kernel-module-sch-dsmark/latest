@@ -1,0 +1,10 @@
+PE = 1
+PV = 3.2
+PR = r14
+PKGR = r14.37
+RPROVIDES = 
+RDEPENDS = kernel-3.2.52
+RRECOMMENDS = 
+PKGSIZE = 8780
+FILES = /lib/modules/3.2.52/kernel/net/sched/sch_dsmark.ko /etc/modules-load.d/sch_dsmark.conf /etc/modprobe.d/sch_dsmark.conf
+FILELIST = /lib/modules/3.2.52/kernel/net/sched/sch_dsmark.ko
