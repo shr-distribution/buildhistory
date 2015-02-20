@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.11.0
 PR = r0
-PKGR = r0.5
+PKGR = r0.6
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) webkit-efl (>= 1.11.0)
+RDEPENDS = glibc (>= 2.21) webkit-efl (>= 1.11.0)
 RRECOMMENDS = 
-PKGSIZE = 15552
+PKGSIZE = 15600
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/NetworkProcess /usr/bin/PluginProcess /usr/bin/WebProcess
