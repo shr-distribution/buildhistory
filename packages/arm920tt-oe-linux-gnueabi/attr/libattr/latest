@@ -1,10 +1,10 @@
 PV = 2.4.47
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 PKG = libattr1
 RPROVIDES = libattr
-RDEPENDS = glibc (>= 2.20)
+RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
-PKGSIZE = 12060
+PKGSIZE = 12196
 FILES = /lib/lib*.so.*
 FILELIST = /lib/libattr.so.1 /lib/libattr.so.1.1.0
