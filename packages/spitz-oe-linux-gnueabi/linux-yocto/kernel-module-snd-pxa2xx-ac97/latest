@@ -1,10 +1,10 @@
-PV = 3.17.8+gitAUTOINC+f24c2bf9c2_0409b1fbed
+PV = 3.19+gitAUTOINC+8897ef68b3_43b9eced9b
 PR = r0
-PKGV = 3.17.8+git0+f24c2bf9c2_0409b1fbed
+PKGV = 3.19+git0+8897ef68b3_43b9eced9b
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.17.8-yocto-standard kernel-module-ac97-bus kernel-module-snd kernel-module-snd-ac97-codec kernel-module-snd-pcm kernel-module-snd-pxa2xx-lib kernel-module-snd-pxa2xx-pcm kernel-module-snd-timer kernel-module-soundcore
+RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-ac97-bus kernel-module-snd kernel-module-snd-ac97-codec kernel-module-snd-pcm kernel-module-snd-pxa2xx-lib kernel-module-snd-pxa2xx-pcm kernel-module-snd-timer kernel-module-soundcore
 RRECOMMENDS = 
-PKGSIZE = 7084
-FILES = /lib/modules/3.17.8-yocto-standard/kernel/sound/arm/snd-pxa2xx-ac97.ko /etc/modules-load.d/snd-pxa2xx-ac97.conf /etc/modprobe.d/snd-pxa2xx-ac97.conf
-FILELIST = /lib/modules/3.17.8-yocto-standard/kernel/sound/arm/snd-pxa2xx-ac97.ko
+PKGSIZE = 7076
+FILES = /lib/modules/3.19.0-yocto-standard/kernel/sound/arm/snd-pxa2xx-ac97.ko /etc/modules-load.d/snd-pxa2xx-ac97.conf /etc/modprobe.d/snd-pxa2xx-ac97.conf
+FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/sound/arm/snd-pxa2xx-ac97.ko
