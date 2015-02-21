@@ -1,9 +1,9 @@
 PV = 22.21
 PR = r0
-PKGR = r0.10
+PKGR = r0.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.20) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.21) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 17400
+PKGSIZE = 17308
 FILES = /usr/bin/killall.psmisc
 FILELIST = /usr/bin/killall.psmisc

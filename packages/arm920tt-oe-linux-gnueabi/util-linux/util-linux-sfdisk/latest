@@ -1,9 +1,9 @@
 PV = 2.25.2
 PR = r1
-PKGR = r1.1
+PKGR = r1.2
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
-PKGSIZE = 57932
+PKGSIZE = 57632
 FILES = /usr/sbin/sfdisk
 FILELIST = /usr/sbin/sfdisk
