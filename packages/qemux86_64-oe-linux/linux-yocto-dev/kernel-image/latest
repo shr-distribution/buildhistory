@@ -1,11 +1,11 @@
-PV = 3.19++gitAUTOINC+5487f9ee81_380c5d15c4
+PV = 3.19++gitAUTOINC+f7a81274b4_43b9eced9b
 PR = r0
-PKGV = 3.19++git0+5487f9ee81_380c5d15c4
-PKGR = r0.4
-PKG = kernel-image-3.19.0-rc6-yocto-standard
+PKGV = 3.19++git1+f7a81274b4_43b9eced9b
+PKGR = r0.1
+PKG = kernel-image-3.19.0-yocto-standard
 RPROVIDES = kernel-image
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 6664688
+PKGSIZE = 6666160
 FILES = /boot/bzImage*
-FILELIST = /boot/bzImage-3.19.0-rc6-yocto-standard
+FILELIST = /boot/bzImage-3.19.0-yocto-standard
