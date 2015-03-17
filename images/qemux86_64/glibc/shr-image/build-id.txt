@@ -1,4 +1,4 @@
-qemux86-64: shr-image configured for shr 2013.07-next-20150311
+qemux86-64: shr-image configured for shr 2013.07-next-20150317
 
 Build Configuration:
 BB_VERSION        = "1.25.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "x86_64-oe-linux"
 MACHINE           = "qemux86-64"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20150311"
+DISTRO_VERSION    = "2013.07-next-20150317"
 TUNE_FEATURES     = "m64 core2"
 TARGET_FPU        = ""
 meta-jama         = "master:ad94994ad64b9747f93221a4d82f5b53e442ae4d"
@@ -15,7 +15,7 @@ meta-shr-distro
 meta-shr          
 meta-aurora       
 meta-fso          
-meta-android      = "jansa/master:63a9df99b0b571ed08be251a5b279f97383369c9"
+meta-android      = "jansa/master:95df92a20ee8ab3a4cfb54c92f126717a3e0868d"
 meta-oe           
 meta-efl          
 meta-gnome        
@@ -27,15 +27,15 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:9a7ca4268ced77e08579b697a6a78dcbb33060e7"
+meta-systemd      = "jansa/master:a1a4b37dc4a49f665d821431408fdff37398197f"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
 meta-palm         
 meta-openmoko     
-meta-samsung      = "jansa/master:63a9df99b0b571ed08be251a5b279f97383369c9"
+meta-samsung      = "jansa/master:95df92a20ee8ab3a4cfb54c92f126717a3e0868d"
 meta-browser      = "jansa/master:14e4829d716db416f62403ddd0941ab97491d707"
 meta-games        = "master:c4b6f594246328155fc2fe52aebe8920c078d608"
 meta-handheld     = "jansa/master:55949ebef15214537359e99f73550accab93e704"
-meta              = "jansa/master:8c6f02f006eecfae36c9830adc09a90ae9959e60"
+meta              = "jansa/master:a3a4df32d3d21cecf37f668270e61e38935a8e1b"
 
