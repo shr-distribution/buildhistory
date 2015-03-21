@@ -1,10 +1,10 @@
-PV = 3.19+gitAUTOINC+f7a81274b4_43b9eced9b
+PV = 3.19.1+gitAUTOINC+e3303ca4bd_8c38c1015b
 PR = r0
-PKGV = 3.19+git1+f7a81274b4_43b9eced9b
+PKGV = 3.19.1+git0+e3303ca4bd_8c38c1015b
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-snd kernel-module-snd-seq-device kernel-module-snd-timer kernel-module-soundcore
+RDEPENDS = kernel-3.19.1-yocto-standard kernel-module-snd kernel-module-snd-seq-device kernel-module-snd-timer kernel-module-soundcore
 RRECOMMENDS = 
 PKGSIZE = 64912
-FILES = /lib/modules/3.19.0-yocto-standard/kernel/sound/core/seq/snd-seq.ko /etc/modules-load.d/snd-seq.conf /etc/modprobe.d/snd-seq.conf
-FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/sound/core/seq/snd-seq.ko
+FILES = /lib/modules/3.19.1-yocto-standard/kernel/sound/core/seq/snd-seq.ko /etc/modules-load.d/snd-seq.conf /etc/modprobe.d/snd-seq.conf
+FILELIST = /lib/modules/3.19.1-yocto-standard/kernel/sound/core/seq/snd-seq.ko

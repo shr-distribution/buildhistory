@@ -1,10 +1,10 @@
-PV = 3.19+gitAUTOINC+f7a81274b4_43b9eced9b
+PV = 3.19.1+gitAUTOINC+e3303ca4bd_8c38c1015b
 PR = r0
-PKGV = 3.19+git1+f7a81274b4_43b9eced9b
+PKGV = 3.19.1+git0+e3303ca4bd_8c38c1015b
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-lib80211
+RDEPENDS = kernel-3.19.1-yocto-standard kernel-module-lib80211
 RRECOMMENDS = 
 PKGSIZE = 11100
-FILES = /lib/modules/3.19.0-yocto-standard/kernel/net/wireless/lib80211_crypt_tkip.ko /etc/modules-load.d/lib80211_crypt_tkip.conf /etc/modprobe.d/lib80211_crypt_tkip.conf
-FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/net/wireless/lib80211_crypt_tkip.ko
+FILES = /lib/modules/3.19.1-yocto-standard/kernel/net/wireless/lib80211_crypt_tkip.ko /etc/modules-load.d/lib80211_crypt_tkip.conf /etc/modprobe.d/lib80211_crypt_tkip.conf
+FILELIST = /lib/modules/3.19.1-yocto-standard/kernel/net/wireless/lib80211_crypt_tkip.ko

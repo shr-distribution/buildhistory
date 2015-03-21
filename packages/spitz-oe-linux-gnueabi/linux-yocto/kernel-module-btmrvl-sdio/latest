@@ -1,10 +1,10 @@
-PV = 3.19+gitAUTOINC+f7a81274b4_43b9eced9b
+PV = 3.19.1+gitAUTOINC+e3303ca4bd_8c38c1015b
 PR = r0
-PKGV = 3.19+git1+f7a81274b4_43b9eced9b
+PKGV = 3.19.1+git0+e3303ca4bd_8c38c1015b
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.0-yocto-standard kernel-module-bluetooth kernel-module-btmrvl
+RDEPENDS = kernel-3.19.1-yocto-standard kernel-module-bluetooth kernel-module-btmrvl
 RRECOMMENDS = 
 PKGSIZE = 19872
-FILES = /lib/modules/3.19.0-yocto-standard/kernel/drivers/bluetooth/btmrvl_sdio.ko /etc/modules-load.d/btmrvl_sdio.conf /etc/modprobe.d/btmrvl_sdio.conf
-FILELIST = /lib/modules/3.19.0-yocto-standard/kernel/drivers/bluetooth/btmrvl_sdio.ko
+FILES = /lib/modules/3.19.1-yocto-standard/kernel/drivers/bluetooth/btmrvl_sdio.ko /etc/modules-load.d/btmrvl_sdio.conf /etc/modprobe.d/btmrvl_sdio.conf
+FILELIST = /lib/modules/3.19.1-yocto-standard/kernel/drivers/bluetooth/btmrvl_sdio.ko
