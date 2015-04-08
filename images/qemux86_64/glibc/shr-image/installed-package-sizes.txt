@@ -8,7 +8,7 @@
 6256	KiB fbreader
 5791	KiB vim-help
 5773	KiB coreutils
-5400	KiB gdb
+5603	KiB gdb
 5307	KiB elementary-themes
 5213	KiB udev-hwdb
 5177	KiB libgtk-2.0
@@ -31,8 +31,8 @@
 2704	KiB ncurses-terminfo
 2530	KiB python-lxml
 2396	KiB ttf-dejavu-sans
+2336	KiB libcrypto1.0.0
 2332	KiB libicui18n54
-2332	KiB libcrypto1.0.0
 2324	KiB xserver-xorg
 2182	KiB advancedcaching
 2097	KiB shared-mime-info
@@ -98,8 +98,8 @@
 680	KiB libpixman-1-0
 669	KiB shr-settings
 658	KiB libtheora
+644	KiB libevent
 639	KiB python-lang
-638	KiB libevent
 632	KiB python-edje
 628	KiB openssh-ssh
 626	KiB libdw1
@@ -117,6 +117,7 @@
 505	KiB libgstfarsight-0.10-0
 502	KiB sysstat
 501	KiB libpulsecommon
+493	KiB strace
 484	KiB libgpsd22
 469	KiB powertop
 469	KiB pango
@@ -124,13 +125,12 @@
 464	KiB libtiff5
 454	KiB libflac8
 452	KiB python-dbus
+451	KiB socat
+449	KiB libssl1.0.0
 447	KiB rsync
-445	KiB libssl1.0.0
 439	KiB tar
 435	KiB nettle
 426	KiB om-neon
-420	KiB strace
-414	KiB socat
 406	KiB openssh-keygen
 401	KiB eina
 396	KiB libedje-utils
@@ -347,12 +347,12 @@
 82	KiB gst-plugins-good-jpeg
 81	KiB libeo1
 81	KiB gst-plugins-good-audioparsers
+78	KiB tzdata-asia
 77	KiB xkeyboard-config-locale-cs
 77	KiB mdbus2
 77	KiB glib-networking
 77	KiB dosfstools
 76	KiB libeio1
-75	KiB tzdata-asia
 75	KiB libfsotest3
 75	KiB fontconfig-utils
 74	KiB openssh-scp
@@ -507,6 +507,7 @@
 30	KiB mterm2
 30	KiB libgstsdp-0.10-0
 30	KiB kernel-module-nf-conntrack-ipv4
+30	KiB evtest
 30	KiB e-wm-config-illume2-shr
 30	KiB aspell-locale-cs
 29	KiB xmodmap
@@ -518,7 +519,6 @@
 28	KiB gtk-immodule-xim
 28	KiB gst-plugins-ugly-a52dec
 28	KiB gst-plugins-good-imagefreeze
-28	KiB evtest
 28	KiB ecore-file
 27	KiB xset
 27	KiB libphone-utils0
@@ -571,7 +571,7 @@
 20	KiB libxfixes3
 20	KiB libxdmcp6
 20	KiB killall
-20	KiB kernel-3.19.0-yocto-standard
+20	KiB kernel-3.19.2-yocto-standard
 20	KiB gst-plugins-good-level
 20	KiB gst-plugins-good-alaw
 20	KiB gdk-pixbuf-locale-en-gb
