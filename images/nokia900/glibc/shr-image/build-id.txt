@@ -27,7 +27,7 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:f4e9fc65a5727bfba85451f6ccabdc88f1fc2060"
+meta-systemd      = "jansa/master:a48eb6944d9fdb8a5ee834c42011928aac6a9cea"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
