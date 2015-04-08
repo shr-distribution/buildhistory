@@ -2343,6 +2343,7 @@ digraph depends {
 "libgbm1" -> "libglapi0";
 "libgcrypt" -> "libcap2";
 "libgcrypt" -> "libgpg-error0";
+"libgdbm-compat4" -> "libgdbm4";
 "libgee2" -> "libffi6";
 "libgee2" -> "libglib-2.0-0";
 "libgisi0" -> "libffi6";
@@ -3608,6 +3609,7 @@ digraph depends {
 "python-math" -> "python-crypt";
 "python-mime" -> "python-core";
 "python-mime" -> "python-io";
+"python-misc" -> "libgdbm-compat4";
 "python-misc" -> "libpython2.7-1.0";
 "python-mmap" -> "libpython2.7-1.0";
 "python-mmap" -> "python-core";

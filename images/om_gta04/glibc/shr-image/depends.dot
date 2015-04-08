@@ -2642,6 +2642,8 @@ digraph depends {
 "libgcrypt" -> "libc6";
 "libgcrypt" -> "libcap2";
 "libgcrypt" -> "libgpg-error0";
+"libgdbm-compat4" -> "libc6";
+"libgdbm-compat4" -> "libgdbm4";
 "libgdbm4" -> "libc6";
 "libgee2" -> "libc6";
 "libgee2" -> "libffi6";
@@ -4154,6 +4156,7 @@ digraph depends {
 "python-mime" -> "python-core";
 "python-mime" -> "python-io";
 "python-misc" -> "libc6";
+"python-misc" -> "libgdbm-compat4";
 "python-misc" -> "libpython2.7-1.0";
 "python-mmap" -> "libc6";
 "python-mmap" -> "libpython2.7-1.0";

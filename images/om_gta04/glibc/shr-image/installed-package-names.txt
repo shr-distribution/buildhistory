@@ -378,6 +378,7 @@ libfsotransport3
 libgbm1
 libgcc1
 libgcrypt
+libgdbm-compat4
 libgdbm4
 libgee2
 libgif4
