@@ -395,6 +395,7 @@ libfsotransport3
 libgbm1
 libgcc1
 libgcrypt
+libgdbm-compat4
 libgdbm4
 libgee2
 libgif4
@@ -530,6 +531,7 @@ libxcb-render0
 libxcb-shape0
 libxcb-shm0
 libxcb-xfixes0
+libxcb-xkb1
 libxcb1
 libxcomposite1
 libxcursor1
@@ -541,6 +543,7 @@ libxfont1
 libxft2
 libxi6
 libxinerama1
+libxkbcommon
 libxkbfile1
 libxml2
 libxmuu1
