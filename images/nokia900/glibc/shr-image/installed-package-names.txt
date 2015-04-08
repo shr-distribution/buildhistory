@@ -409,6 +409,7 @@ libfsotest3
 libfsotransport3
 libgbm1
 libgcc1
+libgdbm-compat4
 libgdbm4
 libgee2
 libgif4

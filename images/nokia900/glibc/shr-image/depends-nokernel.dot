@@ -2651,6 +2651,8 @@ digraph depends {
 "libgbm1" -> "libexpat1";
 "libgbm1" -> "libglapi0";
 "libgcc1" -> "libc6";
+"libgdbm-compat4" -> "libc6";
+"libgdbm-compat4" -> "libgdbm4";
 "libgdbm4" -> "libc6";
 "libgee2" -> "libc6";
 "libgee2" -> "libffi6";
@@ -4167,6 +4169,7 @@ digraph depends {
 "python-mime" -> "python-core";
 "python-mime" -> "python-io";
 "python-misc" -> "libc6";
+"python-misc" -> "libgdbm-compat4";
 "python-misc" -> "libpython2.7-1.0";
 "python-mmap" -> "libc6";
 "python-mmap" -> "libpython2.7-1.0";
