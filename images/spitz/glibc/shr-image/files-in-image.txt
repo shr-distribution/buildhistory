@@ -3334,7 +3334,7 @@ lrwxrwxrwx root       root               16 ./usr/lib/libkmod.so.2 -> libkmod.so
 lrwxrwxrwx root       root               29 ./usr/lib/liblightmediascanner.so.0 -> liblightmediascanner.so.0.4.4
 -rwxr-xr-x root       root            44824 ./usr/lib/liblightmediascanner.so.0.4.4
 lrwxrwxrwx root       root               21 ./usr/lib/liblinebreak.so.1 -> liblinebreak.so.1.0.2
--rwxr-xr-x root       root            31800 ./usr/lib/liblinebreak.so.1.0.2
+-rwxr-xr-x root       root            31468 ./usr/lib/liblinebreak.so.1.0.2
 lrwxrwxrwx root       root               22 ./usr/lib/libluajit-5.1.so.2 -> libluajit-5.1.so.2.0.3
 -rwxr-xr-x root       root           284072 ./usr/lib/libluajit-5.1.so.2.0.3
 lrwxrwxrwx root       root               16 ./usr/lib/liblzma.so.5 -> liblzma.so.5.2.0
