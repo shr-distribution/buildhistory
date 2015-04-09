@@ -387,9 +387,9 @@ libgl-mesa_2:10.4.4-r0.1_cortexa8t2-vfp-neon.ipk
 libglade-2.0-0_2.6.4-r5.11_cortexa8t2-vfp-neon.ipk
 libglapi0_2:10.4.4-r0.1_cortexa8t2-vfp-neon.ipk
 libgles2-mesa_2:10.4.4-r0.1_cortexa8t2-vfp-neon.ipk
-libglib-2.0-0_1:2.42.1-r0.1_cortexa8-vfp-neon.ipk
-libglib-2.0-locale-cs_1:2.42.1-r0.1_cortexa8-vfp-neon.ipk
-libglib-2.0-locale-en-gb_1:2.42.1-r0.1_cortexa8-vfp-neon.ipk
+libglib-2.0-0_1:2.44.0-r0.0_cortexa8-vfp-neon.ipk
+libglib-2.0-locale-cs_1:2.44.0-r0.0_cortexa8-vfp-neon.ipk
+libglib-2.0-locale-en-gb_1:2.44.0-r0.0_cortexa8-vfp-neon.ipk
 libgmp10_6.0.0-r0.1_cortexa8-vfp-neon.ipk
 libgnutls-locale-cs_3.3.12-r0.1_cortexa8t2-vfp-neon.ipk
 libgnutls28_3.3.12-r0.1_cortexa8t2-vfp-neon.ipk

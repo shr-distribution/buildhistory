@@ -23,7 +23,7 @@
 2737	KiB python-misc
 2707	KiB xkeyboard-config
 2704	KiB ncurses-terminfo
-2653	KiB libglib-2.0-0
+2665	KiB libglib-2.0-0
 2589	KiB evas
 2396	KiB ttf-dejavu-sans
 2202	KiB advancedcaching
