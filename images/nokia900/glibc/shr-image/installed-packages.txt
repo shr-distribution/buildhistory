@@ -458,7 +458,7 @@ libjson-c2_0.12-r0.1_cortexa8t2-vfp-neon.ipk
 libkmod2_19+git0+fd56638aed-r0.2_cortexa8t2-vfp-neon.ipk
 liblightmediascanner-test_0.4.4-r2.11_cortexa8t2-vfp-neon.ipk
 liblightmediascanner0_0.4.4-r2.11_cortexa8t2-vfp-neon.ipk
-liblinebreak1_1.2-r0.12_cortexa8t2-vfp-neon.ipk
+liblinebreak1_1.2-r0.13_cortexa8t2-vfp-neon.ipk
 liblzma5_5.2.0-r0.2_cortexa8t2-vfp-neon.ipk
 liblzo2-2_2.09-r0.1_cortexa8t2-vfp-neon.ipk
 libmad0_0.15.1b-r3.3_cortexa8-vfp-neon.ipk
