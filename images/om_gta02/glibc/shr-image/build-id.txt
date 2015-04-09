@@ -1,4 +1,4 @@
-om-gta02: shr-image configured for shr 2013.07-next-20150408
+om-gta02: shr-image configured for shr 2013.07-next-20150409
 
 Build Configuration:
 BB_VERSION        = "1.27.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "arm-oe-linux-gnueabi"
 MACHINE           = "om-gta02"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20150408"
+DISTRO_VERSION    = "2013.07-next-20150409"
 TUNE_FEATURES     = "arm armv4 thumb arm920t"
 TARGET_FPU        = "soft"
 meta-jama         = "master:ad94994ad64b9747f93221a4d82f5b53e442ae4d"
@@ -27,7 +27,7 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:f4e9fc65a5727bfba85451f6ccabdc88f1fc2060"
+meta-systemd      = "jansa/master:d31b5dd2d94da6d34be4ea18a404268ace546892"
 meta-osmocombb    
 meta-nokia        
 meta-htc          

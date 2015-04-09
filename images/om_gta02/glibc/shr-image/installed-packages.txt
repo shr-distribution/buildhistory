@@ -441,7 +441,7 @@ libjson-c2_0.12-r0.2_arm920tt.ipk
 libkmod2_19+git0+fd56638aed-r0.2_arm920tt.ipk
 liblightmediascanner-test_0.4.4-r2.12_arm920tt.ipk
 liblightmediascanner0_0.4.4-r2.12_arm920tt.ipk
-liblinebreak1_1.2-r0.12_arm920tt.ipk
+liblinebreak1_1.2-r0.13_arm920tt.ipk
 liblzma5_5.2.0-r0.2_arm920tt.ipk
 liblzo2-2_2.09-r0.1_arm920tt.ipk
 libmad0_0.15.1b-r3.1_arm920t.ipk
@@ -608,7 +608,7 @@ opimd-utils-data_1:0.0.3+gitr1+6e120e4dcf-r0.9_arm920tt.ipk
 opimd-utils-notes_1:0.0.3+gitr1+6e120e4dcf-r0.9_arm920tt.ipk
 opkg_1:0.2.4-r0.3_arm920tt.ipk
 opkg-arch-config_1.0-r1.2_om_gta02.ipk
-os-release_1.0-r0.5_all.ipk
+os-release_1.0-r0.6_all.ipk
 packagegroup-base_1.0-r83.11_om_gta02.ipk
 packagegroup-base-alsa_1.0-r83.11_om_gta02.ipk
 packagegroup-base-apm_1.0-r83.11_om_gta02.ipk
