@@ -3183,8 +3183,8 @@ lrwxrwxrwx root       root               15 ./usr/lib/libgee.so.2 -> libgee.so.2
 -rwxr-xr-x root       root           352384 ./usr/lib/libgee.so.2.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libgif.so.4 -> libgif.so.4.1.6
 -rwxr-xr-x root       root            36792 ./usr/lib/libgif.so.4.1.6
-lrwxrwxrwx root       root               22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.4200.1
--rwxr-xr-x root       root          1530048 ./usr/lib/libgio-2.0.so.0.4200.1
+lrwxrwxrwx root       root               22 ./usr/lib/libgio-2.0.so.0 -> libgio-2.0.so.0.4400.0
+-rwxr-xr-x root       root          1553536 ./usr/lib/libgio-2.0.so.0.4400.0
 lrwxrwxrwx root       root               16 ./usr/lib/libgisi.so.0 -> libgisi.so.0.0.0
 -rwxr-xr-x root       root            40376 ./usr/lib/libgisi.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgisicomm.so.0 -> libgisicomm.so.0.0.0
@@ -3193,16 +3193,16 @@ lrwxrwxrwx root       root               21 ./usr/lib/libglade-2.0.so.0 -> libgl
 -rwxr-xr-x root       root           105704 ./usr/lib/libglade-2.0.so.0.0.7
 lrwxrwxrwx root       root               17 ./usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
 -rwxr-xr-x root       root           314592 ./usr/lib/libglapi.so.0.0.0
-lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.4200.1
--rwxr-xr-x root       root          1276312 ./usr/lib/libglib-2.0.so.0.4200.1
-lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.4200.1
--rwxr-xr-x root       root            12128 ./usr/lib/libgmodule-2.0.so.0.4200.1
+lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.4400.0
+-rwxr-xr-x root       root          1276312 ./usr/lib/libglib-2.0.so.0.4400.0
+lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.4400.0
+-rwxr-xr-x root       root            12128 ./usr/lib/libgmodule-2.0.so.0.4400.0
 lrwxrwxrwx root       root               16 ./usr/lib/libgmp.so.10 -> libgmp.so.10.2.0
 -rwxr-xr-x root       root           478432 ./usr/lib/libgmp.so.10.2.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgnutls.so.28 -> libgnutls.so.28.41.4
 -rwxr-xr-x root       root          1144808 ./usr/lib/libgnutls.so.28.41.4
-lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.4200.1
--rwxr-xr-x root       root           338584 ./usr/lib/libgobject-2.0.so.0.4200.1
+lrwxrwxrwx root       root               26 ./usr/lib/libgobject-2.0.so.0 -> libgobject-2.0.so.0.4400.0
+-rwxr-xr-x root       root           338584 ./usr/lib/libgobject-2.0.so.0.4400.0
 lrwxrwxrwx root       root               16 ./usr/lib/libgps.so.21 -> libgps.so.21.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libgps.so.21.0 -> libgps.so.21.0.0
 -rwxr-xr-x root       root           132032 ./usr/lib/libgps.so.21.0.0
@@ -3251,8 +3251,8 @@ lrwxrwxrwx root       root               24 ./usr/lib/libgsttag-0.10.so.0 -> lib
 -rwxr-xr-x root       root           226816 ./usr/lib/libgsttag-0.10.so.0.25.0
 lrwxrwxrwx root       root               26 ./usr/lib/libgstvideo-0.10.so.0 -> libgstvideo-0.10.so.0.25.0
 -rwxr-xr-x root       root            90352 ./usr/lib/libgstvideo-0.10.so.0.25.0
-lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.4200.1
--rwxr-xr-x root       root             5064 ./usr/lib/libgthread-2.0.so.0.4200.1
+lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> libgthread-2.0.so.0.4400.0
+-rwxr-xr-x root       root             5064 ./usr/lib/libgthread-2.0.so.0.4400.0
 lrwxrwxrwx root       root               27 ./usr/lib/libgtk-x11-2.0.so.0 -> libgtk-x11-2.0.so.0.2400.25
 -rwxr-xr-x root       root          4453600 ./usr/lib/libgtk-x11-2.0.so.0.2400.25
 lrwxrwxrwx root       root               21 ./usr/lib/libgudev-1.0.so.0 -> libgudev-1.0.so.0.2.0
@@ -8495,7 +8495,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_MESSAGES
 -rw-r--r-- root       root            24117 ./usr/share/locale/cs/LC_MESSAGES/foxtrotgps.mo
 -rw-r--r-- root       root            22335 ./usr/share/locale/cs/LC_MESSAGES/gdk-pixbuf.mo
 -rw-r--r-- root       root             3345 ./usr/share/locale/cs/LC_MESSAGES/glib-networking.mo
--rw-r--r-- root       root           100194 ./usr/share/locale/cs/LC_MESSAGES/glib20.mo
+-rw-r--r-- root       root           100140 ./usr/share/locale/cs/LC_MESSAGES/glib20.mo
 -rw-r--r-- root       root            27078 ./usr/share/locale/cs/LC_MESSAGES/gnutls.mo
 -rw-r--r-- root       root            18765 ./usr/share/locale/cs/LC_MESSAGES/grep.mo
 -rw-r--r-- root       root            16476 ./usr/share/locale/cs/LC_MESSAGES/gst-plugins-base-0.10.mo
@@ -16575,12 +16575,12 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 -rw-r--r-- root       root              896 ./var/lib/opkg/info/libgles2-mesa.control
 -rw-r--r-- root       root               52 ./var/lib/opkg/info/libgles2-mesa.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgles2-mesa.postinst
--rw-r--r-- root       root             1002 ./var/lib/opkg/info/libglib-2.0-0.control
+-rw-r--r-- root       root             1066 ./var/lib/opkg/info/libglib-2.0-0.control
 -rw-r--r-- root       root              437 ./var/lib/opkg/info/libglib-2.0-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libglib-2.0-0.postinst
--rw-r--r-- root       root             1108 ./var/lib/opkg/info/libglib-2.0-locale-cs.control
+-rw-r--r-- root       root             1172 ./var/lib/opkg/info/libglib-2.0-locale-cs.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/libglib-2.0-locale-cs.list
--rw-r--r-- root       root             1126 ./var/lib/opkg/info/libglib-2.0-locale-en-gb.control
+-rw-r--r-- root       root             1190 ./var/lib/opkg/info/libglib-2.0-locale-en-gb.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libglib-2.0-locale-en-gb.list
 -rw-r--r-- root       root              653 ./var/lib/opkg/info/libgmp10.control
 -rw-r--r-- root       root               48 ./var/lib/opkg/info/libgmp10.list
@@ -17695,7 +17695,7 @@ drwxr-xr-x root       root            90112 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88805 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6502866 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6509395 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           329772 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           241495 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd

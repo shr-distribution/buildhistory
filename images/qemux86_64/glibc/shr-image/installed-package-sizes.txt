@@ -21,7 +21,7 @@
 3327	KiB python-pygtk
 3226	KiB subversion
 3117	KiB file
-3091	KiB libglib-2.0-0
+3114	KiB libglib-2.0-0
 3035	KiB evas
 2851	KiB gawk
 2819	KiB libpurple

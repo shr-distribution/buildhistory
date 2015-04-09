@@ -357,9 +357,9 @@ libgl-mesa_2:10.4.4-r0.1_core2-64.ipk
 libglade-2.0-0_2.6.4-r5.11_core2-64.ipk
 libglapi0_2:10.4.4-r0.1_core2-64.ipk
 libgles2-mesa_2:10.4.4-r0.1_core2-64.ipk
-libglib-2.0-0_1:2.42.1-r0.2_core2-64.ipk
-libglib-2.0-locale-cs_1:2.42.1-r0.2_core2-64.ipk
-libglib-2.0-locale-en-gb_1:2.42.1-r0.2_core2-64.ipk
+libglib-2.0-0_1:2.44.0-r0.0_core2-64.ipk
+libglib-2.0-locale-cs_1:2.44.0-r0.0_core2-64.ipk
+libglib-2.0-locale-en-gb_1:2.44.0-r0.0_core2-64.ipk
 libgmp10_6.0.0-r0.6_core2-64.ipk
 libgnutls-locale-cs_3.3.12-r0.1_core2-64.ipk
 libgnutls28_3.3.12-r0.1_core2-64.ipk
