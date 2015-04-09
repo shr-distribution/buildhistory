@@ -18,7 +18,7 @@
 3008	KiB elementary
 2760	KiB frameworkd
 2739	KiB python-misc
-2716	KiB libglib-2.0-0
+2727	KiB libglib-2.0-0
 2707	KiB xkeyboard-config
 2704	KiB ncurses-terminfo
 2692	KiB evas
