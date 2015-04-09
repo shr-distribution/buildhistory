@@ -1,4 +1,4 @@
-spitz: shr-image configured for shr 2013.07-next-20150408
+spitz: shr-image configured for shr 2013.07-next-20150409
 
 Build Configuration:
 BB_VERSION        = "1.27.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "arm-oe-linux-gnueabi"
 MACHINE           = "spitz"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20150408"
+DISTRO_VERSION    = "2013.07-next-20150409"
 TUNE_FEATURES     = "arm armv5 thumb dsp xscale"
 TARGET_FPU        = "soft"
 meta-jama         = "master:ad94994ad64b9747f93221a4d82f5b53e442ae4d"
