@@ -1843,15 +1843,15 @@ lrwxrwxrwx root       root               22 ./usr/bin/env -> /usr/bin/env.coreut
 -rwxr-xr-x root       root             9080 ./usr/bin/ethumb
 -rwxr-xr-x root       root            26620 ./usr/bin/ethumbd
 -rwxr-xr-x root       root            10100 ./usr/bin/ethumbd_client
--rwxr-xr-x root       root            23416 ./usr/bin/eu-ar
--rwxr-xr-x root       root            22192 ./usr/bin/eu-elfcmp
--rwxr-xr-x root       root            78684 ./usr/bin/eu-elflint
--rwxr-xr-x root       root            11984 ./usr/bin/eu-findtextrel
+-rwxr-xr-x root       root            22520 ./usr/bin/eu-ar
+-rwxr-xr-x root       root            20812 ./usr/bin/eu-elfcmp
+-rwxr-xr-x root       root            70240 ./usr/bin/eu-elflint
+-rwxr-xr-x root       root            11672 ./usr/bin/eu-findtextrel
 -rwxr-xr-x root       root             2911 ./usr/bin/eu-make-debug-archive
--rwxr-xr-x root       root            12356 ./usr/bin/eu-ranlib
--rwxr-xr-x root       root            16768 ./usr/bin/eu-stack
--rwxr-xr-x root       root            13056 ./usr/bin/eu-strings
--rwxr-xr-x root       root            32396 ./usr/bin/eu-unstrip
+-rwxr-xr-x root       root            12148 ./usr/bin/eu-ranlib
+-rwxr-xr-x root       root            14624 ./usr/bin/eu-stack
+-rwxr-xr-x root       root            12492 ./usr/bin/eu-strings
+-rwxr-xr-x root       root            31680 ./usr/bin/eu-unstrip
 -rwxr-xr-x root       root             7572 ./usr/bin/evas_cserve2_client
 -rwxr-xr-x root       root             8620 ./usr/bin/evas_cserve2_debug
 -rwxr-xr-x root       root            16544 ./usr/bin/evas_cserve2_shm_debug
@@ -1972,7 +1972,7 @@ lrwxrwxrwx root       root               26 ./usr/bin/logname -> /usr/bin/lognam
 -rwxr-xr-x root       root             6256 ./usr/bin/lsattr
 -rwxr-xr-x root       root           110584 ./usr/bin/lsusb
 -rwxr-xr-x root       root            15299 ./usr/bin/lsusb.py
--rwxr-xr-x root       root            98948 ./usr/bin/ltrace
+-rwxr-xr-x root       root            90892 ./usr/bin/ltrace
 lrwxrwxrwx root       root               12 ./usr/bin/luajit -> luajit-2.0.3
 -rwxr-xr-x root       root           284992 ./usr/bin/luajit-2.0.3
 -rwxr-xr-x root       root           136256 ./usr/bin/make
@@ -2455,35 +2455,35 @@ drwxr-xr-x root       root             4096 ./usr/lib/elementary/modules/prefs/v
 -rw-r--r-- root       root             5424 ./usr/lib/elementary/modules/prefs/v-1.13.2/elm_prefs_swallow.edj
 -rwxr-xr-x root       root            44388 ./usr/lib/elementary/modules/prefs/v-1.13.2/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/elfutils
--rwxr-xr-x root       root            24712 ./usr/lib/elfutils/libebl_aarch64-0.161.so
+-rwxr-xr-x root       root            24396 ./usr/lib/elfutils/libebl_aarch64-0.161.so
 lrwxrwxrwx root       root               23 ./usr/lib/elfutils/libebl_aarch64.so -> libebl_aarch64-0.161.so
--rwxr-xr-x root       root            10964 ./usr/lib/elfutils/libebl_alpha-0.161.so
+-rwxr-xr-x root       root            10648 ./usr/lib/elfutils/libebl_alpha-0.161.so
 lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_alpha.so -> libebl_alpha-0.161.so
--rwxr-xr-x root       root            19536 ./usr/lib/elfutils/libebl_arm-0.161.so
+-rwxr-xr-x root       root            16580 ./usr/lib/elfutils/libebl_arm-0.161.so
 lrwxrwxrwx root       root               19 ./usr/lib/elfutils/libebl_arm.so -> libebl_arm-0.161.so
--rwxr-xr-x root       root            41444 ./usr/lib/elfutils/libebl_i386-0.161.so
+-rwxr-xr-x root       root            39668 ./usr/lib/elfutils/libebl_i386-0.161.so
 lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_i386.so -> libebl_i386-0.161.so
--rwxr-xr-x root       root            14652 ./usr/lib/elfutils/libebl_ia64-0.161.so
+-rwxr-xr-x root       root            13456 ./usr/lib/elfutils/libebl_ia64-0.161.so
 lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_ia64.so -> libebl_ia64-0.161.so
--rwxr-xr-x root       root             6140 ./usr/lib/elfutils/libebl_m68k-0.161.so
+-rwxr-xr-x root       root             5824 ./usr/lib/elfutils/libebl_m68k-0.161.so
 lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_m68k.so -> libebl_m68k-0.161.so
--rwxr-xr-x root       root             8324 ./usr/lib/elfutils/libebl_mips-0.161.so
+-rwxr-xr-x root       root             7440 ./usr/lib/elfutils/libebl_mips-0.161.so
 lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_mips.so -> libebl_mips-0.161.so
--rwxr-xr-x root       root            10256 ./usr/lib/elfutils/libebl_parisc-0.161.so
+-rwxr-xr-x root       root             9272 ./usr/lib/elfutils/libebl_parisc-0.161.so
 lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_parisc.so -> libebl_parisc-0.161.so
--rwxr-xr-x root       root            15580 ./usr/lib/elfutils/libebl_ppc-0.161.so
+-rwxr-xr-x root       root            14852 ./usr/lib/elfutils/libebl_ppc-0.161.so
 lrwxrwxrwx root       root               19 ./usr/lib/elfutils/libebl_ppc.so -> libebl_ppc-0.161.so
--rwxr-xr-x root       root            15328 ./usr/lib/elfutils/libebl_ppc64-0.161.so
+-rwxr-xr-x root       root            14804 ./usr/lib/elfutils/libebl_ppc64-0.161.so
 lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_ppc64.so -> libebl_ppc64-0.161.so
--rwxr-xr-x root       root            13264 ./usr/lib/elfutils/libebl_s390-0.161.so
+-rwxr-xr-x root       root            12152 ./usr/lib/elfutils/libebl_s390-0.161.so
 lrwxrwxrwx root       root               20 ./usr/lib/elfutils/libebl_s390.so -> libebl_s390-0.161.so
--rwxr-xr-x root       root             9472 ./usr/lib/elfutils/libebl_sh-0.161.so
+-rwxr-xr-x root       root             8504 ./usr/lib/elfutils/libebl_sh-0.161.so
 lrwxrwxrwx root       root               18 ./usr/lib/elfutils/libebl_sh.so -> libebl_sh-0.161.so
--rwxr-xr-x root       root            15620 ./usr/lib/elfutils/libebl_sparc-0.161.so
+-rwxr-xr-x root       root            13664 ./usr/lib/elfutils/libebl_sparc-0.161.so
 lrwxrwxrwx root       root               21 ./usr/lib/elfutils/libebl_sparc.so -> libebl_sparc-0.161.so
--rwxr-xr-x root       root            10816 ./usr/lib/elfutils/libebl_tilegx-0.161.so
+-rwxr-xr-x root       root            10552 ./usr/lib/elfutils/libebl_tilegx-0.161.so
 lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_tilegx.so -> libebl_tilegx-0.161.so
--rwxr-xr-x root       root            43944 ./usr/lib/elfutils/libebl_x86_64-0.161.so
+-rwxr-xr-x root       root            40304 ./usr/lib/elfutils/libebl_x86_64-0.161.so
 lrwxrwxrwx root       root               22 ./usr/lib/elfutils/libebl_x86_64.so -> libebl_x86_64-0.161.so
 drwxr-xr-x root       root             4096 ./usr/lib/enjoy
 -rwxr-xr-x root       root             5276 ./usr/lib/enjoy/albumart-lastfm.so
@@ -3078,7 +3078,7 @@ lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1
 -rwxr-xr-x root       root            10256 ./usr/lib/libdmx.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libdrm.so.2 -> libdrm.so.2.4.0
 -rwxr-xr-x root       root            31440 ./usr/lib/libdrm.so.2.4.0
--rwxr-xr-x root       root           209108 ./usr/lib/libdw-0.161.so
+-rwxr-xr-x root       root           164372 ./usr/lib/libdw-0.161.so
 lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.161.so
 lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.13.2
 -rwxr-xr-x root       root           157596 ./usr/lib/libecore.so.1.13.2
@@ -3128,7 +3128,7 @@ lrwxrwxrwx root       root               19 ./usr/lib/libeldbus.so.1 -> libeldbu
 -rwxr-xr-x root       root           168176 ./usr/lib/libeldbus.so.1.13.2
 lrwxrwxrwx root       root               23 ./usr/lib/libelementary.so.1 -> libelementary.so.1.13.2
 -rwxr-xr-x root       root          2885024 ./usr/lib/libelementary.so.1.13.2
--rwxr-xr-x root       root            75728 ./usr/lib/libelf-0.161.so
+-rwxr-xr-x root       root            63136 ./usr/lib/libelf-0.161.so
 lrwxrwxrwx root       root               15 ./usr/lib/libelf.so.1 -> libelf-0.161.so
 lrwxrwxrwx root       root               22 ./usr/lib/libelocation.so.1 -> libelocation.so.1.13.2
 -rwxr-xr-x root       root            26456 ./usr/lib/libelocation.so.1.13.2
@@ -15845,7 +15845,7 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root             2162 ./var/lib/opkg/info/elementary.control
 -rw-r--r-- root       root              641 ./var/lib/opkg/info/elementary.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/elementary.postinst
--rw-r--r-- root       root             1021 ./var/lib/opkg/info/elfutils.control
+-rw-r--r-- root       root             1092 ./var/lib/opkg/info/elfutils.control
 -rw-r--r-- root       root              186 ./var/lib/opkg/info/elfutils.list
 -rw-r--r-- root       root              484 ./var/lib/opkg/info/embryo.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/embryo.list
@@ -16645,7 +16645,7 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root              675 ./var/lib/opkg/info/libdrm2.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libdrm2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdrm2.postinst
--rw-r--r-- root       root             1032 ./var/lib/opkg/info/libdw1.control
+-rw-r--r-- root       root             1103 ./var/lib/opkg/info/libdw1.control
 -rw-r--r-- root       root             1159 ./var/lib/opkg/info/libdw1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libdw1.postinst
 -rw-r--r-- root       root             1531 ./var/lib/opkg/info/libe2p2.control
@@ -16683,7 +16683,7 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root              617 ./var/lib/opkg/info/libeldbus1.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libeldbus1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeldbus1.postinst
--rw-r--r-- root       root              975 ./var/lib/opkg/info/libelf1.control
+-rw-r--r-- root       root             1046 ./var/lib/opkg/info/libelf1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libelf1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libelf1.postinst
 -rw-r--r-- root       root             1106 ./var/lib/opkg/info/libemotion1.control
@@ -17251,7 +17251,7 @@ drwxr-xr-x root       root           110592 ./var/lib/opkg/info
 -rw-r--r-- root       root              126 ./var/lib/opkg/info/logrotate.list
 -rw-r--r-- root       root              421 ./var/lib/opkg/info/lsof.control
 -rw-r--r-- root       root               15 ./var/lib/opkg/info/lsof.list
--rw-r--r-- root       root              745 ./var/lib/opkg/info/ltrace.control
+-rw-r--r-- root       root              806 ./var/lib/opkg/info/ltrace.control
 -rw-r--r-- root       root               33 ./var/lib/opkg/info/ltrace.list
 -rw-r--r-- root       root              465 ./var/lib/opkg/info/luajit.control
 -rw-r--r-- root       root               98 ./var/lib/opkg/info/luajit.list
@@ -17929,7 +17929,7 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            88805 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           849405 ./var/lib/opkg/lists/oe-arm920t
--rw-r--r-- root       root          5647761 ./var/lib/opkg/lists/oe-arm920tt
+-rw-r--r-- root       root          5649282 ./var/lib/opkg/lists/oe-arm920tt
 -rw-r--r-- root       root           353342 ./var/lib/opkg/lists/oe-om_gta02
 -rw-r--r-- root       root           255057 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd

@@ -103,7 +103,6 @@
 475	KiB foxtrotgps
 469	KiB libtheora
 467	KiB libevent
-458	KiB libdw1
 450	KiB openvpn
 427	KiB om-neon
 426	KiB fsodeviced
@@ -111,6 +110,7 @@
 408	KiB libpixman-1-0
 406	KiB python-dbus
 400	KiB gconf
+397	KiB libdw1
 392	KiB openssl
 388	KiB libgmp10
 385	KiB libfreetype6
@@ -179,7 +179,6 @@
 215	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
 209	KiB gst-plugins-base-playbin
-209	KiB elfutils
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
 204	KiB python-json
@@ -188,6 +187,7 @@
 196	KiB libext2fs2
 194	KiB python-textutils
 194	KiB libasound-module-bluez
+194	KiB elfutils
 191	KiB python-math
 191	KiB nfs-utils-client
 188	KiB util-linux-fdisk
@@ -253,7 +253,6 @@
 118	KiB python-re
 116	KiB python-mime
 116	KiB ecore-evas
-111	KiB ltrace
 111	KiB gdk-pixbuf
 109	KiB shr-e-gadgets
 109	KiB libexif-locale-en-gb
@@ -268,6 +267,7 @@
 105	KiB libgisi0
 105	KiB libgcc1
 104	KiB gst-plugins-good-rtsp
+103	KiB ltrace
 103	KiB lsof
 103	KiB libtinfo5
 101	KiB libvorbisidec1
@@ -319,7 +319,6 @@
 75	KiB gst-plugins-good-flv
 74	KiB libyaml-0-2
 74	KiB libshr-glib0
-74	KiB libelf1
 74	KiB kernel-module-nf-conntrack
 73	KiB gst-plugins-base-tcp
 72	KiB usb-modeswitch
@@ -355,6 +354,7 @@
 64	KiB gst-plugins-good-audioparsers
 63	KiB libxcb-xkb1
 62	KiB libnl-nf-3-200
+62	KiB libelf1
 62	KiB gst-plugins-base-typefindfunctions
 62	KiB elementary-configs
 61	KiB libusb-1.0-0
