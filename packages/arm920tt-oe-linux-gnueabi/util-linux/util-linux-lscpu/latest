@@ -1,9 +1,9 @@
-PV = 2.25.2
-PR = r1
-PKGR = r1.2
+PV = 2.26.1
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) util-linux-libs (>= 2.25.2)
+RDEPENDS = glibc (>= 2.21) util-linux-libsmartcols (>= 2.26.1)
 RRECOMMENDS = 
-PKGSIZE = 36828
+PKGSIZE = 37204
 FILES = /usr/bin/lscpu
 FILELIST = /usr/bin/lscpu
