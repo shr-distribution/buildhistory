@@ -1,10 +1,10 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.40
+PKGR = r14.43
 RPROVIDES = 
 RDEPENDS = kernel-3.2.52
 RRECOMMENDS = 
-PKGSIZE = 21700
+PKGSIZE = 21704
 FILES = /lib/modules/3.2.52/kernel/crypto/khazad.ko /etc/modules-load.d/khazad.conf /etc/modprobe.d/khazad.conf
 FILELIST = /lib/modules/3.2.52/kernel/crypto/khazad.ko
