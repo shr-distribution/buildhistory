@@ -1,9 +1,9 @@
 PV = 1.1.6
 PR = r5
-PKGR = r5.11
+PKGR = r5.12
 RPROVIDES = pam-plugin-rootok-suffix
 RDEPENDS = glibc (>= 2.21) libpam (>= 1.1.6) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 3744
+PKGSIZE = 3312
 FILES = /lib/security/pam_rootok.so
 FILELIST = /lib/security/pam_rootok.so

@@ -1,10 +1,10 @@
 PV = 0.4.1
 PR = r2
-PKGR = r2.11
+PKGR = r2.12
 PKG = libmpeg2-0
 RPROVIDES = libmpeg2
 RDEPENDS = glibc (>= 2.21)
 RRECOMMENDS = 
-PKGSIZE = 70365
+PKGSIZE = 70073
 FILES = /usr/lib/libmpeg2.so.*
 FILELIST = /usr/lib/libmpeg2.so.0 /usr/lib/libmpeg2.so.0.0.0

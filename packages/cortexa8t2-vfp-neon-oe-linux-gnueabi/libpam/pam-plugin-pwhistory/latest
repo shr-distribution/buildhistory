@@ -1,9 +1,9 @@
 PV = 1.1.6
 PR = r5
-PKGR = r5.11
+PKGR = r5.12
 RPROVIDES = pam-plugin-pwhistory-suffix
 RDEPENDS = glibc (>= 2.21) libpam (>= 1.1.6) libpam-suffix
 RRECOMMENDS = 
-PKGSIZE = 9044
+PKGSIZE = 8588
 FILES = /lib/security/pam_pwhistory.so
 FILELIST = /lib/security/pam_pwhistory.so
