@@ -1,8 +1,8 @@
 PV = 0.4
 PR = ml2
-PKGR = ml2.10
+PKGR = ml2.11
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libasound (>= 1.0.28) python-core
+RDEPENDS = glibc (>= 2.21) libasound (>= 1.0.29) python-core
 RRECOMMENDS = 
 PKGSIZE = 46202
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*
