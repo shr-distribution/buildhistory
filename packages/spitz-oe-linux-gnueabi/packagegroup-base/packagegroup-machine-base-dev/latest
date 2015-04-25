@@ -1,6 +1,6 @@
 PV = 1.0
 PR = r83
-PKGR = r83.11
+PKGR = r83.12
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = mtd-utils-dev mtd-utils-jffs2-dev mtd-utils-ubifs-dev nandlogical-dev zaurusd-dev
