@@ -1,4 +1,4 @@
 # SRCREV_machine = "${@oe.utils.conditional("PREFERRED_PROVIDER_virtual/kernel", "linux-yocto-dev", "${AUTOREV}", "29594404d7fe73cd80eaa4ee8c43dcc53970c60e", d)}"
-SRCREV_machine = "31b35da6a5c8a2b162f6c33202e9b64dd13757d5"
+SRCREV_machine = "c5ca41906d7f1292ba7428933d8e5ec2edea630b"
 # SRCREV_meta = "${@oe.utils.conditional("PREFERRED_PROVIDER_virtual/kernel", "linux-yocto-dev", "${AUTOREV}", "29594404d7fe73cd80eaa4ee8c43dcc53970c60e", d)}"
-SRCREV_meta = "eaceb64585d7d957e151b962fb90a175e545a028"
+SRCREV_meta = "003273180343f40a69063f70587bd25d546d6f29"
