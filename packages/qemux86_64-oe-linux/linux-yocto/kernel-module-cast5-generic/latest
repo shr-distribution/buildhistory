@@ -1,10 +1,10 @@
-PV = 3.14.5+gitAUTOINC+b2af4e3528_5724bf17ac
+PV = 3.19.5+gitAUTOINC+1b28e65444_d5d30ba4d2
 PR = r0
-PKGV = 3.14.5+git1+b2af4e3528_5724bf17ac
-PKGR = r0.4
+PKGV = 3.19.5+git0+1b28e65444_d5d30ba4d2
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.14.5-yocto-standard kernel-module-cast-common
+RDEPENDS = kernel-3.19.5-yocto-standard kernel-module-cast-common
 RRECOMMENDS = 
-PKGSIZE = 21360
-FILES = /lib/modules/3.14.5-yocto-standard/kernel/crypto/cast5_generic.ko /etc/modules-load.d/cast5_generic.conf /etc/modprobe.d/cast5_generic.conf
-FILELIST = /lib/modules/3.14.5-yocto-standard/kernel/crypto/cast5_generic.ko
+PKGSIZE = 21584
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/crypto/cast5_generic.ko /etc/modules-load.d/cast5_generic.conf /etc/modprobe.d/cast5_generic.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/crypto/cast5_generic.ko

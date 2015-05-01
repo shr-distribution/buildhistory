@@ -1,10 +1,10 @@
-PV = 3.14.5+gitAUTOINC+b2af4e3528_5724bf17ac
+PV = 3.19.5+gitAUTOINC+1b28e65444_d5d30ba4d2
 PR = r0
-PKGV = 3.14.5+git1+b2af4e3528_5724bf17ac
-PKGR = r0.4
+PKGV = 3.19.5+git0+1b28e65444_d5d30ba4d2
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.14.5-yocto-standard kernel-module-nf-conntrack kernel-module-nf-defrag-ipv4
+RDEPENDS = kernel-3.19.5-yocto-standard kernel-module-nf-conntrack kernel-module-nf-defrag-ipv4
 RRECOMMENDS = 
-PKGSIZE = 29904
-FILES = /lib/modules/3.14.5-yocto-standard/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /etc/modules-load.d/nf_conntrack_ipv4.conf /etc/modprobe.d/nf_conntrack_ipv4.conf
-FILELIST = /lib/modules/3.14.5-yocto-standard/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko
+PKGSIZE = 30216
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko /etc/modules-load.d/nf_conntrack_ipv4.conf /etc/modprobe.d/nf_conntrack_ipv4.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko
