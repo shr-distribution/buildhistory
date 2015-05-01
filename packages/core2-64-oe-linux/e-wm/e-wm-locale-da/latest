@@ -1,9 +1,9 @@
-PV = 0.19.4
+PV = 0.18.8
 PR = r0
-PKGR = r0.2
+PKGR = r0.1
 RPROVIDES = da-translation e-wm-locale
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-da
-PKGSIZE = 14740
+PKGSIZE = 14779
 FILES = /usr/share/locale/da
 FILELIST = /usr/share/locale/da/LC_MESSAGES/enlightenment.mo
