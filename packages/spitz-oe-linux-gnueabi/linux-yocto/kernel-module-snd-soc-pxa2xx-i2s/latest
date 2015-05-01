@@ -1,10 +1,10 @@
-PV = 3.19.2+gitAUTOINC+9e70b482d3_31b35da6a5
+PV = 3.19.5+gitAUTOINC+1b28e65444_d5d30ba4d2
 PR = r0
-PKGV = 3.19.2+git0+9e70b482d3_31b35da6a5
-PKGR = r0.4
+PKGV = 3.19.5+git0+1b28e65444_d5d30ba4d2
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-3.19.2-yocto-standard kernel-module-snd kernel-module-snd-compress kernel-module-snd-pcm kernel-module-snd-soc-core kernel-module-snd-timer kernel-module-soundcore
+RDEPENDS = kernel-3.19.5-yocto-standard kernel-module-snd kernel-module-snd-compress kernel-module-snd-pcm kernel-module-snd-soc-core kernel-module-snd-timer kernel-module-soundcore
 RRECOMMENDS = 
 PKGSIZE = 7308
-FILES = /lib/modules/3.19.2-yocto-standard/kernel/sound/soc/pxa/snd-soc-pxa2xx-i2s.ko /etc/modules-load.d/snd-soc-pxa2xx-i2s.conf /etc/modprobe.d/snd-soc-pxa2xx-i2s.conf
-FILELIST = /lib/modules/3.19.2-yocto-standard/kernel/sound/soc/pxa/snd-soc-pxa2xx-i2s.ko
+FILES = /lib/modules/3.19.5-yocto-standard/kernel/sound/soc/pxa/snd-soc-pxa2xx-i2s.ko /etc/modules-load.d/snd-soc-pxa2xx-i2s.conf /etc/modprobe.d/snd-soc-pxa2xx-i2s.conf
+FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/sound/soc/pxa/snd-soc-pxa2xx-i2s.ko
