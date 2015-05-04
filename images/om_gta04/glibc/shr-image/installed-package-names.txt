@@ -17,7 +17,7 @@ babiloo-efl-locale-en-gb
 base-files
 base-passwd
 bash
-bluez4
+bluez5
 busybox
 busybox-syslog
 busybox-udhcpc
@@ -70,7 +70,6 @@ elementary-theme-gry
 elementary-themes
 elfutils
 embryo
-emtooth2
 enchant
 enjoy
 estardict
@@ -87,8 +86,6 @@ findutils
 findutils-locale-cs
 fontconfig-utils
 formfactor
-foxtrotgps
-foxtrotgps-locale-cs
 frameworkd
 frameworkd-config
 fso-apm
@@ -132,11 +129,6 @@ glibc-gconv-iso8859-1
 glibc-gconv-utf-16
 glibc-locale-cs
 glibc-locale-en-gb
-gpsd
-gpsd-conf
-gpsd-gpsctl
-gpsd-machine-conf
-gpsd-udev
 grep
 grep-locale-cs
 gst-plugins-base-alsa
@@ -170,6 +162,8 @@ hicolor-icon-theme
 htop
 i2c-tools
 i2c-tools-misc
+illume-keyboard-default-alpha
+illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
@@ -266,9 +260,6 @@ libeo1
 liberation-fonts
 libevdev
 libevent
-libexif-locale-cs
-libexif-locale-en-gb
-libexif12
 libexpat1
 libext2fs2
 libfdisk1
@@ -291,7 +282,7 @@ libgcc1
 libgcrypt
 libgdbm-compat4
 libgdbm4
-libgee2
+libgee-0.8-2
 libgif4
 libgisi0
 libgl-mesa
@@ -307,7 +298,6 @@ libgnutls28
 libgpg-error-locale-cs
 libgpg-error0
 libgps22
-libgpsd22
 libgsm0710-0
 libgsm0710mux3
 libgstaudio-0.10-0
@@ -322,11 +312,10 @@ libgstvideo-0.10-0
 libgtk-2.0
 libharfbuzz-icu0
 libharfbuzz0
-libical
 libice6
-libicudata54
-libicui18n54
-libicuuc54
+libicudata55
+libicui18n55
+libicuuc55
 libidn-locale-cs
 libidn11
 libjpeg8
@@ -379,8 +368,6 @@ libpurple-protocol-msn
 libpurple-protocol-xmpp
 libpyglib-2.0-python0
 libpython2.7-1.0
-libqtcore4
-libqtnetwork4
 libreadline6
 librsvg-2-2
 librsvg-2-gtk
@@ -407,7 +394,6 @@ libtinfo5
 libtirpc1
 libts-1.0-0
 libudev1
-libusb-0.1-4
 libusb-1.0-0
 libuuid1
 libvorbisidec1
@@ -480,7 +466,6 @@ nfs-utils-client
 nmon
 ntpdate
 numptyphysics
-obexd
 om-neon
 openssh
 openssh-keygen
