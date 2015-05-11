@@ -22,7 +22,7 @@
 3117	KiB file
 3114	KiB libglib-2.0-0
 3035	KiB evas
-3006	KiB bluez5
+3020	KiB bluez5
 2850	KiB gawk
 2819	KiB libpurple
 2798	KiB ncurses-terminfo
@@ -35,7 +35,7 @@
 2336	KiB libcrypto1.0.0
 2324	KiB xserver-xorg
 2182	KiB advancedcaching
-2097	KiB shared-mime-info
+2177	KiB shared-mime-info
 2085	KiB libaspell15
 2059	KiB terminology
 2057	KiB vim-tutor
@@ -83,7 +83,7 @@
 833	KiB python-xml
 813	KiB libgee-0.8-2
 779	KiB libsqlite3-0
-768	KiB dbus-1
+770	KiB dbus-1
 752	KiB python-pygobject
 745	KiB numptyphysics
 740	KiB python-core
