@@ -1,11 +1,11 @@
-PV = 3.19.5+gitAUTOINC+7215fe4313_a4d0c407cc
+PV = 3.19.5+gitAUTOINC+7215fe4313_0a0d499541
 PR = r0
-PKGV = 3.19.5+git1+7215fe4313_a4d0c407cc
+PKGV = 3.19.5+git2+7215fe4313_0a0d499541
 PKGR = r0.1
 PKG = kernel-image-3.19.5-yocto-standard
 RPROVIDES = kernel-image
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 2142808
+PKGSIZE = 2142704
 FILES = /boot/zImage*
 FILELIST = /boot/zImage-3.19.5-yocto-standard
