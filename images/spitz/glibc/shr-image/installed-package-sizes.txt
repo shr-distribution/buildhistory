@@ -24,11 +24,11 @@
 2396	KiB ttf-dejavu-sans
 2204	KiB gawk
 2190	KiB advancedcaching
-2093	KiB kernel-image-3.19.5-yocto-standard
-2082	KiB shared-mime-info
+2162	KiB shared-mime-info
+2092	KiB kernel-image-3.19.5-yocto-standard
 2071	KiB subversion
 2057	KiB vim-tutor
-2043	KiB bluez5
+2055	KiB bluez5
 2005	KiB libpurple
 1998	KiB python-pygtk
 1996	KiB terminology
@@ -95,7 +95,7 @@
 487	KiB screen
 483	KiB libsqlite3-0
 477	KiB busybox
-469	KiB dbus-1
+470	KiB dbus-1
 458	KiB libevent
 447	KiB libdw1
 441	KiB openvpn
@@ -158,7 +158,7 @@
 245	KiB libpurple-protocol-msn
 244	KiB shr-theme
 244	KiB libfdisk1
-238	KiB libcurl5
+238	KiB libcurl4
 237	KiB libharfbuzz0
 234	KiB libsdl-1.2-0
 232	KiB ppp

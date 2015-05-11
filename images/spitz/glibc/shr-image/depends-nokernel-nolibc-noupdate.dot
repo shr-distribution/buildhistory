@@ -47,7 +47,7 @@ digraph depends {
 "cronie" -> "pam-plugin-access";
 "cronie" -> "pam-plugin-loginuid";
 "cronie" -> "shadow";
-"curl" -> "libcurl5";
+"curl" -> "libcurl4";
 "curl" -> "libz1";
 "dbus-1" -> "base-files";
 "dbus-1" -> "base-passwd";
@@ -629,7 +629,7 @@ digraph depends {
 "evas-generic-loader-svg" -> "librsvg-2-2";
 "fbreader" -> "gdk-pixbuf";
 "fbreader" -> "libbz2-0";
-"fbreader" -> "libcurl5";
+"fbreader" -> "libcurl4";
 "fbreader" -> "libexpat1";
 "fbreader" -> "libfribidi0";
 "fbreader" -> "libglib-2.0-0";
@@ -1092,11 +1092,11 @@ digraph depends {
 "libcroco" -> "libxml2";
 "libcroco" -> "libz1";
 "libcrypto1.0.0" -> "openssl-conf" [style=dotted];
-"libcurl5" -> "ca-certificates" [style=dotted];
-"libcurl5" -> "libgmp10";
-"libcurl5" -> "libgnutls28";
-"libcurl5" -> "libz1";
-"libcurl5" -> "nettle";
+"libcurl4" -> "ca-certificates" [style=dotted];
+"libcurl4" -> "libgmp10";
+"libcurl4" -> "libgnutls28";
+"libcurl4" -> "libz1";
+"libcurl4" -> "nettle";
 "libdbus-1-3" -> "dbus-1" [style=dotted];
 "libdbus-glib-1-2" -> "libdbus-1-3";
 "libdbus-glib-1-2" -> "libffi6";
@@ -3000,7 +3000,7 @@ digraph depends {
 "vagalume" -> "gst-plugins-ugly-mad";
 "vagalume" -> "gstreamer";
 "vagalume" -> "hicolor-icon-theme" [style=dotted];
-"vagalume" -> "libcurl5";
+"vagalume" -> "libcurl4";
 "vagalume" -> "libdbus-1-3";
 "vagalume" -> "libdbus-glib-1-2";
 "vagalume" -> "libglib-2.0-0";
