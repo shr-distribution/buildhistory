@@ -26,11 +26,11 @@
 2589	KiB evas
 2396	KiB ttf-dejavu-sans
 2202	KiB advancedcaching
+2162	KiB shared-mime-info
 2102	KiB gawk
-2081	KiB shared-mime-info
 2057	KiB vim-tutor
+2007	KiB bluez5
 2003	KiB subversion
-1996	KiB bluez5
 1982	KiB terminology
 1975	KiB tcl
 1960	KiB python-pygtk
@@ -166,7 +166,7 @@
 227	KiB ppp
 226	KiB python-dateutil
 225	KiB libharfbuzz0
-225	KiB libcurl5
+225	KiB libcurl4
 224	KiB libsdl-1.2-0
 224	KiB libfdisk1
 215	KiB e-wm-theme-illume-gry
