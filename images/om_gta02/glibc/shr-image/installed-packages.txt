@@ -14,7 +14,7 @@ babiloo-efl-locale-en-gb_2.0.9-10-r5.14_arm920tt.ipk
 base-files_3.0.14-r89.11_om_gta02.ipk
 base-passwd_3.5.29-r0.13_arm920tt.ipk
 bash_4.3-r1.2_arm920tt.ipk
-bluez5_5.29-r0.0_arm920tt.ipk
+bluez5_5.30-r0.0_arm920tt.ipk
 busybox_1.23.2-r0.0_arm920tt.ipk
 busybox-syslog_1.23.2-r0.0_arm920tt.ipk
 busybox-udhcpc_1.23.2-r0.0_arm920tt.ipk
@@ -22,8 +22,8 @@ ca-certificates_20141019-r0.2_all.ipk
 coreutils_8.23-r0.2_arm920tt.ipk
 coreutils-locale-cs_8.23-r0.2_arm920tt.ipk
 cronie_1.4.12-r0.4_arm920tt.ipk
-curl_7.42.0-r0.0_arm920tt.ipk
-dbus-1_1.8.10-r0.4_arm920tt.ipk
+curl_7.42.1-r0.0_arm920tt.ipk
+dbus-1_1.8.16-r0.0_arm920tt.ipk
 dbus-daemon-proxy_0.0.0+gitr0+1226a0a137-r1.14_arm920tt.ipk
 devmem2_1.0-r7.14_arm920tt.ipk
 distro-feed-configs_1.0-r6.17_om_gta02.ipk
@@ -72,7 +72,7 @@ ethumb_2:1.13.2-r0.1_arm920t.ipk
 evas_2:1.13.2-r0.1_arm920t.ipk
 evas-generic-loader-svg_2:1.13.2-r0.1_arm920t.ipk
 evtest_1.32+0+b8343ec112-r0.1_arm920tt.ipk
-fbreader_0.12.10-r1.11_arm920tt.ipk
+fbreader_0.12.10-r1.12_arm920tt.ipk
 fbset_2.1-r4.14_arm920tt.ipk
 fbset-modes_0.1.0-r6.13_om_gta02.ipk
 ffphonelog_0.1+gitr0+316fc86cbd-r2.15_arm920tt.ipk
@@ -236,7 +236,7 @@ libacl1_2.2.52-r0.14_arm920tt.ipk
 libapm1_3.2.2-14-r2.13_arm920tt.ipk
 libapr-1-0_1.5.1-r0.12_arm920tt.ipk
 libaprutil-1-0_1.5.4-r1.3_arm920tt.ipk
-libasound-module-bluez_5.29-r0.0_arm920tt.ipk
+libasound-module-bluez_5.30-r0.0_arm920tt.ipk
 libasound2_1.0.29-r0.0_arm920t.ipk
 libatk-1.0-0_2.16.0-r0.0_arm920tt.ipk
 libatk-1.0-locale-cs_2.16.0-r0.0_arm920tt.ipk
@@ -253,8 +253,8 @@ libcmtspeechdata0_0.0.0+gitr0+8450345686-r2.13_arm920tt.ipk
 libcom-err2_1.42.9-r0.17_arm920tt.ipk
 libcroco_0.6.8-r2.2_arm920tt.ipk
 libcrypto1.0.0_1.0.2a-r0.1_arm920tt.ipk
-libcurl5_7.42.0-r0.0_arm920tt.ipk
-libdbus-1-3_1.8.10-r0.4_arm920tt.ipk
+libcurl4_7.42.1-r0.0_arm920tt.ipk
+libdbus-1-3_1.8.16-r0.0_arm920tt.ipk
 libdbus-glib-1-2_0.104-r0.0_arm920tt.ipk
 libdmx1_1:1.1.3-r0.13_arm920tt.ipk
 libdrm2_2.4.59-r0.2_arm920tt.ipk
@@ -646,7 +646,7 @@ shadow_4.2.1-r0.9_arm920tt.ipk
 shadow-base_4.2.1-r0.9_arm920tt.ipk
 shadow-locale-cs_4.2.1-r0.9_arm920tt.ipk
 shadow-securetty_4.2.1-r3.9_om_gta02.ipk
-shared-mime-info_1.3-r0.8_arm920tt.ipk
+shared-mime-info_1.4-r0.0_arm920tt.ipk
 shr-e-gadgets_0.0.0+gitr0+42806ea24f-r0.17_arm920tt.ipk
 shr-settings_1:0.1.1+gitr0+cc5de00964-r1.14_arm920tt.ipk
 shr-settings-addons-illume_1:0.1.1+gitr0+cc5de00964-r1.14_arm920tt.ipk
@@ -700,7 +700,7 @@ util-linux-locale-cs_2.26.1-r0.0_arm920tt.ipk
 util-linux-mcookie_2.26.1-r0.0_arm920tt.ipk
 util-linux-mount_2.26.1-r0.0_arm920tt.ipk
 util-linux-sulogin_2.26.1-r0.0_arm920tt.ipk
-vagalume_0.8.5-r0.14_arm920tt.ipk
+vagalume_0.8.5-r0.15_arm920tt.ipk
 vim_7.4.481-r0.6_arm920tt.ipk
 vim-common_7.4.481-r0.6_arm920tt.ipk
 vim-help_7.4.481-r0.6_arm920tt.ipk
@@ -721,7 +721,7 @@ xf86-input-evdev_2:2.9.1-r0.2_arm920tt.ipk
 xf86-input-keyboard_2:1.8.0-r0.16_arm920tt.ipk
 xf86-input-mouse_2:1.9.1-r0.8_arm920tt.ipk
 xf86-video-glamo_2:1.0.0+gitr0+cb9ed17035-r21.4.17_arm920tt.ipk
-xhost_1:1.0.6-r0.14_arm920tt.ipk
+xhost_1:1.0.7-r0.0_arm920tt.ipk
 xinit_1:1.3.4-r0.2_arm920tt.ipk
 xinput_1.6.1-r0.13_arm920tt.ipk
 xinput-calibrator_0.7.5+git0+c01c5af807-r6.13_arm920tt.ipk
@@ -729,7 +729,7 @@ xkbcomp_1.3.0-r8.0.2_arm920tt.ipk
 xkeyboard-config_2.13-r0.2_arm920tt.ipk
 xkeyboard-config-locale-cs_2.13-r0.2_arm920tt.ipk
 xkeyboard-config-locale-en-gb_2.13-r0.2_arm920tt.ipk
-xmodmap_1:1.0.8-r0.14_arm920tt.ipk
+xmodmap_1:1.0.9-r0.0_arm920tt.ipk
 xrandr_1:1.4.3-r0.3_arm920tt.ipk
 xserver-common_1.34-r8.14_all.ipk
 xserver-nodm-init_2.0-r22.13_all.ipk

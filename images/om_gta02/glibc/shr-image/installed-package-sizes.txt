@@ -24,9 +24,9 @@
 2396	KiB ttf-dejavu-sans
 2216	KiB gawk
 2190	KiB advancedcaching
+2163	KiB shared-mime-info
 2089	KiB subversion
-2082	KiB shared-mime-info
-2071	KiB bluez5
+2082	KiB bluez5
 2057	KiB vim-tutor
 2043	KiB python-pygtk
 2029	KiB libpurple
@@ -155,7 +155,7 @@
 249	KiB libpurple-protocol-msn
 247	KiB libfdisk1
 244	KiB shr-theme
-242	KiB libcurl5
+242	KiB libcurl4
 240	KiB libsdl-1.2-0
 240	KiB libharfbuzz0
 236	KiB ppp
@@ -222,9 +222,9 @@
 136	KiB kernel-module-ar6000
 132	KiB xinput-calibrator
 132	KiB fsodeviced-config
-130	KiB curl
 129	KiB xkbcomp
 129	KiB tzdata-europe
+129	KiB curl
 127	KiB libapr-1-0
 124	KiB spojegui
 124	KiB linux-firmware-sd8686

@@ -65,7 +65,7 @@ digraph depends {
 "cronie" -> "shadow";
 "cronie" -> "update-rc.d" [style=dotted];
 "curl" -> "libc6";
-"curl" -> "libcurl5";
+"curl" -> "libcurl4";
 "curl" -> "libz1";
 "dbus-1" -> "base-files";
 "dbus-1" -> "base-passwd";
@@ -686,7 +686,7 @@ digraph depends {
 "fbreader" -> "gdk-pixbuf";
 "fbreader" -> "libbz2-0";
 "fbreader" -> "libc6";
-"fbreader" -> "libcurl5";
+"fbreader" -> "libcurl4";
 "fbreader" -> "libexpat1";
 "fbreader" -> "libfribidi0";
 "fbreader" -> "libgcc1";
@@ -1442,12 +1442,12 @@ digraph depends {
 "libcroco" -> "libz1";
 "libcrypto1.0.0" -> "libc6";
 "libcrypto1.0.0" -> "openssl-conf" [style=dotted];
-"libcurl5" -> "ca-certificates" [style=dotted];
-"libcurl5" -> "libc6";
-"libcurl5" -> "libgmp10";
-"libcurl5" -> "libgnutls28";
-"libcurl5" -> "libz1";
-"libcurl5" -> "nettle";
+"libcurl4" -> "ca-certificates" [style=dotted];
+"libcurl4" -> "libc6";
+"libcurl4" -> "libgmp10";
+"libcurl4" -> "libgnutls28";
+"libcurl4" -> "libz1";
+"libcurl4" -> "nettle";
 "libdbus-1-3" -> "dbus-1" [style=dotted];
 "libdbus-1-3" -> "libc6";
 "libdbus-glib-1-2" -> "libc6";
@@ -3696,7 +3696,7 @@ digraph depends {
 "vagalume" -> "gstreamer";
 "vagalume" -> "hicolor-icon-theme" [style=dotted];
 "vagalume" -> "libc6";
-"vagalume" -> "libcurl5";
+"vagalume" -> "libcurl4";
 "vagalume" -> "libdbus-1-3";
 "vagalume" -> "libdbus-glib-1-2";
 "vagalume" -> "libglib-2.0-0";
