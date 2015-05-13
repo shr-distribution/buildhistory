@@ -1,4 +1,4 @@
-nokia900: shr-image configured for shr 2013.07-next-20150511
+nokia900: shr-image configured for shr 2013.07-next-20150513
 
 Build Configuration:
 BB_VERSION        = "1.27.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "arm-oe-linux-gnueabi"
 MACHINE           = "nokia900"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20150511"
+DISTRO_VERSION    = "2013.07-next-20150513"
 TUNE_FEATURES     = "arm armv7a vfp thumb neon cortexa8"
 TARGET_FPU        = "vfp-neon"
 meta-jama         = "master:a687ccd50fdd1f7e5584814d45a04c0c7c9cb861"
@@ -15,7 +15,7 @@ meta-shr-distro
 meta-shr          
 meta-aurora       
 meta-fso          
-meta-android      = "jansa/master:235fa99a5bada64f1045c3c73bc54409655dcb6d"
+meta-android      = "jansa/master:3ad5335078aa4fa9b1fbf8a0be53907ae1289d5c"
 meta-oe           
 meta-efl          
 meta-gnome        
@@ -27,15 +27,15 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "jansa/master:7658f8876b873a57557222392685814822134585"
+meta-systemd      = "jansa/master:95d050c0a6cf6aba3fec6b78cbdbd0466f51cb03"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
 meta-palm         
 meta-openmoko     
-meta-samsung      = "jansa/master:235fa99a5bada64f1045c3c73bc54409655dcb6d"
+meta-samsung      = "jansa/master:3ad5335078aa4fa9b1fbf8a0be53907ae1289d5c"
 meta-browser      = "jansa/master:713b7f4dd6292461180be17882bf468e92ac43d2"
 meta-games        = "master:c4b6f594246328155fc2fe52aebe8920c078d608"
 meta-handheld     = "jansa/master:55949ebef15214537359e99f73550accab93e704"
-meta              = "jansa/master:17521c825ac90e0d0d10d3840470fcb224f26ead"
+meta              = "jansa/master:9f76c9c3005041a882cfed1bb47a3fd1934cd1ce"
 
