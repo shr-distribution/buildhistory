@@ -36,7 +36,6 @@
 1842	KiB shr-splash-theme-logo
 1630	KiB pidgin-data
 1597	KiB xserver-xorg
-1559	KiB libx11-locale
 1541	KiB liberation-fonts
 1513	KiB kernel-image-3.2.52
 1513	KiB gstreamer
@@ -48,6 +47,7 @@
 1218	KiB libcrypto1.0.0
 1212	KiB libperl5
 1201	KiB libpython2.7-1.0
+1198	KiB libx11-locale
 1161	KiB python-evas
 1082	KiB libtcl8.6-0
 1080	KiB fsogsmd
@@ -77,7 +77,7 @@
 677	KiB wpa-supplicant
 669	KiB shr-settings
 656	KiB python-ctypes
-623	KiB tcpdump
+644	KiB tcpdump
 614	KiB libgcrypt
 600	KiB python-io
 574	KiB python-edje
@@ -90,10 +90,10 @@
 509	KiB libjpeg8
 507	KiB python-pygobject
 505	KiB serial-forward
+498	KiB libsqlite3-0
 494	KiB s3c64xx-gpio
 494	KiB s3c24xx-gpio
 490	KiB screen
-490	KiB libsqlite3-0
 485	KiB busybox
 484	KiB dbus-1
 467	KiB libevent
@@ -253,13 +253,13 @@
 100	KiB libvorbisidec1
 100	KiB libtirpc1
 100	KiB libatk-1.0-0
+100	KiB alsa-utils-alsactl
 99	KiB python-subprocess
 99	KiB i2c-tools-misc
-99	KiB alsa-utils-alsactl
 98	KiB libglib-2.0-locale-cs
 97	KiB htop
+96	KiB libxkbfile1
 96	KiB libdbus-glib-1-2
-95	KiB libxkbfile1
 94	KiB watchdog
 93	KiB tzdata
 92	KiB shadow-base
@@ -426,12 +426,12 @@
 26	KiB fbset
 26	KiB ecore-imf
 25	KiB xf86-video-glamo
+25	KiB libxrandr2
 25	KiB kernel-module-snd-timer
 24	KiB kernel-module-usbnet
 24	KiB gst-plugins-base-volume
 23	KiB xkeyboard-config-locale-en-gb
 23	KiB netbase
-23	KiB libxrandr2
 23	KiB libxcb-render0
 23	KiB libwrap0
 23	KiB libsysfs2
