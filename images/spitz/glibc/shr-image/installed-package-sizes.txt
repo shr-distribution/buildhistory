@@ -37,7 +37,6 @@
 1842	KiB shr-splash-theme-logo
 1630	KiB pidgin-data
 1573	KiB xserver-xorg
-1559	KiB libx11-locale
 1541	KiB liberation-fonts
 1497	KiB gstreamer
 1469	KiB glibc-binary-localedata-en-us
@@ -47,6 +46,7 @@
 1229	KiB vim
 1204	KiB libperl5
 1200	KiB libcrypto1.0.0
+1198	KiB libx11-locale
 1182	KiB libpython2.7-1.0
 1143	KiB python-evas
 1071	KiB libtcl8.6-0
@@ -77,7 +77,7 @@
 669	KiB shr-settings
 665	KiB wpa-supplicant
 654	KiB python-ctypes
-607	KiB tcpdump
+628	KiB tcpdump
 606	KiB libgcrypt
 593	KiB python-io
 565	KiB python-edje
@@ -92,8 +92,8 @@
 502	KiB python-pygobject
 492	KiB s3c64xx-gpio
 492	KiB s3c24xx-gpio
+491	KiB libsqlite3-0
 487	KiB screen
-483	KiB libsqlite3-0
 477	KiB busybox
 470	KiB dbus-1
 458	KiB libevent
@@ -226,7 +226,7 @@
 125	KiB libeet1
 124	KiB spojegui
 124	KiB linux-firmware-sd8686
-123	KiB libapr-1-0
+124	KiB libapr-1-0
 120	KiB python-shell
 120	KiB liblightmediascanner0
 119	KiB libefreet1
@@ -249,10 +249,10 @@
 104	KiB libegl-mesa
 103	KiB lsof
 101	KiB eeze
+100	KiB alsa-utils-alsactl
 99	KiB python-subprocess
 99	KiB libvorbisidec1
 99	KiB i2c-tools-misc
-99	KiB alsa-utils-alsactl
 98	KiB libglib-2.0-locale-cs
 98	KiB libatk-1.0-0
 97	KiB kernel-module-hid
@@ -418,10 +418,10 @@
 26	KiB ecore-imf
 25	KiB libxcursor1
 25	KiB kernel-module-tun
+24	KiB libxrandr2
 24	KiB kernel-module-gadgetfs
 23	KiB xkeyboard-config-locale-en-gb
 23	KiB netbase
-23	KiB libxrandr2
 23	KiB libwrap0
 23	KiB libsysfs2
 23	KiB libpam-runtime
