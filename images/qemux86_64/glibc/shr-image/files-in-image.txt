@@ -2462,8 +2462,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/back
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/battery
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/battery-fso
 -rw-r--r-- root       root            17578 ./usr/lib/enlightenment/modules/battery-fso/e-module-battery-fso.edj
-drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/battery-fso/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            17280 ./usr/lib/enlightenment/modules/battery-fso/linux-gnu-x86_64-ver-serious-0.19/module.so
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/battery-fso/linux-gnu-x86_64-ver-00
+-rwxr-xr-x root       root            17312 ./usr/lib/enlightenment/modules/battery-fso/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root              181 ./usr/lib/enlightenment/modules/battery-fso/module.desktop
 -rw-r--r-- root       root             7340 ./usr/lib/enlightenment/modules/battery/e-module-battery.edj
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/battery/linux-gnu-x86_64-ver-00
@@ -2661,8 +2661,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illu
 -rw-r--r-- root       root              210 ./usr/lib/enlightenment/modules/illume-mode-toggle/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illume-rightclick-toggle
 -rw-r--r-- root       root            13743 ./usr/lib/enlightenment/modules/illume-rightclick-toggle/e-module-illume-rightclick-toggle.edj
-drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illume-rightclick-toggle/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            12240 ./usr/lib/enlightenment/modules/illume-rightclick-toggle/linux-gnu-x86_64-ver-serious-0.19/module.so
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illume-rightclick-toggle/linux-gnu-x86_64-ver-00
+-rwxr-xr-x root       root            12272 ./usr/lib/enlightenment/modules/illume-rightclick-toggle/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root              186 ./usr/lib/enlightenment/modules/illume-rightclick-toggle/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illume-softkey
 -rw-r--r-- root       root            11510 ./usr/lib/enlightenment/modules/illume-softkey/e-module-illume-softkey.edj
@@ -2716,8 +2716,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shot
 -rw-r--r-- root       root             1151 ./usr/lib/enlightenment/modules/shot/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shr-e-gadgets
 -rw-r--r-- root       root            10597 ./usr/lib/enlightenment/modules/shr-e-gadgets/e-module-shr-e-gadgets.edj
-drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shr-e-gadgets/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            26096 ./usr/lib/enlightenment/modules/shr-e-gadgets/linux-gnu-x86_64-ver-serious-0.19/module.so
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/shr-e-gadgets/linux-gnu-x86_64-ver-00
+-rwxr-xr-x root       root            26192 ./usr/lib/enlightenment/modules/shr-e-gadgets/linux-gnu-x86_64-ver-00/module.so
 -rw-r--r-- root       root              159 ./usr/lib/enlightenment/modules/shr-e-gadgets/module.desktop
 drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/start
 -rw-r--r-- root       root            24666 ./usr/lib/enlightenment/modules/start/e-module-start.edj
@@ -2942,7 +2942,7 @@ lrwxrwxrwx root       root               14 ./usr/lib/libSM.so.6 -> libSM.so.6.0
 lrwxrwxrwx root       root               19 ./usr/lib/libX11-xcb.so.1 -> libX11-xcb.so.1.0.0
 -rwxr-xr-x root       root             4448 ./usr/lib/libX11-xcb.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libX11.so.6 -> libX11.so.6.3.0
--rwxr-xr-x root       root          1292576 ./usr/lib/libX11.so.6.3.0
+-rwxr-xr-x root       root          1292064 ./usr/lib/libX11.so.6.3.0
 lrwxrwxrwx root       root               15 ./usr/lib/libXau.so.6 -> libXau.so.6.0.0
 -rwxr-xr-x root       root            10848 ./usr/lib/libXau.so.6.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libXcomposite.so.1 -> libXcomposite.so.1.0.0
@@ -2952,13 +2952,13 @@ lrwxrwxrwx root       root               19 ./usr/lib/libXcursor.so.1 -> libXcur
 lrwxrwxrwx root       root               19 ./usr/lib/libXdamage.so.1 -> libXdamage.so.1.1.0
 -rwxr-xr-x root       root             8920 ./usr/lib/libXdamage.so.1.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libXdmcp.so.6 -> libXdmcp.so.6.0.0
--rwxr-xr-x root       root            20720 ./usr/lib/libXdmcp.so.6.0.0
+-rwxr-xr-x root       root            21008 ./usr/lib/libXdmcp.so.6.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libXext.so.6 -> libXext.so.6.4.0
 -rwxr-xr-x root       root            74336 ./usr/lib/libXext.so.6.4.0
 lrwxrwxrwx root       root               18 ./usr/lib/libXfixes.so.3 -> libXfixes.so.3.1.0
 -rwxr-xr-x root       root            20424 ./usr/lib/libXfixes.so.3.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libXfont.so.1 -> libXfont.so.1.4.1
--rwxr-xr-x root       root           241440 ./usr/lib/libXfont.so.1.4.1
+-rwxr-xr-x root       root           241632 ./usr/lib/libXfont.so.1.4.1
 lrwxrwxrwx root       root               15 ./usr/lib/libXft.so.2 -> libXft.so.2.3.2
 -rwxr-xr-x root       root            86304 ./usr/lib/libXft.so.2.3.2
 lrwxrwxrwx root       root               14 ./usr/lib/libXi.so.6 -> libXi.so.6.1.0
@@ -2968,7 +2968,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libXinerama.so.1 -> libXin
 lrwxrwxrwx root       root               16 ./usr/lib/libXmuu.so.1 -> libXmuu.so.1.0.0
 -rwxr-xr-x root       root            14232 ./usr/lib/libXmuu.so.1.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libXrandr.so.2 -> libXrandr.so.2.2.0
--rwxr-xr-x root       root            37840 ./usr/lib/libXrandr.so.2.2.0
+-rwxr-xr-x root       root            39824 ./usr/lib/libXrandr.so.2.2.0
 lrwxrwxrwx root       root               19 ./usr/lib/libXrender.so.1 -> libXrender.so.1.3.0
 -rwxr-xr-x root       root            37808 ./usr/lib/libXrender.so.1.3.0
 lrwxrwxrwx root       root               15 ./usr/lib/libXss.so.1 -> libXss.so.1.0.0
@@ -2980,9 +2980,9 @@ lrwxrwxrwx root       root               20 ./usr/lib/libXxf86dga.so.1 -> libXxf
 lrwxrwxrwx root       root               21 ./usr/lib/libXxf86misc.so.1 -> libXxf86misc.so.1.1.0
 -rwxr-xr-x root       root            11616 ./usr/lib/libXxf86misc.so.1.1.0
 lrwxrwxrwx root       root               19 ./usr/lib/libXxf86vm.so.1 -> libXxf86vm.so.1.0.0
--rwxr-xr-x root       root            19480 ./usr/lib/libXxf86vm.so.1.0.0
-lrwxrwxrwx root       root               17 ./usr/lib/libapr-1.so.0 -> libapr-1.so.0.5.1
--rwxr-xr-x root       root           198720 ./usr/lib/libapr-1.so.0.5.1
+-rwxr-xr-x root       root            19224 ./usr/lib/libXxf86vm.so.1.0.0
+lrwxrwxrwx root       root               17 ./usr/lib/libapr-1.so.0 -> libapr-1.so.0.5.2
+-rwxr-xr-x root       root           199872 ./usr/lib/libapr-1.so.0.5.2
 lrwxrwxrwx root       root               21 ./usr/lib/libaprutil-1.so.0 -> libaprutil-1.so.0.5.4
 -rwxr-xr-x root       root           153112 ./usr/lib/libaprutil-1.so.0.5.4
 -rwxr-xr-x root       root            29896 ./usr/lib/libasm-0.161.so
@@ -3121,7 +3121,7 @@ lrwxrwxrwx root       root               15 ./usr/lib/libffi.so.6 -> libffi.so.6
 lrwxrwxrwx root       root               22 ./usr/lib/libfontconfig.so.1 -> libfontconfig.so.1.9.0
 -rwxr-xr-x root       root           270624 ./usr/lib/libfontconfig.so.1.9.0
 lrwxrwxrwx root       root               19 ./usr/lib/libfontenc.so.1 -> libfontenc.so.1.0.0
--rwxr-xr-x root       root            27552 ./usr/lib/libfontenc.so.1.0.0
+-rwxr-xr-x root       root            27488 ./usr/lib/libfontenc.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libformw.so.5 -> libformw.so.5.9
 -rwxr-xr-x root       root            68440 ./usr/lib/libformw.so.5.9
 lrwxrwxrwx root       root               21 ./usr/lib/libfreetype.so.6 -> libfreetype.so.6.11.4
@@ -3233,8 +3233,8 @@ lrwxrwxrwx root       root               18 ./usr/lib/libicui18n.so.55 -> libicu
 -rwxr-xr-x root       root          2451000 ./usr/lib/libicui18n.so.55.1
 lrwxrwxrwx root       root               16 ./usr/lib/libicuuc.so.55 -> libicuuc.so.55.1
 -rwxr-xr-x root       root          1603272 ./usr/lib/libicuuc.so.55.1
-lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.12
--rwxr-xr-x root       root           210928 ./usr/lib/libidn.so.11.6.12
+lrwxrwxrwx root       root               17 ./usr/lib/libidn.so.11 -> libidn.so.11.6.13
+-rwxr-xr-x root       root           210928 ./usr/lib/libidn.so.11.6.13
 lrwxrwxrwx root       root               17 ./usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
 -rwxr-xr-x root       root            28248 ./usr/lib/libip4tc.so.0.1.0
 lrwxrwxrwx root       root               17 ./usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
@@ -3348,7 +3348,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libsoup-2.4.so.1 -> libsou
 lrwxrwxrwx root       root               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> libsoup-gnome-2.4.so.1.7.0
 -rwxr-xr-x root       root             8456 ./usr/lib/libsoup-gnome-2.4.so.1.7.0
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
--rwxr-xr-x root       root           797408 ./usr/lib/libsqlite3.so.0.8.6
+-rwxr-xr-x root       root           809888 ./usr/lib/libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           460032 ./usr/lib/libssl.so.1.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.20
 -rwxr-xr-x root       root          1007720 ./usr/lib/libstdc++.so.6.0.20
@@ -3414,7 +3414,7 @@ lrwxrwxrwx root       root               25 ./usr/lib/libxkbcommon-x11.so.0 -> l
 lrwxrwxrwx root       root               21 ./usr/lib/libxkbcommon.so.0 -> libxkbcommon.so.0.0.0
 -rwxr-xr-x root       root           254360 ./usr/lib/libxkbcommon.so.0.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libxkbfile.so.1 -> libxkbfile.so.1.0.2
--rwxr-xr-x root       root           147680 ./usr/lib/libxkbfile.so.1.0.2
+-rwxr-xr-x root       root           148000 ./usr/lib/libxkbfile.so.1.0.2
 lrwxrwxrwx root       root               16 ./usr/lib/libxml2.so.2 -> libxml2.so.2.9.2
 -rwxr-xr-x root       root          1383224 ./usr/lib/libxml2.so.2.9.2
 drwxr-xr-x root       root             4096 ./usr/lib/libxslt-plugins
@@ -3422,8 +3422,8 @@ lrwxrwxrwx root       root               17 ./usr/lib/libxslt.so.1 -> libxslt.so
 -rwxr-xr-x root       root           235848 ./usr/lib/libxslt.so.1.1.28
 lrwxrwxrwx root       root               20 ./usr/lib/libxtables.so.10 -> libxtables.so.10.0.0
 -rwxr-xr-x root       root            49160 ./usr/lib/libxtables.so.10.0.0
-lrwxrwxrwx root       root               18 ./usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.3
--rwxr-xr-x root       root           120072 ./usr/lib/libyaml-0.so.2.0.3
+lrwxrwxrwx root       root               18 ./usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.4
+-rwxr-xr-x root       root           119992 ./usr/lib/libyaml-0.so.2.0.4
 -rwxr-xr-x root       root           798384 ./usr/lib/libzlcore.so.0.12.10
 lrwxrwxrwx root       root               20 ./usr/lib/libzlcore.so.0.13 -> libzlcore.so.0.12.10
 -rwxr-xr-x root       root           331768 ./usr/lib/libzltext.so.0.12.10
@@ -6161,7 +6161,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/ts
 drwxr-xr-x root       root             4096 ./usr/lib/xorg
 drwxr-xr-x root       root             4096 ./usr/lib/xorg/modules
 drwxr-xr-x root       root             4096 ./usr/lib/xorg/modules/drivers
--rwxr-xr-x root       root            30544 ./usr/lib/xorg/modules/drivers/cirrus_alpine.so
+-rwxr-xr-x root       root            30416 ./usr/lib/xorg/modules/drivers/cirrus_alpine.so
 -rwxr-xr-x root       root            15952 ./usr/lib/xorg/modules/drivers/cirrus_drv.so
 -rwxr-xr-x root       root            28688 ./usr/lib/xorg/modules/drivers/cirrus_laguna.so
 -rwxr-xr-x root       root            21912 ./usr/lib/xorg/modules/drivers/fbdev_drv.so
@@ -6293,7 +6293,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/zlibrary/ui
 drwxr-xr-x root       root             4096 ./usr/sbin
 lrwxrwxrwx root       root               19 ./usr/sbin/addgroup -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/sbin/adduser -> /bin/busybox.nosuid
--rwxr-xr-x root       root            93312 ./usr/sbin/alsactl
+-rwxr-xr-x root       root            93760 ./usr/sbin/alsactl
 -rwxr-xr-x root       root            23912 ./usr/sbin/chat
 -rwxr-xr-x root       root            52112 ./usr/sbin/chgpasswd
 lrwxrwxrwx root       root               25 ./usr/sbin/chpasswd -> /usr/sbin/chpasswd.shadow
@@ -6394,7 +6394,7 @@ lrwxrwxrwx root       root               23 ./usr/sbin/rfkill -> /usr/sbin/rfkil
 -rwxr-xr-x root       root            46024 ./usr/sbin/sm-notify
 -rwxr-xr-x root       root           774552 ./usr/sbin/sshd
 -rwxr-xr-x root       root              515 ./usr/sbin/start-statd
--rwxr-xr-x root       root           865472 ./usr/sbin/tcpdump
+-rwxr-xr-x root       root           890816 ./usr/sbin/tcpdump
 lrwxrwxrwx root       root               19 ./usr/sbin/udhcpd -> /bin/busybox.nosuid
 -rwsr-xr-x root       root            29192 ./usr/sbin/unix_chkpwd
 -rwxr-xr-x root       root            28984 ./usr/sbin/unix_update
@@ -6456,13 +6456,13 @@ drwxr-xr-x root       root             4096 ./usr/share/FBReader/resources
 -rw-r--r-- root       root            30730 ./usr/share/FBReader/resources/vi.xml
 -rw-r--r-- root       root            26758 ./usr/share/FBReader/resources/zh.xml
 drwxr-xr-x root       root             4096 ./usr/share/X11
--rw-r--r-- root       root            41532 ./usr/share/X11/XErrorDB
+-rw-r--r-- root       root            42077 ./usr/share/X11/XErrorDB
 -rw-r--r-- root       root             1723 ./usr/share/X11/Xcms.txt
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/C
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/C/Compose
 -rw-r--r-- root       root              340 ./usr/share/X11/locale/C/XI18N_OBJS
--rw-r--r-- root       root              694 ./usr/share/X11/locale/C/XLC_LOCALE
+-rw-r--r-- root       root              692 ./usr/share/X11/locale/C/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/am_ET.UTF-8
 -rw-r--r-- root       root            16266 ./usr/share/X11/locale/am_ET.UTF-8/Compose
 -rw-r--r-- root       root                0 ./usr/share/X11/locale/am_ET.UTF-8/XI18N_OBJS
@@ -6470,112 +6470,116 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/am_ET.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/armscii-8
 -rw-r--r-- root       root              351 ./usr/share/X11/locale/armscii-8/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/armscii-8/XI18N_OBJS
--rw-r--r-- root       root              971 ./usr/share/X11/locale/armscii-8/XLC_LOCALE
--rw-r--r-- root       root            32787 ./usr/share/X11/locale/compose.dir
+-rw-r--r-- root       root              969 ./usr/share/X11/locale/armscii-8/XLC_LOCALE
+-rw-r--r-- root       root            32730 ./usr/share/X11/locale/compose.dir
+drwxr-xr-x root       root             4096 ./usr/share/X11/locale/cs_CZ.UTF-8
+-rw-r--r-- root       root              558 ./usr/share/X11/locale/cs_CZ.UTF-8/Compose
+-rw-r--r-- root       root                0 ./usr/share/X11/locale/cs_CZ.UTF-8/XI18N_OBJS
+-rw-r--r-- root       root               44 ./usr/share/X11/locale/cs_CZ.UTF-8/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/el_GR.UTF-8
 -rw-r--r-- root       root           125065 ./usr/share/X11/locale/el_GR.UTF-8/Compose
 -rw-r--r-- root       root                0 ./usr/share/X11/locale/el_GR.UTF-8/XI18N_OBJS
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/el_GR.UTF-8/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/en_US.UTF-8
--rw-r--r-- root       root           563208 ./usr/share/X11/locale/en_US.UTF-8/Compose
+-rw-r--r-- root       root           564170 ./usr/share/X11/locale/en_US.UTF-8/Compose
 -rw-r--r-- root       root              346 ./usr/share/X11/locale/en_US.UTF-8/XI18N_OBJS
 -rw-r--r-- root       root             4250 ./usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/fi_FI.UTF-8
--rw-r--r-- root       root            33397 ./usr/share/X11/locale/fi_FI.UTF-8/Compose
+-rw-r--r-- root       root            36235 ./usr/share/X11/locale/fi_FI.UTF-8/Compose
 -rw-r--r-- root       root                0 ./usr/share/X11/locale/fi_FI.UTF-8/XI18N_OBJS
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/fi_FI.UTF-8/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/georgian-academy
 -rw-r--r-- root       root              358 ./usr/share/X11/locale/georgian-academy/Compose
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/georgian-academy/XI18N_OBJS
--rw-r--r-- root       root             1026 ./usr/share/X11/locale/georgian-academy/XLC_LOCALE
+-rw-r--r-- root       root             1024 ./usr/share/X11/locale/georgian-academy/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/georgian-ps
 -rw-r--r-- root       root              353 ./usr/share/X11/locale/georgian-ps/Compose
 -rw-r--r-- root       root              343 ./usr/share/X11/locale/georgian-ps/XI18N_OBJS
--rw-r--r-- root       root              987 ./usr/share/X11/locale/georgian-ps/XLC_LOCALE
+-rw-r--r-- root       root              985 ./usr/share/X11/locale/georgian-ps/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ibm-cp1133
 -rw-r--r-- root       root              352 ./usr/share/X11/locale/ibm-cp1133/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/ibm-cp1133/XI18N_OBJS
--rw-r--r-- root       root              979 ./usr/share/X11/locale/ibm-cp1133/XLC_LOCALE
+-rw-r--r-- root       root              977 ./usr/share/X11/locale/ibm-cp1133/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iscii-dev
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/iscii-dev/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/iscii-dev/XI18N_OBJS
--rw-r--r-- root       root              971 ./usr/share/X11/locale/iscii-dev/XLC_LOCALE
+-rw-r--r-- root       root              969 ./usr/share/X11/locale/iscii-dev/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/isiri-3342
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/isiri-3342/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/isiri-3342/XI18N_OBJS
--rw-r--r-- root       root              979 ./usr/share/X11/locale/isiri-3342/XLC_LOCALE
+-rw-r--r-- root       root              977 ./usr/share/X11/locale/isiri-3342/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-1
 -rw-r--r-- root       root            20502 ./usr/share/X11/locale/iso8859-1/Compose
 -rw-r--r-- root       root              340 ./usr/share/X11/locale/iso8859-1/XI18N_OBJS
--rw-r--r-- root       root              783 ./usr/share/X11/locale/iso8859-1/XLC_LOCALE
+-rw-r--r-- root       root              781 ./usr/share/X11/locale/iso8859-1/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-10
 -rw-r--r-- root       root              353 ./usr/share/X11/locale/iso8859-10/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/iso8859-10/XI18N_OBJS
--rw-r--r-- root       root              832 ./usr/share/X11/locale/iso8859-10/XLC_LOCALE
+-rw-r--r-- root       root              830 ./usr/share/X11/locale/iso8859-10/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-11
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/iso8859-11/Compose
 -rw-r--r-- root       root              344 ./usr/share/X11/locale/iso8859-11/XI18N_OBJS
--rw-r--r-- root       root              833 ./usr/share/X11/locale/iso8859-11/XLC_LOCALE
+-rw-r--r-- root       root              831 ./usr/share/X11/locale/iso8859-11/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-13
 -rw-r--r-- root       root            21293 ./usr/share/X11/locale/iso8859-13/Compose
 -rw-r--r-- root       root              248 ./usr/share/X11/locale/iso8859-13/XI18N_OBJS
--rw-r--r-- root       root              833 ./usr/share/X11/locale/iso8859-13/XLC_LOCALE
+-rw-r--r-- root       root              831 ./usr/share/X11/locale/iso8859-13/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-14
 -rw-r--r-- root       root            21083 ./usr/share/X11/locale/iso8859-14/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/iso8859-14/XI18N_OBJS
--rw-r--r-- root       root              833 ./usr/share/X11/locale/iso8859-14/XLC_LOCALE
+-rw-r--r-- root       root              831 ./usr/share/X11/locale/iso8859-14/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-15
 -rw-r--r-- root       root            20669 ./usr/share/X11/locale/iso8859-15/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/iso8859-15/XI18N_OBJS
--rw-r--r-- root       root             1117 ./usr/share/X11/locale/iso8859-15/XLC_LOCALE
+-rw-r--r-- root       root             1115 ./usr/share/X11/locale/iso8859-15/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-2
 -rw-r--r-- root       root            23702 ./usr/share/X11/locale/iso8859-2/Compose
 -rw-r--r-- root       root              248 ./usr/share/X11/locale/iso8859-2/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-2/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-2/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-3
 -rw-r--r-- root       root            22841 ./usr/share/X11/locale/iso8859-3/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/iso8859-3/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-3/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-3/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-4
 -rw-r--r-- root       root            16055 ./usr/share/X11/locale/iso8859-4/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/iso8859-4/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-4/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-4/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-5
 -rw-r--r-- root       root              352 ./usr/share/X11/locale/iso8859-5/Compose
 -rw-r--r-- root       root              248 ./usr/share/X11/locale/iso8859-5/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-5/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-5/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-6
 -rw-r--r-- root       root              352 ./usr/share/X11/locale/iso8859-6/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/iso8859-6/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-6/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-6/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-7
 -rw-r--r-- root       root            10713 ./usr/share/X11/locale/iso8859-7/Compose
 -rw-r--r-- root       root              248 ./usr/share/X11/locale/iso8859-7/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-7/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-7/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-8
 -rw-r--r-- root       root              352 ./usr/share/X11/locale/iso8859-8/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/iso8859-8/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-8/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-8/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-9
 -rw-r--r-- root       root            21747 ./usr/share/X11/locale/iso8859-9/Compose
 -rw-r--r-- root       root              248 ./usr/share/X11/locale/iso8859-9/XI18N_OBJS
--rw-r--r-- root       root              826 ./usr/share/X11/locale/iso8859-9/XLC_LOCALE
+-rw-r--r-- root       root              824 ./usr/share/X11/locale/iso8859-9/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/iso8859-9e
 -rw-r--r-- root       root            22335 ./usr/share/X11/locale/iso8859-9e/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/iso8859-9e/XI18N_OBJS
--rw-r--r-- root       root             1005 ./usr/share/X11/locale/iso8859-9e/XLC_LOCALE
+-rw-r--r-- root       root             1003 ./usr/share/X11/locale/iso8859-9e/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ja
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ja.JIS
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/ja.JIS/Compose
 -rw-r--r-- root       root              340 ./usr/share/X11/locale/ja.JIS/XI18N_OBJS
--rw-r--r-- root       root             1752 ./usr/share/X11/locale/ja.JIS/XLC_LOCALE
+-rw-r--r-- root       root             1750 ./usr/share/X11/locale/ja.JIS/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ja.SJIS
 -rw-r--r-- root       root              349 ./usr/share/X11/locale/ja.SJIS/Compose
 -rw-r--r-- root       root              481 ./usr/share/X11/locale/ja.SJIS/XI18N_OBJS
--rw-r--r-- root       root             5210 ./usr/share/X11/locale/ja.SJIS/XLC_LOCALE
+-rw-r--r-- root       root             5208 ./usr/share/X11/locale/ja.SJIS/XLC_LOCALE
 -rw-r--r-- root       root              344 ./usr/share/X11/locale/ja/Compose
 -rw-r--r-- root       root              611 ./usr/share/X11/locale/ja/XI18N_OBJS
--rw-r--r-- root       root             1684 ./usr/share/X11/locale/ja/XLC_LOCALE
+-rw-r--r-- root       root             1682 ./usr/share/X11/locale/ja/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ja_JP.UTF-8
 -rw-r--r-- root       root               96 ./usr/share/X11/locale/ja_JP.UTF-8/Compose
 -rw-r--r-- root       root              347 ./usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS
@@ -6587,7 +6591,7 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/km_KH.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ko
 -rw-r--r-- root       root              344 ./usr/share/X11/locale/ko/Compose
 -rw-r--r-- root       root              240 ./usr/share/X11/locale/ko/XI18N_OBJS
--rw-r--r-- root       root              851 ./usr/share/X11/locale/ko/XLC_LOCALE
+-rw-r--r-- root       root              849 ./usr/share/X11/locale/ko/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ko_KR.UTF-8
 -rw-r--r-- root       root               96 ./usr/share/X11/locale/ko_KR.UTF-8/Compose
 -rw-r--r-- root       root              347 ./usr/share/X11/locale/ko_KR.UTF-8/XI18N_OBJS
@@ -6595,39 +6599,39 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ko_KR.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/koi8-c
 -rw-r--r-- root       root             6314 ./usr/share/X11/locale/koi8-c/Compose
 -rw-r--r-- root       root              338 ./usr/share/X11/locale/koi8-c/XI18N_OBJS
--rw-r--r-- root       root              947 ./usr/share/X11/locale/koi8-c/XLC_LOCALE
+-rw-r--r-- root       root              945 ./usr/share/X11/locale/koi8-c/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/koi8-r
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/koi8-r/Compose
 -rw-r--r-- root       root              338 ./usr/share/X11/locale/koi8-r/XI18N_OBJS
--rw-r--r-- root       root              950 ./usr/share/X11/locale/koi8-r/XLC_LOCALE
+-rw-r--r-- root       root              948 ./usr/share/X11/locale/koi8-r/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/koi8-u
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/koi8-u/Compose
 -rw-r--r-- root       root              338 ./usr/share/X11/locale/koi8-u/XI18N_OBJS
--rw-r--r-- root       root              947 ./usr/share/X11/locale/koi8-u/XLC_LOCALE
+-rw-r--r-- root       root              945 ./usr/share/X11/locale/koi8-u/XLC_LOCALE
 -rw-r--r-- root       root            81697 ./usr/share/X11/locale/locale.alias
 -rw-r--r-- root       root            36939 ./usr/share/X11/locale/locale.dir
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/microsoft-cp1251
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/microsoft-cp1251/Compose
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/microsoft-cp1251/XI18N_OBJS
--rw-r--r-- root       root             1054 ./usr/share/X11/locale/microsoft-cp1251/XLC_LOCALE
+-rw-r--r-- root       root             1052 ./usr/share/X11/locale/microsoft-cp1251/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/microsoft-cp1255
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/microsoft-cp1255/Compose
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/microsoft-cp1255/XI18N_OBJS
--rw-r--r-- root       root             1054 ./usr/share/X11/locale/microsoft-cp1255/XLC_LOCALE
+-rw-r--r-- root       root             1052 ./usr/share/X11/locale/microsoft-cp1255/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/microsoft-cp1256
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/microsoft-cp1256/Compose
 -rw-r--r-- root       root              348 ./usr/share/X11/locale/microsoft-cp1256/XI18N_OBJS
--rw-r--r-- root       root             1054 ./usr/share/X11/locale/microsoft-cp1256/XLC_LOCALE
+-rw-r--r-- root       root             1052 ./usr/share/X11/locale/microsoft-cp1256/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/mulelao-1
 -rw-r--r-- root       root              351 ./usr/share/X11/locale/mulelao-1/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/mulelao-1/XI18N_OBJS
--rw-r--r-- root       root              971 ./usr/share/X11/locale/mulelao-1/XLC_LOCALE
+-rw-r--r-- root       root              969 ./usr/share/X11/locale/mulelao-1/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/nokhchi-1
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/nokhchi-1/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/nokhchi-1/XI18N_OBJS
--rw-r--r-- root       root              972 ./usr/share/X11/locale/nokhchi-1/XLC_LOCALE
+-rw-r--r-- root       root              970 ./usr/share/X11/locale/nokhchi-1/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/pt_BR.UTF-8
--rw-r--r-- root       root           375325 ./usr/share/X11/locale/pt_BR.UTF-8/Compose
+-rw-r--r-- root       root             1595 ./usr/share/X11/locale/pt_BR.UTF-8/Compose
 -rw-r--r-- root       root              345 ./usr/share/X11/locale/pt_BR.UTF-8/XI18N_OBJS
 -rw-r--r-- root       root             2063 ./usr/share/X11/locale/pt_BR.UTF-8/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/ru_RU.UTF-8
@@ -6641,7 +6645,7 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/sr_CS.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/tatar-cyr
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/tatar-cyr/Compose
 -rw-r--r-- root       root              341 ./usr/share/X11/locale/tatar-cyr/XI18N_OBJS
--rw-r--r-- root       root              998 ./usr/share/X11/locale/tatar-cyr/XLC_LOCALE
+-rw-r--r-- root       root              996 ./usr/share/X11/locale/tatar-cyr/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/th_TH
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/th_TH.UTF-8
 -rw-r--r-- root       root               96 ./usr/share/X11/locale/th_TH.UTF-8/Compose
@@ -6649,19 +6653,19 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/th_TH.UTF-8
 -rw-r--r-- root       root             1068 ./usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/th_TH/Compose
 -rw-r--r-- root       root              337 ./usr/share/X11/locale/th_TH/XI18N_OBJS
--rw-r--r-- root       root              821 ./usr/share/X11/locale/th_TH/XLC_LOCALE
+-rw-r--r-- root       root              819 ./usr/share/X11/locale/th_TH/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/tscii-0
 -rw-r--r-- root       root               44 ./usr/share/X11/locale/tscii-0/Compose
 -rw-r--r-- root       root              339 ./usr/share/X11/locale/tscii-0/XI18N_OBJS
--rw-r--r-- root       root              957 ./usr/share/X11/locale/tscii-0/XLC_LOCALE
+-rw-r--r-- root       root              955 ./usr/share/X11/locale/tscii-0/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/vi_VN.tcvn
 -rw-r--r-- root       root             5553 ./usr/share/X11/locale/vi_VN.tcvn/Compose
 -rw-r--r-- root       root              342 ./usr/share/X11/locale/vi_VN.tcvn/XI18N_OBJS
--rw-r--r-- root       root              971 ./usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE
+-rw-r--r-- root       root              969 ./usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/vi_VN.viscii
 -rw-r--r-- root       root             5553 ./usr/share/X11/locale/vi_VN.viscii/Compose
 -rw-r--r-- root       root              344 ./usr/share/X11/locale/vi_VN.viscii/XI18N_OBJS
--rw-r--r-- root       root              987 ./usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE
+-rw-r--r-- root       root              985 ./usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/zh_CN
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/zh_CN.UTF-8
 -rw-r--r-- root       root               96 ./usr/share/X11/locale/zh_CN.UTF-8/Compose
@@ -6676,8 +6680,8 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/zh_CN.gbk
 -rw-r--r-- root       root              343 ./usr/share/X11/locale/zh_CN.gbk/XI18N_OBJS
 -rw-r--r-- root       root             1219 ./usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE
 -rw-r--r-- root       root              344 ./usr/share/X11/locale/zh_CN/Compose
--rw-r--r-- root       root              382 ./usr/share/X11/locale/zh_CN/XI18N_OBJS
--rw-r--r-- root       root              840 ./usr/share/X11/locale/zh_CN/XLC_LOCALE
+-rw-r--r-- root       root              338 ./usr/share/X11/locale/zh_CN/XI18N_OBJS
+-rw-r--r-- root       root              838 ./usr/share/X11/locale/zh_CN/XLC_LOCALE
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/zh_HK.UTF-8
 -rw-r--r-- root       root               96 ./usr/share/X11/locale/zh_HK.UTF-8/Compose
 -rw-r--r-- root       root              345 ./usr/share/X11/locale/zh_HK.UTF-8/XI18N_OBJS
@@ -6698,10 +6702,10 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/locale/zh_TW.UTF-8
 drwxr-xr-x root       root             4096 ./usr/share/X11/locale/zh_TW.big5
 -rw-r--r-- root       root              352 ./usr/share/X11/locale/zh_TW.big5/Compose
 -rw-r--r-- root       root              344 ./usr/share/X11/locale/zh_TW.big5/XI18N_OBJS
--rw-r--r-- root       root             9576 ./usr/share/X11/locale/zh_TW.big5/XLC_LOCALE
+-rw-r--r-- root       root             9574 ./usr/share/X11/locale/zh_TW.big5/XLC_LOCALE
 -rw-r--r-- root       root              347 ./usr/share/X11/locale/zh_TW/Compose
 -rw-r--r-- root       root              244 ./usr/share/X11/locale/zh_TW/XI18N_OBJS
--rw-r--r-- root       root             2340 ./usr/share/X11/locale/zh_TW/XLC_LOCALE
+-rw-r--r-- root       root             2338 ./usr/share/X11/locale/zh_TW/XLC_LOCALE
 -rw-r--r-- root       root            17975 ./usr/share/X11/rgb.txt
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/compat
@@ -7075,7 +7079,7 @@ drwxr-xr-x root       root             4096 ./usr/share/alsa/cards/SI7018
 drwxr-xr-x root       root             4096 ./usr/share/alsa/init
 -rw-r--r-- root       root             1808 ./usr/share/alsa/init/00main
 -rw-r--r-- root       root             1326 ./usr/share/alsa/init/ca0106
--rw-r--r-- root       root            10456 ./usr/share/alsa/init/default
+-rw-r--r-- root       root            10866 ./usr/share/alsa/init/default
 -rw-r--r-- root       root             1519 ./usr/share/alsa/init/hda
 -rw-r--r-- root       root              391 ./usr/share/alsa/init/help
 -rw-r--r-- root       root              932 ./usr/share/alsa/init/info
@@ -10117,7 +10121,7 @@ drwxr-xr-x root       root             4096 ./usr/share/shr-wizard
 -rwxr-xr-x root       root             4368 ./usr/share/shr-wizard/shr-wizard.py
 drwxr-xr-x root       root             4096 ./usr/share/shr_elm_softkey
 drwxr-xr-x root       root             4096 ./usr/share/shr_elm_softkey/themes
--rw-r--r-- root       root            16946 ./usr/share/shr_elm_softkey/themes/default.edj
+-rw-r--r-- root       root            17021 ./usr/share/shr_elm_softkey/themes/default.edj
 drwxr-xr-x root       root             4096 ./usr/share/sounds
 -rw-r--r-- root       root           307756 ./usr/share/sounds/female_message.wav
 -rw-r--r-- root       root           604846 ./usr/share/sounds/female_ringtone.wav
@@ -16115,7 +16119,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              660 ./var/lib/opkg/info/libacl1.control
 -rw-r--r-- root       root               38 ./var/lib/opkg/info/libacl1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libacl1.postinst
--rw-r--r-- root       root              566 ./var/lib/opkg/info/libapr-1-0.control
+-rw-r--r-- root       root              565 ./var/lib/opkg/info/libapr-1-0.control
 -rw-r--r-- root       root               66 ./var/lib/opkg/info/libapr-1-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libapr-1-0.postinst
 -rw-r--r-- root       root              612 ./var/lib/opkg/info/libaprutil-1-0.control
@@ -16273,7 +16277,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              946 ./var/lib/opkg/info/libfontconfig1.control
 -rw-r--r-- root       root             2375 ./var/lib/opkg/info/libfontconfig1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libfontconfig1.postinst
--rw-r--r-- root       root              535 ./var/lib/opkg/info/libfontenc1.control
+-rw-r--r-- root       root              534 ./var/lib/opkg/info/libfontenc1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libfontenc1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libfontenc1.postinst
 -rw-r--r-- root       root              526 ./var/lib/opkg/info/libformw5.control
@@ -16599,7 +16603,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              580 ./var/lib/opkg/info/libsoup-2.4.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libsoup-2.4.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libsoup-2.4.postinst
--rw-r--r-- root       root              421 ./var/lib/opkg/info/libsqlite3-0.control
+-rw-r--r-- root       root              466 ./var/lib/opkg/info/libsqlite3-0.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libsqlite3-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libsqlite3-0.postinst
 -rw-r--r-- root       root             1342 ./var/lib/opkg/info/libssl1.0.0.control
@@ -16644,12 +16648,12 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root             1178 ./var/lib/opkg/info/libwrap0.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/libwrap0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libwrap0.postinst
--rw-r--r-- root       root              783 ./var/lib/opkg/info/libx11-6.control
+-rw-r--r-- root       root              716 ./var/lib/opkg/info/libx11-6.control
 -rw-r--r-- root       root              110 ./var/lib/opkg/info/libx11-6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libx11-6.postinst
--rw-r--r-- root       root              685 ./var/lib/opkg/info/libx11-locale.control
--rw-r--r-- root       root             9793 ./var/lib/opkg/info/libx11-locale.list
--rw-r--r-- root       root              811 ./var/lib/opkg/info/libx11-xcb1.control
+-rw-r--r-- root       root              618 ./var/lib/opkg/info/libx11-locale.control
+-rw-r--r-- root       root             9960 ./var/lib/opkg/info/libx11-locale.list
+-rw-r--r-- root       root              744 ./var/lib/opkg/info/libx11-xcb1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libx11-xcb1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libx11-xcb1.postinst
 -rw-r--r-- root       root              557 ./var/lib/opkg/info/libxau6.control
@@ -16691,7 +16695,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root             1184 ./var/lib/opkg/info/libxdamage1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxdamage1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxdamage1.postinst
--rw-r--r-- root       root              712 ./var/lib/opkg/info/libxdmcp6.control
+-rw-r--r-- root       root              711 ./var/lib/opkg/info/libxdmcp6.control
 -rw-r--r-- root       root               50 ./var/lib/opkg/info/libxdmcp6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxdmcp6.postinst
 -rw-r--r-- root       root              897 ./var/lib/opkg/info/libxext6.control
@@ -16715,7 +16719,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              599 ./var/lib/opkg/info/libxkbcommon.control
 -rw-r--r-- root       root              124 ./var/lib/opkg/info/libxkbcommon.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxkbcommon.postinst
--rw-r--r-- root       root              634 ./var/lib/opkg/info/libxkbfile1.control
+-rw-r--r-- root       root              633 ./var/lib/opkg/info/libxkbfile1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxkbfile1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxkbfile1.postinst
 -rw-r--r-- root       root             1217 ./var/lib/opkg/info/libxml2.control
@@ -16724,10 +16728,10 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              867 ./var/lib/opkg/info/libxmuu1.control
 -rw-r--r-- root       root               48 ./var/lib/opkg/info/libxmuu1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxmuu1.postinst
--rw-r--r-- root       root              841 ./var/lib/opkg/info/libxrandr2.control
+-rw-r--r-- root       root              840 ./var/lib/opkg/info/libxrandr2.control
 -rw-r--r-- root       root               52 ./var/lib/opkg/info/libxrandr2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxrandr2.postinst
--rw-r--r-- root       root              838 ./var/lib/opkg/info/libxrender1.control
+-rw-r--r-- root       root              837 ./var/lib/opkg/info/libxrender1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxrender1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxrender1.postinst
 -rw-r--r-- root       root              452 ./var/lib/opkg/info/libxslt.control
@@ -16745,10 +16749,10 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              669 ./var/lib/opkg/info/libxxf86misc1.control
 -rw-r--r-- root       root               58 ./var/lib/opkg/info/libxxf86misc1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxxf86misc1.postinst
--rw-r--r-- root       root              748 ./var/lib/opkg/info/libxxf86vm1.control
+-rw-r--r-- root       root              747 ./var/lib/opkg/info/libxxf86vm1.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libxxf86vm1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libxxf86vm1.postinst
--rw-r--r-- root       root              563 ./var/lib/opkg/info/libyaml-0-2.control
+-rw-r--r-- root       root              562 ./var/lib/opkg/info/libyaml-0-2.control
 -rw-r--r-- root       root               52 ./var/lib/opkg/info/libyaml-0-2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libyaml-0-2.postinst
 -rw-r--r-- root       root              567 ./var/lib/opkg/info/libz1.control
@@ -17202,8 +17206,8 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rwxr-xr-x root       root              359 ./var/lib/opkg/info/shadow.prerm
 -rw-r--r-- root       root              575 ./var/lib/opkg/info/shared-mime-info.control
 -rw-r--r-- root       root            29740 ./var/lib/opkg/info/shared-mime-info.list
--rw-r--r-- root       root             2093 ./var/lib/opkg/info/shr-e-gadgets.control
--rw-r--r-- root       root             1277 ./var/lib/opkg/info/shr-e-gadgets.list
+-rw-r--r-- root       root             2094 ./var/lib/opkg/info/shr-e-gadgets.control
+-rw-r--r-- root       root             1217 ./var/lib/opkg/info/shr-e-gadgets.list
 -rw-r--r-- root       root              519 ./var/lib/opkg/info/shr-settings-addons-illume.control
 -rw-r--r-- root       root              594 ./var/lib/opkg/info/shr-settings-addons-illume.list
 -rw-r--r-- root       root              100 ./var/lib/opkg/info/shr-settings-backup-configuration.conffiles
@@ -17269,7 +17273,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rwxr-xr-x root       root               58 ./var/lib/opkg/info/tar.prerm
 -rw-r--r-- root       root              648 ./var/lib/opkg/info/tcl.control
 -rw-r--r-- root       root             7590 ./var/lib/opkg/info/tcl.list
--rw-r--r-- root       root              650 ./var/lib/opkg/info/tcpdump.control
+-rw-r--r-- root       root              576 ./var/lib/opkg/info/tcpdump.control
 -rw-r--r-- root       root               18 ./var/lib/opkg/info/tcpdump.list
 -rw-r--r-- root       root              428 ./var/lib/opkg/info/terminology-themes.control
 -rw-r--r-- root       root             1486 ./var/lib/opkg/info/terminology-themes.list
@@ -17431,9 +17435,9 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            87115 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6945381 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6948532 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           331660 ./var/lib/opkg/lists/oe-qemux86_64
--rw-r--r-- root       root           200961 ./var/lib/opkg/status
+-rw-r--r-- root       root           200952 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local

@@ -49,7 +49,6 @@
 1702	KiB fsogsmd
 1630	KiB pidgin-data
 1566	KiB libicuuc55
-1559	KiB libx11-locale
 1541	KiB liberation-fonts
 1519	KiB libfso-glib2
 1469	KiB glibc-binary-localedata-en-us
@@ -60,6 +59,7 @@
 1305	KiB libx11-6
 1285	KiB shadow
 1276	KiB python-evas
+1198	KiB libx11-locale
 1118	KiB libgnutls28
 1099	KiB iptables
 1098	KiB python-gst
@@ -76,13 +76,13 @@
 901	KiB python-ecore
 891	KiB fso-sounds
 885	KiB luajit
+870	KiB tcpdump
 862	KiB libsoup-2.4
 860	KiB python-netclient
-845	KiB tcpdump
 835	KiB findutils
 833	KiB python-xml
 813	KiB libgee-0.8-2
-779	KiB libsqlite3-0
+791	KiB libsqlite3-0
 770	KiB dbus-1
 752	KiB python-pygobject
 745	KiB numptyphysics
@@ -203,8 +203,8 @@
 198	KiB libpng16-16
 196	KiB python-math
 196	KiB enjoy
+195	KiB libapr-1-0
 194	KiB xkbcomp
-194	KiB libapr-1-0
 189	KiB ethumb
 188	KiB libopkg1
 184	KiB elementary-theme-gry
@@ -235,8 +235,8 @@
 147	KiB libegl-mesa
 146	KiB glibc-locale-cs
 146	KiB gdk-pixbuf
+145	KiB libxkbfile1
 145	KiB libgstpbutils-0.10-0
-144	KiB libxkbfile1
 144	KiB aspell
 143	KiB lsof
 141	KiB python-difflib
@@ -266,7 +266,7 @@
 122	KiB ntpdate
 121	KiB libmad0
 120	KiB python-shell
-119	KiB alsa-utils-alsactl
+120	KiB alsa-utils-alsactl
 118	KiB python-re
 117	KiB libyaml-0-2
 116	KiB python-mime
@@ -391,6 +391,7 @@
 40	KiB libjson-c2
 40	KiB gst-plugins-ugly-mad
 40	KiB findutils-locale-cs
+39	KiB libxrandr2
 39	KiB libxcursor1
 39	KiB kernel-module-x-tables
 39	KiB kernel-module-tun
@@ -400,7 +401,6 @@
 37	KiB python-readline
 37	KiB pulseaudio-locale-cs
 37	KiB libxrender1
-37	KiB libxrandr2
 37	KiB libxcb-render0
 36	KiB util-linux-sulogin
 36	KiB util-linux-mount
@@ -477,12 +477,12 @@
 21	KiB python-pprint
 21	KiB phoneuid
 21	KiB ncurses-terminfo-base
+21	KiB libxdmcp6
 21	KiB gst-plugins-base-ivorbisdec
 21	KiB e-wm-config-default
 20	KiB xserver-common
 20	KiB setxkbmap
 20	KiB libxfixes3
-20	KiB libxdmcp6
 20	KiB killall
 20	KiB kernel-3.19.5-yocto-standard
 20	KiB gdk-pixbuf-locale-en-gb
