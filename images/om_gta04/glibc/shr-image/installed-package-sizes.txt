@@ -40,7 +40,6 @@
 1892	KiB libicui18n55
 1630	KiB pidgin-data
 1585	KiB shr-splash-theme-logo
-1559	KiB libx11-locale
 1541	KiB liberation-fonts
 1469	KiB glibc-binary-localedata-en-us
 1469	KiB glibc-binary-localedata-en-gb
@@ -50,6 +49,7 @@
 1359	KiB libphone-ui-shr
 1259	KiB libicuuc55
 1207	KiB vim
+1198	KiB libx11-locale
 1139	KiB libcrypto1.0.0
 1138	KiB libpython2.7-1.0
 1133	KiB libperl5
@@ -82,7 +82,7 @@
 654	KiB libcairo2
 644	KiB python-ctypes
 642	KiB libstdc++6
-616	KiB tcpdump
+636	KiB tcpdump
 615	KiB libgcrypt
 578	KiB python-io
 544	KiB python-pyyaml
@@ -98,7 +98,7 @@
 483	KiB s3c64xx-gpio
 483	KiB s3c24xx-gpio
 469	KiB libpixman-1-0
-460	KiB libsqlite3-0
+468	KiB libsqlite3-0
 457	KiB dbus-1
 453	KiB busybox
 435	KiB openvpn
@@ -213,7 +213,7 @@
 146	KiB glibc-locale-cs
 145	KiB kernel-module-libertas
 143	KiB usbutils
-142	KiB libxfont1
+143	KiB libxfont1
 142	KiB libfsobasics3
 141	KiB python-difflib
 138	KiB python-pyserial
@@ -246,9 +246,9 @@
 107	KiB ltrace
 107	KiB lsof
 106	KiB libsystemd0
+104	KiB shr-e-gadgets
 104	KiB libnl-3-cli
 104	KiB kernel-module-bridge
-103	KiB shr-e-gadgets
 102	KiB libtinfo5
 100	KiB libgstpbutils-0.10-0
 100	KiB libaprutil-1-0
@@ -262,13 +262,13 @@
 98	KiB kernel-module-nf-conntrack
 97	KiB eeze
 96	KiB libegl-mesa
+96	KiB alsa-utils-alsactl
 95	KiB libgcc1
-95	KiB alsa-utils-alsactl
 94	KiB libncurses5
 93	KiB tzdata
 92	KiB shadow-base
+92	KiB libxkbfile1
 92	KiB libdbus-glib-1-2
-91	KiB libxkbfile1
 91	KiB libexpat1
 91	KiB libatk-1.0-0
 90	KiB pxaregs
@@ -443,6 +443,7 @@
 23	KiB fsonetworkd
 23	KiB evtest
 22	KiB libxrender1
+22	KiB libxrandr2
 22	KiB gdk-pixbuf-locale-cs
 21	KiB xz-locale-cs
 21	KiB rgb
@@ -460,7 +461,6 @@
 20	KiB xmodmap
 20	KiB python-phoneutils
 20	KiB mterm2
-20	KiB libxrandr2
 20	KiB libsm6
 20	KiB libphone-utils0
 20	KiB libfsosystem3
