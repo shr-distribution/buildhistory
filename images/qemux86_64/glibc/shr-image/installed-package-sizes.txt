@@ -28,7 +28,7 @@
 2798	KiB ncurses-terminfo
 2736	KiB frameworkd
 2709	KiB python-misc
-2707	KiB xkeyboard-config
+2645	KiB xkeyboard-config
 2530	KiB python-lxml
 2396	KiB ttf-dejavu-sans
 2394	KiB libicui18n55
@@ -316,9 +316,9 @@
 84	KiB libxft2
 84	KiB libudev1
 84	KiB libts-1.0-0
+78	KiB xkeyboard-config-locale-cs
 78	KiB tzdata-asia
 78	KiB openssh-scp
-77	KiB xkeyboard-config-locale-cs
 77	KiB libeo1
 77	KiB glib-networking
 77	KiB dosfstools
