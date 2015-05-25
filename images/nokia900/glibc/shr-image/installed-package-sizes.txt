@@ -21,9 +21,9 @@
 2798	KiB ncurses-terminfo
 2794	KiB frameworkd
 2751	KiB libc6
-2707	KiB xkeyboard-config
 2694	KiB python-misc
 2665	KiB libglib-2.0-0
+2645	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
 2202	KiB advancedcaching
 2162	KiB shared-mime-info
@@ -292,8 +292,8 @@
 80	KiB fsogsmd-module-modem-nokia-isi
 79	KiB libnl-3-200
 79	KiB libeio1
+78	KiB xkeyboard-config-locale-cs
 78	KiB tzdata-asia
-77	KiB xkeyboard-config-locale-cs
 75	KiB kernel-module-fat
 73	KiB usb-modeswitch
 72	KiB libyaml-0-2
