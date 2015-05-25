@@ -122,7 +122,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root              817 ./boot/boot.cfg
 -rw-r--r-- root       root             1322 ./boot/icon.xpm
 lrwxrwxrwx root       root               34 ./boot/zImage -> /boot/zImage-3.19.5-yocto-standard
--rw-r--r-- root       root          2142704 ./boot/zImage-3.19.5-yocto-standard
+-rw-r--r-- root       root          2143472 ./boot/zImage-3.19.5-yocto-standard
 drwxr-xr-x root       root             4096 ./dev
 drwxr-xr-x root       root             4096 ./etc
 drwxr-xr-x root       root             4096 ./etc/X11
@@ -2280,7 +2280,7 @@ lrwxrwxrwx root       root               31 ./usr/bin/x-window-manager -> /usr/b
 lrwxrwxrwx root       root               24 ./usr/bin/xargs -> /usr/bin/xargs.findutils
 -rwxr-xr-x root       root            40716 ./usr/bin/xargs.findutils
 -rwxr-xr-x root       root            27016 ./usr/bin/xauth
--rwxr-xr-x root       root            27700 ./usr/bin/xdpyinfo
+-rwxr-xr-x root       root            27872 ./usr/bin/xdpyinfo
 -rwxr-xr-x root       root            10084 ./usr/bin/xhost
 -rwxr-xr-x root       root            10552 ./usr/bin/xinit
 -rwxr-xr-x root       root            35296 ./usr/bin/xinput
@@ -3347,8 +3347,8 @@ lrwxrwxrwx root       root               23 ./usr/lib/libphone-utils.so.0 -> lib
 -rwxr-xr-x root       root            15436 ./usr/lib/libphone-utils.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libpixman-1.so.0 -> libpixman-1.so.0.32.6
 -rwxr-xr-x root       root           415052 ./usr/lib/libpixman-1.so.0.32.6
-lrwxrwxrwx root       root               19 ./usr/lib/libpng16.so.16 -> libpng16.so.16.16.0
--rwxr-xr-x root       root           141544 ./usr/lib/libpng16.so.16.16.0
+lrwxrwxrwx root       root               19 ./usr/lib/libpng16.so.16 -> libpng16.so.16.17.0
+-rwxr-xr-x root       root           141544 ./usr/lib/libpng16.so.16.17.0
 lrwxrwxrwx root       root               16 ./usr/lib/libpopt.so.0 -> libpopt.so.0.0.0
 -rwxr-xr-x root       root            33376 ./usr/lib/libpopt.so.0.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libprocps.so.4 -> libprocps.so.4.0.0
@@ -6832,14 +6832,14 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/keycodes/sgi_vnd
 -rw-r--r-- root       root             3204 ./usr/share/X11/xkb/keycodes/xfree98
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/rules
 -rw-r--r-- root       root               91 ./usr/share/X11/xkb/rules/README
--rw-r--r-- root       root            44968 ./usr/share/X11/xkb/rules/base
--rw-r--r-- root       root            24956 ./usr/share/X11/xkb/rules/base.extras.xml
--rw-r--r-- root       root            42209 ./usr/share/X11/xkb/rules/base.lst
--rw-r--r-- root       root           202406 ./usr/share/X11/xkb/rules/base.xml
--rw-r--r-- root       root            40001 ./usr/share/X11/xkb/rules/evdev
--rw-r--r-- root       root            24956 ./usr/share/X11/xkb/rules/evdev.extras.xml
--rw-r--r-- root       root            42209 ./usr/share/X11/xkb/rules/evdev.lst
--rw-r--r-- root       root           202406 ./usr/share/X11/xkb/rules/evdev.xml
+-rw-r--r-- root       root            45086 ./usr/share/X11/xkb/rules/base
+-rw-r--r-- root       root            25278 ./usr/share/X11/xkb/rules/base.extras.xml
+-rw-r--r-- root       root            42619 ./usr/share/X11/xkb/rules/base.lst
+-rw-r--r-- root       root           203744 ./usr/share/X11/xkb/rules/base.xml
+-rw-r--r-- root       root            40119 ./usr/share/X11/xkb/rules/evdev
+-rw-r--r-- root       root            25278 ./usr/share/X11/xkb/rules/evdev.extras.xml
+-rw-r--r-- root       root            42619 ./usr/share/X11/xkb/rules/evdev.lst
+-rw-r--r-- root       root           203744 ./usr/share/X11/xkb/rules/evdev.xml
 -rw-r--r-- root       root              743 ./usr/share/X11/xkb/rules/xfree98
 -rw-r--r-- root       root             1126 ./usr/share/X11/xkb/rules/xkb.dtd
 lrwxrwxrwx root       root                4 ./usr/share/X11/xkb/rules/xorg -> base
@@ -6851,7 +6851,7 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols
 -rw-r--r-- root       root             3210 ./usr/share/X11/xkb/symbols/altwin
 -rw-r--r-- root       root             9464 ./usr/share/X11/xkb/symbols/am
 -rw-r--r-- root       root            47838 ./usr/share/X11/xkb/symbols/apl
--rw-r--r-- root       root            13690 ./usr/share/X11/xkb/symbols/ara
+-rw-r--r-- root       root            16431 ./usr/share/X11/xkb/symbols/ara
 -rw-r--r-- root       root              566 ./usr/share/X11/xkb/symbols/at
 -rw-r--r-- root       root             3981 ./usr/share/X11/xkb/symbols/az
 -rw-r--r-- root       root              707 ./usr/share/X11/xkb/symbols/ba
@@ -6866,13 +6866,13 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols
 -rw-r--r-- root       root            21460 ./usr/share/X11/xkb/symbols/ca
 -rw-r--r-- root       root             1666 ./usr/share/X11/xkb/symbols/capslock
 -rw-r--r-- root       root             4120 ./usr/share/X11/xkb/symbols/cd
--rw-r--r-- root       root             8224 ./usr/share/X11/xkb/symbols/ch
+-rw-r--r-- root       root             8297 ./usr/share/X11/xkb/symbols/ch
 -rw-r--r-- root       root            31505 ./usr/share/X11/xkb/symbols/cm
 -rw-r--r-- root       root            11176 ./usr/share/X11/xkb/symbols/cn
 -rw-r--r-- root       root             2303 ./usr/share/X11/xkb/symbols/compose
 -rw-r--r-- root       root             2733 ./usr/share/X11/xkb/symbols/ctrl
 -rw-r--r-- root       root             8106 ./usr/share/X11/xkb/symbols/cz
--rw-r--r-- root       root            55675 ./usr/share/X11/xkb/symbols/de
+-rw-r--r-- root       root            57071 ./usr/share/X11/xkb/symbols/de
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/digital_vndr
 -rw-r--r-- root       root             4361 ./usr/share/X11/xkb/symbols/digital_vndr/lk
 -rw-r--r-- root       root             6199 ./usr/share/X11/xkb/symbols/digital_vndr/pc
@@ -6884,14 +6884,14 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/digital_
 -rw-r--r-- root       root             7632 ./usr/share/X11/xkb/symbols/epo
 -rw-r--r-- root       root            10256 ./usr/share/X11/xkb/symbols/es
 -rw-r--r-- root       root             3134 ./usr/share/X11/xkb/symbols/et
--rw-r--r-- root       root             5593 ./usr/share/X11/xkb/symbols/eu
+-rw-r--r-- root       root             5532 ./usr/share/X11/xkb/symbols/eu
 -rw-r--r-- root       root              629 ./usr/share/X11/xkb/symbols/eurosign
--rw-r--r-- root       root            13250 ./usr/share/X11/xkb/symbols/fi
+-rw-r--r-- root       root            13222 ./usr/share/X11/xkb/symbols/fi
 -rw-r--r-- root       root             1997 ./usr/share/X11/xkb/symbols/fo
 -rw-r--r-- root       root            72366 ./usr/share/X11/xkb/symbols/fr
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/fujitsu_vndr
--rw-r--r-- root       root             4112 ./usr/share/X11/xkb/symbols/fujitsu_vndr/jp
--rw-r--r-- root       root             4383 ./usr/share/X11/xkb/symbols/fujitsu_vndr/us
+-rw-r--r-- root       root             4120 ./usr/share/X11/xkb/symbols/fujitsu_vndr/jp
+-rw-r--r-- root       root             4391 ./usr/share/X11/xkb/symbols/fujitsu_vndr/us
 -rw-r--r-- root       root             7610 ./usr/share/X11/xkb/symbols/gb
 -rw-r--r-- root       root            11999 ./usr/share/X11/xkb/symbols/ge
 -rw-r--r-- root       root             6558 ./usr/share/X11/xkb/symbols/gh
@@ -6903,7 +6903,7 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/hp_vndr
 -rw-r--r-- root       root             2520 ./usr/share/X11/xkb/symbols/hr
 -rw-r--r-- root       root            14702 ./usr/share/X11/xkb/symbols/hu
 -rw-r--r-- root       root            20277 ./usr/share/X11/xkb/symbols/ie
--rw-r--r-- root       root            16261 ./usr/share/X11/xkb/symbols/il
+-rw-r--r-- root       root            16256 ./usr/share/X11/xkb/symbols/il
 -rw-r--r-- root       root            86338 ./usr/share/X11/xkb/symbols/in
 -rw-r--r-- root       root            63333 ./usr/share/X11/xkb/symbols/inet
 -rw-r--r-- root       root              642 ./usr/share/X11/xkb/symbols/iq
@@ -6912,11 +6912,11 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/hp_vndr
 -rw-r--r-- root       root            12803 ./usr/share/X11/xkb/symbols/it
 -rw-r--r-- root       root             8462 ./usr/share/X11/xkb/symbols/jp
 -rw-r--r-- root       root             2173 ./usr/share/X11/xkb/symbols/ke
--rw-r--r-- root       root            23761 ./usr/share/X11/xkb/symbols/keypad
+-rw-r--r-- root       root            23760 ./usr/share/X11/xkb/symbols/keypad
 -rw-r--r-- root       root             6080 ./usr/share/X11/xkb/symbols/kg
 -rw-r--r-- root       root             4997 ./usr/share/X11/xkb/symbols/kh
 -rw-r--r-- root       root             3398 ./usr/share/X11/xkb/symbols/kpdl
--rw-r--r-- root       root              671 ./usr/share/X11/xkb/symbols/kr
+-rw-r--r-- root       root             1168 ./usr/share/X11/xkb/symbols/kr
 -rw-r--r-- root       root            11767 ./usr/share/X11/xkb/symbols/kz
 -rw-r--r-- root       root             5587 ./usr/share/X11/xkb/symbols/la
 -rw-r--r-- root       root             2450 ./usr/share/X11/xkb/symbols/latam
@@ -6929,21 +6929,21 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/hp_vndr
 -rw-r--r-- root       root            12524 ./usr/share/X11/xkb/symbols/ma
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/macintosh_vndr
 -rw-r--r-- root       root             5104 ./usr/share/X11/xkb/symbols/macintosh_vndr/apple
--rw-r--r-- root       root             3823 ./usr/share/X11/xkb/symbols/macintosh_vndr/ch
+-rw-r--r-- root       root             3831 ./usr/share/X11/xkb/symbols/macintosh_vndr/ch
 -rw-r--r-- root       root             3843 ./usr/share/X11/xkb/symbols/macintosh_vndr/de
--rw-r--r-- root       root             3507 ./usr/share/X11/xkb/symbols/macintosh_vndr/dk
+-rw-r--r-- root       root             3515 ./usr/share/X11/xkb/symbols/macintosh_vndr/dk
 -rw-r--r-- root       root              337 ./usr/share/X11/xkb/symbols/macintosh_vndr/fi
 -rw-r--r-- root       root             5571 ./usr/share/X11/xkb/symbols/macintosh_vndr/fr
 -rw-r--r-- root       root              557 ./usr/share/X11/xkb/symbols/macintosh_vndr/gb
 -rw-r--r-- root       root             5721 ./usr/share/X11/xkb/symbols/macintosh_vndr/is
--rw-r--r-- root       root             2727 ./usr/share/X11/xkb/symbols/macintosh_vndr/it
+-rw-r--r-- root       root             2735 ./usr/share/X11/xkb/symbols/macintosh_vndr/it
 -rw-r--r-- root       root             1030 ./usr/share/X11/xkb/symbols/macintosh_vndr/jp
 -rw-r--r-- root       root             1913 ./usr/share/X11/xkb/symbols/macintosh_vndr/latam
 -rw-r--r-- root       root              156 ./usr/share/X11/xkb/symbols/macintosh_vndr/nl
 -rw-r--r-- root       root             2132 ./usr/share/X11/xkb/symbols/macintosh_vndr/no
 -rw-r--r-- root       root             2592 ./usr/share/X11/xkb/symbols/macintosh_vndr/pt
 -rw-r--r-- root       root             2092 ./usr/share/X11/xkb/symbols/macintosh_vndr/se
--rw-r--r-- root       root             4203 ./usr/share/X11/xkb/symbols/macintosh_vndr/us
+-rw-r--r-- root       root             4220 ./usr/share/X11/xkb/symbols/macintosh_vndr/us
 -rw-r--r-- root       root              594 ./usr/share/X11/xkb/symbols/mao
 -rw-r--r-- root       root             5116 ./usr/share/X11/xkb/symbols/md
 -rw-r--r-- root       root             1743 ./usr/share/X11/xkb/symbols/me
@@ -6966,13 +6966,12 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/nokia_vn
 -rw-r--r-- root       root             6772 ./usr/share/X11/xkb/symbols/np
 -rw-r--r-- root       root              930 ./usr/share/X11/xkb/symbols/olpc
 -rw-r--r-- root       root             2389 ./usr/share/X11/xkb/symbols/pc
--rw-r--r-- root       root            76133 ./usr/share/X11/xkb/symbols/ph
 -rw-r--r-- root       root            20661 ./usr/share/X11/xkb/symbols/pk
 -rw-r--r-- root       root            23504 ./usr/share/X11/xkb/symbols/pl
 -rw-r--r-- root       root            10510 ./usr/share/X11/xkb/symbols/pt
 -rw-r--r-- root       root            11245 ./usr/share/X11/xkb/symbols/ro
 -rw-r--r-- root       root            16062 ./usr/share/X11/xkb/symbols/rs
--rw-r--r-- root       root            31714 ./usr/share/X11/xkb/symbols/ru
+-rw-r--r-- root       root            35060 ./usr/share/X11/xkb/symbols/ru
 -rw-r--r-- root       root              131 ./usr/share/X11/xkb/symbols/rupeesign
 -rw-r--r-- root       root            15299 ./usr/share/X11/xkb/symbols/se
 drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/sgi_vndr
@@ -7007,7 +7006,7 @@ drwxr-xr-x root       root             4096 ./usr/share/X11/xkb/symbols/sun_vndr
 -rw-r--r-- root       root             5276 ./usr/share/X11/xkb/symbols/sun_vndr/gr
 -rw-r--r-- root       root             4161 ./usr/share/X11/xkb/symbols/sun_vndr/it
 -rw-r--r-- root       root             6606 ./usr/share/X11/xkb/symbols/sun_vndr/jp
--rw-r--r-- root       root             2446 ./usr/share/X11/xkb/symbols/sun_vndr/kr
+-rw-r--r-- root       root             2665 ./usr/share/X11/xkb/symbols/sun_vndr/kr
 -rw-r--r-- root       root             5705 ./usr/share/X11/xkb/symbols/sun_vndr/lt
 -rw-r--r-- root       root             6723 ./usr/share/X11/xkb/symbols/sun_vndr/lv
 -rw-r--r-- root       root             4216 ./usr/share/X11/xkb/symbols/sun_vndr/nl
@@ -8468,7 +8467,7 @@ drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_MESSAGES
 -rw-r--r-- root       root            11671 ./usr/share/locale/cs/LC_MESSAGES/sysstat.mo
 -rw-r--r-- root       root            61702 ./usr/share/locale/cs/LC_MESSAGES/tar.mo
 -rw-r--r-- root       root           399099 ./usr/share/locale/cs/LC_MESSAGES/util-linux.mo
--rw-r--r-- root       root            79111 ./usr/share/locale/cs/LC_MESSAGES/xkeyboard-config.mo
+-rw-r--r-- root       root            79866 ./usr/share/locale/cs/LC_MESSAGES/xkeyboard-config.mo
 -rw-r--r-- root       root            21945 ./usr/share/locale/cs/LC_MESSAGES/xz.mo
 drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_TIME
 lrwxrwxrwx root       root               27 ./usr/share/locale/cs/LC_TIME/coreutils.mo -> ../LC_MESSAGES/coreutils.mo
@@ -17529,7 +17528,7 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               15 ./var/lib/opkg/info/xauth.list
 -rw-r--r-- root       root              550 ./var/lib/opkg/info/xcursor-transparent-theme.control
 -rw-r--r-- root       root             4994 ./var/lib/opkg/info/xcursor-transparent-theme.list
--rw-r--r-- root       root              997 ./var/lib/opkg/info/xdpyinfo.control
+-rw-r--r-- root       root              996 ./var/lib/opkg/info/xdpyinfo.control
 -rw-r--r-- root       root               18 ./var/lib/opkg/info/xdpyinfo.list
 -rw-r--r-- root       root             1063 ./var/lib/opkg/info/xf86-input-evdev.control
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/xf86-input-evdev.list
@@ -17549,12 +17548,12 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rw-r--r-- root       root               16 ./var/lib/opkg/info/xinput.list
 -rw-r--r-- root       root              698 ./var/lib/opkg/info/xkbcomp.control
 -rw-r--r-- root       root               17 ./var/lib/opkg/info/xkbcomp.list
--rw-r--r-- root       root              901 ./var/lib/opkg/info/xkeyboard-config-locale-cs.control
+-rw-r--r-- root       root              940 ./var/lib/opkg/info/xkeyboard-config-locale-cs.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/xkeyboard-config-locale-cs.list
--rw-r--r-- root       root              916 ./var/lib/opkg/info/xkeyboard-config-locale-en-gb.control
+-rw-r--r-- root       root              955 ./var/lib/opkg/info/xkeyboard-config-locale-en-gb.control
 -rw-r--r-- root       root               56 ./var/lib/opkg/info/xkeyboard-config-locale-en-gb.list
--rw-r--r-- root       root              723 ./var/lib/opkg/info/xkeyboard-config.control
--rw-r--r-- root       root            10470 ./var/lib/opkg/info/xkeyboard-config.list
+-rw-r--r-- root       root              762 ./var/lib/opkg/info/xkeyboard-config.control
+-rw-r--r-- root       root            10440 ./var/lib/opkg/info/xkeyboard-config.list
 -rw-r--r-- root       root              715 ./var/lib/opkg/info/xmodmap.control
 -rw-r--r-- root       root               17 ./var/lib/opkg/info/xmodmap.list
 -rw-r--r-- root       root              568 ./var/lib/opkg/info/xrandr.control
@@ -17585,8 +17584,8 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- root       root            87115 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           321099 ./var/lib/opkg/lists/oe-spitz
 -rw-r--r-- root       root          1272173 ./var/lib/opkg/lists/oe-xscalee
--rw-r--r-- root       root          5650596 ./var/lib/opkg/lists/oe-xscalete
--rw-r--r-- root       root           206947 ./var/lib/opkg/status
+-rw-r--r-- root       root          5664168 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root           206946 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local

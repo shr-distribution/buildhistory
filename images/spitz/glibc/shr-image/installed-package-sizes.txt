@@ -18,14 +18,14 @@
 2883	KiB evas
 2798	KiB ncurses-terminfo
 2760	KiB frameworkd
-2707	KiB xkeyboard-config
 2703	KiB libglib-2.0-0
 2695	KiB python-misc
+2645	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
 2204	KiB gawk
 2190	KiB advancedcaching
 2162	KiB shared-mime-info
-2092	KiB kernel-image-3.19.5-yocto-standard
+2093	KiB kernel-image-3.19.5-yocto-standard
 2071	KiB subversion
 2057	KiB vim-tutor
 2055	KiB bluez5
@@ -283,8 +283,8 @@
 81	KiB libfribidi0
 80	KiB ntpdate
 80	KiB libxcb1
+78	KiB xkeyboard-config-locale-cs
 78	KiB tzdata-asia
-77	KiB xkeyboard-config-locale-cs
 75	KiB mtd-utils-jffs2
 75	KiB libshr-glib0
 74	KiB libyaml-0-2
