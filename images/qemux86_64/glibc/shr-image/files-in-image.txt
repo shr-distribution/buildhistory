@@ -17433,8 +17433,8 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- root       root            87115 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6962107 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root            87108 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root          6964711 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           332383 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           200951 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
