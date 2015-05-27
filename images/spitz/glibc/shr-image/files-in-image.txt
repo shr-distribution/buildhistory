@@ -17581,10 +17581,10 @@ drwxr-xr-x root       root            86016 ./var/lib/opkg/info
 -rwxr-xr-x root       root               60 ./var/lib/opkg/info/zaurusd.prerm
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- root       root            87115 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root            87108 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           321099 ./var/lib/opkg/lists/oe-spitz
 -rw-r--r-- root       root          1272173 ./var/lib/opkg/lists/oe-xscalee
--rw-r--r-- root       root          5664168 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root          5666772 ./var/lib/opkg/lists/oe-xscalete
 -rw-r--r-- root       root           206946 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
