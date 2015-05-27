@@ -17412,7 +17412,7 @@ drwxr-xr-x root       root            98304 ./var/lib/opkg/info
 -rw-r--r-- root       root               17 ./var/lib/opkg/info/shr-version.list
 -rw-r--r-- root       root             2141 ./var/lib/opkg/info/shr-wizard.control
 -rw-r--r-- root       root              218 ./var/lib/opkg/info/shr-wizard.list
--rw-r--r-- root       root              621 ./var/lib/opkg/info/socat.control
+-rw-r--r-- root       root              669 ./var/lib/opkg/info/socat.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/socat.list
 -rw-r--r-- root       root              565 ./var/lib/opkg/info/spojegui.control
 -rw-r--r-- root       root              107 ./var/lib/opkg/info/spojegui.list
@@ -17617,7 +17617,7 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            87115 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          1272174 ./var/lib/opkg/lists/oe-arm920t
--rw-r--r-- root       root          5665325 ./var/lib/opkg/lists/oe-arm920tt
+-rw-r--r-- root       root          5665517 ./var/lib/opkg/lists/oe-arm920tt
 -rw-r--r-- root       root           353330 ./var/lib/opkg/lists/oe-om_gta02
 -rw-r--r-- root       root           213253 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd

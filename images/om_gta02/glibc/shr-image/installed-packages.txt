@@ -658,7 +658,7 @@ shr-theme_0.0.2+gitr1+7f1c1b2fc8-r0.9_all.ipk
 shr-theme-gry_0.1-r3.13_all.ipk
 shr-version_2013.07-next-r0.16_om_gta02.ipk
 shr-wizard_0.0.0+gitr0+1dae79221f-r13.16_arm920tt.ipk
-socat_1.7.3.0-r0.1_arm920tt.ipk
+socat_1.7.3.0-r0.2_arm920tt.ipk
 spojegui_0.4.2+svnr68-r1.14_arm920tt.ipk
 strace_4.10-r0.1_arm920tt.ipk
 subversion_1.8.13-r0.0_arm920tt.ipk
