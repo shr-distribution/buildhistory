@@ -9,7 +9,7 @@
 4906	KiB fbreader
 4860	KiB vim-syntax
 3785	KiB coreutils
-3745	KiB gdb
+3746	KiB gdb
 3513	KiB libgtk-2.0
 3446	KiB python-codecs
 3077	KiB file
@@ -22,7 +22,6 @@
 2695	KiB python-misc
 2645	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
-2216	KiB gawk
 2190	KiB advancedcaching
 2163	KiB shared-mime-info
 2089	KiB subversion
@@ -35,7 +34,7 @@
 1958	KiB python-lxml
 1842	KiB shr-splash-theme-logo
 1630	KiB pidgin-data
-1597	KiB xserver-xorg
+1581	KiB xserver-xorg
 1541	KiB liberation-fonts
 1513	KiB kernel-image-3.2.52
 1513	KiB gstreamer
@@ -55,6 +54,7 @@
 1003	KiB ttf-dejavu-sans-mono
 991	KiB libx11-6
 961	KiB libxml2
+904	KiB gawk
 891	KiB fso-sounds
 872	KiB shadow
 860	KiB python-netclient
@@ -68,13 +68,13 @@
 739	KiB libgnutls28
 736	KiB libcairo2
 727	KiB python-xml
+726	KiB wpa-supplicant
 713	KiB python-core
 710	KiB libstdc++6
 708	KiB pidgin
 694	KiB udev
 686	KiB numptyphysics
 682	KiB bash
-677	KiB wpa-supplicant
 669	KiB shr-settings
 656	KiB python-ctypes
 644	KiB tcpdump
@@ -108,8 +108,8 @@
 401	KiB python-dbus
 397	KiB openssl
 397	KiB gconf
-390	KiB util-linux-locale-cs
 390	KiB eina
+389	KiB util-linux-locale-cs
 389	KiB libfreetype6
 388	KiB libgmp10
 372	KiB sysstat
@@ -153,12 +153,12 @@
 254	KiB python-pexpect
 253	KiB fsotdld
 252	KiB libflac8
+250	KiB libfdisk1
 249	KiB libpurple-protocol-msn
-247	KiB libfdisk1
 244	KiB shr-theme
+244	KiB libharfbuzz0
 242	KiB libcurl4
 240	KiB libsdl-1.2-0
-240	KiB libharfbuzz0
 236	KiB ppp
 227	KiB libpulse0
 226	KiB python-dateutil
@@ -258,6 +258,7 @@
 99	KiB i2c-tools-misc
 98	KiB libglib-2.0-locale-cs
 97	KiB htop
+97	KiB dosfstools
 96	KiB libxkbfile1
 96	KiB libdbus-glib-1-2
 94	KiB watchdog
@@ -332,7 +333,6 @@
 60	KiB libts-1.0-0
 60	KiB gst-plugins-base-typefindfunctions
 60	KiB efreet
-60	KiB dosfstools
 59	KiB gconf-locale-en-gb
 58	KiB openssh-scp
 58	KiB e-wm-icons
@@ -347,6 +347,7 @@
 54	KiB shadow-locale-cs
 54	KiB mbuffer
 53	KiB libbz2-0
+52	KiB wpa-supplicant-cli
 52	KiB rpcbind
 52	KiB ecore-audio
 51	KiB libgstinterfaces-0.10-0
@@ -357,7 +358,6 @@
 49	KiB libkmod2
 49	KiB libgsm0710mux3
 49	KiB libfsotest3
-48	KiB wpa-supplicant-cli
 48	KiB glib-networking
 47	KiB mime-support
 47	KiB fsogsmd-module-modem-ti-calypso
@@ -450,6 +450,7 @@
 22	KiB gdk-pixbuf-locale-cs
 22	KiB fuser
 21	KiB xz-locale-cs
+21	KiB wpa-supplicant-passphrase
 21	KiB rgb
 21	KiB python-pprint
 21	KiB opkg
@@ -464,7 +465,6 @@
 21	KiB e-wm-config-default
 20	KiB xserver-common
 20	KiB xmodmap
-20	KiB wpa-supplicant-passphrase
 20	KiB python-phoneutils
 20	KiB mterm2
 20	KiB mtdev

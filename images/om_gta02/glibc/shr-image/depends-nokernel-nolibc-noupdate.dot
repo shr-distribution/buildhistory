@@ -896,6 +896,7 @@ digraph depends {
 "fsousaged" -> "libnl-nf-3-200";
 "fsousaged" -> "libnl-route-3-200";
 "fsousaged" -> "libz1";
+"gawk" -> "libreadline6";
 "gconf" -> "dbus-x11";
 "gconf" -> "libdbus-1-3";
 "gconf" -> "libdbus-glib-1-2";
@@ -3211,7 +3212,7 @@ digraph depends {
 "xf86-input-evdev" -> "xorg-abi-input-21";
 "xf86-input-keyboard" -> "xorg-abi-input-21";
 "xf86-input-mouse" -> "xorg-abi-input-21";
-"xf86-video-glamo" -> "xorg-abi-video-18";
+"xf86-video-glamo" -> "xorg-abi-video-19";
 "xf86-video-glamo" -> "xserver-xorg-module-exa";
 "xhost" -> "libx11-6";
 "xhost" -> "libxmuu1";
