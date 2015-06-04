@@ -1,10 +1,10 @@
 PE = 2
-PV = 10.5.4
+PV = 10.5.6
 PR = r0
 PKGR = r0.0
 PKG = libgbm1
 RPROVIDES = libgbm
-RDEPENDS = expat (>= 2.1.0) glibc (>= 2.21) libdrm (>= 2.4.59) libglapi (>= 10.5.4)
+RDEPENDS = expat (>= 2.1.0) glibc (>= 2.21) libdrm (>= 2.4.59) libglapi (>= 10.5.6)
 RRECOMMENDS = 
 PKGSIZE = 39331
 FILES = /usr/lib/libgbm.so.*
