@@ -1,5 +1,5 @@
 42160	KiB webkit-efl
-33539	KiB mesa-megadriver
+33542	KiB mesa-megadriver
 25305	KiB libicudata55
 12936	KiB systemd
 12290	KiB vim-common
@@ -23,7 +23,6 @@
 3117	KiB file
 3114	KiB libglib-2.0-0
 3020	KiB bluez5
-2850	KiB gawk
 2819	KiB libpurple
 2798	KiB ncurses-terminfo
 2736	KiB frameworkd
@@ -33,7 +32,7 @@
 2396	KiB ttf-dejavu-sans
 2394	KiB libicui18n55
 2336	KiB libcrypto1.0.0
-2324	KiB xserver-xorg
+2295	KiB xserver-xorg
 2182	KiB advancedcaching
 2177	KiB shared-mime-info
 2085	KiB libaspell15
@@ -56,6 +55,7 @@
 1462	KiB libsamplerate0
 1423	KiB libxml2
 1417	KiB libphone-ui-shr
+1327	KiB gawk
 1305	KiB libx11-6
 1285	KiB shadow
 1276	KiB python-evas
@@ -131,7 +131,7 @@
 409	KiB libedje-utils
 398	KiB openssh-keygen
 391	KiB estardict
-390	KiB util-linux-locale-cs
+389	KiB util-linux-locale-cs
 385	KiB libreadline6
 381	KiB libnl-route-3-200
 381	KiB enchant
@@ -143,14 +143,14 @@
 363	KiB glibc-binary-localedata-cs-cz
 358	KiB libpurple-protocol-msn
 356	KiB fsotdld
+351	KiB libharfbuzz0
 351	KiB coreutils-locale-cs
 344	KiB libc6-utils
-343	KiB libharfbuzz0
 342	KiB ppp
 341	KiB nano
+336	KiB libfdisk1
 334	KiB libfontconfig1
 333	KiB python-compression
-332	KiB libfdisk1
 325	KiB mobile-broadband-provider-info
 323	KiB pidgin-locale-cs
 323	KiB glibc-charmap-utf-8
@@ -255,6 +255,7 @@
 130	KiB kmod
 129	KiB tzdata-europe
 128	KiB shr-e-gadgets
+127	KiB dosfstools
 126	KiB watchdog
 125	KiB kernel-module-nf-conntrack
 124	KiB spojegui
@@ -321,7 +322,6 @@
 78	KiB openssh-scp
 77	KiB libeo1
 77	KiB glib-networking
-77	KiB dosfstools
 75	KiB libfsotest3
 75	KiB fontconfig-utils
 74	KiB libpam
