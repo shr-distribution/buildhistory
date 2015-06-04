@@ -961,6 +961,7 @@ digraph depends {
 "fuser" -> "libc6";
 "fuser" -> "update-alternatives-opkg";
 "gawk" -> "libc6";
+"gawk" -> "libreadline6";
 "gawk" -> "update-alternatives-opkg";
 "gconf" -> "dbus-x11";
 "gconf" -> "libc6";
@@ -3716,9 +3717,9 @@ digraph depends {
 "xf86-input-keyboard" -> "libc6";
 "xf86-input-keyboard" -> "xorg-abi-input-21";
 "xf86-video-fbdev" -> "libc6";
-"xf86-video-fbdev" -> "xorg-abi-video-18";
+"xf86-video-fbdev" -> "xorg-abi-video-19";
 "xf86-video-omapfb" -> "libc6";
-"xf86-video-omapfb" -> "xorg-abi-video-18";
+"xf86-video-omapfb" -> "xorg-abi-video-19";
 "xhost" -> "libc6";
 "xhost" -> "libx11-6";
 "xhost" -> "libxmuu1";

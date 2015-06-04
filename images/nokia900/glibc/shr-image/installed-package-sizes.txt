@@ -10,7 +10,7 @@
 5236	KiB udev-hwdb
 4880	KiB fbreader
 4860	KiB vim-syntax
-3717	KiB gdb
+3718	KiB gdb
 3585	KiB coreutils
 3440	KiB python-codecs
 3326	KiB libgtk-2.0
@@ -27,7 +27,6 @@
 2396	KiB ttf-dejavu-sans
 2202	KiB advancedcaching
 2162	KiB shared-mime-info
-2102	KiB gawk
 2057	KiB vim-tutor
 2007	KiB bluez5
 2003	KiB subversion
@@ -44,7 +43,7 @@
 1469	KiB glibc-binary-localedata-en-us
 1469	KiB glibc-binary-localedata-en-gb
 1451	KiB libsamplerate0
-1417	KiB xserver-xorg
+1411	KiB xserver-xorg
 1392	KiB gstreamer
 1359	KiB libphone-ui-shr
 1259	KiB libicuuc55
@@ -61,6 +60,7 @@
 934	KiB libx11-6
 891	KiB fso-sounds
 886	KiB libxml2
+878	KiB gawk
 862	KiB shadow
 860	KiB python-netclient
 807	KiB openssh-sshd
@@ -110,7 +110,7 @@
 397	KiB python-dbus
 393	KiB procps
 393	KiB openssl
-390	KiB util-linux-locale-cs
+389	KiB util-linux-locale-cs
 386	KiB gconf
 382	KiB fsodeviced
 376	KiB efl
@@ -164,12 +164,12 @@
 234	KiB libpurple-protocol-msn
 234	KiB fsotdld
 232	KiB libnl-route-3-200
+232	KiB libharfbuzz0
 227	KiB ppp
+227	KiB libfdisk1
 226	KiB python-dateutil
-225	KiB libharfbuzz0
 225	KiB libcurl4
 224	KiB libsdl-1.2-0
-224	KiB libfdisk1
 215	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
 206	KiB libpulse0
@@ -263,6 +263,7 @@
 97	KiB kernel-module-nf-conntrack
 97	KiB eeze
 96	KiB libegl-mesa
+96	KiB dosfstools
 96	KiB alsa-utils-alsactl
 95	KiB libgcc1
 94	KiB libncurses5
@@ -330,7 +331,6 @@
 59	KiB libserf-1-1
 59	KiB libevdev
 59	KiB gconf-locale-en-gb
-59	KiB dosfstools
 58	KiB openssh-sftp-server
 58	KiB e-wm-icons
 57	KiB libz1
