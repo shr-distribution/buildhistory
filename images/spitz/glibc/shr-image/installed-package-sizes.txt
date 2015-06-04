@@ -8,7 +8,7 @@
 5236	KiB udev-hwdb
 4873	KiB fbreader
 4860	KiB vim-syntax
-3749	KiB gdb
+3751	KiB gdb
 3731	KiB coreutils
 3465	KiB libgtk-2.0
 3444	KiB python-codecs
@@ -22,7 +22,6 @@
 2695	KiB python-misc
 2645	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
-2204	KiB gawk
 2190	KiB advancedcaching
 2162	KiB shared-mime-info
 2093	KiB kernel-image-3.19.5-yocto-standard
@@ -36,7 +35,7 @@
 1933	KiB python-lxml
 1842	KiB shr-splash-theme-logo
 1630	KiB pidgin-data
-1573	KiB xserver-xorg
+1557	KiB xserver-xorg
 1541	KiB liberation-fonts
 1497	KiB gstreamer
 1469	KiB glibc-binary-localedata-en-us
@@ -56,6 +55,7 @@
 980	KiB libx11-6
 946	KiB libxml2
 891	KiB fso-sounds
+889	KiB gawk
 862	KiB shadow
 860	KiB python-netclient
 811	KiB openssh-sshd
@@ -68,6 +68,7 @@
 727	KiB libgnutls28
 724	KiB python-xml
 724	KiB libcairo2
+716	KiB wpa-supplicant
 712	KiB python-core
 700	KiB pidgin
 698	KiB libstdc++6
@@ -75,7 +76,6 @@
 683	KiB numptyphysics
 674	KiB bash
 669	KiB shr-settings
-665	KiB wpa-supplicant
 654	KiB python-ctypes
 628	KiB tcpdump
 606	KiB libgcrypt
@@ -108,7 +108,7 @@
 401	KiB efl
 396	KiB openssl
 396	KiB gconf
-390	KiB util-linux-locale-cs
+389	KiB util-linux-locale-cs
 389	KiB eina
 384	KiB libfreetype6
 379	KiB libgmp10
@@ -156,11 +156,11 @@
 254	KiB libnl-route-3-200
 250	KiB fsotdld
 248	KiB libflac8
+248	KiB libfdisk1
 245	KiB libpurple-protocol-msn
 244	KiB shr-theme
-244	KiB libfdisk1
+244	KiB libharfbuzz0
 238	KiB libcurl4
-237	KiB libharfbuzz0
 234	KiB libsdl-1.2-0
 232	KiB ppp
 226	KiB python-dateutil
@@ -258,6 +258,7 @@
 97	KiB kernel-module-hid
 96	KiB libtirpc1
 96	KiB libdbus-glib-1-2
+96	KiB dosfstools
 95	KiB libxkbfile1
 94	KiB kernel-module-snd-pcm
 94	KiB htop
@@ -327,7 +328,6 @@
 60	KiB libz1
 60	KiB libice6
 60	KiB gst-plugins-base-typefindfunctions
-60	KiB dosfstools
 59	KiB libts-1.0-0
 59	KiB gconf-locale-en-gb
 58	KiB openssh-sftp-server
@@ -348,9 +348,9 @@
 50	KiB libcmtspeechdata0
 50	KiB kernel-module-libcomposite
 50	KiB alsa-utils-aplay
+49	KiB wpa-supplicant-cli
 49	KiB libgstinterfaces-0.10-0
 49	KiB ecore-audio
-48	KiB wpa-supplicant-cli
 48	KiB libkmod2
 48	KiB libgsm0710mux3
 48	KiB libfsotest3
@@ -439,6 +439,7 @@
 22	KiB gdk-pixbuf-locale-cs
 22	KiB apmd
 21	KiB xz-locale-cs
+21	KiB wpa-supplicant-passphrase
 21	KiB rgb
 21	KiB python-pprint
 21	KiB opkg
@@ -453,7 +454,6 @@
 21	KiB e-wm-config-default
 20	KiB xserver-common
 20	KiB xmodmap
-20	KiB wpa-supplicant-passphrase
 20	KiB python-phoneutils
 20	KiB mterm2
 20	KiB mtdev
