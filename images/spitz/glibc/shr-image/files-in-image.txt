@@ -122,7 +122,7 @@ drwxr-xr-x root       root             4096 ./boot
 -rw-r--r-- root       root              817 ./boot/boot.cfg
 -rw-r--r-- root       root             1322 ./boot/icon.xpm
 lrwxrwxrwx root       root               34 ./boot/zImage -> /boot/zImage-3.19.5-yocto-standard
--rw-r--r-- root       root          2143472 ./boot/zImage-3.19.5-yocto-standard
+-rw-r--r-- root       root          2143856 ./boot/zImage-3.19.5-yocto-standard
 drwxr-xr-x root       root             4096 ./dev
 drwxr-xr-x root       root             4096 ./etc
 drwxr-xr-x root       root             4096 ./etc/X11

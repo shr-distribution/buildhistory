@@ -24,7 +24,7 @@
 2396	KiB ttf-dejavu-sans
 2190	KiB advancedcaching
 2162	KiB shared-mime-info
-2093	KiB kernel-image-3.19.5-yocto-standard
+2094	KiB kernel-image-3.19.5-yocto-standard
 2071	KiB subversion
 2057	KiB vim-tutor
 2055	KiB bluez5
