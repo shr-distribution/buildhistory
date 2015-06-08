@@ -1,4 +1,4 @@
-om-gta04: shr-image configured for shr 2013.07-next-20150604
+om-gta04: shr-image configured for shr 2013.07-next-20150608
 
 Build Configuration:
 BB_VERSION        = "1.27.0"
@@ -7,7 +7,7 @@ NATIVELSBSTRING   = "Gentoo-2.2"
 TARGET_SYS        = "arm-oe-linux-gnueabi"
 MACHINE           = "om-gta04"
 DISTRO            = "shr"
-DISTRO_VERSION    = "2013.07-next-20150604"
+DISTRO_VERSION    = "2013.07-next-20150608"
 TUNE_FEATURES     = "arm armv7a vfp thumb neon cortexa8"
 TARGET_FPU        = "vfp-neon"
 meta-jama         = "master:a687ccd50fdd1f7e5584814d45a04c0c7c9cb861"
@@ -27,7 +27,7 @@ meta-multimedia
 meta-networking   
 meta-initramfs    
 meta-webserver    
-meta-systemd      = "master-next:34172255e7f075b6b265b23855242a446dac5e91"
+meta-systemd      = "jansa/master:a7ce3bc907d0c7985be13913f16645ed02289c6d"
 meta-osmocombb    
 meta-nokia        
 meta-htc          
@@ -37,5 +37,5 @@ meta-samsung      = "jansa/master:c8a3d64e401df88655f311d2a3eca56ed42c502f"
 meta-browser      = "jansa/master:0cc0419a6a778402f93936859cdacf01eb756bb1"
 meta-games        = "master:c4b6f594246328155fc2fe52aebe8920c078d608"
 meta-handheld     = "jansa/master:55949ebef15214537359e99f73550accab93e704"
-meta              = "jansa/master:9657fb89087fa3420632e99ac329c119fdee37ea"
+meta              = "jansa/master:cd09c78f6dac546fbf0f33c5a65b46b4bfc099a1"
 
