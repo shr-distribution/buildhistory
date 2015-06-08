@@ -26,8 +26,8 @@
 2819	KiB libpurple
 2798	KiB ncurses-terminfo
 2736	KiB frameworkd
+2731	KiB xkeyboard-config
 2709	KiB python-misc
-2645	KiB xkeyboard-config
 2530	KiB python-lxml
 2396	KiB ttf-dejavu-sans
 2394	KiB libicui18n55
@@ -355,11 +355,11 @@
 60	KiB alsa-utils-aplay
 59	KiB gconf-locale-en-gb
 58	KiB e-wm-icons
+57	KiB xf86-video-vmware
 57	KiB xf86-input-evdev
 57	KiB perl
 55	KiB glibc-gconv
 54	KiB shadow-locale-cs
-53	KiB xf86-video-vmware
 52	KiB libsdl-image-1.2-0
 52	KiB libedbus1
 51	KiB libgstriff-0.10-0
@@ -459,6 +459,7 @@
 24	KiB libdrm-nouveau2
 24	KiB gdk-pixbuf-loader-xpm
 23	KiB xkeyboard-config-locale-en-gb
+23	KiB xf86-input-keyboard
 23	KiB util-linux-mcookie
 23	KiB rgb
 23	KiB pstree
@@ -467,7 +468,6 @@
 23	KiB libxxf86dga1
 23	KiB libpam-runtime
 23	KiB libogg0
-22	KiB xf86-input-keyboard
 22	KiB libxtst6
 22	KiB gdk-pixbuf-locale-cs
 21	KiB xz-locale-cs
