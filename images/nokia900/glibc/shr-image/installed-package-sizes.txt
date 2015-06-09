@@ -21,9 +21,9 @@
 2798	KiB ncurses-terminfo
 2794	KiB frameworkd
 2751	KiB libc6
+2731	KiB xkeyboard-config
 2694	KiB python-misc
 2665	KiB libglib-2.0-0
-2645	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
 2202	KiB advancedcaching
 2162	KiB shared-mime-info
@@ -495,13 +495,13 @@
 17	KiB kernel-module-usb-f-rndis
 17	KiB gdk-pixbuf-loader-gif
 16	KiB xinit
+16	KiB xf86-input-keyboard
 16	KiB util-linux-mcookie
 16	KiB pstree
 16	KiB libpurple-plugin-ssl-gnutls
 16	KiB libfontenc1
 16	KiB libcap2
 16	KiB gst-plugins-base-locale-cs
-15	KiB xf86-input-keyboard
 15	KiB setxkbmap
 15	KiB python-mmap
 15	KiB phoneuid
