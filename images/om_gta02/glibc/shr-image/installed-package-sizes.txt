@@ -18,9 +18,9 @@
 2918	KiB evas
 2798	KiB ncurses-terminfo
 2760	KiB frameworkd
+2731	KiB xkeyboard-config
 2727	KiB libglib-2.0-0
 2695	KiB python-misc
-2645	KiB xkeyboard-config
 2396	KiB ttf-dejavu-sans
 2190	KiB advancedcaching
 2163	KiB shared-mime-info
