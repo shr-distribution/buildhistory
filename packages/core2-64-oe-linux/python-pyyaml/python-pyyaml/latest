@@ -1,8 +1,8 @@
 PV = 3.10
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libyaml (>= 0.1.5) python-core
+RDEPENDS = glibc (>= 2.21) libyaml (>= 0.1.6) python-core
 RRECOMMENDS = 
 PKGSIZE = 604230
 FILES = /usr/bin/* /usr/lib/* /usr/lib/python2.7/*
