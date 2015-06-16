@@ -1,9 +1,9 @@
 42160	KiB webkit-efl
 33542	KiB mesa-megadriver
 25305	KiB libicudata55
-12936	KiB systemd
+12932	KiB systemd
 12290	KiB vim-common
-6934	KiB terminology-themes
+6936	KiB terminology-themes
 6387	KiB e-wm
 6361	KiB python-elementary
 6256	KiB fbreader
@@ -15,7 +15,7 @@
 5157	KiB libgtk-2.0
 4860	KiB vim-syntax
 4191	KiB libc6
-3686	KiB elementary
+3687	KiB elementary
 3584	KiB python-codecs
 3326	KiB python-pygtk
 3273	KiB evas
@@ -54,11 +54,12 @@
 1469	KiB glibc-binary-localedata-en-gb
 1462	KiB libsamplerate0
 1423	KiB libxml2
-1417	KiB libphone-ui-shr
+1418	KiB libphone-ui-shr
 1327	KiB gawk
 1305	KiB libx11-6
 1285	KiB shadow
 1276	KiB python-evas
+1202	KiB e2fsprogs-e2fsck
 1198	KiB libx11-locale
 1118	KiB libgnutls28
 1099	KiB iptables
@@ -123,7 +124,7 @@
 451	KiB socat
 450	KiB efl
 449	KiB libssl1.0.0
-447	KiB rsync
+446	KiB rsync
 439	KiB tar
 435	KiB nettle
 426	KiB om-neon
@@ -179,7 +180,6 @@
 253	KiB python-pexpect
 253	KiB libblkid1
 244	KiB shr-theme
-240	KiB e2fsprogs-e2fsck
 236	KiB libxfont1
 235	KiB libfsobasics3
 232	KiB libgstaudio-0.10-0
@@ -189,7 +189,7 @@
 222	KiB libgsttag-0.10-0
 221	KiB libncursesw5
 216	KiB python-json
-215	KiB e-wm-theme-illume-gry
+216	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
 212	KiB mtd-utils
 212	KiB librsvg-2-2
@@ -207,7 +207,7 @@
 194	KiB xkbcomp
 189	KiB ethumb
 188	KiB libopkg1
-184	KiB elementary-theme-gry
+185	KiB elementary-theme-gry
 183	KiB python-datetime
 176	KiB liblightmediascanner0
 175	KiB python-html
@@ -255,6 +255,7 @@
 130	KiB kmod
 129	KiB tzdata-europe
 128	KiB shr-e-gadgets
+128	KiB libevdev
 127	KiB dosfstools
 126	KiB watchdog
 125	KiB kernel-module-nf-conntrack
@@ -277,7 +278,6 @@
 108	KiB opimd-utils
 106	KiB v86d
 106	KiB libxcb-xkb1
-106	KiB libevdev
 105	KiB python-pycairo
 103	KiB libglade-2.0-0
 102	KiB pam-plugin-unix
