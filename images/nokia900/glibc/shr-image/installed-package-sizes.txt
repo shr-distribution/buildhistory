@@ -1,10 +1,10 @@
-33055	KiB webkit-efl
+33056	KiB webkit-efl
 25304	KiB libicudata55
 12290	KiB vim-common
 8986	KiB systemd
-6934	KiB terminology-themes
+6936	KiB terminology-themes
 5791	KiB vim-help
-5470	KiB e-wm
+5476	KiB e-wm
 5464	KiB python-elementary
 5345	KiB elementary-themes
 5236	KiB udev-hwdb
@@ -16,7 +16,7 @@
 3326	KiB libgtk-2.0
 3072	KiB file
 3014	KiB kernel-image-3.13.0-rc7
-2909	KiB elementary
+2910	KiB elementary
 2803	KiB evas
 2798	KiB ncurses-terminfo
 2794	KiB frameworkd
@@ -45,7 +45,7 @@
 1451	KiB libsamplerate0
 1411	KiB xserver-xorg
 1392	KiB gstreamer
-1359	KiB libphone-ui-shr
+1360	KiB libphone-ui-shr
 1259	KiB libicuuc55
 1207	KiB vim
 1198	KiB libx11-locale
@@ -62,6 +62,7 @@
 886	KiB libxml2
 878	KiB gawk
 862	KiB shadow
+862	KiB e2fsprogs-e2fsck
 860	KiB python-netclient
 807	KiB openssh-sshd
 781	KiB libasound2
@@ -122,7 +123,7 @@
 351	KiB coreutils-locale-cs
 350	KiB python-multiprocessing
 350	KiB libedje-utils
-346	KiB estardict
+347	KiB estardict
 343	KiB sysstat
 342	KiB nettle
 335	KiB libtiff5
@@ -136,8 +137,8 @@
 320	KiB vagalume
 320	KiB python-compression
 313	KiB pidgin-locale-en-gb
-312	KiB pango
-309	KiB rsync
+311	KiB rsync
+310	KiB pango
 307	KiB python-vobject
 307	KiB powertop
 303	KiB kbd
@@ -161,8 +162,8 @@
 250	KiB libreadline6
 246	KiB libfontconfig1
 244	KiB shr-theme
+236	KiB fsotdld
 234	KiB libpurple-protocol-msn
-234	KiB fsotdld
 232	KiB libnl-route-3-200
 232	KiB libharfbuzz0
 227	KiB ppp
@@ -170,7 +171,7 @@
 226	KiB python-dateutil
 225	KiB libcurl4
 224	KiB libsdl-1.2-0
-215	KiB e-wm-theme-illume-gry
+216	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
 206	KiB libpulse0
 206	KiB fsoaudiod
@@ -184,14 +185,13 @@
 197	KiB gst-plugins-base-playbin
 190	KiB python-textutils
 185	KiB libidn11
+185	KiB elementary-theme-gry
 184	KiB libglapi0
 184	KiB libext2fs2
-184	KiB elementary-theme-gry
 177	KiB libmount1
 175	KiB python-html
 173	KiB libpcap1
 173	KiB alsa-conf
-172	KiB e2fsprogs-e2fsck
 166	KiB libgstaudio-0.10-0
 164	KiB enjoy
 163	KiB libdbus-1-3
@@ -299,6 +299,7 @@
 73	KiB usb-modeswitch
 72	KiB libyaml-0-2
 72	KiB libshr-glib0
+72	KiB libevdev
 71	KiB libxcb1
 71	KiB libeo1
 70	KiB i2c-tools
@@ -329,7 +330,6 @@
 60	KiB gst-plugins-base-typefindfunctions
 59	KiB libusb-1.0-0
 59	KiB libserf-1-1
-59	KiB libevdev
 59	KiB gconf-locale-en-gb
 58	KiB openssh-sftp-server
 58	KiB e-wm-icons
