@@ -1,9 +1,9 @@
 12290	KiB vim-common
 9387	KiB systemd
-6934	KiB terminology-themes
+6936	KiB terminology-themes
 5791	KiB vim-help
 5634	KiB python-elementary
-5613	KiB e-wm
+5616	KiB e-wm
 5345	KiB elementary-themes
 5236	KiB udev-hwdb
 4873	KiB fbreader
@@ -15,7 +15,7 @@
 3077	KiB file
 3006	KiB elementary
 3000	KiB libc6
-2883	KiB evas
+2884	KiB evas
 2798	KiB ncurses-terminfo
 2760	KiB frameworkd
 2731	KiB xkeyboard-config
@@ -41,7 +41,7 @@
 1469	KiB glibc-binary-localedata-en-us
 1469	KiB glibc-binary-localedata-en-gb
 1462	KiB libsamplerate0
-1366	KiB libphone-ui-shr
+1367	KiB libphone-ui-shr
 1229	KiB vim
 1204	KiB libperl5
 1200	KiB libcrypto1.0.0
@@ -49,11 +49,12 @@
 1182	KiB libpython2.7-1.0
 1143	KiB python-evas
 1071	KiB libtcl8.6-0
-1059	KiB fsogsmd
+1060	KiB fsogsmd
 1047	KiB babiloo-efl
 1003	KiB ttf-dejavu-sans-mono
 980	KiB libx11-6
 946	KiB libxml2
+922	KiB e2fsprogs-e2fsck
 891	KiB fso-sounds
 889	KiB gawk
 862	KiB shadow
@@ -116,9 +117,10 @@
 367	KiB estardict
 363	KiB glibc-binary-localedata-cs-cz
 358	KiB libedje-utils
+355	KiB e2fsprogs-mke2fs
 354	KiB python-multiprocessing
 353	KiB libtiff5
-352	KiB libpulsecommon
+353	KiB libpulsecommon
 351	KiB nettle
 351	KiB coreutils-locale-cs
 349	KiB pango
@@ -139,7 +141,7 @@
 306	KiB kbd
 297	KiB socat
 292	KiB libc6-utils
-287	KiB libsndfile1
+288	KiB libsndfile1
 284	KiB python-pickle
 279	KiB ca-certificates
 276	KiB tar
@@ -166,7 +168,7 @@
 226	KiB python-dateutil
 226	KiB libpulse0
 219	KiB fsoaudiod
-215	KiB e-wm-theme-illume-gry
+216	KiB e-wm-theme-illume-gry
 214	KiB libxslt
 214	KiB gtk+-locale-cs
 212	KiB libxkbcommon
@@ -183,8 +185,7 @@
 188	KiB python-math
 188	KiB libidn11
 185	KiB libmount1
-184	KiB elementary-theme-gry
-184	KiB e2fsprogs-e2fsck
+185	KiB elementary-theme-gry
 179	KiB libpcap1
 178	KiB libcroco
 175	KiB python-html
@@ -284,6 +285,7 @@
 81	KiB libfribidi0
 80	KiB ntpdate
 80	KiB libxcb1
+79	KiB libevdev
 78	KiB xkeyboard-config-locale-cs
 78	KiB tzdata-asia
 75	KiB mtd-utils-jffs2
@@ -292,7 +294,6 @@
 74	KiB libelf1
 73	KiB ffphonelog
 72	KiB libglade-2.0-0
-72	KiB e2fsprogs-mke2fs
 71	KiB usb-modeswitch
 71	KiB libxcb-xkb1
 71	KiB libeo1
@@ -318,7 +319,6 @@
 63	KiB python-pycairo
 63	KiB libudev1
 63	KiB libserf-1-1
-63	KiB libevdev
 62	KiB elementary-configs
 61	KiB libusb-1.0-0
 61	KiB libpurple-protocol-irc
@@ -357,12 +357,12 @@
 48	KiB glib-networking
 47	KiB mime-support
 47	KiB alsa-utils-alsamixer
+46	KiB libgpg-error0
 45	KiB zaurusd
 44	KiB make-locale-cs
 44	KiB libedbus1
 44	KiB kernel-module-snd-pcm-oss
 44	KiB kernel-module-rfcomm
-43	KiB libgpg-error0
 41	KiB logrotate
 40	KiB libxext6
 40	KiB libgstriff-0.10-0
@@ -458,6 +458,7 @@
 20	KiB mterm2
 20	KiB mtdev
 20	KiB libmenuw5
+20	KiB libgpg-error-locale-cs
 20	KiB libfontenc1
 20	KiB libe2p2
 20	KiB libacl1
@@ -477,7 +478,6 @@
 17	KiB python-zlib
 17	KiB python-fcntl
 17	KiB psmisc-locale-cs
-17	KiB libgpg-error-locale-cs
 17	KiB killall
 17	KiB kernel-module-u-ether
 17	KiB kernel-module-bnep
