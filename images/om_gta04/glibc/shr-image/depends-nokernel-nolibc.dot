@@ -21,7 +21,6 @@ digraph depends {
 "alsa-utils-amixer" -> "libasound2";
 "alsa-utils-aplay" -> "libasound2";
 "apmd" -> "libapm1";
-"apmd" -> "update-rc.d" [style=dotted];
 "aspell" -> "libaspell15";
 "aspell" -> "libstdc++6";
 "aspell-locale-cs" -> "virtual-locale-cs" [style=dotted];
@@ -43,7 +42,6 @@ digraph depends {
 "busybox" -> "busybox-syslog" [style=dotted];
 "busybox" -> "busybox-udhcpc" [style=dotted];
 "busybox" -> "update-alternatives-opkg";
-"busybox" -> "update-rc.d" [style=dotted];
 "busybox-syslog" -> "update-alternatives-opkg";
 "coreutils" -> "libattr1";
 "coreutils" -> "libcap2";
@@ -57,7 +55,6 @@ digraph depends {
 "cronie" -> "pam-plugin-access";
 "cronie" -> "pam-plugin-loginuid";
 "cronie" -> "shadow";
-"cronie" -> "update-rc.d" [style=dotted];
 "curl" -> "libcurl4";
 "curl" -> "libz1";
 "dbus-1" -> "base-files";
@@ -66,7 +63,6 @@ digraph depends {
 "dbus-1" -> "libexpat1";
 "dbus-1" -> "libx11-6";
 "dbus-1" -> "shadow";
-"dbus-1" -> "update-rc.d" [style=dotted];
 "dbus-daemon-proxy" -> "libdbus-1-3";
 "dbus-daemon-proxy" -> "libdbus-glib-1-2";
 "dbus-daemon-proxy" -> "libglib-2.0-0";
@@ -737,7 +733,6 @@ digraph depends {
 "frameworkd" -> "python-syslog";
 "frameworkd" -> "python-textutils";
 "frameworkd" -> "python-vobject" [style=dotted];
-"frameworkd" -> "update-rc.d" [style=dotted];
 "frameworkd-config" -> "fso-sounds";
 "fso-apm" -> "libglib-2.0-0";
 "fsoaudiod" -> "fsoaudiod-config";
@@ -755,7 +750,6 @@ digraph depends {
 "fsoaudiod" -> "libnl-route-3-200";
 "fsoaudiod" -> "libsamplerate0";
 "fsoaudiod" -> "libz1";
-"fsoaudiod" -> "update-rc.d" [style=dotted];
 "fsodatad" -> "libffi6";
 "fsodatad" -> "libfso-glib2";
 "fsodatad" -> "libfsobasics3";
@@ -785,7 +779,6 @@ digraph depends {
 "fsodeviced" -> "libnl-nf-3-200";
 "fsodeviced" -> "libnl-route-3-200";
 "fsodeviced" -> "libz1";
-"fsodeviced" -> "update-rc.d" [style=dotted];
 "fsodeviced-config" -> "fsodeviced-modules";
 "fsogsmd" -> "fsodatad";
 "fsogsmd" -> "fsogsmd-config" [style=dotted];
@@ -860,7 +853,6 @@ digraph depends {
 "fsotdld" -> "libsqlite3-0";
 "fsotdld" -> "libxml2";
 "fsotdld" -> "libz1";
-"fsotdld" -> "update-rc.d" [style=dotted];
 "fsousaged" -> "libffi6";
 "fsousaged" -> "libfso-glib2";
 "fsousaged" -> "libfsobasics3";
@@ -1081,7 +1073,6 @@ digraph depends {
 "i2c-tools" -> "i2c-tools-misc";
 "i2c-tools-misc" -> "perl";
 "init-ifupdown" -> "netbase";
-"init-ifupdown" -> "update-rc.d" [style=dotted];
 "iptables" -> "kernel-module-ip-tables" [style=dotted];
 "iptables" -> "kernel-module-ipt-masquerade" [style=dotted];
 "iptables" -> "kernel-module-iptable-filter" [style=dotted];
@@ -2079,7 +2070,6 @@ digraph depends {
 "mioctl" -> "libglib-2.0-0";
 "mkdump" -> "libfsobasics3";
 "mkdump" -> "libglib-2.0-0";
-"modutils-initscripts" -> "update-rc.d" [style=dotted];
 "mterm2" -> "libfso-glib2";
 "mterm2" -> "libfsobasics3";
 "mterm2" -> "libfsotransport3";
@@ -2117,7 +2107,6 @@ digraph depends {
 "openssh" -> "openssh-scp";
 "openssh" -> "openssh-ssh";
 "openssh" -> "openssh-sshd";
-"openssh" -> "update-rc.d" [style=dotted];
 "openssh-keygen" -> "libcrypto1.0.0";
 "openssh-scp" -> "update-alternatives-opkg";
 "openssh-ssh" -> "libcrypto1.0.0";
@@ -2505,7 +2494,6 @@ digraph depends {
 "phonefsod" -> "libfso-glib2";
 "phonefsod" -> "libglib-2.0-0";
 "phonefsod" -> "libshr-glib0";
-"phonefsod" -> "update-rc.d" [style=dotted];
 "phoneui-apps-contacts" -> "libdbus-glib-1-2";
 "phoneui-apps-contacts" -> "libglib-2.0-0";
 "phoneui-apps-dialer" -> "libdbus-glib-1-2";
@@ -2819,11 +2807,9 @@ digraph depends {
 "rpcbind" -> "libsystemd0";
 "rpcbind" -> "libtirpc1";
 "rpcbind" -> "shadow";
-"rpcbind" -> "update-rc.d" [style=dotted];
 "rsync" -> "libacl1";
 "rsync" -> "libattr1";
 "rsync" -> "libpopt0";
-"run-postinsts" -> "update-rc.d" [style=dotted];
 "screen" -> "base-files";
 "screen" -> "libpam";
 "screen" -> "libtinfo5";
@@ -2936,7 +2922,6 @@ digraph depends {
 "shr-settings" -> "shr-settings-backup-configuration" [style=dotted];
 "shr-settings-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "shr-splash" -> "shr-splash-theme-logo" [style=dotted];
-"shr-splash" -> "update-rc.d" [style=dotted];
 "shr-splash-theme-logo" -> "shr-splash";
 "shr-splash-theme-logo" -> "update-alternatives-opkg";
 "shr-theme-gry" -> "e-wm-theme-illume-gry";
@@ -3057,7 +3042,6 @@ digraph depends {
 "systemd" -> "udev";
 "systemd" -> "udev-hwdb" [style=dotted];
 "systemd" -> "update-alternatives-opkg";
-"systemd" -> "update-rc.d" [style=dotted];
 "systemd" -> "util-linux-agetty" [style=dotted];
 "systemd" -> "util-linux-fsck" [style=dotted];
 "systemd" -> "util-linux-mount";
@@ -3141,7 +3125,6 @@ digraph depends {
 "vim" -> "vim-tutor" [style=dotted];
 "vim" -> "vim-vimrc" [style=dotted];
 "watchdog" -> "kernel-module-softdog" [style=dotted];
-"watchdog" -> "update-rc.d" [style=dotted];
 "webkit-efl" -> "ecore-evas";
 "webkit-efl" -> "ecore-imf";
 "webkit-efl" -> "ecore-imf-evas";
@@ -3234,7 +3217,6 @@ digraph depends {
 "xserver-common" -> "xinput-calibrator";
 "xserver-common" -> "xmodmap";
 "xserver-common" -> "xrandr";
-"xserver-nodm-init" -> "update-rc.d" [style=dotted];
 "xserver-nodm-init" -> "xinit";
 "xserver-nodm-init" -> "xserver-common";
 "xserver-xorg" -> "libcrypto1.0.0";
