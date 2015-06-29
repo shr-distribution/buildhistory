@@ -1,5 +1,5 @@
 42160	KiB webkit-efl
-33542	KiB mesa-megadriver
+33544	KiB mesa-megadriver
 25305	KiB libicudata55
 12932	KiB systemd
 12290	KiB vim-common
@@ -22,7 +22,7 @@
 3236	KiB subversion
 3117	KiB file
 3114	KiB libglib-2.0-0
-3020	KiB bluez5
+3114	KiB bluez5
 2819	KiB libpurple
 2798	KiB ncurses-terminfo
 2736	KiB frameworkd
@@ -32,7 +32,7 @@
 2396	KiB ttf-dejavu-sans
 2394	KiB libicui18n55
 2336	KiB libcrypto1.0.0
-2295	KiB xserver-xorg
+2296	KiB xserver-xorg
 2182	KiB advancedcaching
 2177	KiB shared-mime-info
 2085	KiB libaspell15
@@ -103,7 +103,7 @@
 639	KiB python-lang
 626	KiB libgl-mesa
 626	KiB libdw1
-613	KiB libfreetype6
+617	KiB libfreetype6
 605	KiB screen
 594	KiB fsodeviced
 590	KiB python-pyyaml
@@ -166,7 +166,7 @@
 307	KiB libxslt
 304	KiB elfutils
 288	KiB nfs-utils-client
-282	KiB libdbus-1-3
+283	KiB libdbus-1-3
 279	KiB libext2fs2
 279	KiB ca-certificates
 277	KiB libmount1
@@ -249,10 +249,10 @@
 133	KiB libsmartcols1
 133	KiB libshr-glib0
 132	KiB libgps22
+132	KiB kmod
 132	KiB fsodeviced-config
 131	KiB liblzo2-2
 130	KiB libdrm-intel1
-130	KiB kmod
 129	KiB tzdata-europe
 128	KiB shr-e-gadgets
 128	KiB libevdev
