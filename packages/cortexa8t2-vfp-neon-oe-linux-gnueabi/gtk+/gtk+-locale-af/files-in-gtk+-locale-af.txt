@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/af
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/af/LC_MESSAGES
+-rw-r--r-- bitbake    bitbake         88436 ./usr/share/locale/af/LC_MESSAGES/gtk20-properties.mo
+-rw-r--r-- bitbake    bitbake         64067 ./usr/share/locale/af/LC_MESSAGES/gtk20.mo

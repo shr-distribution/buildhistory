@@ -1,0 +1,21 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+lrwxrwxrwx bitbake    bitbake             4 ./usr/bin/X -> Xorg
+-rwxr-xr-x bitbake    bitbake       1251432 ./usr/bin/Xorg
+-rwxr-xr-x bitbake    bitbake          8504 ./usr/bin/cvt
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules
+-rwxr-xr-x bitbake    bitbake         85580 ./usr/lib/xorg/modules/libfb.so
+-rwxr-xr-x bitbake    bitbake         11440 ./usr/lib/xorg/modules/libfbdevhw.so
+-rwxr-xr-x bitbake    bitbake         19056 ./usr/lib/xorg/modules/libshadow.so
+-rwxr-xr-x bitbake    bitbake          4572 ./usr/lib/xorg/modules/libshadowfb.so
+-rwxr-xr-x bitbake    bitbake         14884 ./usr/lib/xorg/modules/libvbe.so
+-rwxr-xr-x bitbake    bitbake         16740 ./usr/lib/xorg/modules/libvgahw.so
+-rw-r--r-- bitbake    bitbake         30704 ./usr/lib/xorg/protocol.txt
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/X11/xorg.conf.d
+-rw-r--r-- bitbake    bitbake          1099 ./usr/share/X11/xorg.conf.d/10-evdev.conf
+-rw-r--r-- bitbake    bitbake          1350 ./usr/share/X11/xorg.conf.d/10-quirks.conf

@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake         35987 ./usr/include/tiff.h
+-rw-r--r-- bitbake    bitbake          3441 ./usr/include/tiffconf.h
+-rw-r--r-- bitbake    bitbake         23003 ./usr/include/tiffio.h
+-rw-r--r-- bitbake    bitbake          1702 ./usr/include/tiffio.hxx
+-rw-r--r-- bitbake    bitbake           410 ./usr/include/tiffvers.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           969 ./usr/lib/libtiff.la
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libtiff.so -> libtiff.so.5.2.2
+-rwxr-xr-x bitbake    bitbake          1023 ./usr/lib/libtiffxx.la
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libtiffxx.so -> libtiffxx.so.5.2.2
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           237 ./usr/lib/pkgconfig/libtiff-4.pc

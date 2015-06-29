@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/mrvl
+-rw-r--r-- bitbake    bitbake        463240 ./lib/firmware/mrvl/sd8787_uapsta.bin
