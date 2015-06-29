@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0/immodules
+-rwxr-xr-x bitbake    bitbake          7504 ./usr/lib/gtk-2.0/2.10.0/immodules/im-cedilla.so

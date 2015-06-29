@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/modules
+-rwxr-xr-x bitbake    bitbake         54080 ./usr/lib/gtk-2.0/modules/libferret.so
+-rwxr-xr-x bitbake    bitbake        327600 ./usr/lib/gtk-2.0/modules/libgail.so

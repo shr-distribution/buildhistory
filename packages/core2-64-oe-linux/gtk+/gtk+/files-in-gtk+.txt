@@ -1,0 +1,30 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/gtk-2.0
+-rw-r--r-- bitbake    bitbake           890 ./etc/gtk-2.0/im-multipress.conf
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         10192 ./usr/bin/gtk-query-immodules-2.0
+-rwxr-xr-x bitbake    bitbake         28448 ./usr/bin/gtk-update-icon-cache-2.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0/engines
+-rwxr-xr-x bitbake    bitbake         46016 ./usr/lib/gtk-2.0/2.10.0/engines/libpixmap.so
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libgailutil.so.18 -> libgailutil.so.18.0.1
+-rwxr-xr-x bitbake    bitbake         32472 ./usr/lib/libgailutil.so.18.0.1
+lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libgdk-x11-2.0.so.0 -> libgdk-x11-2.0.so.0.2400.28
+-rwxr-xr-x bitbake    bitbake        726192 ./usr/lib/libgdk-x11-2.0.so.0.2400.28
+lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libgtk-x11-2.0.so.0 -> libgtk-x11-2.0.so.0.2400.28
+-rwxr-xr-x bitbake    bitbake       4432736 ./usr/lib/libgtk-x11-2.0.so.0.2400.28
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Default
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Default/gtk-2.0-key
+-rw-r--r-- bitbake    bitbake            82 ./usr/share/themes/Default/gtk-2.0-key/gtkrc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Emacs
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Emacs/gtk-2.0-key
+-rw-r--r-- bitbake    bitbake          3818 ./usr/share/themes/Emacs/gtk-2.0-key/gtkrc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Raleigh
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Raleigh/gtk-2.0
+-rw-r--r-- bitbake    bitbake            69 ./usr/share/themes/Raleigh/gtk-2.0/gtkrc

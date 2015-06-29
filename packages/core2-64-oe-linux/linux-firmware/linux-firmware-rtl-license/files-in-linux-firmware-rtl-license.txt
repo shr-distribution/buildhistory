@@ -1,0 +1,4 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware
+-rw-r--r-- bitbake    bitbake          2115 ./lib/firmware/LICENCE.rtlwifi_firmware.txt
