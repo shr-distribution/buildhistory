@@ -24,10 +24,10 @@
 2396	KiB ttf-dejavu-sans
 2190	KiB advancedcaching
 2162	KiB shared-mime-info
+2132	KiB bluez5
 2094	KiB kernel-image-3.19.5-yocto-standard
 2071	KiB subversion
 2057	KiB vim-tutor
-2055	KiB bluez5
 2005	KiB libpurple
 1998	KiB python-pygtk
 1996	KiB terminology
@@ -96,7 +96,7 @@
 491	KiB libsqlite3-0
 487	KiB screen
 477	KiB busybox
-470	KiB dbus-1
+473	KiB dbus-1
 458	KiB libevent
 447	KiB libdw1
 441	KiB openvpn
@@ -111,15 +111,15 @@
 396	KiB gconf
 389	KiB util-linux-locale-cs
 389	KiB eina
-384	KiB libfreetype6
+386	KiB libfreetype6
 379	KiB libgmp10
 368	KiB sysstat
 367	KiB estardict
 363	KiB glibc-binary-localedata-cs-cz
 358	KiB libedje-utils
+355	KiB libtiff5
 355	KiB e2fsprogs-mke2fs
 354	KiB python-multiprocessing
-353	KiB libtiff5
 353	KiB libpulsecommon
 351	KiB nettle
 351	KiB coreutils-locale-cs
@@ -274,7 +274,7 @@
 87	KiB libnl-3-200
 87	KiB libglib-2.0-locale-en-gb
 87	KiB libfsoframework3
-86	KiB kmod
+87	KiB kmod
 84	KiB nmon
 84	KiB gst-plugins-base-decodebin2
 83	KiB libmad0
