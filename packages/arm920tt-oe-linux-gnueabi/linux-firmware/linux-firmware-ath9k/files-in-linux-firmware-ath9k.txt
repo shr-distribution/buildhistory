@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware
+-rw-r--r-- bitbake    bitbake         70624 ./lib/firmware/ar7010.fw
+-rw-r--r-- bitbake    bitbake         70624 ./lib/firmware/ar7010_1_1.fw
+-rw-r--r-- bitbake    bitbake         51312 ./lib/firmware/ar9271.fw
+-rw-r--r-- bitbake    bitbake         72684 ./lib/firmware/htc_7010.fw
+-rw-r--r-- bitbake    bitbake         50980 ./lib/firmware/htc_9271.fw

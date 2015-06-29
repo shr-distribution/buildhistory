@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules
+-rwxr-xr-x bitbake    bitbake        118932 ./usr/lib/xorg/modules/libwfb.so
