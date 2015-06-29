@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       1811548 ./usr/lib/libtiff.a
+-rw-r--r-- bitbake    bitbake         51142 ./usr/lib/libtiffxx.a

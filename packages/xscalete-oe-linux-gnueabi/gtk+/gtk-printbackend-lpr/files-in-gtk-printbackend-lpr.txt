@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0/printbackends
+-rwxr-xr-x bitbake    bitbake         12064 ./usr/lib/gtk-2.0/2.10.0/printbackends/libprintbackend-lpr.so

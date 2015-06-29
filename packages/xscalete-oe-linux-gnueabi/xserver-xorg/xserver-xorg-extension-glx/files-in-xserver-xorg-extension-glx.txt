@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules/extensions
+-rwxr-xr-x bitbake    bitbake        168152 ./usr/lib/xorg/modules/extensions/libglx.so
