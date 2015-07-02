@@ -1,0 +1,36 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/elfutils
+-rwxr-xr-x bitbake    bitbake         24396 ./usr/lib/elfutils/libebl_aarch64-0.162.so
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/elfutils/libebl_aarch64.so -> libebl_aarch64-0.162.so
+-rwxr-xr-x bitbake    bitbake         10648 ./usr/lib/elfutils/libebl_alpha-0.162.so
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/elfutils/libebl_alpha.so -> libebl_alpha-0.162.so
+-rwxr-xr-x bitbake    bitbake         17524 ./usr/lib/elfutils/libebl_arm-0.162.so
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/elfutils/libebl_arm.so -> libebl_arm-0.162.so
+-rwxr-xr-x bitbake    bitbake         40484 ./usr/lib/elfutils/libebl_i386-0.162.so
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/elfutils/libebl_i386.so -> libebl_i386-0.162.so
+-rwxr-xr-x bitbake    bitbake         14116 ./usr/lib/elfutils/libebl_ia64-0.162.so
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/elfutils/libebl_ia64.so -> libebl_ia64-0.162.so
+-rwxr-xr-x bitbake    bitbake          5824 ./usr/lib/elfutils/libebl_m68k-0.162.so
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/elfutils/libebl_m68k.so -> libebl_m68k-0.162.so
+-rwxr-xr-x bitbake    bitbake          7688 ./usr/lib/elfutils/libebl_mips-0.162.so
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/elfutils/libebl_mips.so -> libebl_mips-0.162.so
+-rwxr-xr-x bitbake    bitbake          9940 ./usr/lib/elfutils/libebl_parisc-0.162.so
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/elfutils/libebl_parisc.so -> libebl_parisc-0.162.so
+-rwxr-xr-x bitbake    bitbake         14852 ./usr/lib/elfutils/libebl_ppc-0.162.so
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/elfutils/libebl_ppc.so -> libebl_ppc-0.162.so
+-rwxr-xr-x bitbake    bitbake         14804 ./usr/lib/elfutils/libebl_ppc64-0.162.so
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/elfutils/libebl_ppc64.so -> libebl_ppc64-0.162.so
+-rwxr-xr-x bitbake    bitbake         12608 ./usr/lib/elfutils/libebl_s390-0.162.so
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/elfutils/libebl_s390.so -> libebl_s390-0.162.so
+-rwxr-xr-x bitbake    bitbake          8896 ./usr/lib/elfutils/libebl_sh-0.162.so
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/elfutils/libebl_sh.so -> libebl_sh-0.162.so
+-rwxr-xr-x bitbake    bitbake         15304 ./usr/lib/elfutils/libebl_sparc-0.162.so
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/elfutils/libebl_sparc.so -> libebl_sparc-0.162.so
+-rwxr-xr-x bitbake    bitbake         10552 ./usr/lib/elfutils/libebl_tilegx-0.162.so
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/elfutils/libebl_tilegx.so -> libebl_tilegx-0.162.so
+-rwxr-xr-x bitbake    bitbake         44280 ./usr/lib/elfutils/libebl_x86_64-0.162.so
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/elfutils/libebl_x86_64.so -> libebl_x86_64-0.162.so
+-rwxr-xr-x bitbake    bitbake        204160 ./usr/lib/libdw-0.162.so
+lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libdw.so.1 -> libdw-0.162.so

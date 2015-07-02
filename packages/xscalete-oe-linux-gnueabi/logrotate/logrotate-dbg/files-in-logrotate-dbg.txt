@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake        122236 ./usr/bin/.debug/logrotate
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/logrotate
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/logrotate/3.9.1-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1
+-rw-r--r-- bitbake    bitbake           890 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/basenames.c
+-rw-r--r-- bitbake    bitbake           219 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/basenames.h
+-rw-r--r-- bitbake    bitbake         42634 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/config.c
+-rw-r--r-- bitbake    bitbake          1352 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/log.c
+-rw-r--r-- bitbake    bitbake           492 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/log.h
+-rw-r--r-- bitbake    bitbake         66883 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/logrotate.c
+-rw-r--r-- bitbake    bitbake          2297 ./usr/src/debug/logrotate/3.9.1-r0/logrotate-3.9.1/logrotate.h

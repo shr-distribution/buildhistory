@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake        323542 ./usr/lib/libasm.a
+-rw-r--r-- bitbake    bitbake       3718352 ./usr/lib/libdw.a
+-rw-r--r-- bitbake    bitbake        775916 ./usr/lib/libebl.a
+-rw-r--r-- bitbake    bitbake       1809246 ./usr/lib/libelf.a
