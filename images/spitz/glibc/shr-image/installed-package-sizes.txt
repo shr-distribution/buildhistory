@@ -8,11 +8,11 @@
 5236	KiB udev-hwdb
 4873	KiB fbreader
 4860	KiB vim-syntax
+3881	KiB file
 3751	KiB gdb
 3731	KiB coreutils
 3465	KiB libgtk-2.0
 3444	KiB python-codecs
-3077	KiB file
 3006	KiB elementary
 3000	KiB libc6
 2884	KiB evas
@@ -42,9 +42,9 @@
 1469	KiB glibc-binary-localedata-en-gb
 1462	KiB libsamplerate0
 1367	KiB libphone-ui-shr
+1317	KiB libperl5
 1229	KiB vim
-1204	KiB libperl5
-1200	KiB libcrypto1.0.0
+1201	KiB libcrypto1.0.0
 1198	KiB libx11-locale
 1182	KiB libpython2.7-1.0
 1143	KiB python-evas
@@ -88,8 +88,8 @@
 525	KiB libsoup-2.4
 525	KiB findutils
 523	KiB openssh-ssh
+504	KiB libjpeg8
 503	KiB serial-forward
-503	KiB libjpeg8
 502	KiB python-pygobject
 492	KiB s3c64xx-gpio
 492	KiB s3c24xx-gpio
@@ -98,7 +98,7 @@
 477	KiB busybox
 473	KiB dbus-1
 458	KiB libevent
-447	KiB libdw1
+446	KiB libdw1
 441	KiB openvpn
 439	KiB libgee-0.8-2
 427	KiB om-neon
@@ -107,13 +107,13 @@
 405	KiB fsodeviced
 401	KiB python-dbus
 401	KiB efl
-396	KiB openssl
+397	KiB openssl
 396	KiB gconf
 389	KiB util-linux-locale-cs
 389	KiB eina
 386	KiB libfreetype6
 379	KiB libgmp10
-368	KiB sysstat
+371	KiB sysstat
 367	KiB estardict
 363	KiB glibc-binary-localedata-cs-cz
 358	KiB libedje-utils
@@ -146,7 +146,7 @@
 279	KiB ca-certificates
 276	KiB tar
 271	KiB nano
-267	KiB libssl1.0.0
+269	KiB libssl1.0.0
 265	KiB strace
 265	KiB libecore1
 264	KiB libreadline6
@@ -162,7 +162,7 @@
 245	KiB libpurple-protocol-msn
 244	KiB shr-theme
 244	KiB libharfbuzz0
-238	KiB libcurl4
+240	KiB libcurl4
 234	KiB libsdl-1.2-0
 232	KiB ppp
 226	KiB python-dateutil
@@ -173,9 +173,9 @@
 214	KiB gtk+-locale-cs
 212	KiB libxkbcommon
 212	KiB libglapi0
+212	KiB elfutils
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
-205	KiB elfutils
 203	KiB python-json
 201	KiB gst-plugins-base-playbin
 200	KiB libext2fs2
@@ -276,10 +276,10 @@
 87	KiB libfsoframework3
 87	KiB kmod
 84	KiB nmon
+84	KiB hdparm
 84	KiB gst-plugins-base-decodebin2
 83	KiB libmad0
 83	KiB libeio1
-83	KiB hdparm
 82	KiB python-stringold
 82	KiB liblzo2-2
 81	KiB libfribidi0
@@ -320,6 +320,7 @@
 63	KiB libudev1
 63	KiB libserf-1-1
 62	KiB elementary-configs
+61	KiB perl
 61	KiB libusb-1.0-0
 61	KiB libpurple-protocol-irc
 61	KiB libgstvideo-0.10-0
@@ -334,7 +335,6 @@
 58	KiB e-wm-icons
 56	KiB xrandr
 56	KiB wireless-tools
-55	KiB perl
 55	KiB libxft2
 55	KiB glibc-gconv
 54	KiB shadow-locale-cs
@@ -363,7 +363,7 @@
 44	KiB libedbus1
 44	KiB kernel-module-snd-pcm-oss
 44	KiB kernel-module-rfcomm
-41	KiB logrotate
+43	KiB logrotate
 40	KiB libxext6
 40	KiB libgstriff-0.10-0
 40	KiB libformw5
