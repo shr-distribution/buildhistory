@@ -22,7 +22,7 @@ ca-certificates_20141019-r0.3_all.ipk
 coreutils_8.23-r0.3_arm920tt.ipk
 coreutils-locale-cs_8.23-r0.3_arm920tt.ipk
 cronie_1.4.12-r0.5_arm920tt.ipk
-curl_7.42.1-r0.1_arm920tt.ipk
+curl_7.43.0-r0.0_arm920tt.ipk
 dbus-1_1.8.18-r0.0_arm920tt.ipk
 dbus-daemon-proxy_0.0.0+gitr0+1226a0a137-r1.15_arm920tt.ipk
 devmem2_1.0-r7.15_arm920tt.ipk
@@ -64,7 +64,7 @@ elementary-configs_2:1.14.1-r0.0_arm920t.ipk
 elementary-locale-cs_2:1.14.1-r0.0_arm920t.ipk
 elementary-theme-gry_0.9+gitr0+5ce42d9e1e-r0.13_all.ipk
 elementary-themes_2:1.14.1-r0.0_arm920t.ipk
-elfutils_0.161-r0.4_arm920tt.ipk
+elfutils_0.162-r0.0_arm920tt.ipk
 embryo_2:1.14.1-r0.0_arm920t.ipk
 enjoy_0.1.0+gitr0+aa8fec69e8-r0.3_arm920t.ipk
 estardict_0.7-r0.17_arm920tt.ipk
@@ -76,7 +76,7 @@ fbreader_0.12.10-r1.13_arm920tt.ipk
 fbset_2.1-r4.15_arm920tt.ipk
 fbset-modes_0.1.0-r6.14_om_gta02.ipk
 ffphonelog_0.1+gitr0+316fc86cbd-r2.16_arm920tt.ipk
-file_5.22-r0.3_arm920tt.ipk
+file_5.23-r0.0_arm920tt.ipk
 findutils_4.5.14-r0.6_arm920tt.ipk
 findutils-locale-cs_4.5.14-r0.6_arm920tt.ipk
 fontconfig-utils_2.11.93-r0.1_arm920tt.ipk
@@ -155,7 +155,7 @@ gtk+-locale-en-gb_2.24.28-r0.0_arm920tt.ipk
 gtk-immodule-xim_2.24.28-r0.0_arm920tt.ipk
 gtk-theme-e17lookalike_0.1.1+gitr0+4e6035ef54-r8.15_arm920tt.ipk
 gtk-theme-e17lookalike-gtkrc_0.1.1+gitr0+4e6035ef54-r8.15_arm920tt.ipk
-hdparm_9.45-r0.6_arm920tt.ipk
+hdparm_9.48-r0.0_arm920tt.ipk
 hicolor-icon-theme_0.15-r0.1_all.ipk
 htop_1.0.3-r0.12_arm920tt.ipk
 i2c-tools_3.1.1-r0.9_arm920tt.ipk
@@ -252,13 +252,13 @@ libcap2_2.24-r0.6_arm920tt.ipk
 libcmtspeechdata0_0.0.0+gitr0+8450345686-r2.14_arm920tt.ipk
 libcom-err2_1.42.9-r0.18_arm920tt.ipk
 libcroco_0.6.8-r2.3_arm920tt.ipk
-libcrypto1.0.0_1.0.2a-r0.2_arm920tt.ipk
-libcurl4_7.42.1-r0.1_arm920tt.ipk
+libcrypto1.0.0_1.0.2c-r0.0_arm920tt.ipk
+libcurl4_7.43.0-r0.0_arm920tt.ipk
 libdbus-1-3_1.8.18-r0.0_arm920tt.ipk
 libdbus-glib-1-2_0.104-r0.1_arm920tt.ipk
 libdmx1_1:1.1.3-r0.14_arm920tt.ipk
 libdrm2_2.4.59-r0.3_arm920tt.ipk
-libdw1_0.161-r0.4_arm920tt.ipk
+libdw1_0.162-r0.0_arm920tt.ipk
 libe2p2_1.42.9-r0.18_arm920tt.ipk
 libecore1_2:1.14.1-r0.0_arm920t.ipk
 libedbus1_2:1.7.9-r0.3_arm920t.ipk
@@ -271,7 +271,7 @@ libefreet1_2:1.14.1-r0.0_arm920t.ipk
 libegl-mesa_2:10.5.8-r0.0_arm920tt.ipk
 libeio1_2:1.14.1-r0.0_arm920t.ipk
 libeldbus1_2:1.14.1-r0.0_arm920t.ipk
-libelf1_0.161-r0.4_arm920tt.ipk
+libelf1_0.162-r0.0_arm920tt.ipk
 libemotion1_2:1.14.1-r0.0_arm920t.ipk
 libeo1_2:1.14.1-r0.0_arm920t.ipk
 liberation-fonts_1:1.04-r4.2_all.ipk
@@ -330,7 +330,7 @@ libharfbuzz0_0.9.40-r0.1_arm920tt.ipk
 libice6_1:1.0.9-r0.9_arm920tt.ipk
 libidn-locale-cs_1.30-r0.1_arm920tt.ipk
 libidn11_1.30-r0.1_arm920tt.ipk
-libjpeg8_8d+1.4.0-r0.3_arm920tt.ipk
+libjpeg8_8d+1.4.1-r0.0_arm920tt.ipk
 libjson-c2_0.12-r0.4_arm920tt.ipk
 libkmod2_21+git0+0d833715ea-r0.0_arm920tt.ipk
 liblightmediascanner-test_0.4.4-r2.14_arm920tt.ipk
@@ -359,7 +359,7 @@ libpanelw5_5.9-r15.1.15_arm920tt.ipk
 libpcap1_1.6.2-r0.6_arm920tt.ipk
 libpci3_3.3.1-r0.1_arm920tt.ipk
 libpciaccess0_0.13.3-r0.3_arm920tt.ipk
-libperl5_5.20.0-r1.11_arm920tt.ipk
+libperl5_5.22.0-r0.0_arm920tt.ipk
 libphone-ui-config_0.0.2+gitr0+7b8fb8ec1a-r5.15_om_gta02.ipk
 libphone-ui-shr_1:0.0.1+gitr1+25e6160710-r0.13_arm920tt.ipk
 libphone-ui-shr-locale-cs_1:0.0.1+gitr1+25e6160710-r0.13_arm920tt.ipk
@@ -396,7 +396,7 @@ libsoup-2.4-locale-cs_2.50.0-r0.1_arm920tt.ipk
 libsoup-2.4-locale-en-gb_2.50.0-r0.1_arm920tt.ipk
 libsqlite3-0_3:3.8.10.0-r0.1_arm920tt.ipk
 libss2_1.42.9-r0.18_arm920tt.ipk
-libssl1.0.0_1.0.2a-r0.2_arm920tt.ipk
+libssl1.0.0_1.0.2c-r0.0_arm920tt.ipk
 libstdc++6_4.9.2-r0.3_arm920tt.ipk
 libsysfs2_2.1.0-r5.15_arm920tt.ipk
 libsystemd0_1:219-stable+git0+85a6fabdd3-r0.1_arm920tt.ipk
@@ -451,7 +451,7 @@ linux-firmware-sd8686_1:0.0+git2+3161bfa479-r0.0_arm920tt.ipk
 locale-base-cs-cz_2.21-r0.3_arm920t.ipk
 locale-base-en-gb_2.21-r0.3_arm920t.ipk
 locale-base-en-us_2.21-r0.3_arm920t.ipk
-logrotate_3.8.8-r0.5_arm920tt.ipk
+logrotate_3.9.1-r0.0_arm920tt.ipk
 lsof_4.88-r0.4_arm920tt.ipk
 ltrace_1:7.2+git0+f44b284219-r0.10_arm920tt.ipk
 luajit_2.0.3-r0.12_arm920tt.ipk
@@ -484,8 +484,8 @@ openssh-scp_6.8p1-r0.1_arm920tt.ipk
 openssh-sftp-server_6.8p1-r0.1_arm920tt.ipk
 openssh-ssh_6.8p1-r0.1_arm920tt.ipk
 openssh-sshd_6.8p1-r0.1_arm920tt.ipk
-openssl_1.0.2a-r0.2_arm920tt.ipk
-openssl-conf_1.0.2a-r0.2_arm920tt.ipk
+openssl_1.0.2c-r0.0_arm920tt.ipk
+openssl-conf_1.0.2c-r0.0_arm920tt.ipk
 openvpn_2.3.6-r0.5_arm920tt.ipk
 opimd-utils_1:0.0.3+gitr1+6e120e4dcf-r0.11_arm920tt.ipk
 opimd-utils-cli_1:0.0.3+gitr1+6e120e4dcf-r0.11_arm920tt.ipk
@@ -552,7 +552,7 @@ pam-plugin-unix_1.1.6-r5.15_arm920tt.ipk
 pam-plugin-warn_1.1.6-r5.15_arm920tt.ipk
 pango_1.36.8-r0.5_arm920tt.ipk
 pango-module-basic-fc_1.36.8-r0.5_arm920tt.ipk
-perl_5.20.0-r1.11_arm920tt.ipk
+perl_5.22.0-r0.0_arm920tt.ipk
 phonefsod_0.0.0+gitr0+050b4e3ad4-r0.15_arm920tt.ipk
 phoneui-apps-contacts_0.0.0+gitr0+195a3726c1-r1.16_arm920tt.ipk
 phoneui-apps-dialer_0.0.0+gitr0+195a3726c1-r1.16_arm920tt.ipk
@@ -663,8 +663,8 @@ spojegui_0.4.2+svnr68-r1.15_arm920tt.ipk
 strace_4.10-r0.2_arm920tt.ipk
 subversion_1.8.13-r0.1_arm920tt.ipk
 sysfsutils_2.1.0-r5.15_arm920tt.ipk
-sysstat_11.1.4-r0.1_arm920tt.ipk
-sysstat-locale-cs_11.1.4-r0.1_arm920tt.ipk
+sysstat_11.1.5-r0.0_arm920tt.ipk
+sysstat-locale-cs_11.1.5-r0.0_arm920tt.ipk
 systemd_1:219-stable+git0+85a6fabdd3-r0.1_arm920tt.ipk
 systemd-compat-units_1.0-r29.15_all.ipk
 systemd-machine-units_1.0-r18.16_om_gta02.ipk
