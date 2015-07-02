@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake         92584 ./usr/lib/libelf-0.162.so
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libelf.so.1 -> libelf-0.162.so

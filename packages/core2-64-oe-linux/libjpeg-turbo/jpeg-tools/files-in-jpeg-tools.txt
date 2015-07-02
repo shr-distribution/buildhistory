@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         29368 ./usr/bin/cjpeg
+-rwxr-xr-x bitbake    bitbake         29712 ./usr/bin/djpeg
+-rwxr-xr-x bitbake    bitbake         29072 ./usr/bin/jpegtran
+-rwxr-xr-x bitbake    bitbake          9136 ./usr/bin/rdjpgcom
+-rwxr-xr-x bitbake    bitbake         48776 ./usr/bin/tjbench
+-rwxr-xr-x bitbake    bitbake          9400 ./usr/bin/wrjpgcom

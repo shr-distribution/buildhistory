@@ -1,0 +1,20 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake         24196 ./usr/include/dwarf.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/elfutils
+-rw-r--r-- bitbake    bitbake          4249 ./usr/include/elfutils/elf-knowledge.h
+-rw-r--r-- bitbake    bitbake         33611 ./usr/include/elfutils/known-dwarf.h
+-rw-r--r-- bitbake    bitbake          7094 ./usr/include/elfutils/libasm.h
+-rw-r--r-- bitbake    bitbake         39970 ./usr/include/elfutils/libdw.h
+-rw-r--r-- bitbake    bitbake          2811 ./usr/include/elfutils/libdwelf.h
+-rw-r--r-- bitbake    bitbake         38146 ./usr/include/elfutils/libdwfl.h
+-rw-r--r-- bitbake    bitbake         19805 ./usr/include/elfutils/libebl.h
+-rw-r--r-- bitbake    bitbake          1274 ./usr/include/elfutils/version.h
+-rw-r--r-- bitbake    bitbake         10796 ./usr/include/gelf.h
+-rw-r--r-- bitbake    bitbake         14032 ./usr/include/libelf.h
+-rw-r--r-- bitbake    bitbake          1601 ./usr/include/nlist.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            11 ./usr/lib/libasm.so -> libasm.so.1
+lrwxrwxrwx bitbake    bitbake            10 ./usr/lib/libdw.so -> libdw.so.1
+lrwxrwxrwx bitbake    bitbake            11 ./usr/lib/libelf.so -> libelf.so.1
