@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         22856 ./usr/bin/eu-ar
+-rwxr-xr-x bitbake    bitbake         21452 ./usr/bin/eu-elfcmp
+-rwxr-xr-x bitbake    bitbake         78440 ./usr/bin/eu-elflint
+-rwxr-xr-x bitbake    bitbake         11576 ./usr/bin/eu-findtextrel
+-rwxr-xr-x bitbake    bitbake          2911 ./usr/bin/eu-make-debug-archive
+-rwxr-xr-x bitbake    bitbake         11952 ./usr/bin/eu-ranlib
+-rwxr-xr-x bitbake    bitbake         17248 ./usr/bin/eu-stack
+-rwxr-xr-x bitbake    bitbake         13092 ./usr/bin/eu-strings
+-rwxr-xr-x bitbake    bitbake         31852 ./usr/bin/eu-unstrip

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/cron.daily
+-rwxr-xr-x bitbake    bitbake           180 ./etc/cron.daily/logrotate
+-rw-r--r-- bitbake    bitbake           665 ./etc/logrotate.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/logrotate.d
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         43448 ./usr/bin/logrotate
+drwxr-xr-x bitbake    bitbake          4096 ./var
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib
+-rw-r--r-- bitbake    bitbake             0 ./var/lib/logrotate.status
