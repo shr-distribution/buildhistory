@@ -24,7 +24,7 @@ ca-certificates_20141019-r0.3_all.ipk
 coreutils_8.23-r0.3_core2-64.ipk
 coreutils-locale-cs_8.23-r0.3_core2-64.ipk
 cronie_1.4.12-r0.5_core2-64.ipk
-curl_7.42.1-r0.1_core2-64.ipk
+curl_7.43.0-r0.0_core2-64.ipk
 dbus-1_1.8.18-r0.0_core2-64.ipk
 dbus-daemon-proxy_0.0.0+gitr0+1226a0a137-r1.12_core2-64.ipk
 devmem2_1.0-r7.12_core2-64.ipk
@@ -64,7 +64,7 @@ elementary-configs_2:1.14.1-r0.0_core2-64.ipk
 elementary-locale-cs_2:1.14.1-r0.0_core2-64.ipk
 elementary-theme-gry_0.9+gitr0+5ce42d9e1e-r0.13_all.ipk
 elementary-themes_2:1.14.1-r0.0_core2-64.ipk
-elfutils_0.161-r0.3_core2-64.ipk
+elfutils_0.162-r0.0_core2-64.ipk
 embryo_2:1.14.1-r0.0_core2-64.ipk
 enchant_1.6.0-r3.13_core2-64.ipk
 enjoy_0.1.0+gitr0+aa8fec69e8-r0.13_core2-64.ipk
@@ -77,7 +77,7 @@ fbreader_0.12.10-r1.14_core2-64.ipk
 fbset_2.1-r4.12_core2-64.ipk
 fbset-modes_0.1.0-r6.13_qemux86_64.ipk
 ffphonelog_0.1+gitr0+316fc86cbd-r2.12_core2-64.ipk
-file_5.22-r0.3_core2-64.ipk
+file_5.23-r0.0_core2-64.ipk
 findutils_4.5.14-r0.6_core2-64.ipk
 findutils-locale-cs_4.5.14-r0.6_core2-64.ipk
 fontconfig-utils_2.11.93-r0.1_core2-64.ipk
@@ -189,7 +189,7 @@ kmod_21+git0+0d833715ea-r0.0_core2-64.ipk
 libacl1_2.2.52-r0.12_core2-64.ipk
 libapr-1-0_1.5.2-r0.1_core2-64.ipk
 libaprutil-1-0_1.5.4-r1.4_core2-64.ipk
-libasm1_0.161-r0.3_core2-64.ipk
+libasm1_0.162-r0.0_core2-64.ipk
 libasound-module-bluez_5.31-r0.0_core2-64.ipk
 libasound2_1.0.29-r0.1_core2-64.ipk
 libaspell15_0.60.6.1-r1.13_core2-64.ipk
@@ -207,8 +207,8 @@ libcap2_2.24-r0.6_core2-64.ipk
 libcmtspeechdata0_0.0.0+gitr0+8450345686-r2.12_core2-64.ipk
 libcom-err2_1.42.9-r0.13_core2-64.ipk
 libcroco_0.6.8-r2.3_core2-64.ipk
-libcrypto1.0.0_1.0.2a-r0.2_core2-64.ipk
-libcurl4_7.42.1-r0.1_core2-64.ipk
+libcrypto1.0.0_1.0.2c-r0.0_core2-64.ipk
+libcurl4_7.43.0-r0.0_core2-64.ipk
 libdbus-1-3_1.8.18-r0.0_core2-64.ipk
 libdbus-glib-1-2_0.104-r0.1_core2-64.ipk
 libdmx1_1:1.1.3-r0.12_core2-64.ipk
@@ -216,7 +216,7 @@ libdrm-intel1_2.4.59-r0.3_core2-64.ipk
 libdrm-nouveau2_2.4.59-r0.3_core2-64.ipk
 libdrm-radeon1_2.4.59-r0.3_core2-64.ipk
 libdrm2_2.4.59-r0.3_core2-64.ipk
-libdw1_0.161-r0.3_core2-64.ipk
+libdw1_0.162-r0.0_core2-64.ipk
 libe2p2_1.42.9-r0.13_core2-64.ipk
 libecore1_2:1.14.1-r0.0_core2-64.ipk
 libedbus1_2:1.7.9-r0.13_core2-64.ipk
@@ -229,7 +229,7 @@ libefreet1_2:1.14.1-r0.0_core2-64.ipk
 libegl-mesa_2:10.5.8-r0.0_core2-64.ipk
 libeio1_2:1.14.1-r0.0_core2-64.ipk
 libeldbus1_2:1.14.1-r0.0_core2-64.ipk
-libelf1_0.161-r0.3_core2-64.ipk
+libelf1_0.162-r0.0_core2-64.ipk
 libemotion1_2:1.14.1-r0.0_core2-64.ipk
 libeo1_2:1.14.1-r0.0_core2-64.ipk
 liberation-fonts_1:1.04-r4.2_all.ipk
@@ -290,7 +290,7 @@ libicui18n55_55.1-r0.1_core2-64.ipk
 libicuuc55_55.1-r0.1_core2-64.ipk
 libidn-locale-cs_1.30-r0.1_core2-64.ipk
 libidn11_1.30-r0.1_core2-64.ipk
-libjpeg8_8d+1.4.0-r0.3_core2-64.ipk
+libjpeg8_8d+1.4.1-r0.0_core2-64.ipk
 libjson-c2_0.12-r0.3_core2-64.ipk
 libkmod2_21+git0+0d833715ea-r0.0_core2-64.ipk
 liblightmediascanner-test_0.4.4-r2.13_core2-64.ipk
@@ -319,7 +319,7 @@ libpanelw5_5.9-r15.1.12_core2-64.ipk
 libpcap1_1.6.2-r0.6_core2-64.ipk
 libpci3_3.3.1-r0.1_core2-64.ipk
 libpciaccess0_0.13.3-r0.3_core2-64.ipk
-libperl5_5.20.0-r1.11_core2-64.ipk
+libperl5_5.22.0-r0.0_core2-64.ipk
 libphone-ui-config_0.0.2+gitr0+7b8fb8ec1a-r5.13_qemux86_64.ipk
 libphone-ui-shr_1:0.0.1+gitr1+25e6160710-r0.13_core2-64.ipk
 libphone-ui-shr-locale-cs_1:0.0.1+gitr1+25e6160710-r0.13_core2-64.ipk
@@ -355,7 +355,7 @@ libsoup-2.4_2.50.0-r0.1_core2-64.ipk
 libsoup-2.4-locale-cs_2.50.0-r0.1_core2-64.ipk
 libsoup-2.4-locale-en-gb_2.50.0-r0.1_core2-64.ipk
 libsqlite3-0_3:3.8.10.0-r0.1_core2-64.ipk
-libssl1.0.0_1.0.2a-r0.2_core2-64.ipk
+libssl1.0.0_1.0.2c-r0.0_core2-64.ipk
 libstdc++6_4.9.2-r0.3_core2-64.ipk
 libsysfs2_2.1.0-r5.12_core2-64.ipk
 libsystemd0_1:219-stable+git0+85a6fabdd3-r0.1_core2-64.ipk
@@ -411,7 +411,7 @@ linux-firmware-sd8686_1:0.0+git2+3161bfa479-r0.0_core2-64.ipk
 locale-base-cs-cz_2.21-r0.4_core2-64.ipk
 locale-base-en-gb_2.21-r0.4_core2-64.ipk
 locale-base-en-us_2.21-r0.4_core2-64.ipk
-logrotate_3.8.8-r0.5_core2-64.ipk
+logrotate_3.9.1-r0.0_core2-64.ipk
 lsof_4.88-r0.4_core2-64.ipk
 ltrace_1:7.2+git0+f44b284219-r0.9_core2-64.ipk
 luajit_2.0.3-r0.17_core2-64.ipk
@@ -445,8 +445,8 @@ openssh-scp_6.8p1-r0.1_core2-64.ipk
 openssh-sftp-server_6.8p1-r0.1_core2-64.ipk
 openssh-ssh_6.8p1-r0.1_core2-64.ipk
 openssh-sshd_6.8p1-r0.1_core2-64.ipk
-openssl_1.0.2a-r0.2_core2-64.ipk
-openssl-conf_1.0.2a-r0.2_core2-64.ipk
+openssl_1.0.2c-r0.0_core2-64.ipk
+openssl-conf_1.0.2c-r0.0_core2-64.ipk
 openvpn_2.3.6-r0.5_core2-64.ipk
 opimd-utils_1:0.0.3+gitr1+6e120e4dcf-r0.11_core2-64.ipk
 opimd-utils-cli_1:0.0.3+gitr1+6e120e4dcf-r0.11_core2-64.ipk
@@ -507,7 +507,7 @@ pam-plugin-unix_1.1.6-r5.12_core2-64.ipk
 pam-plugin-warn_1.1.6-r5.12_core2-64.ipk
 pango_1.36.8-r0.4_core2-64.ipk
 pango-module-basic-fc_1.36.8-r0.4_core2-64.ipk
-perl_5.20.0-r1.11_core2-64.ipk
+perl_5.22.0-r0.0_core2-64.ipk
 phonefsod_0.0.0+gitr0+050b4e3ad4-r0.12_core2-64.ipk
 phoneui-apps-contacts_0.0.0+gitr0+195a3726c1-r1.13_core2-64.ipk
 phoneui-apps-dialer_0.0.0+gitr0+195a3726c1-r1.13_core2-64.ipk
@@ -617,8 +617,8 @@ spojegui_0.4.2+svnr68-r1.12_core2-64.ipk
 strace_4.10-r0.2_core2-64.ipk
 subversion_1.8.13-r0.1_core2-64.ipk
 sysfsutils_2.1.0-r5.12_core2-64.ipk
-sysstat_11.1.4-r0.1_core2-64.ipk
-sysstat-locale-cs_11.1.4-r0.1_core2-64.ipk
+sysstat_11.1.5-r0.0_core2-64.ipk
+sysstat-locale-cs_11.1.5-r0.0_core2-64.ipk
 systemd_1:219-stable+git0+85a6fabdd3-r0.1_core2-64.ipk
 systemd-compat-units_1.0-r29.15_all.ipk
 systemd-machine-units_1.0-r18.13_qemux86_64.ipk
