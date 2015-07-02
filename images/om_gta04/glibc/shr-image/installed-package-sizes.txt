@@ -10,12 +10,12 @@
 5236	KiB udev-hwdb
 4880	KiB fbreader
 4860	KiB vim-syntax
+3877	KiB file
 3718	KiB gdb
 3585	KiB coreutils
 3440	KiB python-codecs
 3326	KiB libgtk-2.0
 3292	KiB kernel-image-3.13.6
-3072	KiB file
 2910	KiB elementary
 2803	KiB evas
 2798	KiB ncurses-terminfo
@@ -47,11 +47,11 @@
 1392	KiB gstreamer
 1360	KiB libphone-ui-shr
 1259	KiB libicuuc55
+1237	KiB libperl5
 1207	KiB vim
 1198	KiB libx11-locale
 1139	KiB libcrypto1.0.0
 1138	KiB libpython2.7-1.0
-1133	KiB libperl5
 1117	KiB python-evas
 1047	KiB babiloo-efl
 1026	KiB libtcl8.6-0
@@ -106,11 +106,11 @@
 435	KiB libgee-0.8-2
 428	KiB om-neon
 426	KiB libevent
+422	KiB libdw1
 419	KiB libgl-mesa
-419	KiB libdw1
 397	KiB python-dbus
+396	KiB openssl
 393	KiB procps
-393	KiB openssl
 389	KiB util-linux-locale-cs
 386	KiB gconf
 382	KiB fsodeviced
@@ -125,7 +125,7 @@
 350	KiB python-multiprocessing
 350	KiB libedje-utils
 347	KiB estardict
-343	KiB sysstat
+345	KiB sysstat
 342	KiB nettle
 336	KiB libtiff5
 334	KiB openssh-keygen
@@ -157,7 +157,7 @@
 258	KiB enchant
 257	KiB ecore-x
 256	KiB python-pexpect
-255	KiB libssl1.0.0
+256	KiB libssl1.0.0
 255	KiB libecore1
 250	KiB libreadline6
 248	KiB kernel-module-cfg80211
@@ -169,8 +169,8 @@
 232	KiB libharfbuzz0
 227	KiB ppp
 227	KiB libfdisk1
+227	KiB libcurl4
 226	KiB python-dateutil
-225	KiB libcurl4
 224	KiB libsdl-1.2-0
 216	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
@@ -322,6 +322,7 @@
 62	KiB fsodatad
 62	KiB elementary-configs
 61	KiB python-pycairo
+61	KiB perl
 61	KiB libpurple-protocol-irc
 61	KiB efreet
 60	KiB tar-locale-cs
@@ -337,7 +338,6 @@
 57	KiB libgstvideo-0.10-0
 56	KiB wmiconfig
 56	KiB libnl-nf-3-200
-55	KiB perl
 55	KiB libudev1
 55	KiB glibc-gconv
 54	KiB shadow-locale-cs
@@ -367,6 +367,7 @@
 45	KiB gst-plugins-base-audioconvert
 44	KiB make-locale-cs
 44	KiB libkmod2
+43	KiB logrotate
 43	KiB libgsm0710mux3
 43	KiB libgpg-error0
 43	KiB libedbus1
@@ -374,7 +375,6 @@
 42	KiB libgstriff-0.10-0
 42	KiB kernel-module-usbnet
 41	KiB kernel-module-ppp-generic
-40	KiB logrotate
 40	KiB findutils-locale-cs
 39	KiB phonefsod
 39	KiB libxext6
