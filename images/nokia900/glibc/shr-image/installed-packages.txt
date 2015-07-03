@@ -376,7 +376,7 @@ libpam-runtime_1.1.6-r5.13_cortexa8t2-vfp-neon.ipk
 libpanelw5_5.9-r15.1.12_cortexa8t2-vfp-neon.ipk
 libpcap1_1.6.2-r0.6_cortexa8t2-vfp-neon.ipk
 libpci3_3.3.1-r0.1_cortexa8t2-vfp-neon.ipk
-libpciaccess0_0.13.3-r0.3_cortexa8t2-vfp-neon.ipk
+libpciaccess0_0.13.4-r0.0_cortexa8t2-vfp-neon.ipk
 libperl5_5.22.0-r0.0_cortexa8t2-vfp-neon.ipk
 libphone-ui-config_0.0.2+gitr0+7b8fb8ec1a-r5.14_nokia900.ipk
 libphone-ui-shr_1:0.0.1+gitr1+25e6160710-r0.12_cortexa8t2-vfp-neon.ipk
