@@ -3318,7 +3318,7 @@ lrwxrwxrwx root       root               16 ./usr/lib/libpcap.so.1 -> libpcap.so
 lrwxrwxrwx root       root               15 ./usr/lib/libpci.so.3 -> libpci.so.3.3.1
 -rw-r--r-- root       root            28520 ./usr/lib/libpci.so.3.3.1
 lrwxrwxrwx root       root               22 ./usr/lib/libpciaccess.so.0 -> libpciaccess.so.0.11.1
--rwxr-xr-x root       root            21292 ./usr/lib/libpciaccess.so.0.11.1
+-rwxr-xr-x root       root            20984 ./usr/lib/libpciaccess.so.0.11.1
 lrwxrwxrwx root       root               17 ./usr/lib/libperl.so.5 -> libperl.so.5.22.0
 -r-xr-xr-x root       root          1260096 ./usr/lib/libperl.so.5.22.0
 lrwxrwxrwx root       root               20 ./usr/lib/libphone-ui.so.0 -> libphone-ui.so.0.0.0
@@ -16606,7 +16606,7 @@ drwxr-xr-x root       root            81920 ./var/lib/opkg/info
 -rw-r--r-- root       root              682 ./var/lib/opkg/info/libpci3.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libpci3.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpci3.postinst
--rw-r--r-- root       root              558 ./var/lib/opkg/info/libpciaccess0.control
+-rw-r--r-- root       root              746 ./var/lib/opkg/info/libpciaccess0.control
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/libpciaccess0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpciaccess0.postinst
 -rw-r--r-- root       root             2295 ./var/lib/opkg/info/libperl5.control
@@ -17553,7 +17553,7 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           321069 ./var/lib/opkg/lists/oe-spitz
 -rw-r--r-- root       root          1201343 ./var/lib/opkg/lists/oe-xscalee
--rw-r--r-- root       root          5677224 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root          5677976 ./var/lib/opkg/lists/oe-xscalete
 -rw-r--r-- root       root           206240 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
