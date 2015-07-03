@@ -16486,7 +16486,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              682 ./var/lib/opkg/info/libpci3.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libpci3.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpci3.postinst
--rw-r--r-- root       root              558 ./var/lib/opkg/info/libpciaccess0.control
+-rw-r--r-- root       root              746 ./var/lib/opkg/info/libpciaccess0.control
 -rw-r--r-- root       root               59 ./var/lib/opkg/info/libpciaccess0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpciaccess0.postinst
 -rw-r--r-- root       root             2295 ./var/lib/opkg/info/libperl5.control
@@ -17412,7 +17412,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6900827 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6901579 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           332353 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           200307 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
