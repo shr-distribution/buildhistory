@@ -954,7 +954,7 @@ drwxr-xr-x root       root             4096 ./etc/udhcpc.d
 -rwxr-xr-x root       root             2592 ./etc/udhcpc.d/50default
 -rw-r--r-- root       root              888 ./etc/usb_modeswitch.conf
 drwxr-xr-x root       root             4096 ./etc/usb_modeswitch.d
--rw-r--r-- root       root               13 ./etc/version
+-rw-r--r-- root       root               15 ./etc/version
 -rw-r--r-- root       root             1125 ./etc/watchdog.conf
 -rw------- root       root              113 ./etc/wpa_supplicant.conf
 drwxr-xr-x root       root             4096 ./etc/xdg
