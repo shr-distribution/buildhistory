@@ -925,7 +925,7 @@ drwxr-xr-x root       root             4096 ./etc/udhcpc.d
 -rwxr-xr-x root       root             2592 ./etc/udhcpc.d/50default
 -rw-r--r-- root       root              888 ./etc/usb_modeswitch.conf
 drwxr-xr-x root       root             4096 ./etc/usb_modeswitch.d
--rw-r--r-- root       root               13 ./etc/version
+-rw-r--r-- root       root               15 ./etc/version
 -rw-r--r-- root       root             1125 ./etc/watchdog.conf
 drwxr-xr-x root       root             4096 ./etc/xdg
 drwxr-xr-x root       root             4096 ./etc/xdg/autostart
@@ -17411,7 +17411,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- 1026       1026            87098 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          6901579 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           332353 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           200307 ./var/lib/opkg/status
