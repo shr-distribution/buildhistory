@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+-rw-r--r-- bitbake    bitbake           132 ./lib/libgcc_s.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/arm-oe-linux -> arm-oe-linux-gnueabi
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/arm-oe-linux-gnueabi
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/arm-oe-linux-gnueabi/4.9.3
+-rw-r--r-- bitbake    bitbake          2128 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/crtbegin.o
+-rw-r--r-- bitbake    bitbake          2476 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/crtbeginS.o
+-rw-r--r-- bitbake    bitbake          2436 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/crtbeginT.o
+-rw-r--r-- bitbake    bitbake          1068 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/crtend.o
+-rw-r--r-- bitbake    bitbake          1068 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/crtendS.o
+-rw-r--r-- bitbake    bitbake       5757866 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcc.a
+-rw-r--r-- bitbake    bitbake         73960 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcc_eh.a
+-rw-r--r-- bitbake    bitbake        129894 ./usr/lib/arm-oe-linux-gnueabi/4.9.3/libgcov.a

@@ -1,12 +1,12 @@
 #!/bin/sh
 bbnote () {
-	echo "NOTE: $*"
+	printf "%b\0" "bbnote $*" > /OE/build/shr-core/tmp-glibc/work/arm920tt-oe-linux-gnueabi/dbus/1.8.18-r0/temp/fifo.14317
 }
 bbwarn () {
-	echo "WARNING: $*"
+	printf "%b\0" "bbwarn $*" > /OE/build/shr-core/tmp-glibc/work/arm920tt-oe-linux-gnueabi/dbus/1.8.18-r0/temp/fifo.14317
 }
 bbfatal () {
-	echo "ERROR: $*"
+	printf "%b\0" "bbfatal $*" > /OE/build/shr-core/tmp-glibc/work/arm920tt-oe-linux-gnueabi/dbus/1.8.18-r0/temp/fifo.14317
 	exit 1
 }
 perform_groupadd () {
