@@ -9,7 +9,7 @@
 4906	KiB fbreader
 4860	KiB vim-syntax
 3881	KiB file
-3785	KiB coreutils
+3869	KiB coreutils
 3746	KiB gdb
 3513	KiB libgtk-2.0
 3446	KiB python-codecs
@@ -23,8 +23,8 @@
 2695	KiB python-misc
 2396	KiB ttf-dejavu-sans
 2190	KiB advancedcaching
+2176	KiB bluez5
 2163	KiB shared-mime-info
-2161	KiB bluez5
 2089	KiB subversion
 2057	KiB vim-tutor
 2043	KiB python-pygtk
@@ -123,7 +123,6 @@
 354	KiB python-multiprocessing
 354	KiB pango
 353	KiB nettle
-351	KiB coreutils-locale-cs
 334	KiB powertop
 333	KiB libgstfarsight-0.10-0
 330	KiB openssh-keygen
@@ -137,6 +136,7 @@
 311	KiB rsync
 307	KiB python-vobject
 301	KiB socat
+298	KiB coreutils-locale-cs
 290	KiB libsndfile1
 288	KiB libc6-utils
 287	KiB python-pickle
@@ -154,11 +154,11 @@
 258	KiB libfontconfig1
 254	KiB python-pexpect
 253	KiB fsotdld
+252	KiB libharfbuzz0
 252	KiB libflac8
 250	KiB libfdisk1
 249	KiB libpurple-protocol-msn
 244	KiB shr-theme
-244	KiB libharfbuzz0
 244	KiB libcurl4
 240	KiB libsdl-1.2-0
 236	KiB ppp
