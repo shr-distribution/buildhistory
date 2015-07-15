@@ -12,7 +12,7 @@
 4860	KiB vim-syntax
 3877	KiB file
 3718	KiB gdb
-3585	KiB coreutils
+3688	KiB coreutils
 3440	KiB python-codecs
 3326	KiB libgtk-2.0
 3014	KiB kernel-image-3.13.0-rc7
@@ -27,7 +27,7 @@
 2396	KiB ttf-dejavu-sans
 2202	KiB advancedcaching
 2162	KiB shared-mime-info
-2078	KiB bluez5
+2089	KiB bluez5
 2057	KiB vim-tutor
 2003	KiB subversion
 1982	KiB terminology
@@ -50,7 +50,7 @@
 1237	KiB libperl5
 1207	KiB vim
 1198	KiB libx11-locale
-1139	KiB libcrypto1.0.0
+1140	KiB libcrypto1.0.0
 1138	KiB libpython2.7-1.0
 1117	KiB python-evas
 1047	KiB babiloo-efl
@@ -120,7 +120,6 @@
 370	KiB libfreetype6
 363	KiB glibc-binary-localedata-cs-cz
 360	KiB kernel-module-ipv6
-351	KiB coreutils-locale-cs
 350	KiB python-multiprocessing
 350	KiB libedje-utils
 347	KiB estardict
@@ -142,6 +141,7 @@
 307	KiB python-vobject
 307	KiB powertop
 303	KiB kbd
+298	KiB coreutils-locale-cs
 288	KiB socat
 284	KiB libc6-utils
 283	KiB python-pickle
@@ -157,15 +157,15 @@
 258	KiB enchant
 257	KiB ecore-x
 256	KiB python-pexpect
-256	KiB libssl1.0.0
+255	KiB libssl1.0.0
 255	KiB libecore1
 250	KiB libreadline6
 246	KiB libfontconfig1
 244	KiB shr-theme
+236	KiB libharfbuzz0
 236	KiB fsotdld
 234	KiB libpurple-protocol-msn
 232	KiB libnl-route-3-200
-232	KiB libharfbuzz0
 227	KiB ppp
 227	KiB libfdisk1
 227	KiB libcurl4
@@ -173,9 +173,9 @@
 224	KiB libsdl-1.2-0
 216	KiB e-wm-theme-illume-gry
 214	KiB gtk+-locale-cs
+207	KiB elfutils
 206	KiB libpulse0
 206	KiB fsoaudiod
-206	KiB elfutils
 206	KiB e-wm-images
 205	KiB gtk+-locale-en-gb
 204	KiB libxkbcommon
