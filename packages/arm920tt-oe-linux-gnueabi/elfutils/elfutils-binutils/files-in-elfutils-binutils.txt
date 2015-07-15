@@ -4,6 +4,6 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 -rwxr-xr-x bitbake    bitbake         14324 ./usr/bin/eu-addr2line
 -rwxr-xr-x bitbake    bitbake        139712 ./usr/bin/eu-ld
 -rwxr-xr-x bitbake    bitbake         33384 ./usr/bin/eu-nm
--rwxr-xr-x bitbake    bitbake        147412 ./usr/bin/eu-readelf
+-rwxr-xr-x bitbake    bitbake        147324 ./usr/bin/eu-readelf
 -rwxr-xr-x bitbake    bitbake         11096 ./usr/bin/eu-size
 -rwxr-xr-x bitbake    bitbake         37108 ./usr/bin/eu-strip
