@@ -4,4 +4,4 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/share
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/pl
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/pl/LC_MESSAGES
--rw-r--r-- bitbake    bitbake        142900 ./usr/share/locale/pl/LC_MESSAGES/elfutils.mo
+-rw-r--r-- bitbake    bitbake        158084 ./usr/share/locale/pl/LC_MESSAGES/elfutils.mo

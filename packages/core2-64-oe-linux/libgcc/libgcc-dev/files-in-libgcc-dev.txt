@@ -1,0 +1,19 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+lrwxrwxrwx bitbake    bitbake            13 ./lib/libgcc_s.so -> libgcc_s.so.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/x86_64-oe-linux
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/x86_64-oe-linux/4.9.3
+-rw-r--r-- bitbake    bitbake          3160 ./usr/lib/x86_64-oe-linux/4.9.3/crtbegin.o
+-rw-r--r-- bitbake    bitbake          3480 ./usr/lib/x86_64-oe-linux/4.9.3/crtbeginS.o
+-rw-r--r-- bitbake    bitbake          3616 ./usr/lib/x86_64-oe-linux/4.9.3/crtbeginT.o
+-rw-r--r-- bitbake    bitbake          2080 ./usr/lib/x86_64-oe-linux/4.9.3/crtend.o
+-rw-r--r-- bitbake    bitbake          2088 ./usr/lib/x86_64-oe-linux/4.9.3/crtendS.o
+-rw-r--r-- bitbake    bitbake          3896 ./usr/lib/x86_64-oe-linux/4.9.3/crtfastmath.o
+-rw-r--r-- bitbake    bitbake          3504 ./usr/lib/x86_64-oe-linux/4.9.3/crtprec32.o
+-rw-r--r-- bitbake    bitbake          3512 ./usr/lib/x86_64-oe-linux/4.9.3/crtprec64.o
+-rw-r--r-- bitbake    bitbake          3504 ./usr/lib/x86_64-oe-linux/4.9.3/crtprec80.o
+-rw-r--r-- bitbake    bitbake       7126382 ./usr/lib/x86_64-oe-linux/4.9.3/libgcc.a
+-rw-r--r-- bitbake    bitbake        206436 ./usr/lib/x86_64-oe-linux/4.9.3/libgcc_eh.a
+-rw-r--r-- bitbake    bitbake        202778 ./usr/lib/x86_64-oe-linux/4.9.3/libgcov.a

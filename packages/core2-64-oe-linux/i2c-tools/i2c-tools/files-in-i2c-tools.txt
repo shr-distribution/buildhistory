@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         13048 ./usr/sbin/eeprog
+-rwxr-xr-x bitbake    bitbake         11008 ./usr/sbin/eeprom
+-rwxr-xr-x bitbake    bitbake         11912 ./usr/sbin/eepromer
+-rwxr-xr-x bitbake    bitbake         15216 ./usr/sbin/i2cdetect
+-rwxr-xr-x bitbake    bitbake         17648 ./usr/sbin/i2cdump
+-rwxr-xr-x bitbake    bitbake         15104 ./usr/sbin/i2cget
+-rwxr-xr-x bitbake    bitbake         17464 ./usr/sbin/i2cset

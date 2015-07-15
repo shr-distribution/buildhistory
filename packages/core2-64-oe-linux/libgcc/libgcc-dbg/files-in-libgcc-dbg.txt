@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/.debug
+-rwxr-xr-x bitbake    bitbake        331360 ./lib/.debug/libgcc_s.so.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libgcc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libgcc/4.9.3-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux/libgcc
+-rw-r--r-- bitbake    bitbake           236 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux/libgcc/enable-execute-stack.c
+-rw-r--r-- bitbake    bitbake         24196 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux/libgcc/gthr-default.h
+-rw-r--r-- bitbake    bitbake          7236 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux/libgcc/md-unwind-support.h
+-rw-r--r-- bitbake    bitbake          2474 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux/libgcc/sfp-machine.h
+-rw-r--r-- bitbake    bitbake         10728 ./usr/src/debug/libgcc/4.9.3-r0/gcc-4.9.3/build.x86_64-oe-linux.x86_64-oe-linux/libgcc/unwind.h
