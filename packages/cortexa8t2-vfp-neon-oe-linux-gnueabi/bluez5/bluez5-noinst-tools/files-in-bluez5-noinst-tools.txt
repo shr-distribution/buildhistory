@@ -2,7 +2,7 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 -rwxr-xr-x bitbake    bitbake         45628 ./usr/bin/bluetooth-player
--rwxr-xr-x bitbake    bitbake        119760 ./usr/bin/gatttool
--rwxr-xr-x bitbake    bitbake         70432 ./usr/bin/obex-client-tool
--rwxr-xr-x bitbake    bitbake         70080 ./usr/bin/obex-server-tool
+-rwxr-xr-x bitbake    bitbake        121488 ./usr/bin/gatttool
+-rwxr-xr-x bitbake    bitbake         72544 ./usr/bin/obex-client-tool
+-rwxr-xr-x bitbake    bitbake         72480 ./usr/bin/obex-server-tool
 -rwxr-xr-x bitbake    bitbake         52240 ./usr/bin/obexctl
