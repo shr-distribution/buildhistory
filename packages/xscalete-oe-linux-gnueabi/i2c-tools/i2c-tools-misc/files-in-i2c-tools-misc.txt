@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         13286 ./usr/bin/ddcmon
+-rwxr-xr-x bitbake    bitbake         71108 ./usr/bin/decode-dimms
+-rwxr-xr-x bitbake    bitbake          5600 ./usr/bin/decode-edid
+-rwxr-xr-x bitbake    bitbake          5657 ./usr/bin/decode-vaio
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake          5580 ./usr/sbin/i2c-stub-from-dump

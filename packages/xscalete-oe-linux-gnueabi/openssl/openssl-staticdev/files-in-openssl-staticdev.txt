@@ -1,6 +1,6 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./lib
--rw-r--r-- bitbake    bitbake      11136384 ./lib/libcrypto.a
+-rw-r--r-- bitbake    bitbake      11136604 ./lib/libcrypto.a
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
--rw-r--r-- bitbake    bitbake       3097404 ./usr/lib/libssl.a
+-rw-r--r-- bitbake    bitbake       3096816 ./usr/lib/libssl.a

@@ -57,11 +57,10 @@ lrwxrwxrwx bitbake    bitbake             9 ./usr/share/man/man1/sha512.1ssl -> 
 -rw-r--r-- bitbake    bitbake          8102 ./usr/share/man/man1/spkac.1ssl
 -rw-r--r-- bitbake    bitbake         26801 ./usr/share/man/man1/ts.1ssl
 -rw-r--r-- bitbake    bitbake         11183 ./usr/share/man/man1/tsget.1ssl
--rw-r--r-- bitbake    bitbake         23730 ./usr/share/man/man1/verify.1ssl
+-rw-r--r-- bitbake    bitbake         24082 ./usr/share/man/man1/verify.1ssl
 -rw-r--r-- bitbake    bitbake          5034 ./usr/share/man/man1/version.1ssl
 -rw-r--r-- bitbake    bitbake         36536 ./usr/share/man/man1/x509.1ssl
-drwxr-xr-x bitbake    bitbake         94208 ./usr/share/man/man3
-lrwxrwxrwx bitbake    bitbake            27 ./usr/share/man/man3/.3ssl -> SSL_CTX_use_serverinfo.3ssl
+drwxr-xr-x bitbake    bitbake         98304 ./usr/share/man/man3
 lrwxrwxrwx bitbake    bitbake            20 ./usr/share/man/man3/ASN1_OBJECT_free.3ssl -> ASN1_OBJECT_new.3ssl
 -rw-r--r-- bitbake    bitbake          5374 ./usr/share/man/man3/ASN1_OBJECT_new.3ssl
 lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/ASN1_STRING_cmp.3ssl -> ASN1_STRING_length.3ssl
@@ -1061,6 +1060,7 @@ lrwxrwxrwx bitbake    bitbake            24 ./usr/share/man/man3/SSL_CTX_clear_o
 -rw-r--r-- bitbake    bitbake          5640 ./usr/share/man/man3/SSL_CTX_flush_sessions.3ssl
 -rw-r--r-- bitbake    bitbake          5291 ./usr/share/man/man3/SSL_CTX_free.3ssl
 lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_CTX_get0_chain_certs.3ssl -> SSL_CTX_add1_chain_cert.3ssl
+-rw-r--r-- bitbake    bitbake          5732 ./usr/share/man/man3/SSL_CTX_get0_param.3ssl
 lrwxrwxrwx bitbake    bitbake            27 ./usr/share/man/man3/SSL_CTX_get_cert_store.3ssl -> SSL_CTX_set_cert_store.3ssl
 lrwxrwxrwx bitbake    bitbake            27 ./usr/share/man/man3/SSL_CTX_get_client_CA_list.3ssl -> SSL_get_client_CA_list.3ssl
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/SSL_CTX_get_client_cert_cb.3ssl -> SSL_CTX_set_client_cert_cb.3ssl
@@ -1111,6 +1111,7 @@ lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_CTX_set1_ch
 lrwxrwxrwx bitbake    bitbake            35 ./usr/share/man/man3/SSL_CTX_set1_chain_cert_store.3ssl -> SSL_CTX_set1_verify_cert_store.3ssl
 -rw-r--r-- bitbake    bitbake          8266 ./usr/share/man/man3/SSL_CTX_set1_curves.3ssl
 lrwxrwxrwx bitbake    bitbake            24 ./usr/share/man/man3/SSL_CTX_set1_curves_list.3ssl -> SSL_CTX_set1_curves.3ssl
+lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/SSL_CTX_set1_param.3ssl -> SSL_CTX_get0_param.3ssl
 -rw-r--r-- bitbake    bitbake          7607 ./usr/share/man/man3/SSL_CTX_set1_verify_cert_store.3ssl
 -rw-r--r-- bitbake    bitbake          6949 ./usr/share/man/man3/SSL_CTX_set_cert_cb.3ssl
 -rw-r--r-- bitbake    bitbake          6407 ./usr/share/man/man3/SSL_CTX_set_cert_store.3ssl
@@ -1158,7 +1159,8 @@ lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_CTX_use_cer
 lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_CTX_use_certificate_chain_file.3ssl -> SSL_CTX_use_certificate.3ssl
 lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_CTX_use_certificate_file.3ssl -> SSL_CTX_use_certificate.3ssl
 -rw-r--r-- bitbake    bitbake          6940 ./usr/share/man/man3/SSL_CTX_use_psk_identity_hint.3ssl
--rw-r--r-- bitbake    bitbake          5531 ./usr/share/man/man3/SSL_CTX_use_serverinfo.3ssl
+-rw-r--r-- bitbake    bitbake          5559 ./usr/share/man/man3/SSL_CTX_use_serverinfo.3ssl
+lrwxrwxrwx bitbake    bitbake            27 ./usr/share/man/man3/SSL_CTX_use_serverinfo_file.3ssl -> SSL_CTX_use_serverinfo.3ssl
 -rw-r--r-- bitbake    bitbake          6264 ./usr/share/man/man3/SSL_SESSION_free.3ssl
 lrwxrwxrwx bitbake    bitbake            33 ./usr/share/man/man3/SSL_SESSION_get_ex_data.3ssl -> SSL_SESSION_get_ex_new_index.3ssl
 -rw-r--r-- bitbake    bitbake          6290 ./usr/share/man/man3/SSL_SESSION_get_ex_new_index.3ssl
@@ -1188,6 +1190,7 @@ lrwxrwxrwx bitbake    bitbake            17 ./usr/share/man/man3/SSL_ctrl.3ssl -
 lrwxrwxrwx bitbake    bitbake            27 ./usr/share/man/man3/SSL_flush_sessions.3ssl -> SSL_CTX_flush_sessions.3ssl
 -rw-r--r-- bitbake    bitbake          5483 ./usr/share/man/man3/SSL_free.3ssl
 lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_get0_chain_certs.3ssl -> SSL_CTX_add1_chain_cert.3ssl
+lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/SSL_get0_param.3ssl -> SSL_CTX_get0_param.3ssl
 lrwxrwxrwx bitbake    bitbake            24 ./usr/share/man/man3/SSL_get1_curves.3ssl -> SSL_CTX_set1_curves.3ssl
 -rw-r--r-- bitbake    bitbake          4539 ./usr/share/man/man3/SSL_get_SSL_CTX.3ssl
 lrwxrwxrwx bitbake    bitbake            26 ./usr/share/man/man3/SSL_get_accept_state.3ssl -> SSL_set_connect_state.3ssl
@@ -1247,6 +1250,7 @@ lrwxrwxrwx bitbake    bitbake            28 ./usr/share/man/man3/SSL_set1_chain.
 lrwxrwxrwx bitbake    bitbake            35 ./usr/share/man/man3/SSL_set1_chain_cert_store.3ssl -> SSL_CTX_set1_verify_cert_store.3ssl
 lrwxrwxrwx bitbake    bitbake            24 ./usr/share/man/man3/SSL_set1_curves.3ssl -> SSL_CTX_set1_curves.3ssl
 lrwxrwxrwx bitbake    bitbake            24 ./usr/share/man/man3/SSL_set1_curves_list.3ssl -> SSL_CTX_set1_curves.3ssl
+lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/SSL_set1_param.3ssl -> SSL_CTX_get0_param.3ssl
 lrwxrwxrwx bitbake    bitbake            35 ./usr/share/man/man3/SSL_set1_verify_cert_store.3ssl -> SSL_CTX_set1_verify_cert_store.3ssl
 -rw-r--r-- bitbake    bitbake          4949 ./usr/share/man/man3/SSL_set_bio.3ssl
 lrwxrwxrwx bitbake    bitbake            24 ./usr/share/man/man3/SSL_set_cert_cb.3ssl -> SSL_CTX_set_cert_cb.3ssl
@@ -1338,7 +1342,7 @@ lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_add_e
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_delete_entry.3ssl -> X509_NAME_add_entry_by_txt.3ssl
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_entry_count.3ssl -> X509_NAME_get_index_by_NID.3ssl
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_get_entry.3ssl -> X509_NAME_get_index_by_NID.3ssl
--rw-r--r-- bitbake    bitbake          8121 ./usr/share/man/man3/X509_NAME_get_index_by_NID.3ssl
+-rw-r--r-- bitbake    bitbake          8546 ./usr/share/man/man3/X509_NAME_get_index_by_NID.3ssl
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_get_index_by_OBJ.3ssl -> X509_NAME_get_index_by_NID.3ssl
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_get_text_by_NID.3ssl -> X509_NAME_get_index_by_NID.3ssl
 lrwxrwxrwx bitbake    bitbake            31 ./usr/share/man/man3/X509_NAME_get_text_by_OBJ.3ssl -> X509_NAME_get_index_by_NID.3ssl
@@ -1356,7 +1360,7 @@ lrwxrwxrwx bitbake    bitbake            29 ./usr/share/man/man3/X509_STORE_CTX_
 lrwxrwxrwx bitbake    bitbake            36 ./usr/share/man/man3/X509_STORE_CTX_get_ex_data.3ssl -> X509_STORE_CTX_get_ex_new_index.3ssl
 -rw-r--r-- bitbake    bitbake          5362 ./usr/share/man/man3/X509_STORE_CTX_get_ex_new_index.3ssl
 lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/X509_STORE_CTX_init.3ssl -> X509_STORE_CTX_new.3ssl
--rw-r--r-- bitbake    bitbake          9229 ./usr/share/man/man3/X509_STORE_CTX_new.3ssl
+-rw-r--r-- bitbake    bitbake          9583 ./usr/share/man/man3/X509_STORE_CTX_new.3ssl
 lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/X509_STORE_CTX_set0_crls.3ssl -> X509_STORE_CTX_new.3ssl
 lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/X509_STORE_CTX_set0_param.3ssl -> X509_STORE_CTX_new.3ssl
 lrwxrwxrwx bitbake    bitbake            23 ./usr/share/man/man3/X509_STORE_CTX_set_cert.3ssl -> X509_STORE_CTX_new.3ssl
@@ -1391,7 +1395,7 @@ lrwxrwxrwx bitbake    bitbake            20 ./usr/share/man/man3/X509_check_ip.3
 lrwxrwxrwx bitbake    bitbake            20 ./usr/share/man/man3/X509_check_ip_asc.3ssl -> X509_check_host.3ssl
 lrwxrwxrwx bitbake    bitbake            13 ./usr/share/man/man3/X509_free.3ssl -> X509_new.3ssl
 -rw-r--r-- bitbake    bitbake          4987 ./usr/share/man/man3/X509_new.3ssl
--rw-r--r-- bitbake    bitbake          5667 ./usr/share/man/man3/X509_verify_cert.3ssl
+-rw-r--r-- bitbake    bitbake          5747 ./usr/share/man/man3/X509_verify_cert.3ssl
 lrwxrwxrwx bitbake    bitbake            29 ./usr/share/man/man3/X509_verify_cert_error_string.3ssl -> X509_STORE_CTX_get_error.3ssl
 -rw-r--r-- bitbake    bitbake          5966 ./usr/share/man/man3/bio.3ssl
 -rw-r--r-- bitbake    bitbake          9310 ./usr/share/man/man3/blowfish.3ssl

@@ -1,4 +1,4 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
--rwxr-xr-x bitbake    bitbake        275476 ./usr/lib/libssl.so.1.0.0
+-rwxr-xr-x bitbake    bitbake        275348 ./usr/lib/libssl.so.1.0.0
