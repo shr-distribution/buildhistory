@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            26 ./usr/lib/libharfbuzz-icu.so.0 -> libharfbuzz-icu.so.0.941.0
+-rwxr-xr-x bitbake    bitbake          5172 ./usr/lib/libharfbuzz-icu.so.0.941.0

@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/ia
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/ia/LC_MESSAGES
+-rw-r--r-- bitbake    bitbake          7804 ./usr/share/locale/ia/LC_MESSAGES/coreutils.mo
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/ia/LC_TIME
+lrwxrwxrwx bitbake    bitbake            27 ./usr/share/locale/ia/LC_TIME/coreutils.mo -> ../LC_MESSAGES/coreutils.mo
