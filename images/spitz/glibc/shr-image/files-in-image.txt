@@ -3042,7 +3042,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/libdbus-glib-1.so.2 -> lib
 lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1.0.0
 -rwxr-xr-x root       root             9928 ./usr/lib/libdmx.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libdrm.so.2 -> libdrm.so.2.4.0
--rwxr-xr-x root       root            32608 ./usr/lib/libdrm.so.2.4.0
+-rwxr-xr-x root       root            36180 ./usr/lib/libdrm.so.2.4.0
 -rwxr-xr-x root       root           204480 ./usr/lib/libdw-0.163.so
 lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.163.so
 lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.14.1
@@ -17553,7 +17553,7 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root           321069 ./var/lib/opkg/lists/oe-spitz
 -rw-r--r-- root       root          1201343 ./var/lib/opkg/lists/oe-xscalee
--rw-r--r-- root       root          5677059 ./var/lib/opkg/lists/oe-xscalete
+-rw-r--r-- root       root          5680336 ./var/lib/opkg/lists/oe-xscalete
 -rw-r--r-- root       root           206238 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch

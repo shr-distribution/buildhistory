@@ -379,6 +379,7 @@
 36	KiB alsa-utils-amixer
 35	KiB xf86-input-mouse
 35	KiB python-crypt
+35	KiB libdrm2
 35	KiB kernel-module-usbserial
 34	KiB xinput
 34	KiB sysfsutils
@@ -390,7 +391,6 @@
 33	KiB kernel-module-ppp-generic
 33	KiB kernel-module-configfs
 33	KiB gst-plugins-ugly-mad
-32	KiB libdrm2
 31	KiB tzdata-australia
 31	KiB python-elementtree
 31	KiB libnfsidmap0
