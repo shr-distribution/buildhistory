@@ -382,6 +382,7 @@
 38	KiB python-pyalsaaudio
 38	KiB opimd-utils-notes
 38	KiB libgbm1
+38	KiB libdrm2
 37	KiB pulseaudio-locale-cs
 36	KiB kernel-module-sd-mod
 36	KiB alsa-utils-amixer
@@ -391,7 +392,6 @@
 34	KiB sysfsutils
 34	KiB libsdl-image-1.2-0
 34	KiB libjson-c2
-34	KiB libdrm2
 34	KiB kernel-module-ppp-generic
 34	KiB kernel-module-g-file-storage
 34	KiB gstreamer-locale-cs
