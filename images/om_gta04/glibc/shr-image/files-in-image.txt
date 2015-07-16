@@ -3081,7 +3081,7 @@ lrwxrwxrwx root       root               23 ./usr/lib/libdbus-glib-1.so.2 -> lib
 lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1.0.0
 -rwxr-xr-x root       root             9200 ./usr/lib/libdmx.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libdrm.so.2 -> libdrm.so.2.4.0
--rwxr-xr-x root       root            27996 ./usr/lib/libdrm.so.2.4.0
+-rwxr-xr-x root       root            31180 ./usr/lib/libdrm.so.2.4.0
 -rwxr-xr-x root       root           186500 ./usr/lib/libdw-0.163.so
 lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.163.so
 lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.14.1
@@ -17620,7 +17620,7 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          1261218 ./var/lib/opkg/lists/oe-cortexa8-vfp-neon
--rw-r--r-- root       root          5787461 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          5790826 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           300458 ./var/lib/opkg/lists/oe-om_gta04
 -rw-r--r-- root       root           215813 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd

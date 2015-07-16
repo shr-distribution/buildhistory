@@ -401,6 +401,7 @@
 31	KiB libsdl-image-1.2-0
 31	KiB libnfsidmap0
 31	KiB gst-plugins-good-gconfelements
+30	KiB libdrm2
 30	KiB gst-plugins-ugly-mad
 30	KiB e-wm-config-illume2-shr
 30	KiB aspell-locale-cs
@@ -411,7 +412,6 @@
 29	KiB kernel-module-libertas-sdio
 29	KiB kernel-module-hidp
 27	KiB python-pyrtc
-27	KiB libdrm2
 27	KiB kernel-module-x-tables
 27	KiB kernel-module-gadgetfs
 27	KiB hicolor-icon-theme
