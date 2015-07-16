@@ -400,6 +400,7 @@
 31	KiB libnfsidmap0
 31	KiB kernel-module-omap-ssi
 31	KiB gst-plugins-good-gconfelements
+30	KiB libdrm2
 30	KiB kernel-module-hci-h4p
 30	KiB gst-plugins-ugly-mad
 30	KiB e-wm-config-illume2-shr
@@ -411,7 +412,6 @@
 29	KiB kernel-module-hidp
 28	KiB fsodeviced-module-n900-quirks
 27	KiB python-pyrtc
-27	KiB libdrm2
 27	KiB kernel-module-x-tables
 27	KiB kernel-module-pn-pep
 27	KiB hicolor-icon-theme
