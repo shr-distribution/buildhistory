@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         22412 ./usr/bin/dristat
+-rwxr-xr-x bitbake    bitbake         12060 ./usr/bin/drmstat
+-rwxr-xr-x bitbake    bitbake          4228 ./usr/bin/kmstest
+-rwxr-xr-x bitbake    bitbake          8940 ./usr/bin/modeprint
+-rwxr-xr-x bitbake    bitbake         39320 ./usr/bin/modetest
+-rwxr-xr-x bitbake    bitbake          8140 ./usr/bin/proptest
+-rwxr-xr-x bitbake    bitbake          7468 ./usr/bin/vbltest
