@@ -3000,13 +3000,13 @@ lrwxrwxrwx root       root               23 ./usr/lib/libdbus-glib-1.so.2 -> lib
 lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1.0.0
 -rwxr-xr-x root       root            15128 ./usr/lib/libdmx.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libdrm.so.2 -> libdrm.so.2.4.0
--rwxr-xr-x root       root            48040 ./usr/lib/libdrm.so.2.4.0
+-rwxr-xr-x root       root            52200 ./usr/lib/libdrm.so.2.4.0
 lrwxrwxrwx root       root               21 ./usr/lib/libdrm_intel.so.1 -> libdrm_intel.so.1.0.0
--rwxr-xr-x root       root           132768 ./usr/lib/libdrm_intel.so.1.0.0
+-rwxr-xr-x root       root           135712 ./usr/lib/libdrm_intel.so.1.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libdrm_nouveau.so.2 -> libdrm_nouveau.so.2.0.0
--rwxr-xr-x root       root            24408 ./usr/lib/libdrm_nouveau.so.2.0.0
+-rwxr-xr-x root       root            24936 ./usr/lib/libdrm_nouveau.so.2.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libdrm_radeon.so.1 -> libdrm_radeon.so.1.0.1
--rwxr-xr-x root       root            50824 ./usr/lib/libdrm_radeon.so.1.0.1
+-rwxr-xr-x root       root            45320 ./usr/lib/libdrm_radeon.so.1.0.1
 -rwxr-xr-x root       root           290456 ./usr/lib/libdw-0.163.so
 lrwxrwxrwx root       root               14 ./usr/lib/libdw.so.1 -> libdw-0.163.so
 lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.14.1
@@ -17412,7 +17412,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6900663 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root          6903939 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           332353 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           200303 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd

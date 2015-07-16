@@ -248,11 +248,11 @@
 134	KiB htop
 133	KiB libsmartcols1
 133	KiB libshr-glib0
+133	KiB libdrm-intel1
 132	KiB libgps22
 132	KiB kmod
 132	KiB fsodeviced-config
 131	KiB liblzo2-2
-130	KiB libdrm-intel1
 129	KiB tzdata-europe
 128	KiB shr-e-gadgets
 128	KiB libevdev
@@ -363,9 +363,9 @@
 52	KiB libsdl-image-1.2-0
 52	KiB libedbus1
 51	KiB libgstriff-0.10-0
+51	KiB libdrm2
 50	KiB python-elementtree
 50	KiB phonefsod
-50	KiB libdrm-radeon1
 49	KiB sysfsutils
 49	KiB libpci3
 49	KiB kernel-module-ppp-generic
@@ -376,12 +376,12 @@
 48	KiB alsa-utils-amixer
 47	KiB python-crypt
 47	KiB mime-support
-47	KiB libdrm2
 46	KiB libnfsidmap0
 45	KiB python-pyalsaaudio
 45	KiB embryo
 44	KiB make-locale-cs
 44	KiB libgdbm4
+44	KiB libdrm-radeon1
 43	KiB libsysfs2
 42	KiB kernel-module-uvesafb
 42	KiB kernel-module-snd-ens1370
