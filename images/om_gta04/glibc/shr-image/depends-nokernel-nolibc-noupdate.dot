@@ -1636,6 +1636,7 @@ digraph depends {
 "libnl-route-3-200" -> "libnl-3-200";
 "libpam" -> "libpam-runtime-suffix" [style=dotted];
 "libpam-locale-cs" -> "virtual-locale-cs" [style=dotted];
+"libpam-locale-en-gb" -> "virtual-locale-en-gb" [style=dotted];
 "libpam-runtime" -> "libpam-suffix";
 "libpam-runtime" -> "pam-plugin-deny-suffix";
 "libpam-runtime" -> "pam-plugin-permit-suffix";

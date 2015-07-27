@@ -102,7 +102,7 @@
 468	KiB libsqlite3-0
 460	KiB dbus-1
 453	KiB busybox
-435	KiB openvpn
+436	KiB openvpn
 435	KiB libgee-0.8-2
 428	KiB om-neon
 426	KiB libevent
@@ -358,10 +358,10 @@
 48	KiB kernel-module-libcomposite
 48	KiB ecore-audio
 47	KiB mime-support
+47	KiB libpam
 47	KiB libfsotest3
 47	KiB kernel-module-sd-mod
 47	KiB glib-networking
-46	KiB libpam
 46	KiB alsa-utils-aplay
 45	KiB libgstinterfaces-0.10-0
 45	KiB gst-plugins-base-audioconvert
@@ -523,15 +523,15 @@
 13	KiB fso-apm
 13	KiB ecalc
 12	KiB python-terminal
+12	KiB pam-plugin-limits
+12	KiB libpam-locale-cs
 12	KiB kernel-module-g-ether
 12	KiB gstreamer-locale-en-gb
 12	KiB ecore-input-evas
 11	KiB sysstat-locale-cs
-11	KiB pam-plugin-limits
 11	KiB openssl-conf
 11	KiB libxxf86vm1
 11	KiB libxfixes3
-11	KiB libpam-locale-cs
 11	KiB liblightmediascanner-test
 11	KiB libattr1
 11	KiB kernel-module-ppp-mppe
@@ -547,6 +547,7 @@
 10	KiB kernel-module-g-serial
 9	KiB shr-wizard
 9	KiB powertop-locale-cs-cz
+9	KiB pam-plugin-env
 9	KiB pam-plugin-access
 9	KiB libxmuu1
 9	KiB libxcb-dri2-0
@@ -559,7 +560,6 @@
 8	KiB pango-module-basic-fc
 8	KiB pam-plugin-lastlog
 8	KiB pam-plugin-group
-8	KiB pam-plugin-env
 8	KiB mkdump
 8	KiB libgsm0710-0
 8	KiB libcom-err2
@@ -657,6 +657,7 @@
 1	KiB systemd-serialgetty
 1	KiB shr-splash
 1	KiB modutils-initscripts
+1	KiB libpam-locale-en-gb
 1	KiB gst-plugins-ugly-locale-en-gb
 1	KiB gst-plugins-good-locale-en-gb
 1	KiB gst-plugins-base-locale-en-gb
