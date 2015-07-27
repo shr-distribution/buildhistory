@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake          2901 ./usr/sbin/calc_tickadj
+-rwxr-xr-x bitbake    bitbake        113772 ./usr/sbin/ntp-keygen
+-rwxr-xr-x bitbake    bitbake          3286 ./usr/sbin/ntp-wait
+-rwxr-xr-x bitbake    bitbake        175844 ./usr/sbin/ntpdc
+-rwxr-xr-x bitbake    bitbake        188140 ./usr/sbin/ntpq
+-rwxr-xr-x bitbake    bitbake         57904 ./usr/sbin/ntptime
+-rwxr-xr-x bitbake    bitbake          3629 ./usr/sbin/ntptrace
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ntp
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ntp/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ntp/lib/NTP
+-rw-r--r-- bitbake    bitbake          3688 ./usr/share/ntp/lib/NTP/Util.pm
