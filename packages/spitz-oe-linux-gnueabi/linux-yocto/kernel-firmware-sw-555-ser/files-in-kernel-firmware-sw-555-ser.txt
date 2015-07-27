@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/cis
+-rw-r--r-- bitbake    bitbake           122 ./lib/firmware/cis/SW_555_SER.cis

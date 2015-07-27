@@ -1,10 +1,10 @@
-PV = 3.19.5+gitAUTOINC+118f27167f_6c21811060
+PV = 3.19.5+gitAUTOINC+361c186eff_e152349de5
 PR = r0
-PKGV = 3.19.5+git4+118f27167f_6c21811060
-PKGR = r0.4
+PKGV = 3.19.5+git5+361c186eff_e152349de5
+PKGR = r0.1
 RPROVIDES = 
 RDEPENDS = kernel-3.19.5-yocto-standard
 RRECOMMENDS = 
-PKGSIZE = 346708
+PKGSIZE = 346772
 FILES = /lib/modules/3.19.5-yocto-standard/kernel/net/ipv6/ipv6.ko /etc/modules-load.d/ipv6.conf /etc/modprobe.d/ipv6.conf
 FILELIST = /lib/modules/3.19.5-yocto-standard/kernel/net/ipv6/ipv6.ko

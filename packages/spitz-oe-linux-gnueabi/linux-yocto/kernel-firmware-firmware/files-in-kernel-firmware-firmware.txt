@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/emi26
+-rw-r--r-- bitbake    bitbake         28070 ./lib/firmware/emi26/firmware.fw

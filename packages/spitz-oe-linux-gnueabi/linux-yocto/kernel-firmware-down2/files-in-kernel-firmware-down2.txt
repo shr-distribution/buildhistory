@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/edgeport
+-rw-r--r-- bitbake    bitbake         16566 ./lib/firmware/edgeport/down2.fw

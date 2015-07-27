@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       2074290 ./usr/lib/liblttng-ust-ctl.a
+-rw-r--r-- bitbake    bitbake         40446 ./usr/lib/liblttng-ust-cyg-profile-fast.a
+-rw-r--r-- bitbake    bitbake         45668 ./usr/lib/liblttng-ust-cyg-profile.a
+-rw-r--r-- bitbake    bitbake         63786 ./usr/lib/liblttng-ust-dl.a
+-rw-r--r-- bitbake    bitbake         10542 ./usr/lib/liblttng-ust-fork.a
+-rw-r--r-- bitbake    bitbake        101936 ./usr/lib/liblttng-ust-libc-wrapper.a
+-rw-r--r-- bitbake    bitbake         64244 ./usr/lib/liblttng-ust-pthread-wrapper.a
+-rw-r--r-- bitbake    bitbake        160252 ./usr/lib/liblttng-ust-tracepoint.a
+-rw-r--r-- bitbake    bitbake       2608352 ./usr/lib/liblttng-ust.a

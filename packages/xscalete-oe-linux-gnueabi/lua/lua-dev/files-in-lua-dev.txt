@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake          8433 ./usr/include/lauxlib.h
+-rw-r--r-- bitbake    bitbake         14825 ./usr/include/lua.h
+-rw-r--r-- bitbake    bitbake           191 ./usr/include/lua.hpp
+-rw-r--r-- bitbake    bitbake         20575 ./usr/include/luaconf.h
+-rw-r--r-- bitbake    bitbake          1173 ./usr/include/lualib.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           197 ./usr/lib/pkgconfig/lua.pc

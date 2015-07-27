@@ -1,0 +1,21 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/liblttng-ust-ctl.so.2 -> liblttng-ust-ctl.so.2.0.0
+-rwxr-xr-x bitbake    bitbake        172888 ./usr/lib/liblttng-ust-ctl.so.2.0.0
+lrwxrwxrwx bitbake    bitbake            38 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0 -> liblttng-ust-cyg-profile-fast.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         10784 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            33 ./usr/lib/liblttng-ust-cyg-profile.so.0 -> liblttng-ust-cyg-profile.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         11692 ./usr/lib/liblttng-ust-cyg-profile.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/liblttng-ust-dl.so.0 -> liblttng-ust-dl.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         13392 ./usr/lib/liblttng-ust-dl.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            26 ./usr/lib/liblttng-ust-fork.so.0 -> liblttng-ust-fork.so.0.0.0
+-rwxr-xr-x bitbake    bitbake          4500 ./usr/lib/liblttng-ust-fork.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            34 ./usr/lib/liblttng-ust-libc-wrapper.so.0 -> liblttng-ust-libc-wrapper.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         24044 ./usr/lib/liblttng-ust-libc-wrapper.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            37 ./usr/lib/liblttng-ust-pthread-wrapper.so.0 -> liblttng-ust-pthread-wrapper.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         13144 ./usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            32 ./usr/lib/liblttng-ust-tracepoint.so.0 -> liblttng-ust-tracepoint.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         29860 ./usr/lib/liblttng-ust-tracepoint.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/liblttng-ust.so.0 -> liblttng-ust.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        277956 ./usr/lib/liblttng-ust.so.0.0.0
