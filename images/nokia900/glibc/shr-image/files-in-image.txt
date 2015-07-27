@@ -635,11 +635,11 @@ drwxr-xr-x root       root             4096 ./etc/pulse
 drwxr-xr-x root       root             4096 ./etc/security
 -rw-r--r-- root       root             4620 ./etc/security/access.conf
 -rw-r--r-- root       root             3635 ./etc/security/group.conf
--rw-r--r-- root       root             1825 ./etc/security/limits.conf
+-rw-r--r-- root       root             1835 ./etc/security/limits.conf
 drwxr-xr-x root       root             4096 ./etc/security/limits.d
 -rw-r--r-- root       root             1440 ./etc/security/namespace.conf
 drwxr-xr-x root       root             4096 ./etc/security/namespace.d
--rwxr-xr-x root       root             1019 ./etc/security/namespace.init
+-rwxr-xr-x root       root             1016 ./etc/security/namespace.init
 -rw-r--r-- root       root             2972 ./etc/security/pam_env.conf
 -rw-r--r-- root       root             2179 ./etc/security/time.conf
 -rw-r--r-- root       root            19605 ./etc/services
@@ -1020,10 +1020,10 @@ lrwxrwxrwx root       root               21 ./lib/libnss_compat.so.2 -> libnss_c
 lrwxrwxrwx root       root               18 ./lib/libnss_dns.so.2 -> libnss_dns-2.21.so
 -rwxr-xr-x root       root            42612 ./lib/libnss_files-2.21.so
 lrwxrwxrwx root       root               20 ./lib/libnss_files.so.2 -> libnss_files-2.21.so
-lrwxrwxrwx root       root               16 ./lib/libpam.so.0 -> libpam.so.0.83.1
--rwxr-xr-x root       root            32512 ./lib/libpam.so.0.83.1
-lrwxrwxrwx root       root               21 ./lib/libpam_misc.so.0 -> libpam_misc.so.0.82.0
--rwxr-xr-x root       root             6916 ./lib/libpam_misc.so.0.82.0
+lrwxrwxrwx root       root               16 ./lib/libpam.so.0 -> libpam.so.0.84.1
+-rwxr-xr-x root       root            33880 ./lib/libpam.so.0.84.1
+lrwxrwxrwx root       root               21 ./lib/libpam_misc.so.0 -> libpam_misc.so.0.82.1
+-rwxr-xr-x root       root             6920 ./lib/libpam_misc.so.0.82.1
 lrwxrwxrwx root       root               17 ./lib/libpamc.so.0 -> libpamc.so.0.82.1
 -rwxr-xr-x root       root             7164 ./lib/libpamc.so.0.82.1
 -rwxr-xr-x root       root            88556 ./lib/libpthread-2.21.so
@@ -1202,23 +1202,23 @@ drwxr-xr-x root       root             4096 ./lib/security
 -rwxr-xr-x root       root             9048 ./lib/security/pam_access.so
 -rwxr-xr-x root       root             5152 ./lib/security/pam_cap.so
 -rwxr-xr-x root       root             2864 ./lib/security/pam_deny.so
--rwxr-xr-x root       root             8680 ./lib/security/pam_env.so
+-rwxr-xr-x root       root             8836 ./lib/security/pam_env.so
 -rwxr-xr-x root       root             4376 ./lib/security/pam_faildelay.so
 -rwxr-xr-x root       root             8572 ./lib/security/pam_group.so
--rwxr-xr-x root       root             4884 ./lib/security/pam_keyinit.so
--rwxr-xr-x root       root             8460 ./lib/security/pam_lastlog.so
--rwxr-xr-x root       root            11768 ./lib/security/pam_limits.so
--rwxr-xr-x root       root             3692 ./lib/security/pam_loginuid.so
+-rwxr-xr-x root       root             4908 ./lib/security/pam_keyinit.so
+-rwxr-xr-x root       root             8528 ./lib/security/pam_lastlog.so
+-rwxr-xr-x root       root            11964 ./lib/security/pam_limits.so
+-rwxr-xr-x root       root             4196 ./lib/security/pam_loginuid.so
 -rwxr-xr-x root       root             6828 ./lib/security/pam_mail.so
 -rwxr-xr-x root       root             3644 ./lib/security/pam_motd.so
 -rwxr-xr-x root       root             4120 ./lib/security/pam_nologin.so
 -rwxr-xr-x root       root             3132 ./lib/security/pam_permit.so
 -rwxr-xr-x root       root             3312 ./lib/security/pam_rootok.so
--rwxr-xr-x root       root             5224 ./lib/security/pam_securetty.so
+-rwxr-xr-x root       root             5216 ./lib/security/pam_securetty.so
 -rwxr-xr-x root       root             3716 ./lib/security/pam_shells.so
 -rwxr-xr-x root       root           174784 ./lib/security/pam_systemd.so
--rwxr-xr-x root       root            31000 ./lib/security/pam_unix.so
--rwxr-xr-x root       root             3596 ./lib/security/pam_warn.so
+-rwxr-xr-x root       root            31272 ./lib/security/pam_unix.so
+-rwxr-xr-x root       root             3628 ./lib/security/pam_warn.so
 drwxr-xr-x root       root             4096 ./lib/systemd
 drwxr-xr-x root       root             4096 ./lib/systemd/network
 -rw-r--r-- root       root              380 ./lib/systemd/network/80-container-host0.network
@@ -1738,7 +1738,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/cmp -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               23 ./usr/bin/comm -> /usr/bin/comm.coreutils
 -rwxr-xr-x root       root            23420 ./usr/bin/comm.coreutils
 lrwxrwxrwx root       root               11 ./usr/bin/compose -> run-mailcap
--rwxr-sr-x root       crontab         29168 ./usr/bin/crontab
+-rwxr-sr-x root       crontab         29352 ./usr/bin/crontab
 drwxr-xr-x root       root             4096 ./usr/bin/crossscripts
 -rwxr-xr-x root       root             7976 ./usr/bin/crossscripts/tclConfig.sh
 lrwxrwxrwx root       root               25 ./usr/bin/csplit -> /usr/bin/csplit.coreutils
@@ -3461,7 +3461,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libsoup-2.4.so.1 -> libsou
 lrwxrwxrwx root       root               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> libsoup-gnome-2.4.so.1.7.0
 -rwxr-xr-x root       root             5888 ./usr/lib/libsoup-gnome-2.4.so.1.7.0
 lrwxrwxrwx root       root               19 ./usr/lib/libsqlite3.so.0 -> libsqlite3.so.0.8.6
--rwxr-xr-x root       root           478776 ./usr/lib/libsqlite3.so.0.8.6
+-rwxr-xr-x root       root           478904 ./usr/lib/libsqlite3.so.0.8.6
 -rwxr-xr-x root       root           261616 ./usr/lib/libssl.so.1.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.20
 -rwxr-xr-x root       root           657848 ./usr/lib/libstdc++.so.6.0.20
@@ -3623,7 +3623,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/openvpn/plugins
 -rwxr-xr-x root       root             1025 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.la
 -rwxr-xr-x root       root             7956 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so
 -rwxr-xr-x root       root             1010 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.la
--rwxr-xr-x root       root             6480 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
+-rwxr-xr-x root       root             6524 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
 drwxr-xr-x root       root             4096 ./usr/lib/opkg
 drwxr-xr-x root       root             4096 ./usr/lib/opkg/alternatives
 -rw-r--r-- root       root               35 ./usr/lib/opkg/alternatives/[[
@@ -6485,8 +6485,8 @@ lrwxrwxrwx root       root               19 ./usr/sbin/loadfont -> /bin/busybox.
 -rwxr-xr-x root       root             6580 ./usr/sbin/nl-qdisc-delete
 -rwxr-xr-x root       root             7148 ./usr/sbin/nl-qdisc-list
 lrwxrwxrwx root       root               19 ./usr/sbin/ntpd -> /bin/busybox.nosuid
--rwxr-xr-x root       root            80640 ./usr/sbin/ntpdate
--rwxr-xr-x root       root           429084 ./usr/sbin/openvpn
+-rwxr-xr-x root       root            80644 ./usr/sbin/ntpdate
+-rwxr-xr-x root       root           429972 ./usr/sbin/openvpn
 -rwxr-xr-x root       root             5472 ./usr/sbin/phonet
 -rwxr-xr-x root       root             4564 ./usr/sbin/pnroute
 -rwxr-xr-x root       root             5920 ./usr/sbin/pnstat
@@ -6514,8 +6514,8 @@ lrwxrwxrwx root       root               23 ./usr/sbin/rfkill -> /usr/sbin/rfkil
 -rwxr-xr-x root       root              515 ./usr/sbin/start-statd
 -rwxr-xr-x root       root           651744 ./usr/sbin/tcpdump
 lrwxrwxrwx root       root               19 ./usr/sbin/udhcpd -> /bin/busybox.nosuid
--rwsr-xr-x root       root            18652 ./usr/sbin/unix_chkpwd
--rwxr-xr-x root       root            18468 ./usr/sbin/unix_update
+-rwsr-xr-x root       root            18668 ./usr/sbin/unix_chkpwd
+-rwxr-xr-x root       root            18484 ./usr/sbin/unix_update
 -rwxr-xr-x root       root             4891 ./usr/sbin/update-ca-certificates
 -rwxr-xr-x root       root             6270 ./usr/sbin/update-mime
 -rwxr-xr-x root       root            40632 ./usr/sbin/usb_modeswitch
@@ -8507,7 +8507,7 @@ drwxr-xr-x 1026       1026             4096 ./usr/share/locale
 drwxr-xr-x root       root             4096 ./usr/share/locale/cs
 drwxr-xr-x root       root             4096 ./usr/share/locale/cs/LC_MESSAGES
 -rw-r--r-- root       root            66654 ./usr/share/locale/cs/LC_MESSAGES/GConf2.mo
--rw-r--r-- root       root            11680 ./usr/share/locale/cs/LC_MESSAGES/Linux-PAM.mo
+-rw-r--r-- root       root            11784 ./usr/share/locale/cs/LC_MESSAGES/Linux-PAM.mo
 -rw-r--r-- root       root            30327 ./usr/share/locale/cs/LC_MESSAGES/aspell.mo
 -rw-r--r-- root       root            10626 ./usr/share/locale/cs/LC_MESSAGES/atk10.mo
 -rw-r--r-- root       root             6394 ./usr/share/locale/cs/LC_MESSAGES/attr.mo
@@ -8556,6 +8556,7 @@ drwxr-xr-x 1026       1026             4096 ./usr/share/locale/en/LC_MESSAGES
 drwxr-xr-x root       root             4096 ./usr/share/locale/en_GB
 drwxr-xr-x root       root             4096 ./usr/share/locale/en_GB/LC_MESSAGES
 -rw-r--r-- root       root            60832 ./usr/share/locale/en_GB/LC_MESSAGES/GConf2.mo
+-rw-r--r-- root       root              520 ./usr/share/locale/en_GB/LC_MESSAGES/Linux-PAM.mo
 -rw-r--r-- root       root            26694 ./usr/share/locale/en_GB/LC_MESSAGES/aspell.mo
 -rw-r--r-- root       root             8609 ./usr/share/locale/en_GB/LC_MESSAGES/atk10.mo
 -rw-r--r-- 1026       1026             6048 ./usr/share/locale/en_GB/LC_MESSAGES/babiloo.mo
@@ -15789,7 +15790,7 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rwxr-xr-x root       root             8070 ./var/lib/opkg/info/coreutils.postinst
 -rwxr-xr-x root       root             6253 ./var/lib/opkg/info/coreutils.prerm
 -rw-r--r-- root       root               13 ./var/lib/opkg/info/cronie.conffiles
--rw-r--r-- root       root              953 ./var/lib/opkg/info/cronie.control
+-rw-r--r-- root       root              951 ./var/lib/opkg/info/cronie.control
 -rw-r--r-- root       root              218 ./var/lib/opkg/info/cronie.list
 -rwxr-xr-x root       root              237 ./var/lib/opkg/info/cronie.postinst
 -rwxr-xr-x root       root             6084 ./var/lib/opkg/info/cronie.preinst
@@ -16828,12 +16829,14 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root              634 ./var/lib/opkg/info/libopkg1.control
 -rw-r--r-- root       root               63 ./var/lib/opkg/info/libopkg1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libopkg1.postinst
--rw-r--r-- root       root             1302 ./var/lib/opkg/info/libpam-locale-cs.control
+-rw-r--r-- root       root             1054 ./var/lib/opkg/info/libpam-locale-cs.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libpam-locale-cs.list
+-rw-r--r-- root       root             1069 ./var/lib/opkg/info/libpam-locale-en-gb.control
+-rw-r--r-- root       root               49 ./var/lib/opkg/info/libpam-locale-en-gb.list
 -rw-r--r-- root       root              143 ./var/lib/opkg/info/libpam-runtime.conffiles
--rw-r--r-- root       root             1295 ./var/lib/opkg/info/libpam-runtime.control
+-rw-r--r-- root       root             1047 ./var/lib/opkg/info/libpam-runtime.control
 -rw-r--r-- root       root              459 ./var/lib/opkg/info/libpam-runtime.list
--rw-r--r-- root       root             1217 ./var/lib/opkg/info/libpam.control
+-rw-r--r-- root       root              969 ./var/lib/opkg/info/libpam.control
 -rw-r--r-- root       root              129 ./var/lib/opkg/info/libpam.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libpam.postinst
 -rw-r--r-- root       root              541 ./var/lib/opkg/info/libpanelw5.control
@@ -17169,7 +17172,7 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root              500 ./var/lib/opkg/info/nmon.control
 -rw-r--r-- root       root               14 ./var/lib/opkg/info/nmon.list
 -rw-r--r-- root       root               21 ./var/lib/opkg/info/ntpdate.conffiles
--rw-r--r-- root       root              873 ./var/lib/opkg/info/ntpdate.control
+-rw-r--r-- root       root              887 ./var/lib/opkg/info/ntpdate.control
 -rw-r--r-- root       root              167 ./var/lib/opkg/info/ntpdate.list
 -rwxr-xr-x root       root              469 ./var/lib/opkg/info/ntpdate.postinst
 -rwxr-xr-x root       root              216 ./var/lib/opkg/info/ntpdate.prerm
@@ -17295,41 +17298,41 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/packagegroup-shr-minimal-x.list
 -rw-r--r-- root       root              529 ./var/lib/opkg/info/packagegroup-x11-illume.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/packagegroup-x11-illume.list
--rw-r--r-- root       root             1137 ./var/lib/opkg/info/pam-plugin-access.control
+-rw-r--r-- root       root              889 ./var/lib/opkg/info/pam-plugin-access.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-access.list
--rw-r--r-- root       root             1129 ./var/lib/opkg/info/pam-plugin-deny.control
+-rw-r--r-- root       root              881 ./var/lib/opkg/info/pam-plugin-deny.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-deny.list
--rw-r--r-- root       root             1125 ./var/lib/opkg/info/pam-plugin-env.control
+-rw-r--r-- root       root              877 ./var/lib/opkg/info/pam-plugin-env.control
 -rw-r--r-- root       root               25 ./var/lib/opkg/info/pam-plugin-env.list
--rw-r--r-- root       root             1149 ./var/lib/opkg/info/pam-plugin-faildelay.control
+-rw-r--r-- root       root              901 ./var/lib/opkg/info/pam-plugin-faildelay.control
 -rw-r--r-- root       root               31 ./var/lib/opkg/info/pam-plugin-faildelay.list
--rw-r--r-- root       root             1133 ./var/lib/opkg/info/pam-plugin-group.control
+-rw-r--r-- root       root              885 ./var/lib/opkg/info/pam-plugin-group.control
 -rw-r--r-- root       root               27 ./var/lib/opkg/info/pam-plugin-group.list
--rw-r--r-- root       root             1141 ./var/lib/opkg/info/pam-plugin-keyinit.control
+-rw-r--r-- root       root              893 ./var/lib/opkg/info/pam-plugin-keyinit.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/pam-plugin-keyinit.list
--rw-r--r-- root       root             1141 ./var/lib/opkg/info/pam-plugin-lastlog.control
+-rw-r--r-- root       root              893 ./var/lib/opkg/info/pam-plugin-lastlog.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/pam-plugin-lastlog.list
--rw-r--r-- root       root             1137 ./var/lib/opkg/info/pam-plugin-limits.control
+-rw-r--r-- root       root              889 ./var/lib/opkg/info/pam-plugin-limits.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-limits.list
--rw-r--r-- root       root             1145 ./var/lib/opkg/info/pam-plugin-loginuid.control
+-rw-r--r-- root       root              897 ./var/lib/opkg/info/pam-plugin-loginuid.control
 -rw-r--r-- root       root               30 ./var/lib/opkg/info/pam-plugin-loginuid.list
--rw-r--r-- root       root             1129 ./var/lib/opkg/info/pam-plugin-mail.control
+-rw-r--r-- root       root              881 ./var/lib/opkg/info/pam-plugin-mail.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-mail.list
--rw-r--r-- root       root             1129 ./var/lib/opkg/info/pam-plugin-motd.control
+-rw-r--r-- root       root              881 ./var/lib/opkg/info/pam-plugin-motd.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-motd.list
--rw-r--r-- root       root             1141 ./var/lib/opkg/info/pam-plugin-nologin.control
+-rw-r--r-- root       root              893 ./var/lib/opkg/info/pam-plugin-nologin.control
 -rw-r--r-- root       root               29 ./var/lib/opkg/info/pam-plugin-nologin.list
--rw-r--r-- root       root             1137 ./var/lib/opkg/info/pam-plugin-permit.control
+-rw-r--r-- root       root              889 ./var/lib/opkg/info/pam-plugin-permit.control
 -rw-r--r-- root       root               43 ./var/lib/opkg/info/pam-plugin-permit.list
--rw-r--r-- root       root             1137 ./var/lib/opkg/info/pam-plugin-rootok.control
+-rw-r--r-- root       root              889 ./var/lib/opkg/info/pam-plugin-rootok.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-rootok.list
--rw-r--r-- root       root             1149 ./var/lib/opkg/info/pam-plugin-securetty.control
+-rw-r--r-- root       root              901 ./var/lib/opkg/info/pam-plugin-securetty.control
 -rw-r--r-- root       root               31 ./var/lib/opkg/info/pam-plugin-securetty.list
--rw-r--r-- root       root             1137 ./var/lib/opkg/info/pam-plugin-shells.control
+-rw-r--r-- root       root              889 ./var/lib/opkg/info/pam-plugin-shells.control
 -rw-r--r-- root       root               28 ./var/lib/opkg/info/pam-plugin-shells.list
--rw-r--r-- root       root             1129 ./var/lib/opkg/info/pam-plugin-unix.control
+-rw-r--r-- root       root              881 ./var/lib/opkg/info/pam-plugin-unix.control
 -rw-r--r-- root       root               70 ./var/lib/opkg/info/pam-plugin-unix.list
--rw-r--r-- root       root             1129 ./var/lib/opkg/info/pam-plugin-warn.control
+-rw-r--r-- root       root              881 ./var/lib/opkg/info/pam-plugin-warn.control
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/pam-plugin-warn.list
 -rw-r--r-- root       root              645 ./var/lib/opkg/info/pango-module-basic-fc.control
 -rw-r--r-- root       root              115 ./var/lib/opkg/info/pango-module-basic-fc.list
@@ -17774,9 +17777,9 @@ drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
 -rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          1261218 ./var/lib/opkg/lists/oe-cortexa8-vfp-neon
--rw-r--r-- root       root          5790826 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          5800482 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           271642 ./var/lib/opkg/lists/oe-nokia900
--rw-r--r-- root       root           222066 ./var/lib/opkg/status
+-rw-r--r-- root       root           222262 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
