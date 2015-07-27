@@ -162,7 +162,7 @@ illume-keyboard-numeric-alt
 init-ifupdown
 iptables
 kernel
-kernel-3.19.5-yocto-standard
+kernel-4.1.2-yocto-standard
 kernel-module-bnep
 kernel-module-crc-ccitt
 kernel-module-hidp
@@ -314,6 +314,7 @@ libogg0
 libopkg1
 libpam
 libpam-locale-cs
+libpam-locale-en-gb
 libpam-runtime
 libpanelw5
 libpcap1

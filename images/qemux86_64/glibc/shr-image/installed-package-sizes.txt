@@ -94,7 +94,7 @@
 718	KiB s3c24xx-gpio
 717	KiB s3c64xx-gpio
 700	KiB python-ctypes
-696	KiB openvpn
+697	KiB openvpn
 684	KiB openssh-ssh
 680	KiB libpixman-1-0
 669	KiB shr-settings
@@ -279,8 +279,8 @@
 106	KiB v86d
 106	KiB libxcb-xkb1
 105	KiB python-pycairo
+105	KiB pam-plugin-unix
 103	KiB libglade-2.0-0
-102	KiB pam-plugin-unix
 102	KiB nmon
 102	KiB libserf-1-1
 101	KiB pxaregs
@@ -297,6 +297,7 @@
 96	KiB util-linux-fdisk
 95	KiB libice6
 95	KiB libeio1
+94	KiB cronie
 93	KiB tzdata
 93	KiB libxcb-glx0
 93	KiB gst-plugins-base-alsa
@@ -304,7 +305,6 @@
 92	KiB libusb-1.0-0
 92	KiB libfribidi0
 91	KiB python-sqlite3
-91	KiB cronie
 90	KiB libelf1
 89	KiB gst-plugins-base-typefindfunctions
 88	KiB libgstvideo-0.10-0
@@ -322,9 +322,9 @@
 78	KiB openssh-scp
 77	KiB libeo1
 77	KiB glib-networking
+76	KiB libpam
 75	KiB libfsotest3
 75	KiB fontconfig-utils
-74	KiB libpam
 74	KiB libkmod2
 73	KiB xf86-video-cirrus
 73	KiB libxext6
@@ -368,7 +368,6 @@
 50	KiB phonefsod
 49	KiB sysfsutils
 49	KiB libpci3
-49	KiB kernel-module-ppp-generic
 48	KiB xinput
 48	KiB xf86-input-mouse
 48	KiB libpopt0
@@ -376,6 +375,7 @@
 48	KiB alsa-utils-amixer
 47	KiB python-crypt
 47	KiB mime-support
+47	KiB kernel-module-ppp-generic
 46	KiB libnfsidmap0
 45	KiB python-pyalsaaudio
 45	KiB embryo
@@ -384,8 +384,8 @@
 44	KiB libdrm-radeon1
 43	KiB libsysfs2
 42	KiB kernel-module-uvesafb
-42	KiB kernel-module-snd-ens1370
 41	KiB python-pyrtc
+41	KiB kernel-module-snd-ens1370
 41	KiB gst-plugins-good-gconfelements
 40	KiB xauth
 40	KiB libjson-c2
@@ -393,11 +393,11 @@
 40	KiB findutils-locale-cs
 39	KiB libxrandr2
 39	KiB libxcursor1
-39	KiB kernel-module-x-tables
 39	KiB kernel-module-tun
-39	KiB kernel-module-snd-rawmidi
 38	KiB util-linux-agetty
 38	KiB opimd-utils-notes
+38	KiB kernel-module-x-tables
+38	KiB kernel-module-snd-rawmidi
 37	KiB python-readline
 37	KiB pulseaudio-locale-cs
 37	KiB libxrender1
@@ -428,12 +428,12 @@
 31	KiB libacl1
 31	KiB kernel-module-ip-tables
 30	KiB mterm2
-30	KiB kernel-module-nf-conntrack-ipv4
 30	KiB evtest
 30	KiB e-wm-config-illume2-shr
 30	KiB aspell-locale-cs
 29	KiB xmodmap
 29	KiB libasm1
+29	KiB kernel-module-nf-conntrack-ipv4
 29	KiB ecore-file
 28	KiB libe2p2
 28	KiB kernel-module-nf-nat
@@ -445,11 +445,11 @@
 27	KiB hicolor-icon-theme
 26	KiB mtdev
 26	KiB libgnutls-locale-cs
+26	KiB kernel-module-bnep
 26	KiB aspell-locale-en-gb
 25	KiB python-mmap
 25	KiB libxcb-xfixes0
 25	KiB libcap2
-25	KiB kernel-module-bnep
 25	KiB gst-plugins-base-volume
 25	KiB gdk-pixbuf-loader-gif
 25	KiB ecore-ipc
@@ -484,7 +484,7 @@
 20	KiB setxkbmap
 20	KiB libxfixes3
 20	KiB killall
-20	KiB kernel-3.19.5-yocto-standard
+20	KiB kernel-4.1.2-yocto-standard
 20	KiB gdk-pixbuf-locale-en-gb
 20	KiB gdk-pixbuf-loader-png
 20	KiB gdk-pixbuf-loader-jpeg
@@ -493,9 +493,9 @@
 19	KiB tzdata-africa
 19	KiB libxxf86vm1
 18	KiB python-fcntl
+18	KiB pam-plugin-limits
 18	KiB grep-locale-cs
 17	KiB psmisc-locale-cs
-17	KiB pam-plugin-limits
 17	KiB libattr1
 16	KiB python-image
 16	KiB libpurple-protocol-xmpp
@@ -523,6 +523,7 @@
 12	KiB pango-module-basic-fc
 12	KiB pam-plugin-group
 12	KiB mkdump
+12	KiB libpam-locale-cs
 12	KiB libefreet-trash1
 12	KiB libcom-err2
 12	KiB gstreamer-locale-en-gb
@@ -534,13 +535,13 @@
 11	KiB libxcb-shape0
 11	KiB libxau6
 11	KiB libpanelw5
-11	KiB libpam-locale-cs
 11	KiB libgsm0710-0
 11	KiB libgdbm-compat4
 11	KiB evas-generic-loader-svg
 11	KiB dbus-daemon-proxy
 10	KiB libxcb-shm0
 10	KiB libatk-1.0-locale-cs
+10	KiB kernel-module-softdog
 10	KiB kernel-module-ppp-deflate
 10	KiB glibc-gconv-iso8859-1
 9	KiB rfkill
@@ -553,7 +554,6 @@
 9	KiB libpurple-protocol-icq
 9	KiB libidn-locale-cs
 9	KiB libgstnetbuffer-0.10-0
-9	KiB kernel-module-softdog
 9	KiB kernel-module-slhc
 9	KiB frameworkd-config
 9	KiB ecore-imf-evas
@@ -569,6 +569,7 @@
 7	KiB phoneui-apps-messages
 7	KiB phoneui-apps-dialer
 7	KiB phoneui-apps-contacts
+7	KiB pam-plugin-loginuid
 7	KiB pam-plugin-keyinit
 7	KiB pam-plugin-faildelay
 7	KiB mioctl
@@ -577,7 +578,6 @@
 6	KiB phoneui-apps-quick-settings
 6	KiB pam-plugin-shells
 6	KiB pam-plugin-nologin
-6	KiB pam-plugin-loginuid
 6	KiB kernel-module-iptable-filter
 6	KiB illume-keyboard-default-terminal
 6	KiB babiloo-efl-locale-en-gb
@@ -627,6 +627,7 @@
 1	KiB systemd-serialgetty
 1	KiB shr-splash
 1	KiB modutils-initscripts
+1	KiB libpam-locale-en-gb
 1	KiB gst-plugins-ugly-locale-en-gb
 1	KiB gst-plugins-good-locale-en-gb
 1	KiB gst-plugins-base-locale-en-gb
