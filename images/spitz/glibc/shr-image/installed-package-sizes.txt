@@ -99,7 +99,7 @@
 473	KiB dbus-1
 458	KiB libevent
 446	KiB libdw1
-441	KiB openvpn
+444	KiB openvpn
 439	KiB libgee-0.8-2
 427	KiB om-neon
 413	KiB procps
@@ -297,10 +297,10 @@
 71	KiB usb-modeswitch
 71	KiB libxcb-xkb1
 71	KiB libeo1
+70	KiB pam-plugin-unix
 70	KiB i2c-tools
 69	KiB util-linux-fsck
 69	KiB util-linux-fdisk
-69	KiB pam-plugin-unix
 69	KiB libgstrtp-0.10-0
 69	KiB kernel-module-snd
 68	KiB usb-modeswitch-data
@@ -344,7 +344,7 @@
 53	KiB libbz2-0
 53	KiB gst-plugins-base-audioconvert
 51	KiB rpcbind
-50	KiB libpam
+51	KiB libpam
 50	KiB libcmtspeechdata0
 50	KiB kernel-module-libcomposite
 50	KiB alsa-utils-aplay
@@ -516,6 +516,7 @@
 12	KiB python-terminal
 12	KiB pam-plugin-limits
 12	KiB libxfixes3
+12	KiB libpam-locale-cs
 12	KiB libattr1
 12	KiB kernel-module-uinput
 12	KiB kernel-module-ppp-async
@@ -524,7 +525,6 @@
 11	KiB sysstat-locale-cs
 11	KiB openssl-conf
 11	KiB libuuid1
-11	KiB libpam-locale-cs
 11	KiB liblightmediascanner-test
 11	KiB kernel-module-soundcore
 10	KiB xhost
@@ -649,6 +649,7 @@
 1	KiB systemd-serialgetty
 1	KiB shr-splash
 1	KiB modutils-initscripts
+1	KiB libpam-locale-en-gb
 1	KiB gst-plugins-ugly-locale-en-gb
 1	KiB gst-plugins-good-locale-en-gb
 1	KiB gst-plugins-base-locale-en-gb
