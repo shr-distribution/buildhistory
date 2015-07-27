@@ -354,6 +354,7 @@ libogg0
 libopkg1
 libpam
 libpam-locale-cs
+libpam-locale-en-gb
 libpam-runtime
 libpanelw5
 libpcap1
