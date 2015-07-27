@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/security
+-rwxr-xr-x bitbake    bitbake         31272 ./lib/security/pam_unix.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwsr-xr-x bitbake    bitbake         18668 ./usr/sbin/unix_chkpwd
+-rwxr-xr-x bitbake    bitbake         18484 ./usr/sbin/unix_update
