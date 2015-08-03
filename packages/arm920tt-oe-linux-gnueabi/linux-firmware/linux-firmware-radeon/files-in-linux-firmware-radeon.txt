@@ -148,6 +148,7 @@ drwxr-xr-x bitbake    bitbake         12288 ./lib/firmware/radeon
 -rw-r--r-- bitbake    bitbake          8192 ./lib/firmware/radeon/TAHITI_rlc.bin
 -rw-r--r-- bitbake    bitbake         62552 ./lib/firmware/radeon/TAHITI_smc.bin
 -rw-r--r-- bitbake    bitbake        219672 ./lib/firmware/radeon/TAHITI_uvd.bin
+-rw-r--r-- bitbake    bitbake         48424 ./lib/firmware/radeon/TAHITI_vce.bin
 -rw-r--r-- bitbake    bitbake         24096 ./lib/firmware/radeon/TURKS_mc.bin
 -rw-r--r-- bitbake    bitbake          5504 ./lib/firmware/radeon/TURKS_me.bin
 -rw-r--r-- bitbake    bitbake          4480 ./lib/firmware/radeon/TURKS_pfp.bin
