@@ -25,7 +25,7 @@ coreutils_8.24-r0.0_core2-64.ipk
 coreutils-locale-cs_8.24-r0.0_core2-64.ipk
 cronie_1.5.0-r0.0_core2-64.ipk
 curl_7.43.0-r0.0_core2-64.ipk
-dbus-1_1.8.18-r0.0_core2-64.ipk
+dbus-1_1.8.20-r0.0_core2-64.ipk
 dbus-daemon-proxy_0.0.0+gitr0+1226a0a137-r1.12_core2-64.ipk
 devmem2_1.0-r7.12_core2-64.ipk
 distro-feed-configs_1.0-r6.14_qemux86_64.ipk
@@ -209,7 +209,7 @@ libcom-err2_1.42.9-r0.13_core2-64.ipk
 libcroco_0.6.8-r2.3_core2-64.ipk
 libcrypto1.0.0_1.0.2d-r0.0_core2-64.ipk
 libcurl4_7.43.0-r0.0_core2-64.ipk
-libdbus-1-3_1.8.18-r0.0_core2-64.ipk
+libdbus-1-3_1.8.20-r0.0_core2-64.ipk
 libdbus-glib-1-2_0.104-r0.1_core2-64.ipk
 libdmx1_1:1.1.3-r0.12_core2-64.ipk
 libdrm-intel1_2.4.62-r0.0_core2-64.ipk
@@ -282,8 +282,8 @@ libgstrtp-0.10-0_0.10.36-r8.12_core2-64.ipk
 libgsttag-0.10-0_0.10.36-r8.12_core2-64.ipk
 libgstvideo-0.10-0_0.10.36-r8.12_core2-64.ipk
 libgtk-2.0_2.24.28-r0.0_core2-64.ipk
-libharfbuzz-icu0_0.9.41-r0.0_core2-64.ipk
-libharfbuzz0_0.9.41-r0.0_core2-64.ipk
+libharfbuzz-icu0_1.0.1-r0.0_core2-64.ipk
+libharfbuzz0_1.0.1-r0.0_core2-64.ipk
 libice6_1:1.0.9-r0.9_core2-64.ipk
 libicudata55_55.1-r0.1_core2-64.ipk
 libicui18n55_55.1-r0.1_core2-64.ipk
@@ -407,8 +407,8 @@ libxxf86misc1_1:1.0.3-r0.12_core2-64.ipk
 libxxf86vm1_1:1.1.4-r0.1_core2-64.ipk
 libyaml-0-2_0.1.6-r0.1_core2-64.ipk
 libz1_1.2.8-r0.12_core2-64.ipk
-linux-firmware-marvell-license_1:0.0+git2+3161bfa479-r0.0_core2-64.ipk
-linux-firmware-sd8686_1:0.0+git2+3161bfa479-r0.0_core2-64.ipk
+linux-firmware-marvell-license_1:0.0+git3+75cc3ef8ba-r0.0_core2-64.ipk
+linux-firmware-sd8686_1:0.0+git3+75cc3ef8ba-r0.0_core2-64.ipk
 locale-base-cs-cz_2.21-r0.4_core2-64.ipk
 locale-base-en-gb_2.21-r0.4_core2-64.ipk
 locale-base-en-us_2.21-r0.4_core2-64.ipk
@@ -596,7 +596,7 @@ s3c24xx-gpio_1.0+svnr4949-r2.12_core2-64.ipk
 s3c64xx-gpio_1.0+svnr4949-r0.12_core2-64.ipk
 screen_4.0.3-r4.12_core2-64.ipk
 serial-forward_1:1.1+gitr0+2725c6c18c-r0.12_core2-64.ipk
-setxkbmap_1:1.3.0-r0.6_core2-64.ipk
+setxkbmap_1:1.3.1-r0.0_core2-64.ipk
 shadow_4.2.1-r0.10_core2-64.ipk
 shadow-base_4.2.1-r0.10_core2-64.ipk
 shadow-locale-cs_4.2.1-r0.10_core2-64.ipk
@@ -632,9 +632,9 @@ terminology_2:0.8.0-r0.3_core2-64.ipk
 terminology-themes_2:0.8.0-r0.3_core2-64.ipk
 time_1.7-r2.12_core2-64.ipk
 tslib-conf_1.1-r0.12_core2-64.ipk
-ttf-dejavu-common_2.23-r7.14_all.ipk
-ttf-dejavu-sans_2.23-r7.14_all.ipk
-ttf-dejavu-sans-mono_2.23-r7.14_all.ipk
+ttf-dejavu-common_2.35-r7.0_all.ipk
+ttf-dejavu-sans_2.35-r7.0_all.ipk
+ttf-dejavu-sans-mono_2.35-r7.0_all.ipk
 tzdata_2015e-r0.1_all.ipk
 tzdata-africa_2015e-r0.1_all.ipk
 tzdata-americas_2015e-r0.1_all.ipk
