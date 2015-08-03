@@ -2,4 +2,4 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
--rwxr-xr-x bitbake    bitbake         55292 ./usr/lib/.debug/libharfbuzz-icu.so.0.941.0
+-rwxr-xr-x bitbake    bitbake         56148 ./usr/lib/.debug/libharfbuzz-icu.so.0.10000.1

@@ -21,16 +21,16 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system/sockets.target.
 lrwxrwxrwx bitbake    bitbake            14 ./lib/systemd/system/sockets.target.wants/dbus.socket -> ../dbus.socket
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
--rwxr-xr-x bitbake    bitbake          6644 ./usr/bin/dbus-cleanup-sockets
--rwxr-xr-x bitbake    bitbake        236804 ./usr/bin/dbus-daemon
--rwxr-xr-x bitbake    bitbake         16732 ./usr/bin/dbus-launch
--rwxr-xr-x bitbake    bitbake         10268 ./usr/bin/dbus-monitor
--rwxr-xr-x bitbake    bitbake          7524 ./usr/bin/dbus-run-session
--rwxr-xr-x bitbake    bitbake         13568 ./usr/bin/dbus-send
--rwxr-xr-x bitbake    bitbake          4864 ./usr/bin/dbus-uuidgen
+-rwxr-xr-x bitbake    bitbake          6776 ./usr/bin/dbus-cleanup-sockets
+-rwxr-xr-x bitbake    bitbake        233016 ./usr/bin/dbus-daemon
+-rwxr-xr-x bitbake    bitbake         16144 ./usr/bin/dbus-launch
+-rwxr-xr-x bitbake    bitbake         10352 ./usr/bin/dbus-monitor
+-rwxr-xr-x bitbake    bitbake          7552 ./usr/bin/dbus-run-session
+-rwxr-xr-x bitbake    bitbake         13168 ./usr/bin/dbus-send
+-rwxr-xr-x bitbake    bitbake          4992 ./usr/bin/dbus-uuidgen
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/dbus
--rwsr-xr-x bitbake    bitbake        167060 ./usr/lib/dbus/dbus-daemon-launch-helper
+-rwsr-xr-x bitbake    bitbake        163272 ./usr/lib/dbus/dbus-daemon-launch-helper
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1/services
