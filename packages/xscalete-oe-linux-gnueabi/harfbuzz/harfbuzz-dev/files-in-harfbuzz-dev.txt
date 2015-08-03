@@ -3,8 +3,8 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/include
 drwxr-xr-x bitbake    bitbake          4096 ./usr/include/harfbuzz
 -rw-r--r-- bitbake    bitbake          3414 ./usr/include/harfbuzz/hb-blob.h
--rw-r--r-- bitbake    bitbake          9420 ./usr/include/harfbuzz/hb-buffer.h
--rw-r--r-- bitbake    bitbake         13015 ./usr/include/harfbuzz/hb-common.h
+-rw-r--r-- bitbake    bitbake          9885 ./usr/include/harfbuzz/hb-buffer.h
+-rw-r--r-- bitbake    bitbake         13472 ./usr/include/harfbuzz/hb-common.h
 -rw-r--r-- bitbake    bitbake          1584 ./usr/include/harfbuzz/hb-deprecated.h
 -rw-r--r-- bitbake    bitbake          2815 ./usr/include/harfbuzz/hb-face.h
 -rw-r--r-- bitbake    bitbake         12961 ./usr/include/harfbuzz/hb-font.h
@@ -20,10 +20,10 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/include/harfbuzz
 -rw-r--r-- bitbake    bitbake          2747 ./usr/include/harfbuzz/hb-shape-plan.h
 -rw-r--r-- bitbake    bitbake          2120 ./usr/include/harfbuzz/hb-shape.h
 -rw-r--r-- bitbake    bitbake         14425 ./usr/include/harfbuzz/hb-unicode.h
--rw-r--r-- bitbake    bitbake          1801 ./usr/include/harfbuzz/hb-version.h
+-rw-r--r-- bitbake    bitbake          1799 ./usr/include/harfbuzz/hb-version.h
 -rw-r--r-- bitbake    bitbake          1470 ./usr/include/harfbuzz/hb.h
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
--rwxr-xr-x bitbake    bitbake           991 ./usr/lib/libharfbuzz.la
-lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libharfbuzz.so -> libharfbuzz.so.0.941.0
+-rwxr-xr-x bitbake    bitbake           997 ./usr/lib/libharfbuzz.la
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libharfbuzz.so -> libharfbuzz.so.0.10000.1
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
--rw-r--r-- bitbake    bitbake           207 ./usr/lib/pkgconfig/harfbuzz.pc
+-rw-r--r-- bitbake    bitbake           206 ./usr/lib/pkgconfig/harfbuzz.pc
