@@ -1748,14 +1748,14 @@ lrwxrwxrwx root       root               25 ./usr/bin/csplit -> /usr/bin/csplit.
 lrwxrwxrwx root       root               22 ./usr/bin/cut -> /usr/bin/cut.coreutils
 -rwxr-xr-x root       root            26640 ./usr/bin/cut.coreutils
 -rwxr-xr-x root       root             8504 ./usr/bin/cvt
--rwxr-xr-x root       root             6644 ./usr/bin/dbus-cleanup-sockets
--rwxr-xr-x root       root           236804 ./usr/bin/dbus-daemon
+-rwxr-xr-x root       root             6776 ./usr/bin/dbus-cleanup-sockets
+-rwxr-xr-x root       root           233016 ./usr/bin/dbus-daemon
 -rwxr-xr-x root       root             8468 ./usr/bin/dbus-daemon-proxy
--rwxr-xr-x root       root            16732 ./usr/bin/dbus-launch
--rwxr-xr-x root       root            10268 ./usr/bin/dbus-monitor
--rwxr-xr-x root       root             7524 ./usr/bin/dbus-run-session
--rwxr-xr-x root       root            13568 ./usr/bin/dbus-send
--rwxr-xr-x root       root             4864 ./usr/bin/dbus-uuidgen
+-rwxr-xr-x root       root            16144 ./usr/bin/dbus-launch
+-rwxr-xr-x root       root            10352 ./usr/bin/dbus-monitor
+-rwxr-xr-x root       root             7552 ./usr/bin/dbus-run-session
+-rwxr-xr-x root       root            13168 ./usr/bin/dbus-send
+-rwxr-xr-x root       root             4992 ./usr/bin/dbus-uuidgen
 lrwxrwxrwx root       root               19 ./usr/bin/dc -> /bin/busybox.nosuid
 -rwxr-xr-x root       root            13286 ./usr/bin/ddcmon
 lrwxrwxrwx root       root               22 ./usr/bin/deallocvt -> /usr/bin/deallocvt.kbd
@@ -2103,7 +2103,7 @@ lrwxrwxrwx root       root               22 ./usr/bin/seq -> /usr/bin/seq.coreut
 -rwxr-xr-x root       root             6320 ./usr/bin/setleds
 -rwxr-xr-x root       root             4636 ./usr/bin/setmetamode
 -rwxr-xr-x root       root             6020 ./usr/bin/setvtrgb
--rwxr-xr-x root       root            14952 ./usr/bin/setxkbmap
+-rwxr-xr-x root       root            14744 ./usr/bin/setxkbmap
 -rwxr-xr-x root       root            13640 ./usr/bin/sexp-conv
 lrwxrwxrwx root       root               13 ./usr/bin/sg -> newgrp.shadow
 lrwxrwxrwx root       root               26 ./usr/bin/sha1sum -> /usr/bin/sha1sum.coreutils
@@ -2466,7 +2466,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/tests
 -rwxr-xr-x root       root              926 ./usr/lib/cornucopia/modules/tests/pluginc.la
 -rwxr-xr-x root       root             4340 ./usr/lib/cornucopia/modules/tests/pluginc.so
 drwxr-xr-x root       root             4096 ./usr/lib/dbus
--rwsr-xr-x root       messagebus     167060 ./usr/lib/dbus/dbus-daemon-launch-helper
+-rwsr-xr-x root       messagebus     163272 ./usr/lib/dbus/dbus-daemon-launch-helper
 -rwxr-xr-x root       root             7276 ./usr/lib/e2initrd_helper
 drwxr-xr-x root       root             4096 ./usr/lib/ecore
 drwxr-xr-x root       root             4096 ./usr/lib/ecore/system
@@ -3127,8 +3127,8 @@ lrwxrwxrwx root       root               21 ./usr/lib/libcroco-0.6.so.3 -> libcr
 -rwxr-xr-x root       root           152196 ./usr/lib/libcroco-0.6.so.3.0.1
 lrwxrwxrwx root       root               16 ./usr/lib/libcurl.so.4 -> libcurl.so.4.3.0
 -rwxr-xr-x root       root           232264 ./usr/lib/libcurl.so.4.3.0
-lrwxrwxrwx root       root               19 ./usr/lib/libdbus-1.so.3 -> libdbus-1.so.3.8.12
--rwxr-xr-x root       root           167272 ./usr/lib/libdbus-1.so.3.8.12
+lrwxrwxrwx root       root               19 ./usr/lib/libdbus-1.so.3 -> libdbus-1.so.3.8.13
+-rwxr-xr-x root       root           167496 ./usr/lib/libdbus-1.so.3.8.13
 lrwxrwxrwx root       root               23 ./usr/lib/libdbus-glib-1.so.2 -> libdbus-glib-1.so.2.3.2
 -rwxr-xr-x root       root            94040 ./usr/lib/libdbus-glib-1.so.2.3.2
 lrwxrwxrwx root       root               15 ./usr/lib/libdmx.so.1 -> libdmx.so.1.0.0
@@ -3332,10 +3332,10 @@ lrwxrwxrwx root       root               26 ./usr/lib/libgthread-2.0.so.0 -> lib
 -rwxr-xr-x root       root             3644 ./usr/lib/libgthread-2.0.so.0.4400.1
 lrwxrwxrwx root       root               27 ./usr/lib/libgtk-x11-2.0.so.0 -> libgtk-x11-2.0.so.0.2400.28
 -rwxr-xr-x root       root          2866100 ./usr/lib/libgtk-x11-2.0.so.0.2400.28
-lrwxrwxrwx root       root               26 ./usr/lib/libharfbuzz-icu.so.0 -> libharfbuzz-icu.so.0.941.0
--rwxr-xr-x root       root             5172 ./usr/lib/libharfbuzz-icu.so.0.941.0
-lrwxrwxrwx root       root               22 ./usr/lib/libharfbuzz.so.0 -> libharfbuzz.so.0.941.0
--rwxr-xr-x root       root           241736 ./usr/lib/libharfbuzz.so.0.941.0
+lrwxrwxrwx root       root               28 ./usr/lib/libharfbuzz-icu.so.0 -> libharfbuzz-icu.so.0.10000.1
+-rwxr-xr-x root       root             5348 ./usr/lib/libharfbuzz-icu.so.0.10000.1
+lrwxrwxrwx root       root               24 ./usr/lib/libharfbuzz.so.0 -> libharfbuzz.so.0.10000.1
+-rwxr-xr-x root       root           254364 ./usr/lib/libharfbuzz.so.0.10000.1
 lrwxrwxrwx root       root               17 ./usr/lib/libhistory.so.6 -> libhistory.so.6.3
 -rwxr-xr-x root       root            20904 ./usr/lib/libhistory.so.6.3
 lrwxrwxrwx root       root               17 ./usr/lib/libhogweed.so.2 -> libhogweed.so.2.5
@@ -7905,15 +7905,15 @@ drwxr-xr-x root       root             4096 ./usr/share/fontconfig/conf.avail
 -rw-r--r-- root       root             1691 ./usr/share/fontconfig/conf.avail/90-synthetic.conf
 drwxr-xr-x root       root             4096 ./usr/share/fonts
 drwxr-xr-x root       root             4096 ./usr/share/fonts/truetype
--rw-r--r-- root       root           550408 ./usr/share/fonts/truetype/DejaVuSans-Bold.ttf
--rw-r--r-- root       root           500600 ./usr/share/fonts/truetype/DejaVuSans-BoldOblique.ttf
--rw-r--r-- root       root           310028 ./usr/share/fonts/truetype/DejaVuSans-ExtraLight.ttf
--rw-r--r-- root       root           501420 ./usr/share/fonts/truetype/DejaVuSans-Oblique.ttf
--rw-r--r-- root       root           591360 ./usr/share/fonts/truetype/DejaVuSans.ttf
--rw-r--r-- root       root           289820 ./usr/share/fonts/truetype/DejaVuSansMono-Bold.ttf
--rw-r--r-- root       root           211208 ./usr/share/fonts/truetype/DejaVuSansMono-BoldOblique.ttf
--rw-r--r-- root       root           217272 ./usr/share/fonts/truetype/DejaVuSansMono-Oblique.ttf
--rw-r--r-- root       root           309064 ./usr/share/fonts/truetype/DejaVuSansMono.ttf
+-rw-r--r-- root       root           704128 ./usr/share/fonts/truetype/DejaVuSans-Bold.ttf
+-rw-r--r-- root       root           641720 ./usr/share/fonts/truetype/DejaVuSans-BoldOblique.ttf
+-rw-r--r-- root       root           355204 ./usr/share/fonts/truetype/DejaVuSans-ExtraLight.ttf
+-rw-r--r-- root       root           633840 ./usr/share/fonts/truetype/DejaVuSans-Oblique.ttf
+-rw-r--r-- root       root           756072 ./usr/share/fonts/truetype/DejaVuSans.ttf
+-rw-r--r-- root       root           331536 ./usr/share/fonts/truetype/DejaVuSansMono-Bold.ttf
+-rw-r--r-- root       root           253116 ./usr/share/fonts/truetype/DejaVuSansMono-BoldOblique.ttf
+-rw-r--r-- root       root           251472 ./usr/share/fonts/truetype/DejaVuSansMono-Oblique.ttf
+-rw-r--r-- root       root           340240 ./usr/share/fonts/truetype/DejaVuSansMono.ttf
 drwxr-xr-x root       root             4096 ./usr/share/fonts/ttf
 -rw-r--r-- root       root           104980 ./usr/share/fonts/ttf/LiberationMono-Bold.ttf
 -rw-r--r-- root       root           117192 ./usr/share/fonts/ttf/LiberationMono-BoldItalic.ttf
@@ -15696,7 +15696,7 @@ drwxr-xr-x root       root             4096 ./var/backups
 drwxr-xr-x root       root             4096 ./var/cache
 drwxr-xr-x root       root             4096 ./var/cache/fontconfig
 -rw-r--r-- root       root              136 ./var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-5
--rw-r--r-- root       root            16824 ./var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d8.cache-5
+-rw-r--r-- root       root            18360 ./var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d8.cache-5
 -rw-r--r-- root       root            15656 ./var/cache/fontconfig/94322f4d3cdf1bd54794b691285ca062-le32d8.cache-5
 -rw-r--r-- root       root              200 ./var/cache/fontconfig/CACHEDIR.TAG
 drwx------ root       root             4096 ./var/cache/ldconfig
@@ -15801,7 +15801,7 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root             1033 ./var/lib/opkg/info/dbus-1.control
 -rw-r--r-- root       root              891 ./var/lib/opkg/info/dbus-1.list
 -rwxr-xr-x root       root              299 ./var/lib/opkg/info/dbus-1.postinst
--rwxr-xr-x root       root             6196 ./var/lib/opkg/info/dbus-1.preinst
+-rwxr-xr-x root       root             6274 ./var/lib/opkg/info/dbus-1.preinst
 -rw-r--r-- root       root              481 ./var/lib/opkg/info/dbus-daemon-proxy.control
 -rw-r--r-- root       root               27 ./var/lib/opkg/info/dbus-daemon-proxy.list
 -rw-r--r-- root       root              474 ./var/lib/opkg/info/devmem2.control
@@ -16741,11 +16741,11 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root              760 ./var/lib/opkg/info/libgtk-2.0.list
 -rwxr-xr-x root       root              212 ./var/lib/opkg/info/libgtk-2.0.postinst
 -rwxr-xr-x root       root               98 ./var/lib/opkg/info/libgtk-2.0.prerm
--rw-r--r-- root       root              652 ./var/lib/opkg/info/libharfbuzz-icu0.control
--rw-r--r-- root       root               66 ./var/lib/opkg/info/libharfbuzz-icu0.list
+-rw-r--r-- root       root              649 ./var/lib/opkg/info/libharfbuzz-icu0.control
+-rw-r--r-- root       root               68 ./var/lib/opkg/info/libharfbuzz-icu0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libharfbuzz-icu0.postinst
--rw-r--r-- root       root              529 ./var/lib/opkg/info/libharfbuzz0.control
--rw-r--r-- root       root               58 ./var/lib/opkg/info/libharfbuzz0.list
+-rw-r--r-- root       root              527 ./var/lib/opkg/info/libharfbuzz0.control
+-rw-r--r-- root       root               60 ./var/lib/opkg/info/libharfbuzz0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libharfbuzz0.postinst
 -rw-r--r-- root       root              723 ./var/lib/opkg/info/libice6.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libice6.list
@@ -17635,13 +17635,13 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rwxr-xr-x root       root               65 ./var/lib/opkg/info/time.prerm
 -rw-r--r-- root       root              753 ./var/lib/opkg/info/tslib-conf.control
 -rw-r--r-- root       root               37 ./var/lib/opkg/info/tslib-conf.list
--rw-r--r-- root       root              432 ./var/lib/opkg/info/ttf-dejavu-common.control
+-rw-r--r-- root       root              431 ./var/lib/opkg/info/ttf-dejavu-common.control
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/ttf-dejavu-common.list
--rw-r--r-- root       root              480 ./var/lib/opkg/info/ttf-dejavu-sans-mono.control
+-rw-r--r-- root       root              479 ./var/lib/opkg/info/ttf-dejavu-sans-mono.control
 -rw-r--r-- root       root              205 ./var/lib/opkg/info/ttf-dejavu-sans-mono.list
 -rwxr-xr-x root       root              233 ./var/lib/opkg/info/ttf-dejavu-sans-mono.postinst
 -rwxr-xr-x root       root              233 ./var/lib/opkg/info/ttf-dejavu-sans-mono.postrm
--rw-r--r-- root       root              475 ./var/lib/opkg/info/ttf-dejavu-sans.control
+-rw-r--r-- root       root              474 ./var/lib/opkg/info/ttf-dejavu-sans.control
 -rw-r--r-- root       root              268 ./var/lib/opkg/info/ttf-dejavu-sans.list
 -rwxr-xr-x root       root              228 ./var/lib/opkg/info/ttf-dejavu-sans.postinst
 -rwxr-xr-x root       root              228 ./var/lib/opkg/info/ttf-dejavu-sans.postrm
@@ -17775,11 +17775,11 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- root       root            87098 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root            87086 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          1261218 ./var/lib/opkg/lists/oe-cortexa8-vfp-neon
--rw-r--r-- root       root          5800482 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
+-rw-r--r-- root       root          5800475 ./var/lib/opkg/lists/oe-cortexa8t2-vfp-neon
 -rw-r--r-- root       root           271642 ./var/lib/opkg/lists/oe-nokia900
--rw-r--r-- root       root           222262 ./var/lib/opkg/status
+-rw-r--r-- root       root           222256 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local
