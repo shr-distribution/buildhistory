@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/fonts
+drwxr-xr-x bitbake    bitbake          4096 ./etc/fonts/conf.d
+-rw-r--r-- bitbake    bitbake           388 ./etc/fonts/conf.d/30-dejavu-aliases.conf

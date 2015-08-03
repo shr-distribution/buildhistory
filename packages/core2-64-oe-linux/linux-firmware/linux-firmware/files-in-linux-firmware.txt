@@ -5,14 +5,14 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/3com
 -rw-r--r-- bitbake    bitbake         24880 ./lib/firmware/3com/3C359.bin
 -rw-r--r-- bitbake    bitbake         44548 ./lib/firmware/3com/typhoon.bin
 -rw-r--r-- bitbake    bitbake         35068 ./lib/firmware/GPL-3
--rw-r--r-- bitbake    bitbake          1365 ./lib/firmware/README
+-rw-r--r-- bitbake    bitbake          1562 ./lib/firmware/README
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/RTL8192E
 -rw-r--r-- bitbake    bitbake           344 ./lib/firmware/RTL8192E/boot.img
 -rw-r--r-- bitbake    bitbake           848 ./lib/firmware/RTL8192E/data.img
 -rw-r--r-- bitbake    bitbake         42944 ./lib/firmware/RTL8192E/main.img
 -rw-r--r-- bitbake    bitbake         37028 ./lib/firmware/TDA7706_OM_v2.5.1_boot.txt
 -rw-r--r-- bitbake    bitbake         10509 ./lib/firmware/TDA7706_OM_v3.0.2_boot.txt
--rw-r--r-- bitbake    bitbake         83865 ./lib/firmware/WHENCE
+-rw-r--r-- bitbake    bitbake         86648 ./lib/firmware/WHENCE
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/acenic
 -rw-r--r-- bitbake    bitbake         73116 ./lib/firmware/acenic/tg1.bin
 -rw-r--r-- bitbake    bitbake         77452 ./lib/firmware/acenic/tg2.bin
@@ -46,6 +46,9 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/ath9k_htc
 -rw-r--r-- bitbake    bitbake         72812 ./lib/firmware/ath9k_htc/htc_7010-1.4.0.fw
 -rw-r--r-- bitbake    bitbake         51008 ./lib/firmware/ath9k_htc/htc_9271-1.4.0.fw
 -rw-r--r-- bitbake    bitbake          9726 ./lib/firmware/atmsar11.fw
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/atusb
+-rw-r--r-- bitbake    bitbake           534 ./lib/firmware/atusb/ChangeLog
+-rw-r--r-- bitbake    bitbake          5800 ./lib/firmware/atusb/atusb-0.2.dfu
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/av7110
 -rw-r--r-- bitbake    bitbake          2820 ./lib/firmware/av7110/Boot.S
 -rw-r--r-- bitbake    bitbake           264 ./lib/firmware/av7110/Makefile
@@ -89,6 +92,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/bnx2x
 -rw-r--r-- bitbake    bitbake        161248 ./lib/firmware/bnx2x/bnx2x-e1-7.0.23.0.fw
 -rw-r--r-- bitbake    bitbake        161368 ./lib/firmware/bnx2x/bnx2x-e1-7.0.29.0.fw
 -rw-r--r-- bitbake    bitbake        164392 ./lib/firmware/bnx2x/bnx2x-e1-7.10.51.0.fw
+-rw-r--r-- bitbake    bitbake        170192 ./lib/firmware/bnx2x/bnx2x-e1-7.12.30.0.fw
 -rw-r--r-- bitbake    bitbake        162128 ./lib/firmware/bnx2x/bnx2x-e1-7.2.16.0.fw
 -rw-r--r-- bitbake    bitbake        162152 ./lib/firmware/bnx2x/bnx2x-e1-7.2.51.0.fw
 -rw-r--r-- bitbake    bitbake        163576 ./lib/firmware/bnx2x/bnx2x-e1-7.8.17.0.fw
@@ -101,6 +105,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/bnx2x
 -rw-r--r-- bitbake    bitbake        168544 ./lib/firmware/bnx2x/bnx2x-e1h-7.0.23.0.fw
 -rw-r--r-- bitbake    bitbake        168680 ./lib/firmware/bnx2x/bnx2x-e1h-7.0.29.0.fw
 -rw-r--r-- bitbake    bitbake        173016 ./lib/firmware/bnx2x/bnx2x-e1h-7.10.51.0.fw
+-rw-r--r-- bitbake    bitbake        178984 ./lib/firmware/bnx2x/bnx2x-e1h-7.12.30.0.fw
 -rw-r--r-- bitbake    bitbake        169896 ./lib/firmware/bnx2x/bnx2x-e1h-7.2.16.0.fw
 -rw-r--r-- bitbake    bitbake        169960 ./lib/firmware/bnx2x/bnx2x-e1h-7.2.51.0.fw
 -rw-r--r-- bitbake    bitbake        171920 ./lib/firmware/bnx2x/bnx2x-e1h-7.8.17.0.fw
@@ -113,6 +118,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/bnx2x
 -rw-r--r-- bitbake    bitbake        289448 ./lib/firmware/bnx2x/bnx2x-e2-7.0.23.0.fw
 -rw-r--r-- bitbake    bitbake        289848 ./lib/firmware/bnx2x/bnx2x-e2-7.0.29.0.fw
 -rw-r--r-- bitbake    bitbake        321456 ./lib/firmware/bnx2x/bnx2x-e2-7.10.51.0.fw
+-rw-r--r-- bitbake    bitbake        321320 ./lib/firmware/bnx2x/bnx2x-e2-7.12.30.0.fw
 -rw-r--r-- bitbake    bitbake        295072 ./lib/firmware/bnx2x/bnx2x-e2-7.2.16.0.fw
 -rw-r--r-- bitbake    bitbake        295264 ./lib/firmware/bnx2x/bnx2x-e2-7.2.51.0.fw
 -rw-r--r-- bitbake    bitbake        310032 ./lib/firmware/bnx2x/bnx2x-e2-7.8.17.0.fw
@@ -200,6 +206,8 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/cxgb3
 -rw-r--r-- bitbake    bitbake         31812 ./lib/firmware/cxgb3/t3fw-7.12.0.bin
 -rw-r--r-- bitbake    bitbake         30648 ./lib/firmware/cxgb3/t3fw-7.4.0.bin
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/cxgb4
+-rw-r--r-- bitbake    bitbake        179202 ./lib/firmware/cxgb4/aq1202_fw.cld
+-rw-r--r-- bitbake    bitbake        208900 ./lib/firmware/cxgb4/bcm8483.bin
 -rw-r--r-- bitbake    bitbake        533504 ./lib/firmware/cxgb4/t4fw-1.13.32.0.bin
 lrwxrwxrwx bitbake    bitbake            18 ./lib/firmware/cxgb4/t4fw.bin -> t4fw-1.13.32.0.bin
 -rw-r--r-- bitbake    bitbake        581120 ./lib/firmware/cxgb4/t5fw-1.13.32.0.bin
@@ -263,11 +271,22 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/go7007
 -rw-r--r-- bitbake    bitbake       1251036 ./lib/firmware/i2400m-fw-usb-1.4.sbcf
 -rw-r--r-- bitbake    bitbake       1334532 ./lib/firmware/i2400m-fw-usb-1.5.sbcf
 -rw-r--r-- bitbake    bitbake       1531932 ./lib/firmware/i6050-fw-usb-1.5.sbcf
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/i915
+lrwxrwxrwx bitbake    bitbake            19 ./lib/firmware/i915/bxt_dmc_ver1.bin -> bxt_dmc_ver1_04.bin
+-rw-r--r-- bitbake    bitbake          5872 ./lib/firmware/i915/bxt_dmc_ver1_04.bin
+lrwxrwxrwx bitbake    bitbake            19 ./lib/firmware/i915/skl_dmc_ver1.bin -> skl_dmc_ver1_18.bin
+-rw-r--r-- bitbake    bitbake          8048 ./lib/firmware/i915/skl_dmc_ver1_04.bin
+-rw-r--r-- bitbake    bitbake          7892 ./lib/firmware/i915/skl_dmc_ver1_16.bin
+-rw-r--r-- bitbake    bitbake          7892 ./lib/firmware/i915/skl_dmc_ver1_18.bin
+lrwxrwxrwx bitbake    bitbake            21 ./lib/firmware/i915/skl_guc_ver1.bin -> skl_guc_ver1_1059.bin
+-rw-r--r-- bitbake    bitbake        109636 ./lib/firmware/i915/skl_guc_ver1_1059.bin
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/intel
 -rw-r--r-- bitbake    bitbake        260320 ./lib/firmware/intel/IntcSST2.bin
 -rw-r--r-- bitbake    bitbake        647078 ./lib/firmware/intel/fw_sst_0f28.bin
 -rw-r--r-- bitbake    bitbake        265684 ./lib/firmware/intel/fw_sst_0f28.bin-48kHz_i2s_master
--rw-r--r-- bitbake    bitbake        647390 ./lib/firmware/intel/fw_sst_22a8.bin
+-rw-r--r-- bitbake    bitbake        701614 ./lib/firmware/intel/fw_sst_22a8.bin
+-rw-r--r-- bitbake    bitbake             9 ./lib/firmware/intel/ibt-11-5.ddc
+-rw-r--r-- bitbake    bitbake        570160 ./lib/firmware/intel/ibt-11-5.sfi
 -rw-r--r-- bitbake    bitbake         17508 ./lib/firmware/intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
 -rw-r--r-- bitbake    bitbake         25575 ./lib/firmware/intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 -rw-r--r-- bitbake    bitbake         17310 ./lib/firmware/intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
@@ -295,6 +314,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/isci
 -rw-r--r-- bitbake    bitbake        707392 ./lib/firmware/iwlwifi-2030-6.ucode
 -rw-r--r-- bitbake    bitbake        609892 ./lib/firmware/iwlwifi-3160-10.ucode
 -rw-r--r-- bitbake    bitbake        683996 ./lib/firmware/iwlwifi-3160-12.ucode
+-rw-r--r-- bitbake    bitbake        688616 ./lib/firmware/iwlwifi-3160-13.ucode
 -rw-r--r-- bitbake    bitbake        150100 ./lib/firmware/iwlwifi-3945-2.ucode
 -rw-r--r-- bitbake    bitbake        187972 ./lib/firmware/iwlwifi-4965-2.ucode
 -rw-r--r-- bitbake    bitbake        345008 ./lib/firmware/iwlwifi-5000-1.ucode
@@ -303,10 +323,14 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/isci
 -rw-r--r-- bitbake    bitbake        337400 ./lib/firmware/iwlwifi-5150-2.ucode
 -rw-r--r-- bitbake    bitbake        672352 ./lib/firmware/iwlwifi-7260-10.ucode
 -rw-r--r-- bitbake    bitbake        782300 ./lib/firmware/iwlwifi-7260-12.ucode
+-rw-r--r-- bitbake    bitbake        786920 ./lib/firmware/iwlwifi-7260-13.ucode
 -rw-r--r-- bitbake    bitbake        736844 ./lib/firmware/iwlwifi-7265-10.ucode
 -rw-r--r-- bitbake    bitbake        880604 ./lib/firmware/iwlwifi-7265-12.ucode
+-rw-r--r-- bitbake    bitbake        885224 ./lib/firmware/iwlwifi-7265-13.ucode
 -rw-r--r-- bitbake    bitbake        740436 ./lib/firmware/iwlwifi-7265D-10.ucode
 -rw-r--r-- bitbake    bitbake       1002800 ./lib/firmware/iwlwifi-7265D-12.ucode
+-rw-r--r-- bitbake    bitbake       1008692 ./lib/firmware/iwlwifi-7265D-13.ucode
+-rw-r--r-- bitbake    bitbake       1745176 ./lib/firmware/iwlwifi-8000C-13.ucode
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/kaweth
 -rw-r--r-- bitbake    bitbake          3276 ./lib/firmware/kaweth/new_code.bin
 -rw-r--r-- bitbake    bitbake           622 ./lib/firmware/kaweth/new_code_fix.bin
@@ -359,6 +383,10 @@ lrwxrwxrwx bitbake    bitbake            25 ./lib/firmware/libertas/sd8688_helpe
 -rw-r--r-- bitbake    bitbake        100292 ./lib/firmware/libertas/usb8388_v5.bin
 -rw-r--r-- bitbake    bitbake        126644 ./lib/firmware/libertas/usb8388_v9.bin
 -rw-r--r-- bitbake    bitbake        174332 ./lib/firmware/libertas/usb8682.bin
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/liquidio
+-rw-r--r-- bitbake    bitbake       2165440 ./lib/firmware/liquidio/lio_210nv_nic.bin
+-rw-r--r-- bitbake    bitbake       2165440 ./lib/firmware/liquidio/lio_210sv_nic.bin
+-rw-r--r-- bitbake    bitbake       2165440 ./lib/firmware/liquidio/lio_410nv_nic.bin
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/matrox
 -rw-r--r-- bitbake    bitbake         11214 ./lib/firmware/matrox/g200_warp.fw
 -rw-r--r-- bitbake    bitbake         16790 ./lib/firmware/matrox/g400_warp.fw
@@ -407,6 +435,15 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/mwl8k
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/myricom
 -rw-r--r-- bitbake    bitbake         76258 ./lib/firmware/myricom/lanai.bin
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/nvidia
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/nvidia/gk20a
+-rw-r--r-- bitbake    bitbake          1920 ./lib/firmware/nvidia/gk20a/fecs_data.bin
+-rw-r--r-- bitbake    bitbake         15356 ./lib/firmware/nvidia/gk20a/fecs_inst.bin
+-rw-r--r-- bitbake    bitbake          1800 ./lib/firmware/nvidia/gk20a/gpccs_data.bin
+-rw-r--r-- bitbake    bitbake          8171 ./lib/firmware/nvidia/gk20a/gpccs_inst.bin
+-rw-r--r-- bitbake    bitbake          6696 ./lib/firmware/nvidia/gk20a/sw_bundle_init.bin
+-rw-r--r-- bitbake    bitbake          4464 ./lib/firmware/nvidia/gk20a/sw_ctx.bin
+-rw-r--r-- bitbake    bitbake         10304 ./lib/firmware/nvidia/gk20a/sw_method_init.bin
+-rw-r--r-- bitbake    bitbake          1360 ./lib/firmware/nvidia/gk20a/sw_nonctx.bin
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/nvidia/tegra124
 -rw-r--r-- bitbake    bitbake        134656 ./lib/firmware/nvidia/tegra124/xusb.bin
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/nvidia/tegra210
@@ -414,7 +451,22 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/nvidia/tegra210
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/ositech
 -rw-r--r-- bitbake    bitbake          2778 ./lib/firmware/ositech/Xilinx7OD.bin
 -rw-r--r-- bitbake    bitbake       1845305 ./lib/firmware/phanfw.bin
--rw-r--r-- bitbake    bitbake        459260 ./lib/firmware/qat_895xcc.bin
+-rw-r--r-- bitbake    bitbake        457948 ./lib/firmware/qat_895xcc.bin
+-rw-r--r-- bitbake    bitbake        108160 ./lib/firmware/qat_mmp.bin
+drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/qca
+-rw-r--r-- bitbake    bitbake         23711 ./lib/firmware/qca/NOTICE.txt
+-rw-r--r-- bitbake    bitbake          1937 ./lib/firmware/qca/nvm_00130300.bin
+-rw-r--r-- bitbake    bitbake          1968 ./lib/firmware/qca/nvm_00130302.bin
+-rw-r--r-- bitbake    bitbake          1859 ./lib/firmware/qca/nvm_usb_00000200.bin
+-rw-r--r-- bitbake    bitbake          1859 ./lib/firmware/qca/nvm_usb_00000201.bin
+-rw-r--r-- bitbake    bitbake          1857 ./lib/firmware/qca/nvm_usb_00000300.bin
+-rw-r--r-- bitbake    bitbake          1953 ./lib/firmware/qca/nvm_usb_00000302.bin
+-rw-r--r-- bitbake    bitbake         65864 ./lib/firmware/qca/rampatch_00130300.bin
+-rw-r--r-- bitbake    bitbake         32064 ./lib/firmware/qca/rampatch_00130302.bin
+-rw-r--r-- bitbake    bitbake         54432 ./lib/firmware/qca/rampatch_usb_00000200.bin
+-rw-r--r-- bitbake    bitbake         54432 ./lib/firmware/qca/rampatch_usb_00000201.bin
+-rw-r--r-- bitbake    bitbake         65776 ./lib/firmware/qca/rampatch_usb_00000300.bin
+-rw-r--r-- bitbake    bitbake         32940 ./lib/firmware/qca/rampatch_usb_00000302.bin
 -rw-r--r-- bitbake    bitbake         76802 ./lib/firmware/ql2100_fw.bin
 -rw-r--r-- bitbake    bitbake         84566 ./lib/firmware/ql2200_fw.bin
 -rw-r--r-- bitbake    bitbake        125252 ./lib/firmware/ql2300_fw.bin
@@ -435,7 +487,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/r128
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/rtl_bt
 -rw-r--r-- bitbake    bitbake         38764 ./lib/firmware/rtl_bt/rtl8192ee_fw.bin
 -rw-r--r-- bitbake    bitbake         37904 ./lib/firmware/rtl_bt/rtl8192eu_fw.bin
--rw-r--r-- bitbake    bitbake         74488 ./lib/firmware/rtl_bt/rtl8723a_fw.bin
+-rw-r--r-- bitbake    bitbake         24548 ./lib/firmware/rtl_bt/rtl8723a_fw.bin
 -rw-r--r-- bitbake    bitbake         45048 ./lib/firmware/rtl_bt/rtl8723b_fw.bin
 -rw-r--r-- bitbake    bitbake         74488 ./lib/firmware/rtl_bt/rtl8761a_fw.bin
 -rw-r--r-- bitbake    bitbake         40520 ./lib/firmware/rtl_bt/rtl8812ae_fw.bin
@@ -550,12 +602,11 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/ueagle-atm
 -rw-r--r-- bitbake    bitbake         10975 ./lib/firmware/ueagle-atm/eagleIII.fw
 -rw-r--r-- bitbake    bitbake         10492 ./lib/firmware/ueagle-atm/eagleIV.fw
 drwxr-xr-x bitbake    bitbake          4096 ./lib/firmware/usbdux
--rw-r--r-- bitbake    bitbake           558 ./lib/firmware/usbdux/Makefile_dux
--rw-r--r-- bitbake    bitbake           358 ./lib/firmware/usbdux/README.dux
+-rw-r--r-- bitbake    bitbake           462 ./lib/firmware/usbdux/Makefile_dux
 -rw-r--r-- bitbake    bitbake          3792 ./lib/firmware/usbdux/fx2-include.asm
 -rw-r--r-- bitbake    bitbake         24712 ./lib/firmware/usbdux/usbdux_firmware.asm
 -rw-r--r-- bitbake    bitbake          9406 ./lib/firmware/usbdux/usbduxfast_firmware.asm
--rw-r--r-- bitbake    bitbake         25374 ./lib/firmware/usbdux/usbduxsigma_firmware.asm
+-rw-r--r-- bitbake    bitbake         28359 ./lib/firmware/usbdux/usbduxsigma_firmware.asm
 -rw-r--r-- bitbake    bitbake          1770 ./lib/firmware/usbdux_firmware.bin
 -rw-r--r-- bitbake    bitbake           999 ./lib/firmware/usbduxfast_firmware.bin
 -rw-r--r-- bitbake    bitbake          8192 ./lib/firmware/usbduxsigma_firmware.bin

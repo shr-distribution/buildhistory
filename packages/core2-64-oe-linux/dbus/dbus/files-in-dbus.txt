@@ -24,7 +24,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 -rwxr-xr-x bitbake    bitbake          9064 ./usr/bin/dbus-cleanup-sockets
 -rwxr-xr-x bitbake    bitbake        411400 ./usr/bin/dbus-daemon
 -rwxr-xr-x bitbake    bitbake         23576 ./usr/bin/dbus-launch
--rwxr-xr-x bitbake    bitbake         14080 ./usr/bin/dbus-monitor
+-rwxr-xr-x bitbake    bitbake         14216 ./usr/bin/dbus-monitor
 -rwxr-xr-x bitbake    bitbake          9792 ./usr/bin/dbus-run-session
 -rwxr-xr-x bitbake    bitbake         18368 ./usr/bin/dbus-send
 -rwxr-xr-x bitbake    bitbake          7016 ./usr/bin/dbus-uuidgen

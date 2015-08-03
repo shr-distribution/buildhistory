@@ -26,6 +26,6 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/dbus-1.0/include
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/dbus-1.0/include/dbus
 -rw-r--r-- bitbake    bitbake          2049 ./usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h
 -rwxr-xr-x bitbake    bitbake           937 ./usr/lib/libdbus-1.la
-lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libdbus-1.so -> libdbus-1.so.3.8.12
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libdbus-1.so -> libdbus-1.so.3.8.13
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
 -rw-r--r-- bitbake    bitbake           510 ./usr/lib/pkgconfig/dbus-1.pc

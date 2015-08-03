@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/fonts
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/fonts/truetype
+-rw-r--r-- bitbake    bitbake        355692 ./usr/share/fonts/truetype/DejaVuSerif-Bold.ttf
+-rw-r--r-- bitbake    bitbake        347064 ./usr/share/fonts/truetype/DejaVuSerif-BoldItalic.ttf
+-rw-r--r-- bitbake    bitbake        345612 ./usr/share/fonts/truetype/DejaVuSerif-Italic.ttf
+-rw-r--r-- bitbake    bitbake        379740 ./usr/share/fonts/truetype/DejaVuSerif.ttf
