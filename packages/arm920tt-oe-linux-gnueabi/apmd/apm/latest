@@ -1,9 +1,9 @@
-PV = 3.2.2-14
-PR = r2
-PKGR = r2.14
+PV = 3.2.2-15
+PR = r0
+PKGR = r0.0
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.21) libapm (>= 3.2.2-14)
+RDEPENDS = glibc (>= 2.22) libapm (>= 3.2.2-15)
 RRECOMMENDS = 
-PKGSIZE = 7636
+PKGSIZE = 7524
 FILES = /usr/bin/apm*
 FILELIST = /usr/bin/apm

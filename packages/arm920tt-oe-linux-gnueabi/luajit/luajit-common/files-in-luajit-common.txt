@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/luajit-2.0.4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/luajit-2.0.4/jit
+-rw-r--r-- bitbake    bitbake          5606 ./usr/share/luajit-2.0.4/jit/bc.lua
+-rw-r--r-- bitbake    bitbake         18141 ./usr/share/luajit-2.0.4/jit/bcsave.lua
+-rw-r--r-- bitbake    bitbake         19364 ./usr/share/luajit-2.0.4/jit/dis_arm.lua
+-rw-r--r-- bitbake    bitbake         13222 ./usr/share/luajit-2.0.4/jit/dis_mips.lua
+-rw-r--r-- bitbake    bitbake           710 ./usr/share/luajit-2.0.4/jit/dis_mipsel.lua
+-rw-r--r-- bitbake    bitbake         20319 ./usr/share/luajit-2.0.4/jit/dis_ppc.lua
+-rw-r--r-- bitbake    bitbake           707 ./usr/share/luajit-2.0.4/jit/dis_x64.lua
+-rw-r--r-- bitbake    bitbake         29330 ./usr/share/luajit-2.0.4/jit/dis_x86.lua
+-rw-r--r-- bitbake    bitbake         19509 ./usr/share/luajit-2.0.4/jit/dump.lua
+-rw-r--r-- bitbake    bitbake          5614 ./usr/share/luajit-2.0.4/jit/v.lua
+-rw-r--r-- bitbake    bitbake          6676 ./usr/share/luajit-2.0.4/jit/vmdef.lua
