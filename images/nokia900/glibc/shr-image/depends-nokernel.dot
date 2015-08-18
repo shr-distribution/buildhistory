@@ -1539,7 +1539,6 @@ digraph depends {
 "libegl-mesa" -> "libdrm2";
 "libegl-mesa" -> "libexpat1";
 "libegl-mesa" -> "libgbm1";
-"libegl-mesa" -> "libglapi0";
 "libegl-mesa" -> "libx11-6";
 "libegl-mesa" -> "libx11-xcb1";
 "libegl-mesa" -> "libxau6";
@@ -1670,7 +1669,6 @@ digraph depends {
 "libgbm1" -> "libc6";
 "libgbm1" -> "libdrm2";
 "libgbm1" -> "libexpat1";
-"libgbm1" -> "libglapi0";
 "libgcc1" -> "libc6";
 "libgdbm-compat4" -> "libc6";
 "libgdbm-compat4" -> "libgdbm4";

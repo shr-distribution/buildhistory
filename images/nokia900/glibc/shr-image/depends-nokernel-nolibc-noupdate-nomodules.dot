@@ -1295,7 +1295,6 @@ digraph depends {
 "libegl-mesa" -> "libdrm2";
 "libegl-mesa" -> "libexpat1";
 "libegl-mesa" -> "libgbm1";
-"libegl-mesa" -> "libglapi0";
 "libegl-mesa" -> "libx11-6";
 "libegl-mesa" -> "libx11-xcb1";
 "libegl-mesa" -> "libxau6";
@@ -1399,7 +1398,6 @@ digraph depends {
 "libfsotransport3" -> "libz1";
 "libgbm1" -> "libdrm2";
 "libgbm1" -> "libexpat1";
-"libgbm1" -> "libglapi0";
 "libgdbm-compat4" -> "libgdbm4";
 "libgee-0.8-2" -> "libffi6";
 "libgee-0.8-2" -> "libglib-2.0-0";
