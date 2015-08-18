@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+lrwxrwxrwx bitbake    bitbake            12 ./usr/bin/luajit -> luajit-2.0.4
+-rwxr-xr-x bitbake    bitbake        267144 ./usr/bin/luajit-2.0.4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libluajit-5.1.so.2 -> libluajit-5.1.so.2.0.4
+-rwxr-xr-x bitbake    bitbake        271928 ./usr/lib/libluajit-5.1.so.2.0.4

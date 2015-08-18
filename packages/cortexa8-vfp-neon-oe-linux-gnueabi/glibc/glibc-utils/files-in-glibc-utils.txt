@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         18040 ./usr/bin/gencat
+-rwxr-xr-x bitbake    bitbake         17932 ./usr/bin/getconf
+-rwxr-xr-x bitbake    bitbake         18368 ./usr/bin/getent
+-rwxr-xr-x bitbake    bitbake         46896 ./usr/bin/iconv
+-rwxr-xr-x bitbake    bitbake         31792 ./usr/bin/locale
+-rwxr-xr-x bitbake    bitbake         13948 ./usr/bin/makedb
+-rwxr-xr-x bitbake    bitbake          5660 ./usr/bin/pcprofiledump
+-rwxr-xr-x bitbake    bitbake         13916 ./usr/bin/pldd
+-rwxr-xr-x bitbake    bitbake         75604 ./usr/bin/rpcgen
+-rwxr-xr-x bitbake    bitbake         22176 ./usr/bin/sprof
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         26236 ./usr/sbin/iconvconfig

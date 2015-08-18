@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          9316 ./usr/bin/fc-cache
+-rwxr-xr-x bitbake    bitbake          7432 ./usr/bin/fc-cat
+-rwxr-xr-x bitbake    bitbake          6164 ./usr/bin/fc-list
+-rwxr-xr-x bitbake    bitbake          6636 ./usr/bin/fc-match
+-rwxr-xr-x bitbake    bitbake          6168 ./usr/bin/fc-pattern
+-rwxr-xr-x bitbake    bitbake          5580 ./usr/bin/fc-query
+-rwxr-xr-x bitbake    bitbake          6172 ./usr/bin/fc-scan
+-rwxr-xr-x bitbake    bitbake          6392 ./usr/bin/fc-validate

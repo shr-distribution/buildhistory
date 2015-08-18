@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake          3041 ./usr/include/apm.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake           903 ./usr/lib/libapm.la
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libapm.so -> libapm.so.1.0.0

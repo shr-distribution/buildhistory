@@ -2,4 +2,4 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libGL.so.1 -> libGL.so.1.2.0
--rwxr-xr-x bitbake    bitbake        429180 ./usr/lib/libGL.so.1.2.0
+-rwxr-xr-x bitbake    bitbake        409040 ./usr/lib/libGL.so.1.2.0

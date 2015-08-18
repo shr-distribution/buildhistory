@@ -2,4 +2,4 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/dri
--rwxr-xr-x bitbake    bitbake       2408708 ./usr/lib/dri/swrast_dri.so
+-rwxr-xr-x bitbake    bitbake       2453564 ./usr/lib/dri/swrast_dri.so
