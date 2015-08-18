@@ -4,7 +4,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 -rwxr-xr-x bitbake    bitbake         19456 ./usr/bin/file
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libmagic.so.1 -> libmagic.so.1.0.0
--rwxr-xr-x bitbake    bitbake        131992 ./usr/lib/libmagic.so.1.0.0
+-rwxr-xr-x bitbake    bitbake        124136 ./usr/lib/libmagic.so.1.0.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/misc
--rw-r--r-- bitbake    bitbake       3865992 ./usr/share/misc/magic.mgc
+-rw-r--r-- bitbake    bitbake       3865680 ./usr/share/misc/magic.mgc

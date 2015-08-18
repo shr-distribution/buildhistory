@@ -2,4 +2,4 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
--rwxr-xr-x bitbake    bitbake        323056 ./usr/lib/libglapi.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        350104 ./usr/lib/libglapi.so.0.0.0

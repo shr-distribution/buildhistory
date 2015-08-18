@@ -1,4 +1,4 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
--rw-r--r-- bitbake    bitbake       5726642 ./usr/lib/libcurl.a
+-rw-r--r-- bitbake    bitbake       6107036 ./usr/lib/libcurl.a
