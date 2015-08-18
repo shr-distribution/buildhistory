@@ -1,4 +1,4 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
--rwxr-xr-x bitbake    bitbake        132048 ./usr/bin/curl
+-rwxr-xr-x bitbake    bitbake        133432 ./usr/bin/curl
