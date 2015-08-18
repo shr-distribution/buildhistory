@@ -2,7 +2,7 @@ drwxr-xr-x root       root             4096 .
 drwxr-xr-x root       root             4096 ./bin
 lrwxrwxrwx root       root               19 ./bin/ash -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               25 ./bin/base64 -> /usr/bin/base64.coreutils
--rwxr-xr-x root       root          1017800 ./bin/bash
+-rwxr-xr-x root       root          1017288 ./bin/bash
 lrwxrwxrwx root       root               14 ./bin/busybox -> busybox.nosuid
 -rwxr-xr-x root       root           547080 ./bin/busybox.nosuid
 -rwsr-xr-x root       root            52720 ./bin/busybox.suid
@@ -172,7 +172,7 @@ drwxr-xr-x root       root             4096 ./etc/bluetooth
 -rw-r--r-- root       root             2293 ./etc/busybox.links.nosuid
 -rw-r--r-- root       root               91 ./etc/busybox.links.suid
 drwxr-xr-x root       root             4096 ./etc/ca-certificates
--rw-r--r-- root       root             7400 ./etc/ca-certificates.conf
+-rw-r--r-- root       root             7625 ./etc/ca-certificates.conf
 drwxr-xr-x root       root             4096 ./etc/ca-certificates/update.d
 drwxr-xr-x root       root             4096 ./etc/chatscripts
 -rwxr-xr-x root       root              653 ./etc/chatscripts/pap
@@ -506,7 +506,7 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 -rw-r--r-- root       root             1633 ./etc/inputrc
 -rw-r--r-- root       root               33 ./etc/issue
 -rw-r--r-- root       root               30 ./etc/issue.net
--rw-r--r-- root       root            19244 ./etc/ld.so.cache
+-rw-r--r-- root       root            19299 ./etc/ld.so.cache
 -rw-r--r-- root       root                0 ./etc/ld.so.conf
 drwxr-xr-x root       root             4096 ./etc/libnl
 -rw-r--r-- root       root             1130 ./etc/libnl/classid
@@ -629,12 +629,12 @@ drwxr-xr-x root       root             4096 ./etc/skel
 -rwxr-xr-x root       root              410 ./etc/skel/.bashrc
 -rwxr-xr-x root       root              152 ./etc/skel/.profile
 drwxr-xr-x root       root             4096 ./etc/ssh
--rw-r--r-- root       root           242153 ./etc/ssh/moduli
+-rw-r--r-- root       root           263065 ./etc/ssh/moduli
 -rw-r--r-- root       root             1570 ./etc/ssh/ssh_config
 -rw-r--r-- root       root             3632 ./etc/ssh/sshd_config
 -rw-r--r-- root       root             3507 ./etc/ssh/sshd_config_readonly
 drwxr-xr-x root       root             4096 ./etc/ssl
-drwxr-xr-x root       root            12288 ./etc/ssl/certs
+drwxr-xr-x root       root            16384 ./etc/ssl/certs
 lrwxrwxrwx root       root               55 ./etc/ssl/certs/A-Trust-nQual-03.pem -> /usr/share/ca-certificates/mozilla/A-Trust-nQual-03.crt
 lrwxrwxrwx root       root               48 ./etc/ssl/certs/ACCVRAIZ1.pem -> /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
 lrwxrwxrwx root       root               52 ./etc/ssl/certs/ACEDICOM_Root.pem -> /usr/share/ca-certificates/mozilla/ACEDICOM_Root.crt
@@ -648,33 +648,32 @@ lrwxrwxrwx root       root               61 ./etc/ssl/certs/AffirmTrust_Commerci
 lrwxrwxrwx root       root               61 ./etc/ssl/certs/AffirmTrust_Networking.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
 lrwxrwxrwx root       root               58 ./etc/ssl/certs/AffirmTrust_Premium.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/AffirmTrust_Premium_ECC.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt
-lrwxrwxrwx root       root               84 ./etc/ssl/certs/America_Online_Root_Certification_Authority_1.pem -> /usr/share/ca-certificates/mozilla/America_Online_Root_Certification_Authority_1.crt
-lrwxrwxrwx root       root               84 ./etc/ssl/certs/America_Online_Root_Certification_Authority_2.pem -> /usr/share/ca-certificates/mozilla/America_Online_Root_Certification_Authority_2.crt
 lrwxrwxrwx root       root               74 ./etc/ssl/certs/ApplicationCA_-_Japanese_Government.pem -> /usr/share/ca-certificates/mozilla/ApplicationCA_-_Japanese_Government.crt
 lrwxrwxrwx root       root               60 ./etc/ssl/certs/Atos_TrustedRoot_2011.pem -> /usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt
 lrwxrwxrwx root       root               96 ./etc/ssl/certs/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem -> /usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
 lrwxrwxrwx root       root               64 ./etc/ssl/certs/Baltimore_CyberTrust_Root.pem -> /usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
 lrwxrwxrwx root       root               59 ./etc/ssl/certs/Buypass_Class_2_CA_1.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_2_CA_1.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/Buypass_Class_2_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
-lrwxrwxrwx root       root               59 ./etc/ssl/certs/Buypass_Class_3_CA_1.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_3_CA_1.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/Buypass_Class_3_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
 lrwxrwxrwx root       root               47 ./etc/ssl/certs/CA_Disig.pem -> /usr/share/ca-certificates/mozilla/CA_Disig.crt
 lrwxrwxrwx root       root               55 ./etc/ssl/certs/CA_Disig_Root_R1.pem -> /usr/share/ca-certificates/mozilla/CA_Disig_Root_R1.crt
 lrwxrwxrwx root       root               55 ./etc/ssl/certs/CA_Disig_Root_R2.pem -> /usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
+lrwxrwxrwx root       root               51 ./etc/ssl/certs/CFCA_EV_ROOT.pem -> /usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
 lrwxrwxrwx root       root               49 ./etc/ssl/certs/CNNIC_ROOT.pem -> /usr/share/ca-certificates/mozilla/CNNIC_ROOT.crt
 lrwxrwxrwx root       root               69 ./etc/ssl/certs/COMODO_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt
 lrwxrwxrwx root       root               73 ./etc/ssl/certs/COMODO_ECC_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/COMODO_RSA_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt
 lrwxrwxrwx root       root               75 ./etc/ssl/certs/Camerfirma_Chambers_of_Commerce_Root.pem -> /usr/share/ca-certificates/mozilla/Camerfirma_Chambers_of_Commerce_Root.crt
 lrwxrwxrwx root       root               73 ./etc/ssl/certs/Camerfirma_Global_Chambersign_Root.pem -> /usr/share/ca-certificates/mozilla/Camerfirma_Global_Chambersign_Root.crt
 lrwxrwxrwx root       root               47 ./etc/ssl/certs/Certigna.pem -> /usr/share/ca-certificates/mozilla/Certigna.crt
 lrwxrwxrwx root       root               68 ./etc/ssl/certs/Certinomis_-_Autorité_Racine.pem -> /usr/share/ca-certificates/mozilla/Certinomis_-_Autorité_Racine.crt
+lrwxrwxrwx root       root               59 ./etc/ssl/certs/Certinomis_-_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt
 lrwxrwxrwx root       root               66 ./etc/ssl/certs/Certplus_Class_2_Primary_CA.pem -> /usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt
 lrwxrwxrwx root       root               53 ./etc/ssl/certs/Certum_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Certum_Root_CA.crt
 lrwxrwxrwx root       root               64 ./etc/ssl/certs/Certum_Trusted_Network_CA.pem -> /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt
 lrwxrwxrwx root       root               71 ./etc/ssl/certs/Chambers_of_Commerce_Root_-_2008.pem -> /usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt
 lrwxrwxrwx root       root              101 ./etc/ssl/certs/China_Internet_Network_Information_Center_EV_Certificates_Root.pem -> /usr/share/ca-certificates/mozilla/China_Internet_Network_Information_Center_EV_Certificates_Root.crt
 lrwxrwxrwx root       root               49 ./etc/ssl/certs/ComSign_CA.pem -> /usr/share/ca-certificates/mozilla/ComSign_CA.crt
-lrwxrwxrwx root       root               57 ./etc/ssl/certs/ComSign_Secured_CA.pem -> /usr/share/ca-certificates/mozilla/ComSign_Secured_CA.crt
 lrwxrwxrwx root       root               63 ./etc/ssl/certs/Comodo_AAA_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
 lrwxrwxrwx root       root               66 ./etc/ssl/certs/Comodo_Secure_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_Secure_Services_root.crt
 lrwxrwxrwx root       root               67 ./etc/ssl/certs/Comodo_Trusted_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_Trusted_Services_root.crt
@@ -694,17 +693,17 @@ lrwxrwxrwx root       root               73 ./etc/ssl/certs/DigiCert_High_Assura
 lrwxrwxrwx root       root               63 ./etc/ssl/certs/DigiCert_Trusted_Root_G4.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
 lrwxrwxrwx root       root               78 ./etc/ssl/certs/Digital_Signature_Trust_Co._Global_CA_1.pem -> /usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt
 lrwxrwxrwx root       root               78 ./etc/ssl/certs/Digital_Signature_Trust_Co._Global_CA_3.pem -> /usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt
-lrwxrwxrwx root       root               90 ./etc/ssl/certs/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.pem -> /usr/share/ca-certificates/mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt
 lrwxrwxrwx root       root               70 ./etc/ssl/certs/E-Tugra_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt
 lrwxrwxrwx root       root               86 ./etc/ssl/certs/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.pem -> /usr/share/ca-certificates/mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt
 lrwxrwxrwx root       root               45 ./etc/ssl/certs/EC-ACC.pem -> /usr/share/ca-certificates/mozilla/EC-ACC.crt
 lrwxrwxrwx root       root               70 ./etc/ssl/certs/EE_Certification_Centre_Root_CA.pem -> /usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
 lrwxrwxrwx root       root               80 ./etc/ssl/certs/Entrust.net_Premium_2048_Secure_Server_CA.pem -> /usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
 lrwxrwxrwx root       root               75 ./etc/ssl/certs/Entrust_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
+lrwxrwxrwx root       root               81 ./etc/ssl/certs/Entrust_Root_Certification_Authority_-_EC1.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
+lrwxrwxrwx root       root               80 ./etc/ssl/certs/Entrust_Root_Certification_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
 lrwxrwxrwx root       root               56 ./etc/ssl/certs/Equifax_Secure_CA.pem -> /usr/share/ca-certificates/mozilla/Equifax_Secure_CA.crt
 lrwxrwxrwx root       root               73 ./etc/ssl/certs/Equifax_Secure_Global_eBusiness_CA.pem -> /usr/share/ca-certificates/mozilla/Equifax_Secure_Global_eBusiness_CA.crt
 lrwxrwxrwx root       root               68 ./etc/ssl/certs/Equifax_Secure_eBusiness_CA_1.pem -> /usr/share/ca-certificates/mozilla/Equifax_Secure_eBusiness_CA_1.crt
-lrwxrwxrwx root       root               65 ./etc/ssl/certs/GTE_CyberTrust_Global_Root.pem -> /usr/share/ca-certificates/mozilla/GTE_CyberTrust_Global_Root.crt
 lrwxrwxrwx root       root               57 ./etc/ssl/certs/GeoTrust_Global_CA.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt
 lrwxrwxrwx root       root               59 ./etc/ssl/certs/GeoTrust_Global_CA_2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA_2.crt
 lrwxrwxrwx root       root               79 ./etc/ssl/certs/GeoTrust_Primary_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt
@@ -712,6 +711,8 @@ lrwxrwxrwx root       root               84 ./etc/ssl/certs/GeoTrust_Primary_Cer
 lrwxrwxrwx root       root               84 ./etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt
 lrwxrwxrwx root       root               60 ./etc/ssl/certs/GeoTrust_Universal_CA.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/GeoTrust_Universal_CA_2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R4.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
+lrwxrwxrwx root       root               66 ./etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R5.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
 lrwxrwxrwx root       root               57 ./etc/ssl/certs/GlobalSign_Root_CA.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/GlobalSign_Root_CA_-_R2.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/GlobalSign_Root_CA_-_R3.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
@@ -721,6 +722,8 @@ lrwxrwxrwx root       root               79 ./etc/ssl/certs/Go_Daddy_Root_Certif
 lrwxrwxrwx root       root               94 ./etc/ssl/certs/Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt
 lrwxrwxrwx root       root               62 ./etc/ssl/certs/Hongkong_Post_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt
 lrwxrwxrwx root       root               44 ./etc/ssl/certs/IGC_A.pem -> /usr/share/ca-certificates/mozilla/IGC_A.crt
+lrwxrwxrwx root       root               69 ./etc/ssl/certs/IdenTrust_Commercial_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt
+lrwxrwxrwx root       root               72 ./etc/ssl/certs/IdenTrust_Public_Sector_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt
 lrwxrwxrwx root       root               49 ./etc/ssl/certs/Izenpe.com.pem -> /usr/share/ca-certificates/mozilla/Izenpe.com.crt
 lrwxrwxrwx root       root               46 ./etc/ssl/certs/Juur-SK.pem -> /usr/share/ca-certificates/mozilla/Juur-SK.crt
 lrwxrwxrwx root       root               64 ./etc/ssl/certs/Microsec_e-Szigno_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA.crt
@@ -742,7 +745,7 @@ lrwxrwxrwx root       root               60 ./etc/ssl/certs/QuoVadis_Root_CA_3_G
 lrwxrwxrwx root       root               59 ./etc/ssl/certs/RSA_Security_2048_v3.pem -> /usr/share/ca-certificates/mozilla/RSA_Security_2048_v3.crt
 lrwxrwxrwx root       root               69 ./etc/ssl/certs/Root_CA_Generalitat_Valenciana.pem -> /usr/share/ca-certificates/mozilla/Root_CA_Generalitat_Valenciana.crt
 lrwxrwxrwx root       root               92 ./etc/ssl/certs/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem -> /usr/share/ca-certificates/mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt
-lrwxrwxrwx root       root               63 ./etc/ssl/certs/SG_TRUST_SERVICES_RACINE.pem -> /usr/share/ca-certificates/mozilla/SG_TRUST_SERVICES_RACINE.crt
+lrwxrwxrwx root       root               64 ./etc/ssl/certs/S-TRUST_Universal_Root_CA.pem -> /usr/share/ca-certificates/mozilla/S-TRUST_Universal_Root_CA.crt
 lrwxrwxrwx root       root               58 ./etc/ssl/certs/SecureSign_RootCA11.pem -> /usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
 lrwxrwxrwx root       root               53 ./etc/ssl/certs/SecureTrust_CA.pem -> /usr/share/ca-certificates/mozilla/SecureTrust_CA.crt
 lrwxrwxrwx root       root               55 ./etc/ssl/certs/Secure_Global_CA.pem -> /usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
@@ -751,8 +754,10 @@ lrwxrwxrwx root       root               69 ./etc/ssl/certs/Security_Communicati
 lrwxrwxrwx root       root               69 ./etc/ssl/certs/Security_Communication_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt
 lrwxrwxrwx root       root               61 ./etc/ssl/certs/Sonera_Class_1_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Sonera_Class_1_Root_CA.crt
 lrwxrwxrwx root       root               61 ./etc/ssl/certs/Sonera_Class_2_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt
+lrwxrwxrwx root       root               71 ./etc/ssl/certs/Staat_der_Nederlanden_EV_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt
 lrwxrwxrwx root       root               68 ./etc/ssl/certs/Staat_der_Nederlanden_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA.crt
 lrwxrwxrwx root       root               73 ./etc/ssl/certs/Staat_der_Nederlanden_Root_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt
+lrwxrwxrwx root       root               73 ./etc/ssl/certs/Staat_der_Nederlanden_Root_CA_-_G3.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt
 lrwxrwxrwx root       root               59 ./etc/ssl/certs/Starfield_Class_2_CA.pem -> /usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
 lrwxrwxrwx root       root               80 ./etc/ssl/certs/Starfield_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
 lrwxrwxrwx root       root               89 ./etc/ssl/certs/Starfield_Services_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
@@ -767,20 +772,19 @@ lrwxrwxrwx root       root               57 ./etc/ssl/certs/Swisscom_Root_CA_2.p
 lrwxrwxrwx root       root               60 ./etc/ssl/certs/Swisscom_Root_EV_CA_2.pem -> /usr/share/ca-certificates/mozilla/Swisscom_Root_EV_CA_2.crt
 lrwxrwxrwx root       root               67 ./etc/ssl/certs/T-TeleSec_GlobalRoot_Class_2.pem -> /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
 lrwxrwxrwx root       root               67 ./etc/ssl/certs/T-TeleSec_GlobalRoot_Class_3.pem -> /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
-lrwxrwxrwx root       root               67 ./etc/ssl/certs/TC_TrustCenter_Class_2_CA_II.pem -> /usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_2_CA_II.crt
 lrwxrwxrwx root       root               67 ./etc/ssl/certs/TC_TrustCenter_Class_3_CA_II.pem -> /usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_3_CA_II.crt
-lrwxrwxrwx root       root               68 ./etc/ssl/certs/TC_TrustCenter_Universal_CA_I.pem -> /usr/share/ca-certificates/mozilla/TC_TrustCenter_Universal_CA_I.crt
-lrwxrwxrwx root       root               85 ./etc/ssl/certs/TURKTRUST_Certificate_Services_Provider_Root_1.pem -> /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt
 lrwxrwxrwx root       root               85 ./etc/ssl/certs/TURKTRUST_Certificate_Services_Provider_Root_2.pem -> /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt
 lrwxrwxrwx root       root               88 ./etc/ssl/certs/TURKTRUST_Certificate_Services_Provider_Root_2007.pem -> /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt
 lrwxrwxrwx root       root               58 ./etc/ssl/certs/TWCA_Global_Root_CA.pem -> /usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt
 lrwxrwxrwx root       root               72 ./etc/ssl/certs/TWCA_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt
 lrwxrwxrwx root       root               50 ./etc/ssl/certs/Taiwan_GRCA.pem -> /usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt
 lrwxrwxrwx root       root               61 ./etc/ssl/certs/TeliaSonera_Root_CA_v1.pem -> /usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt
-lrwxrwxrwx root       root               63 ./etc/ssl/certs/Thawte_Premium_Server_CA.pem -> /usr/share/ca-certificates/mozilla/Thawte_Premium_Server_CA.crt
-lrwxrwxrwx root       root               55 ./etc/ssl/certs/Thawte_Server_CA.pem -> /usr/share/ca-certificates/mozilla/Thawte_Server_CA.crt
 lrwxrwxrwx root       root               58 ./etc/ssl/certs/Trustis_FPS_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt
 lrwxrwxrwx root       root              104 ./etc/ssl/certs/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem -> /usr/share/ca-certificates/mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt
+lrwxrwxrwx root       root               96 ./etc/ssl/certs/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem -> /usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.crt
+lrwxrwxrwx root       root               96 ./etc/ssl/certs/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.pem -> /usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.crt
+lrwxrwxrwx root       root               76 ./etc/ssl/certs/USERTrust_ECC_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
+lrwxrwxrwx root       root               76 ./etc/ssl/certs/USERTrust_RSA_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
 lrwxrwxrwx root       root               63 ./etc/ssl/certs/UTN_DATACorp_SGC_Root_CA.pem -> /usr/share/ca-certificates/mozilla/UTN_DATACorp_SGC_Root_CA.crt
 lrwxrwxrwx root       root               66 ./etc/ssl/certs/UTN_USERFirst_Email_Root_CA.pem -> /usr/share/ca-certificates/mozilla/UTN_USERFirst_Email_Root_CA.crt
 lrwxrwxrwx root       root               69 ./etc/ssl/certs/UTN_USERFirst_Hardware_Root_CA.pem -> /usr/share/ca-certificates/mozilla/UTN_USERFirst_Hardware_Root_CA.crt
@@ -802,7 +806,7 @@ lrwxrwxrwx root       root               84 ./etc/ssl/certs/WellsSecure_Public_R
 lrwxrwxrwx root       root               45 ./etc/ssl/certs/WoSign.pem -> /usr/share/ca-certificates/mozilla/WoSign.crt
 lrwxrwxrwx root       root               51 ./etc/ssl/certs/WoSign_China.pem -> /usr/share/ca-certificates/mozilla/WoSign_China.crt
 lrwxrwxrwx root       root               59 ./etc/ssl/certs/XRamp_Global_CA_Root.pem -> /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
--rw-r--r-- root       root           273790 ./etc/ssl/certs/ca-certificates.crt
+-rw-r--r-- root       root           282094 ./etc/ssl/certs/ca-certificates.crt
 lrwxrwxrwx root       root               55 ./etc/ssl/certs/certSIGN_ROOT_CA.pem -> /usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
 lrwxrwxrwx root       root               72 ./etc/ssl/certs/ePKI_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
 lrwxrwxrwx root       root               58 ./etc/ssl/certs/spi-cacert-2008.pem -> /usr/share/ca-certificates/spi-inc.org/spi-cacert-2008.crt
@@ -948,29 +952,29 @@ drwxr-xr-x root       root             4096 ./lib/firmware/libertas
 -rw-r--r-- root       root             2516 ./lib/firmware/libertas/sd8686_v9_helper.bin
 lrwxrwxrwx root       root               22 ./lib/firmware/sd8686.bin -> libertas/sd8686_v9.bin
 lrwxrwxrwx root       root               29 ./lib/firmware/sd8686_helper.bin -> libertas/sd8686_v9_helper.bin
--rwxr-xr-x root       root           144912 ./lib/ld-2.21.so
-lrwxrwxrwx root       root               10 ./lib/ld-linux-x86-64.so.2 -> ld-2.21.so
--rwxr-xr-x root       root             6136 ./lib/libBrokenLocale-2.21.so
-lrwxrwxrwx root       root               23 ./lib/libBrokenLocale.so.1 -> libBrokenLocale-2.21.so
+-rwxr-xr-x root       root           144912 ./lib/ld-2.22.so
+lrwxrwxrwx root       root               10 ./lib/ld-linux-x86-64.so.2 -> ld-2.22.so
+-rwxr-xr-x root       root             6136 ./lib/libBrokenLocale-2.22.so
+lrwxrwxrwx root       root               23 ./lib/libBrokenLocale.so.1 -> libBrokenLocale-2.22.so
 lrwxrwxrwx root       root               15 ./lib/libacl.so.1 -> libacl.so.1.1.0
 -rw-r--r-- root       root            31864 ./lib/libacl.so.1.1.0
--rwxr-xr-x root       root            14824 ./lib/libanl-2.21.so
-lrwxrwxrwx root       root               14 ./lib/libanl.so.1 -> libanl-2.21.so
+-rwxr-xr-x root       root            14824 ./lib/libanl-2.22.so
+lrwxrwxrwx root       root               14 ./lib/libanl.so.1 -> libanl-2.22.so
 lrwxrwxrwx root       root               16 ./lib/libattr.so.1 -> libattr.so.1.1.0
 -rw-r--r-- root       root            17856 ./lib/libattr.so.1.1.0
 lrwxrwxrwx root       root               17 ./lib/libblkid.so.1 -> libblkid.so.1.1.0
 -rwxr-xr-x root       root           259040 ./lib/libblkid.so.1.1.0
--rwxr-xr-x root       root          1705968 ./lib/libc-2.21.so
-lrwxrwxrwx root       root               12 ./lib/libc.so.6 -> libc-2.21.so
+-rwxr-xr-x root       root          1710128 ./lib/libc-2.22.so
+lrwxrwxrwx root       root               12 ./lib/libc.so.6 -> libc-2.22.so
 lrwxrwxrwx root       root               14 ./lib/libcap.so.2 -> libcap.so.2.24
 -rw-r--r-- root       root            17248 ./lib/libcap.so.2.24
 lrwxrwxrwx root       root               17 ./lib/libcom_err.so.2 -> libcom_err.so.2.1
 -rwxr-xr-x root       root            12592 ./lib/libcom_err.so.2.1
--rwxr-xr-x root       root            35008 ./lib/libcrypt-2.21.so
-lrwxrwxrwx root       root               16 ./lib/libcrypt.so.1 -> libcrypt-2.21.so
+-rwxr-xr-x root       root            34992 ./lib/libcrypt-2.22.so
+lrwxrwxrwx root       root               16 ./lib/libcrypt.so.1 -> libcrypt-2.22.so
 -rwxr-xr-x root       root          2396440 ./lib/libcrypto.so.1.0.0
--rwxr-xr-x root       root            14568 ./lib/libdl-2.21.so
-lrwxrwxrwx root       root               13 ./lib/libdl.so.2 -> libdl-2.21.so
+-rwxr-xr-x root       root            14568 ./lib/libdl-2.22.so
+lrwxrwxrwx root       root               13 ./lib/libdl.so.2 -> libdl-2.22.so
 lrwxrwxrwx root       root               13 ./lib/libe2p.so.2 -> libe2p.so.2.3
 -rwxr-xr-x root       root            28936 ./lib/libe2p.so.2.3
 lrwxrwxrwx root       root               16 ./lib/libext2fs.so.2 -> libext2fs.so.2.4
@@ -978,41 +982,43 @@ lrwxrwxrwx root       root               16 ./lib/libext2fs.so.2 -> libext2fs.so
 lrwxrwxrwx root       root               17 ./lib/libfdisk.so.1 -> libfdisk.so.1.1.0
 -rwxr-xr-x root       root           344160 ./lib/libfdisk.so.1.1.0
 -rw-r--r-- root       root            70840 ./lib/libgcc_s.so.1
--rwxr-xr-x root       root          1067272 ./lib/libm-2.21.so
-lrwxrwxrwx root       root               12 ./lib/libm.so.6 -> libm-2.21.so
+-rwxr-xr-x root       root          1042696 ./lib/libm-2.22.so
+lrwxrwxrwx root       root               12 ./lib/libm.so.6 -> libm-2.22.so
 lrwxrwxrwx root       root               17 ./lib/libmount.so.1 -> libmount.so.1.1.0
 -rwxr-xr-x root       root           283424 ./lib/libmount.so.1.1.0
+-rwxr-xr-x root       root           166224 ./lib/libmvec-2.22.so
+lrwxrwxrwx root       root               15 ./lib/libmvec.so.1 -> libmvec-2.22.so
 lrwxrwxrwx root       root               17 ./lib/libncurses.so.5 -> libncurses.so.5.9
 -rwxr-xr-x root       root           159968 ./lib/libncurses.so.5.9
 lrwxrwxrwx root       root               18 ./lib/libncursesw.so.5 -> libncursesw.so.5.9
 -rwxr-xr-x root       root           225872 ./lib/libncursesw.so.5.9
--rwxr-xr-x root       root            88936 ./lib/libnsl-2.21.so
-lrwxrwxrwx root       root               14 ./lib/libnsl.so.1 -> libnsl-2.21.so
--rwxr-xr-x root       root            31496 ./lib/libnss_compat-2.21.so
-lrwxrwxrwx root       root               21 ./lib/libnss_compat.so.2 -> libnss_compat-2.21.so
--rwxr-xr-x root       root            22784 ./lib/libnss_dns-2.21.so
-lrwxrwxrwx root       root               18 ./lib/libnss_dns.so.2 -> libnss_dns-2.21.so
--rwxr-xr-x root       root            47544 ./lib/libnss_files-2.21.so
-lrwxrwxrwx root       root               20 ./lib/libnss_files.so.2 -> libnss_files-2.21.so
+-rwxr-xr-x root       root            88936 ./lib/libnsl-2.22.so
+lrwxrwxrwx root       root               14 ./lib/libnsl.so.1 -> libnsl-2.22.so
+-rwxr-xr-x root       root            31496 ./lib/libnss_compat-2.22.so
+lrwxrwxrwx root       root               21 ./lib/libnss_compat.so.2 -> libnss_compat-2.22.so
+-rwxr-xr-x root       root            22784 ./lib/libnss_dns-2.22.so
+lrwxrwxrwx root       root               18 ./lib/libnss_dns.so.2 -> libnss_dns-2.22.so
+-rwxr-xr-x root       root            47472 ./lib/libnss_files-2.22.so
+lrwxrwxrwx root       root               20 ./lib/libnss_files.so.2 -> libnss_files-2.22.so
 lrwxrwxrwx root       root               16 ./lib/libpam.so.0 -> libpam.so.0.84.1
 -rwxr-xr-x root       root            54880 ./lib/libpam.so.0.84.1
 lrwxrwxrwx root       root               21 ./lib/libpam_misc.so.0 -> libpam_misc.so.0.82.1
 -rwxr-xr-x root       root            11256 ./lib/libpam_misc.so.0.82.1
 lrwxrwxrwx root       root               17 ./lib/libpamc.so.0 -> libpamc.so.0.82.1
 -rwxr-xr-x root       root            11888 ./lib/libpamc.so.0.82.1
--rwxr-xr-x root       root           101936 ./lib/libpthread-2.21.so
-lrwxrwxrwx root       root               18 ./lib/libpthread.so.0 -> libpthread-2.21.so
--rwxr-xr-x root       root            88784 ./lib/libresolv-2.21.so
-lrwxrwxrwx root       root               17 ./lib/libresolv.so.2 -> libresolv-2.21.so
--rwxr-xr-x root       root            31584 ./lib/librt-2.21.so
-lrwxrwxrwx root       root               13 ./lib/librt.so.1 -> librt-2.21.so
+-rwxr-xr-x root       root           101944 ./lib/libpthread-2.22.so
+lrwxrwxrwx root       root               18 ./lib/libpthread.so.0 -> libpthread-2.22.so
+-rwxr-xr-x root       root            84688 ./lib/libresolv-2.22.so
+lrwxrwxrwx root       root               17 ./lib/libresolv.so.2 -> libresolv-2.22.so
+-rwxr-xr-x root       root            31584 ./lib/librt-2.22.so
+lrwxrwxrwx root       root               13 ./lib/librt.so.1 -> librt-2.22.so
 lrwxrwxrwx root       root               21 ./lib/libsmartcols.so.1 -> libsmartcols.so.1.1.0
 -rwxr-xr-x root       root           136128 ./lib/libsmartcols.so.1.1.0
 lrwxrwxrwx root       root               17 ./lib/libsysfs.so.2 -> libsysfs.so.2.0.1
 -rwxr-xr-x root       root            44024 ./lib/libsysfs.so.2.0.1
 lrwxrwxrwx root       root               19 ./lib/libsystemd.so.0 -> libsystemd.so.0.6.0
 -rwxr-xr-x root       root           162408 ./lib/libsystemd.so.0.6.0
--rwxr-xr-x root       root            31408 ./lib/libthread_db-1.0.so
+-rwxr-xr-x root       root            35624 ./lib/libthread_db-1.0.so
 lrwxrwxrwx root       root               19 ./lib/libthread_db.so.1 -> libthread_db-1.0.so
 lrwxrwxrwx root       root               15 ./lib/libtinfo.so.5 -> libtinfo.so.5.9
 -rwxr-xr-x root       root           167560 ./lib/libtinfo.so.5.9
@@ -1020,8 +1026,8 @@ lrwxrwxrwx root       root               16 ./lib/libudev.so.1 -> libudev.so.1.6
 -rwxr-xr-x root       root            85936 ./lib/libudev.so.1.6.2
 lrwxrwxrwx root       root               19 ./lib/libusb-1.0.so.0 -> libusb-1.0.so.0.1.0
 -rwxr-xr-x root       root            94376 ./lib/libusb-1.0.so.0.1.0
--rwxr-xr-x root       root            10520 ./lib/libutil-2.21.so
-lrwxrwxrwx root       root               15 ./lib/libutil.so.1 -> libutil-2.21.so
+-rwxr-xr-x root       root            10520 ./lib/libutil-2.22.so
+lrwxrwxrwx root       root               15 ./lib/libutil.so.1 -> libutil-2.22.so
 lrwxrwxrwx root       root               16 ./lib/libuuid.so.1 -> libuuid.so.1.3.0
 -rwxr-xr-x root       root            15704 ./lib/libuuid.so.1.3.0
 lrwxrwxrwx root       root               16 ./lib/libwrap.so.0 -> libwrap.so.0.7.6
@@ -1525,7 +1531,7 @@ lrwxrwxrwx root       root               17 ./sbin/insmod -> /sbin/insmod.kmod
 lrwxrwxrwx root       root               11 ./sbin/insmod.kmod -> ../bin/kmod
 lrwxrwxrwx root       root               19 ./sbin/ip -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./sbin/klogd -> /bin/busybox.nosuid
--rwxr-xr-x root       root           879216 ./sbin/ldconfig
+-rwxr-xr-x root       root           881456 ./sbin/ldconfig
 lrwxrwxrwx root       root               19 ./sbin/loadkmap -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./sbin/logread -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./sbin/losetup -> /bin/busybox.nosuid
@@ -1595,8 +1601,8 @@ lrwxrwxrwx root       root               25 ./usr/bin/babiloo -> /usr/share/babi
 -rwxr-xr-x root       root            40016 ./usr/bin/base64.coreutils
 lrwxrwxrwx root       root               27 ./usr/bin/basename -> /usr/bin/basename.coreutils
 -rwxr-xr-x root       root            33008 ./usr/bin/basename.coreutils
--r-xr-xr-x root       root             7168 ./usr/bin/bashbug
--rwxr-xr-x root       root           153504 ./usr/bin/bccmd
+-r-xr-xr-x root       root             7186 ./usr/bin/bashbug
+-rwxr-xr-x root       root           154848 ./usr/bin/bccmd
 -rwxr-xr-x root       root            31496 ./usr/bin/bluemoon
 -rwxr-xr-x root       root           108008 ./usr/bin/bluetoothctl
 -rwxr-xr-x root       root            55920 ./usr/bin/bootctl
@@ -1614,7 +1620,7 @@ lrwxrwxrwx root       root               20 ./usr/bin/chsh -> /usr/bin/chsh.shad
 -rwsr-xr-x root       root            36304 ./usr/bin/chsh.shadow
 lrwxrwxrwx root       root               19 ./usr/bin/chvt -> /bin/busybox.nosuid
 -rwxr-xr-x root       root            24600 ./usr/bin/cifsiostat
--rwxr-xr-x root       root           110944 ./usr/bin/ciptool
+-rwxr-xr-x root       root           112224 ./usr/bin/ciptool
 lrwxrwxrwx root       root               24 ./usr/bin/cksum -> /usr/bin/cksum.coreutils
 -rwxr-xr-x root       root            35880 ./usr/bin/cksum.coreutils
 lrwxrwxrwx root       root               19 ./usr/bin/clear -> /bin/busybox.nosuid
@@ -1629,7 +1635,7 @@ drwxr-xr-x root       root             4096 ./usr/bin/crossscripts
 lrwxrwxrwx root       root               25 ./usr/bin/csplit -> /usr/bin/csplit.coreutils
 -rwxr-xr-x root       root           118032 ./usr/bin/csplit.coreutils
 -rwxr-xr-x root       root            18080 ./usr/bin/csslint-0.6
--rwxr-xr-x root       root           160784 ./usr/bin/curl
+-rwxr-xr-x root       root           163072 ./usr/bin/curl
 lrwxrwxrwx root       root               22 ./usr/bin/cut -> /usr/bin/cut.coreutils
 -rwxr-xr-x root       root            41608 ./usr/bin/cut.coreutils
 -rwxr-xr-x root       root            12456 ./usr/bin/cvt
@@ -1726,8 +1732,8 @@ lrwxrwxrwx root       root               25 ./usr/bin/factor -> /usr/bin/factor.
 -rwxr-xr-x root       root             8768 ./usr/bin/fc-list
 -rwxr-xr-x root       root             9760 ./usr/bin/fc-match
 -rwxr-xr-x root       root             8584 ./usr/bin/fc-pattern
--rwxr-xr-x root       root             7672 ./usr/bin/fc-query
--rwxr-xr-x root       root             8072 ./usr/bin/fc-scan
+-rwxr-xr-x root       root             8096 ./usr/bin/fc-query
+-rwxr-xr-x root       root             8368 ./usr/bin/fc-scan
 -rwxr-xr-x root       root             9512 ./usr/bin/fc-validate
 -rwxr-xr-x root       root            73904 ./usr/bin/ffphonelog
 -rwxr-xr-x root       root            82200 ./usr/bin/filan
@@ -1781,10 +1787,10 @@ lrwxrwxrwx root       root               22 ./usr/bin/groups -> /usr/bin/groups.
 -rwxr-xr-x root       root            10192 ./usr/bin/gtk-query-immodules-2.0
 lrwxrwxrwx root       root               34 ./usr/bin/gtk-update-icon-cache -> /usr/bin/gtk-update-icon-cache-2.0
 -rwxr-xr-x root       root            28448 ./usr/bin/gtk-update-icon-cache-2.0
--rwxr-xr-x root       root           106856 ./usr/bin/hciattach
--rwxr-xr-x root       root           149224 ./usr/bin/hciconfig
--rwxr-xr-x root       root           399008 ./usr/bin/hcidump
--rwxr-xr-x root       root           111648 ./usr/bin/hcitool
+-rwxr-xr-x root       root           109736 ./usr/bin/hciattach
+-rwxr-xr-x root       root           152680 ./usr/bin/hciconfig
+-rwxr-xr-x root       root           399584 ./usr/bin/hcidump
+-rwxr-xr-x root       root           115488 ./usr/bin/hcitool
 lrwxrwxrwx root       root               23 ./usr/bin/head -> /usr/bin/head.coreutils
 -rwxr-xr-x root       root            44104 ./usr/bin/head.coreutils
 -rwxr-xr-x root       root            10968 ./usr/bin/hex2hcd
@@ -1806,7 +1812,7 @@ lrwxrwxrwx root       root               23 ./usr/bin/join -> /usr/bin/join.core
 -rwxr-xr-x root       root            48232 ./usr/bin/join.coreutils
 lrwxrwxrwx root       root               23 ./usr/bin/killall -> /usr/bin/killall.psmisc
 -rwxr-xr-x root       root            20584 ./usr/bin/killall.psmisc
--rwxr-xr-x root       root            70496 ./usr/bin/l2ping
+-rwxr-xr-x root       root            70816 ./usr/bin/l2ping
 -rwxr-xr-x root       root            87264 ./usr/bin/l2test
 -rwxr-xr-x root       root            13088 ./usr/bin/lastlog
 -rwxr-xr-x root       root            36992 ./usr/bin/lbracket.coreutils
@@ -1814,7 +1820,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/less -> /bin/busybox.nosui
 -rwxr-xr-x root       root             8504 ./usr/bin/libevdev-tweak-device
 lrwxrwxrwx root       root               23 ./usr/bin/link -> /usr/bin/link.coreutils
 -rwxr-xr-x root       root            31752 ./usr/bin/link.coreutils
--rwxr-xr-x root       root            38840 ./usr/bin/locale
+-rwxr-xr-x root       root            38872 ./usr/bin/locale
 -rwxr-xr-x root       root           285944 ./usr/bin/localectl
 -rwxr-xr-x root       root           161544 ./usr/bin/locate
 lrwxrwxrwx root       root               19 ./usr/bin/logger -> /bin/busybox.nosuid
@@ -1822,8 +1828,8 @@ lrwxrwxrwx root       root               26 ./usr/bin/logname -> /usr/bin/lognam
 -rwxr-xr-x root       root            31760 ./usr/bin/logname.coreutils
 -rwxr-xr-x root       root            62840 ./usr/bin/logrotate
 -rwxr-xr-x root       root           162512 ./usr/bin/ltrace
-lrwxrwxrwx root       root               12 ./usr/bin/luajit -> luajit-2.0.3
--rwxr-xr-x root       root           449760 ./usr/bin/luajit-2.0.3
+lrwxrwxrwx root       root               12 ./usr/bin/luajit -> luajit-2.0.4
+-rwxr-xr-x root       root           450048 ./usr/bin/luajit-2.0.4
 -rwxr-xr-x root       root           203984 ./usr/bin/make
 -rwxr-xr-x root       root            18904 ./usr/bin/makedb
 -rwxr-xr-x root       root            64928 ./usr/bin/mbuffer
@@ -1938,7 +1944,7 @@ lrwxrwxrwx root       root                9 ./usr/bin/python2 -> python2.7
 lrwxrwxrwx root       root               16 ./usr/bin/python2-config -> python2.7-config
 -rwxr-xr-x root       root             5080 ./usr/bin/python2.7
 -rwxr-xr-x root       root             1681 ./usr/bin/python2.7-config
--rwxr-xr-x root       root           114464 ./usr/bin/rctest
+-rwxr-xr-x root       root           115808 ./usr/bin/rctest
 lrwxrwxrwx root       root               27 ./usr/bin/readlink -> /usr/bin/readlink.coreutils
 -rwxr-xr-x root       root            45680 ./usr/bin/readlink.coreutils
 lrwxrwxrwx root       root               27 ./usr/bin/realpath -> /usr/bin/realpath.coreutils
@@ -1960,9 +1966,9 @@ lrwxrwxrwx root       root                3 ./usr/bin/rvim -> vim
 -rwxr-xr-x root       root            97024 ./usr/bin/sar
 lrwxrwxrwx root       root               20 ./usr/bin/scp -> /usr/bin/scp.openssh
 -rwxr-xr-x root       root            79960 ./usr/bin/scp.openssh
-lrwxrwxrwx root       root               12 ./usr/bin/screen -> screen-4.0.3
--rwsr-xr-x root       root           352080 ./usr/bin/screen-4.0.3
--rwxr-xr-x root       root           168928 ./usr/bin/sdptool
+lrwxrwxrwx root       root               12 ./usr/bin/screen -> screen-4.3.1
+-rwsr-xr-x root       root           417048 ./usr/bin/screen-4.3.1
+-rwxr-xr-x root       root           170336 ./usr/bin/sdptool
 lrwxrwxrwx root       root               11 ./usr/bin/see -> run-mailcap
 lrwxrwxrwx root       root               22 ./usr/bin/seq -> /usr/bin/seq.coreutils
 -rwxr-xr-x root       root            52296 ./usr/bin/seq.coreutils
@@ -2004,7 +2010,7 @@ lrwxrwxrwx root       root               24 ./usr/bin/split -> /usr/bin/split.co
 -rwxr-xr-x root       root            23056 ./usr/bin/sprof
 lrwxrwxrwx root       root               20 ./usr/bin/ssh -> /usr/bin/ssh.openssh
 -rwxr-xr-x root       root           407864 ./usr/bin/ssh-keygen
--rwxr-xr-x root       root           698776 ./usr/bin/ssh.openssh
+-rwxr-xr-x root       root           702872 ./usr/bin/ssh.openssh
 -rwxr-xr-x root       root             5440 ./usr/bin/startx
 lrwxrwxrwx root       root               25 ./usr/bin/stdbuf -> /usr/bin/stdbuf.coreutils
 -rwxr-xr-x root       root            68848 ./usr/bin/stdbuf.coreutils
@@ -2099,7 +2105,7 @@ lrwxrwxrwx root       root               16 ./usr/bin/vim -> /usr/bin/vim.vim
 lrwxrwxrwx root       root                3 ./usr/bin/vimdiff -> vim
 -rwxr-xr-x root       root             2084 ./usr/bin/vimtutor
 lrwxrwxrwx root       root               17 ./usr/bin/vlock -> /bin/busybox.suid
--rwxr-xr-x root       root             5392 ./usr/bin/vmmouse_detect
+-rwxr-xr-x root       root             7904 ./usr/bin/vmmouse_detect
 -rwxr-xr-x root       root            29792 ./usr/bin/vmstat
 -rwxr-xr-x root       root            16320 ./usr/bin/w
 lrwxrwxrwx root       root               21 ./usr/bin/wc -> /usr/bin/wc.coreutils
@@ -2233,7 +2239,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/aspell-0.60
 -rw-r--r-- root       root               98 ./usr/lib/aspell-0.60/url.amf
 drwxr-xr-x root       root             4096 ./usr/lib/bluez5
 drwxr-xr-x root       root             4096 ./usr/lib/bluez5/bluetooth
--rwxr-xr-x root       root           836576 ./usr/lib/bluez5/bluetooth/bluetoothd
+-rwxr-xr-x root       root           840704 ./usr/lib/bluez5/bluetooth/bluetoothd
 drwxr-xr-x root       root             4096 ./usr/lib/coreutils
 -rwxr-xr-x root       root             5976 ./usr/lib/coreutils/libstdbuf.so
 drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
@@ -2327,12 +2333,12 @@ drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/tests
 drwxr-xr-x root       root             4096 ./usr/lib/dbus
 -rwsr-xr-x root       messagebus     287960 ./usr/lib/dbus/dbus-daemon-launch-helper
 drwxr-xr-x root       root             4096 ./usr/lib/dri
--rwxr-xr-x root       root          5724864 ./usr/lib/dri/i915_dri.so
--rwxr-xr-x root       root          5724864 ./usr/lib/dri/i965_dri.so
--rwxr-xr-x root       root          5724864 ./usr/lib/dri/nouveau_vieux_dri.so
--rwxr-xr-x root       root          5724864 ./usr/lib/dri/r200_dri.so
--rwxr-xr-x root       root          5724864 ./usr/lib/dri/radeon_dri.so
--rwxr-xr-x root       root          5724864 ./usr/lib/dri/swrast_dri.so
+-rwxr-xr-x root       root          6007680 ./usr/lib/dri/i915_dri.so
+-rwxr-xr-x root       root          6007680 ./usr/lib/dri/i965_dri.so
+-rwxr-xr-x root       root          6007680 ./usr/lib/dri/nouveau_vieux_dri.so
+-rwxr-xr-x root       root          6007680 ./usr/lib/dri/r200_dri.so
+-rwxr-xr-x root       root          6007680 ./usr/lib/dri/radeon_dri.so
+-rwxr-xr-x root       root          6007680 ./usr/lib/dri/swrast_dri.so
 -rwxr-xr-x root       root            11056 ./usr/lib/e2initrd_helper
 drwxr-xr-x root       root             4096 ./usr/lib/ecore
 drwxr-xr-x root       root             4096 ./usr/lib/ecore/system
@@ -2909,13 +2915,13 @@ drwxr-xr-x root       root             4096 ./usr/lib/gtk-2.0/2.10.0/immodules
 -rwxr-xr-x root       root            29176 ./usr/lib/gtk-2.0/2.10.0/immodules/im-xim.so
 -rwxr-xr-x root       root             8680 ./usr/lib/gtk-2.0/2.10.0/immodules/libmb-im-invoker.so
 lrwxrwxrwx root       root               15 ./usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
--rwxr-xr-x root       root           150832 ./usr/lib/libEGL.so.1.0.0
+-rwxr-xr-x root       root           131312 ./usr/lib/libEGL.so.1.0.0
 lrwxrwxrwx root       root               16 ./usr/lib/libFLAC.so.8 -> libFLAC.so.8.3.0
 -rwxr-xr-x root       root           464520 ./usr/lib/libFLAC.so.8.3.0
 lrwxrwxrwx root       root               14 ./usr/lib/libGL.so.1 -> libGL.so.1.2.0
--rwxr-xr-x root       root           640560 ./usr/lib/libGL.so.1.2.0
+-rwxr-xr-x root       root           613616 ./usr/lib/libGL.so.1.2.0
 lrwxrwxrwx root       root               18 ./usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
--rwxr-xr-x root       root            36304 ./usr/lib/libGLESv2.so.2.0.0
+-rwxr-xr-x root       root            36032 ./usr/lib/libGLESv2.so.2.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libICE.so.6 -> libICE.so.6.3.0
 -rwxr-xr-x root       root            97680 ./usr/lib/libICE.so.6.3.0
 lrwxrwxrwx root       root               20 ./usr/lib/libSDL-1.2.so.0 -> libSDL-1.2.so.0.11.4
@@ -2978,8 +2984,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libaspell.so.15 -> libaspe
 -rwxr-xr-x root       root           750792 ./usr/lib/libaspell.so.15.1.5
 lrwxrwxrwx root       root               23 ./usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.21609.1
 -rwxr-xr-x root       root           153872 ./usr/lib/libatk-1.0.so.0.21609.1
-lrwxrwxrwx root       root               22 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.5
--rwxr-xr-x root       root           130528 ./usr/lib/libbluetooth.so.3.18.5
+lrwxrwxrwx root       root               22 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.6
+-rwxr-xr-x root       root           131872 ./usr/lib/libbluetooth.so.3.18.6
 lrwxrwxrwx root       root               15 ./usr/lib/libbz2.so.0 -> libbz2.so.0.0.0
 -rwxr-xr-x root       root            65152 ./usr/lib/libbz2.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libcairo.so.2 -> libcairo.so.2.11400.2
@@ -2991,8 +2997,8 @@ lrwxrwxrwx root       root               25 ./usr/lib/libcmtspeechdata.so.0 -> l
 -rwxr-xr-x root       root            37520 ./usr/lib/libcmtspeechdata.so.0.1.0
 lrwxrwxrwx root       root               21 ./usr/lib/libcroco-0.6.so.3 -> libcroco-0.6.so.3.0.1
 -rwxr-xr-x root       root           243048 ./usr/lib/libcroco-0.6.so.3.0.1
-lrwxrwxrwx root       root               16 ./usr/lib/libcurl.so.4 -> libcurl.so.4.3.0
--rwxr-xr-x root       root           384352 ./usr/lib/libcurl.so.4.3.0
+lrwxrwxrwx root       root               16 ./usr/lib/libcurl.so.4 -> libcurl.so.4.4.0
+-rwxr-xr-x root       root           385504 ./usr/lib/libcurl.so.4.4.0
 lrwxrwxrwx root       root               19 ./usr/lib/libdbus-1.so.3 -> libdbus-1.so.3.8.13
 -rwxr-xr-x root       root           289480 ./usr/lib/libdbus-1.so.3.8.13
 lrwxrwxrwx root       root               23 ./usr/lib/libdbus-glib-1.so.2 -> libdbus-glib-1.so.2.3.2
@@ -3104,7 +3110,7 @@ lrwxrwxrwx root       root               18 ./usr/lib/libexslt.so.0 -> libexslt.
 lrwxrwxrwx root       root               15 ./usr/lib/libffi.so.6 -> libffi.so.6.0.4
 -rwxr-xr-x root       root            31896 ./usr/lib/libffi.so.6.0.4
 lrwxrwxrwx root       root               22 ./usr/lib/libfontconfig.so.1 -> libfontconfig.so.1.9.0
--rwxr-xr-x root       root           270624 ./usr/lib/libfontconfig.so.1.9.0
+-rwxr-xr-x root       root           266720 ./usr/lib/libfontconfig.so.1.9.0
 lrwxrwxrwx root       root               19 ./usr/lib/libfontenc.so.1 -> libfontenc.so.1.0.0
 -rwxr-xr-x root       root            27488 ./usr/lib/libfontenc.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libformw.so.5 -> libformw.so.5.9
@@ -3130,7 +3136,7 @@ lrwxrwxrwx root       root               24 ./usr/lib/libfsotransport.so.3 -> li
 lrwxrwxrwx root       root               21 ./usr/lib/libgailutil.so.18 -> libgailutil.so.18.0.1
 -rwxr-xr-x root       root            32472 ./usr/lib/libgailutil.so.18.0.1
 lrwxrwxrwx root       root               15 ./usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
--rwxr-xr-x root       root            49264 ./usr/lib/libgbm.so.1.0.0
+-rwxr-xr-x root       root            49168 ./usr/lib/libgbm.so.1.0.0
 lrwxrwxrwx root       root               19 ./usr/lib/libgconf-2.so.4 -> libgconf-2.so.4.1.5
 -rwxr-xr-x root       root           202328 ./usr/lib/libgconf-2.so.4.1.5
 lrwxrwxrwx root       root               16 ./usr/lib/libgdbm.so.4 -> libgdbm.so.4.0.0
@@ -3154,7 +3160,7 @@ lrwxrwxrwx root       root               20 ./usr/lib/libgisicomm.so.0 -> libgis
 lrwxrwxrwx root       root               21 ./usr/lib/libglade-2.0.so.0 -> libglade-2.0.so.0.0.7
 -rwxr-xr-x root       root           105704 ./usr/lib/libglade-2.0.so.0.0.7
 lrwxrwxrwx root       root               17 ./usr/lib/libglapi.so.0 -> libglapi.so.0.0.0
--rwxr-xr-x root       root           323056 ./usr/lib/libglapi.so.0.0.0
+-rwxr-xr-x root       root           350104 ./usr/lib/libglapi.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libglib-2.0.so.0 -> libglib-2.0.so.0.4400.1
 -rwxr-xr-x root       root          1276312 ./usr/lib/libglib-2.0.so.0.4400.1
 lrwxrwxrwx root       root               26 ./usr/lib/libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.4400.1
@@ -3238,8 +3244,8 @@ lrwxrwxrwx root       root               29 ./usr/lib/liblightmediascanner.so.0 
 -rwxr-xr-x root       root            66000 ./usr/lib/liblightmediascanner.so.0.4.4
 lrwxrwxrwx root       root               21 ./usr/lib/liblinebreak.so.1 -> liblinebreak.so.1.0.2
 -rwxr-xr-x root       root            33384 ./usr/lib/liblinebreak.so.1.0.2
-lrwxrwxrwx root       root               22 ./usr/lib/libluajit-5.1.so.2 -> libluajit-5.1.so.2.0.3
--rwxr-xr-x root       root           456552 ./usr/lib/libluajit-5.1.so.2.0.3
+lrwxrwxrwx root       root               22 ./usr/lib/libluajit-5.1.so.2 -> libluajit-5.1.so.2.0.4
+-rwxr-xr-x root       root           460648 ./usr/lib/libluajit-5.1.so.2.0.4
 lrwxrwxrwx root       root               16 ./usr/lib/liblzma.so.5 -> liblzma.so.5.2.1
 -rwxr-xr-x root       root           151520 ./usr/lib/liblzma.so.5.2.1
 lrwxrwxrwx root       root               16 ./usr/lib/liblzo2.so.2 -> liblzo2.so.2.0.0
@@ -3247,7 +3253,7 @@ lrwxrwxrwx root       root               16 ./usr/lib/liblzo2.so.2 -> liblzo2.so
 lrwxrwxrwx root       root               15 ./usr/lib/libmad.so.0 -> libmad.so.0.2.1
 -rwxr-xr-x root       root           123880 ./usr/lib/libmad.so.0.2.1
 lrwxrwxrwx root       root               17 ./usr/lib/libmagic.so.1 -> libmagic.so.1.0.0
--rwxr-xr-x root       root           131992 ./usr/lib/libmagic.so.1.0.0
+-rwxr-xr-x root       root           124136 ./usr/lib/libmagic.so.1.0.0
 lrwxrwxrwx root       root               15 ./usr/lib/libmenuw.so.5 -> libmenuw.so.5.9
 -rwxr-xr-x root       root            32200 ./usr/lib/libmenuw.so.5.9
 lrwxrwxrwx root       root               17 ./usr/lib/libmtdev.so.1 -> libmtdev.so.1.0.0
@@ -3318,8 +3324,8 @@ lrwxrwxrwx root       root               29 ./usr/lib/libpyglib-2.0-python.so.0 
 -r-xr-xr-x root       root          1886568 ./usr/lib/libpython2.7.so.1.0
 lrwxrwxrwx root       root               18 ./usr/lib/libreadline.so.6 -> libreadline.so.6.3
 -rwxr-xr-x root       root           295880 ./usr/lib/libreadline.so.6.3
-lrwxrwxrwx root       root               19 ./usr/lib/librsvg-2.so.2 -> librsvg-2.so.2.40.9
--rwxr-xr-x root       root           217152 ./usr/lib/librsvg-2.so.2.40.9
+lrwxrwxrwx root       root               20 ./usr/lib/librsvg-2.so.2 -> librsvg-2.so.2.40.10
+-rwxr-xr-x root       root           217344 ./usr/lib/librsvg-2.so.2.40.10
 lrwxrwxrwx root       root               22 ./usr/lib/libsamplerate.so.0 -> libsamplerate.so.0.1.8
 -rwxr-xr-x root       root          1487168 ./usr/lib/libsamplerate.so.0.1.8
 lrwxrwxrwx root       root               18 ./usr/lib/libserf-1.so.1 -> libserf-1.so.1.3.0
@@ -3440,8 +3446,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/lightmediascanner/plugins
 drwxr-xr-x root       root             4096 ./usr/lib/locale
 drwxr-xr-x root       root             4096 ./usr/lib/locale/cs_CZ
 -rw-r--r-- root       root              164 ./usr/lib/locale/cs_CZ/LC_ADDRESS
--rw-r--r-- root       root           111962 ./usr/lib/locale/cs_CZ/LC_COLLATE
--rw-r--r-- root       root           256420 ./usr/lib/locale/cs_CZ/LC_CTYPE
+-rw-r--r-- root       root           111972 ./usr/lib/locale/cs_CZ/LC_COLLATE
+-rw-r--r-- root       root           278308 ./usr/lib/locale/cs_CZ/LC_CTYPE
 -rw-r--r-- root       root              379 ./usr/lib/locale/cs_CZ/LC_IDENTIFICATION
 -rw-r--r-- root       root               23 ./usr/lib/locale/cs_CZ/LC_MEASUREMENT
 drwxr-xr-x root       root             4096 ./usr/lib/locale/cs_CZ/LC_MESSAGES
@@ -3454,8 +3460,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/locale/cs_CZ/LC_MESSAGES
 -rw-r--r-- root       root             2446 ./usr/lib/locale/cs_CZ/LC_TIME
 drwxr-xr-x root       root             4096 ./usr/lib/locale/en_GB
 -rw-r--r-- root       root              146 ./usr/lib/locale/en_GB/LC_ADDRESS
--rw-r--r-- root       root          1243766 ./usr/lib/locale/en_GB/LC_COLLATE
--rw-r--r-- root       root           256420 ./usr/lib/locale/en_GB/LC_CTYPE
+-rw-r--r-- root       root          1243776 ./usr/lib/locale/en_GB/LC_COLLATE
+-rw-r--r-- root       root           278308 ./usr/lib/locale/en_GB/LC_CTYPE
 -rw-r--r-- root       root              376 ./usr/lib/locale/en_GB/LC_IDENTIFICATION
 -rw-r--r-- root       root               23 ./usr/lib/locale/en_GB/LC_MEASUREMENT
 drwxr-xr-x root       root             4096 ./usr/lib/locale/en_GB/LC_MESSAGES
@@ -3468,8 +3474,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/locale/en_GB/LC_MESSAGES
 -rw-r--r-- root       root             2470 ./usr/lib/locale/en_GB/LC_TIME
 drwxr-xr-x root       root             4096 ./usr/lib/locale/en_US
 -rw-r--r-- root       root              155 ./usr/lib/locale/en_US/LC_ADDRESS
--rw-r--r-- root       root          1243766 ./usr/lib/locale/en_US/LC_COLLATE
--rw-r--r-- root       root           256420 ./usr/lib/locale/en_US/LC_CTYPE
+-rw-r--r-- root       root          1243776 ./usr/lib/locale/en_US/LC_COLLATE
+-rw-r--r-- root       root           278308 ./usr/lib/locale/en_US/LC_CTYPE
 -rw-r--r-- root       root              361 ./usr/lib/locale/en_US/LC_IDENTIFICATION
 -rw-r--r-- root       root               23 ./usr/lib/locale/en_US/LC_MEASUREMENT
 drwxr-xr-x root       root             4096 ./usr/lib/locale/en_US/LC_MESSAGES
@@ -5385,30 +5391,31 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/gt
 -rwxr-xr-x root       root             2089 ./usr/lib/python2.7/site-packages/gtk-2.0/pangocairo.la
 -rwxr-xr-x root       root            21960 ./usr/lib/python2.7/site-packages/gtk-2.0/pangocairo.so
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lxml
-drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lxml-3.2.5-py2.7.egg-info
--rw-r--r-- root       root             3339 ./usr/lib/python2.7/site-packages/lxml-3.2.5-py2.7.egg-info/PKG-INFO
--rw-r--r-- root       root            32095 ./usr/lib/python2.7/site-packages/lxml-3.2.5-py2.7.egg-info/SOURCES.txt
--rw-r--r-- root       root                1 ./usr/lib/python2.7/site-packages/lxml-3.2.5-py2.7.egg-info/dependency_links.txt
--rw-r--r-- root       root                1 ./usr/lib/python2.7/site-packages/lxml-3.2.5-py2.7.egg-info/not-zip-safe
--rw-r--r-- root       root                5 ./usr/lib/python2.7/site-packages/lxml-3.2.5-py2.7.egg-info/top_level.txt
+drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info
+-rw-r--r-- root       root             2988 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info/PKG-INFO
+-rw-r--r-- root       root            33256 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info/SOURCES.txt
+-rw-r--r-- root       root                1 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info/dependency_links.txt
+-rw-r--r-- root       root                1 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info/not-zip-safe
+-rw-r--r-- root       root               96 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info/requires.txt
+-rw-r--r-- root       root                5 ./usr/lib/python2.7/site-packages/lxml-3.4.4-py2.7.egg-info/top_level.txt
 -rw-r--r-- root       root             7641 ./usr/lib/python2.7/site-packages/lxml/ElementInclude.py
 -rw-r--r-- root       root             4420 ./usr/lib/python2.7/site-packages/lxml/ElementInclude.pyc
 -rw-r--r-- root       root              551 ./usr/lib/python2.7/site-packages/lxml/__init__.py
 -rw-r--r-- root       root              772 ./usr/lib/python2.7/site-packages/lxml/__init__.pyc
--rw-r--r-- root       root             9311 ./usr/lib/python2.7/site-packages/lxml/_elementpath.py
--rw-r--r-- root       root             7600 ./usr/lib/python2.7/site-packages/lxml/_elementpath.pyc
--rw-r--r-- root       root             7879 ./usr/lib/python2.7/site-packages/lxml/builder.py
--rw-r--r-- root       root             6688 ./usr/lib/python2.7/site-packages/lxml/builder.pyc
+-rw-r--r-- root       root             9337 ./usr/lib/python2.7/site-packages/lxml/_elementpath.py
+-rw-r--r-- root       root             7622 ./usr/lib/python2.7/site-packages/lxml/_elementpath.pyc
+-rw-r--r-- root       root             8152 ./usr/lib/python2.7/site-packages/lxml/builder.py
+-rw-r--r-- root       root             7023 ./usr/lib/python2.7/site-packages/lxml/builder.pyc
 -rw-r--r-- root       root             3471 ./usr/lib/python2.7/site-packages/lxml/cssselect.py
 -rw-r--r-- root       root             4117 ./usr/lib/python2.7/site-packages/lxml/cssselect.pyc
 -rw-r--r-- root       root            18287 ./usr/lib/python2.7/site-packages/lxml/doctestcompare.py
 -rw-r--r-- root       root            17089 ./usr/lib/python2.7/site-packages/lxml/doctestcompare.pyc
--rwxr-xr-x root       root          1496464 ./usr/lib/python2.7/site-packages/lxml/etree.so
+-rwxr-xr-x root       root          1741072 ./usr/lib/python2.7/site-packages/lxml/etree.so
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lxml/html
 -rw-r--r-- root       root              319 ./usr/lib/python2.7/site-packages/lxml/html/ElementSoup.py
 -rw-r--r-- root       root              618 ./usr/lib/python2.7/site-packages/lxml/html/ElementSoup.pyc
--rw-r--r-- root       root            59118 ./usr/lib/python2.7/site-packages/lxml/html/__init__.py
--rw-r--r-- root       root            60092 ./usr/lib/python2.7/site-packages/lxml/html/__init__.pyc
+-rw-r--r-- root       root            61487 ./usr/lib/python2.7/site-packages/lxml/html/__init__.py
+-rw-r--r-- root       root            61877 ./usr/lib/python2.7/site-packages/lxml/html/__init__.pyc
 -rw-r--r-- root       root             2084 ./usr/lib/python2.7/site-packages/lxml/html/_diffcommand.py
 -rw-r--r-- root       root             2828 ./usr/lib/python2.7/site-packages/lxml/html/_diffcommand.pyc
 -rw-r--r-- root       root             3246 ./usr/lib/python2.7/site-packages/lxml/html/_html5builder.py
@@ -5417,16 +5424,16 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lx
 -rw-r--r-- root       root             5112 ./usr/lib/python2.7/site-packages/lxml/html/_setmixin.pyc
 -rw-r--r-- root       root             4310 ./usr/lib/python2.7/site-packages/lxml/html/builder.py
 -rw-r--r-- root       root             3912 ./usr/lib/python2.7/site-packages/lxml/html/builder.pyc
--rw-r--r-- root       root            25888 ./usr/lib/python2.7/site-packages/lxml/html/clean.py
--rw-r--r-- root       root            19215 ./usr/lib/python2.7/site-packages/lxml/html/clean.pyc
+-rw-r--r-- root       root            25877 ./usr/lib/python2.7/site-packages/lxml/html/clean.py
+-rw-r--r-- root       root            19228 ./usr/lib/python2.7/site-packages/lxml/html/clean.pyc
 -rw-r--r-- root       root             4250 ./usr/lib/python2.7/site-packages/lxml/html/defs.py
 -rw-r--r-- root       root             4012 ./usr/lib/python2.7/site-packages/lxml/html/defs.pyc
 -rw-r--r-- root       root            30500 ./usr/lib/python2.7/site-packages/lxml/html/diff.py
 -rw-r--r-- root       root            28554 ./usr/lib/python2.7/site-packages/lxml/html/diff.pyc
--rw-r--r-- root       root             9721 ./usr/lib/python2.7/site-packages/lxml/html/formfill.py
--rw-r--r-- root       root             9777 ./usr/lib/python2.7/site-packages/lxml/html/formfill.pyc
--rw-r--r-- root       root             6241 ./usr/lib/python2.7/site-packages/lxml/html/html5parser.py
--rw-r--r-- root       root             6626 ./usr/lib/python2.7/site-packages/lxml/html/html5parser.pyc
+-rw-r--r-- root       root             9699 ./usr/lib/python2.7/site-packages/lxml/html/formfill.py
+-rw-r--r-- root       root             9755 ./usr/lib/python2.7/site-packages/lxml/html/formfill.pyc
+-rw-r--r-- root       root             6498 ./usr/lib/python2.7/site-packages/lxml/html/html5parser.py
+-rw-r--r-- root       root             6811 ./usr/lib/python2.7/site-packages/lxml/html/html5parser.pyc
 -rw-r--r-- root       root             4360 ./usr/lib/python2.7/site-packages/lxml/html/soupparser.py
 -rw-r--r-- root       root             4841 ./usr/lib/python2.7/site-packages/lxml/html/soupparser.pyc
 -rw-r--r-- root       root              249 ./usr/lib/python2.7/site-packages/lxml/html/usedoctest.py
@@ -5436,18 +5443,18 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lx
 -rw-r--r-- root       root              145 ./usr/lib/python2.7/site-packages/lxml/includes/__init__.pyc
 -rw-r--r-- root       root             1123 ./usr/lib/python2.7/site-packages/lxml/includes/c14n.pxd
 -rw-r--r-- root       root               96 ./usr/lib/python2.7/site-packages/lxml/includes/config.pxd
--rw-r--r-- root       root              333 ./usr/lib/python2.7/site-packages/lxml/includes/dtdvalid.pxd
--rw-r--r-- root       root            13266 ./usr/lib/python2.7/site-packages/lxml/includes/etree_defs.h
--rw-r--r-- root       root             9701 ./usr/lib/python2.7/site-packages/lxml/includes/etreepublic.pxd
--rw-r--r-- root       root             2554 ./usr/lib/python2.7/site-packages/lxml/includes/htmlparser.pxd
+-rw-r--r-- root       root              671 ./usr/lib/python2.7/site-packages/lxml/includes/dtdvalid.pxd
+-rw-r--r-- root       root            12295 ./usr/lib/python2.7/site-packages/lxml/includes/etree_defs.h
+-rw-r--r-- root       root             9985 ./usr/lib/python2.7/site-packages/lxml/includes/etreepublic.pxd
+-rw-r--r-- root       root             2868 ./usr/lib/python2.7/site-packages/lxml/includes/htmlparser.pxd
 -rw-r--r-- root       root               71 ./usr/lib/python2.7/site-packages/lxml/includes/lxml-version.h
--rw-r--r-- root       root             2701 ./usr/lib/python2.7/site-packages/lxml/includes/relaxng.pxd
--rw-r--r-- root       root             1654 ./usr/lib/python2.7/site-packages/lxml/includes/schematron.pxd
--rw-r--r-- root       root            19132 ./usr/lib/python2.7/site-packages/lxml/includes/tree.pxd
+-rw-r--r-- root       root             2669 ./usr/lib/python2.7/site-packages/lxml/includes/relaxng.pxd
+-rw-r--r-- root       root             1640 ./usr/lib/python2.7/site-packages/lxml/includes/schematron.pxd
+-rw-r--r-- root       root            19430 ./usr/lib/python2.7/site-packages/lxml/includes/tree.pxd
 -rw-r--r-- root       root              139 ./usr/lib/python2.7/site-packages/lxml/includes/uri.pxd
--rw-r--r-- root       root              721 ./usr/lib/python2.7/site-packages/lxml/includes/xinclude.pxd
+-rw-r--r-- root       root              852 ./usr/lib/python2.7/site-packages/lxml/includes/xinclude.pxd
 -rw-r--r-- root       root            57916 ./usr/lib/python2.7/site-packages/lxml/includes/xmlerror.pxd
--rw-r--r-- root       root             9138 ./usr/lib/python2.7/site-packages/lxml/includes/xmlparser.pxd
+-rw-r--r-- root       root             9663 ./usr/lib/python2.7/site-packages/lxml/includes/xmlparser.pxd
 -rw-r--r-- root       root             1696 ./usr/lib/python2.7/site-packages/lxml/includes/xmlschema.pxd
 -rw-r--r-- root       root             5794 ./usr/lib/python2.7/site-packages/lxml/includes/xpath.pxd
 -rw-r--r-- root       root             7631 ./usr/lib/python2.7/site-packages/lxml/includes/xslt.pxd
@@ -5467,13 +5474,13 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lx
 -rw-r--r-- root       root            71764 ./usr/lib/python2.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl
 -rw-r--r-- root       root            20382 ./usr/lib/python2.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl
 -rw-r--r-- root       root             3144 ./usr/lib/python2.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt
--rw-r--r-- root       root             9374 ./usr/lib/python2.7/site-packages/lxml/lxml.etree.h
--rw-r--r-- root       root            16534 ./usr/lib/python2.7/site-packages/lxml/lxml.etree_api.h
--rwxr-xr-x root       root           296152 ./usr/lib/python2.7/site-packages/lxml/objectify.so
--rw-r--r-- root       root               87 ./usr/lib/python2.7/site-packages/lxml/pyclasslookup.py
--rw-r--r-- root       root              211 ./usr/lib/python2.7/site-packages/lxml/pyclasslookup.pyc
--rw-r--r-- root       root             8493 ./usr/lib/python2.7/site-packages/lxml/sax.py
--rw-r--r-- root       root             8819 ./usr/lib/python2.7/site-packages/lxml/sax.pyc
+-rw-r--r-- root       root             9052 ./usr/lib/python2.7/site-packages/lxml/lxml.etree.h
+-rw-r--r-- root       root            16888 ./usr/lib/python2.7/site-packages/lxml/lxml.etree_api.h
+-rwxr-xr-x root       root           365720 ./usr/lib/python2.7/site-packages/lxml/objectify.so
+-rw-r--r-- root       root               92 ./usr/lib/python2.7/site-packages/lxml/pyclasslookup.py
+-rw-r--r-- root       root              216 ./usr/lib/python2.7/site-packages/lxml/pyclasslookup.pyc
+-rw-r--r-- root       root             8531 ./usr/lib/python2.7/site-packages/lxml/sax.py
+-rw-r--r-- root       root             8844 ./usr/lib/python2.7/site-packages/lxml/sax.pyc
 -rw-r--r-- root       root              230 ./usr/lib/python2.7/site-packages/lxml/usedoctest.py
 -rw-r--r-- root       root              425 ./usr/lib/python2.7/site-packages/lxml/usedoctest.pyc
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/neon
@@ -6155,7 +6162,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/xorg/modules/input
 -rwxr-xr-x root       root            58728 ./usr/lib/xorg/modules/input/evdev_drv.so
 -rwxr-xr-x root       root            23664 ./usr/lib/xorg/modules/input/kbd_drv.so
 -rwxr-xr-x root       root            49088 ./usr/lib/xorg/modules/input/mouse_drv.so
--rwxr-xr-x root       root            15424 ./usr/lib/xorg/modules/input/vmmouse_drv.so
+-rwxr-xr-x root       root            15488 ./usr/lib/xorg/modules/input/vmmouse_drv.so
 -rwxr-xr-x root       root           143944 ./usr/lib/xorg/modules/libfb.so
 -rwxr-xr-x root       root            17728 ./usr/lib/xorg/modules/libfbdevhw.so
 -rwxr-xr-x root       root            32128 ./usr/lib/xorg/modules/libshadow.so
@@ -6377,13 +6384,13 @@ lrwxrwxrwx root       root               23 ./usr/sbin/rfkill -> /usr/sbin/rfkil
 -rwxr-xr-x root       root           734208 ./usr/sbin/s3c64xx-gpio
 -rwxr-xr-x root       root            15976 ./usr/sbin/showmount
 -rwxr-xr-x root       root            46024 ./usr/sbin/sm-notify
--rwxr-xr-x root       root           774552 ./usr/sbin/sshd
+-rwxr-xr-x root       root           782744 ./usr/sbin/sshd
 -rwxr-xr-x root       root              515 ./usr/sbin/start-statd
 -rwxr-xr-x root       root           890816 ./usr/sbin/tcpdump
 lrwxrwxrwx root       root               19 ./usr/sbin/udhcpd -> /bin/busybox.nosuid
 -rwsr-xr-x root       root            29184 ./usr/sbin/unix_chkpwd
 -rwxr-xr-x root       root            28912 ./usr/sbin/unix_update
--rwxr-xr-x root       root             4891 ./usr/sbin/update-ca-certificates
+-rwxr-xr-x root       root             5485 ./usr/sbin/update-ca-certificates
 -rwxr-xr-x root       root             6270 ./usr/sbin/update-mime
 -rwxr-xr-x root       root            52384 ./usr/sbin/usb_modeswitch
 -rwxr-xr-x root       root            30793 ./usr/sbin/usb_modeswitch_dispatcher
@@ -7333,33 +7340,32 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             1204 ./usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
 -rw-r--r-- root       root             1891 ./usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt
 -rw-r--r-- root       root              753 ./usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt
--rw-r--r-- root       root             1322 ./usr/share/ca-certificates/mozilla/America_Online_Root_Certification_Authority_1.crt
--rw-r--r-- root       root             2017 ./usr/share/ca-certificates/mozilla/America_Online_Root_Certification_Authority_2.crt
 -rw-r--r-- root       root             1318 ./usr/share/ca-certificates/mozilla/ApplicationCA_-_Japanese_Government.crt
 -rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt
 -rw-r--r-- root       root             2167 ./usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
 -rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
 -rw-r--r-- root       root             1212 ./usr/share/ca-certificates/mozilla/Buypass_Class_2_CA_1.crt
 -rw-r--r-- root       root             1915 ./usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
--rw-r--r-- root       root             1212 ./usr/share/ca-certificates/mozilla/Buypass_Class_3_CA_1.crt
 -rw-r--r-- root       root             1915 ./usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
 -rw-r--r-- root       root             1468 ./usr/share/ca-certificates/mozilla/CA_Disig.crt
 -rw-r--r-- root       root             1935 ./usr/share/ca-certificates/mozilla/CA_Disig_Root_R1.crt
 -rw-r--r-- root       root             1935 ./usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
+-rw-r--r-- root       root             1984 ./usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
 -rw-r--r-- root       root             1216 ./usr/share/ca-certificates/mozilla/CNNIC_ROOT.crt
 -rw-r--r-- root       root             1489 ./usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt
 -rw-r--r-- root       root              940 ./usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt
+-rw-r--r-- root       root             2086 ./usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt
 -rw-r--r-- root       root             1704 ./usr/share/ca-certificates/mozilla/Camerfirma_Chambers_of_Commerce_Root.crt
 -rw-r--r-- root       root             1716 ./usr/share/ca-certificates/mozilla/Camerfirma_Global_Chambersign_Root.crt
 -rw-r--r-- root       root             1330 ./usr/share/ca-certificates/mozilla/Certigna.crt
 -rw-r--r-- root       root             2004 ./usr/share/ca-certificates/mozilla/Certinomis_-_Autorité_Racine.crt
+-rw-r--r-- root       root             1992 ./usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt
 -rw-r--r-- root       root             1298 ./usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt
 -rw-r--r-- root       root             1119 ./usr/share/ca-certificates/mozilla/Certum_Root_CA.crt
 -rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt
 -rw-r--r-- root       root             2594 ./usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt
 -rw-r--r-- root       root             1436 ./usr/share/ca-certificates/mozilla/China_Internet_Network_Information_Center_EV_Certificates_Root.crt
 -rw-r--r-- root       root             1302 ./usr/share/ca-certificates/mozilla/ComSign_CA.crt
--rw-r--r-- root       root             1334 ./usr/share/ca-certificates/mozilla/ComSign_Secured_CA.crt
 -rw-r--r-- root       root             1517 ./usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
 -rw-r--r-- root       root             1533 ./usr/share/ca-certificates/mozilla/Comodo_Secure_Services_root.crt
 -rw-r--r-- root       root             1537 ./usr/share/ca-certificates/mozilla/Comodo_Trusted_Services_root.crt
@@ -7379,17 +7385,17 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             1988 ./usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
 -rw-r--r-- root       root             1155 ./usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt
 -rw-r--r-- root       root             1155 ./usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt
--rw-r--r-- root       root             1346 ./usr/share/ca-certificates/mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt
 -rw-r--r-- root       root             2244 ./usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt
 -rw-r--r-- root       root             2106 ./usr/share/ca-certificates/mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt
 -rw-r--r-- root       root             1911 ./usr/share/ca-certificates/mozilla/EC-ACC.crt
 -rw-r--r-- root       root             1452 ./usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
 -rw-r--r-- root       root             1505 ./usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
 -rw-r--r-- root       root             1643 ./usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
+-rw-r--r-- root       root             1090 ./usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
+-rw-r--r-- root       root             1533 ./usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
 -rw-r--r-- root       root             1143 ./usr/share/ca-certificates/mozilla/Equifax_Secure_CA.crt
 -rw-r--r-- root       root              948 ./usr/share/ca-certificates/mozilla/Equifax_Secure_Global_eBusiness_CA.crt
 -rw-r--r-- root       root              932 ./usr/share/ca-certificates/mozilla/Equifax_Secure_eBusiness_CA_1.crt
--rw-r--r-- root       root              875 ./usr/share/ca-certificates/mozilla/GTE_CyberTrust_Global_Root.crt
 -rw-r--r-- root       root             1216 ./usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt
 -rw-r--r-- root       root             1241 ./usr/share/ca-certificates/mozilla/GeoTrust_Global_CA_2.crt
 -rw-r--r-- root       root             1269 ./usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt
@@ -7397,6 +7403,8 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             1444 ./usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt
 -rw-r--r-- root       root             1935 ./usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt
 -rw-r--r-- root       root             1939 ./usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt
+-rw-r--r-- root       root              713 ./usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
+-rw-r--r-- root       root              794 ./usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
 -rw-r--r-- root       root             1261 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
 -rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
 -rw-r--r-- root       root             1229 ./usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
@@ -7406,6 +7414,8 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             1513 ./usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt
 -rw-r--r-- root       root             1168 ./usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt
 -rw-r--r-- root       root             1452 ./usr/share/ca-certificates/mozilla/IGC_A.crt
+-rw-r--r-- root       root             1923 ./usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt
+-rw-r--r-- root       root             1931 ./usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt
 -rw-r--r-- root       root             2122 ./usr/share/ca-certificates/mozilla/Izenpe.com.crt
 -rw-r--r-- root       root             1761 ./usr/share/ca-certificates/mozilla/Juur-SK.crt
 -rw-r--r-- root       root             2715 ./usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA.crt
@@ -7427,7 +7437,7 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             1233 ./usr/share/ca-certificates/mozilla/RSA_Security_2048_v3.crt
 -rw-r--r-- root       root             2329 ./usr/share/ca-certificates/mozilla/Root_CA_Generalitat_Valenciana.crt
 -rw-r--r-- root       root             1614 ./usr/share/ca-certificates/mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt
--rw-r--r-- root       root             2175 ./usr/share/ca-certificates/mozilla/SG_TRUST_SERVICES_RACINE.crt
+-rw-r--r-- root       root             1395 ./usr/share/ca-certificates/mozilla/S-TRUST_Universal_Root_CA.crt
 -rw-r--r-- root       root             1249 ./usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
 -rw-r--r-- root       root             1350 ./usr/share/ca-certificates/mozilla/SecureTrust_CA.crt
 -rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
@@ -7436,8 +7446,10 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             1224 ./usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt
 -rw-r--r-- root       root             1143 ./usr/share/ca-certificates/mozilla/Sonera_Class_1_Root_CA.crt
 -rw-r--r-- root       root             1143 ./usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt
+-rw-r--r-- root       root             1948 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt
 -rw-r--r-- root       root             1354 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA.crt
 -rw-r--r-- root       root             2069 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt
+-rw-r--r-- root       root             1952 ./usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt
 -rw-r--r-- root       root             1468 ./usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
 -rw-r--r-- root       root             1399 ./usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
 -rw-r--r-- root       root             1424 ./usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
@@ -7452,20 +7464,19 @@ drwxr-xr-x root       root            16384 ./usr/share/ca-certificates/mozilla
 -rw-r--r-- root       root             2098 ./usr/share/ca-certificates/mozilla/Swisscom_Root_EV_CA_2.crt
 -rw-r--r-- root       root             1367 ./usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
 -rw-r--r-- root       root             1367 ./usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
--rw-r--r-- root       root             1679 ./usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_2_CA_II.crt
 -rw-r--r-- root       root             1679 ./usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_3_CA_II.crt
--rw-r--r-- root       root             1399 ./usr/share/ca-certificates/mozilla/TC_TrustCenter_Universal_CA_I.crt
--rw-r--r-- root       root             1440 ./usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt
 -rw-r--r-- root       root             1529 ./usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt
 -rw-r--r-- root       root             1529 ./usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt
 -rw-r--r-- root       root             1883 ./usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt
 -rw-r--r-- root       root             1269 ./usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt
 -rw-r--r-- root       root             1948 ./usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt
 -rw-r--r-- root       root             1870 ./usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt
--rw-r--r-- root       root             1155 ./usr/share/ca-certificates/mozilla/Thawte_Premium_Server_CA.crt
--rw-r--r-- root       root             1127 ./usr/share/ca-certificates/mozilla/Thawte_Server_CA.crt
 -rw-r--r-- root       root             1241 ./usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt
 -rw-r--r-- root       root             1826 ./usr/share/ca-certificates/mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt
+-rw-r--r-- root       root             1501 ./usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.crt
+-rw-r--r-- root       root             1501 ./usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.crt
+-rw-r--r-- root       root              948 ./usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
+-rw-r--r-- root       root             2094 ./usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
 -rw-r--r-- root       root             1574 ./usr/share/ca-certificates/mozilla/UTN_DATACorp_SGC_Root_CA.crt
 -rw-r--r-- root       root             1667 ./usr/share/ca-certificates/mozilla/UTN_USERFirst_Email_Root_CA.crt
 -rw-r--r-- root       root             1606 ./usr/share/ca-certificates/mozilla/UTN_USERFirst_Hardware_Root_CA.crt
@@ -7743,7 +7754,7 @@ drwxr-xr-x root       root             4096 ./usr/share/fontconfig
 drwxr-xr-x root       root             4096 ./usr/share/fontconfig/conf.avail
 -rw-r--r-- root       root              484 ./usr/share/fontconfig/conf.avail/10-autohint.conf
 -rw-r--r-- root       root              491 ./usr/share/fontconfig/conf.avail/10-no-sub-pixel.conf
--rw-r--r-- root       root             1952 ./usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+-rw-r--r-- root       root             2010 ./usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
 -rw-r--r-- root       root              489 ./usr/share/fontconfig/conf.avail/10-sub-pixel-bgr.conf
 -rw-r--r-- root       root              489 ./usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf
 -rw-r--r-- root       root              490 ./usr/share/fontconfig/conf.avail/10-sub-pixel-vbgr.conf
@@ -7851,7 +7862,7 @@ drwxr-xr-x root       root             4096 ./usr/share/gst-python/0.10/examples
 -rw-r--r-- root       root             3450 ./usr/share/gst-python/0.10/examples/vumeter.py
 drwxr-xr-x root       root             4096 ./usr/share/i18n
 drwxr-xr-x root       root             4096 ./usr/share/i18n/charmaps
--rw-r--r-- root       root           330309 ./usr/share/i18n/charmaps/UTF-8.gz
+-rw-r--r-- root       root           369866 ./usr/share/i18n/charmaps/UTF-8.gz
 drwxr-xr-x root       root             4096 ./usr/share/icons
 -rw-r--r-- root       root             4278 ./usr/share/icons/enjoy.png
 drwxr-xr-x root       root             4096 ./usr/share/icons/hicolor
@@ -9167,7 +9178,7 @@ drwxr-xr-x root       root             4096 ./usr/share/mime/x-content
 drwxr-xr-x root       root             4096 ./usr/share/mime/x-epoc
 -rw-r--r-- root       root             2582 ./usr/share/mime/x-epoc/x-sisx-app.xml
 drwxr-xr-x root       root             4096 ./usr/share/misc
--rw-r--r-- root       root          3865992 ./usr/share/misc/magic.mgc
+-rw-r--r-- root       root          3865680 ./usr/share/misc/magic.mgc
 drwxr-xr-x root       root             4096 ./usr/share/mobile-broadband-provider-info
 -rw-r--r-- root       root             4410 ./usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd
 -rw-r--r-- root       root           328308 ./usr/share/mobile-broadband-provider-info/serviceproviders.xml
@@ -15208,7 +15219,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/America/Kentuck
 -rw-r--r-- root       root             1684 ./usr/share/zoneinfo/America/Miquelon
 -rw-r--r-- root       root             3163 ./usr/share/zoneinfo/America/Moncton
 -rw-r--r-- root       root             1416 ./usr/share/zoneinfo/America/Monterrey
--rw-r--r-- root       root             2160 ./usr/share/zoneinfo/America/Montevideo
+-rw-r--r-- root       root             1511 ./usr/share/zoneinfo/America/Montevideo
 -rw-r--r-- root       root             3503 ./usr/share/zoneinfo/America/Montreal
 -rw-r--r-- root       root              170 ./usr/share/zoneinfo/America/Montserrat
 -rw-r--r-- root       root             2284 ./usr/share/zoneinfo/America/Nassau
@@ -15328,7 +15339,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Asia
 -rw-r--r-- root       root             1100 ./usr/share/zoneinfo/Asia/Oral
 -rw-r--r-- root       root              204 ./usr/share/zoneinfo/Asia/Phnom_Penh
 -rw-r--r-- root       root              375 ./usr/share/zoneinfo/Asia/Pontianak
--rw-r--r-- root       root              279 ./usr/share/zoneinfo/Asia/Pyongyang
+-rw-r--r-- root       root              312 ./usr/share/zoneinfo/Asia/Pyongyang
 -rw-r--r-- root       root              209 ./usr/share/zoneinfo/Asia/Qatar
 -rw-r--r-- root       root             1082 ./usr/share/zoneinfo/Asia/Qyzylorda
 -rw-r--r-- root       root              285 ./usr/share/zoneinfo/Asia/Rangoon
@@ -15453,7 +15464,7 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Europe
 -rw-r--r-- root       root             2221 ./usr/share/zoneinfo/Europe/Bucharest
 -rw-r--r-- root       root             2405 ./usr/share/zoneinfo/Europe/Budapest
 -rw-r--r-- root       root             1918 ./usr/share/zoneinfo/Europe/Busingen
--rw-r--r-- root       root             2433 ./usr/share/zoneinfo/Europe/Chisinau
+-rw-r--r-- root       root             2431 ./usr/share/zoneinfo/Europe/Chisinau
 -rw-r--r-- root       root             2160 ./usr/share/zoneinfo/Europe/Copenhagen
 -rw-r--r-- root       root             3559 ./usr/share/zoneinfo/Europe/Dublin
 -rw-r--r-- root       root             3061 ./usr/share/zoneinfo/Europe/Gibraltar
@@ -15484,13 +15495,13 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/Europe
 -rw-r--r-- root       root             1394 ./usr/share/zoneinfo/Europe/Samara
 -rw-r--r-- root       root             2678 ./usr/share/zoneinfo/Europe/San_Marino
 -rw-r--r-- root       root             1957 ./usr/share/zoneinfo/Europe/Sarajevo
--rw-r--r-- root       root             1504 ./usr/share/zoneinfo/Europe/Simferopol
+-rw-r--r-- root       root             1490 ./usr/share/zoneinfo/Europe/Simferopol
 -rw-r--r-- root       root             1957 ./usr/share/zoneinfo/Europe/Skopje
 -rw-r--r-- root       root             2130 ./usr/share/zoneinfo/Europe/Sofia
 -rw-r--r-- root       root             1918 ./usr/share/zoneinfo/Europe/Stockholm
--rw-r--r-- root       root             2201 ./usr/share/zoneinfo/Europe/Tallinn
+-rw-r--r-- root       root             2187 ./usr/share/zoneinfo/Europe/Tallinn
 -rw-r--r-- root       root             2098 ./usr/share/zoneinfo/Europe/Tirane
--rw-r--r-- root       root             2433 ./usr/share/zoneinfo/Europe/Tiraspol
+-rw-r--r-- root       root             2431 ./usr/share/zoneinfo/Europe/Tiraspol
 -rw-r--r-- root       root             2103 ./usr/share/zoneinfo/Europe/Uzhgorod
 -rw-r--r-- root       root             1918 ./usr/share/zoneinfo/Europe/Vaduz
 -rw-r--r-- root       root             2678 ./usr/share/zoneinfo/Europe/Vatican
@@ -15556,18 +15567,18 @@ drwxr-xr-x root       root             4096 ./usr/share/zoneinfo/US
 -rw-r--r-- root       root             1873 ./usr/share/zoneinfo/WET
 -rw-r--r-- root       root              127 ./usr/share/zoneinfo/Zulu
 -rw-r--r-- root       root             4494 ./usr/share/zoneinfo/iso3166.tab
--rw-r--r-- root       root            20123 ./usr/share/zoneinfo/zone.tab
+-rw-r--r-- root       root            20091 ./usr/share/zoneinfo/zone.tab
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/backups
 drwxr-xr-x root       root             4096 ./var/cache
 drwxr-xr-x root       root             4096 ./var/cache/fontconfig
--rw-r--r-- root       root              168 ./var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-5
--rw-r--r-- root       root            21664 ./var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-5
--rw-r--r-- root       root            18368 ./var/cache/fontconfig/94322f4d3cdf1bd54794b691285ca062-le64.cache-5
+-rw-r--r-- root       root              168 ./var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-6
+-rw-r--r-- root       root            21448 ./var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-6
+-rw-r--r-- root       root            18080 ./var/cache/fontconfig/94322f4d3cdf1bd54794b691285ca062-le64.cache-6
 -rw-r--r-- root       root              200 ./var/cache/fontconfig/CACHEDIR.TAG
 drwx------ root       root             4096 ./var/cache/ldconfig
--rw------- root       root            18911 ./var/cache/ldconfig/aux-cache
+-rw------- root       root            18972 ./var/cache/ldconfig/aux-cache
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x root       root             4096 ./var/lib/alsa
 -rw-r--r-- root       root               28 ./var/lib/alsa/asound.state
@@ -15623,7 +15634,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              695 ./var/lib/opkg/info/base-passwd.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/base-passwd.list
 -rwxr-xr-x root       root             1358 ./var/lib/opkg/info/base-passwd.preinst
--rw-r--r-- root       root             3442 ./var/lib/opkg/info/bash.control
+-rw-r--r-- root       root             1495 ./var/lib/opkg/info/bash.control
 -rw-r--r-- root       root               27 ./var/lib/opkg/info/bash.list
 -rwxr-xr-x root       root              128 ./var/lib/opkg/info/bash.postinst
 -rwxr-xr-x root       root               67 ./var/lib/opkg/info/bash.postrm
@@ -15643,8 +15654,8 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rwxr-xr-x root       root            14307 ./var/lib/opkg/info/busybox.postinst
 -rwxr-xr-x root       root            10941 ./var/lib/opkg/info/busybox.prerm
 -rw-r--r-- root       root               26 ./var/lib/opkg/info/ca-certificates.conffiles
--rw-r--r-- root       root              720 ./var/lib/opkg/info/ca-certificates.control
--rw-r--r-- root       root            12208 ./var/lib/opkg/info/ca-certificates.list
+-rw-r--r-- root       root              791 ./var/lib/opkg/info/ca-certificates.control
+-rw-r--r-- root       root            12541 ./var/lib/opkg/info/ca-certificates.list
 -rwxr-xr-x root       root               36 ./var/lib/opkg/info/ca-certificates.postinst
 -rw-r--r-- root       root              987 ./var/lib/opkg/info/coreutils-locale-cs.control
 -rw-r--r-- root       root              118 ./var/lib/opkg/info/coreutils-locale-cs.list
@@ -15794,7 +15805,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rwxr-xr-x root       root               68 ./var/lib/opkg/info/fbset.prerm
 -rw-r--r-- root       root              933 ./var/lib/opkg/info/ffphonelog.control
 -rw-r--r-- root       root              157 ./var/lib/opkg/info/ffphonelog.list
--rw-r--r-- root       root              553 ./var/lib/opkg/info/file.control
+-rw-r--r-- root       root              537 ./var/lib/opkg/info/file.control
 -rw-r--r-- root       root               90 ./var/lib/opkg/info/file.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/file.postinst
 -rw-r--r-- root       root              875 ./var/lib/opkg/info/findutils-locale-cs.control
@@ -15803,7 +15814,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              196 ./var/lib/opkg/info/findutils.list
 -rwxr-xr-x root       root              169 ./var/lib/opkg/info/findutils.postinst
 -rwxr-xr-x root       root              132 ./var/lib/opkg/info/findutils.prerm
--rw-r--r-- root       root             1025 ./var/lib/opkg/info/fontconfig-utils.control
+-rw-r--r-- root       root             1023 ./var/lib/opkg/info/fontconfig-utils.control
 -rw-r--r-- root       root              145 ./var/lib/opkg/info/fontconfig-utils.list
 -rw-r--r-- root       root              315 ./var/lib/opkg/info/formfactor.control
 -rw-r--r-- root       root               81 ./var/lib/opkg/info/formfactor.list
@@ -16136,13 +16147,13 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              786 ./var/lib/opkg/info/libbz2-0.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libbz2-0.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libbz2-0.postinst
--rw-r--r-- root       root             1724 ./var/lib/opkg/info/libc6-thread-db.control
+-rw-r--r-- root       root             2149 ./var/lib/opkg/info/libc6-thread-db.control
 -rw-r--r-- root       root               48 ./var/lib/opkg/info/libc6-thread-db.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libc6-thread-db.postinst
--rw-r--r-- root       root             1721 ./var/lib/opkg/info/libc6-utils.control
+-rw-r--r-- root       root             2146 ./var/lib/opkg/info/libc6-utils.control
 -rw-r--r-- root       root              186 ./var/lib/opkg/info/libc6-utils.list
--rw-r--r-- root       root             1685 ./var/lib/opkg/info/libc6.control
--rw-r--r-- root       root              670 ./var/lib/opkg/info/libc6.list
+-rw-r--r-- root       root             2110 ./var/lib/opkg/info/libc6.control
+-rw-r--r-- root       root              709 ./var/lib/opkg/info/libc6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libc6.postinst
 -rw-r--r-- root       root             1119 ./var/lib/opkg/info/libcairo2.control
 -rw-r--r-- root       root               54 ./var/lib/opkg/info/libcairo2.list
@@ -16215,7 +16226,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              808 ./var/lib/opkg/info/libefreet1.control
 -rw-r--r-- root       root               53 ./var/lib/opkg/info/libefreet1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libefreet1.postinst
--rw-r--r-- root       root             1123 ./var/lib/opkg/info/libegl-mesa.control
+-rw-r--r-- root       root             1100 ./var/lib/opkg/info/libegl-mesa.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libegl-mesa.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libegl-mesa.postinst
 -rw-r--r-- root       root              703 ./var/lib/opkg/info/libeio1.control
@@ -16258,7 +16269,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              505 ./var/lib/opkg/info/libflac8.control
 -rw-r--r-- root       root               48 ./var/lib/opkg/info/libflac8.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libflac8.postinst
--rw-r--r-- root       root              946 ./var/lib/opkg/info/libfontconfig1.control
+-rw-r--r-- root       root              944 ./var/lib/opkg/info/libfontconfig1.control
 -rw-r--r-- root       root             2375 ./var/lib/opkg/info/libfontconfig1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libfontconfig1.postinst
 -rw-r--r-- root       root              534 ./var/lib/opkg/info/libfontenc1.control
@@ -16294,7 +16305,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              658 ./var/lib/opkg/info/libfsotransport3.control
 -rw-r--r-- root       root               64 ./var/lib/opkg/info/libfsotransport3.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libfsotransport3.postinst
--rw-r--r-- root       root              828 ./var/lib/opkg/info/libgbm1.control
+-rw-r--r-- root       root              805 ./var/lib/opkg/info/libgbm1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libgbm1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libgbm1.postinst
 -rw-r--r-- root       root             2838 ./var/lib/opkg/info/libgcc1.control
@@ -16551,8 +16562,8 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              939 ./var/lib/opkg/info/libreadline6.control
 -rw-r--r-- root       root              571 ./var/lib/opkg/info/libreadline6.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libreadline6.postinst
--rw-r--r-- root       root             1007 ./var/lib/opkg/info/librsvg-2-2.control
--rw-r--r-- root       root               53 ./var/lib/opkg/info/librsvg-2-2.list
+-rw-r--r-- root       root             1006 ./var/lib/opkg/info/librsvg-2-2.control
+-rw-r--r-- root       root               54 ./var/lib/opkg/info/librsvg-2-2.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/librsvg-2-2.postinst
 -rw-r--r-- root       root             1038 ./var/lib/opkg/info/librsvg-2-gtk.control
 -rw-r--r-- root       root               62 ./var/lib/opkg/info/librsvg-2-gtk.list
@@ -16628,7 +16639,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              607 ./var/lib/opkg/info/libuuid1.control
 -rw-r--r-- root       root               40 ./var/lib/opkg/info/libuuid1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libuuid1.postinst
--rw-r--r-- root       root              511 ./var/lib/opkg/info/libvorbisidec1.control
+-rw-r--r-- root       root              510 ./var/lib/opkg/info/libvorbisidec1.control
 -rw-r--r-- root       root               60 ./var/lib/opkg/info/libvorbisidec1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libvorbisidec1.postinst
 -rw-r--r-- root       root             1178 ./var/lib/opkg/info/libwrap0.control
@@ -16761,7 +16772,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               15 ./var/lib/opkg/info/lsof.list
 -rw-r--r-- root       root              806 ./var/lib/opkg/info/ltrace.control
 -rw-r--r-- root       root               33 ./var/lib/opkg/info/ltrace.list
--rw-r--r-- root       root              465 ./var/lib/opkg/info/luajit.control
+-rw-r--r-- root       root              464 ./var/lib/opkg/info/luajit.control
 -rw-r--r-- root       root               98 ./var/lib/opkg/info/luajit.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/luajit.postinst
 -rw-r--r-- root       root              819 ./var/lib/opkg/info/make-locale-cs.control
@@ -16840,7 +16851,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root             1041 ./var/lib/opkg/info/openssh-sshd.control
 -rw-r--r-- root       root              235 ./var/lib/opkg/info/openssh-sshd.list
 -rwxr-xr-x root       root              233 ./var/lib/opkg/info/openssh-sshd.postinst
--rwxr-xr-x root       root             6156 ./var/lib/opkg/info/openssh-sshd.preinst
+-rwxr-xr-x root       root             6273 ./var/lib/opkg/info/openssh-sshd.preinst
 -rwxr-xr-x root       root              208 ./var/lib/opkg/info/openssh-sshd.prerm
 -rw-r--r-- root       root              830 ./var/lib/opkg/info/openssh.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/openssh.list
@@ -17082,8 +17093,8 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root             1360 ./var/lib/opkg/info/python-lang.list
 -rw-r--r-- root       root             1284 ./var/lib/opkg/info/python-logging.control
 -rw-r--r-- root       root              261 ./var/lib/opkg/info/python-logging.list
--rw-r--r-- root       root              612 ./var/lib/opkg/info/python-lxml.control
--rw-r--r-- root       root             5670 ./var/lib/opkg/info/python-lxml.list
+-rw-r--r-- root       root              563 ./var/lib/opkg/info/python-lxml.control
+-rw-r--r-- root       root             5742 ./var/lib/opkg/info/python-lxml.list
 -rw-r--r-- root       root             1281 ./var/lib/opkg/info/python-math.control
 -rw-r--r-- root       root              235 ./var/lib/opkg/info/python-math.list
 -rw-r--r-- root       root             1238 ./var/lib/opkg/info/python-mime.control
@@ -17167,7 +17178,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               23 ./var/lib/opkg/info/s3c24xx-gpio.list
 -rw-r--r-- root       root              472 ./var/lib/opkg/info/s3c64xx-gpio.control
 -rw-r--r-- root       root               23 ./var/lib/opkg/info/s3c64xx-gpio.list
--rw-r--r-- root       root              808 ./var/lib/opkg/info/screen.control
+-rw-r--r-- root       root              839 ./var/lib/opkg/info/screen.control
 -rw-r--r-- root       root              703 ./var/lib/opkg/info/screen.list
 -rwxr-xr-x root       root               84 ./var/lib/opkg/info/screen.postinst
 -rwxr-xr-x root       root               73 ./var/lib/opkg/info/screen.postrm
@@ -17285,6 +17296,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root              715 ./var/lib/opkg/info/tzdata-australia.list
 -rw-r--r-- root       root              384 ./var/lib/opkg/info/tzdata-europe.control
 -rw-r--r-- root       root             2027 ./var/lib/opkg/info/tzdata-europe.list
+-rw-r--r-- root       root               14 ./var/lib/opkg/info/tzdata.conffiles
 -rw-r--r-- root       root              594 ./var/lib/opkg/info/tzdata.control
 -rw-r--r-- root       root             2725 ./var/lib/opkg/info/tzdata.list
 -rwxr-xr-x root       root              540 ./var/lib/opkg/info/tzdata.postinst
@@ -17369,7 +17381,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               68 ./var/lib/opkg/info/xf86-input-keyboard.list
 -rw-r--r-- root       root              712 ./var/lib/opkg/info/xf86-input-mouse.control
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/xf86-input-mouse.list
--rw-r--r-- root       root              786 ./var/lib/opkg/info/xf86-input-vmmouse.control
+-rw-r--r-- root       root              787 ./var/lib/opkg/info/xf86-input-vmmouse.control
 -rw-r--r-- root       root              150 ./var/lib/opkg/info/xf86-input-vmmouse.list
 -rw-r--r-- root       root              611 ./var/lib/opkg/info/xf86-video-cirrus.control
 -rw-r--r-- root       root              138 ./var/lib/opkg/info/xf86-video-cirrus.list
@@ -17414,10 +17426,10 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- root       root            87086 ./var/lib/opkg/lists/oe-all
--rw-r--r-- root       root          6912993 ./var/lib/opkg/lists/oe-core2-64
+-rw-r--r-- root       root            87370 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root          6914820 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           357852 ./var/lib/opkg/lists/oe-qemux86_64
--rw-r--r-- root       root           200435 ./var/lib/opkg/status
+-rw-r--r-- root       root           200479 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x root       root             4096 ./var/local

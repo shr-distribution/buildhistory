@@ -1433,7 +1433,6 @@ digraph depends {
 "libegl-mesa" -> "libdrm2";
 "libegl-mesa" -> "libexpat1";
 "libegl-mesa" -> "libgbm1";
-"libegl-mesa" -> "libglapi0";
 "libegl-mesa" -> "libx11-6";
 "libegl-mesa" -> "libx11-xcb1";
 "libegl-mesa" -> "libxau6";
@@ -1562,7 +1561,6 @@ digraph depends {
 "libgbm1" -> "libc6";
 "libgbm1" -> "libdrm2";
 "libgbm1" -> "libexpat1";
-"libgbm1" -> "libglapi0";
 "libgcc1" -> "libc6";
 "libgdbm-compat4" -> "libc6";
 "libgdbm-compat4" -> "libgdbm4";
@@ -3533,6 +3531,7 @@ digraph depends {
 "xf86-input-mouse" -> "libc6";
 "xf86-input-mouse" -> "xorg-abi-input-21";
 "xf86-input-vmmouse" -> "libc6";
+"xf86-input-vmmouse" -> "libudev1";
 "xf86-input-vmmouse" -> "xf86-input-mouse";
 "xf86-input-vmmouse" -> "xorg-abi-input-21";
 "xf86-video-cirrus" -> "libc6";
