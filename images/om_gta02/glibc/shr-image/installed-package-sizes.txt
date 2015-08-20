@@ -58,8 +58,8 @@
 904	KiB gawk
 891	KiB fso-sounds
 872	KiB shadow
+864	KiB openssh-sshd
 860	KiB python-netclient
-844	KiB openssh-sshd
 815	KiB python-ecore
 813	KiB libasound2
 811	KiB libfso-glib2
@@ -87,8 +87,8 @@
 539	KiB python-lang
 538	KiB screen
 536	KiB findutils
-532	KiB openssh-ssh
 529	KiB libsoup-2.4
+520	KiB openssh-ssh
 511	KiB libjpeg8
 507	KiB python-pygobject
 505	KiB serial-forward
@@ -125,8 +125,8 @@
 354	KiB pango
 353	KiB nettle
 334	KiB powertop
-334	KiB openssh-keygen
 333	KiB libgstfarsight-0.10-0
+330	KiB openssh-keygen
 325	KiB mobile-broadband-provider-info
 324	KiB vagalume
 323	KiB pidgin-locale-cs
