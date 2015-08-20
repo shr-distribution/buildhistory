@@ -59,7 +59,7 @@
 889	KiB gawk
 862	KiB shadow
 860	KiB python-netclient
-840	KiB openssh-sshd
+860	KiB openssh-sshd
 809	KiB libasound2
 804	KiB python-ecore
 795	KiB libfso-glib2
@@ -88,7 +88,7 @@
 534	KiB screen
 525	KiB libsoup-2.4
 525	KiB findutils
-524	KiB openssh-ssh
+512	KiB openssh-ssh
 504	KiB libjpeg8
 503	KiB serial-forward
 502	KiB python-pygobject
@@ -126,9 +126,9 @@
 349	KiB pango
 339	KiB kernel-module-ipv6
 336	KiB kernel-module-bluetooth
-330	KiB openssh-keygen
 330	KiB libgstfarsight-0.10-0
 329	KiB powertop
+326	KiB openssh-keygen
 325	KiB mobile-broadband-provider-info
 323	KiB pidgin-locale-cs
 321	KiB mtd-utils-ubifs
