@@ -64,7 +64,7 @@
 862	KiB shadow
 862	KiB e2fsprogs-e2fsck
 860	KiB python-netclient
-832	KiB openssh-sshd
+852	KiB openssh-sshd
 781	KiB libasound2
 779	KiB python-ecore
 762	KiB libfso-glib2
@@ -91,8 +91,8 @@
 534	KiB screen
 534	KiB python-lang
 526	KiB luajit
-520	KiB openssh-ssh
 509	KiB libsoup-2.4
+508	KiB openssh-ssh
 505	KiB findutils
 494	KiB serial-forward
 489	KiB python-pygobject
@@ -127,8 +127,8 @@
 345	KiB sysstat
 342	KiB nettle
 336	KiB libtiff5
-334	KiB openssh-keygen
 330	KiB libjpeg8
+326	KiB openssh-keygen
 325	KiB mobile-broadband-provider-info
 323	KiB pidgin-locale-cs
 323	KiB libgstfarsight-0.10-0
