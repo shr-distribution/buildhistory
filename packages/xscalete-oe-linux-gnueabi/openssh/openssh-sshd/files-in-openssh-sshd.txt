@@ -6,7 +6,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./etc/default/volatiles
 drwxr-xr-x bitbake    bitbake          4096 ./etc/pam.d
 -rwxr-xr-x bitbake    bitbake           297 ./etc/pam.d/sshd
 drwxr-xr-x bitbake    bitbake          4096 ./etc/ssh
--rw-r--r-- bitbake    bitbake        263065 ./etc/ssh/moduli
+-rw-r--r-- bitbake    bitbake        300324 ./etc/ssh/moduli
 -rw-r--r-- bitbake    bitbake          3635 ./etc/ssh/sshd_config
 -rw-r--r-- bitbake    bitbake          3507 ./etc/ssh/sshd_config_readonly
 drwxr-xr-x bitbake    bitbake          4096 ./lib
@@ -17,4 +17,4 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
 -rw-r--r-- bitbake    bitbake           317 ./lib/systemd/system/sshdgenkeys.service
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
--rwxr-xr-x bitbake    bitbake        588964 ./usr/sbin/sshd
+-rwxr-xr-x bitbake    bitbake        572352 ./usr/sbin/sshd
