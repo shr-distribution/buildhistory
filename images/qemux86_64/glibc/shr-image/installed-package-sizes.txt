@@ -68,7 +68,7 @@
 1082	KiB libcairo2
 1063	KiB pidgin
 1047	KiB babiloo-efl
-1029	KiB openssh-sshd
+1037	KiB openssh-sshd
 1000	KiB bash
 992	KiB libasound2
 984	KiB libstdc++6
@@ -95,10 +95,10 @@
 717	KiB s3c64xx-gpio
 700	KiB python-ctypes
 697	KiB openvpn
-688	KiB openssh-ssh
 680	KiB libpixman-1-0
 669	KiB shr-settings
 668	KiB screen
+668	KiB openssh-ssh
 644	KiB libevent
 641	KiB python-edje
 639	KiB python-lang
@@ -130,8 +130,8 @@
 426	KiB om-neon
 412	KiB eina
 409	KiB libedje-utils
-398	KiB openssh-keygen
 391	KiB estardict
+390	KiB openssh-keygen
 389	KiB util-linux-locale-cs
 385	KiB libreadline6
 385	KiB glibc-binary-localedata-cs-cz
