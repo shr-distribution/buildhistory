@@ -17426,7 +17426,7 @@ drwxr-xr-x root       root            77824 ./var/lib/opkg/info
 -rw-r--r-- root       root               39 ./var/lib/opkg/info/xz-locale-cs.list
 drwxr-xr-x root       root             4096 ./var/lib/opkg/lists
 -rw-r--r-- 1026       1026                0 ./var/lib/opkg/lists/oe
--rw-r--r-- 1026       1026            87370 ./var/lib/opkg/lists/oe-all
+-rw-r--r-- root       root            87370 ./var/lib/opkg/lists/oe-all
 -rw-r--r-- root       root          6914820 ./var/lib/opkg/lists/oe-core2-64
 -rw-r--r-- root       root           357852 ./var/lib/opkg/lists/oe-qemux86_64
 -rw-r--r-- root       root           200479 ./var/lib/opkg/status
