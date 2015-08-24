@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          1454 ./usr/bin/smicache
+-rwxr-xr-x bitbake    bitbake         48624 ./usr/bin/smidiff
+-rwxr-xr-x bitbake    bitbake        387160 ./usr/bin/smidump
+-rwxr-xr-x bitbake    bitbake         15720 ./usr/bin/smilint
+-rwxr-xr-x bitbake    bitbake         20568 ./usr/bin/smiquery
+-rwxr-xr-x bitbake    bitbake          4138 ./usr/bin/smistrip
+-rwxr-xr-x bitbake    bitbake         16968 ./usr/bin/smixlate
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libsmi.so.2 -> libsmi.so.2.0.27
+-rwxr-xr-x bitbake    bitbake        381728 ./usr/lib/libsmi.so.2.0.27

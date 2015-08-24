@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake         22469 ./usr/include/smi.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           905 ./usr/lib/libsmi.la
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libsmi.so -> libsmi.so.2.0.27
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           189 ./usr/lib/pkgconfig/libsmi.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/aclocal
+-rw-r--r-- bitbake    bitbake           898 ./usr/share/aclocal/libsmi.m4
