@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libX11-xcb.so.1 -> libX11-xcb.so.1.0.0
+-rwxr-xr-x bitbake    bitbake          3136 ./usr/lib/libX11-xcb.so.1.0.0

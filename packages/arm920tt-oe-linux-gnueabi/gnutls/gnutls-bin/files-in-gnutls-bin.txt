@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake        164156 ./usr/bin/certtool
+-rwxr-xr-x bitbake    bitbake        128836 ./usr/bin/gnutls-cli
+-rwxr-xr-x bitbake    bitbake        109764 ./usr/bin/gnutls-serv
+-rwxr-xr-x bitbake    bitbake         83164 ./usr/bin/ocsptool
+-rwxr-xr-x bitbake    bitbake         69852 ./usr/bin/psktool
+-rwxr-xr-x bitbake    bitbake         73284 ./usr/bin/srptool

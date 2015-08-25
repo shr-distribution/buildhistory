@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./etc/dbus-1/system.d
+-rw-r--r-- bitbake    bitbake           538 ./etc/dbus-1/system.d/org.freedesktop.GeoClue2.conf
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/geoclue
+-rwxr-xr-x bitbake    bitbake         57716 ./usr/lib/geoclue/geoclue
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1/system-services
+-rw-r--r-- bitbake    bitbake            91 ./usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/geoclue-2.0
+-rw-r--r-- bitbake    bitbake          3915 ./usr/share/geoclue-2.0/geoclue-interface.xml

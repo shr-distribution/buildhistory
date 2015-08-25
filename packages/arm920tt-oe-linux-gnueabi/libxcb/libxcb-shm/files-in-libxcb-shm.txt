@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libxcb-shm.so.0 -> libxcb-shm.so.0.0.0
+-rwxr-xr-x bitbake    bitbake          6592 ./usr/lib/libxcb-shm.so.0.0.0

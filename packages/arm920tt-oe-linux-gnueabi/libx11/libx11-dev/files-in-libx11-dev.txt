@@ -1,0 +1,24 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+-rw-r--r-- bitbake    bitbake           459 ./usr/include/X11/ImUtil.h
+-rw-r--r-- bitbake    bitbake         30995 ./usr/include/X11/XKBlib.h
+-rw-r--r-- bitbake    bitbake         21346 ./usr/include/X11/Xcms.h
+-rw-r--r-- bitbake    bitbake           506 ./usr/include/X11/Xlib-xcb.h
+-rw-r--r-- bitbake    bitbake         99498 ./usr/include/X11/Xlib.h
+-rw-r--r-- bitbake    bitbake          1567 ./usr/include/X11/XlibConf.h
+-rw-r--r-- bitbake    bitbake         37121 ./usr/include/X11/Xlibint.h
+-rw-r--r-- bitbake    bitbake          1297 ./usr/include/X11/Xlocale.h
+-rw-r--r-- bitbake    bitbake          5949 ./usr/include/X11/Xregion.h
+-rw-r--r-- bitbake    bitbake         10628 ./usr/include/X11/Xresource.h
+-rw-r--r-- bitbake    bitbake         21353 ./usr/include/X11/Xutil.h
+-rw-r--r-- bitbake    bitbake          3118 ./usr/include/X11/cursorfont.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1060 ./usr/lib/libX11-xcb.la
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libX11-xcb.so -> libX11-xcb.so.1.0.0
+-rwxr-xr-x bitbake    bitbake          1012 ./usr/lib/libX11.la
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libX11.so -> libX11.so.6.3.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           206 ./usr/lib/pkgconfig/x11-xcb.pc
+-rw-r--r-- bitbake    bitbake           270 ./usr/lib/pkgconfig/x11.pc

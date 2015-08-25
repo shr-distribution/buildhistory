@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libICE.so.6 -> libICE.so.6.3.0
+-rwxr-xr-x bitbake    bitbake         62380 ./usr/lib/libICE.so.6.3.0

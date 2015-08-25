@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+-rw-r--r-- bitbake    bitbake          6371 ./usr/include/X11/Xdmcp.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           917 ./usr/lib/libXdmcp.la
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libXdmcp.so -> libXdmcp.so.6.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           220 ./usr/lib/pkgconfig/xdmcp.pc

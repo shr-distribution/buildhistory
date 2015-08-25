@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libxcb-shape.so.0 -> libxcb-shape.so.0.0.0
+-rwxr-xr-x bitbake    bitbake          7180 ./usr/lib/libxcb-shape.so.0.0.0

@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/SM
+-rw-r--r-- bitbake    bitbake          2927 ./usr/include/X11/SM/SM.h
+-rw-r--r-- bitbake    bitbake         11268 ./usr/include/X11/SM/SMlib.h
+-rw-r--r-- bitbake    bitbake          4852 ./usr/include/X11/SM/SMproto.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           916 ./usr/lib/libSM.la
+lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libSM.so -> libSM.so.6.0.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           222 ./usr/lib/pkgconfig/sm.pc

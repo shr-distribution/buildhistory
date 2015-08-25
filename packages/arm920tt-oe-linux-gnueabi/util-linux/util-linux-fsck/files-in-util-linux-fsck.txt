@@ -1,0 +1,4 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./sbin
+-rwxr-xr-x bitbake    bitbake         48596 ./sbin/fsck.minix.util-linux
+-rwxr-xr-x bitbake    bitbake         23068 ./sbin/fsck.util-linux

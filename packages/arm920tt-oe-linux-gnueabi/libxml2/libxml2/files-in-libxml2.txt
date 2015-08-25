@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         11316 ./usr/bin/xmlcatalog
+-rwxr-xr-x bitbake    bitbake         47944 ./usr/bin/xmllint
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libxml2.so.2 -> libxml2.so.2.9.2
+-rwxr-xr-x bitbake    bitbake        924904 ./usr/lib/libxml2.so.2.9.2

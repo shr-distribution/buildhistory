@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          6072 ./usr/bin/db_archive
+-rwxr-xr-x bitbake    bitbake          7340 ./usr/bin/db_checkpoint
+-rwxr-xr-x bitbake    bitbake          7420 ./usr/bin/db_deadlock
+-rwxr-xr-x bitbake    bitbake         10040 ./usr/bin/db_dump
+-rwxr-xr-x bitbake    bitbake         10360 ./usr/bin/db_hotbackup
+-rwxr-xr-x bitbake    bitbake         18256 ./usr/bin/db_load
+-rwxr-xr-x bitbake    bitbake          7872 ./usr/bin/db_log_verify
+-rwxr-xr-x bitbake    bitbake         27084 ./usr/bin/db_printlog
+-rwxr-xr-x bitbake    bitbake          7492 ./usr/bin/db_recover
+-rwxr-xr-x bitbake    bitbake          4664 ./usr/bin/db_replicate
+-rwxr-xr-x bitbake    bitbake          7936 ./usr/bin/db_stat
+-rwxr-xr-x bitbake    bitbake         16180 ./usr/bin/db_tuner
+-rwxr-xr-x bitbake    bitbake          6608 ./usr/bin/db_upgrade
+-rwxr-xr-x bitbake    bitbake          7472 ./usr/bin/db_verify

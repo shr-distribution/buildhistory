@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./bin
+-rwxr-xr-x bitbake    bitbake         27236 ./bin/login.shadow
+-rwsr-xr-x bitbake    bitbake         23688 ./bin/su.shadow
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake         10945 ./etc/login.defs
+drwxr-xr-x bitbake    bitbake          4096 ./etc/pam.d
+-rw-r--r-- bitbake    bitbake          3202 ./etc/pam.d/login
+-rw-r--r-- bitbake    bitbake          2140 ./etc/pam.d/su
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          6296 ./usr/bin/groups.shadow
+-rwsr-xr-x bitbake    bitbake         20900 ./usr/bin/newgrp.shadow
+lrwxrwxrwx bitbake    bitbake            13 ./usr/bin/sg -> newgrp.shadow

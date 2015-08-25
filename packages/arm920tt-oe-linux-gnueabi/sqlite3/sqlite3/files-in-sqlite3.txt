@@ -1,4 +1,4 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
--rwxr-xr-x bitbake    bitbake         58480 ./usr/bin/sqlite3
+-rwxr-xr-x bitbake    bitbake         58424 ./usr/bin/sqlite3

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          7128 ./usr/bin/nettle-hash
+-rwxr-xr-x bitbake    bitbake          4000 ./usr/bin/nettle-lfib-stream
+-rwxr-xr-x bitbake    bitbake         10284 ./usr/bin/pkcs1-conv
+-rwxr-xr-x bitbake    bitbake         14356 ./usr/bin/sexp-conv
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libhogweed.so.2 -> libhogweed.so.2.5
+-rw-r--r-- bitbake    bitbake        152728 ./usr/lib/libhogweed.so.2.5
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libnettle.so.4 -> libnettle.so.4.7
+-rw-r--r-- bitbake    bitbake        173084 ./usr/lib/libnettle.so.4.7

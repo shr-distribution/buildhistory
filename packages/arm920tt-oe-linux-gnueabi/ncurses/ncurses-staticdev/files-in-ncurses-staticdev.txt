@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            12 ./usr/lib/libcurses.a -> libncurses.a
+-rw-r--r-- bitbake    bitbake        535362 ./usr/lib/libform.a
+-rw-r--r-- bitbake    bitbake        600858 ./usr/lib/libformw.a
+-rw-r--r-- bitbake    bitbake        311882 ./usr/lib/libmenu.a
+-rw-r--r-- bitbake    bitbake        319070 ./usr/lib/libmenuw.a
+-rw-r--r-- bitbake    bitbake        449518 ./usr/lib/libncurses++.a
+-rw-r--r-- bitbake    bitbake        451058 ./usr/lib/libncurses++w.a
+-rw-r--r-- bitbake    bitbake       1395378 ./usr/lib/libncurses.a
+-rw-r--r-- bitbake    bitbake       1727464 ./usr/lib/libncursesw.a
+-rw-r--r-- bitbake    bitbake        124650 ./usr/lib/libpanel.a
+-rw-r--r-- bitbake    bitbake        127226 ./usr/lib/libpanelw.a
+-rw-r--r-- bitbake    bitbake        193178 ./usr/lib/libtic.a
+-rw-r--r-- bitbake    bitbake        193426 ./usr/lib/libticw.a
+-rw-r--r-- bitbake    bitbake        780572 ./usr/lib/libtinfo.a

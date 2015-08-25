@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/ICE
+-rw-r--r-- bitbake    bitbake          2512 ./usr/include/X11/ICE/ICE.h
+-rw-r--r-- bitbake    bitbake          7413 ./usr/include/X11/ICE/ICEconn.h
+-rw-r--r-- bitbake    bitbake          9925 ./usr/include/X11/ICE/ICElib.h
+-rw-r--r-- bitbake    bitbake          8410 ./usr/include/X11/ICE/ICEmsg.h
+-rw-r--r-- bitbake    bitbake          4668 ./usr/include/X11/ICE/ICEproto.h
+-rw-r--r-- bitbake    bitbake          3154 ./usr/include/X11/ICE/ICEutil.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           903 ./usr/lib/libICE.la
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libICE.so -> libICE.so.6.3.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           205 ./usr/lib/pkgconfig/ice.pc

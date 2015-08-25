@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          9823 ./usr/include/X11/extensions/XI.h
+-rw-r--r-- bitbake    bitbake         10542 ./usr/include/X11/extensions/XI2.h
+-rw-r--r-- bitbake    bitbake         37518 ./usr/include/X11/extensions/XI2proto.h
+-rw-r--r-- bitbake    bitbake         42622 ./usr/include/X11/extensions/XIproto.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           164 ./usr/lib/pkgconfig/inputproto.pc

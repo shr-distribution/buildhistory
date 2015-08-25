@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          7012 ./usr/bin/attr
+-rwxr-xr-x bitbake    bitbake         12556 ./usr/bin/getfattr
+-rwxr-xr-x bitbake    bitbake         10164 ./usr/bin/setfattr

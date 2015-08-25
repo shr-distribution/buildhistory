@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libX11.so.6 -> libX11.so.6.3.0
+-rwxr-xr-x bitbake    bitbake        970492 ./usr/lib/libX11.so.6.3.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/X11
+-rw-r--r-- bitbake    bitbake         42077 ./usr/share/X11/XErrorDB
+-rw-r--r-- bitbake    bitbake          1723 ./usr/share/X11/Xcms.txt

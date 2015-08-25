@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/captoinfo -> tic
+-rwxr-xr-x bitbake    bitbake          3864 ./usr/bin/clear.ncurses
+-rwxr-xr-x bitbake    bitbake         40288 ./usr/bin/infocmp
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/infotocap -> tic
+lrwxrwxrwx bitbake    bitbake             4 ./usr/bin/reset.ncurses -> tset
+-rwxr-xr-x bitbake    bitbake          9020 ./usr/bin/tabs
+-rwxr-xr-x bitbake    bitbake         56252 ./usr/bin/tic
+-rwxr-xr-x bitbake    bitbake          9220 ./usr/bin/toe
