@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libepoxy.so.0 -> libepoxy.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        651124 ./usr/lib/libepoxy.so.0.0.0

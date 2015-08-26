@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       1553126 ./usr/lib/libgstbase-0.10.a
+-rw-r--r-- bitbake    bitbake        682888 ./usr/lib/libgstcontroller-0.10.a
+-rw-r--r-- bitbake    bitbake         56724 ./usr/lib/libgstdataprotocol-0.10.a
+-rw-r--r-- bitbake    bitbake        109942 ./usr/lib/libgstnet-0.10.a
+-rw-r--r-- bitbake    bitbake       4372466 ./usr/lib/libgstreamer-0.10.a

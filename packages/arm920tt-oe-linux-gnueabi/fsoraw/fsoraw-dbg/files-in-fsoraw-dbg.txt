@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake         57504 ./usr/bin/.debug/fso-raw
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/fsoraw
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/fsoraw/2_1.0.0+gitrAUTOINC+2348799ed2-r6.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/fsoraw/2_1.0.0+gitrAUTOINC+2348799ed2-r6.1/git
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/fsoraw/2_1.0.0+gitrAUTOINC+2348799ed2-r6.1/git/tools
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/fsoraw/2_1.0.0+gitrAUTOINC+2348799ed2-r6.1/git/tools/fso-raw
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/fsoraw/2_1.0.0+gitrAUTOINC+2348799ed2-r6.1/git/tools/fso-raw/src
+-rw-r--r-- bitbake    bitbake         31906 ./usr/src/debug/fsoraw/2_1.0.0+gitrAUTOINC+2348799ed2-r6.1/git/tools/fso-raw/src/main.c

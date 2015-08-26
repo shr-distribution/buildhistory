@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libxcb-util.so.1 -> libxcb-util.so.1.0.0
+-rwxr-xr-x bitbake    bitbake         13576 ./usr/lib/libxcb-util.so.1.0.0

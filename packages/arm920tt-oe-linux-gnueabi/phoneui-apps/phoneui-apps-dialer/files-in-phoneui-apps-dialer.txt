@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          4680 ./usr/bin/phoneui-dialer
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           292 ./usr/share/applications/phoneui-dialer.desktop

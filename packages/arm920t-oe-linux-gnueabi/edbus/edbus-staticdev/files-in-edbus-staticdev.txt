@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake        249548 ./usr/lib/libebluez.a
+-rw-r--r-- bitbake    bitbake        345834 ./usr/lib/libeconnman0_7x.a
+-rw-r--r-- bitbake    bitbake        221576 ./usr/lib/libedbus.a
+-rw-r--r-- bitbake    bitbake         75098 ./usr/lib/libehal.a
+-rw-r--r-- bitbake    bitbake        144650 ./usr/lib/libenotify.a
+-rw-r--r-- bitbake    bitbake        227208 ./usr/lib/libeofono.a
+-rw-r--r-- bitbake    bitbake         92392 ./usr/lib/libeukit.a

@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          7324 ./usr/bin/ecore_evas_convert
+-rwxr-xr-x bitbake    bitbake        117580 ./usr/bin/embryo_cc
+-rwxr-xr-x bitbake    bitbake         45464 ./usr/bin/eolian_gen

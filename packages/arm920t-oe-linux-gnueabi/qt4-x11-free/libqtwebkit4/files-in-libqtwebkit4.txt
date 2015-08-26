@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libQtWebKit.so.4 -> libQtWebKit.so.4.9.4
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libQtWebKit.so.4.9 -> libQtWebKit.so.4.9.4
+-rwxr-xr-x bitbake    bitbake      20792556 ./usr/lib/libQtWebKit.so.4.9.4

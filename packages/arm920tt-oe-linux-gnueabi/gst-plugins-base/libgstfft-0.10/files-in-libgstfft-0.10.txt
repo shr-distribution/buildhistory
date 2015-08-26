@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libgstfft-0.10.so.0 -> libgstfft-0.10.so.0.25.0
+-rwxr-xr-x bitbake    bitbake         38084 ./usr/lib/libgstfft-0.10.so.0.25.0

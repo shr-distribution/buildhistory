@@ -1,0 +1,22 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake           220 ./etc/quotagrpadmins
+-rw-r--r-- bitbake    bitbake           261 ./etc/quotatab
+-rw-r--r-- bitbake    bitbake          3038 ./etc/warnquota.conf
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         62216 ./usr/bin/quota
+-rwxr-xr-x bitbake    bitbake         51780 ./usr/bin/quotasync
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         53792 ./usr/sbin/convertquota
+-rwxr-xr-x bitbake    bitbake         60240 ./usr/sbin/edquota
+-rwxr-xr-x bitbake    bitbake         52860 ./usr/sbin/quot
+-rwxr-xr-x bitbake    bitbake         77968 ./usr/sbin/quotacheck
+lrwxrwxrwx bitbake    bitbake             7 ./usr/sbin/quotaoff -> quotaon
+-rwxr-xr-x bitbake    bitbake         55968 ./usr/sbin/quotaon
+-rwxr-xr-x bitbake    bitbake         12124 ./usr/sbin/quotastats
+-rwxr-xr-x bitbake    bitbake         56096 ./usr/sbin/repquota
+-rwxr-xr-x bitbake    bitbake         56852 ./usr/sbin/rpc.rquotad
+-rwxr-xr-x bitbake    bitbake         64256 ./usr/sbin/setquota
+-rwxr-xr-x bitbake    bitbake         64236 ./usr/sbin/warnquota
+-rwxr-xr-x bitbake    bitbake          7168 ./usr/sbin/xqmstats

@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       1242724 ./usr/lib/libevent.a
+-rw-r--r-- bitbake    bitbake        801512 ./usr/lib/libevent_core.a
+-rw-r--r-- bitbake    bitbake        441284 ./usr/lib/libevent_extra.a
+-rw-r--r-- bitbake    bitbake         15394 ./usr/lib/libevent_pthreads.a

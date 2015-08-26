@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ecore_x
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ecore_x/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ecore_x/bin/v-1.14
+-rwxr-xr-x bitbake    bitbake         10144 ./usr/lib/ecore_x/bin/v-1.14/ecore_x_vsync
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libecore_x.so.1 -> libecore_x.so.1.14.1
+-rwxr-xr-x bitbake    bitbake        261340 ./usr/lib/libecore_x.so.1.14.1

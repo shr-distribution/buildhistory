@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         20324 ./usr/bin/ts_harvest
+-rwxr-xr-x bitbake    bitbake          4072 ./usr/bin/ts_print
+-rwxr-xr-x bitbake    bitbake          4080 ./usr/bin/ts_print_raw
+-rwxr-xr-x bitbake    bitbake         16192 ./usr/bin/ts_test

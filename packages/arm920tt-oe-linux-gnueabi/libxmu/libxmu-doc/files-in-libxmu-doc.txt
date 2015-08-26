@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/libXmu
+-rw-r--r-- bitbake    bitbake        153593 ./usr/share/doc/libXmu/Xmu.xml
+-rw-r--r-- bitbake    bitbake          1787 ./usr/share/doc/libXmu/xlogo.svg

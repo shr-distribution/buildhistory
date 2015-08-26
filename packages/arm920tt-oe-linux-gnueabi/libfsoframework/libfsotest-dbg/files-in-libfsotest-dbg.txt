@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake        144480 ./usr/lib/.debug/libfsotest.so.3.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules/tests
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules/tests/.debug
+-rwxr-xr-x bitbake    bitbake         16536 ./usr/lib/cornucopia/modules/tests/.debug/plugin.so
+-rwxr-xr-x bitbake    bitbake         16264 ./usr/lib/cornucopia/modules/tests/.debug/plugina.so
+-rwxr-xr-x bitbake    bitbake         16264 ./usr/lib/cornucopia/modules/tests/.debug/pluginb.so
+-rwxr-xr-x bitbake    bitbake         17072 ./usr/lib/cornucopia/modules/tests/.debug/pluginc.so

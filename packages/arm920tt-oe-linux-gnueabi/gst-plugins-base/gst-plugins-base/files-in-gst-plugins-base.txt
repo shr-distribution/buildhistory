@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/gst-plugins-base
+-rw-r--r-- bitbake    bitbake         44604 ./usr/share/gst-plugins-base/license-translations.dict

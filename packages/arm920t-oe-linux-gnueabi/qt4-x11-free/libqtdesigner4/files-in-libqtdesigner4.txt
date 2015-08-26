@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libQtDesigner.so.4 -> libQtDesigner.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libQtDesigner.so.4.8 -> libQtDesigner.so.4.8.7
+-rwxr-xr-x bitbake    bitbake       5157132 ./usr/lib/libQtDesigner.so.4.8.7

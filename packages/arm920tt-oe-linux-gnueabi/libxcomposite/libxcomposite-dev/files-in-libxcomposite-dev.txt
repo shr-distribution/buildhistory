@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          3835 ./usr/include/X11/extensions/Xcomposite.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1101 ./usr/lib/libXcomposite.la
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libXcomposite.so -> libXcomposite.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           268 ./usr/lib/pkgconfig/xcomposite.pc

@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          2071 ./usr/include/X11/extensions/recordconst.h
+-rw-r--r-- bitbake    bitbake          7893 ./usr/include/X11/extensions/recordproto.h
+-rw-r--r-- bitbake    bitbake           258 ./usr/include/X11/extensions/recordstr.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           167 ./usr/lib/pkgconfig/recordproto.pc

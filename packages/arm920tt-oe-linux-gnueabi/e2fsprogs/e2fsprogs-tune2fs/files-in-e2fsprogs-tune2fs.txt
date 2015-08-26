@@ -1,0 +1,4 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./sbin
+-rwxr-xr-x bitbake    bitbake         51540 ./sbin/e2label
+-rwxr-xr-x bitbake    bitbake         51540 ./sbin/tune2fs

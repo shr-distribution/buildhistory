@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/init.d
+-rwxr-xr-x bitbake    bitbake          1522 ./etc/init.d/watchdog.sh
+-rw-r--r-- bitbake    bitbake          1125 ./etc/watchdog.conf
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         68508 ./usr/sbin/watchdog
+-rwxr-xr-x bitbake    bitbake         10492 ./usr/sbin/wd_identify
+-rwxr-xr-x bitbake    bitbake         14268 ./usr/sbin/wd_keepalive

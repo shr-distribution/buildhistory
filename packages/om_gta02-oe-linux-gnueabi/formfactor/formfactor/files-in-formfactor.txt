@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/formfactor
+-rw-r--r-- bitbake    bitbake          1032 ./etc/formfactor/config
+-rw-r--r-- bitbake    bitbake            79 ./etc/formfactor/machconfig
+-rw-r--r-- bitbake    bitbake             1 ./etc/rotation

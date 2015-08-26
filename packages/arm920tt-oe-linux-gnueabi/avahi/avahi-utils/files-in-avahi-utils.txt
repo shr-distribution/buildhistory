@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         15272 ./usr/bin/avahi-browse
+lrwxrwxrwx bitbake    bitbake            12 ./usr/bin/avahi-browse-domains -> avahi-browse
+-rwxr-xr-x bitbake    bitbake         12188 ./usr/bin/avahi-publish
+lrwxrwxrwx bitbake    bitbake            13 ./usr/bin/avahi-publish-address -> avahi-publish
+lrwxrwxrwx bitbake    bitbake            13 ./usr/bin/avahi-publish-service -> avahi-publish
+-rwxr-xr-x bitbake    bitbake         10240 ./usr/bin/avahi-resolve
+lrwxrwxrwx bitbake    bitbake            13 ./usr/bin/avahi-resolve-address -> avahi-resolve
+lrwxrwxrwx bitbake    bitbake            13 ./usr/bin/avahi-resolve-host-name -> avahi-resolve
+-rwxr-xr-x bitbake    bitbake          8144 ./usr/bin/avahi-set-host-name

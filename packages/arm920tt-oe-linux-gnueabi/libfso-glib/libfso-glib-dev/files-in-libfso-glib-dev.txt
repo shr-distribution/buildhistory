@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/fso-glib
+-rw-r--r-- bitbake    bitbake        392319 ./usr/include/fso-glib/freesmartphone.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1216 ./usr/lib/libfso-glib.la
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libfso-glib.so -> libfso-glib.so.2.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           288 ./usr/lib/pkgconfig/fso-glib-1.0.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake            17 ./usr/share/vala/vapi/fso-glib-1.0.deps
+-rw-r--r-- bitbake    bitbake        145569 ./usr/share/vala/vapi/fso-glib-1.0.vapi

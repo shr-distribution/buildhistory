@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libefreet_trash.so.1 -> libefreet_trash.so.1.14.1
+-rwxr-xr-x bitbake    bitbake          9220 ./usr/lib/libefreet_trash.so.1.14.1

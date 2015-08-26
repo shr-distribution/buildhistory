@@ -1,11 +1,11 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
--rwxr-xr-x bitbake    bitbake        292712 ./usr/bin/ssh-add
--rwxr-xr-x bitbake    bitbake        305016 ./usr/bin/ssh-agent
+-rwxr-xr-x bitbake    bitbake        288304 ./usr/bin/ssh-add
+-rwxr-xr-x bitbake    bitbake        300608 ./usr/bin/ssh-agent
 -rwxr-xr-x bitbake    bitbake          9325 ./usr/bin/ssh-copy-id
--rwxr-xr-x bitbake    bitbake        337872 ./usr/bin/ssh-keyscan
+-rwxr-xr-x bitbake    bitbake        337560 ./usr/bin/ssh-keyscan
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/openssh
--rws--x--x bitbake    bitbake        350048 ./usr/lib/openssh/ssh-keysign
--rwxr-xr-x bitbake    bitbake        296788 ./usr/lib/openssh/ssh-pkcs11-helper
+-rws--x--x bitbake    bitbake        345640 ./usr/lib/openssh/ssh-keysign
+-rwxr-xr-x bitbake    bitbake        292380 ./usr/lib/openssh/ssh-pkcs11-helper

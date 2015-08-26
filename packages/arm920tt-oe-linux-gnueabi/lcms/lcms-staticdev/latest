@@ -1,9 +1,9 @@
 PV = 2.6
 PR = r0
-PKGR = r0.12
+PKGR = r0.13
 RPROVIDES = 
-RDEPENDS = lcms-dev (= 2.6-r0.12)
+RDEPENDS = lcms-dev (= 2.6-r0.13)
 RRECOMMENDS = 
-PKGSIZE = 1619794
+PKGSIZE = 1619806
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/lcms/*.a
 FILELIST = /usr/lib/liblcms2.a

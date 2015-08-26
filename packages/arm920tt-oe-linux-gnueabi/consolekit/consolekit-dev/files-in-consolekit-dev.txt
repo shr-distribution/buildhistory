@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/ConsoleKit
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/ConsoleKit/ck-connector
+-rw-r--r-- bitbake    bitbake          2872 ./usr/include/ConsoleKit/ck-connector/ck-connector.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           982 ./usr/lib/libck-connector.la
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libck-connector.so -> libck-connector.so.0.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           296 ./usr/lib/pkgconfig/ck-connector.pc

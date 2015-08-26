@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            30 ./usr/lib/libgstnetbuffer-0.10.so.0 -> libgstnetbuffer-0.10.so.0.25.0
+-rwxr-xr-x bitbake    bitbake          6476 ./usr/lib/libgstnetbuffer-0.10.so.0.25.0

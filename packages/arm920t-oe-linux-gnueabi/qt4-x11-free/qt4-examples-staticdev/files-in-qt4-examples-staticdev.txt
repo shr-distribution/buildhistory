@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/qt4/examples
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/qt4/examples/tools
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/qt4/examples/tools/plugandpaint
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/qt4/examples/tools/plugandpaint/plugins
+-rw-r--r-- bitbake    bitbake        794298 ./usr/bin/qt4/examples/tools/plugandpaint/plugins/libpnp_basictools.a

@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/X11
+drwxr-xr-x bitbake    bitbake          4096 ./etc/X11/xinit
+-rw-r--r-- bitbake    bitbake           739 ./etc/X11/xinit/xinitrc
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          5440 ./usr/bin/startx
+-rwxr-xr-x bitbake    bitbake         10612 ./usr/bin/xinit

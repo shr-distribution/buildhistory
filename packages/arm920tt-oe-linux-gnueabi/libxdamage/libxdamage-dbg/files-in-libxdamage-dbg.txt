@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake         44628 ./usr/lib/.debug/libXdamage.so.1.1.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage/1_1.1.4-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          2307 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/include/X11/extensions/Xdamage.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/src
+-rw-r--r-- bitbake    bitbake         10637 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/src/Xdamage.c
+-rw-r--r-- bitbake    bitbake          2457 ./usr/src/debug/libxdamage/1_1.1.4-r0/libXdamage-1.1.4/src/xdamageint.h

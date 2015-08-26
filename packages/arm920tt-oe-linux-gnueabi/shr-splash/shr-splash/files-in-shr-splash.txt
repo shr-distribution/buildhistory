@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/init.d
+-rwxr-xr-x bitbake    bitbake           669 ./etc/init.d/shr-splash.sh
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/shr-splash
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/shr-splash/themes

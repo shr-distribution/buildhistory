@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/libevdev-1.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/libevdev-1.0/libevdev
+-rw-r--r-- bitbake    bitbake          8376 ./usr/include/libevdev-1.0/libevdev/libevdev-uinput.h
+-rw-r--r-- bitbake    bitbake         80381 ./usr/include/libevdev-1.0/libevdev/libevdev.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           917 ./usr/lib/libevdev.la
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libevdev.so -> libevdev.so.2.1.8
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           210 ./usr/lib/pkgconfig/libevdev.pc

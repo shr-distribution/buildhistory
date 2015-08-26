@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       1111796 ./usr/lib/libgstaudio-0.10.a
+-rw-r--r-- bitbake    bitbake        119646 ./usr/lib/libgstcdda-0.10.a
+-rw-r--r-- bitbake    bitbake        206138 ./usr/lib/libgstfft-0.10.a
+-rw-r--r-- bitbake    bitbake        382456 ./usr/lib/libgstinterfaces-0.10.a
+-rw-r--r-- bitbake    bitbake         26274 ./usr/lib/libgstnetbuffer-0.10.a
+-rw-r--r-- bitbake    bitbake        541230 ./usr/lib/libgstpbutils-0.10.a
+-rw-r--r-- bitbake    bitbake        186396 ./usr/lib/libgstriff-0.10.a
+-rw-r--r-- bitbake    bitbake        431074 ./usr/lib/libgstrtp-0.10.a
+-rw-r--r-- bitbake    bitbake        361816 ./usr/lib/libgstrtsp-0.10.a
+-rw-r--r-- bitbake    bitbake         91550 ./usr/lib/libgstsdp-0.10.a
+-rw-r--r-- bitbake    bitbake        890446 ./usr/lib/libgsttag-0.10.a
+-rw-r--r-- bitbake    bitbake        437810 ./usr/lib/libgstvideo-0.10.a

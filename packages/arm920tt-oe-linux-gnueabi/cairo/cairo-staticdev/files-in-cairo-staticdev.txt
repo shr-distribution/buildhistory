@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cairo
+-rw-r--r-- bitbake    bitbake        399418 ./usr/lib/cairo/libcairo-trace.a
+-rw-r--r-- bitbake    bitbake         56310 ./usr/lib/libcairo-gobject.a
+-rw-r--r-- bitbake    bitbake        650528 ./usr/lib/libcairo-script-interpreter.a
+-rw-r--r-- bitbake    bitbake       8489414 ./usr/lib/libcairo.a

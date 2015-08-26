@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake        499208 ./usr/bin/.debug/FBReader
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake        541404 ./usr/lib/.debug/libzlcore.so.0.12.10
+-rwxr-xr-x bitbake    bitbake        199532 ./usr/lib/.debug/libzltext.so.0.12.10
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/zlibrary
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/zlibrary/ui
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/zlibrary/ui/.debug
+-rwxr-xr-x bitbake    bitbake        168044 ./usr/lib/zlibrary/ui/.debug/zlui-gtk.so

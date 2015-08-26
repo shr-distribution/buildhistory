@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules/fsodata
+-rwxr-xr-x bitbake    bitbake          1629 ./usr/lib/cornucopia/modules/fsodata/libfsodata.la
+-rwxr-xr-x bitbake    bitbake          1676 ./usr/lib/cornucopia/modules/fsodata/world.la

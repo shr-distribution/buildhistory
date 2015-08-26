@@ -1,0 +1,4 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/default
+-rw-r--r-- bitbake    bitbake           142 ./etc/default/gpsd.default

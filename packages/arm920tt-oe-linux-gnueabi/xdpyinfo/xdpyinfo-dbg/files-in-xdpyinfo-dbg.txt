@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake         63552 ./usr/bin/.debug/xdpyinfo
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xdpyinfo
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xdpyinfo/1_1.3.2-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xdpyinfo/1_1.3.2-r0/xdpyinfo-1.3.2
+-rw-r--r-- bitbake    bitbake         45078 ./usr/src/debug/xdpyinfo/1_1.3.2-r0/xdpyinfo-1.3.2/xdpyinfo.c

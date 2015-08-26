@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         25276 ./usr/sbin/flash_erase
+-rwxr-xr-x bitbake    bitbake           150 ./usr/sbin/flash_eraseall
+-rwxr-xr-x bitbake    bitbake          4312 ./usr/sbin/flash_lock
+-rwxr-xr-x bitbake    bitbake          3872 ./usr/sbin/flash_otp_dump
+-rwxr-xr-x bitbake    bitbake          3888 ./usr/sbin/flash_otp_info
+-rwxr-xr-x bitbake    bitbake          4708 ./usr/sbin/flash_otp_lock
+-rwxr-xr-x bitbake    bitbake          4636 ./usr/sbin/flash_otp_write
+-rwxr-xr-x bitbake    bitbake          4320 ./usr/sbin/flash_unlock
+-rwxr-xr-x bitbake    bitbake          8276 ./usr/sbin/flashcp
+-rwxr-xr-x bitbake    bitbake          7524 ./usr/sbin/mtd_debug
+-rwxr-xr-x bitbake    bitbake         33304 ./usr/sbin/mtdinfo
+-rwxr-xr-x bitbake    bitbake         26908 ./usr/sbin/nanddump
+-rwxr-xr-x bitbake    bitbake          7372 ./usr/sbin/nandtest
+-rwxr-xr-x bitbake    bitbake         27696 ./usr/sbin/nandwrite

@@ -1,0 +1,39 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake        205532 ./usr/bin/svn
+-rwxr-xr-x bitbake    bitbake         51192 ./usr/bin/svnadmin
+-rwxr-xr-x bitbake    bitbake         26036 ./usr/bin/svndumpfilter
+-rwxr-xr-x bitbake    bitbake         45996 ./usr/bin/svnlook
+-rwxr-xr-x bitbake    bitbake         21304 ./usr/bin/svnmucc
+-rwxr-xr-x bitbake    bitbake         35884 ./usr/bin/svnrdump
+-rwxr-xr-x bitbake    bitbake         53280 ./usr/bin/svnserve
+-rwxr-xr-x bitbake    bitbake         36320 ./usr/bin/svnsync
+-rwxr-xr-x bitbake    bitbake          9480 ./usr/bin/svnversion
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libsvn_client-1.so.0 -> libsvn_client-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        242132 ./usr/lib/libsvn_client-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libsvn_delta-1.so.0 -> libsvn_delta-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         45480 ./usr/lib/libsvn_delta-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libsvn_diff-1.so.0 -> libsvn_diff-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         47696 ./usr/lib/libsvn_diff-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libsvn_fs-1.so.0 -> libsvn_fs-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         26824 ./usr/lib/libsvn_fs-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libsvn_fs_fs-1.so.0 -> libsvn_fs_fs-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        140056 ./usr/lib/libsvn_fs_fs-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libsvn_fs_util-1.so.0 -> libsvn_fs_util-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake          5336 ./usr/lib/libsvn_fs_util-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libsvn_ra-1.so.0 -> libsvn_ra-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         33256 ./usr/lib/libsvn_ra-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            26 ./usr/lib/libsvn_ra_local-1.so.0 -> libsvn_ra_local-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         20672 ./usr/lib/libsvn_ra_local-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libsvn_ra_serf-1.so.0 -> libsvn_ra_serf-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        116604 ./usr/lib/libsvn_ra_serf-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libsvn_ra_svn-1.so.0 -> libsvn_ra_svn-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         68880 ./usr/lib/libsvn_ra_svn-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libsvn_repos-1.so.0 -> libsvn_repos-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        138904 ./usr/lib/libsvn_repos-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libsvn_subr-1.so.0 -> libsvn_subr-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        332968 ./usr/lib/libsvn_subr-1.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libsvn_wc-1.so.0 -> libsvn_wc-1.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        434840 ./usr/lib/libsvn_wc-1.so.0.0.0

@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         14659 ./usr/bin/xkeystone
+-rwxr-xr-x bitbake    bitbake         43032 ./usr/bin/xrandr

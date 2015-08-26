@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake         84348 ./usr/bin/.debug/xauth
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xauth
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xauth/1_1.0.9-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xauth/1_1.0.9-r0/xauth-1.0.9
+-rw-r--r-- bitbake    bitbake          9526 ./usr/src/debug/xauth/1_1.0.9-r0/xauth-1.0.9/gethost.c
+-rw-r--r-- bitbake    bitbake          6010 ./usr/src/debug/xauth/1_1.0.9-r0/xauth-1.0.9/parsedpy.c
+-rw-r--r-- bitbake    bitbake         50202 ./usr/src/debug/xauth/1_1.0.9-r0/xauth-1.0.9/process.c
+-rw-r--r-- bitbake    bitbake          4772 ./usr/src/debug/xauth/1_1.0.9-r0/xauth-1.0.9/xauth.c
+-rw-r--r-- bitbake    bitbake          2276 ./usr/src/debug/xauth/1_1.0.9-r0/xauth-1.0.9/xauth.h

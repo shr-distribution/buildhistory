@@ -1,0 +1,20 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/qt4/QtSvg
+-rw-r--r-- bitbake    bitbake            30 ./usr/include/qt4/QtSvg/QGraphicsSvgItem
+-rw-r--r-- bitbake    bitbake            27 ./usr/include/qt4/QtSvg/QSvgGenerator
+-rw-r--r-- bitbake    bitbake            26 ./usr/include/qt4/QtSvg/QSvgRenderer
+-rw-r--r-- bitbake    bitbake            24 ./usr/include/qt4/QtSvg/QSvgWidget
+-rw-r--r-- bitbake    bitbake           214 ./usr/include/qt4/QtSvg/QtSvg
+-rw-r--r-- bitbake    bitbake          3472 ./usr/include/qt4/QtSvg/qgraphicssvgitem.h
+-rw-r--r-- bitbake    bitbake          3790 ./usr/include/qt4/QtSvg/qsvggenerator.h
+-rw-r--r-- bitbake    bitbake          3955 ./usr/include/qt4/QtSvg/qsvgrenderer.h
+-rw-r--r-- bitbake    bitbake          2782 ./usr/include/qt4/QtSvg/qsvgwidget.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake           661 ./usr/lib/libQtSvg.la
+-rw-r--r-- bitbake    bitbake           769 ./usr/lib/libQtSvg.prl
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libQtSvg.so -> libQtSvg.so.4.8.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           933 ./usr/lib/pkgconfig/QtSvg.pc

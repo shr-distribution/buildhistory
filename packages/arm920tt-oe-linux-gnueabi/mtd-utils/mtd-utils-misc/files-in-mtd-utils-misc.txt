@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake          5884 ./usr/sbin/doc_loadbios
+-rwxr-xr-x bitbake    bitbake          8120 ./usr/sbin/docfdisk
+-rwxr-xr-x bitbake    bitbake          5900 ./usr/sbin/ftl_check
+-rwxr-xr-x bitbake    bitbake          7088 ./usr/sbin/ftl_format
+-rwxr-xr-x bitbake    bitbake         10000 ./usr/sbin/nftl_format
+-rwxr-xr-x bitbake    bitbake         10000 ./usr/sbin/nftldump
+-rwxr-xr-x bitbake    bitbake         15392 ./usr/sbin/recv_image
+-rwxr-xr-x bitbake    bitbake          7596 ./usr/sbin/rfddump
+-rwxr-xr-x bitbake    bitbake          4828 ./usr/sbin/rfdformat
+-rwxr-xr-x bitbake    bitbake         14104 ./usr/sbin/serve_image

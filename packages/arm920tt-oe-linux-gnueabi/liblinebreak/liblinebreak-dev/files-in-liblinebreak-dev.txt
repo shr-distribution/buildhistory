@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake          4805 ./usr/include/linebreak.h
+-rw-r--r-- bitbake    bitbake          5236 ./usr/include/linebreakdef.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           945 ./usr/lib/liblinebreak.la
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/liblinebreak.so -> liblinebreak.so.1.0.2

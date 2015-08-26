@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          8500 ./usr/bin/notify-send
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libnotify.so.4 -> libnotify.so.4.0.0
+-rwxr-xr-x bitbake    bitbake         19708 ./usr/lib/libnotify.so.4.0.0

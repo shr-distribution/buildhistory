@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         16564 ./usr/sbin/jffs2dump
+-rwxr-xr-x bitbake    bitbake         11092 ./usr/sbin/jffs2reader
+-rwxr-xr-x bitbake    bitbake         35596 ./usr/sbin/mkfs.jffs2
+-rwxr-xr-x bitbake    bitbake         17144 ./usr/sbin/sumtool

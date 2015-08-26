@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libXrandr.so.2 -> libXrandr.so.2.2.0
+-rwxr-xr-x bitbake    bitbake         25116 ./usr/lib/libXrandr.so.2.2.0

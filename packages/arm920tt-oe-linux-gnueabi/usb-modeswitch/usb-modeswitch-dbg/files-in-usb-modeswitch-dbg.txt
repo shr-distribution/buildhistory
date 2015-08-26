@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin/.debug
+-rwxr-xr-x bitbake    bitbake         64952 ./usr/sbin/.debug/usb_modeswitch
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/usb-modeswitch
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/usb-modeswitch/2.2.0-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/usb-modeswitch/2.2.0-r0/usb-modeswitch-2.2.0
+-rw-r--r-- bitbake    bitbake         63586 ./usr/src/debug/usb-modeswitch/2.2.0-r0/usb-modeswitch-2.2.0/usb_modeswitch.c

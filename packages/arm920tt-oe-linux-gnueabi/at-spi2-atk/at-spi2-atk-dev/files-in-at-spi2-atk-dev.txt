@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/at-spi2-atk
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/at-spi2-atk/2.0
+-rw-r--r-- bitbake    bitbake          1245 ./usr/include/at-spi2-atk/2.0/atk-bridge.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1493 ./usr/lib/libatk-bridge-2.0.la
+lrwxrwxrwx bitbake    bitbake            26 ./usr/lib/libatk-bridge-2.0.so -> libatk-bridge-2.0.so.0.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           250 ./usr/lib/pkgconfig/atk-bridge-2.0.pc

@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake         80014 ./usr/include/gps.h
+-rw-r--r-- bitbake    bitbake          1861 ./usr/include/libgpsmm.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake           315 ./usr/lib/libQgpsmm.prl
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libQgpsmm.so -> libQgpsmm.so.22.0.0
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libgps.so -> libgps.so.22.0.0
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libgpsd.so -> libgpsd.so.22.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           480 ./usr/lib/pkgconfig/Qgpsmm.pc
+-rw-r--r-- bitbake    bitbake           194 ./usr/lib/pkgconfig/libgps.pc
+-rw-r--r-- bitbake    bitbake           209 ./usr/lib/pkgconfig/libgpsd.pc

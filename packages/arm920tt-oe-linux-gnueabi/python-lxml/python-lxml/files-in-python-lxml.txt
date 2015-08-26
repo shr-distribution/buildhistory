@@ -23,7 +23,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/lx
 -rw-r--r-- bitbake    bitbake          4117 ./usr/lib/python2.7/site-packages/lxml/cssselect.pyc
 -rw-r--r-- bitbake    bitbake         18287 ./usr/lib/python2.7/site-packages/lxml/doctestcompare.py
 -rw-r--r-- bitbake    bitbake         17089 ./usr/lib/python2.7/site-packages/lxml/doctestcompare.pyc
--rwxr-xr-x bitbake    bitbake       1191772 ./usr/lib/python2.7/site-packages/lxml/etree.so
+-rwxr-xr-x bitbake    bitbake       1183308 ./usr/lib/python2.7/site-packages/lxml/etree.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/lxml/html
 -rw-r--r-- bitbake    bitbake           319 ./usr/lib/python2.7/site-packages/lxml/html/ElementSoup.py
 -rw-r--r-- bitbake    bitbake           618 ./usr/lib/python2.7/site-packages/lxml/html/ElementSoup.pyc
@@ -89,7 +89,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/lx
 -rw-r--r-- bitbake    bitbake          3144 ./usr/lib/python2.7/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt
 -rw-r--r-- bitbake    bitbake          9052 ./usr/lib/python2.7/site-packages/lxml/lxml.etree.h
 -rw-r--r-- bitbake    bitbake         16888 ./usr/lib/python2.7/site-packages/lxml/lxml.etree_api.h
--rwxr-xr-x bitbake    bitbake        258208 ./usr/lib/python2.7/site-packages/lxml/objectify.so
+-rwxr-xr-x bitbake    bitbake        256384 ./usr/lib/python2.7/site-packages/lxml/objectify.so
 -rw-r--r-- bitbake    bitbake            92 ./usr/lib/python2.7/site-packages/lxml/pyclasslookup.py
 -rw-r--r-- bitbake    bitbake           216 ./usr/lib/python2.7/site-packages/lxml/pyclasslookup.pyc
 -rw-r--r-- bitbake    bitbake          8531 ./usr/lib/python2.7/site-packages/lxml/sax.py

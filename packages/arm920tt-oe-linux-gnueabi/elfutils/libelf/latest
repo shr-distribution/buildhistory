@@ -1,9 +1,9 @@
 PV = 0.163
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 PKG = libelf1
-RPROVIDES = libelf
-RDEPENDS = glibc (>= 2.21)
+RPROVIDES = 0.163 libelf
+RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 75443
 FILES = /usr/lib/libelf-0.163.so /usr/lib/libelf.so.*

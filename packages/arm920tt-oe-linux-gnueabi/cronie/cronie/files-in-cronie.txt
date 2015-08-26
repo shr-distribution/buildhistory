@@ -19,7 +19,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 -rwxr-sr-x bitbake    bitbake         31748 ./usr/bin/crontab
 drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
--rwxr-xr-x bitbake    bitbake         37908 ./usr/sbin/crond
+-rwxr-xr-x bitbake    bitbake         37884 ./usr/sbin/crond
 drwxr-xr-x bitbake    bitbake          4096 ./var
 drwxr-xr-x bitbake    bitbake          4096 ./var/spool
 drwxr-x--- bitbake    bitbake          4096 ./var/spool/cron

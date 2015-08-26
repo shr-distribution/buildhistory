@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libQtXml.so.4 -> libQtXml.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libQtXml.so.4.8 -> libQtXml.so.4.8.7
+-rwxr-xr-x bitbake    bitbake        251136 ./usr/lib/libQtXml.so.4.8.7

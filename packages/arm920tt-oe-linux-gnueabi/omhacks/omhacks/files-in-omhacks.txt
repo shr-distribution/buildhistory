@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         22752 ./usr/bin/om
+-rwxr-xr-x bitbake    bitbake         21812 ./usr/bin/om-led
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libomhacks.so.0 -> libomhacks.so.0.15
+-rwxr-xr-x bitbake    bitbake         23820 ./usr/lib/libomhacks.so.0.15
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pm-utils
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pm-utils/sleep.d
+-rwxr-xr-x bitbake    bitbake          5744 ./usr/lib/pm-utils/sleep.d/omhacks.so

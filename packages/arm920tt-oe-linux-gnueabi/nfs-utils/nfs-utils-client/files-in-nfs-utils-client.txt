@@ -1,0 +1,32 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rwxr-xr-x bitbake    bitbake          1087 ./etc/nfs-utils.conf
+-rwxr-xr-x bitbake    bitbake          3605 ./etc/nfsmount.conf
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
+-rw-r--r-- bitbake    bitbake           250 ./lib/systemd/system/nfs-statd.service
+drwxr-xr-x bitbake    bitbake          4096 ./sbin
+-rws--x--x bitbake    bitbake         64432 ./sbin/mount.nfs
+lrwxrwxrwx bitbake    bitbake             9 ./sbin/mount.nfs4 -> mount.nfs
+lrwxrwxrwx bitbake    bitbake             9 ./sbin/umount.nfs -> mount.nfs
+lrwxrwxrwx bitbake    bitbake             9 ./sbin/umount.nfs4 -> mount.nfs
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         19616 ./usr/sbin/nfsstat
+-rwxr-xr-x bitbake    bitbake         24624 ./usr/sbin/rpc.idmapd
+-rwxr-xr-x bitbake    bitbake         47688 ./usr/sbin/rpc.statd
+-rwxr-xr-x bitbake    bitbake         10724 ./usr/sbin/showmount
+-rwxr-xr-x bitbake    bitbake         30880 ./usr/sbin/sm-notify
+-rwxr-xr-x bitbake    bitbake           641 ./usr/sbin/start-statd
+drwxr-xr-x bitbake    bitbake          4096 ./var
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib/nfs
+-rw-r--r-- bitbake    bitbake             0 ./var/lib/nfs/etab
+-rw-r--r-- bitbake    bitbake             0 ./var/lib/nfs/rmtab
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib/nfs/statd
+drwx------ bitbake    bitbake          4096 ./var/lib/nfs/statd/sm
+drwx------ bitbake    bitbake          4096 ./var/lib/nfs/statd/sm.bak
+-rw-r--r-- bitbake    bitbake             0 ./var/lib/nfs/statd/state
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib/nfs/v4recovery
+-rw-r--r-- bitbake    bitbake             0 ./var/lib/nfs/xtab

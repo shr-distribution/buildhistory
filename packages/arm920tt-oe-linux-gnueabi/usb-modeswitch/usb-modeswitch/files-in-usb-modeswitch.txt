@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake           888 ./etc/usb_modeswitch.conf
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/udev
+-rwxr-xr-x bitbake    bitbake          1957 ./lib/udev/usb_modeswitch
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         39560 ./usr/sbin/usb_modeswitch
+-rwxr-xr-x bitbake    bitbake         30793 ./usr/sbin/usb_modeswitch_dispatcher
+drwxr-xr-x bitbake    bitbake          4096 ./var
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib
+drwxr-xr-x bitbake    bitbake          4096 ./var/lib/usb_modeswitch

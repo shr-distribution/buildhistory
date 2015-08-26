@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake         16704 ./usr/bin/.debug/bdftruncate
+-rwxr-xr-x bitbake    bitbake         42428 ./usr/bin/.debug/ucs2any
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/font-util
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/font-util/1.3.1-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/font-util/1.3.1-r0/font-util-1.3.1
+-rw-r--r-- bitbake    bitbake          6471 ./usr/src/debug/font-util/1.3.1-r0/font-util-1.3.1/bdftruncate.c
+-rw-r--r-- bitbake    bitbake         23096 ./usr/src/debug/font-util/1.3.1-r0/font-util-1.3.1/ucs2any.c

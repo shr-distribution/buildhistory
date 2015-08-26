@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/Xcursor
+-rw-r--r-- bitbake    bitbake         13031 ./usr/include/X11/Xcursor/Xcursor.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1147 ./usr/lib/libXcursor.la
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libXcursor.so -> libXcursor.so.1.0.2
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           289 ./usr/lib/pkgconfig/xcursor.pc

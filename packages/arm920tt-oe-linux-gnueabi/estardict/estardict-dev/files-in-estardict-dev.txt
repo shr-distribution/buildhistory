@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake          1107 ./usr/include/estardict-engine-parsing.h
+-rw-r--r-- bitbake    bitbake          1280 ./usr/include/estardict-engine-strip.h
+-rw-r--r-- bitbake    bitbake          3339 ./usr/include/estardict-engine.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          4268 ./usr/lib/libestardictengine.la
+lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libestardictengine.so -> libestardictengine.so.0.0.0

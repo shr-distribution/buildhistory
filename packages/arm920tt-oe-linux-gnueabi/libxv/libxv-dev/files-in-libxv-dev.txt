@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake         10991 ./usr/include/X11/extensions/Xvlib.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1086 ./usr/lib/libXv.la
+lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libXv.so -> libXv.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           225 ./usr/lib/pkgconfig/xv.pc

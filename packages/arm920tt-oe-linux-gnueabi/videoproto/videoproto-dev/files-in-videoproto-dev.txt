@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          3035 ./usr/include/X11/extensions/Xv.h
+-rw-r--r-- bitbake    bitbake          3620 ./usr/include/X11/extensions/XvMC.h
+-rw-r--r-- bitbake    bitbake          4882 ./usr/include/X11/extensions/XvMCproto.h
+-rw-r--r-- bitbake    bitbake         13122 ./usr/include/X11/extensions/Xvproto.h
+-rw-r--r-- bitbake    bitbake          5422 ./usr/include/X11/extensions/vldXvMC.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           163 ./usr/lib/pkgconfig/videoproto.pc

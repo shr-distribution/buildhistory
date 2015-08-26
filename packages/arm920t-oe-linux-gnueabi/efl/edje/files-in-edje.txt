@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/edje
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/edje/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/edje/modules/emotion
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/edje/modules/emotion/v-1.14
+-rwxr-xr-x bitbake    bitbake         15476 ./usr/lib/edje/modules/emotion/v-1.14/module.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/edje/utils
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/edje/utils/v-1.14
+-rwxr-xr-x bitbake    bitbake         69192 ./usr/lib/edje/utils/v-1.14/epp
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libedje.so.1 -> libedje.so.1.14.1
+-rwxr-xr-x bitbake    bitbake        707880 ./usr/lib/libedje.so.1.14.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/mime
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/mime/packages
+-rw-r--r-- bitbake    bitbake           342 ./usr/share/mime/packages/edje.xml

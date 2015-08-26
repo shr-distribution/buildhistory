@@ -1,0 +1,31 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          9080 ./usr/bin/ethumb
+-rwxr-xr-x bitbake    bitbake         26620 ./usr/bin/ethumbd
+-rwxr-xr-x bitbake    bitbake         10100 ./usr/bin/ethumbd_client
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb/modules/emotion
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb/modules/emotion/v-1.14
+-rwxr-xr-x bitbake    bitbake         17192 ./usr/lib/ethumb/modules/emotion/v-1.14/module.so
+-rw-r--r-- bitbake    bitbake          7534 ./usr/lib/ethumb/modules/emotion/v-1.14/template.edj
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb_client
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb_client/utils
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/ethumb_client/utils/v-1.14
+-rwxr-xr-x bitbake    bitbake         10120 ./usr/lib/ethumb_client/utils/v-1.14/ethumbd_slave
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libethumb.so.1 -> libethumb.so.1.14.1
+-rwxr-xr-x bitbake    bitbake         47528 ./usr/lib/libethumb.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            26 ./usr/lib/libethumb_client.so.1 -> libethumb_client.so.1.14.1
+-rwxr-xr-x bitbake    bitbake         37584 ./usr/lib/libethumb_client.so.1.14.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1/services
+-rw-r--r-- bitbake    bitbake           100 ./usr/share/dbus-1/services/org.enlightenment.Ethumb.service
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ethumb
+-rw-r--r-- bitbake    bitbake            76 ./usr/share/ethumb/checkme
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ethumb/frames
+-rw-r--r-- bitbake    bitbake          7159 ./usr/share/ethumb/frames/default.edj
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ethumb_client
+-rw-r--r-- bitbake    bitbake            83 ./usr/share/ethumb_client/checkme

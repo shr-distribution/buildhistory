@@ -1,9 +1,9 @@
 PV = 1.0.29
 PR = r0
-PKGR = r0.1
+PKGR = r0.2
 PKG = libasound2
-RPROVIDES = libasound
-RDEPENDS = alsa-conf alsa-conf-base glibc (>= 2.21)
+RPROVIDES = 1.0.29 libasound
+RDEPENDS = alsa-conf alsa-conf-base glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 832038
 FILES = /usr/lib/libasound.so.*

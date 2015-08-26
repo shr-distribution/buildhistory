@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          2109 ./usr/include/X11/extensions/xf86vm.h
+-rw-r--r-- bitbake    bitbake         16905 ./usr/include/X11/extensions/xf86vmproto.h
+-rw-r--r-- bitbake    bitbake           185 ./usr/include/X11/extensions/xf86vmstr.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           176 ./usr/lib/pkgconfig/xf86vidmodeproto.pc

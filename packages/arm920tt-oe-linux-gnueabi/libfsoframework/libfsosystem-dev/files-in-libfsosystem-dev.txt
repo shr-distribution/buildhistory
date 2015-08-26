@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1270 ./usr/lib/libfsosystem.la
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libfsosystem.so -> libfsosystem.so.3.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           319 ./usr/lib/pkgconfig/fsosystem-2.0.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake            21 ./usr/share/vala/vapi/fsosystem-2.0.deps
+-rw-r--r-- bitbake    bitbake          2589 ./usr/share/vala/vapi/fsosystem-2.0.vapi

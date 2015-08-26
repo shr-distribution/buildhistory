@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x bitbake    bitbake         26700 ./usr/lib/gstreamer-0.10/libgstequalizer.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/gstreamer-0.10
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/gstreamer-0.10/presets
+-rw-r--r-- bitbake    bitbake          1457 ./usr/share/gstreamer-0.10/presets/GstIirEqualizer10Bands.prs
+-rw-r--r-- bitbake    bitbake           143 ./usr/share/gstreamer-0.10/presets/GstIirEqualizer3Bands.prs

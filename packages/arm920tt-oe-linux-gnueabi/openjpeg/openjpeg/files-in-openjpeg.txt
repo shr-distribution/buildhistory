@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         71852 ./usr/bin/opj_compress
+-rwxr-xr-x bitbake    bitbake         60948 ./usr/bin/opj_decompress
+-rwxr-xr-x bitbake    bitbake         56788 ./usr/bin/opj_dump
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake        172452 ./usr/lib/libopenjp2.so.2.1.0
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libopenjp2.so.7 -> libopenjp2.so.2.1.0

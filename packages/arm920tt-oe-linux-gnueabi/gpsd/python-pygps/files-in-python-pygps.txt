@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/gps
+-rw-r--r-- bitbake    bitbake           434 ./usr/lib/python2.7/site-packages/gps-3.14.egg-info
+-rwxr-xr-x bitbake    bitbake           488 ./usr/lib/python2.7/site-packages/gps/__init__.py
+-rwxr-xr-x bitbake    bitbake          7679 ./usr/lib/python2.7/site-packages/gps/client.py
+-rwxr-xr-x bitbake    bitbake         18256 ./usr/lib/python2.7/site-packages/gps/clienthelpers.so
+-rwxr-xr-x bitbake    bitbake         28974 ./usr/lib/python2.7/site-packages/gps/fake.py
+-rwxr-xr-x bitbake    bitbake         14492 ./usr/lib/python2.7/site-packages/gps/gps.py
+-rwxr-xr-x bitbake    bitbake          3744 ./usr/lib/python2.7/site-packages/gps/misc.py
+-rwxr-xr-x bitbake    bitbake         41456 ./usr/lib/python2.7/site-packages/gps/packet.so

@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/udev
+drwxr-xr-x bitbake    bitbake          4096 ./lib/udev/.debug
+-rwxr-xr-x bitbake    bitbake        148168 ./lib/udev/.debug/accelerometer
+-rwxr-xr-x bitbake    bitbake        100516 ./lib/udev/.debug/ata_id
+-rwxr-xr-x bitbake    bitbake        136116 ./lib/udev/.debug/cdrom_id
+-rwxr-xr-x bitbake    bitbake         47616 ./lib/udev/.debug/collect
+-rwxr-xr-x bitbake    bitbake         12940 ./lib/udev/.debug/mtd_probe
+-rwxr-xr-x bitbake    bitbake        136216 ./lib/udev/.debug/scsi_id
+-rwxr-xr-x bitbake    bitbake         25808 ./lib/udev/.debug/v4l_id

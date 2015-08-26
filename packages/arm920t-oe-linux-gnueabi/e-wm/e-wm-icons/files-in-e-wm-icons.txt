@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data/icons
+-rw-r--r-- bitbake    bitbake          4278 ./usr/share/enlightenment/data/icons/audio_player.png
+-rw-r--r-- bitbake    bitbake          3848 ./usr/share/enlightenment/data/icons/audio_player2.png
+-rw-r--r-- bitbake    bitbake          6401 ./usr/share/enlightenment/data/icons/image_viewer.png
+-rw-r--r-- bitbake    bitbake          2965 ./usr/share/enlightenment/data/icons/mail_client.png
+-rw-r--r-- bitbake    bitbake          3158 ./usr/share/enlightenment/data/icons/text_editor.png
+-rw-r--r-- bitbake    bitbake          2152 ./usr/share/enlightenment/data/icons/video_player.png
+-rw-r--r-- bitbake    bitbake         26107 ./usr/share/enlightenment/data/icons/web_browser.png
+-rw-r--r-- bitbake    bitbake         10521 ./usr/share/enlightenment/data/icons/xterm.png

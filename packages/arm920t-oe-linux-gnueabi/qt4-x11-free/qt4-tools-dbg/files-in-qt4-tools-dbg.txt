@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake       5909836 ./usr/bin/.debug/moc
+-rwxr-xr-x bitbake    bitbake      12686952 ./usr/bin/.debug/qdoc3
+-rwxr-xr-x bitbake    bitbake      21858912 ./usr/bin/.debug/qmake
+-rwxr-xr-x bitbake    bitbake        873812 ./usr/bin/.debug/qmlplugindump
+-rwxr-xr-x bitbake    bitbake        525464 ./usr/bin/.debug/qttracereplay
+-rwxr-xr-x bitbake    bitbake       6080928 ./usr/bin/.debug/rcc
+-rwxr-xr-x bitbake    bitbake      11061644 ./usr/bin/.debug/uic
+-rwxr-xr-x bitbake    bitbake      10952956 ./usr/bin/.debug/uic3

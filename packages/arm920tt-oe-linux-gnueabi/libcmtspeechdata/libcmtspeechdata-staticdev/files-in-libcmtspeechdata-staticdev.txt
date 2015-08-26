@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/libcmtspeechdata-dummy
+-rw-r--r-- bitbake    bitbake        121050 ./usr/lib/libcmtspeechdata-dummy/libcmtspeechdata.a
+-rw-r--r-- bitbake    bitbake        129800 ./usr/lib/libcmtspeechdata.a

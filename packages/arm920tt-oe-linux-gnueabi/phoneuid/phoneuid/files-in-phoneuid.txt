@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/X11
+drwxr-xr-x bitbake    bitbake          4096 ./etc/X11/Xsession.d
+-rwxr-xr-x bitbake    bitbake            44 ./etc/X11/Xsession.d/80phoneuid.sh
+drwxr-xr-x bitbake    bitbake          4096 ./etc/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./etc/dbus-1/system.d
+-rw-r--r-- bitbake    bitbake           951 ./etc/dbus-1/system.d/phoneuid.conf
+-rw-r--r-- bitbake    bitbake            27 ./etc/phoneuid.conf
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake           133 ./usr/bin/phoneui-wrapper.sh
+-rwxr-xr-x bitbake    bitbake         14896 ./usr/bin/phoneuid
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1/system-services
+-rw-r--r-- bitbake    bitbake            70 ./usr/share/dbus-1/system-services/org.shr.phoneui.service

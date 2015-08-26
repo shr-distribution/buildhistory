@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libeo.so.1 -> libeo.so.1.14.1
+-rwxr-xr-x bitbake    bitbake         72576 ./usr/lib/libeo.so.1.14.1

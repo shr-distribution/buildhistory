@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libserf-1.so.1 -> libserf-1.so.1.3.0
+-rwxr-xr-x bitbake    bitbake         65024 ./usr/lib/libserf-1.so.1.3.0

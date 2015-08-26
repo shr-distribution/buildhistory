@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/efl
+-rwxr-xr-x bitbake    bitbake       1184436 ./usr/lib/python2.7/site-packages/efl/evas.so

@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          6867 ./usr/bin/eina-bench-cmp
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libeina.so.1 -> libeina.so.1.14.1
+-rwxr-xr-x bitbake    bitbake        392424 ./usr/lib/libeina.so.1.14.1

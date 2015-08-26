@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./etc/dbus-1/system.d
+-rw-r--r-- bitbake    bitbake           261 ./etc/dbus-1/system.d/phonefsod.conf
+-rw-r--r-- bitbake    bitbake          1900 ./etc/phonefsod.conf
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
+-rw-r--r-- bitbake    bitbake           222 ./lib/systemd/system/phonefsod.service
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         37048 ./usr/bin/phonefsod

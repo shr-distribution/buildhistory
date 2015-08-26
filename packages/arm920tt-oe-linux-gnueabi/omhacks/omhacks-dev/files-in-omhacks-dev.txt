@@ -1,0 +1,20 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/omhacks
+-rw-r--r-- bitbake    bitbake          1200 ./usr/include/omhacks/all.h
+-rw-r--r-- bitbake    bitbake          2524 ./usr/include/omhacks/battery.h
+-rw-r--r-- bitbake    bitbake          1438 ./usr/include/omhacks/bt.h
+-rw-r--r-- bitbake    bitbake          3339 ./usr/include/omhacks/gps.h
+-rw-r--r-- bitbake    bitbake          1750 ./usr/include/omhacks/gsm.h
+-rw-r--r-- bitbake    bitbake          1560 ./usr/include/omhacks/led.h
+-rw-r--r-- bitbake    bitbake          1226 ./usr/include/omhacks/resumereason.h
+-rw-r--r-- bitbake    bitbake          3385 ./usr/include/omhacks/screen.h
+-rw-r--r-- bitbake    bitbake          2035 ./usr/include/omhacks/sysfs.h
+-rw-r--r-- bitbake    bitbake          1819 ./usr/include/omhacks/uevent.h
+-rw-r--r-- bitbake    bitbake          2249 ./usr/include/omhacks/usb.h
+-rw-r--r-- bitbake    bitbake          2648 ./usr/include/omhacks/wifi.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libomhacks.so -> libomhacks.so.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           207 ./usr/lib/pkgconfig/libomhacks.pc

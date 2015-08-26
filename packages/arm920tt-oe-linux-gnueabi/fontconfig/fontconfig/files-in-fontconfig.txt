@@ -22,7 +22,7 @@ lrwxrwxrwx bitbake    bitbake            50 ./etc/fonts/conf.d/90-synthetic.conf
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libfontconfig.so.1 -> libfontconfig.so.1.9.0
--rwxr-xr-x bitbake    bitbake        189460 ./usr/lib/libfontconfig.so.1.9.0
+-rwxr-xr-x bitbake    bitbake        193268 ./usr/lib/libfontconfig.so.1.9.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/fontconfig
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/fontconfig/conf.avail

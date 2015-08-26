@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake        521520 ./usr/bin/.debug/qdbus
+-rwxr-xr-x bitbake    bitbake        228724 ./usr/bin/.debug/qdbuscpp2xml
+-rwxr-xr-x bitbake    bitbake       1593076 ./usr/bin/.debug/qdbusviewer
+-rwxr-xr-x bitbake    bitbake        661860 ./usr/bin/.debug/qdbusxml2cpp

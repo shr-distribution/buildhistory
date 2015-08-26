@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake         18856 ./usr/lib/.debug/libxcb-keysyms.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xcb-util-keysyms
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xcb-util-keysyms/0.4.0-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xcb-util-keysyms/0.4.0-r0/xcb-util-keysyms-0.4.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/xcb-util-keysyms/0.4.0-r0/xcb-util-keysyms-0.4.0/keysyms
+-rw-r--r-- bitbake    bitbake         16263 ./usr/src/debug/xcb-util-keysyms/0.4.0-r0/xcb-util-keysyms-0.4.0/keysyms/keysyms.c
+-rw-r--r-- bitbake    bitbake          2082 ./usr/src/debug/xcb-util-keysyms/0.4.0-r0/xcb-util-keysyms-0.4.0/keysyms/xcb_keysyms.h

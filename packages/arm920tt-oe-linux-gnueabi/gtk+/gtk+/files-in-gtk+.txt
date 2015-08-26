@@ -14,9 +14,9 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-2.0/2.10.0/engines
 lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libgailutil.so.18 -> libgailutil.so.18.0.1
 -rwxr-xr-x bitbake    bitbake         20336 ./usr/lib/libgailutil.so.18.0.1
 lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libgdk-x11-2.0.so.0 -> libgdk-x11-2.0.so.0.2400.28
--rwxr-xr-x bitbake    bitbake        494084 ./usr/lib/libgdk-x11-2.0.so.0.2400.28
+-rwxr-xr-x bitbake    bitbake        494228 ./usr/lib/libgdk-x11-2.0.so.0.2400.28
 lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libgtk-x11-2.0.so.0 -> libgtk-x11-2.0.so.0.2400.28
--rwxr-xr-x bitbake    bitbake       3020848 ./usr/lib/libgtk-x11-2.0.so.0.2400.28
+-rwxr-xr-x bitbake    bitbake       3020912 ./usr/lib/libgtk-x11-2.0.so.0.2400.28
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/themes/Default

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1512 ./usr/lib/libgsm0710mux.la
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libgsm0710mux.so -> libgsm0710mux.so.3.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           293 ./usr/lib/pkgconfig/gsm0710mux-1.0.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake            23 ./usr/share/vala/vapi/gsm0710mux-1.0.deps
+-rw-r--r-- bitbake    bitbake          1507 ./usr/share/vala/vapi/gsm0710mux-1.0.vapi

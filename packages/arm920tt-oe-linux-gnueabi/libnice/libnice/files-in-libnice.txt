@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         30540 ./usr/bin/stunbdc
+-rwxr-xr-x bitbake    bitbake         26408 ./usr/bin/stund
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x bitbake    bitbake         12224 ./usr/lib/gstreamer-0.10/libgstnice.so
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libnice.so.0 -> libnice.so.0.9.0
+-rwxr-xr-x bitbake    bitbake        113280 ./usr/lib/libnice.so.0.9.0

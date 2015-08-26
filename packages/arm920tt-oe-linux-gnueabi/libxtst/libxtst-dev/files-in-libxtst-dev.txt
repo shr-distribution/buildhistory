@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          3451 ./usr/include/X11/extensions/XTest.h
+-rw-r--r-- bitbake    bitbake          4738 ./usr/include/X11/extensions/record.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1140 ./usr/lib/libXtst.la
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libXtst.so -> libXtst.so.6.1.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           237 ./usr/lib/pkgconfig/xtst.pc

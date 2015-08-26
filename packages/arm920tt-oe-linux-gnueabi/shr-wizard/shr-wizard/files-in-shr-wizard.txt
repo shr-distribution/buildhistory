@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules/wizard
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00
+-rwxr-xr-x bitbake    bitbake          5316 ./usr/lib/enlightenment/modules/wizard/linux-gnueabi-arm-ver-00/page_900.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/shr-wizard
+-rwxr-xr-x bitbake    bitbake          4368 ./usr/share/shr-wizard/shr-wizard.py

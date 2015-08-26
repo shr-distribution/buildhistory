@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libQtSvg.so.4 -> libQtSvg.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libQtSvg.so.4.8 -> libQtSvg.so.4.8.7
+-rwxr-xr-x bitbake    bitbake        300436 ./usr/lib/libQtSvg.so.4.8.7

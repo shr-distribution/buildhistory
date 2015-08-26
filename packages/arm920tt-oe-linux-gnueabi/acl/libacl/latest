@@ -1,9 +1,9 @@
 PV = 2.2.52
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 PKG = libacl1
-RPROVIDES = libacl
-RDEPENDS = glibc (>= 2.21) libattr (>= 2.4.47)
+RPROVIDES = 2.2.52 libacl
+RDEPENDS = glibc (>= 2.22) libattr (>= 2.4.47)
 RRECOMMENDS = 
 PKGSIZE = 20683
 FILES = /lib/lib*.so.*

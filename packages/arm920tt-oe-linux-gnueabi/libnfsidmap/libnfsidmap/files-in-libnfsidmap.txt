@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake          3579 ./etc/idmapd.conf
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/libnfsidmap
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libnfsidmap.so.0 -> libnfsidmap.so.0.3.0
+-rwxr-xr-x bitbake    bitbake         18724 ./usr/lib/libnfsidmap.so.0.3.0
+-rwxr-xr-x bitbake    bitbake          5792 ./usr/lib/libnfsidmap/nsswitch.so
+-rwxr-xr-x bitbake    bitbake          4132 ./usr/lib/libnfsidmap/static.so

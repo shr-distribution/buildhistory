@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         95556 ./usr/bin/htop
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           177 ./usr/share/applications/htop.desktop
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/pixmaps
+-rw-r--r-- bitbake    bitbake          3657 ./usr/share/pixmaps/htop.png

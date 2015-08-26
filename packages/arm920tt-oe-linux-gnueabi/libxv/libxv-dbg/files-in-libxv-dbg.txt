@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake         71000 ./usr/lib/.debug/libXv.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv/1.0.10-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10/include/X11/extensions
+-rw-r--r-- bitbake    bitbake         10991 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10/include/X11/extensions/Xvlib.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10/src
+-rw-r--r-- bitbake    bitbake         27845 ./usr/src/debug/libxv/1.0.10-r0/libXv-1.0.10/src/Xv.c

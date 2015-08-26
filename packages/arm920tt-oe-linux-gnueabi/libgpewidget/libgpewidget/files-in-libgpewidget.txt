@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libgpewidget.so.1 -> libgpewidget.so.1.0.0
+-rwxr-xr-x bitbake    bitbake         94272 ./usr/lib/libgpewidget.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/libgpewidget
+-rw-r--r-- bitbake    bitbake         18156 ./usr/share/libgpewidget/clock.png
+-rw-r--r-- bitbake    bitbake         18297 ./usr/share/libgpewidget/clock24.png
+-rw-r--r-- bitbake    bitbake          3300 ./usr/share/libgpewidget/day-night-wheel.png

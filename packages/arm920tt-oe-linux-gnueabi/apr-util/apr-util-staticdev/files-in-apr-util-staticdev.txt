@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/apr-util-1
+-rw-r--r-- bitbake    bitbake         14998 ./usr/lib/apr-util-1/apr_dbm_gdbm.a
+-rw-r--r-- bitbake    bitbake        735052 ./usr/lib/libaprutil-1.a

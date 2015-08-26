@@ -1,0 +1,21 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake           449 ./etc/mailcap.order
+-rw-r--r-- bitbake    bitbake         22275 ./etc/mime.types
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+lrwxrwxrwx bitbake    bitbake            11 ./usr/bin/compose -> run-mailcap
+lrwxrwxrwx bitbake    bitbake            11 ./usr/bin/edit -> run-mailcap
+lrwxrwxrwx bitbake    bitbake            11 ./usr/bin/print -> run-mailcap
+-rwxr-xr-x bitbake    bitbake         16898 ./usr/bin/run-mailcap
+lrwxrwxrwx bitbake    bitbake            11 ./usr/bin/see -> run-mailcap
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/mime
+-rwxr-xr-x bitbake    bitbake           828 ./usr/lib/mime/debian-view
+-rw-r--r-- bitbake    bitbake          1016 ./usr/lib/mime/mailcap
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/mime/packages
+-rw-r--r-- bitbake    bitbake           248 ./usr/lib/mime/packages/mime-support
+-rwxr-xr-x bitbake    bitbake            33 ./usr/lib/mime/playaudio
+-rwxr-xr-x bitbake    bitbake            31 ./usr/lib/mime/playdsp
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake          6270 ./usr/sbin/update-mime

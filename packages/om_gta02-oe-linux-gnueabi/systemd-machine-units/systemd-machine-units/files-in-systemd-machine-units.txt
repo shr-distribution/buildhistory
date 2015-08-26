@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
+-rw-r--r-- bitbake    bitbake           173 ./lib/systemd/system/g_ether.service
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          3681 ./usr/bin/g_ether.sh

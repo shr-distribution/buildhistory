@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       1625914 ./usr/lib/libpoppler-cpp.a
+-rw-r--r-- bitbake    bitbake       3321670 ./usr/lib/libpoppler-glib.a
+-rw-r--r-- bitbake    bitbake      14133716 ./usr/lib/libpoppler.a

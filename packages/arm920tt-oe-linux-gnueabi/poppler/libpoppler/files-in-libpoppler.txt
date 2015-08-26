@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libpoppler.so.54 -> libpoppler.so.54.0.0
+-rwxr-xr-x bitbake    bitbake       1768440 ./usr/lib/libpoppler.so.54.0.0

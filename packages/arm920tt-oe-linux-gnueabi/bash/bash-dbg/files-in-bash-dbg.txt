@@ -1,7 +1,7 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./bin
 drwxr-xr-x bitbake    bitbake          4096 ./bin/.debug
--rwxr-xr-x bitbake    bitbake       2367148 ./bin/.debug/bash
+-rwxr-xr-x bitbake    bitbake       2626520 ./bin/.debug/bash
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug

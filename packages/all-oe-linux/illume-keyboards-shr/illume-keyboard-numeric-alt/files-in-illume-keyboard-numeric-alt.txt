@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules/illume-keyboard
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards
+-rw-r--r-- bitbake    bitbake          1209 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/Numbers-alt.kbd
+-rw-r--r-- bitbake    bitbake          1769 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/numeric-alt.png

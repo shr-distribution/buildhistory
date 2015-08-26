@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/opkg
+-rw-r--r-- bitbake    bitbake            75 ./etc/opkg/all-feed.conf
+-rw-r--r-- bitbake    bitbake            83 ./etc/opkg/arm920t-feed.conf
+-rw-r--r-- bitbake    bitbake            85 ./etc/opkg/arm920tt-feed.conf
+-rw-r--r-- bitbake    bitbake            85 ./etc/opkg/om_gta02-feed.conf

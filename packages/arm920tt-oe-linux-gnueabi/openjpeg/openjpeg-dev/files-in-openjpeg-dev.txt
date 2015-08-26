@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/openjpeg-2.1
+-rw-r--r-- bitbake    bitbake         53233 ./usr/include/openjpeg-2.1/openjpeg.h
+-rw-r--r-- bitbake    bitbake           332 ./usr/include/openjpeg-2.1/opj_config.h
+-rw-r--r-- bitbake    bitbake          2173 ./usr/include/openjpeg-2.1/opj_stdint.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cmake
+-rw-r--r-- bitbake    bitbake          1320 ./usr/lib/cmake/OpenJPEGConfig.cmake
+-rw-r--r-- bitbake    bitbake          1953 ./usr/lib/cmake/OpenJPEGTargets-noconfig.cmake
+-rw-r--r-- bitbake    bitbake          3527 ./usr/lib/cmake/OpenJPEGTargets.cmake
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libopenjp2.so -> libopenjp2.so.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           312 ./usr/lib/pkgconfig/libopenjp2.pc

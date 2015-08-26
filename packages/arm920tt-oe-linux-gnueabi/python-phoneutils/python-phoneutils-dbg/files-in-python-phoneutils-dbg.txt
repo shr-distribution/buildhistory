@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/phoneutils
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/phoneutils/.debug
+-rwxr-xr-x bitbake    bitbake         76692 ./usr/lib/python2.7/site-packages/phoneutils/.debug/c_phoneutils.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-phoneutils
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-phoneutils/0.0.2+gitrAUTOINC+8a7c719e0c-r5
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-phoneutils/0.0.2+gitrAUTOINC+8a7c719e0c-r5/git
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-phoneutils/0.0.2+gitrAUTOINC+8a7c719e0c-r5/git/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-phoneutils/0.0.2+gitrAUTOINC+8a7c719e0c-r5/git/src/python
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-phoneutils/0.0.2+gitrAUTOINC+8a7c719e0c-r5/git/src/python/phoneutils
+-rw-r--r-- bitbake    bitbake        154745 ./usr/src/debug/python-phoneutils/0.0.2+gitrAUTOINC+8a7c719e0c-r5/git/src/python/phoneutils/c_phoneutils.c

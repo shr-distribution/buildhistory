@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/ex -> vim
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/rview -> vim
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/rvim -> vim
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/view -> vim
+-rwxr-xr-x bitbake    bitbake       1263744 ./usr/bin/vim.vim
+lrwxrwxrwx bitbake    bitbake             3 ./usr/bin/vimdiff -> vim
+-rwxr-xr-x bitbake    bitbake         10112 ./usr/bin/xxd

@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake          7052 ./usr/include/enca.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           914 ./usr/lib/libenca.la
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libenca.so -> libenca.so.0.5.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           269 ./usr/lib/pkgconfig/enca.pc

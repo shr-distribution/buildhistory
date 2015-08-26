@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          7168 ./usr/bin/application
+-rwxr-xr-x bitbake    bitbake          7144 ./usr/bin/dialer
+-rwxr-xr-x bitbake    bitbake          4596 ./usr/bin/ecore
+-rwxr-xr-x bitbake    bitbake          5260 ./usr/bin/ecore-glib
+-rwxr-xr-x bitbake    bitbake          4320 ./usr/bin/ecore_signals
+-rwxr-xr-x bitbake    bitbake          5944 ./usr/bin/edje
+-rwxr-xr-x bitbake    bitbake          7240 ./usr/bin/eina
+-rwxr-xr-x bitbake    bitbake         15208 ./usr/bin/elementary-vapi
+-rwxr-xr-x bitbake    bitbake          8564 ./usr/bin/viewstates

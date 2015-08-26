@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.4
+-rwxr-xr-x bitbake    bitbake         76384 ./usr/lib/libyaml-0.so.2.0.4

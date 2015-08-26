@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libical.so.0 -> libical.so.0.48.0
+-rwxr-xr-x bitbake    bitbake        245336 ./usr/lib/libical.so.0.48.0
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libicalss.so.0 -> libicalss.so.0.48.0
+-rwxr-xr-x bitbake    bitbake         60768 ./usr/lib/libicalss.so.0.48.0
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libicalvcal.so.0 -> libicalvcal.so.0.48.0
+-rwxr-xr-x bitbake    bitbake         51496 ./usr/lib/libicalvcal.so.0.48.0

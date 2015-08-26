@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+-rw-r--r-- bitbake    bitbake           194 ./usr/lib/python2.7/site-packages/PyRTC-1.0.0-py2.7.egg-info
+-rwxr-xr-x bitbake    bitbake         31388 ./usr/lib/python2.7/site-packages/pyrtc.so

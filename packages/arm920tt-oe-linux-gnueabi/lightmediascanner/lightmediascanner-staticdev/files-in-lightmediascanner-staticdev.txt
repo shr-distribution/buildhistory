@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake        270168 ./usr/lib/liblightmediascanner.a
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/lightmediascanner
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/lightmediascanner/plugins
+-rw-r--r-- bitbake    bitbake         33908 ./usr/lib/lightmediascanner/plugins/asf.a
+-rw-r--r-- bitbake    bitbake         11748 ./usr/lib/lightmediascanner/plugins/audio-dummy.a
+-rw-r--r-- bitbake    bitbake          8976 ./usr/lib/lightmediascanner/plugins/dummy.a
+-rw-r--r-- bitbake    bitbake         19800 ./usr/lib/lightmediascanner/plugins/flac.a
+-rw-r--r-- bitbake    bitbake         45172 ./usr/lib/lightmediascanner/plugins/id3.a
+-rw-r--r-- bitbake    bitbake         32648 ./usr/lib/lightmediascanner/plugins/jpeg.a
+-rw-r--r-- bitbake    bitbake         14716 ./usr/lib/lightmediascanner/plugins/m3u.a
+-rw-r--r-- bitbake    bitbake         20552 ./usr/lib/lightmediascanner/plugins/pls.a
+-rw-r--r-- bitbake    bitbake         15424 ./usr/lib/lightmediascanner/plugins/png.a
+-rw-r--r-- bitbake    bitbake         19748 ./usr/lib/lightmediascanner/plugins/rm.a
+-rw-r--r-- bitbake    bitbake         11848 ./usr/lib/lightmediascanner/plugins/video-dummy.a

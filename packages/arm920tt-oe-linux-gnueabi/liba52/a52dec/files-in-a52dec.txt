@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         18504 ./usr/bin/a52dec
+-rwxr-xr-x bitbake    bitbake          6232 ./usr/bin/extract_a52

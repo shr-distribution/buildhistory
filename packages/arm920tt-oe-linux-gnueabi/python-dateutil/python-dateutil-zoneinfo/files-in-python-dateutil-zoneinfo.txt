@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/dateutil
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/dateutil/zoneinfo
+-rw-r--r-- bitbake    bitbake          2575 ./usr/lib/python2.7/site-packages/dateutil/zoneinfo/__init__.py
+-rw-r--r-- bitbake    bitbake          3360 ./usr/lib/python2.7/site-packages/dateutil/zoneinfo/__init__.pyc
+-rw-r--r-- bitbake    bitbake        171995 ./usr/lib/python2.7/site-packages/dateutil/zoneinfo/zoneinfo-2010g.tar.gz

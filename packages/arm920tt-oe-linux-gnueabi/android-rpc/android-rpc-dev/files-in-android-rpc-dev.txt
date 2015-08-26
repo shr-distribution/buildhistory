@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/android-rpc
+-rw-r--r-- bitbake    bitbake          6150 ./usr/include/android-rpc/clnt.h
+-rw-r--r-- bitbake    bitbake          1599 ./usr/include/android-rpc/pmap_clnt.h
+-rw-r--r-- bitbake    bitbake          1637 ./usr/include/android-rpc/rpc.h
+-rw-r--r-- bitbake    bitbake          1206 ./usr/include/android-rpc/rpc_router_ioctl.h
+-rw-r--r-- bitbake    bitbake          7360 ./usr/include/android-rpc/svc.h
+-rw-r--r-- bitbake    bitbake         13833 ./usr/include/android-rpc/types.h
+-rw-r--r-- bitbake    bitbake          5269 ./usr/include/android-rpc/xdr.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           913 ./usr/lib/librpc.la
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/librpc.so -> librpc.so.0.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           254 ./usr/lib/pkgconfig/android-rpc-1.0.pc

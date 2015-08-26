@@ -2,10 +2,10 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
--rwxr-xr-x bitbake    bitbake         47512 ./usr/bin/.debug/perl5.22.0
+-rwxr-xr-x bitbake    bitbake         47976 ./usr/bin/.debug/perl5.22.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
--rwxr-xr-x bitbake    bitbake       4633680 ./usr/lib/.debug/libperl.so.5.22.0
+-rwxr-xr-x bitbake    bitbake       4634400 ./usr/lib/.debug/libperl.so.5.22.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto
@@ -16,10 +16,10 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Compress
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Compress/Raw
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Bzip2
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Bzip2/.debug
--rwxr-xr-x bitbake    bitbake        190716 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Bzip2/.debug/Bzip2.so
+-rwxr-xr-x bitbake    bitbake        190444 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Bzip2/.debug/Bzip2.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Zlib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Zlib/.debug
--rwxr-xr-x bitbake    bitbake        286600 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Zlib/.debug/Zlib.so
+-rwxr-xr-x bitbake    bitbake        286624 ./usr/lib/perl/5.22.0/auto/Compress/Raw/Zlib/.debug/Zlib.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Cwd
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Cwd/.debug
 -rwxr-xr-x bitbake    bitbake         65448 ./usr/lib/perl/5.22.0/auto/Cwd/.debug/Cwd.so
@@ -93,7 +93,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Hash/Util
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/I18N
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/I18N/Langinfo
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/I18N/Langinfo/.debug
--rwxr-xr-x bitbake    bitbake         53564 ./usr/lib/perl/5.22.0/auto/I18N/Langinfo/.debug/Langinfo.so
+-rwxr-xr-x bitbake    bitbake         53596 ./usr/lib/perl/5.22.0/auto/I18N/Langinfo/.debug/Langinfo.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/IO
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/IO/.debug
 -rwxr-xr-x bitbake    bitbake         78040 ./usr/lib/perl/5.22.0/auto/IO/.debug/IO.so
@@ -108,7 +108,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/List/Util
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/MIME
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/MIME/Base64
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/MIME/Base64/.debug
--rwxr-xr-x bitbake    bitbake         60556 ./usr/lib/perl/5.22.0/auto/MIME/Base64/.debug/Base64.so
+-rwxr-xr-x bitbake    bitbake         60540 ./usr/lib/perl/5.22.0/auto/MIME/Base64/.debug/Base64.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Math
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Math/BigInt
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Math/BigInt/FastCalc
@@ -138,7 +138,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/PerlIO/sc
 -rwxr-xr-x bitbake    bitbake         61440 ./usr/lib/perl/5.22.0/auto/PerlIO/scalar/.debug/scalar.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/PerlIO/via
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/PerlIO/via/.debug
--rwxr-xr-x bitbake    bitbake         81196 ./usr/lib/perl/5.22.0/auto/PerlIO/via/.debug/via.so
+-rwxr-xr-x bitbake    bitbake         81172 ./usr/lib/perl/5.22.0/auto/PerlIO/via/.debug/via.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/SDBM_File
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/SDBM_File/.debug
 -rwxr-xr-x bitbake    bitbake         92904 ./usr/lib/perl/5.22.0/auto/SDBM_File/.debug/SDBM_File.so
@@ -147,7 +147,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Socket/.d
 -rwxr-xr-x bitbake    bitbake         94760 ./usr/lib/perl/5.22.0/auto/Socket/.debug/Socket.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Storable
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Storable/.debug
--rwxr-xr-x bitbake    bitbake        219040 ./usr/lib/perl/5.22.0/auto/Storable/.debug/Storable.so
+-rwxr-xr-x bitbake    bitbake        219032 ./usr/lib/perl/5.22.0/auto/Storable/.debug/Storable.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Sys
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Sys/Hostname
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/Sys/Hostname/.debug
@@ -182,7 +182,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/mro/.debu
 -rwxr-xr-x bitbake    bitbake         72760 ./usr/lib/perl/5.22.0/auto/mro/.debug/mro.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/re
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/re/.debug
--rwxr-xr-x bitbake    bitbake        851196 ./usr/lib/perl/5.22.0/auto/re/.debug/re.so
+-rwxr-xr-x bitbake    bitbake        851948 ./usr/lib/perl/5.22.0/auto/re/.debug/re.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/threads
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/perl/5.22.0/auto/threads/.debug
 -rwxr-xr-x bitbake    bitbake        121176 ./usr/lib/perl/5.22.0/auto/threads/.debug/threads.so

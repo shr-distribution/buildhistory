@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libXxf86vm.so.1 -> libXxf86vm.so.1.0.0
+-rwxr-xr-x bitbake    bitbake         15668 ./usr/lib/libXxf86vm.so.1.0.0

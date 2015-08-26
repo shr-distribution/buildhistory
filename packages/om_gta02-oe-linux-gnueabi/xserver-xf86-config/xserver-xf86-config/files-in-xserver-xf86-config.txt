@@ -1,0 +1,4 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/X11
+-rw-r--r-- bitbake    bitbake          1203 ./etc/X11/xorg.conf

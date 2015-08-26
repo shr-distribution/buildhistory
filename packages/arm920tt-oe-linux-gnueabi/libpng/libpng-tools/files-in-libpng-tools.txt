@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          3952 ./usr/bin/png-fix-itxt
+-rwxr-xr-x bitbake    bitbake         32840 ./usr/bin/pngfix

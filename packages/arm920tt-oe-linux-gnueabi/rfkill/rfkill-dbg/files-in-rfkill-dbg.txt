@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin/.debug
+-rwxr-xr-x bitbake    bitbake         21116 ./usr/sbin/.debug/rfkill.rfkill
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/rfkill
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/rfkill/0.5-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/rfkill/0.5-r0/rfkill-0.5
+-rw-r--r-- bitbake    bitbake            96 ./usr/src/debug/rfkill/0.5-r0/rfkill-0.5/core.h
+-rw-r--r-- bitbake    bitbake          7418 ./usr/src/debug/rfkill/0.5-r0/rfkill-0.5/rfkill.c
+-rw-r--r-- bitbake    bitbake         12350 ./usr/src/debug/rfkill/0.5-r0/rfkill-0.5/rfkill.h
+-rw-r--r-- bitbake    bitbake            37 ./usr/src/debug/rfkill/0.5-r0/rfkill-0.5/version.c

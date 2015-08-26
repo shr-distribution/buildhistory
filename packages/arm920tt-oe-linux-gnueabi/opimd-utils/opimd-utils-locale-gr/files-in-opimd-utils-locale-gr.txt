@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/gr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/locale/gr/LC_MESSAGES
+-rw-r--r-- bitbake    bitbake          1646 ./usr/share/locale/gr/LC_MESSAGES/opimd-contacts.mo
+-rw-r--r-- bitbake    bitbake          1567 ./usr/share/locale/gr/LC_MESSAGES/opimd-dates.mo
+-rw-r--r-- bitbake    bitbake          1489 ./usr/share/locale/gr/LC_MESSAGES/opimd-messages.mo
+-rw-r--r-- bitbake    bitbake          1872 ./usr/share/locale/gr/LC_MESSAGES/opimd-notes.mo
+-rw-r--r-- bitbake    bitbake          1270 ./usr/share/locale/gr/LC_MESSAGES/opimd-notifier.mo

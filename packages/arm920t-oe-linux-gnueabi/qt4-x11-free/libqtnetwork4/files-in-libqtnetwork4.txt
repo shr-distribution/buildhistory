@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libQtNetwork.so.4 -> libQtNetwork.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libQtNetwork.so.4.8 -> libQtNetwork.so.4.8.7
+-rwxr-xr-x bitbake    bitbake       1260588 ./usr/lib/libQtNetwork.so.4.8.7

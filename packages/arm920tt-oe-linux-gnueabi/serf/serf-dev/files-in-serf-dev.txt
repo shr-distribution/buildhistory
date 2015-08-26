@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/serf-1
+-rw-r--r-- bitbake    bitbake         38973 ./usr/include/serf-1/serf.h
+-rw-r--r-- bitbake    bitbake         20852 ./usr/include/serf-1/serf_bucket_types.h
+-rw-r--r-- bitbake    bitbake          8414 ./usr/include/serf-1/serf_bucket_util.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libserf-1.so -> libserf-1.so.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           356 ./usr/lib/pkgconfig/serf-1.pc

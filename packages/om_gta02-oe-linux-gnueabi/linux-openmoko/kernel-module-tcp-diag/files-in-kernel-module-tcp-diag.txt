@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/net
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/net/ipv4
+-rw-r--r-- bitbake    bitbake          3348 ./lib/modules/3.2.52/kernel/net/ipv4/tcp_diag.ko

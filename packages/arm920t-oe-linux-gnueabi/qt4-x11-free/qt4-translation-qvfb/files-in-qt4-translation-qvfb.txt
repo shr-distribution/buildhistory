@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/qt4/translations
+-rw-r--r-- bitbake    bitbake         11157 ./usr/share/qt4/translations/qvfb_eu.qm
+-rw-r--r-- bitbake    bitbake          6745 ./usr/share/qt4/translations/qvfb_hu.qm
+-rw-r--r-- bitbake    bitbake          9222 ./usr/share/qt4/translations/qvfb_ja.qm
+-rw-r--r-- bitbake    bitbake          9002 ./usr/share/qt4/translations/qvfb_ko.qm
+-rw-r--r-- bitbake    bitbake          8777 ./usr/share/qt4/translations/qvfb_pl.qm
+-rw-r--r-- bitbake    bitbake         11148 ./usr/share/qt4/translations/qvfb_ru.qm
+-rw-r--r-- bitbake    bitbake         11164 ./usr/share/qt4/translations/qvfb_sl.qm
+-rw-r--r-- bitbake    bitbake         11640 ./usr/share/qt4/translations/qvfb_uk.qm
+-rw-r--r-- bitbake    bitbake          4853 ./usr/share/qt4/translations/qvfb_zh_CN.qm
+-rw-r--r-- bitbake    bitbake          4853 ./usr/share/qt4/translations/qvfb_zh_TW.qm

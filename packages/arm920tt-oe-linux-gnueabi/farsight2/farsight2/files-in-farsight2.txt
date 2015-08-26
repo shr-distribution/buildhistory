@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/farsight2-0.0
+-rwxr-xr-x bitbake    bitbake         20728 ./usr/lib/farsight2-0.0/libmulticast-transmitter.so
+-rwxr-xr-x bitbake    bitbake         35272 ./usr/lib/farsight2-0.0/libnice-transmitter.so
+-rwxr-xr-x bitbake    bitbake         35988 ./usr/lib/farsight2-0.0/librawudp-transmitter.so
+-rwxr-xr-x bitbake    bitbake         15712 ./usr/lib/farsight2-0.0/libshm-transmitter.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x bitbake    bitbake         10552 ./usr/lib/gstreamer-0.10/libfsfunnel.so
+-rwxr-xr-x bitbake    bitbake         36244 ./usr/lib/gstreamer-0.10/libfsmsnconference.so
+-rwxr-xr-x bitbake    bitbake          7328 ./usr/lib/gstreamer-0.10/libfsrtcpfilter.so
+-rwxr-xr-x bitbake    bitbake        123520 ./usr/lib/gstreamer-0.10/libfsrtpconference.so
+-rwxr-xr-x bitbake    bitbake          6944 ./usr/lib/gstreamer-0.10/libfsvideoanyrate.so
+lrwxrwxrwx bitbake    bitbake            28 ./usr/lib/libgstfarsight-0.10.so.0 -> libgstfarsight-0.10.so.0.5.2
+-rwxr-xr-x bitbake    bitbake         48416 ./usr/lib/libgstfarsight-0.10.so.0.5.2

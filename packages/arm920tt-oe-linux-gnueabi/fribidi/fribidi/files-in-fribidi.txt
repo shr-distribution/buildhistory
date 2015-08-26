@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libfribidi.so.0 -> libfribidi.so.0.3.1
+-rwxr-xr-x bitbake    bitbake         83848 ./usr/lib/libfribidi.so.0.3.1

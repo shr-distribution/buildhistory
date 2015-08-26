@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./bin
+-rwxr-xr-x bitbake    bitbake           158 ./bin/egrep.grep
+-rwxr-xr-x bitbake    bitbake           158 ./bin/fgrep.grep
+-rwxr-xr-x bitbake    bitbake        149792 ./bin/grep.grep

@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/fonts
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/fonts/truetype
+-rw-r--r-- bitbake    bitbake      21053592 ./usr/share/fonts/truetype/uming.ttc

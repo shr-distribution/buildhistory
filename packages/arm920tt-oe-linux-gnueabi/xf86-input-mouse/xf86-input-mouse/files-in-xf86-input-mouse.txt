@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules/input
+-rwxr-xr-x bitbake    bitbake         36316 ./usr/lib/xorg/modules/input/mouse_drv.so

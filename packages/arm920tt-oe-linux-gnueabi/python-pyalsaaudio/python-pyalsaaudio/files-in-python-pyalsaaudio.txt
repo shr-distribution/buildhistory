@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+-rwxr-xr-x bitbake    bitbake         37944 ./usr/lib/python2.7/site-packages/alsaaudio.so
+-rw-r--r-- bitbake    bitbake           890 ./usr/lib/python2.7/site-packages/pyalsaaudio-0.4-py2.7.egg-info

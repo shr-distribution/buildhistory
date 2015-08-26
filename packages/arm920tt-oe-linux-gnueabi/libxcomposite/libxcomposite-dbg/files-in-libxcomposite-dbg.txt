@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake         46500 ./usr/lib/.debug/libXcomposite.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxcomposite
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxcomposite/1_0.4.4-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxcomposite/1_0.4.4-r0/libXcomposite-0.4.4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libxcomposite/1_0.4.4-r0/libXcomposite-0.4.4/src
+-rw-r--r-- bitbake    bitbake         11704 ./usr/src/debug/libxcomposite/1_0.4.4-r0/libXcomposite-0.4.4/src/Xcomposite.c
+-rw-r--r-- bitbake    bitbake          3729 ./usr/src/debug/libxcomposite/1_0.4.4-r0/libXcomposite-0.4.4/src/xcompositeint.h

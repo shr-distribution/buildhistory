@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libQtCLucene.so.4 -> libQtCLucene.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libQtCLucene.so.4.8 -> libQtCLucene.so.4.8.7
+-rwxr-xr-x bitbake    bitbake        824252 ./usr/lib/libQtCLucene.so.4.8.7

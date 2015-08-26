@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libQtScript.so.4 -> libQtScript.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libQtScript.so.4.8 -> libQtScript.so.4.8.7
+-rwxr-xr-x bitbake    bitbake       2245028 ./usr/lib/libQtScript.so.4.8.7

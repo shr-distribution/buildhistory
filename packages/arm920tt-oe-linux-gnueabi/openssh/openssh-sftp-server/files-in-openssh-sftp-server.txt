@@ -2,4 +2,4 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/openssh
--rwxr-xr-x bitbake    bitbake         63820 ./usr/lib/openssh/sftp-server
+-rwxr-xr-x bitbake    bitbake         63560 ./usr/lib/openssh/sftp-server

@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         56340 ./usr/sbin/mkfs.ubifs
+-rwxr-xr-x bitbake    bitbake         21708 ./usr/sbin/ubiattach
+-rwxr-xr-x bitbake    bitbake         18752 ./usr/sbin/ubiblock
+-rwxr-xr-x bitbake    bitbake          9988 ./usr/sbin/ubicrc32
+-rwxr-xr-x bitbake    bitbake         20004 ./usr/sbin/ubidetach
+-rwxr-xr-x bitbake    bitbake         51908 ./usr/sbin/ubiformat
+-rwxr-xr-x bitbake    bitbake         21732 ./usr/sbin/ubimkvol
+-rwxr-xr-x bitbake    bitbake         23340 ./usr/sbin/ubinfo
+-rwxr-xr-x bitbake    bitbake         30608 ./usr/sbin/ubinize
+-rwxr-xr-x bitbake    bitbake         18576 ./usr/sbin/ubirename
+-rwxr-xr-x bitbake    bitbake         19640 ./usr/sbin/ubirmvol
+-rwxr-xr-x bitbake    bitbake         20540 ./usr/sbin/ubirsvol
+-rwxr-xr-x bitbake    bitbake         21040 ./usr/sbin/ubiupdatevol

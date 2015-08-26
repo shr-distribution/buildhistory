@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/doc
+-rw-r--r-- bitbake    bitbake          3895 ./usr/share/enlightenment/doc/FDO.txt
+-rw-r--r-- bitbake    bitbake         19906 ./usr/share/enlightenment/doc/cache.txt
+-rw-r--r-- bitbake    bitbake         30778 ./usr/share/enlightenment/doc/documentation.html
+-rw-r--r-- bitbake    bitbake         17541 ./usr/share/enlightenment/doc/enlightenment.png
+-rw-r--r-- bitbake    bitbake         10995 ./usr/share/enlightenment/doc/illume2.html
+-rw-r--r-- bitbake    bitbake         11769 ./usr/share/enlightenment/doc/illume2.png

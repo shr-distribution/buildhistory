@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         47648 ./usr/bin/ffphonelog
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           187 ./usr/share/applications/ffphonelog.desktop
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/ffphonelog
+-rw-r--r-- bitbake    bitbake         20921 ./usr/share/ffphonelog/ffphonelog.edj
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/pixmaps
+-rw-r--r-- bitbake    bitbake          6209 ./usr/share/pixmaps/ffphonelog.png

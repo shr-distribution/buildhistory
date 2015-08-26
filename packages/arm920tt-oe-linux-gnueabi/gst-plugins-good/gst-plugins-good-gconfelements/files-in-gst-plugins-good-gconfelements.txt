@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/gconf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/gconf/schemas
+-rw-r--r-- bitbake    bitbake          8972 ./etc/gconf/schemas/gstreamer-0.10.schemas
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x bitbake    bitbake         22704 ./usr/lib/gstreamer-0.10/libgstgconfelements.so

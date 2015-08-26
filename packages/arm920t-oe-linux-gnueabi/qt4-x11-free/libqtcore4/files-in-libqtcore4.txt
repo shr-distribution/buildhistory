@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libQtCore.so.4 -> libQtCore.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libQtCore.so.4.8 -> libQtCore.so.4.8.7
+-rwxr-xr-x bitbake    bitbake       2766440 ./usr/lib/libQtCore.so.4.8.7

@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libgisi.so.0 -> libgisi.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         25628 ./usr/lib/libgisi.so.0.0.0
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libgisicomm.so.0 -> libgisicomm.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         82656 ./usr/lib/libgisicomm.so.0.0.0

@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          9160 ./usr/bin/gst-device-monitor-1.0
+-rwxr-xr-x bitbake    bitbake         16940 ./usr/bin/gst-discoverer-1.0
+-rwxr-xr-x bitbake    bitbake         21692 ./usr/bin/gst-play-1.0

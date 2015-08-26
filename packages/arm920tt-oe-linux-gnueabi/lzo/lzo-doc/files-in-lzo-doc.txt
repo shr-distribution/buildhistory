@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/lzo
+-rw-r--r-- bitbake    bitbake           112 ./usr/share/doc/lzo/AUTHORS
+-rw-r--r-- bitbake    bitbake         18092 ./usr/share/doc/lzo/COPYING
+-rw-r--r-- bitbake    bitbake          7616 ./usr/share/doc/lzo/LZO.FAQ
+-rw-r--r-- bitbake    bitbake         13009 ./usr/share/doc/lzo/LZO.TXT
+-rw-r--r-- bitbake    bitbake          6228 ./usr/share/doc/lzo/LZOAPI.TXT
+-rw-r--r-- bitbake    bitbake         12406 ./usr/share/doc/lzo/NEWS
+-rw-r--r-- bitbake    bitbake           690 ./usr/share/doc/lzo/THANKS

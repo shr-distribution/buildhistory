@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/fonts
+-rw-r--r-- bitbake    bitbake          4078 ./usr/include/X11/fonts/FS.h
+-rw-r--r-- bitbake    bitbake         20499 ./usr/include/X11/fonts/FSproto.h
+-rw-r--r-- bitbake    bitbake          4214 ./usr/include/X11/fonts/font.h
+-rw-r--r-- bitbake    bitbake          3225 ./usr/include/X11/fonts/fontproto.h
+-rw-r--r-- bitbake    bitbake          9401 ./usr/include/X11/fonts/fontstruct.h
+-rw-r--r-- bitbake    bitbake          3995 ./usr/include/X11/fonts/fsmasks.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           164 ./usr/lib/pkgconfig/fontsproto.pc

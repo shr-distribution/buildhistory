@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/gtk-doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/gtk-doc/html
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/gtk-doc/html/libgpewidget
+-rw-r--r-- bitbake    bitbake          3332 ./usr/share/gtk-doc/html/libgpewidget/ch01.html
+-rw-r--r-- bitbake    bitbake          1890 ./usr/share/gtk-doc/html/libgpewidget/ch02.html
+-rw-r--r-- bitbake    bitbake           654 ./usr/share/gtk-doc/html/libgpewidget/home.png
+-rw-r--r-- bitbake    bitbake          1923 ./usr/share/gtk-doc/html/libgpewidget/index.html
+-rw-r--r-- bitbake    bitbake           459 ./usr/share/gtk-doc/html/libgpewidget/left.png
+-rw-r--r-- bitbake    bitbake           416 ./usr/share/gtk-doc/html/libgpewidget/libgpewidget.devhelp
+-rw-r--r-- bitbake    bitbake           428 ./usr/share/gtk-doc/html/libgpewidget/libgpewidget.devhelp2
+-rw-r--r-- bitbake    bitbake           472 ./usr/share/gtk-doc/html/libgpewidget/right.png
+-rw-r--r-- bitbake    bitbake          2331 ./usr/share/gtk-doc/html/libgpewidget/style.css
+-rw-r--r-- bitbake    bitbake           406 ./usr/share/gtk-doc/html/libgpewidget/up.png

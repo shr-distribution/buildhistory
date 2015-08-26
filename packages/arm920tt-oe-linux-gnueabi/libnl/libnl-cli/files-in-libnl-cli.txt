@@ -1,0 +1,18 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libnl-cli-3.so.200 -> libnl-cli-3.so.200.20.0
+-rwxr-xr-x bitbake    bitbake         31108 ./usr/lib/libnl-cli-3.so.200.20.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake          7712 ./usr/sbin/nl-class-add
+-rwxr-xr-x bitbake    bitbake          6636 ./usr/sbin/nl-class-delete
+-rwxr-xr-x bitbake    bitbake          6052 ./usr/sbin/nl-class-list
+-rwxr-xr-x bitbake    bitbake          4880 ./usr/sbin/nl-classid-lookup
+-rwxr-xr-x bitbake    bitbake          8152 ./usr/sbin/nl-cls-add
+-rwxr-xr-x bitbake    bitbake          7428 ./usr/sbin/nl-cls-delete
+-rwxr-xr-x bitbake    bitbake          6576 ./usr/sbin/nl-cls-list
+-rwxr-xr-x bitbake    bitbake          6080 ./usr/sbin/nl-link-list
+-rwxr-xr-x bitbake    bitbake          5972 ./usr/sbin/nl-pktloc-lookup
+-rwxr-xr-x bitbake    bitbake          7116 ./usr/sbin/nl-qdisc-add
+-rwxr-xr-x bitbake    bitbake          6736 ./usr/sbin/nl-qdisc-delete
+-rwxr-xr-x bitbake    bitbake          7336 ./usr/sbin/nl-qdisc-list

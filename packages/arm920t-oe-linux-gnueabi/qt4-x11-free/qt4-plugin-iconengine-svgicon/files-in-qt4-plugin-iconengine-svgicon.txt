@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4/plugins
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4/plugins/iconengines
+-rwxr-xr-x bitbake    bitbake         36036 ./usr/lib/qt4/plugins/iconengines/libqsvgicon.so

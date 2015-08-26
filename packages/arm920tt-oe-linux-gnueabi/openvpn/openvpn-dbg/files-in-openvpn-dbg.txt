@@ -8,7 +8,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/openvpn/plugins/.debug
 -rwxr-xr-x bitbake    bitbake         17956 ./usr/lib/openvpn/plugins/.debug/openvpn-plugin-down-root.so
 drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
 drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin/.debug
--rwxr-xr-x bitbake    bitbake       2103312 ./usr/sbin/.debug/openvpn
+-rwxr-xr-x bitbake    bitbake       2103336 ./usr/sbin/.debug/openvpn
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/openvpn

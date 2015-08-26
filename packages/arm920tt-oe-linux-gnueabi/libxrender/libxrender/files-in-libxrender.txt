@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libXrender.so.1 -> libXrender.so.1.3.0
+-rwxr-xr-x bitbake    bitbake         27188 ./usr/lib/libXrender.so.1.3.0

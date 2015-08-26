@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4/plugins
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4/plugins/codecs
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/qt4/plugins/codecs/.debug
+-rwxr-xr-x bitbake    bitbake        525792 ./usr/lib/qt4/plugins/codecs/.debug/libqjpcodecs.so

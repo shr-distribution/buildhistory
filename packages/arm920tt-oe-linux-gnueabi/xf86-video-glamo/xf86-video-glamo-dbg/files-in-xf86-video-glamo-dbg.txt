@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules/drivers
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg/modules/drivers/.debug
+-rwxr-xr-x bitbake    bitbake         18272 ./usr/lib/xorg/modules/drivers/.debug/glamo_drv.so

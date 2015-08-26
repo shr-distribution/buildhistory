@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake           767 ./etc/netconfig
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libtirpc.so.1 -> libtirpc.so.1.0.10
+-rwxr-xr-x bitbake    bitbake        101672 ./usr/lib/libtirpc.so.1.0.10

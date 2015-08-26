@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake        909288 ./usr/bin/assistant
+-rwxr-xr-x bitbake    bitbake         57672 ./usr/bin/qcollectiongenerator
+-rwxr-xr-x bitbake    bitbake        155216 ./usr/bin/qhelpconverter
+-rwxr-xr-x bitbake    bitbake         18680 ./usr/bin/qhelpgenerator

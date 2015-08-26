@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         15904 ./usr/bin/gst-discoverer-0.10
+-rwxr-xr-x bitbake    bitbake          1713 ./usr/bin/gst-visualise-0.10

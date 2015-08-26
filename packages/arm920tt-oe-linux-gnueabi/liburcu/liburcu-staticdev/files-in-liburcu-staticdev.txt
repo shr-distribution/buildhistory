@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake        115496 ./usr/lib/liburcu-bp.a
+-rw-r--r-- bitbake    bitbake        192272 ./usr/lib/liburcu-cds.a
+-rw-r--r-- bitbake    bitbake         92710 ./usr/lib/liburcu-common.a
+-rw-r--r-- bitbake    bitbake        109836 ./usr/lib/liburcu-mb.a
+-rw-r--r-- bitbake    bitbake        111570 ./usr/lib/liburcu-qsbr.a
+-rw-r--r-- bitbake    bitbake        114640 ./usr/lib/liburcu-signal.a
+-rw-r--r-- bitbake    bitbake        112160 ./usr/lib/liburcu.a

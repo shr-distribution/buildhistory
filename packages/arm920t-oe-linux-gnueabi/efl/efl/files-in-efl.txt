@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libecore_avahi.so.1 -> libecore_avahi.so.1.14.1
+-rwxr-xr-x bitbake    bitbake          3192 ./usr/lib/libecore_avahi.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libector.so.1 -> libector.so.1.14.1
+-rwxr-xr-x bitbake    bitbake        102976 ./usr/lib/libector.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libefl.so.1 -> libefl.so.1.14.1
+-rwxr-xr-x bitbake    bitbake         96248 ./usr/lib/libefl.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libelocation.so.1 -> libelocation.so.1.14.1
+-rwxr-xr-x bitbake    bitbake         26456 ./usr/lib/libelocation.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libelua.so.1 -> libelua.so.1.14.1
+-rwxr-xr-x bitbake    bitbake        285508 ./usr/lib/libelua.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libemile.so.1 -> libemile.so.1.14.1
+-rwxr-xr-x bitbake    bitbake         63636 ./usr/lib/libemile.so.1.14.1
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libeolian.so.1 -> libeolian.so.1.14.1
+-rwxr-xr-x bitbake    bitbake        107596 ./usr/lib/libeolian.so.1.14.1

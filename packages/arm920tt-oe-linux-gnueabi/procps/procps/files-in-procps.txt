@@ -1,0 +1,30 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./bin
+-rwxr-xr-x bitbake    bitbake         15360 ./bin/kill.procps
+-rwxr-xr-x bitbake    bitbake          8532 ./bin/pidof.procps
+-rwxr-xr-x bitbake    bitbake         67792 ./bin/ps.procps
+-rwxr-xr-x bitbake    bitbake         16684 ./bin/watch.procps
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake          2049 ./etc/sysctl.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/sysctl.d
+lrwxrwxrwx bitbake    bitbake            14 ./etc/sysctl.d/99-sysctl.conf -> ../sysctl.conf
+drwxr-xr-x bitbake    bitbake          4096 ./sbin
+-rwxr-xr-x bitbake    bitbake         14188 ./sbin/sysctl.procps
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         14120 ./usr/bin/free.procps
+-rwxr-xr-x bitbake    bitbake         16792 ./usr/bin/pgrep.procps
+-rwxr-xr-x bitbake    bitbake         16792 ./usr/bin/pkill.procps
+-rwxr-xr-x bitbake    bitbake         19008 ./usr/bin/pmap.procps
+-rwxr-xr-x bitbake    bitbake          6152 ./usr/bin/pwdx.procps
+-rwxr-xr-x bitbake    bitbake         15364 ./usr/bin/skill.procps
+-rwxr-xr-x bitbake    bitbake         14184 ./usr/bin/slabtop
+-rwxr-xr-x bitbake    bitbake         15364 ./usr/bin/snice.procps
+-rwxr-xr-x bitbake    bitbake         10684 ./usr/bin/tload
+-rwxr-xr-x bitbake    bitbake         78596 ./usr/bin/top.procps
+-rwxr-xr-x bitbake    bitbake          8284 ./usr/bin/uptime.procps
+-rwxr-xr-x bitbake    bitbake         22376 ./usr/bin/vmstat
+-rwxr-xr-x bitbake    bitbake         15164 ./usr/bin/w
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libprocps.so.4 -> libprocps.so.4.0.0
+-rwxr-xr-x bitbake    bitbake         49204 ./usr/lib/libprocps.so.4.0.0

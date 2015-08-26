@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       1106816 ./usr/lib/libtheora.a
+-rw-r--r-- bitbake    bitbake        381120 ./usr/lib/libtheoradec.a
+-rw-r--r-- bitbake    bitbake        870002 ./usr/lib/libtheoraenc.a

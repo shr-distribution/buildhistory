@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/efl
+-rwxr-xr-x bitbake    bitbake        379436 ./usr/lib/python2.7/site-packages/efl/edje.so
+-rwxr-xr-x bitbake    bitbake        208656 ./usr/lib/python2.7/site-packages/efl/edje_edit.so

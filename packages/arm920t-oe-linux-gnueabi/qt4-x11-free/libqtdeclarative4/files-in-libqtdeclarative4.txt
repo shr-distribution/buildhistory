@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libQtDeclarative.so.4 -> libQtDeclarative.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libQtDeclarative.so.4.8 -> libQtDeclarative.so.4.8.7
+-rwxr-xr-x bitbake    bitbake       3173660 ./usr/lib/libQtDeclarative.so.4.8.7

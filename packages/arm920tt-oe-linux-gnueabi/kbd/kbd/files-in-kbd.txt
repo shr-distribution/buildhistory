@@ -1,0 +1,28 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          4616 ./usr/bin/chvt.kbd
+-rwxr-xr-x bitbake    bitbake          5004 ./usr/bin/deallocvt.kbd
+-rwxr-xr-x bitbake    bitbake         66444 ./usr/bin/dumpkeys
+-rwxr-xr-x bitbake    bitbake          5240 ./usr/bin/fgconsole.kbd
+-rwxr-xr-x bitbake    bitbake          5288 ./usr/bin/getkeycodes
+-rwxr-xr-x bitbake    bitbake          5496 ./usr/bin/kbd_mode
+-rwxr-xr-x bitbake    bitbake          6024 ./usr/bin/kbdinfo
+-rwxr-xr-x bitbake    bitbake          8844 ./usr/bin/kbdrate
+-rwxr-xr-x bitbake    bitbake         92676 ./usr/bin/loadkeys
+-rwxr-xr-x bitbake    bitbake         14748 ./usr/bin/loadunimap
+-rwxr-xr-x bitbake    bitbake         11076 ./usr/bin/mapscrn
+-rwxr-xr-x bitbake    bitbake         10752 ./usr/bin/openvt.kbd
+lrwxrwxrwx bitbake    bitbake             9 ./usr/bin/psfaddtable -> psfxtable
+lrwxrwxrwx bitbake    bitbake             9 ./usr/bin/psfgettable -> psfxtable
+lrwxrwxrwx bitbake    bitbake             9 ./usr/bin/psfstriptable -> psfxtable
+-rwxr-xr-x bitbake    bitbake         11468 ./usr/bin/psfxtable
+-rwxr-xr-x bitbake    bitbake         25396 ./usr/bin/setfont
+-rwxr-xr-x bitbake    bitbake          4972 ./usr/bin/setkeycodes
+-rwxr-xr-x bitbake    bitbake          6284 ./usr/bin/setleds
+-rwxr-xr-x bitbake    bitbake          4672 ./usr/bin/setmetamode
+-rwxr-xr-x bitbake    bitbake          6128 ./usr/bin/setvtrgb
+-rwxr-xr-x bitbake    bitbake         10016 ./usr/bin/showconsolefont
+-rwxr-xr-x bitbake    bitbake          7368 ./usr/bin/showkey
+-rwxr-xr-x bitbake    bitbake          2425 ./usr/bin/unicode_start
+-rwxr-xr-x bitbake    bitbake           363 ./usr/bin/unicode_stop

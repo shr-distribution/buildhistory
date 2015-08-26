@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1335 ./usr/lib/libfsoresource.la
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libfsoresource.so -> libfsoresource.so.3.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           374 ./usr/lib/pkgconfig/fsoresource-2.0.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake            45 ./usr/share/vala/vapi/fsoresource-2.0.deps
+-rw-r--r-- bitbake    bitbake           825 ./usr/share/vala/vapi/fsoresource-2.0.vapi

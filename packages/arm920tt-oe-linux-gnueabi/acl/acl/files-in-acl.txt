@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          8400 ./usr/bin/chacl
+-rwxr-xr-x bitbake    bitbake         14824 ./usr/bin/getfacl
+-rwxr-xr-x bitbake    bitbake         22848 ./usr/bin/setfacl

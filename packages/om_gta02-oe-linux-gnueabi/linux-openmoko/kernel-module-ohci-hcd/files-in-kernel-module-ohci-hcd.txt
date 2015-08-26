@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/modules-load.d
+-rw-r--r-- bitbake    bitbake             9 ./etc/modules-load.d/ohci-hcd.conf
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/drivers
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/drivers/usb
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/drivers/usb/host
+-rw-r--r-- bitbake    bitbake         27180 ./lib/modules/3.2.52/kernel/drivers/usb/host/ohci-hcd.ko

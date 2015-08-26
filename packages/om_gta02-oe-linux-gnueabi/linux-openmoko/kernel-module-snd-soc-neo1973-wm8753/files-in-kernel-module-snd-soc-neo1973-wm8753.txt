@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/modules-load.d
+-rw-r--r-- bitbake    bitbake            92 ./etc/modules-load.d/snd-soc-neo1973-wm8753.conf
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/sound
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/sound/soc
+drwxr-xr-x bitbake    bitbake          4096 ./lib/modules/3.2.52/kernel/sound/soc/samsung
+-rw-r--r-- bitbake    bitbake         11568 ./lib/modules/3.2.52/kernel/sound/soc/samsung/snd-soc-neo1973-wm8753.ko

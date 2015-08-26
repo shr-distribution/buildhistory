@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         12368 ./usr/bin/amidi
+-rwxr-xr-x bitbake    bitbake         13596 ./usr/bin/aplaymidi
+-rwxr-xr-x bitbake    bitbake         15384 ./usr/bin/arecordmidi

@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         52404 ./usr/bin/enca
+lrwxrwxrwx bitbake    bitbake             4 ./usr/bin/enconv -> enca
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enca
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enca/enca
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enca/enca/extconv
+-rwxr-xr-x bitbake    bitbake          1455 ./usr/lib/enca/enca/extconv/cstocs
+-rwxr-xr-x bitbake    bitbake          1305 ./usr/lib/enca/enca/extconv/map
+-rwxr-xr-x bitbake    bitbake          1185 ./usr/lib/enca/enca/extconv/piconv
+-rwxr-xr-x bitbake    bitbake           958 ./usr/lib/enca/enca/extconv/recode
+-rwxr-xr-x bitbake    bitbake          1155 ./usr/lib/enca/enca/extconv/umap
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libenca.so.0 -> libenca.so.0.5.1
+-rwxr-xr-x bitbake    bitbake        156012 ./usr/lib/libenca.so.0.5.1

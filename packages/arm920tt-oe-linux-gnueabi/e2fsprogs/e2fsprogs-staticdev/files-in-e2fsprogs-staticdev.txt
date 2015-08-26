@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+-rw-r--r-- bitbake    bitbake         44608 ./lib/libcom_err.a
+-rw-r--r-- bitbake    bitbake        164404 ./lib/libe2p.a
+-rw-r--r-- bitbake    bitbake       1839058 ./lib/libext2fs.a
+-rw-r--r-- bitbake    bitbake        173150 ./lib/libquota.a
+-rw-r--r-- bitbake    bitbake        135816 ./lib/libss.a

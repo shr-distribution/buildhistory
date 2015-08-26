@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         26827 ./usr/bin/opimd-notes
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           292 ./usr/share/applications/opimd-notes.desktop
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/pixmaps
+-rw-r--r-- bitbake    bitbake         11376 ./usr/share/pixmaps/opimd-notes.png

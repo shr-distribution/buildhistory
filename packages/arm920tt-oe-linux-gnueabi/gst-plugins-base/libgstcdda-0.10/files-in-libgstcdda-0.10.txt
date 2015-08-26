@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libgstcdda-0.10.so.0 -> libgstcdda-0.10.so.0.25.0
+-rwxr-xr-x bitbake    bitbake         27680 ./usr/lib/libgstcdda-0.10.so.0.25.0

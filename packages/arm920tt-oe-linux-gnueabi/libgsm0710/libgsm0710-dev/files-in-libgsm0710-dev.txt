@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/gsm0710-1.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/gsm0710-1.0/gsm
+-rw-r--r-- bitbake    bitbake          5769 ./usr/include/gsm0710-1.0/gsm/gsm0710.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           919 ./usr/lib/libgsm0710.la
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libgsm0710.so -> libgsm0710.so.0.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           264 ./usr/lib/pkgconfig/gsm0710-1.0.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake          4321 ./usr/share/vala/vapi/gsm0710-1.0.vapi

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/utils
+-rwxr-xr-x bitbake    bitbake         12268 ./usr/lib/enlightenment/utils/enlightenment_alert
+-rwsr-xr-x bitbake    bitbake          6104 ./usr/lib/enlightenment/utils/enlightenment_backlight
+-rwxr-xr-x bitbake    bitbake         55572 ./usr/lib/enlightenment/utils/enlightenment_fm
+-rwxr-xr-x bitbake    bitbake         24132 ./usr/lib/enlightenment/utils/enlightenment_fm_op
+-rwxr-xr-x bitbake    bitbake          8976 ./usr/lib/enlightenment/utils/enlightenment_static_grabber
+-rwsr-xr-x bitbake    bitbake         13156 ./usr/lib/enlightenment/utils/enlightenment_sys
+-rwxr-xr-x bitbake    bitbake         22648 ./usr/lib/enlightenment/utils/enlightenment_thumb

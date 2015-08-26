@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         30988 ./usr/bin/arm-oe-linux-gnueabi-pkg-config
+-rwxr-xr-x bitbake    bitbake         30988 ./usr/bin/pkg-config
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/aclocal
+-rw-r--r-- bitbake    bitbake          8541 ./usr/share/aclocal/pkg.m4

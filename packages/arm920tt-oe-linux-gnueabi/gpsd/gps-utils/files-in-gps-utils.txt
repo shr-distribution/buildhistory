@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         16572 ./usr/bin/cgps
+-rwxr-xr-x bitbake    bitbake          2893 ./usr/bin/gegps
+-rwxr-xr-x bitbake    bitbake         10868 ./usr/bin/gps2udp
+-rwxr-xr-x bitbake    bitbake          4589 ./usr/bin/gpscat
+-rwxr-xr-x bitbake    bitbake         14604 ./usr/bin/gpsdecode
+-rwxr-xr-x bitbake    bitbake          7994 ./usr/bin/gpsfake
+-rwxr-xr-x bitbake    bitbake         77048 ./usr/bin/gpsmon
+-rwxr-xr-x bitbake    bitbake         12300 ./usr/bin/gpspipe
+-rwxr-xr-x bitbake    bitbake         17726 ./usr/bin/gpsprof
+-rwxr-xr-x bitbake    bitbake         11544 ./usr/bin/gpxlogger
+-rwxr-xr-x bitbake    bitbake         12356 ./usr/bin/lcdgps
+-rwxr-xr-x bitbake    bitbake          5920 ./usr/bin/ntpshmmon
+-rwxr-xr-x bitbake    bitbake         34002 ./usr/bin/xgps
+-rwxr-xr-x bitbake    bitbake         26930 ./usr/bin/xgpsspeed

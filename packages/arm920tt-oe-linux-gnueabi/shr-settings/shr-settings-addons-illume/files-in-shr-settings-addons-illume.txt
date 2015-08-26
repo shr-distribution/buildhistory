@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications/shr-settings-addons-illume
+-rw-r--r-- bitbake    bitbake           322 ./usr/share/applications/shr-settings-addons-illume/appearance.desktop
+-rw-r--r-- bitbake    bitbake           342 ./usr/share/applications/shr-settings-addons-illume/connectivity.desktop
+-rw-r--r-- bitbake    bitbake           313 ./usr/share/applications/shr-settings-addons-illume/datetime.desktop
+-rw-r--r-- bitbake    bitbake           325 ./usr/share/applications/shr-settings-addons-illume/others.desktop
+-rw-r--r-- bitbake    bitbake           325 ./usr/share/applications/shr-settings-addons-illume/phone.desktop
+-rw-r--r-- bitbake    bitbake           305 ./usr/share/applications/shr-settings-addons-illume/position.desktop
+-rw-r--r-- bitbake    bitbake           306 ./usr/share/applications/shr-settings-addons-illume/power.desktop
+-rw-r--r-- bitbake    bitbake           286 ./usr/share/applications/shr-settings-addons-illume/profiles.desktop

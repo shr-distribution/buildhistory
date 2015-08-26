@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake        105360 ./usr/bin/enjoy
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enjoy
+-rwxr-xr-x bitbake    bitbake          4968 ./usr/lib/enjoy/albumart-lastfm.so
+-rwxr-xr-x bitbake    bitbake          7004 ./usr/lib/enjoy/fso.so
+-rwxr-xr-x bitbake    bitbake         15184 ./usr/lib/enjoy/mpris.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           387 ./usr/share/applications/enjoy.desktop
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enjoy
+-rw-r--r-- bitbake    bitbake         35015 ./usr/share/enjoy/default.edj
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/icons
+-rw-r--r-- bitbake    bitbake          4278 ./usr/share/icons/enjoy.png

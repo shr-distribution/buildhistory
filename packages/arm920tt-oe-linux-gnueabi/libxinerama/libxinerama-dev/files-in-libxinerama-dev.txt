@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          1964 ./usr/include/X11/extensions/Xinerama.h
+-rw-r--r-- bitbake    bitbake          2893 ./usr/include/X11/extensions/panoramiXext.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1128 ./usr/lib/libXinerama.la
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libXinerama.so -> libXinerama.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           238 ./usr/lib/pkgconfig/xinerama.pc

@@ -17,4 +17,4 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
 -rw-r--r-- bitbake    bitbake           317 ./lib/systemd/system/sshdgenkeys.service
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
--rwxr-xr-x bitbake    bitbake        576448 ./usr/sbin/sshd
+-rwxr-xr-x bitbake    bitbake        576136 ./usr/sbin/sshd

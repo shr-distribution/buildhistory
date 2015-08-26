@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin/.debug
+-rwxr-xr-x bitbake    bitbake       2315996 ./usr/sbin/.debug/s3c64xx-gpio
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/s3c64xx-gpio
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/s3c64xx-gpio/1.0+svnr4949-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/s3c64xx-gpio/1.0+svnr4949-r0/gpio
+-rw-r--r-- bitbake    bitbake          8097 ./usr/src/debug/s3c64xx-gpio/1.0+svnr4949-r0/gpio/gpio-s3c6410.c

@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enjoy
+-rwxr-xr-x bitbake    bitbake           946 ./usr/lib/enjoy/albumart-lastfm.la
+-rwxr-xr-x bitbake    bitbake          1246 ./usr/lib/enjoy/fso.la
+-rwxr-xr-x bitbake    bitbake          1258 ./usr/lib/enjoy/mpris.la

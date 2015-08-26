@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         23024 ./usr/bin/efreetd
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/efreet
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/efreet/v-1.14
+-rwxr-xr-x bitbake    bitbake         18480 ./usr/lib/efreet/v-1.14/efreet_desktop_cache_create
+-rwxr-xr-x bitbake    bitbake         20140 ./usr/lib/efreet/v-1.14/efreet_icon_cache_create
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/dbus-1/services
+-rw-r--r-- bitbake    bitbake           100 ./usr/share/dbus-1/services/org.enlightenment.Efreet.service
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/efreet
+-rw-r--r-- bitbake    bitbake            76 ./usr/share/efreet/checkme

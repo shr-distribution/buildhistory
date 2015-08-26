@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr--r-- bitbake    bitbake          4984 ./usr/bin/ecalc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           244 ./usr/share/applications/ecalc.desktop
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/pixmaps
+-rw-r--r-- bitbake    bitbake          7872 ./usr/share/pixmaps/calculator.png

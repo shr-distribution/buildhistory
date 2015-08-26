@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         51040 ./usr/bin/sbcdec
+-rwxr-xr-x bitbake    bitbake         51656 ./usr/bin/sbcenc
+-rwxr-xr-x bitbake    bitbake          9404 ./usr/bin/sbcinfo
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libsbc.so.1 -> libsbc.so.1.2.1
+-rwxr-xr-x bitbake    bitbake         48432 ./usr/lib/libsbc.so.1.2.1

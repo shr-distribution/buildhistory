@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libXi.so.6 -> libXi.so.6.1.0
+-rwxr-xr-x bitbake    bitbake         40120 ./usr/lib/libXi.so.6.1.0

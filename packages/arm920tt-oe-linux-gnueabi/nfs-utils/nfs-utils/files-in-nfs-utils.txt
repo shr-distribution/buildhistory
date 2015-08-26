@@ -1,0 +1,19 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/modules-load.d
+-rw-r--r-- bitbake    bitbake             5 ./etc/modules-load.d/nfsd.conf
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
+-rw-r--r-- bitbake    bitbake           254 ./lib/systemd/system/nfs-mountd.service
+-rw-r--r-- bitbake    bitbake           421 ./lib/systemd/system/nfs-server.service
+-rw-r--r-- bitbake    bitbake           133 ./lib/systemd/system/proc-fs-nfsd.mount
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system/sysinit.target.wants
+lrwxrwxrwx bitbake    bitbake            21 ./lib/systemd/system/sysinit.target.wants/proc-fs-nfsd.mount -> ../proc-fs-nfsd.mount
+drwxr-xr-x bitbake    bitbake          4096 ./sbin
+-rwxr-xr-x bitbake    bitbake          2613 ./sbin/osd_login
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         35820 ./usr/sbin/exportfs
+-rwxr-xr-x bitbake    bitbake        225692 ./usr/sbin/rpc.mountd
+-rwxr-xr-x bitbake    bitbake         12668 ./usr/sbin/rpc.nfsd

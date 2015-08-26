@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/evas
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/evas/utils
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.doc -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.docx -> evas_generic_pdf_loader.libreoffice
+-rwxr-xr-x bitbake    bitbake           299 ./usr/lib/evas/utils/evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.odp -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.ods -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.odt -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.ppt -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.pptx -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.rtf -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.xls -> evas_generic_pdf_loader.libreoffice
+lrwxrwxrwx bitbake    bitbake            35 ./usr/lib/evas/utils/evas_generic_pdf_loader.xlsx -> evas_generic_pdf_loader.libreoffice

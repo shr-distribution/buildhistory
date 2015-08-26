@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libXmu.so.6 -> libXmu.so.6.2.0
+-rwxr-xr-x bitbake    bitbake         69232 ./usr/lib/libXmu.so.6.2.0

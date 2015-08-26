@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake        100050 ./usr/include/lcms2.h
+-rw-r--r-- bitbake    bitbake         28590 ./usr/include/lcms2_plugin.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           940 ./usr/lib/liblcms2.la
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/liblcms2.so -> liblcms2.so.2.0.6
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           207 ./usr/lib/pkgconfig/lcms2.pc

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake         36014 ./usr/include/X11/extensions/XInput.h
+-rw-r--r-- bitbake    bitbake         18788 ./usr/include/X11/extensions/XInput2.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1086 ./usr/lib/libXi.la
+lrwxrwxrwx bitbake    bitbake            14 ./usr/lib/libXi.so -> libXi.so.6.1.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           235 ./usr/lib/pkgconfig/xi.pc

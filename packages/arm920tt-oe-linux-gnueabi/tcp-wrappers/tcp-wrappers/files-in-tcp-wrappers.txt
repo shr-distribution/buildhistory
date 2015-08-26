@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake             0 ./etc/hosts.allow
+-rw-r--r-- bitbake    bitbake             0 ./etc/hosts.deny
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake          5468 ./usr/sbin/safe_finger
+-rwxr-xr-x bitbake    bitbake          4748 ./usr/sbin/tcpd
+-rwxr-xr-x bitbake    bitbake         14504 ./usr/sbin/tcpdchk
+-rwxr-xr-x bitbake    bitbake         11588 ./usr/sbin/tcpdmatch
+-rwxr-xr-x bitbake    bitbake          4808 ./usr/sbin/try-from

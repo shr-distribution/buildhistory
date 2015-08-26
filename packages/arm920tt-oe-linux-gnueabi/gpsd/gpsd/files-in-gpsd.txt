@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd
+drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
+-rw-r--r-- bitbake    bitbake           193 ./lib/systemd/system/gpsd.service
+-rw-r--r-- bitbake    bitbake           211 ./lib/systemd/system/gpsd.socket
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libQgpsmm.so.22 -> libQgpsmm.so.22.0.0
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libQgpsmm.so.22.0 -> libQgpsmm.so.22.0.0
+-rwxr-xr-x bitbake    bitbake        163024 ./usr/lib/libQgpsmm.so.22.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
+-rwxr-xr-x bitbake    bitbake         47352 ./usr/sbin/gpsd
+-rwxr-xr-x bitbake    bitbake          5932 ./usr/sbin/gpsdctl

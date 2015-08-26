@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/elementary
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/elementary/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/elementary/modules/access_output
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/elementary/modules/access_output/v-1.14.1
+-rwxr-xr-x bitbake    bitbake          6708 ./usr/lib/elementary/modules/access_output/v-1.14.1/module.so

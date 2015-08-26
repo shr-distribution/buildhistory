@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/phoneui
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/phoneui/modules
+-rwxr-xr-x bitbake    bitbake          4922 ./usr/lib/phoneui/modules/shr.la

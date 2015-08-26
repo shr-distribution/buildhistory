@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/dri
+-rw-r--r-- bitbake    bitbake          2445 ./usr/include/X11/dri/xf86dri.h
+-rw-r--r-- bitbake    bitbake         10205 ./usr/include/X11/dri/xf86driproto.h
+-rw-r--r-- bitbake    bitbake           174 ./usr/include/X11/dri/xf86dristr.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           176 ./usr/lib/pkgconfig/xf86driproto.pc

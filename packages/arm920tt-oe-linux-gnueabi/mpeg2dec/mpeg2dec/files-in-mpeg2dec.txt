@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         10500 ./usr/bin/corrupt_mpeg2
+-rwxr-xr-x bitbake    bitbake          7276 ./usr/bin/extract_mpeg2
+-rwxr-xr-x bitbake    bitbake         30840 ./usr/bin/mpeg2dec

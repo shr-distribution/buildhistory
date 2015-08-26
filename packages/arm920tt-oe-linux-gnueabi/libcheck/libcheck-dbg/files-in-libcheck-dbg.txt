@@ -2,7 +2,7 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
--rwxr-xr-x bitbake    bitbake        153424 ./usr/lib/.debug/libcheck.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        162132 ./usr/lib/.debug/libcheck.so.0.0.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libcheck

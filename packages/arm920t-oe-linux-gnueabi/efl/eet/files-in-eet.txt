@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake           753 ./usr/bin/diffeet
+-rwxr-xr-x bitbake    bitbake         15424 ./usr/bin/eet
+-rwxr-xr-x bitbake    bitbake          8284 ./usr/bin/eetpack
+-rwxr-xr-x bitbake    bitbake           889 ./usr/bin/vieet

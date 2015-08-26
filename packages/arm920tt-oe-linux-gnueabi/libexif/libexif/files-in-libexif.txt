@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libexif.so.12 -> libexif.so.12.3.3
+-rwxr-xr-x bitbake    bitbake        187364 ./usr/lib/libexif.so.12.3.3

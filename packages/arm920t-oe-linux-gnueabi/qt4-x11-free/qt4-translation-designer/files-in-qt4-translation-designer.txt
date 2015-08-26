@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/qt4/translations
+-rw-r--r-- bitbake    bitbake        155960 ./usr/share/qt4/translations/designer_cs.qm
+-rw-r--r-- bitbake    bitbake        156877 ./usr/share/qt4/translations/designer_de.qm
+-rw-r--r-- bitbake    bitbake        157369 ./usr/share/qt4/translations/designer_fr.qm
+-rw-r--r-- bitbake    bitbake         17395 ./usr/share/qt4/translations/designer_hu.qm
+-rw-r--r-- bitbake    bitbake        127395 ./usr/share/qt4/translations/designer_ja.qm
+-rw-r--r-- bitbake    bitbake        124901 ./usr/share/qt4/translations/designer_ko.qm
+-rw-r--r-- bitbake    bitbake        154693 ./usr/share/qt4/translations/designer_pl.qm
+-rw-r--r-- bitbake    bitbake        154869 ./usr/share/qt4/translations/designer_ru.qm
+-rw-r--r-- bitbake    bitbake        152169 ./usr/share/qt4/translations/designer_sl.qm
+-rw-r--r-- bitbake    bitbake        154657 ./usr/share/qt4/translations/designer_uk.qm
+-rw-r--r-- bitbake    bitbake        112340 ./usr/share/qt4/translations/designer_zh_CN.qm
+-rw-r--r-- bitbake    bitbake        116135 ./usr/share/qt4/translations/designer_zh_TW.qm

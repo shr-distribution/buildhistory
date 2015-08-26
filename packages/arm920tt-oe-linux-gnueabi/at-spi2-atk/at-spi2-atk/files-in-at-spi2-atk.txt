@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            26 ./usr/lib/libatk-bridge-2.0.so.0 -> libatk-bridge-2.0.so.0.0.0
+-rwxr-xr-x bitbake    bitbake        120700 ./usr/lib/libatk-bridge-2.0.so.0.0.0

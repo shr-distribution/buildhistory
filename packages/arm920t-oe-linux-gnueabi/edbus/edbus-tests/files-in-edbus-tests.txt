@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          4820 ./usr/bin/e_dbus_async_client_test
+-rwxr-xr-x bitbake    bitbake          5960 ./usr/bin/e_dbus_async_server_test
+-rwxr-xr-x bitbake    bitbake         18584 ./usr/bin/e_dbus_bluez_test
+-rwxr-xr-x bitbake    bitbake         32140 ./usr/bin/e_dbus_connman0_7x_test
+-rwxr-xr-x bitbake    bitbake          9200 ./usr/bin/e_dbus_notification_daemon
+-rwxr-xr-x bitbake    bitbake          6464 ./usr/bin/e_dbus_notify
+-rwxr-xr-x bitbake    bitbake         12212 ./usr/bin/e_dbus_ofono_test
+-rwxr-xr-x bitbake    bitbake          6564 ./usr/bin/e_dbus_test
+-rwxr-xr-x bitbake    bitbake          5012 ./usr/bin/e_dbus_test_client
+-rwxr-xr-x bitbake    bitbake          7524 ./usr/bin/e_dbus_ukit_test

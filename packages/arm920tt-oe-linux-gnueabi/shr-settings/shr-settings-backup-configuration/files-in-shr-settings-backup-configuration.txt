@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/shr-settings
+-rw-r--r-- bitbake    bitbake           431 ./etc/shr-settings/backup.blacklist
+-rw-r--r-- bitbake    bitbake           636 ./etc/shr-settings/backup.conf
+-rw-r--r-- bitbake    bitbake           492 ./etc/shr-settings/backup.whitelist

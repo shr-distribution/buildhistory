@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/libexif
+-rw-r--r-- bitbake    bitbake         53838 ./usr/share/doc/libexif/ABOUT-NLS
+-rw-r--r-- bitbake    bitbake           162 ./usr/share/doc/libexif/AUTHORS
+-rw-r--r-- bitbake    bitbake         26434 ./usr/share/doc/libexif/COPYING
+-rw-r--r-- bitbake    bitbake         67816 ./usr/share/doc/libexif/ChangeLog
+-rw-r--r-- bitbake    bitbake          6173 ./usr/share/doc/libexif/NEWS
+-rw-r--r-- bitbake    bitbake          6142 ./usr/share/doc/libexif/README

@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/libnotify
+-rw-r--r-- bitbake    bitbake          8773 ./usr/include/libnotify/notification.h
+-rw-r--r-- bitbake    bitbake           289 ./usr/include/libnotify/notify-enum-types.h
+-rw-r--r-- bitbake    bitbake          1470 ./usr/include/libnotify/notify-features.h
+-rw-r--r-- bitbake    bitbake          1694 ./usr/include/libnotify/notify.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1290 ./usr/lib/libnotify.la
+lrwxrwxrwx bitbake    bitbake            18 ./usr/lib/libnotify.so -> libnotify.so.4.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           250 ./usr/lib/pkgconfig/libnotify.pc

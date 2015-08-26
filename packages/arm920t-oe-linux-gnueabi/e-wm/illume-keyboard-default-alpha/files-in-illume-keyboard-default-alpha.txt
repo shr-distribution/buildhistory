@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules/illume-keyboard
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards
+-rw-r--r-- bitbake    bitbake          2687 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/Default.kbd
+-rw-r--r-- bitbake    bitbake          1492 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/alpha.png

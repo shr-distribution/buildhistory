@@ -1,0 +1,107 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/AuthenticAMD
+-rw-r--r-- bitbake    bitbake          1002 ./etc/freesmartphone/conf/AuthenticAMD/fsodeviced.conf
+lrwxrwxrwx bitbake    bitbake            14 ./etc/freesmartphone/conf/GTA01 -> ./openmoko_gta
+lrwxrwxrwx bitbake    bitbake            14 ./etc/freesmartphone/conf/GTA02 -> ./openmoko_gta
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/GTA04
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/GTA04/alsa-3.4
+-rw-r--r-- bitbake    bitbake          2409 ./etc/freesmartphone/conf/GTA04/alsa-3.4/gsmhandset
+-rw-r--r-- bitbake    bitbake          2409 ./etc/freesmartphone/conf/GTA04/alsa-3.4/gsmspeaker
+-rw-r--r-- bitbake    bitbake          2402 ./etc/freesmartphone/conf/GTA04/alsa-3.4/headset
+-rw-r--r-- bitbake    bitbake          2402 ./etc/freesmartphone/conf/GTA04/alsa-3.4/stereoout
+lrwxrwxrwx bitbake    bitbake             8 ./etc/freesmartphone/conf/GTA04/alsa-default -> alsa-3.4
+-rw-r--r-- bitbake    bitbake           262 ./etc/freesmartphone/conf/GTA04/alsa.conf
+-rw-r--r-- bitbake    bitbake          1330 ./etc/freesmartphone/conf/GTA04/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/GTA04/swrouting
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default
+-rw-r--r-- bitbake    bitbake          2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/gsmhandset
+-rw-r--r-- bitbake    bitbake          2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/gsmheadset
+-rw-r--r-- bitbake    bitbake          2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/headset
+-rw-r--r-- bitbake    bitbake          2402 ./etc/freesmartphone/conf/GTA04/swrouting/alsa-default/stereoout
+-rw-r--r-- bitbake    bitbake           262 ./etc/freesmartphone/conf/GTA04/swrouting/alsa.conf
+lrwxrwxrwx bitbake    bitbake            14 ./etc/freesmartphone/conf/MotorolaEZXA1200 -> ./motorola_ezx
+lrwxrwxrwx bitbake    bitbake            14 ./etc/freesmartphone/conf/MotorolaEZXA780 -> ./motorola_ezx
+lrwxrwxrwx bitbake    bitbake            14 ./etc/freesmartphone/conf/MotorolaEZXE2 -> ./motorola_ezx
+lrwxrwxrwx bitbake    bitbake            14 ./etc/freesmartphone/conf/MotorolaEZXE6 -> ./motorola_ezx
+lrwxrwxrwx bitbake    bitbake            12 ./etc/freesmartphone/conf/NokiaRX-51board -> ./nokia_n900
+lrwxrwxrwx bitbake    bitbake             9 ./etc/freesmartphone/conf/crespo -> ./herring
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/default
+-rw-r--r-- bitbake    bitbake           543 ./etc/freesmartphone/conf/default/fsodeviced.conf
+lrwxrwxrwx bitbake    bitbake            18 ./etc/freesmartphone/conf/diamond -> ./htc_qualcomm_msm
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/herring
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/herring/alsa-default
+-rw-r--r-- bitbake    bitbake           258 ./etc/freesmartphone/conf/herring/alsa-default/gsmheadset
+-rw-r--r-- bitbake    bitbake           258 ./etc/freesmartphone/conf/herring/alsa-default/gsmspeaker
+-rw-r--r-- bitbake    bitbake           258 ./etc/freesmartphone/conf/herring/alsa-default/headset
+-rw-r--r-- bitbake    bitbake           258 ./etc/freesmartphone/conf/herring/alsa-default/stereoout
+-rw-r--r-- bitbake    bitbake           178 ./etc/freesmartphone/conf/herring/alsa.conf
+-rw-r--r-- bitbake    bitbake           955 ./etc/freesmartphone/conf/herring/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/htc_qualcomm_dream
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default
+-rw-r--r-- bitbake    bitbake           144 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/gsmhandset
+-rw-r--r-- bitbake    bitbake           144 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/gsmheadset
+-rw-r--r-- bitbake    bitbake           143 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/gsmspeaker
+-rw-r--r-- bitbake    bitbake           144 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/headset
+-rw-r--r-- bitbake    bitbake           143 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa-default/stereoout
+-rw-r--r-- bitbake    bitbake           178 ./etc/freesmartphone/conf/htc_qualcomm_dream/alsa.conf
+-rw-r--r-- bitbake    bitbake           965 ./etc/freesmartphone/conf/htc_qualcomm_dream/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/htc_qualcomm_msm
+-rw-r--r-- bitbake    bitbake           837 ./etc/freesmartphone/conf/htc_qualcomm_msm/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/htcleo
+-rw-r--r-- bitbake    bitbake           704 ./etc/freesmartphone/conf/htcleo/fsodeviced.conf
+lrwxrwxrwx bitbake    bitbake            10 ./etc/freesmartphone/conf/mahimahi -> ./nexusone
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/motorola_ezx
+-rw-r--r-- bitbake    bitbake          1614 ./etc/freesmartphone/conf/motorola_ezx/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/nexusone
+-rw-r--r-- bitbake    bitbake           635 ./etc/freesmartphone/conf/nexusone/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/nokia_n900
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/nokia_n900/alsa-default
+-rw-r--r-- bitbake    bitbake          4254 ./etc/freesmartphone/conf/nokia_n900/alsa-default/headset
+-rw-r--r-- bitbake    bitbake          4255 ./etc/freesmartphone/conf/nokia_n900/alsa-default/stereoout
+-rw-r--r-- bitbake    bitbake            98 ./etc/freesmartphone/conf/nokia_n900/alsa.conf
+-rw-r--r-- bitbake    bitbake          1873 ./etc/freesmartphone/conf/nokia_n900/fsodeviced.conf
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/openmoko_gta
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29
+-rw-r--r-- bitbake    bitbake          2922 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/capturehandset
+-rw-r--r-- bitbake    bitbake          2911 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/gsmbluetooth
+-rw-r--r-- bitbake    bitbake          2905 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/gsmhandset
+-rw-r--r-- bitbake    bitbake          2904 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/gsmheadset
+-rw-r--r-- bitbake    bitbake          2906 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/gsmspeaker
+-rw-r--r-- bitbake    bitbake          2918 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/headset
+-rw-r--r-- bitbake    bitbake          2918 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/stereoout
+-rw-r--r-- bitbake    bitbake          2918 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.29/voiphandset
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31
+-rw-r--r-- bitbake    bitbake          2902 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/capturehandset
+-rw-r--r-- bitbake    bitbake          2891 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/gsmbluetooth
+-rw-r--r-- bitbake    bitbake          2885 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/gsmhandset
+-rw-r--r-- bitbake    bitbake          2884 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/gsmheadset
+-rw-r--r-- bitbake    bitbake          2886 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/gsmspeaker
+-rw-r--r-- bitbake    bitbake          2898 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/headset
+-rw-r--r-- bitbake    bitbake          2898 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/stereoout
+-rw-r--r-- bitbake    bitbake          2898 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.31/voiphandset
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/capturehandset
+-rw-r--r-- bitbake    bitbake          2893 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/gsmbluetooth
+-rw-r--r-- bitbake    bitbake          2887 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/gsmhandset
+-rw-r--r-- bitbake    bitbake          2886 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/gsmheadset
+-rw-r--r-- bitbake    bitbake          2888 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/gsmspeaker
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/headset
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/stereoout
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.34/voiphandset
+drwxr-xr-x bitbake    bitbake          4096 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/capturehandset
+-rw-r--r-- bitbake    bitbake          2893 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/gsmbluetooth
+-rw-r--r-- bitbake    bitbake          2887 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/gsmhandset
+-rw-r--r-- bitbake    bitbake          2886 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/gsmheadset
+-rw-r--r-- bitbake    bitbake          2888 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/gsmspeaker
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/headset
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/stereoout
+-rw-r--r-- bitbake    bitbake          2900 ./etc/freesmartphone/conf/openmoko_gta/alsa-2.6.39/voiphandset
+lrwxrwxrwx bitbake    bitbake            11 ./etc/freesmartphone/conf/openmoko_gta/alsa-default -> alsa-2.6.39
+-rw-r--r-- bitbake    bitbake           254 ./etc/freesmartphone/conf/openmoko_gta/alsa.conf
+-rw-r--r-- bitbake    bitbake          1235 ./etc/freesmartphone/conf/openmoko_gta/fsodeviced.conf
+lrwxrwxrwx bitbake    bitbake            18 ./etc/freesmartphone/conf/raphael -> ./htc_qualcomm_msm
+lrwxrwxrwx bitbake    bitbake            20 ./etc/freesmartphone/conf/trout -> ./htc_qualcomm_dream

@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/.debug
+-rwxr-xr-x bitbake    bitbake         20580 ./usr/lib/python2.7/site-packages/.debug/e_dbus.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-edbus
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-edbus/1.7.0-r1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-edbus/1.7.0-r1/python-e_dbus-1.7.0
+-rw-r--r-- bitbake    bitbake          3898 ./usr/src/debug/python-edbus/1.7.0-r1/python-e_dbus-1.7.0/module.c

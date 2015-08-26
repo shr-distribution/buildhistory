@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data/input_methods
+-rw-r--r-- bitbake    bitbake           617 ./usr/share/enlightenment/data/input_methods/fcitx.imc
+-rw-r--r-- bitbake    bitbake           772 ./usr/share/enlightenment/data/input_methods/gcin.imc
+-rw-r--r-- bitbake    bitbake           607 ./usr/share/enlightenment/data/input_methods/hime.imc
+-rw-r--r-- bitbake    bitbake           644 ./usr/share/enlightenment/data/input_methods/ibus.imc
+-rw-r--r-- bitbake    bitbake           584 ./usr/share/enlightenment/data/input_methods/iiimf.imc
+-rw-r--r-- bitbake    bitbake           280 ./usr/share/enlightenment/data/input_methods/scim.imc
+-rw-r--r-- bitbake    bitbake           273 ./usr/share/enlightenment/data/input_methods/uim.imc

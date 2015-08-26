@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/omhacks
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/omhacks/examples
+-rwxr-xr-x bitbake    bitbake          1553 ./usr/share/doc/omhacks/examples/00at

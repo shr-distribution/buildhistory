@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1258 ./usr/lib/libfsotest.la
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libfsotest.so -> libfsotest.so.3.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           322 ./usr/lib/pkgconfig/fsotest-2.0.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake            49 ./usr/share/vala/vapi/fsotest-2.0.deps
+-rw-r--r-- bitbake    bitbake          3199 ./usr/share/vala/vapi/fsotest-2.0.vapi

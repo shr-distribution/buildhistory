@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/efl
+-rw-r--r-- bitbake    bitbake           949 ./usr/lib/python2.7/site-packages/efl/__init__.py
+-rwxr-xr-x bitbake    bitbake         57676 ./usr/lib/python2.7/site-packages/efl/eo.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/efl/utils
+-rw-r--r-- bitbake    bitbake             0 ./usr/lib/python2.7/site-packages/efl/utils/__init__.py
+-rwxr-xr-x bitbake    bitbake         22512 ./usr/lib/python2.7/site-packages/efl/utils/conversions.so
+-rwxr-xr-x bitbake    bitbake         54036 ./usr/lib/python2.7/site-packages/efl/utils/deprecated.so
+-rwxr-xr-x bitbake    bitbake         56688 ./usr/lib/python2.7/site-packages/efl/utils/logger.so
+-rw-r--r-- bitbake    bitbake         10284 ./usr/lib/python2.7/site-packages/efl/utils/setup.py
+-rw-r--r-- bitbake    bitbake          1462 ./usr/lib/python2.7/site-packages/python_efl-1.14.0-py2.7.egg-info

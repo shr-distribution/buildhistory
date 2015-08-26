@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake          8917 ./usr/include/lightmediascanner.h
+-rw-r--r-- bitbake    bitbake          2946 ./usr/include/lightmediascanner_charset_conv.h
+-rw-r--r-- bitbake    bitbake          4317 ./usr/include/lightmediascanner_db.h
+-rw-r--r-- bitbake    bitbake          6572 ./usr/include/lightmediascanner_plugin.h
+-rw-r--r-- bitbake    bitbake          2012 ./usr/include/lightmediascanner_utils.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1040 ./usr/lib/liblightmediascanner.la
+lrwxrwxrwx bitbake    bitbake            29 ./usr/lib/liblightmediascanner.so -> liblightmediascanner.so.0.4.4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           230 ./usr/lib/pkgconfig/lightmediascanner.pc

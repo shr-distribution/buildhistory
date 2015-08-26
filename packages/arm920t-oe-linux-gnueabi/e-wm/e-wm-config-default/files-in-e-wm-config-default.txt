@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data/config
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/enlightenment/data/config/default
+-rw-r--r-- bitbake    bitbake         10747 ./usr/share/enlightenment/data/config/default/e.cfg
+-rw-r--r-- bitbake    bitbake          2642 ./usr/share/enlightenment/data/config/default/e_bindings.cfg
+-rw-r--r-- bitbake    bitbake          6871 ./usr/share/enlightenment/data/config/default/enlightenment-default.png
+-rw-r--r-- bitbake    bitbake          1620 ./usr/share/enlightenment/data/config/default/profile.desktop

@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/apr-util-1
+-rwxr-xr-x bitbake    bitbake          4976 ./usr/lib/apr-util-1/apr_dbm_gdbm-1.so
+lrwxrwxrwx bitbake    bitbake            21 ./usr/lib/libaprutil-1.so.0 -> libaprutil-1.so.0.5.4
+-rwxr-xr-x bitbake    bitbake        106816 ./usr/lib/libaprutil-1.so.0.5.4

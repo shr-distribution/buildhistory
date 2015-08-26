@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+-rwxr-xr-x bitbake    bitbake          7004 ./lib/libnss_mdns.so.2
+-rwxr-xr-x bitbake    bitbake          6684 ./lib/libnss_mdns4.so.2
+-rwxr-xr-x bitbake    bitbake          6340 ./lib/libnss_mdns4_minimal.so.2
+-rwxr-xr-x bitbake    bitbake          6700 ./lib/libnss_mdns6.so.2
+-rwxr-xr-x bitbake    bitbake          6324 ./lib/libnss_mdns6_minimal.so.2
+-rwxr-xr-x bitbake    bitbake          6672 ./lib/libnss_mdns_minimal.so.2

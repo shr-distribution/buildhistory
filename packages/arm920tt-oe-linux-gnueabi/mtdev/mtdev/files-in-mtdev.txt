@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          6284 ./usr/bin/mtdev-test
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libmtdev.so.1 -> libmtdev.so.1.0.0
+-rwxr-xr-x bitbake    bitbake         14348 ./usr/lib/libmtdev.so.1.0.0

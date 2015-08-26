@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libQt3Support.so.4 -> libQt3Support.so.4.8.7
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libQt3Support.so.4.8 -> libQt3Support.so.4.8.7
+-rwxr-xr-x bitbake    bitbake       2556564 ./usr/lib/libQt3Support.so.4.8.7

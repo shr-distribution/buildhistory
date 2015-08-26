@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake        237084 ./usr/lib/libvorbis.a
+-rw-r--r-- bitbake    bitbake        634426 ./usr/lib/libvorbisenc.a
+-rw-r--r-- bitbake    bitbake         28728 ./usr/lib/libvorbisfile.a

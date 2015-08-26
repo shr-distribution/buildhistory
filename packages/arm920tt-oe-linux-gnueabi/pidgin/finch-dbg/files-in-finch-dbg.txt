@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
+-rwxr-xr-x bitbake    bitbake        839700 ./usr/bin/.debug/finch
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/finch
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/finch/.debug
+-rwxr-xr-x bitbake    bitbake         26580 ./usr/lib/finch/.debug/gntclipboard.so
+-rwxr-xr-x bitbake    bitbake         40400 ./usr/lib/finch/.debug/gntgf.so
+-rwxr-xr-x bitbake    bitbake         31912 ./usr/lib/finch/.debug/gnthistory.so
+-rwxr-xr-x bitbake    bitbake         28856 ./usr/lib/finch/.debug/gntlastlog.so
+-rwxr-xr-x bitbake    bitbake         41916 ./usr/lib/finch/.debug/gnttinyurl.so
+-rwxr-xr-x bitbake    bitbake         33652 ./usr/lib/finch/.debug/grouping.so

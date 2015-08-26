@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/.debug
+-rwxr-xr-x bitbake    bitbake         71036 ./usr/lib/python2.7/site-packages/.debug/alsaaudio.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-pyalsaaudio
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-pyalsaaudio/0.4-ml2
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/python-pyalsaaudio/0.4-ml2/pyalsaaudio-0.4
+-rw-r--r-- bitbake    bitbake         57652 ./usr/src/debug/python-pyalsaaudio/0.4-ml2/pyalsaaudio-0.4/alsaaudio.c

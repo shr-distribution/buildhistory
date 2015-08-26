@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/qt4/QtUiTools
+-rw-r--r-- bitbake    bitbake            23 ./usr/include/qt4/QtUiTools/QUiLoader
+-rw-r--r-- bitbake    bitbake           113 ./usr/include/qt4/QtUiTools/QtUiTools
+-rw-r--r-- bitbake    bitbake          3604 ./usr/include/qt4/QtUiTools/quiloader.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake           665 ./usr/lib/libQtUiTools.prl
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           667 ./usr/lib/pkgconfig/QtUiTools.pc

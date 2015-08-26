@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake         47880 ./usr/lib/.debug/libvorbis.so.0.4.7
+-rwxr-xr-x bitbake    bitbake        114388 ./usr/lib/.debug/libvorbisenc.so.2.0.10
+-rwxr-xr-x bitbake    bitbake         27860 ./usr/lib/.debug/libvorbisfile.so.3.3.6

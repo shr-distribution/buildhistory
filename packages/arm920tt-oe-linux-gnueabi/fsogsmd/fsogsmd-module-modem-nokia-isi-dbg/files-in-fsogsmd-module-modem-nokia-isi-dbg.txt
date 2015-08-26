@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules/fsogsm
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules/fsogsm/.debug
+-rwxr-xr-x bitbake    bitbake        496936 ./usr/lib/cornucopia/modules/fsogsm/.debug/modem_nokia_isi.so

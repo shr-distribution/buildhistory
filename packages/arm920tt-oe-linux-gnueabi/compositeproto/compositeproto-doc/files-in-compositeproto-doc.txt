@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/compositeproto
+-rw-r--r-- bitbake    bitbake         13379 ./usr/share/doc/compositeproto/compositeproto.txt

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/Xft
+-rw-r--r-- bitbake    bitbake         12491 ./usr/include/X11/Xft/Xft.h
+-rw-r--r-- bitbake    bitbake          5223 ./usr/include/X11/Xft/XftCompat.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1226 ./usr/lib/libXft.la
+lrwxrwxrwx bitbake    bitbake            15 ./usr/lib/libXft.so -> libXft.so.2.3.2
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           241 ./usr/lib/pkgconfig/xft.pc

@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/gps
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/gps/.debug
+-rwxr-xr-x bitbake    bitbake         40144 ./usr/lib/python2.7/site-packages/gps/.debug/clienthelpers.so
+-rwxr-xr-x bitbake    bitbake         98564 ./usr/lib/python2.7/site-packages/gps/.debug/packet.so

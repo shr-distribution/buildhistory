@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libXfont.so.1 -> libXfont.so.1.4.1
+-rwxr-xr-x bitbake    bitbake        162128 ./usr/lib/libXfont.so.1.4.1

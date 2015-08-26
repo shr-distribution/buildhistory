@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/applications
+-rw-r--r-- bitbake    bitbake           379 ./usr/share/applications/opimd-contacts.desktop
+-rw-r--r-- bitbake    bitbake           839 ./usr/share/applications/opimd-dates.desktop
+-rw-r--r-- bitbake    bitbake           380 ./usr/share/applications/opimd-messages.desktop

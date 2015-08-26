@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/default
+-rw-r--r-- bitbake    bitbake           152 ./etc/default/gpsd.machine
+drwxr-xr-x bitbake    bitbake          4096 ./etc/gpsd
+-rwxr-xr-x bitbake    bitbake            76 ./etc/gpsd/device-hook

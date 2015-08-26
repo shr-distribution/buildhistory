@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-3.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-3.0/3.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gtk-3.0/3.0.0/immodules
+-rwxr-xr-x bitbake    bitbake          8072 ./usr/lib/gtk-3.0/3.0.0/immodules/im-viqr.so

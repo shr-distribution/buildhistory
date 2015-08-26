@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./bin
+lrwxrwxrwx bitbake    bitbake            14 ./bin/busybox -> busybox.nosuid
+-rwxr-xr-x bitbake    bitbake        455048 ./bin/busybox.nosuid
+-rwsr-xr-x bitbake    bitbake         44196 ./bin/busybox.suid
+lrwxrwxrwx bitbake    bitbake            14 ./bin/sh -> busybox.nosuid
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake          2341 ./etc/busybox.links.nosuid
+-rw-r--r-- bitbake    bitbake            91 ./etc/busybox.links.suid

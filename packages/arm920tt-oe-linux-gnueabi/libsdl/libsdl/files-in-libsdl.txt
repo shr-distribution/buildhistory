@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libSDL-1.2.so.0 -> libSDL-1.2.so.0.11.4
+-rwxr-xr-x bitbake    bitbake        245892 ./usr/lib/libSDL-1.2.so.0.11.4

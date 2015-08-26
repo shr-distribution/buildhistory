@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/phoneutils
+-rw-r--r-- bitbake    bitbake            27 ./usr/lib/python2.7/site-packages/phoneutils/__init__.py
+-rw-r--r-- bitbake    bitbake           185 ./usr/lib/python2.7/site-packages/phoneutils/__init__.pyc
+-rwxr-xr-x bitbake    bitbake         20104 ./usr/lib/python2.7/site-packages/phoneutils/c_phoneutils.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/python2.7/site-packages/python_phoneutils-0.1-py2.7.egg-info
+-rw-r--r-- bitbake    bitbake           313 ./usr/lib/python2.7/site-packages/python_phoneutils-0.1-py2.7.egg-info/PKG-INFO
+-rw-r--r-- bitbake    bitbake           221 ./usr/lib/python2.7/site-packages/python_phoneutils-0.1-py2.7.egg-info/SOURCES.txt
+-rw-r--r-- bitbake    bitbake             1 ./usr/lib/python2.7/site-packages/python_phoneutils-0.1-py2.7.egg-info/dependency_links.txt
+-rw-r--r-- bitbake    bitbake            11 ./usr/lib/python2.7/site-packages/python_phoneutils-0.1-py2.7.egg-info/top_level.txt

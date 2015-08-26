@@ -1,0 +1,9 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          6080 ./usr/bin/libevdev-tweak-device
+-rwxr-xr-x bitbake    bitbake         10052 ./usr/bin/mouse-dpi-tool
+-rwxr-xr-x bitbake    bitbake          6120 ./usr/bin/touchpad-edge-detector
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libevdev.so.2 -> libevdev.so.2.1.8
+-rwxr-xr-x bitbake    bitbake         58760 ./usr/lib/libevdev.so.2.1.8

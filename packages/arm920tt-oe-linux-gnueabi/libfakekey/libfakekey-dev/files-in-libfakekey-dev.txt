@@ -1,0 +1,10 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/fakekey
+-rw-r--r-- bitbake    bitbake          2888 ./usr/include/fakekey/fakekey.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1201 ./usr/lib/libfakekey.la
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libfakekey.so -> libfakekey.so.0.0.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           206 ./usr/lib/pkgconfig/libfakekey.pc

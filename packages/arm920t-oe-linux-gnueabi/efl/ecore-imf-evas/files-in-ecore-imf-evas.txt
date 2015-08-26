@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libecore_imf_evas.so.1 -> libecore_imf_evas.so.1.14.1
+-rwxr-xr-x bitbake    bitbake          6744 ./usr/lib/libecore_imf_evas.so.1.14.1

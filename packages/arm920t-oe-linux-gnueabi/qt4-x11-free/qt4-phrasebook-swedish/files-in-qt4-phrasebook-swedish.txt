@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/qt4/phrasebooks
+-rw-r--r-- bitbake    bitbake         21510 ./usr/share/qt4/phrasebooks/swedish.qph

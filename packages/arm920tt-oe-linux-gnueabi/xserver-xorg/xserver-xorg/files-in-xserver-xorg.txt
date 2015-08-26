@@ -2,7 +2,7 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 lrwxrwxrwx bitbake    bitbake             4 ./usr/bin/X -> Xorg
--rwxr-xr-x bitbake    bitbake       1395020 ./usr/bin/Xorg
+-rwxr-xr-x bitbake    bitbake       1382492 ./usr/bin/Xorg
 -rwxr-xr-x bitbake    bitbake         13304 ./usr/bin/cvt
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/xorg

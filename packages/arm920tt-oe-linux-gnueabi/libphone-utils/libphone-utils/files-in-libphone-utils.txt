@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+-rw-r--r-- bitbake    bitbake            79 ./etc/phone-utils.conf
+-rw-r--r-- bitbake    bitbake          6956 ./etc/phoneprefix
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libphone-utils.so.0 -> libphone-utils.so.0.0.0
+-rwxr-xr-x bitbake    bitbake         15716 ./usr/lib/libphone-utils.so.0.0.0

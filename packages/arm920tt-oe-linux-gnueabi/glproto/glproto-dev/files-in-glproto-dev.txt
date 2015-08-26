@@ -1,0 +1,13 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/GL
+-rw-r--r-- bitbake    bitbake          4706 ./usr/include/GL/glxint.h
+-rw-r--r-- bitbake    bitbake          2086 ./usr/include/GL/glxmd.h
+-rw-r--r-- bitbake    bitbake         80979 ./usr/include/GL/glxproto.h
+-rw-r--r-- bitbake    bitbake         11436 ./usr/include/GL/glxtokens.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/GL/internal
+-rw-r--r-- bitbake    bitbake          6318 ./usr/include/GL/internal/glcore.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           159 ./usr/lib/pkgconfig/glproto.pc

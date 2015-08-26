@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/gee-0.8
+-rw-r--r-- bitbake    bitbake        114303 ./usr/include/gee-0.8/gee.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1173 ./usr/lib/libgee-0.8.la
+lrwxrwxrwx bitbake    bitbake            19 ./usr/lib/libgee-0.8.so -> libgee-0.8.so.2.5.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           281 ./usr/lib/pkgconfig/gee-0.8.pc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/vala/vapi
+-rw-r--r-- bitbake    bitbake         36865 ./usr/share/vala/vapi/gee-0.8.vapi

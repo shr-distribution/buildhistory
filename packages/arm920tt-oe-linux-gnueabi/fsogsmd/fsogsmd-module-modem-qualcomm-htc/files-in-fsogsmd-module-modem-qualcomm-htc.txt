@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/cornucopia/modules/fsogsm
+-rwxr-xr-x bitbake    bitbake         25036 ./usr/lib/cornucopia/modules/fsogsm/modem_qualcomm_htc.so

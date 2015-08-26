@@ -4,4 +4,4 @@ drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gdk-pixbuf-2.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
--rwxr-xr-x bitbake    bitbake          6416 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+-rwxr-xr-x bitbake    bitbake          6128 ./usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so

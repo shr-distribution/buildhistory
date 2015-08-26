@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake        173756 ./usr/bin/find.findutils
+-rwxr-xr-x bitbake    bitbake        104784 ./usr/bin/locate
+-rwxr-xr-x bitbake    bitbake        169052 ./usr/bin/oldfind
+-rwxr-xr-x bitbake    bitbake         10460 ./usr/bin/updatedb
+-rwxr-xr-x bitbake    bitbake         43076 ./usr/bin/xargs.findutils
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/findutils
+-rwxr-xr-x bitbake    bitbake         12216 ./usr/lib/findutils/bigram
+-rwxr-xr-x bitbake    bitbake         16680 ./usr/lib/findutils/code
+-rwxr-xr-x bitbake    bitbake         19116 ./usr/lib/findutils/frcode
+drwxr-xr-x bitbake    bitbake          4096 ./var

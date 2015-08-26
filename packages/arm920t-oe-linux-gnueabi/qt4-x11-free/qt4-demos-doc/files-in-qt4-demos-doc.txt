@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/doc/qt4/qch
+-rw-r--r-- bitbake    bitbake      58414080 ./usr/share/doc/qt4/qch/qt.qch

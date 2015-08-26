@@ -1,0 +1,7 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/libnfsidmap
+-rw-r--r-- bitbake    bitbake         83986 ./usr/lib/libnfsidmap.a
+-rw-r--r-- bitbake    bitbake         25642 ./usr/lib/libnfsidmap/nsswitch.a
+-rw-r--r-- bitbake    bitbake         16886 ./usr/lib/libnfsidmap/static.a

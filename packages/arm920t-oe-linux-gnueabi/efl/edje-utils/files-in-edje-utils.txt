@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake        202112 ./usr/bin/edje_cc
+-rwxr-xr-x bitbake    bitbake         30768 ./usr/bin/edje_codegen
+-rwxr-xr-x bitbake    bitbake         15568 ./usr/bin/edje_decc
+-rwxr-xr-x bitbake    bitbake        274960 ./usr/bin/edje_external_inspector
+-rwxr-xr-x bitbake    bitbake         39236 ./usr/bin/edje_inspector
+-rwxr-xr-x bitbake    bitbake        282756 ./usr/bin/edje_pick
+-rwxr-xr-x bitbake    bitbake         21800 ./usr/bin/edje_player
+-rwxr-xr-x bitbake    bitbake          1177 ./usr/bin/edje_recc
+-rwxr-xr-x bitbake    bitbake          8120 ./usr/bin/edje_watch
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/edje
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/edje/include
+-rw-r--r-- bitbake    bitbake          9836 ./usr/share/edje/include/edje.inc

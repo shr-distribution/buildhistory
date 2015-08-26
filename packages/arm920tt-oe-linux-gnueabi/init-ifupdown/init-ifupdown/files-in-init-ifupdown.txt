@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/init.d
+-rwxr-xr-x bitbake    bitbake          1956 ./etc/init.d/networking
+drwxr-xr-x bitbake    bitbake          4096 ./etc/network
+drwxr-xr-x bitbake    bitbake          4096 ./etc/network/if-down.d
+drwxr-xr-x bitbake    bitbake          4096 ./etc/network/if-post-down.d
+drwxr-xr-x bitbake    bitbake          4096 ./etc/network/if-pre-up.d
+-rwxr-xr-x bitbake    bitbake           809 ./etc/network/if-pre-up.d/nfsroot
+drwxr-xr-x bitbake    bitbake          4096 ./etc/network/if-up.d
+-rw-r--r-- bitbake    bitbake           715 ./etc/network/interfaces

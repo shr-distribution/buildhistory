@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/phone-utils
+-rw-r--r-- bitbake    bitbake          2429 ./usr/include/phone-utils/phone-utils-gsm.h
+-rw-r--r-- bitbake    bitbake          5783 ./usr/include/phone-utils/phone-utils.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1003 ./usr/lib/libphone-utils.la
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libphone-utils.so -> libphone-utils.so.0.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           256 ./usr/lib/pkgconfig/libphone-utils.pc

@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./sbin
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/dosfsck -> fsck.fat
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/dosfslabel -> fatlabel
+-rwxr-xr-x bitbake    bitbake         37252 ./sbin/fatlabel
+-rwxr-xr-x bitbake    bitbake         38928 ./sbin/fsck.fat
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/fsck.msdos -> fsck.fat
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/fsck.vfat -> fsck.fat
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/mkdosfs -> mkfs.fat
+-rwxr-xr-x bitbake    bitbake         22864 ./sbin/mkfs.fat
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/mkfs.msdos -> mkfs.fat
+lrwxrwxrwx bitbake    bitbake             8 ./sbin/mkfs.vfat -> mkfs.fat

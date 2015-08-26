@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libxcb-keysyms.so.1 -> libxcb-keysyms.so.1.0.0
+-rwxr-xr-x bitbake    bitbake          5932 ./usr/lib/libxcb-keysyms.so.1.0.0

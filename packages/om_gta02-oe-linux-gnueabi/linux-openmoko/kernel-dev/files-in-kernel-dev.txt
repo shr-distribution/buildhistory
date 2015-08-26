@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./boot
+-rw-r--r-- bitbake    bitbake        292689 ./boot/Module.symvers-3.2.52
+-rw-r--r-- bitbake    bitbake        836002 ./boot/System.map-3.2.52
+-rw-r--r-- bitbake    bitbake         65496 ./boot/config-3.2.52

@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         26720 ./usr/bin/jpgicc
+-rwxr-xr-x bitbake    bitbake         14656 ./usr/bin/linkicc
+-rwxr-xr-x bitbake    bitbake         11200 ./usr/bin/psicc
+-rwxr-xr-x bitbake    bitbake         22600 ./usr/bin/tificc
+-rwxr-xr-x bitbake    bitbake         26656 ./usr/bin/transicc
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/liblcms2.so.2 -> liblcms2.so.2.0.6
+-rwxr-xr-x bitbake    bitbake        253064 ./usr/lib/liblcms2.so.2.0.6

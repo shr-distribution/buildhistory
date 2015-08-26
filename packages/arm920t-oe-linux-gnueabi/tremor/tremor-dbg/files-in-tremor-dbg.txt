@@ -2,7 +2,7 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
--rwxr-xr-x bitbake    bitbake        226112 ./usr/lib/.debug/libvorbisidec.so.1.0.3
+-rwxr-xr-x bitbake    bitbake        226144 ./usr/lib/.debug/libvorbisidec.so.1.0.3
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/tremor

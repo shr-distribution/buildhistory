@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/qt4
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/qt4/QtScriptTools
+-rw-r--r-- bitbake    bitbake            35 ./usr/include/qt4/QtScriptTools/QScriptEngineDebugger
+-rw-r--r-- bitbake    bitbake           187 ./usr/include/qt4/QtScriptTools/QtScriptTools
+-rw-r--r-- bitbake    bitbake          4037 ./usr/include/qt4/QtScriptTools/qscriptenginedebugger.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake           728 ./usr/lib/libQtScriptTools.la
+-rw-r--r-- bitbake    bitbake           804 ./usr/lib/libQtScriptTools.prl
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libQtScriptTools.so -> libQtScriptTools.so.4.8.7
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           982 ./usr/lib/pkgconfig/QtScriptTools.pc

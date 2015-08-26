@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            22 ./usr/lib/libgsm0710mux.so.3 -> libgsm0710mux.so.3.0.0
+-rwxr-xr-x bitbake    bitbake         50116 ./usr/lib/libgsm0710mux.so.3.0.0

@@ -1,8 +1,5 @@
 drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./etc
-drwxr-xr-x bitbake    bitbake          4096 ./etc/dhcp
-drwxr-xr-x bitbake    bitbake          4096 ./etc/dhcp/dhclient.d
--rwxr-xr-x bitbake    bitbake          1956 ./etc/dhcp/dhclient.d/ntp.sh
 -rw-r--r-- bitbake    bitbake           644 ./etc/ntp.conf
 drwxr-xr-x bitbake    bitbake          4096 ./lib
 drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd

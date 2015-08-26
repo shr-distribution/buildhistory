@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/sounds
+-rw-r--r-- bitbake    bitbake        413494 ./usr/share/sounds/female_alert1.wav
+-rw-r--r-- bitbake    bitbake        409316 ./usr/share/sounds/female_alert2.wav
+-rw-r--r-- bitbake    bitbake        309086 ./usr/share/sounds/female_startup.wav
+-rw-r--r-- bitbake    bitbake        350850 ./usr/share/sounds/female_startup_girl.wav
+-rw-r--r-- bitbake    bitbake        304910 ./usr/share/sounds/female_startup_guy.wav
+-rw-r--r-- bitbake    bitbake        359204 ./usr/share/sounds/female_wakeup1.wav
+-rw-r--r-- bitbake    bitbake        409318 ./usr/share/sounds/female_wakeup2.wav
+-rw-r--r-- bitbake    bitbake        396788 ./usr/share/sounds/female_wakeup_daniel.wav
+-rw-r--r-- bitbake    bitbake        388436 ./usr/share/sounds/female_wakeup_krautgirl.wav
+-rw-r--r-- bitbake    bitbake        405140 ./usr/share/sounds/female_wakeup_krautguy.wav
+-rw-r--r-- bitbake    bitbake        167624 ./usr/share/sounds/notify_charging.wav
+-rw-r--r-- bitbake    bitbake        169958 ./usr/share/sounds/notify_discharging.wav

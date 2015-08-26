@@ -1,0 +1,15 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/epoxy
+-rw-r--r-- bitbake    bitbake          1753 ./usr/include/epoxy/egl.h
+-rw-r--r-- bitbake    bitbake         66930 ./usr/include/epoxy/egl_generated.h
+-rw-r--r-- bitbake    bitbake          2685 ./usr/include/epoxy/gl.h
+-rw-r--r-- bitbake    bitbake       1369605 ./usr/include/epoxy/gl_generated.h
+-rw-r--r-- bitbake    bitbake          1834 ./usr/include/epoxy/glx.h
+-rw-r--r-- bitbake    bitbake         66725 ./usr/include/epoxy/glx_generated.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake           912 ./usr/lib/libepoxy.la
+lrwxrwxrwx bitbake    bitbake            17 ./usr/lib/libepoxy.so -> libepoxy.so.0.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           205 ./usr/lib/pkgconfig/epoxy.pc

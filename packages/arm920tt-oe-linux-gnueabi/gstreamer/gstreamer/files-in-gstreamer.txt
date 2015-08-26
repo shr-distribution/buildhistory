@@ -1,0 +1,32 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          8608 ./usr/bin/gst-feedback
+-rwxr-xr-x bitbake    bitbake          3173 ./usr/bin/gst-feedback-0.10
+-rwxr-xr-x bitbake    bitbake          8604 ./usr/bin/gst-inspect
+-rwxr-xr-x bitbake    bitbake         29656 ./usr/bin/gst-inspect-0.10
+-rwxr-xr-x bitbake    bitbake          8604 ./usr/bin/gst-launch
+-rwxr-xr-x bitbake    bitbake         28160 ./usr/bin/gst-launch-0.10
+-rwxr-xr-x bitbake    bitbake          8608 ./usr/bin/gst-typefind
+-rwxr-xr-x bitbake    bitbake          8092 ./usr/bin/gst-typefind-0.10
+-rwxr-xr-x bitbake    bitbake          8608 ./usr/bin/gst-xmlinspect
+-rwxr-xr-x bitbake    bitbake         15720 ./usr/bin/gst-xmlinspect-0.10
+-rwxr-xr-x bitbake    bitbake          8608 ./usr/bin/gst-xmllaunch
+-rwxr-xr-x bitbake    bitbake         28164 ./usr/bin/gst-xmllaunch-0.10
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x bitbake    bitbake        212596 ./usr/lib/gstreamer-0.10/libgstcoreelements.so
+-rwxr-xr-x bitbake    bitbake         17180 ./usr/lib/gstreamer-0.10/libgstcoreindexers.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gstreamer/gstreamer-0.10
+-rwxr-xr-x bitbake    bitbake          3832 ./usr/lib/gstreamer/gstreamer-0.10/gst-plugin-scanner
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libgstbase-0.10.so.0 -> libgstbase-0.10.so.0.30.0
+-rwxr-xr-x bitbake    bitbake        269860 ./usr/lib/libgstbase-0.10.so.0.30.0
+lrwxrwxrwx bitbake    bitbake            31 ./usr/lib/libgstcontroller-0.10.so.0 -> libgstcontroller-0.10.so.0.30.0
+-rwxr-xr-x bitbake    bitbake        115328 ./usr/lib/libgstcontroller-0.10.so.0.30.0
+lrwxrwxrwx bitbake    bitbake            33 ./usr/lib/libgstdataprotocol-0.10.so.0 -> libgstdataprotocol-0.10.so.0.30.0
+-rwxr-xr-x bitbake    bitbake         13616 ./usr/lib/libgstdataprotocol-0.10.so.0.30.0
+lrwxrwxrwx bitbake    bitbake            24 ./usr/lib/libgstnet-0.10.so.0 -> libgstnet-0.10.so.0.30.0
+-rwxr-xr-x bitbake    bitbake         22488 ./usr/lib/libgstnet-0.10.so.0.30.0
+lrwxrwxrwx bitbake    bitbake            27 ./usr/lib/libgstreamer-0.10.so.0 -> libgstreamer-0.10.so.0.30.0
+-rwxr-xr-x bitbake    bitbake        713756 ./usr/lib/libgstreamer-0.10.so.0.30.0

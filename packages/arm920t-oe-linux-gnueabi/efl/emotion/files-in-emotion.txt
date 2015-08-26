@@ -1,0 +1,11 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/emotion
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/emotion/modules
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/emotion/modules/gstreamer1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/emotion/modules/gstreamer1/v-1.14
+-rwxr-xr-x bitbake    bitbake         37988 ./usr/lib/emotion/modules/gstreamer1/v-1.14/module.so
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share
+drwxr-xr-x bitbake    bitbake          4096 ./usr/share/emotion
+-rw-r--r-- bitbake    bitbake            77 ./usr/share/emotion/checkme

@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+-rw-r--r-- bitbake    bitbake         18106 ./usr/include/cmtspeech.h
+-rw-r--r-- bitbake    bitbake          1353 ./usr/include/cmtspeech_config.h
+-rw-r--r-- bitbake    bitbake          7298 ./usr/include/cmtspeech_msgs.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/libcmtspeechdata-dummy
+-rwxr-xr-x bitbake    bitbake          1001 ./usr/lib/libcmtspeechdata-dummy/libcmtspeechdata.la
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libcmtspeechdata-dummy/libcmtspeechdata.so -> libcmtspeechdata.so.0.1.0
+-rwxr-xr-x bitbake    bitbake           978 ./usr/lib/libcmtspeechdata.la
+lrwxrwxrwx bitbake    bitbake            25 ./usr/lib/libcmtspeechdata.so -> libcmtspeechdata.so.0.1.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           214 ./usr/lib/pkgconfig/libcmtspeechdata.pc

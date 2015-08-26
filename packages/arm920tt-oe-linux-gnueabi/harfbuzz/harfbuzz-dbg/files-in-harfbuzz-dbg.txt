@@ -2,12 +2,12 @@ drwxr-xr-x bitbake    bitbake          4096 .
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
 drwxr-xr-x bitbake    bitbake          4096 ./usr/bin/.debug
--rwxr-xr-x bitbake    bitbake         82508 ./usr/bin/.debug/hb-ot-shape-closure
--rwxr-xr-x bitbake    bitbake         87208 ./usr/bin/.debug/hb-shape
--rwxr-xr-x bitbake    bitbake        152396 ./usr/bin/.debug/hb-view
+-rwxr-xr-x bitbake    bitbake         84992 ./usr/bin/.debug/hb-ot-shape-closure
+-rwxr-xr-x bitbake    bitbake         89600 ./usr/bin/.debug/hb-shape
+-rwxr-xr-x bitbake    bitbake        157236 ./usr/bin/.debug/hb-view
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
 drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
--rwxr-xr-x bitbake    bitbake       2684428 ./usr/lib/.debug/libharfbuzz.so.0.10000.1
+-rwxr-xr-x bitbake    bitbake       2718356 ./usr/lib/.debug/libharfbuzz.so.0.10000.1
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
 drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/harfbuzz

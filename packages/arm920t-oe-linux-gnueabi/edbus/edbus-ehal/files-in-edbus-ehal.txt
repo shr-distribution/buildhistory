@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            16 ./usr/lib/libehal.so.1 -> libehal.so.1.7.9
+-rwxr-xr-x bitbake    bitbake         13160 ./usr/lib/libehal.so.1.7.9

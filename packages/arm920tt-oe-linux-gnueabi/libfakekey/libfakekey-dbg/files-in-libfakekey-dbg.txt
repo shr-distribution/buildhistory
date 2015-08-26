@@ -1,0 +1,14 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/.debug
+-rwxr-xr-x bitbake    bitbake         42172 ./usr/lib/.debug/libfakekey.so.0.0.1
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libfakekey
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libfakekey/0.0+gitAUTOINC+e327ff049b-r0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libfakekey/0.0+gitAUTOINC+e327ff049b-r0/git
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libfakekey/0.0+gitAUTOINC+e327ff049b-r0/git/fakekey
+-rw-r--r-- bitbake    bitbake          2888 ./usr/src/debug/libfakekey/0.0+gitAUTOINC+e327ff049b-r0/git/fakekey/fakekey.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/src/debug/libfakekey/0.0+gitAUTOINC+e327ff049b-r0/git/src
+-rw-r--r-- bitbake    bitbake          9973 ./usr/src/debug/libfakekey/0.0+gitAUTOINC+e327ff049b-r0/git/src/libfakekey.c

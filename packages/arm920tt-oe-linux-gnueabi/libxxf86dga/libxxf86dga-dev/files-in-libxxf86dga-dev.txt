@@ -1,0 +1,12 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11
+drwxr-xr-x bitbake    bitbake          4096 ./usr/include/X11/extensions
+-rw-r--r-- bitbake    bitbake          2604 ./usr/include/X11/extensions/Xxf86dga.h
+-rw-r--r-- bitbake    bitbake          2139 ./usr/include/X11/extensions/xf86dga1.h
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rwxr-xr-x bitbake    bitbake          1128 ./usr/lib/libXxf86dga.la
+lrwxrwxrwx bitbake    bitbake            20 ./usr/lib/libXxf86dga.so -> libXxf86dga.so.1.0.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pkgconfig
+-rw-r--r-- bitbake    bitbake           265 ./usr/lib/pkgconfig/xxf86dga.pc

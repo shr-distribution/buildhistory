@@ -1,0 +1,5 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.21609.1
+-rwxr-xr-x bitbake    bitbake        102160 ./usr/lib/libatk-1.0.so.0.21609.1

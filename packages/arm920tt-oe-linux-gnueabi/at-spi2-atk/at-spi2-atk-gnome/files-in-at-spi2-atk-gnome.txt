@@ -1,0 +1,6 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gnome-settings-daemon-3.0
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/gnome-settings-daemon-3.0/gtk-modules
+-rw-r--r-- bitbake    bitbake           213 ./usr/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop

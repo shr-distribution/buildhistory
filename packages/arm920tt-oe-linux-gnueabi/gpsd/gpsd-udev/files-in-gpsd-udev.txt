@@ -1,0 +1,8 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/udev
+drwxr-xr-x bitbake    bitbake          4096 ./etc/udev/rules.d
+-rw-r--r-- bitbake    bitbake          2418 ./etc/udev/rules.d/60-gpsd.rules
+drwxr-xr-x bitbake    bitbake          4096 ./lib
+drwxr-xr-x bitbake    bitbake          4096 ./lib/udev
+-rwxr-xr-x bitbake    bitbake          2139 ./lib/udev/gpsd.hotplug

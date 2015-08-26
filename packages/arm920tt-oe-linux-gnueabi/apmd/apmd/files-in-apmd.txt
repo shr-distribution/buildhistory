@@ -15,7 +15,7 @@ drwxr-xr-x bitbake    bitbake          4096 ./lib/systemd/system
 -rw-r--r-- bitbake    bitbake           175 ./lib/systemd/system/apmd.service
 drwxr-xr-x bitbake    bitbake          4096 ./usr
 drwxr-xr-x bitbake    bitbake          4096 ./usr/sbin
--rwxr-xr-x bitbake    bitbake         17660 ./usr/sbin/apmd
+-rwxr-xr-x bitbake    bitbake         18616 ./usr/sbin/apmd
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share
 drwxr-xr-x bitbake    bitbake          4096 ./usr/share/apmd
 -rw-r--r-- bitbake    bitbake           830 ./usr/share/apmd/apmd_proxy.conf

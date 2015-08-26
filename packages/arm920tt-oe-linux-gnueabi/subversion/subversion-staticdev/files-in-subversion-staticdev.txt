@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+-rw-r--r-- bitbake    bitbake       3148604 ./usr/lib/libsvn_client-1.a
+-rw-r--r-- bitbake    bitbake        386982 ./usr/lib/libsvn_delta-1.a
+-rw-r--r-- bitbake    bitbake        423938 ./usr/lib/libsvn_diff-1.a
+-rw-r--r-- bitbake    bitbake        192734 ./usr/lib/libsvn_fs-1.a
+-rw-r--r-- bitbake    bitbake       1224784 ./usr/lib/libsvn_fs_fs-1.a
+-rw-r--r-- bitbake    bitbake         35662 ./usr/lib/libsvn_fs_util-1.a
+-rw-r--r-- bitbake    bitbake        279426 ./usr/lib/libsvn_ra-1.a
+-rw-r--r-- bitbake    bitbake        152170 ./usr/lib/libsvn_ra_local-1.a
+-rw-r--r-- bitbake    bitbake       1313398 ./usr/lib/libsvn_ra_serf-1.a
+-rw-r--r-- bitbake    bitbake        589480 ./usr/lib/libsvn_ra_svn-1.a
+-rw-r--r-- bitbake    bitbake       1062178 ./usr/lib/libsvn_repos-1.a
+-rw-r--r-- bitbake    bitbake       2574144 ./usr/lib/libsvn_subr-1.a
+-rw-r--r-- bitbake    bitbake       3750844 ./usr/lib/libsvn_wc-1.a

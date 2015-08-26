@@ -1,0 +1,16 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake          2528 ./usr/bin/esdcompat
+-rwxr-xr-x bitbake    bitbake         33448 ./usr/bin/pacat
+-rwxr-xr-x bitbake    bitbake         10688 ./usr/bin/pacmd
+-rwxr-xr-x bitbake    bitbake          2225 ./usr/bin/padsp
+lrwxrwxrwx bitbake    bitbake             5 ./usr/bin/pamon -> pacat
+lrwxrwxrwx bitbake    bitbake             5 ./usr/bin/paplay -> pacat
+lrwxrwxrwx bitbake    bitbake             5 ./usr/bin/parec -> pacat
+lrwxrwxrwx bitbake    bitbake             5 ./usr/bin/parecord -> pacat
+-rwxr-xr-x bitbake    bitbake         10276 ./usr/bin/pasuspender
+-rwxr-xr-x bitbake    bitbake          8168 ./usr/bin/pax11publish
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib/pulseaudio
+-rwxr-xr-x bitbake    bitbake         41660 ./usr/lib/pulseaudio/libpulsedsp.so

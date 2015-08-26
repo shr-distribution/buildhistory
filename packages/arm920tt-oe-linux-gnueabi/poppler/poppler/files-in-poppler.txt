@@ -1,0 +1,17 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./usr
+drwxr-xr-x bitbake    bitbake          4096 ./usr/bin
+-rwxr-xr-x bitbake    bitbake         10480 ./usr/bin/pdfdetach
+-rwxr-xr-x bitbake    bitbake          9608 ./usr/bin/pdffonts
+-rwxr-xr-x bitbake    bitbake         23816 ./usr/bin/pdfimages
+-rwxr-xr-x bitbake    bitbake         19116 ./usr/bin/pdfinfo
+-rwxr-xr-x bitbake    bitbake          8232 ./usr/bin/pdfseparate
+-rwxr-xr-x bitbake    bitbake         80536 ./usr/bin/pdftocairo
+-rwxr-xr-x bitbake    bitbake         54216 ./usr/bin/pdftohtml
+-rwxr-xr-x bitbake    bitbake         15032 ./usr/bin/pdftoppm
+-rwxr-xr-x bitbake    bitbake         13580 ./usr/bin/pdftops
+-rwxr-xr-x bitbake    bitbake         20936 ./usr/bin/pdftotext
+-rwxr-xr-x bitbake    bitbake         14404 ./usr/bin/pdfunite
+drwxr-xr-x bitbake    bitbake          4096 ./usr/lib
+lrwxrwxrwx bitbake    bitbake            23 ./usr/lib/libpoppler-cpp.so.0 -> libpoppler-cpp.so.0.2.1
+-rwxr-xr-x bitbake    bitbake         53616 ./usr/lib/libpoppler-cpp.so.0.2.1

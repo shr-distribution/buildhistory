@@ -1,0 +1,4 @@
+drwxr-xr-x bitbake    bitbake          4096 .
+drwxr-xr-x bitbake    bitbake          4096 ./etc
+drwxr-xr-x bitbake    bitbake          4096 ./etc/enlightenment
+-rw------- bitbake    bitbake          3584 ./etc/enlightenment/sysactions.conf
