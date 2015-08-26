@@ -42,6 +42,7 @@ e-wm-utils
 e2fsprogs
 e2fsprogs-badblocks
 e2fsprogs-e2fsck
+e2fsprogs-locale-cs
 e2fsprogs-mke2fs
 ecalc
 ecore-audio
@@ -165,6 +166,10 @@ illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
+kbd
+kbd-consolefonts
+kbd-keymaps
+kbd-locale-cs
 kernel
 kernel-3.2.52
 kernel-image-3.2.52
@@ -455,7 +460,6 @@ locale-base-en-us
 logrotate
 lsof
 ltrace
-luajit
 make
 make-locale-cs
 matchbox-keyboard-im
@@ -580,6 +584,7 @@ pulseaudio-locale-cs
 pxaregs
 python-codecs
 python-compression
+python-contextlib
 python-core
 python-crypt
 python-ctypes
@@ -670,6 +675,7 @@ systemd
 systemd-compat-units
 systemd-machine-units
 systemd-serialgetty
+systemd-vconsole-setup
 tar
 tar-locale-cs
 tcl
