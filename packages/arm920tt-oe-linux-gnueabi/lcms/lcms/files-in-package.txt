@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            26720 ./usr/bin/jpgicc
+-rwxr-xr-x root       root            14656 ./usr/bin/linkicc
+-rwxr-xr-x root       root            11200 ./usr/bin/psicc
+-rwxr-xr-x root       root            22600 ./usr/bin/tificc
+-rwxr-xr-x root       root            26660 ./usr/bin/transicc
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               17 ./usr/lib/liblcms2.so.2 -> liblcms2.so.2.0.7
+-rwxr-xr-x root       root           257168 ./usr/lib/liblcms2.so.2.0.7
