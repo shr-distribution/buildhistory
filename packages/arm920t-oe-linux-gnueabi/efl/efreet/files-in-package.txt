@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            21684 ./usr/bin/efreetd
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/efreet
+drwxr-xr-x root       root             4096 ./usr/lib/efreet/v-1.15
+-rwxr-xr-x root       root            18480 ./usr/lib/efreet/v-1.15/efreet_desktop_cache_create
+-rwxr-xr-x root       root            20140 ./usr/lib/efreet/v-1.15/efreet_icon_cache_create
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/efreet
+-rw-r--r-- root       root               76 ./usr/share/efreet/checkme

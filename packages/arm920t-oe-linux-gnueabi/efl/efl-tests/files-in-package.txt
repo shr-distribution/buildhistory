@@ -1,0 +1,8 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             7324 ./usr/bin/ecore_evas_convert
+-rwxr-xr-x root       root             6780 ./usr/bin/efl_debug
+-rwxr-xr-x root       root             7924 ./usr/bin/efl_debugd
+-rwxr-xr-x root       root             6152 ./usr/bin/eina_btlog
+-rwxr-xr-x root       root           117580 ./usr/bin/embryo_cc
+-rwxr-xr-x root       root            52820 ./usr/bin/eolian_gen
