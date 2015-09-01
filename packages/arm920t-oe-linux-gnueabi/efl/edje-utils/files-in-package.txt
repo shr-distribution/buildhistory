@@ -3,7 +3,7 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root           202112 ./usr/bin/edje_cc
 -rwxr-xr-x root       root            30768 ./usr/bin/edje_codegen
 -rwxr-xr-x root       root            15568 ./usr/bin/edje_decc
--rwxr-xr-x root       root           274964 ./usr/bin/edje_external_inspector
+-rwxr-xr-x root       root           274960 ./usr/bin/edje_external_inspector
 -rwxr-xr-x root       root            39236 ./usr/bin/edje_inspector
 -rwxr-xr-x root       root           282756 ./usr/bin/edje_pick
 -rwxr-xr-x root       root            21800 ./usr/bin/edje_player

@@ -14,10 +14,10 @@ drwxr-xr-x root       root             4096 ./usr/lib/ethumb_client
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb_client/utils
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb_client/utils/v-1.14
 -rwxr-xr-x root       root            10120 ./usr/lib/ethumb_client/utils/v-1.14/ethumbd_slave
-lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so.1 -> libethumb.so.1.14.3
--rwxr-xr-x root       root            47528 ./usr/lib/libethumb.so.1.14.3
-lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so.1 -> libethumb_client.so.1.14.3
--rwxr-xr-x root       root            37584 ./usr/lib/libethumb_client.so.1.14.3
+lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so.1 -> libethumb.so.1.14.1
+-rwxr-xr-x root       root            47528 ./usr/lib/libethumb.so.1.14.1
+lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so.1 -> libethumb_client.so.1.14.1
+-rwxr-xr-x root       root            37584 ./usr/lib/libethumb_client.so.1.14.1
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1/services

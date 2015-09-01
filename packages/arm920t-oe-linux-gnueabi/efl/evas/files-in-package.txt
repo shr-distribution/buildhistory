@@ -15,7 +15,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/evas/modules
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic/v-1.14
--rwxr-xr-x root       root           767252 ./usr/lib/evas/modules/engines/gl_generic/v-1.14/module.so
+-rwxr-xr-x root       root           767188 ./usr/lib/evas/modules/engines/gl_generic/v-1.14/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11/v-1.14
 -rwxr-xr-x root       root            43484 ./usr/lib/evas/modules/engines/gl_x11/v-1.14/module.so
@@ -33,8 +33,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers/tiff
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers/tiff/v-1.14
 -rwxr-xr-x root       root             4888 ./usr/lib/evas/modules/image_savers/tiff/v-1.14/module.so
-lrwxrwxrwx root       root               17 ./usr/lib/libevas.so.1 -> libevas.so.1.14.3
--rwxr-xr-x root       root          2185076 ./usr/lib/libevas.so.1.14.3
+lrwxrwxrwx root       root               17 ./usr/lib/libevas.so.1 -> libevas.so.1.14.1
+-rwxr-xr-x root       root          2184584 ./usr/lib/libevas.so.1.14.1
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/evas
 -rw-r--r-- root       root               74 ./usr/share/evas/checkme

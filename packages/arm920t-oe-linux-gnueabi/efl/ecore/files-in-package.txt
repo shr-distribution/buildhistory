@@ -18,8 +18,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules/xim
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules/xim/v-1.14
 -rwxr-xr-x root       root            19644 ./usr/lib/ecore_imf/modules/xim/v-1.14/module.so
-lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.14.3
--rwxr-xr-x root       root           156188 ./usr/lib/libecore.so.1.14.3
+lrwxrwxrwx root       root               18 ./usr/lib/libecore.so.1 -> libecore.so.1.14.1
+-rwxr-xr-x root       root           156188 ./usr/lib/libecore.so.1.14.1
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/ecore
 -rw-r--r-- root       root               75 ./usr/share/ecore/checkme

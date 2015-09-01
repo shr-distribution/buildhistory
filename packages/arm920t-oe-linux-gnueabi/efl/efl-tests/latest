@@ -1,9 +1,9 @@
 PE = 2
-PV = 1.14.3
+PV = 1.14.1
 PR = r0
-PKGR = r0.0
+PKGR = r0.2
 RPROVIDES = 
-RDEPENDS = ecore (>= 1.14.3) ecore-evas (>= 1.14.3) efl (>= 1.14.3) eina (>= 1.14.3) evas (>= 1.14.3) glibc (>= 2.22)
+RDEPENDS = ecore (>= 1.14.1) ecore-evas (>= 1.14.1) efl (>= 1.14.1) eina (>= 1.14.1) evas (>= 1.14.1) glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 170368
 FILES = /usr/bin/efl /usr/bin/*_* /usr/share/efl
