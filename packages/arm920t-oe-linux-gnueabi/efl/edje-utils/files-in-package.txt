@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           210532 ./usr/bin/edje_cc
--rwxr-xr-x root       root            30772 ./usr/bin/edje_codegen
+-rwxr-xr-x root       root           202112 ./usr/bin/edje_cc
+-rwxr-xr-x root       root            30768 ./usr/bin/edje_codegen
 -rwxr-xr-x root       root            15568 ./usr/bin/edje_decc
 -rwxr-xr-x root       root           274964 ./usr/bin/edje_external_inspector
 -rwxr-xr-x root       root            39236 ./usr/bin/edje_inspector
@@ -12,4 +12,4 @@ drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/edje
 drwxr-xr-x root       root             4096 ./usr/share/edje/include
--rw-r--r-- root       root            10628 ./usr/share/edje/include/edje.inc
+-rw-r--r-- root       root             9836 ./usr/share/edje/include/edje.inc
