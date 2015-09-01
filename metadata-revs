@@ -25,4 +25,4 @@ meta-samsung      = jansa/master:704c81ab1724249e9ebb273f006fc46c17492f12
 meta-browser      = jansa/master:ca96f4326345dcd779fc539877a04f069f431749
 meta-games        = master:58f65b450ee0d4e422a59bc7a505721bf2b35fc9
 meta-handheld     = jansa/master:de134304a1a5759cdbabd08a005c816e759cabe6
-meta              = jansa/master:8a4935f6f5c021bb4042cd2c0f893cb9d0817297
+meta              = jansa/master:946777825789025eed07d08ff99db2d6ed0f198e
