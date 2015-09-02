@@ -1,8 +1,8 @@
 PV = 3.14
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = dbus-lib (>= 1.8.16) glibc (>= 2.21) libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.19)
+RDEPENDS = dbus-lib (>= 1.8.20) glibc (>= 2.22) libgps (>= 3.14) libgpsd (>= 3.14) libusb1 (>= 1.0.19)
 RRECOMMENDS = 
 PKGSIZE = 23616
 FILES = /usr/bin/gpsctl

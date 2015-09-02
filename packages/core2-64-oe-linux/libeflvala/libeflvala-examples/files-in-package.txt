@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             9664 ./usr/bin/application
+-rwxr-xr-x root       root             9656 ./usr/bin/dialer
+-rwxr-xr-x root       root             6832 ./usr/bin/ecore
+-rwxr-xr-x root       root             7072 ./usr/bin/ecore-glib
+-rwxr-xr-x root       root             6112 ./usr/bin/ecore_signals
+-rwxr-xr-x root       root             7568 ./usr/bin/edje
+-rwxr-xr-x root       root             9816 ./usr/bin/eina
+-rwxr-xr-x root       root            20280 ./usr/bin/elementary-vapi
+-rwxr-xr-x root       root            11768 ./usr/bin/viewstates

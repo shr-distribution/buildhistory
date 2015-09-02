@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/evas
+drwxr-xr-x root       root             4096 ./usr/lib/evas/utils
+-rwxr-xr-x root       root            27448 ./usr/lib/evas/utils/evas_image_loader.xcf
+lrwxrwxrwx root       root               21 ./usr/lib/evas/utils/evas_image_loader.xcf.gz -> evas_image_loader.xcf

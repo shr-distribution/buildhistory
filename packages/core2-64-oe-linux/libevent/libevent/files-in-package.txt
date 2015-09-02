@@ -1,0 +1,12 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/bin
+-rwxr-xr-x 1026       1026            55456 ./usr/bin/event_rpcgen.py
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+lrwxrwxrwx 1026       1026               22 ./usr/lib/libevent-2.0.so.5 -> libevent-2.0.so.5.1.10
+-rwxr-xr-x 1026       1026           293432 ./usr/lib/libevent-2.0.so.5.1.10
+lrwxrwxrwx 1026       1026               27 ./usr/lib/libevent_core-2.0.so.5 -> libevent_core-2.0.so.5.1.10
+-rwxr-xr-x 1026       1026           175168 ./usr/lib/libevent_core-2.0.so.5.1.10
+lrwxrwxrwx 1026       1026               28 ./usr/lib/libevent_extra-2.0.so.5 -> libevent_extra-2.0.so.5.1.10
+-rwxr-xr-x 1026       1026           128128 ./usr/lib/libevent_extra-2.0.so.5.1.10
+lrwxrwxrwx 1026       1026               31 ./usr/lib/libevent_pthreads-2.0.so.5 -> libevent_pthreads-2.0.so.5.1.10
+-rwxr-xr-x 1026       1026             7392 ./usr/lib/libevent_pthreads-2.0.so.5.1.10

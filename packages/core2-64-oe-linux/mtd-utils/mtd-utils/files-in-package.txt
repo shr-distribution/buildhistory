@@ -1,0 +1,16 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/sbin
+-rwxr-xr-x 1026       1026            33960 ./usr/sbin/flash_erase
+-rwxr-xr-x 1026       1026              150 ./usr/sbin/flash_eraseall
+-rwxr-xr-x 1026       1026             6048 ./usr/sbin/flash_lock
+-rwxr-xr-x 1026       1026             5616 ./usr/sbin/flash_otp_dump
+-rwxr-xr-x 1026       1026             5616 ./usr/sbin/flash_otp_info
+-rwxr-xr-x 1026       1026             6760 ./usr/sbin/flash_otp_lock
+-rwxr-xr-x 1026       1026             6752 ./usr/sbin/flash_otp_write
+-rwxr-xr-x 1026       1026             6056 ./usr/sbin/flash_unlock
+-rwxr-xr-x 1026       1026             9448 ./usr/sbin/flashcp
+-rwxr-xr-x 1026       1026            10912 ./usr/sbin/mtd_debug
+-rwxr-xr-x 1026       1026            41208 ./usr/sbin/mtdinfo
+-rwxr-xr-x 1026       1026            36416 ./usr/sbin/nanddump
+-rwxr-xr-x 1026       1026            10896 ./usr/sbin/nandtest
+-rwxr-xr-x 1026       1026            36744 ./usr/sbin/nandwrite

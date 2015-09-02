@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/farsight2-0.0
+-rwxr-xr-x root       root            32328 ./usr/lib/farsight2-0.0/libmulticast-transmitter.so
+-rwxr-xr-x root       root            53528 ./usr/lib/farsight2-0.0/libnice-transmitter.so
+-rwxr-xr-x root       root            53512 ./usr/lib/farsight2-0.0/librawudp-transmitter.so
+-rwxr-xr-x root       root            24144 ./usr/lib/farsight2-0.0/libshm-transmitter.so
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x root       root            15984 ./usr/lib/gstreamer-0.10/libfsfunnel.so
+-rwxr-xr-x root       root            53616 ./usr/lib/gstreamer-0.10/libfsmsnconference.so
+-rwxr-xr-x root       root            11704 ./usr/lib/gstreamer-0.10/libfsrtcpfilter.so
+-rwxr-xr-x root       root           189752 ./usr/lib/gstreamer-0.10/libfsrtpconference.so
+-rwxr-xr-x root       root            11640 ./usr/lib/gstreamer-0.10/libfsvideoanyrate.so
+lrwxrwxrwx root       root               28 ./usr/lib/libgstfarsight-0.10.so.0 -> libgstfarsight-0.10.so.0.5.2
+-rwxr-xr-x root       root            68976 ./usr/lib/libgstfarsight-0.10.so.0.5.2

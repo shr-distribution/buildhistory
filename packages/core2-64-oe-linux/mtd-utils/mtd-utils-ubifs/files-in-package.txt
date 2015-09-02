@@ -1,0 +1,15 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/sbin
+-rwxr-xr-x 1026       1026            69784 ./usr/sbin/mkfs.ubifs
+-rwxr-xr-x 1026       1026            27824 ./usr/sbin/ubiattach
+-rwxr-xr-x 1026       1026            24408 ./usr/sbin/ubiblock
+-rwxr-xr-x 1026       1026             9928 ./usr/sbin/ubicrc32
+-rwxr-xr-x 1026       1026            26096 ./usr/sbin/ubidetach
+-rwxr-xr-x 1026       1026            66504 ./usr/sbin/ubiformat
+-rwxr-xr-x 1026       1026            27960 ./usr/sbin/ubimkvol
+-rwxr-xr-x 1026       1026            30048 ./usr/sbin/ubinfo
+-rwxr-xr-x 1026       1026            35776 ./usr/sbin/ubinize
+-rwxr-xr-x 1026       1026            24072 ./usr/sbin/ubirename
+-rwxr-xr-x 1026       1026            25568 ./usr/sbin/ubirmvol
+-rwxr-xr-x 1026       1026            27472 ./usr/sbin/ubirsvol
+-rwxr-xr-x 1026       1026            27408 ./usr/sbin/ubiupdatevol

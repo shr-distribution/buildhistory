@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root              680 ./usr/lib/libQtCLucene.la
+-rw-r--r-- root       root              846 ./usr/lib/libQtCLucene.prl
+lrwxrwxrwx root       root               21 ./usr/lib/libQtCLucene.so -> libQtCLucene.so.4.8.7
+drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+-rw-r--r-- root       root              981 ./usr/lib/pkgconfig/QtCLucene.pc

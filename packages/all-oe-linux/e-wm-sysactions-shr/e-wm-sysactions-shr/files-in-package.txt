@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/enlightenment
+-rw------- root       root              199 ./etc/enlightenment/lock.sh
+-rw------- root       root              261 ./etc/enlightenment/suspend.sh
+-rw------- root       root             3533 ./etc/enlightenment/sysactions.conf

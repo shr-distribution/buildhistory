@@ -1,0 +1,13 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/share
+drwxr-xr-x 1026       1026             4096 ./usr/share/enlightenment
+drwxr-xr-x 1026       1026             4096 ./usr/share/enlightenment/data
+drwxr-xr-x 1026       1026             4096 ./usr/share/enlightenment/data/icons
+-rw-r--r-- 1026       1026             4278 ./usr/share/enlightenment/data/icons/audio_player.png
+-rw-r--r-- 1026       1026             3848 ./usr/share/enlightenment/data/icons/audio_player2.png
+-rw-r--r-- 1026       1026             6401 ./usr/share/enlightenment/data/icons/image_viewer.png
+-rw-r--r-- 1026       1026             2965 ./usr/share/enlightenment/data/icons/mail_client.png
+-rw-r--r-- 1026       1026             3158 ./usr/share/enlightenment/data/icons/text_editor.png
+-rw-r--r-- 1026       1026             2152 ./usr/share/enlightenment/data/icons/video_player.png
+-rw-r--r-- 1026       1026            26107 ./usr/share/enlightenment/data/icons/web_browser.png
+-rw-r--r-- 1026       1026            10521 ./usr/share/enlightenment/data/icons/xterm.png

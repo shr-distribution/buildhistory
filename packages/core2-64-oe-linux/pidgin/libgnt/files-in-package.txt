@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/gnt
+-rwxr-xr-x root       root            15528 ./usr/lib/gnt/irssi.so
+-rwxr-xr-x root       root             9912 ./usr/lib/gnt/s.so
+lrwxrwxrwx root       root               16 ./usr/lib/libgnt.so.0 -> libgnt.so.0.8.10
+-rwxr-xr-x root       root           232888 ./usr/lib/libgnt.so.0.8.10

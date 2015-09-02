@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root          9214936 ./usr/bin/.debug/assistant
+-rwxr-xr-x root       root           731728 ./usr/bin/.debug/qcollectiongenerator
+-rwxr-xr-x root       root          3450896 ./usr/bin/.debug/qhelpconverter
+-rwxr-xr-x root       root           359256 ./usr/bin/.debug/qhelpgenerator

@@ -1,0 +1,4 @@
+drwxr-xr-x 1026       1026             4096 ./etc
+drwxr-xr-x 1026       1026             4096 ./etc/xdg
+drwxr-xr-x 1026       1026             4096 ./etc/xdg/menus
+-rw-r--r-- 1026       1026             2288 ./etc/xdg/menus/applications.menu

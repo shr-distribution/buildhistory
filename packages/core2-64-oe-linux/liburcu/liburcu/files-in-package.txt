@@ -1,0 +1,16 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+lrwxrwxrwx 1026       1026               19 ./usr/lib/liburcu-bp.so.2 -> liburcu-bp.so.2.0.0
+-rwxr-xr-x 1026       1026            28112 ./usr/lib/liburcu-bp.so.2.0.0
+lrwxrwxrwx 1026       1026               20 ./usr/lib/liburcu-cds.so.2 -> liburcu-cds.so.2.0.0
+-rwxr-xr-x 1026       1026            27952 ./usr/lib/liburcu-cds.so.2.0.0
+lrwxrwxrwx 1026       1026               23 ./usr/lib/liburcu-common.so.2 -> liburcu-common.so.2.0.0
+-rwxr-xr-x 1026       1026            13752 ./usr/lib/liburcu-common.so.2.0.0
+lrwxrwxrwx 1026       1026               19 ./usr/lib/liburcu-mb.so.2 -> liburcu-mb.so.2.0.0
+-rwxr-xr-x 1026       1026            24768 ./usr/lib/liburcu-mb.so.2.0.0
+lrwxrwxrwx 1026       1026               21 ./usr/lib/liburcu-qsbr.so.2 -> liburcu-qsbr.so.2.0.0
+-rwxr-xr-x 1026       1026            25280 ./usr/lib/liburcu-qsbr.so.2.0.0
+lrwxrwxrwx 1026       1026               23 ./usr/lib/liburcu-signal.so.2 -> liburcu-signal.so.2.0.0
+-rwxr-xr-x 1026       1026            25664 ./usr/lib/liburcu-signal.so.2.0.0
+lrwxrwxrwx 1026       1026               16 ./usr/lib/liburcu.so.2 -> liburcu.so.2.0.0
+-rwxr-xr-x 1026       1026            25152 ./usr/lib/liburcu.so.2.0.0
