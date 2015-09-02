@@ -1,9 +1,9 @@
 PV = 4.1.6
 PR = r3
-PKGR = r3.12
+PKGR = r3.13
 PKG = libgif4
-RPROVIDES = giflib
-RDEPENDS = glibc (>= 2.21)
+RPROVIDES = 4.1.6 giflib
+RDEPENDS = glibc (>= 2.22)
 RRECOMMENDS = 
 PKGSIZE = 36807
 FILES = /usr/lib/libgif.so.*

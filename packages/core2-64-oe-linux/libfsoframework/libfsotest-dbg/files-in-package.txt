@@ -1,0 +1,12 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/.debug
+-rwxr-xr-x root       root           165608 ./usr/lib/.debug/libfsotest.so.3.0.0
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/tests
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/tests/.debug
+-rwxr-xr-x root       root            16840 ./usr/lib/cornucopia/modules/tests/.debug/plugin.so
+-rwxr-xr-x root       root            16504 ./usr/lib/cornucopia/modules/tests/.debug/plugina.so
+-rwxr-xr-x root       root            16504 ./usr/lib/cornucopia/modules/tests/.debug/pluginb.so
+-rwxr-xr-x root       root            17392 ./usr/lib/cornucopia/modules/tests/.debug/pluginc.so

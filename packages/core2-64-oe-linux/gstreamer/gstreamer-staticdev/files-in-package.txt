@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          2519642 ./usr/lib/libgstbase-0.10.a
+-rw-r--r-- root       root          1120540 ./usr/lib/libgstcontroller-0.10.a
+-rw-r--r-- root       root            97280 ./usr/lib/libgstdataprotocol-0.10.a
+-rw-r--r-- root       root           168898 ./usr/lib/libgstnet-0.10.a
+-rw-r--r-- root       root          7232518 ./usr/lib/libgstreamer-0.10.a

@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          2442686 ./usr/lib/libpoppler-cpp.a
+-rw-r--r-- root       root          5138506 ./usr/lib/libpoppler-glib.a
+-rw-r--r-- root       root         22729178 ./usr/lib/libpoppler.a

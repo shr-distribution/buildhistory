@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root           375128 ./usr/lib/libebluez.a
+-rw-r--r-- root       root           506022 ./usr/lib/libeconnman0_7x.a
+-rw-r--r-- root       root           332824 ./usr/lib/libedbus.a
+-rw-r--r-- root       root           108886 ./usr/lib/libehal.a
+-rw-r--r-- root       root           205966 ./usr/lib/libenotify.a
+-rw-r--r-- root       root           339548 ./usr/lib/libeofono.a
+-rw-r--r-- root       root           132420 ./usr/lib/libeukit.a
