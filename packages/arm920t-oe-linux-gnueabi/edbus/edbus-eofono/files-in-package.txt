@@ -1,0 +1,4 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+lrwxrwxrwx 1026       1026               18 ./usr/lib/libeofono.so.1 -> libeofono.so.1.7.9
+-rwxr-xr-x 1026       1026            53504 ./usr/lib/libeofono.so.1.7.9

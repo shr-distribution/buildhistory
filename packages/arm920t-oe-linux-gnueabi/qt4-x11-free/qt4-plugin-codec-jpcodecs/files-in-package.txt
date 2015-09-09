@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/qt4
+drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins
+drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/codecs
+-rwxr-xr-x root       root           172748 ./usr/lib/qt4/plugins/codecs/libqjpcodecs.so

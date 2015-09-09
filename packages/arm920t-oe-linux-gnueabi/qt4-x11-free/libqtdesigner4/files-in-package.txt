@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               22 ./usr/lib/libQtDesigner.so.4 -> libQtDesigner.so.4.8.7
+lrwxrwxrwx root       root               22 ./usr/lib/libQtDesigner.so.4.8 -> libQtDesigner.so.4.8.7
+-rwxr-xr-x root       root          5044516 ./usr/lib/libQtDesigner.so.4.8.7

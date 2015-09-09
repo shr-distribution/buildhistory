@@ -1,0 +1,19 @@
+drwxr-xr-x 1026       1026             4096 ./etc
+drwxr-xr-x 1026       1026             4096 ./etc/at-spi2
+-rw-r--r-- 1026       1026             1366 ./etc/at-spi2/accessibility.conf
+drwxr-xr-x 1026       1026             4096 ./etc/xdg
+drwxr-xr-x 1026       1026             4096 ./etc/xdg/autostart
+-rw-r--r-- 1026       1026              305 ./etc/xdg/autostart/at-spi-dbus-bus.desktop
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+drwxr-xr-x 1026       1026             4096 ./usr/lib/at-spi2-core
+-rwxr-xr-x 1026       1026            11912 ./usr/lib/at-spi2-core/at-spi-bus-launcher
+-rwxr-xr-x 1026       1026            64648 ./usr/lib/at-spi2-core/at-spi2-registryd
+lrwxrwxrwx 1026       1026               17 ./usr/lib/libatspi.so.0 -> libatspi.so.0.0.1
+-rwxr-xr-x 1026       1026           130260 ./usr/lib/libatspi.so.0.0.1
+drwxr-xr-x 1026       1026             4096 ./usr/share
+drwxr-xr-x 1026       1026             4096 ./usr/share/dbus-1
+drwxr-xr-x 1026       1026             4096 ./usr/share/dbus-1/accessibility-services
+-rw-r--r-- 1026       1026              110 ./usr/share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service
+drwxr-xr-x 1026       1026             4096 ./usr/share/dbus-1/services
+-rw-r--r-- 1026       1026               81 ./usr/share/dbus-1/services/org.a11y.Bus.service

@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root             4096 ./etc/default
+-rw-r--r-- root       root              152 ./etc/default/gpsd.machine
+drwxr-xr-x root       root             4096 ./etc/gpsd
+-rwxr-xr-x root       root               76 ./etc/gpsd/device-hook

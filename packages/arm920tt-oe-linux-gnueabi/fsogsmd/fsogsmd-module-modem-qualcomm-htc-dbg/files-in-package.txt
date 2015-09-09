@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/fsogsm
+drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/fsogsm/.debug
+-rwxr-xr-x root       root           144328 ./usr/lib/cornucopia/modules/fsogsm/.debug/modem_qualcomm_htc.so

@@ -1,0 +1,6 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/share
+drwxr-xr-x 1026       1026             4096 ./usr/share/locale
+drwxr-xr-x 1026       1026             4096 ./usr/share/locale/pt
+drwxr-xr-x 1026       1026             4096 ./usr/share/locale/pt/LC_MESSAGES
+-rw-r--r-- 1026       1026              740 ./usr/share/locale/pt/LC_MESSAGES/at-spi2-core.mo

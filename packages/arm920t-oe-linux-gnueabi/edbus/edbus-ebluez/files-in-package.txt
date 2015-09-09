@@ -1,0 +1,4 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+lrwxrwxrwx 1026       1026               18 ./usr/lib/libebluez.so.1 -> libebluez.so.1.7.9
+-rwxr-xr-x 1026       1026            59464 ./usr/lib/libebluez.so.1.7.9

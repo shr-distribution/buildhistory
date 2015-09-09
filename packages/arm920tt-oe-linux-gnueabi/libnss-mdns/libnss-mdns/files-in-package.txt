@@ -1,0 +1,7 @@
+drwxr-xr-x root       root             4096 ./lib
+-rwxr-xr-x root       root             7028 ./lib/libnss_mdns.so.2
+-rwxr-xr-x root       root             6704 ./lib/libnss_mdns4.so.2
+-rwxr-xr-x root       root             6344 ./lib/libnss_mdns4_minimal.so.2
+-rwxr-xr-x root       root             6728 ./lib/libnss_mdns6.so.2
+-rwxr-xr-x root       root             6348 ./lib/libnss_mdns6_minimal.so.2
+-rwxr-xr-x root       root             6724 ./lib/libnss_mdns_minimal.so.2

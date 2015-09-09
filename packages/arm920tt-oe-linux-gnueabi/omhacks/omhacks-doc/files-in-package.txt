@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/share
+drwxr-xr-x root       root             4096 ./usr/share/doc
+drwxr-xr-x root       root             4096 ./usr/share/doc/omhacks
+drwxr-xr-x root       root             4096 ./usr/share/doc/omhacks/examples
+-rwxr-xr-x root       root             1553 ./usr/share/doc/omhacks/examples/00at

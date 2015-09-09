@@ -3,5 +3,5 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/efl
--rwxr-xr-x root       root           379436 ./usr/lib/python2.7/site-packages/efl/edje.so
--rwxr-xr-x root       root           208656 ./usr/lib/python2.7/site-packages/efl/edje_edit.so
+-rwxr-xr-x root       root           354860 ./usr/lib/python2.7/site-packages/efl/edje.so
+-rwxr-xr-x root       root           196372 ./usr/lib/python2.7/site-packages/efl/edje_edit.so

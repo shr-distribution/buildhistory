@@ -1,0 +1,5 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+drwxr-xr-x 1026       1026             4096 ./usr/lib/pppd
+drwxr-xr-x 1026       1026             4096 ./usr/lib/pppd/2.4.7
+-rwxr-xr-x 1026       1026             3492 ./usr/lib/pppd/2.4.7/minconn.so

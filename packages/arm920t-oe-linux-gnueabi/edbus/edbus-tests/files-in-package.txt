@@ -1,0 +1,12 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/bin
+-rwxr-xr-x 1026       1026             4820 ./usr/bin/e_dbus_async_client_test
+-rwxr-xr-x 1026       1026             5964 ./usr/bin/e_dbus_async_server_test
+-rwxr-xr-x 1026       1026            18588 ./usr/bin/e_dbus_bluez_test
+-rwxr-xr-x 1026       1026            31420 ./usr/bin/e_dbus_connman0_7x_test
+-rwxr-xr-x 1026       1026             9200 ./usr/bin/e_dbus_notification_daemon
+-rwxr-xr-x 1026       1026             6464 ./usr/bin/e_dbus_notify
+-rwxr-xr-x 1026       1026            12216 ./usr/bin/e_dbus_ofono_test
+-rwxr-xr-x 1026       1026             6564 ./usr/bin/e_dbus_test
+-rwxr-xr-x 1026       1026             5008 ./usr/bin/e_dbus_test_client
+-rwxr-xr-x 1026       1026             7528 ./usr/bin/e_dbus_ukit_test

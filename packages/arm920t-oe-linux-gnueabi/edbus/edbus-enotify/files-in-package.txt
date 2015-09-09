@@ -1,0 +1,6 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/bin
+-rwxr-xr-x 1026       1026             8320 ./usr/bin/e-notify-send
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+lrwxrwxrwx 1026       1026               19 ./usr/lib/libenotify.so.1 -> libenotify.so.1.7.9
+-rwxr-xr-x 1026       1026            29452 ./usr/lib/libenotify.so.1.7.9

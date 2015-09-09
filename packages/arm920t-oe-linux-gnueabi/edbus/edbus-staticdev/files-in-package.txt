@@ -1,0 +1,9 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+-rw-r--r-- 1026       1026           250536 ./usr/lib/libebluez.a
+-rw-r--r-- 1026       1026           347110 ./usr/lib/libeconnman0_7x.a
+-rw-r--r-- 1026       1026           220204 ./usr/lib/libedbus.a
+-rw-r--r-- 1026       1026            74482 ./usr/lib/libehal.a
+-rw-r--r-- 1026       1026           144026 ./usr/lib/libenotify.a
+-rw-r--r-- 1026       1026           228148 ./usr/lib/libeofono.a
+-rw-r--r-- 1026       1026            91516 ./usr/lib/libeukit.a

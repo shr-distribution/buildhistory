@@ -1,0 +1,6 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+drwxr-xr-x 1026       1026             4096 ./usr/lib/xorg
+drwxr-xr-x 1026       1026             4096 ./usr/lib/xorg/modules
+drwxr-xr-x 1026       1026             4096 ./usr/lib/xorg/modules/extensions
+-rwxr-xr-x 1026       1026           172592 ./usr/lib/xorg/modules/extensions/libglx.so

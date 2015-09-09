@@ -1,0 +1,11 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root             4096 ./usr/bin/.debug
+-rwxr-xr-x root       root          6495860 ./usr/bin/.debug/moc
+-rwxr-xr-x root       root         12096500 ./usr/bin/.debug/qdoc3
+-rwxr-xr-x root       root         39925932 ./usr/bin/.debug/qmake
+-rwxr-xr-x root       root           902996 ./usr/bin/.debug/qmlplugindump
+-rwxr-xr-x root       root           556588 ./usr/bin/.debug/qttracereplay
+-rwxr-xr-x root       root          6708844 ./usr/bin/.debug/rcc
+-rwxr-xr-x root       root         12160064 ./usr/bin/.debug/uic
+-rwxr-xr-x root       root         10715776 ./usr/bin/.debug/uic3

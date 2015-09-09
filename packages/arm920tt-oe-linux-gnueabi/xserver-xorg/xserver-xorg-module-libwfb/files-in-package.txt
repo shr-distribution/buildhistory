@@ -1,0 +1,5 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+drwxr-xr-x 1026       1026             4096 ./usr/lib/xorg
+drwxr-xr-x 1026       1026             4096 ./usr/lib/xorg/modules
+-rwxr-xr-x 1026       1026           119016 ./usr/lib/xorg/modules/libwfb.so

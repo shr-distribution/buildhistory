@@ -1,0 +1,9 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            30540 ./usr/bin/stunbdc
+-rwxr-xr-x root       root            26408 ./usr/bin/stund
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x root       root            12176 ./usr/lib/gstreamer-0.10/libgstnice.so
+lrwxrwxrwx root       root               16 ./usr/lib/libnice.so.0 -> libnice.so.0.9.0
+-rwxr-xr-x root       root           113280 ./usr/lib/libnice.so.0.9.0

@@ -1,9 +1,9 @@
 PV = 0.4.1
 PR = r2
-PKGR = r2.15
+PKGR = r2.16
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 317976
+PKGSIZE = 313472
 FILES = /usr/lib/libmpeg2.a
 FILELIST = /usr/lib/libmpeg2.a

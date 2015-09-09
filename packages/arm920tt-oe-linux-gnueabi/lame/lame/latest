@@ -1,9 +1,9 @@
 PV = 3.99.5
 PR = r1
-PKGR = r1.15
+PKGR = r1.16
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) ncurses-libtinfo (>= 5.9)
 RRECOMMENDS = 
-PKGSIZE = 254144
+PKGSIZE = 252296
 FILES = /usr/bin/lame
 FILELIST = /usr/bin/lame

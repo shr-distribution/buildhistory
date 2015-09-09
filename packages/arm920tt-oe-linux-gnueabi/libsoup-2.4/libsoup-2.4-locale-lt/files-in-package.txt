@@ -1,0 +1,6 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/share
+drwxr-xr-x 1026       1026             4096 ./usr/share/locale
+drwxr-xr-x 1026       1026             4096 ./usr/share/locale/lt
+drwxr-xr-x 1026       1026             4096 ./usr/share/locale/lt/LC_MESSAGES
+-rw-r--r-- 1026       1026             3804 ./usr/share/locale/lt/LC_MESSAGES/libsoup.mo

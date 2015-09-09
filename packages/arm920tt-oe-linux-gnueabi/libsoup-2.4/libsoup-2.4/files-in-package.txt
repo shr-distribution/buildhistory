@@ -1,0 +1,6 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+lrwxrwxrwx 1026       1026               20 ./usr/lib/libsoup-2.4.so.1 -> libsoup-2.4.so.1.7.0
+-rwxr-xr-x 1026       1026           536008 ./usr/lib/libsoup-2.4.so.1.7.0
+lrwxrwxrwx 1026       1026               26 ./usr/lib/libsoup-gnome-2.4.so.1 -> libsoup-gnome-2.4.so.1.7.0
+-rwxr-xr-x 1026       1026             5880 ./usr/lib/libsoup-gnome-2.4.so.1.7.0

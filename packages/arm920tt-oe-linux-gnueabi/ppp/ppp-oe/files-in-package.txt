@@ -1,0 +1,7 @@
+drwxr-xr-x 1026       1026             4096 ./usr
+drwxr-xr-x 1026       1026             4096 ./usr/lib
+drwxr-xr-x 1026       1026             4096 ./usr/lib/pppd
+drwxr-xr-x 1026       1026             4096 ./usr/lib/pppd/2.4.7
+-rwsr-x--- 1026       1026            18544 ./usr/lib/pppd/2.4.7/rp-pppoe.so
+drwxr-xr-x 1026       1026             4096 ./usr/sbin
+-rwxr-xr-x 1026       1026            11036 ./usr/sbin/pppoe-discovery
