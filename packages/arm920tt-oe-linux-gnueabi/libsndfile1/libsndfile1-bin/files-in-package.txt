@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            11060 ./usr/bin/sndfile-cmp
+-rwxr-xr-x root       root            10504 ./usr/bin/sndfile-concat
+-rwxr-xr-x root       root            12456 ./usr/bin/sndfile-convert
+-rwxr-xr-x root       root            10720 ./usr/bin/sndfile-deinterleave
+-rwxr-xr-x root       root            16112 ./usr/bin/sndfile-info
+-rwxr-xr-x root       root            10680 ./usr/bin/sndfile-interleave
+-rwxr-xr-x root       root            12240 ./usr/bin/sndfile-metadata-get
+-rwxr-xr-x root       root            13304 ./usr/bin/sndfile-metadata-set
+-rwxr-xr-x root       root            16828 ./usr/bin/sndfile-play
+-rwxr-xr-x root       root            11052 ./usr/bin/sndfile-regtest
+-rwxr-xr-x root       root            10032 ./usr/bin/sndfile-salvage

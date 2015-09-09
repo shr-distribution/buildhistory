@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root          8089136 ./usr/lib/libhogweed.a
--rw-r--r-- root       root          8226706 ./usr/lib/libnettle.a
+-rw-r--r-- root       root          8114436 ./usr/lib/libhogweed.a
+-rw-r--r-- root       root          8185422 ./usr/lib/libnettle.a

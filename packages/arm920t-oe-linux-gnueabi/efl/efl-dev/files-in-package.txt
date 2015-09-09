@@ -1,35 +1,35 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            31028 ./usr/bin/eldbus-codegen
+-rwxr-xr-x root       root            31012 ./usr/bin/eldbus-codegen
 drwxr-xr-x root       root             4096 ./usr/include
 drwxr-xr-x root       root             4096 ./usr/include/ecore-1
--rw-r--r-- root       root            11076 ./usr/include/ecore-1/Ecore.h
--rw-r--r-- root       root           124555 ./usr/include/ecore-1/Ecore_Common.h
+-rw-r--r-- root       root            11103 ./usr/include/ecore-1/Ecore.h
+-rw-r--r-- root       root           124887 ./usr/include/ecore-1/Ecore_Common.h
 -rw-r--r-- root       root              975 ./usr/include/ecore-1/Ecore_Eo.h
 -rw-r--r-- root       root            50195 ./usr/include/ecore-1/Ecore_Getopt.h
 -rw-r--r-- root       root            12689 ./usr/include/ecore-1/Ecore_Legacy.h
--rw-r--r-- root       root              863 ./usr/include/ecore-1/ecore_animator.eo.h
+-rw-r--r-- root       root              751 ./usr/include/ecore-1/ecore_animator.eo.h
 -rw-r--r-- root       root              271 ./usr/include/ecore-1/ecore_animator.eo.legacy.h
--rw-r--r-- root       root             1183 ./usr/include/ecore-1/ecore_exe.eo.h
+-rw-r--r-- root       root             1227 ./usr/include/ecore-1/ecore_exe.eo.h
 -rw-r--r-- root       root              236 ./usr/include/ecore-1/ecore_exe.eo.legacy.h
--rw-r--r-- root       root              948 ./usr/include/ecore-1/ecore_idle_enterer.eo.h
+-rw-r--r-- root       root              872 ./usr/include/ecore-1/ecore_idle_enterer.eo.h
 -rw-r--r-- root       root              299 ./usr/include/ecore-1/ecore_idle_enterer.eo.legacy.h
--rw-r--r-- root       root              616 ./usr/include/ecore-1/ecore_idle_exiter.eo.h
+-rw-r--r-- root       root              577 ./usr/include/ecore-1/ecore_idle_exiter.eo.h
 -rw-r--r-- root       root              292 ./usr/include/ecore-1/ecore_idle_exiter.eo.legacy.h
--rw-r--r-- root       root              550 ./usr/include/ecore-1/ecore_idler.eo.h
+-rw-r--r-- root       root              505 ./usr/include/ecore-1/ecore_idler.eo.h
 -rw-r--r-- root       root              250 ./usr/include/ecore-1/ecore_idler.eo.legacy.h
--rw-r--r-- root       root              523 ./usr/include/ecore-1/ecore_job.eo.h
+-rw-r--r-- root       root              476 ./usr/include/ecore-1/ecore_job.eo.h
 -rw-r--r-- root       root              236 ./usr/include/ecore-1/ecore_job.eo.legacy.h
--rw-r--r-- root       root             1699 ./usr/include/ecore-1/ecore_mainloop.eo.h
+-rw-r--r-- root       root             1642 ./usr/include/ecore-1/ecore_mainloop.eo.h
 -rw-r--r-- root       root              359 ./usr/include/ecore-1/ecore_parent.eo.h
--rw-r--r-- root       root             1401 ./usr/include/ecore-1/ecore_poller.eo.h
--rw-r--r-- root       root              976 ./usr/include/ecore-1/ecore_poller.eo.legacy.h
--rw-r--r-- root       root             2646 ./usr/include/ecore-1/ecore_timer.eo.h
--rw-r--r-- root       root             1767 ./usr/include/ecore-1/ecore_timer.eo.legacy.h
+-rw-r--r-- root       root             1275 ./usr/include/ecore-1/ecore_poller.eo.h
+-rw-r--r-- root       root              950 ./usr/include/ecore-1/ecore_poller.eo.legacy.h
+-rw-r--r-- root       root             2548 ./usr/include/ecore-1/ecore_timer.eo.h
+-rw-r--r-- root       root             1772 ./usr/include/ecore-1/ecore_timer.eo.legacy.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-audio-1
--rw-r--r-- root       root             5718 ./usr/include/ecore-audio-1/Ecore_Audio.h
--rw-r--r-- root       root             2499 ./usr/include/ecore-audio-1/ecore_audio.eo.h
--rw-r--r-- root       root             4039 ./usr/include/ecore-audio-1/ecore_audio_in.eo.h
+-rw-r--r-- root       root             5910 ./usr/include/ecore-audio-1/Ecore_Audio.h
+-rw-r--r-- root       root             3161 ./usr/include/ecore-audio-1/ecore_audio.eo.h
+-rw-r--r-- root       root             5213 ./usr/include/ecore-audio-1/ecore_audio_in.eo.h
 -rw-r--r-- root       root              459 ./usr/include/ecore-audio-1/ecore_audio_in_sndfile.eo.h
 -rw-r--r-- root       root              429 ./usr/include/ecore-audio-1/ecore_audio_in_tone.eo.h
 -rw-r--r-- root       root              547 ./usr/include/ecore-audio-1/ecore_audio_obj.h
@@ -39,54 +39,62 @@ drwxr-xr-x root       root             4096 ./usr/include/ecore-audio-1
 -rw-r--r-- root       root              571 ./usr/include/ecore-audio-1/ecore_audio_obj_out.h
 -rw-r--r-- root       root              601 ./usr/include/ecore-audio-1/ecore_audio_obj_out_pulse.h
 -rw-r--r-- root       root              606 ./usr/include/ecore-audio-1/ecore_audio_obj_out_sndfile.h
--rw-r--r-- root       root              885 ./usr/include/ecore-audio-1/ecore_audio_out.eo.h
--rw-r--r-- root       root              907 ./usr/include/ecore-audio-1/ecore_audio_out_pulse.eo.h
+-rw-r--r-- root       root             1175 ./usr/include/ecore-audio-1/ecore_audio_out.eo.h
+-rw-r--r-- root       root              975 ./usr/include/ecore-audio-1/ecore_audio_out_pulse.eo.h
 -rw-r--r-- root       root              469 ./usr/include/ecore-audio-1/ecore_audio_out_sndfile.eo.h
 -rw-r--r-- root       root              135 ./usr/include/ecore-audio-1/ecore_audio_protected.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-avahi-1
--rw-r--r-- root       root             1750 ./usr/include/ecore-avahi-1/Ecore_Avahi.h
+-rw-r--r-- root       root             1782 ./usr/include/ecore-avahi-1/Ecore_Avahi.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-con-1
--rw-r--r-- root       root            82608 ./usr/include/ecore-con-1/Ecore_Con.h
--rw-r--r-- root       root             9480 ./usr/include/ecore-con-1/Ecore_Con_Eet.h
--rw-r--r-- root       root              163 ./usr/include/ecore-con-1/Ecore_Con_Eo.h
--rw-r--r-- root       root              198 ./usr/include/ecore-con-1/Ecore_Con_Legacy.h
--rw-r--r-- root       root             5263 ./usr/include/ecore-con-1/ecore_con_base.eo.h
--rw-r--r-- root       root             1519 ./usr/include/ecore-con-1/ecore_con_base.eo.legacy.h
--rw-r--r-- root       root              573 ./usr/include/ecore-con-1/ecore_con_client.eo.h
--rw-r--r-- root       root              473 ./usr/include/ecore-con-1/ecore_con_client.eo.legacy.h
+-rw-r--r-- root       root            83920 ./usr/include/ecore-con-1/Ecore_Con.h
+-rw-r--r-- root       root             9605 ./usr/include/ecore-con-1/Ecore_Con_Eet.h
+-rw-r--r-- root       root              117 ./usr/include/ecore-con-1/Ecore_Con_Eet_Eo.h
+-rw-r--r-- root       root              138 ./usr/include/ecore-con-1/Ecore_Con_Eet_Legacy.h
+-rw-r--r-- root       root              165 ./usr/include/ecore-con-1/Ecore_Con_Eo.h
+-rw-r--r-- root       root              897 ./usr/include/ecore-con-1/Ecore_Con_Legacy.h
+-rw-r--r-- root       root             6166 ./usr/include/ecore-con-1/ecore_con_base.eo.h
+-rw-r--r-- root       root             1257 ./usr/include/ecore-con-1/ecore_con_base.eo.legacy.h
+-rw-r--r-- root       root              643 ./usr/include/ecore-con-1/ecore_con_client.eo.h
+-rw-r--r-- root       root              546 ./usr/include/ecore-con-1/ecore_con_client.eo.legacy.h
 -rw-r--r-- root       root              429 ./usr/include/ecore-con-1/ecore_con_connector.eo.h
 -rw-r--r-- root       root              306 ./usr/include/ecore-con-1/ecore_con_connector.eo.legacy.h
--rw-r--r-- root       root             3700 ./usr/include/ecore-con-1/ecore_con_server.eo.h
--rw-r--r-- root       root             1998 ./usr/include/ecore-con-1/ecore_con_server.eo.legacy.h
--rw-r--r-- root       root              600 ./usr/include/ecore-con-1/ecore_con_url.eo.h
--rw-r--r-- root       root              517 ./usr/include/ecore-con-1/ecore_con_url.eo.legacy.h
+-rw-r--r-- root       root             3125 ./usr/include/ecore-con-1/ecore_con_eet_base.eo.h
+-rw-r--r-- root       root              597 ./usr/include/ecore-con-1/ecore_con_eet_base.eo.legacy.h
+-rw-r--r-- root       root              479 ./usr/include/ecore-con-1/ecore_con_eet_client_obj.eo.h
+-rw-r--r-- root       root              341 ./usr/include/ecore-con-1/ecore_con_eet_client_obj.eo.legacy.h
+-rw-r--r-- root       root              479 ./usr/include/ecore-con-1/ecore_con_eet_server_obj.eo.h
+-rw-r--r-- root       root              341 ./usr/include/ecore-con-1/ecore_con_eet_server_obj.eo.legacy.h
+-rw-r--r-- root       root             3880 ./usr/include/ecore-con-1/ecore_con_server.eo.h
+-rw-r--r-- root       root             2151 ./usr/include/ecore-con-1/ecore_con_server.eo.legacy.h
+-rw-r--r-- root       root             1462 ./usr/include/ecore-con-1/efl_network_url.eo.h
+-rw-r--r-- root       root              278 ./usr/include/ecore-con-1/efl_network_url.eo.legacy.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-evas-1
--rw-r--r-- root       root           105201 ./usr/include/ecore-evas-1/Ecore_Evas.h
+-rw-r--r-- root       root           106587 ./usr/include/ecore-evas-1/Ecore_Evas.h
 -rw-r--r-- root       root             1647 ./usr/include/ecore-evas-1/Ecore_Evas_Types.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-file-1
--rw-r--r-- root       root             6828 ./usr/include/ecore-file-1/Ecore_File.h
+-rw-r--r-- root       root             6854 ./usr/include/ecore-file-1/Ecore_File.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-imf-1
--rw-r--r-- root       root            74602 ./usr/include/ecore-imf-1/Ecore_IMF.h
+-rw-r--r-- root       root            74628 ./usr/include/ecore-imf-1/Ecore_IMF.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-imf-evas-1
--rw-r--r-- root       root             5241 ./usr/include/ecore-imf-evas-1/Ecore_IMF_Evas.h
+-rw-r--r-- root       root             5267 ./usr/include/ecore-imf-evas-1/Ecore_IMF_Evas.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-input-1
--rw-r--r-- root       root            13925 ./usr/include/ecore-input-1/Ecore_Input.h
+-rw-r--r-- root       root            14045 ./usr/include/ecore-input-1/Ecore_Input.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-input-evas-1
--rw-r--r-- root       root             2737 ./usr/include/ecore-input-evas-1/Ecore_Input_Evas.h
+-rw-r--r-- root       root             2871 ./usr/include/ecore-input-evas-1/Ecore_Input_Evas.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-ipc-1
--rw-r--r-- root       root            11369 ./usr/include/ecore-ipc-1/Ecore_Ipc.h
+-rw-r--r-- root       root            11392 ./usr/include/ecore-ipc-1/Ecore_Ipc.h
 drwxr-xr-x root       root             4096 ./usr/include/ecore-x-1
--rw-r--r-- root       root           133632 ./usr/include/ecore-x-1/Ecore_X.h
--rw-r--r-- root       root            17322 ./usr/include/ecore-x-1/Ecore_X_Atoms.h
+-rw-r--r-- root       root           135731 ./usr/include/ecore-x-1/Ecore_X.h
+-rw-r--r-- root       root            17518 ./usr/include/ecore-x-1/Ecore_X_Atoms.h
 -rw-r--r-- root       root             3740 ./usr/include/ecore-x-1/Ecore_X_Cursor.h
 -rw-r--r-- root       root              128 ./usr/include/ecore-x-1/ecore_x_version.h
 drwxr-xr-x root       root             4096 ./usr/include/ector-1
 -rw-r--r-- root       root             3999 ./usr/include/ector-1/Ector.h
--rw-r--r-- root       root              399 ./usr/include/ector-1/Ector_Cairo.h
--rw-r--r-- root       root              461 ./usr/include/ector-1/Ector_Software.h
+-rw-r--r-- root       root              495 ./usr/include/ector-1/Ector_Cairo.h
+-rw-r--r-- root       root              563 ./usr/include/ector-1/Ector_Software.h
 drwxr-xr-x root       root             4096 ./usr/include/ector-1/cairo
--rw-r--r-- root       root              831 ./usr/include/ector-1/cairo/ector_cairo_surface.eo.h
--rw-r--r-- root       root              590 ./usr/include/ector-1/cairo/ector_renderer_cairo_base.eo.h
+-rw-r--r-- root       root              810 ./usr/include/ector-1/cairo/ector_cairo_surface.eo.h
+-rw-r--r-- root       root              581 ./usr/include/ector-1/cairo/ector_renderer_cairo_base.eo.h
 -rw-r--r-- root       root              599 ./usr/include/ector-1/cairo/ector_renderer_cairo_gradient_linear.eo.h
 -rw-r--r-- root       root              599 ./usr/include/ector-1/cairo/ector_renderer_cairo_gradient_radial.eo.h
 -rw-r--r-- root       root              499 ./usr/include/ector-1/cairo/ector_renderer_cairo_shape.eo.h
@@ -94,58 +102,60 @@ drwxr-xr-x root       root             4096 ./usr/include/ector-1/cairo
 -rw-r--r-- root       root               95 ./usr/include/ector-1/ector_surface.h
 -rw-r--r-- root       root              859 ./usr/include/ector-1/ector_util.h
 drwxr-xr-x root       root             4096 ./usr/include/ector-1/generic
--rw-r--r-- root       root             1175 ./usr/include/ector-1/generic/ector_generic_surface.eo.h
--rw-r--r-- root       root             3946 ./usr/include/ector-1/generic/ector_renderer_generic_base.eo.h
+-rw-r--r-- root       root             1221 ./usr/include/ector-1/generic/ector_generic_surface.eo.h
+-rw-r--r-- root       root             3964 ./usr/include/ector-1/generic/ector_renderer_generic_base.eo.h
 -rw-r--r-- root       root              549 ./usr/include/ector-1/generic/ector_renderer_generic_gradient.eo.h
 -rw-r--r-- root       root              619 ./usr/include/ector-1/generic/ector_renderer_generic_gradient_linear.eo.h
 -rw-r--r-- root       root              619 ./usr/include/ector-1/generic/ector_renderer_generic_gradient_radial.eo.h
--rw-r--r-- root       root             1352 ./usr/include/ector-1/generic/ector_renderer_generic_shape.eo.h
+-rw-r--r-- root       root             1307 ./usr/include/ector-1/generic/ector_renderer_generic_shape.eo.h
 drwxr-xr-x root       root             4096 ./usr/include/ector-1/software
--rw-r--r-- root       root              623 ./usr/include/ector-1/software/ector_renderer_software_base.eo.h
+-rw-r--r-- root       root              614 ./usr/include/ector-1/software/ector_renderer_software_base.eo.h
 -rw-r--r-- root       root              629 ./usr/include/ector-1/software/ector_renderer_software_gradient_linear.eo.h
 -rw-r--r-- root       root              629 ./usr/include/ector-1/software/ector_renderer_software_gradient_radial.eo.h
 -rw-r--r-- root       root              529 ./usr/include/ector-1/software/ector_renderer_software_shape.eo.h
--rw-r--r-- root       root             1300 ./usr/include/ector-1/software/ector_software_surface.eo.h
+-rw-r--r-- root       root             1273 ./usr/include/ector-1/software/ector_software_surface.eo.h
 drwxr-xr-x root       root             4096 ./usr/include/edje-1
--rw-r--r-- root       root             8467 ./usr/include/edje-1/Edje.h
--rw-r--r-- root       root            88133 ./usr/include/edje-1/Edje_Common.h
--rw-r--r-- root       root           246583 ./usr/include/edje-1/Edje_Edit.h
+-rw-r--r-- root       root             8493 ./usr/include/edje-1/Edje.h
+-rw-r--r-- root       root            80999 ./usr/include/edje-1/Edje_Common.h
+-rw-r--r-- root       root           247233 ./usr/include/edje-1/Edje_Edit.h
 -rw-r--r-- root       root               72 ./usr/include/edje-1/Edje_Eo.h
 -rw-r--r-- root       root             9496 ./usr/include/edje-1/Edje_Legacy.h
 -rw-r--r-- root       root              329 ./usr/include/edje-1/edje_edit.eo.h
 -rw-r--r-- root       root              236 ./usr/include/edje-1/edje_edit.eo.legacy.h
--rw-r--r-- root       root            73773 ./usr/include/edje-1/edje_object.eo.h
--rw-r--r-- root       root            75442 ./usr/include/edje-1/edje_object.eo.legacy.h
+-rw-r--r-- root       root            72423 ./usr/include/edje-1/edje_object.eo.h
+-rw-r--r-- root       root            74639 ./usr/include/edje-1/edje_object.eo.legacy.h
+-rw-r--r-- root       root            11190 ./usr/include/edje-1/edje_types.eot.h
 drwxr-xr-x root       root             4096 ./usr/include/eet-1
--rw-r--r-- root       root           192659 ./usr/include/eet-1/Eet.h
+-rw-r--r-- root       root           192684 ./usr/include/eet-1/Eet.h
 drwxr-xr-x root       root             4096 ./usr/include/eeze-1
--rw-r--r-- root       root            20898 ./usr/include/eeze-1/Eeze.h
+-rw-r--r-- root       root            20924 ./usr/include/eeze-1/Eeze.h
 -rw-r--r-- root       root            17546 ./usr/include/eeze-1/Eeze_Disk.h
--rw-r--r-- root       root             1325 ./usr/include/eeze-1/Eeze_Net.h
+-rw-r--r-- root       root             1351 ./usr/include/eeze-1/Eeze_Net.h
 -rw-r--r-- root       root            11688 ./usr/include/eeze-1/Eeze_Sensor.h
 -rw-r--r-- root       root              869 ./usr/include/eeze-1/eeze_scanner.h
 drwxr-xr-x root       root             4096 ./usr/include/efl-1
--rw-r--r-- root       root             5691 ./usr/include/efl-1/Efl.h
+-rw-r--r-- root       root             5759 ./usr/include/efl-1/Efl.h
 -rw-r--r-- root       root              574 ./usr/include/efl-1/Efl_Config.h
--rw-r--r-- root       root             2246 ./usr/include/efl-1/Efl_Model_Common.h
+-rw-r--r-- root       root              778 ./usr/include/efl-1/Efl_Model_Common.h
 drwxr-xr-x root       root             4096 ./usr/include/efl-1/interfaces
--rw-r--r-- root       root              951 ./usr/include/efl-1/interfaces/efl_control.eo.h
--rw-r--r-- root       root             5155 ./usr/include/efl-1/interfaces/efl_file.eo.h
--rw-r--r-- root       root             4990 ./usr/include/efl-1/interfaces/efl_gfx_base.eo.h
--rw-r--r-- root       root             3142 ./usr/include/efl-1/interfaces/efl_gfx_fill.eo.h
--rw-r--r-- root       root             1305 ./usr/include/efl-1/interfaces/efl_gfx_gradient_base.eo.h
--rw-r--r-- root       root             1369 ./usr/include/efl-1/interfaces/efl_gfx_gradient_linear.eo.h
--rw-r--r-- root       root             1663 ./usr/include/efl-1/interfaces/efl_gfx_gradient_radial.eo.h
--rw-r--r-- root       root            11433 ./usr/include/efl-1/interfaces/efl_gfx_shape.eo.h
--rw-r--r-- root       root             4855 ./usr/include/efl-1/interfaces/efl_gfx_stack.eo.h
--rw-r--r-- root       root             1181 ./usr/include/efl-1/interfaces/efl_gfx_view.eo.h
--rw-r--r-- root       root             1876 ./usr/include/efl-1/interfaces/efl_image.eo.h
--rw-r--r-- root       root            10260 ./usr/include/efl-1/interfaces/efl_model_base.eo.h
--rw-r--r-- root       root             2621 ./usr/include/efl-1/interfaces/efl_player.eo.h
--rw-r--r-- root       root              834 ./usr/include/efl-1/interfaces/efl_text.eo.h
--rw-r--r-- root       root             2365 ./usr/include/efl-1/interfaces/efl_text_properties.eo.h
+-rw-r--r-- root       root             1145 ./usr/include/efl-1/interfaces/efl_control.eo.h
+-rw-r--r-- root       root             4892 ./usr/include/efl-1/interfaces/efl_file.eo.h
+-rw-r--r-- root       root             5030 ./usr/include/efl-1/interfaces/efl_gfx_base.eo.h
+-rw-r--r-- root       root             3028 ./usr/include/efl-1/interfaces/efl_gfx_fill.eo.h
+-rw-r--r-- root       root             2982 ./usr/include/efl-1/interfaces/efl_gfx_filter.eo.h
+-rw-r--r-- root       root             1494 ./usr/include/efl-1/interfaces/efl_gfx_gradient_base.eo.h
+-rw-r--r-- root       root             1529 ./usr/include/efl-1/interfaces/efl_gfx_gradient_linear.eo.h
+-rw-r--r-- root       root             1928 ./usr/include/efl-1/interfaces/efl_gfx_gradient_radial.eo.h
+-rw-r--r-- root       root            11904 ./usr/include/efl-1/interfaces/efl_gfx_shape.eo.h
+-rw-r--r-- root       root             5191 ./usr/include/efl-1/interfaces/efl_gfx_stack.eo.h
+-rw-r--r-- root       root             1232 ./usr/include/efl-1/interfaces/efl_gfx_view.eo.h
+-rw-r--r-- root       root             1978 ./usr/include/efl-1/interfaces/efl_image.eo.h
+-rw-r--r-- root       root            10769 ./usr/include/efl-1/interfaces/efl_model_base.eo.h
+-rw-r--r-- root       root             4305 ./usr/include/efl-1/interfaces/efl_player.eo.h
+-rw-r--r-- root       root              846 ./usr/include/efl-1/interfaces/efl_text.eo.h
+-rw-r--r-- root       root             2532 ./usr/include/efl-1/interfaces/efl_text_properties.eo.h
 drwxr-xr-x root       root             4096 ./usr/include/efreet-1
--rw-r--r-- root       root             4252 ./usr/include/efreet-1/Efreet.h
+-rw-r--r-- root       root             4278 ./usr/include/efreet-1/Efreet.h
 -rw-r--r-- root       root             3080 ./usr/include/efreet-1/Efreet_Mime.h
 -rw-r--r-- root       root             2603 ./usr/include/efreet-1/Efreet_Trash.h
 -rw-r--r-- root       root             9037 ./usr/include/efreet-1/efreet_base.h
@@ -156,7 +166,7 @@ drwxr-xr-x root       root             4096 ./usr/include/efreet-1
 -rw-r--r-- root       root             1726 ./usr/include/efreet-1/efreet_uri.h
 -rw-r--r-- root       root             4097 ./usr/include/efreet-1/efreet_utils.h
 drwxr-xr-x root       root             4096 ./usr/include/eina-1
--rw-r--r-- root       root            10323 ./usr/include/eina-1/Eina.h
+-rw-r--r-- root       root            10447 ./usr/include/eina-1/Eina.h
 drwxr-xr-x root       root             4096 ./usr/include/eina-1/eina
 -rw-r--r-- root       root            13260 ./usr/include/eina-1/eina/eina_accessor.h
 -rw-r--r-- root       root             1453 ./usr/include/eina-1/eina/eina_alloca.h
@@ -169,24 +179,27 @@ drwxr-xr-x root       root             4096 ./usr/include/eina-1/eina
 -rw-r--r-- root       root             6009 ./usr/include/eina-1/eina/eina_counter.h
 -rw-r--r-- root       root             5615 ./usr/include/eina-1/eina/eina_cow.h
 -rw-r--r-- root       root             3576 ./usr/include/eina-1/eina/eina_cpu.h
+-rw-r--r-- root       root             1832 ./usr/include/eina-1/eina/eina_crc.h
 -rw-r--r-- root       root             6645 ./usr/include/eina-1/eina/eina_error.h
+-rw-r--r-- root       root             5366 ./usr/include/eina-1/eina/eina_evlog.h
 -rw-r--r-- root       root            25552 ./usr/include/eina-1/eina/eina_file.h
 -rw-r--r-- root       root            14404 ./usr/include/eina-1/eina/eina_fp.h
 -rw-r--r-- root       root             1250 ./usr/include/eina-1/eina/eina_hamster.h
--rw-r--r-- root       root            45339 ./usr/include/eina-1/eina/eina_hash.h
+-rw-r--r-- root       root            45637 ./usr/include/eina-1/eina/eina_hash.h
 -rw-r--r-- root       root            27104 ./usr/include/eina-1/eina/eina_inarray.h
 -rw-r--r-- root       root             2469 ./usr/include/eina-1/eina/eina_inline_array.x
 -rw-r--r-- root       root             3471 ./usr/include/eina-1/eina/eina_inline_clist.x
 -rw-r--r-- root       root             2726 ./usr/include/eina-1/eina/eina_inline_cpu.x
+-rw-r--r-- root       root             1069 ./usr/include/eina-1/eina/eina_inline_crc.x
 -rw-r--r-- root       root             2153 ./usr/include/eina-1/eina/eina_inline_f16p16.x
 -rw-r--r-- root       root             3206 ./usr/include/eina-1/eina/eina_inline_f32p32.x
 -rw-r--r-- root       root             2130 ./usr/include/eina-1/eina/eina_inline_f8p24.x
 -rw-r--r-- root       root             3039 ./usr/include/eina-1/eina/eina_inline_fp.x
--rw-r--r-- root       root             3449 ./usr/include/eina-1/eina/eina_inline_hash.x
+-rw-r--r-- root       root             3658 ./usr/include/eina-1/eina/eina_inline_hash.x
 -rw-r--r-- root       root             1231 ./usr/include/eina-1/eina/eina_inline_inlist.x
 -rw-r--r-- root       root             1836 ./usr/include/eina-1/eina/eina_inline_list.x
 -rw-r--r-- root       root             1322 ./usr/include/eina-1/eina/eina_inline_lock_barrier.x
--rw-r--r-- root       root            21288 ./usr/include/eina-1/eina/eina_inline_lock_posix.x
+-rw-r--r-- root       root            21493 ./usr/include/eina-1/eina/eina_inline_lock_posix.x
 -rw-r--r-- root       root             5313 ./usr/include/eina-1/eina/eina_inline_log.x
 -rw-r--r-- root       root             4073 ./usr/include/eina-1/eina/eina_inline_mempool.x
 -rw-r--r-- root       root             1341 ./usr/include/eina-1/eina/eina_inline_rbtree.x
@@ -207,14 +220,15 @@ drwxr-xr-x root       root             4096 ./usr/include/eina-1/eina
 -rw-r--r-- root       root            35980 ./usr/include/eina-1/eina/eina_log.h
 -rw-r--r-- root       root            11162 ./usr/include/eina-1/eina/eina_magic.h
 -rw-r--r-- root       root             4644 ./usr/include/eina-1/eina/eina_main.h
--rw-r--r-- root       root            11832 ./usr/include/eina-1/eina/eina_matrix.h
+-rw-r--r-- root       root            16701 ./usr/include/eina-1/eina/eina_matrix.h
 -rw-r--r-- root       root            13778 ./usr/include/eina-1/eina/eina_matrixsparse.h
 -rw-r--r-- root       root             7467 ./usr/include/eina-1/eina/eina_mempool.h
 -rw-r--r-- root       root             1968 ./usr/include/eina-1/eina/eina_mmap.h
--rw-r--r-- root       root            12080 ./usr/include/eina-1/eina/eina_module.h
+-rw-r--r-- root       root            12090 ./usr/include/eina-1/eina/eina_module.h
 -rw-r--r-- root       root            10484 ./usr/include/eina-1/eina/eina_prefix.h
--rw-r--r-- root       root             2262 ./usr/include/eina-1/eina/eina_quad.h
+-rw-r--r-- root       root             2291 ./usr/include/eina-1/eina/eina_quad.h
 -rw-r--r-- root       root             2096 ./usr/include/eina-1/eina/eina_quadtree.h
+-rw-r--r-- root       root             6650 ./usr/include/eina-1/eina/eina_quaternion.h
 -rw-r--r-- root       root             8404 ./usr/include/eina-1/eina/eina_rbtree.h
 -rw-r--r-- root       root            18710 ./usr/include/eina-1/eina/eina_rectangle.h
 -rw-r--r-- root       root             2130 ./usr/include/eina-1/eina/eina_refcount.h
@@ -227,22 +241,23 @@ drwxr-xr-x root       root             4096 ./usr/include/eina-1/eina
 -rw-r--r-- root       root             3532 ./usr/include/eina-1/eina/eina_thread.h
 -rw-r--r-- root       root             8692 ./usr/include/eina-1/eina/eina_thread_queue.h
 -rw-r--r-- root       root            13610 ./usr/include/eina-1/eina/eina_tiler.h
--rw-r--r-- root       root             8930 ./usr/include/eina-1/eina/eina_tmpstr.h
+-rw-r--r-- root       root             8956 ./usr/include/eina-1/eina/eina_tmpstr.h
 -rw-r--r-- root       root             3819 ./usr/include/eina-1/eina/eina_trash.h
--rw-r--r-- root       root             9774 ./usr/include/eina-1/eina/eina_types.h
+-rw-r--r-- root       root            10169 ./usr/include/eina-1/eina/eina_types.h
 -rw-r--r-- root       root             6350 ./usr/include/eina-1/eina/eina_unicode.h
 -rw-r--r-- root       root            15287 ./usr/include/eina-1/eina/eina_ustrbuf.h
 -rw-r--r-- root       root             7880 ./usr/include/eina-1/eina/eina_ustringshare.h
+-rw-r--r-- root       root             1576 ./usr/include/eina-1/eina/eina_util.h
 -rw-r--r-- root       root           117428 ./usr/include/eina-1/eina/eina_value.h
 -rw-r--r-- root       root             1378 ./usr/include/eina-1/eina/eina_value_util.h
 -rw-r--r-- root       root             9468 ./usr/include/eina-1/eina/eina_xattr.h
 -rw-r--r-- root       root             2659 ./usr/include/eina-1/eina_config.h
 drwxr-xr-x root       root             4096 ./usr/include/eio-1
--rw-r--r-- root       root            53176 ./usr/include/eio-1/Eio.h
+-rw-r--r-- root       root            53211 ./usr/include/eio-1/Eio.h
 -rw-r--r-- root       root             2876 ./usr/include/eio-1/eio_inline_helper.x
--rw-r--r-- root       root             1182 ./usr/include/eio-1/eio_model.eo.h
+-rw-r--r-- root       root             1082 ./usr/include/eio-1/eio_model.eo.h
 drwxr-xr-x root       root             4096 ./usr/include/eldbus-1
--rw-r--r-- root       root             6824 ./usr/include/eldbus-1/Eldbus.h
+-rw-r--r-- root       root             6850 ./usr/include/eldbus-1/Eldbus.h
 -rw-r--r-- root       root             6797 ./usr/include/eldbus-1/eldbus_connection.h
 -rw-r--r-- root       root            13058 ./usr/include/eldbus-1/eldbus_freedesktop.h
 -rw-r--r-- root       root            15576 ./usr/include/eldbus-1/eldbus_message.h
@@ -254,51 +269,51 @@ drwxr-xr-x root       root             4096 ./usr/include/eldbus-1
 -rw-r--r-- root       root            11023 ./usr/include/eldbus-1/eldbus_service.h
 -rw-r--r-- root       root             4299 ./usr/include/eldbus-1/eldbus_signal_handler.h
 drwxr-xr-x root       root             4096 ./usr/include/elocation-1
--rw-r--r-- root       root            13221 ./usr/include/elocation-1/Elocation.h
+-rw-r--r-- root       root            13262 ./usr/include/elocation-1/Elocation.h
 -rw-r--r-- root       root             2241 ./usr/include/elocation-1/eldbus_geo_clue2_client.h
 -rw-r--r-- root       root             1101 ./usr/include/elocation-1/eldbus_geo_clue2_location.h
 -rw-r--r-- root       root             1251 ./usr/include/elocation-1/eldbus_geo_clue2_manager.h
 -rw-r--r-- root       root             2263 ./usr/include/elocation-1/eldbus_utils.h
 -rw-r--r-- root       root             5525 ./usr/include/elocation-1/elocation_private.h
 drwxr-xr-x root       root             4096 ./usr/include/elua-1
--rw-r--r-- root       root             1422 ./usr/include/elua-1/Elua.h
+-rw-r--r-- root       root            13191 ./usr/include/elua-1/Elua.h
 drwxr-xr-x root       root             4096 ./usr/include/embryo-1
--rw-r--r-- root       root            30673 ./usr/include/embryo-1/Embryo.h
+-rw-r--r-- root       root            30687 ./usr/include/embryo-1/Embryo.h
 drwxr-xr-x root       root             4096 ./usr/include/emile-1
--rw-r--r-- root       root             2774 ./usr/include/emile-1/Emile.h
+-rw-r--r-- root       root             2800 ./usr/include/emile-1/Emile.h
 -rw-r--r-- root       root             3872 ./usr/include/emile-1/emile_cipher.h
 -rw-r--r-- root       root             2320 ./usr/include/emile-1/emile_compress.h
 -rw-r--r-- root       root            11652 ./usr/include/emile-1/emile_image.h
 drwxr-xr-x root       root             4096 ./usr/include/emotion-1
--rw-r--r-- root       root            46947 ./usr/include/emotion-1/Emotion.h
+-rw-r--r-- root       root            46973 ./usr/include/emotion-1/Emotion.h
 -rw-r--r-- root       root               33 ./usr/include/emotion-1/Emotion_Eo.h
 -rw-r--r-- root       root             5165 ./usr/include/emotion-1/Emotion_Generic_Plugin.h
 -rw-r--r-- root       root               39 ./usr/include/emotion-1/Emotion_Legacy.h
--rw-r--r-- root       root             4568 ./usr/include/emotion-1/emotion_object.eo.h
--rw-r--r-- root       root              807 ./usr/include/emotion-1/emotion_object.eo.legacy.h
+-rw-r--r-- root       root             5538 ./usr/include/emotion-1/emotion_object.eo.h
+-rw-r--r-- root       root             1783 ./usr/include/emotion-1/emotion_object.eo.legacy.h
 drwxr-xr-x root       root             4096 ./usr/include/eo-1
--rw-r--r-- root       root            35129 ./usr/include/eo-1/Eo.h
+-rw-r--r-- root       root            33945 ./usr/include/eo-1/Eo.h
 -rw-r--r-- root       root              409 ./usr/include/eo-1/eo_abstract_class.eo.h
--rw-r--r-- root       root             6942 ./usr/include/eo-1/eo_base.eo.h
+-rw-r--r-- root       root             9368 ./usr/include/eo-1/eo_base.eo.h
 drwxr-xr-x root       root             4096 ./usr/include/eolian-1
--rw-r--r-- root       root            51964 ./usr/include/eolian-1/Eolian.h
+-rw-r--r-- root       root            54384 ./usr/include/eolian-1/Eolian.h
 drwxr-xr-x root       root             4096 ./usr/include/ethumb-1
--rw-r--r-- root       root            18574 ./usr/include/ethumb-1/Ethumb.h
+-rw-r--r-- root       root            18621 ./usr/include/ethumb-1/Ethumb.h
 drwxr-xr-x root       root             4096 ./usr/include/ethumb-client-1
--rw-r--r-- root       root             8472 ./usr/include/ethumb-client-1/Ethumb_Client.h
+-rw-r--r-- root       root             8644 ./usr/include/ethumb-client-1/Ethumb_Client.h
 drwxr-xr-x root       root             4096 ./usr/include/evas-1
--rw-r--r-- root       root            11204 ./usr/include/evas-1/Evas.h
--rw-r--r-- root       root           226357 ./usr/include/evas-1/Evas_Common.h
+-rw-r--r-- root       root            11231 ./usr/include/evas-1/Evas.h
+-rw-r--r-- root       root           213585 ./usr/include/evas-1/Evas_Common.h
 -rw-r--r-- root       root             1116 ./usr/include/evas-1/Evas_Engine_Buffer.h
 -rw-r--r-- root       root             2111 ./usr/include/evas-1/Evas_Engine_GL_X11.h
 -rw-r--r-- root       root             1483 ./usr/include/evas-1/Evas_Engine_Software_X11.h
--rw-r--r-- root       root            24541 ./usr/include/evas-1/Evas_Eo.h
--rw-r--r-- root       root           203790 ./usr/include/evas-1/Evas_GL.h
--rw-r--r-- root       root           123663 ./usr/include/evas-1/Evas_Legacy.h
--rw-r--r-- root       root             7770 ./usr/include/evas-1/Evas_Loader.h
+-rw-r--r-- root       root            27442 ./usr/include/evas-1/Evas_Eo.h
+-rw-r--r-- root       root           207547 ./usr/include/evas-1/Evas_GL.h
+-rw-r--r-- root       root           125065 ./usr/include/evas-1/Evas_Legacy.h
+-rw-r--r-- root       root             7796 ./usr/include/evas-1/Evas_Loader.h
 drwxr-xr-x root       root             4096 ./usr/include/evas-1/canvas
--rw-r--r-- root       root             1684 ./usr/include/evas-1/canvas/efl_vg_base.eo.h
--rw-r--r-- root       root             1724 ./usr/include/evas-1/canvas/efl_vg_base.eo.legacy.h
+-rw-r--r-- root       root             1914 ./usr/include/evas-1/canvas/efl_vg_base.eo.h
+-rw-r--r-- root       root             1975 ./usr/include/evas-1/canvas/efl_vg_base.eo.legacy.h
 -rw-r--r-- root       root              399 ./usr/include/evas-1/canvas/efl_vg_container.eo.h
 -rw-r--r-- root       root              285 ./usr/include/evas-1/canvas/efl_vg_container.eo.legacy.h
 -rw-r--r-- root       root              389 ./usr/include/evas-1/canvas/efl_vg_gradient.eo.h
@@ -309,48 +324,52 @@ drwxr-xr-x root       root             4096 ./usr/include/evas-1/canvas
 -rw-r--r-- root       root              327 ./usr/include/evas-1/canvas/efl_vg_gradient_radial.eo.legacy.h
 -rw-r--r-- root       root              399 ./usr/include/evas-1/canvas/efl_vg_root_node.eo.h
 -rw-r--r-- root       root              285 ./usr/include/evas-1/canvas/efl_vg_root_node.eo.legacy.h
--rw-r--r-- root       root             1060 ./usr/include/evas-1/canvas/efl_vg_shape.eo.h
--rw-r--r-- root       root             1048 ./usr/include/evas-1/canvas/efl_vg_shape.eo.legacy.h
--rw-r--r-- root       root             4133 ./usr/include/evas-1/canvas/evas_3d_camera.eo.h
--rw-r--r-- root       root              271 ./usr/include/evas-1/canvas/evas_3d_camera.eo.legacy.h
--rw-r--r-- root       root            10317 ./usr/include/evas-1/canvas/evas_3d_light.eo.h
--rw-r--r-- root       root              264 ./usr/include/evas-1/canvas/evas_3d_light.eo.legacy.h
--rw-r--r-- root       root             2522 ./usr/include/evas-1/canvas/evas_3d_material.eo.h
--rw-r--r-- root       root              285 ./usr/include/evas-1/canvas/evas_3d_material.eo.legacy.h
--rw-r--r-- root       root             8862 ./usr/include/evas-1/canvas/evas_3d_mesh.eo.h
--rw-r--r-- root       root              257 ./usr/include/evas-1/canvas/evas_3d_mesh.eo.legacy.h
--rw-r--r-- root       root             7205 ./usr/include/evas-1/canvas/evas_3d_node.eo.h
--rw-r--r-- root       root              257 ./usr/include/evas-1/canvas/evas_3d_node.eo.legacy.h
--rw-r--r-- root       root             2350 ./usr/include/evas-1/canvas/evas_3d_object.eo.h
--rw-r--r-- root       root              271 ./usr/include/evas-1/canvas/evas_3d_object.eo.legacy.h
--rw-r--r-- root       root             3771 ./usr/include/evas-1/canvas/evas_3d_scene.eo.h
--rw-r--r-- root       root              264 ./usr/include/evas-1/canvas/evas_3d_scene.eo.legacy.h
--rw-r--r-- root       root             2795 ./usr/include/evas-1/canvas/evas_3d_texture.eo.h
--rw-r--r-- root       root              278 ./usr/include/evas-1/canvas/evas_3d_texture.eo.legacy.h
--rw-r--r-- root       root            27796 ./usr/include/evas-1/canvas/evas_box.eo.h
--rw-r--r-- root       root            24542 ./usr/include/evas-1/canvas/evas_box.eo.legacy.h
--rw-r--r-- root       root            60181 ./usr/include/evas-1/canvas/evas_canvas.eo.h
--rw-r--r-- root       root            61436 ./usr/include/evas-1/canvas/evas_canvas.eo.legacy.h
--rw-r--r-- root       root             1954 ./usr/include/evas-1/canvas/evas_clickable_interface.eo.h
+-rw-r--r-- root       root             1015 ./usr/include/evas-1/canvas/efl_vg_shape.eo.h
+-rw-r--r-- root       root             1021 ./usr/include/evas-1/canvas/efl_vg_shape.eo.legacy.h
+-rw-r--r-- root       root            26654 ./usr/include/evas-1/canvas/evas_box.eo.h
+-rw-r--r-- root       root            23872 ./usr/include/evas-1/canvas/evas_box.eo.legacy.h
+-rw-r--r-- root       root            59843 ./usr/include/evas-1/canvas/evas_canvas.eo.h
+-rw-r--r-- root       root            61434 ./usr/include/evas-1/canvas/evas_canvas.eo.legacy.h
+-rw-r--r-- root       root             3459 ./usr/include/evas-1/canvas/evas_canvas3d_camera.eo.h
+-rw-r--r-- root       root              313 ./usr/include/evas-1/canvas/evas_canvas3d_camera.eo.legacy.h
+-rw-r--r-- root       root             9879 ./usr/include/evas-1/canvas/evas_canvas3d_light.eo.h
+-rw-r--r-- root       root              306 ./usr/include/evas-1/canvas/evas_canvas3d_light.eo.legacy.h
+-rw-r--r-- root       root             4320 ./usr/include/evas-1/canvas/evas_canvas3d_material.eo.h
+-rw-r--r-- root       root              327 ./usr/include/evas-1/canvas/evas_canvas3d_material.eo.legacy.h
+-rw-r--r-- root       root            13443 ./usr/include/evas-1/canvas/evas_canvas3d_mesh.eo.h
+-rw-r--r-- root       root              299 ./usr/include/evas-1/canvas/evas_canvas3d_mesh.eo.legacy.h
+-rw-r--r-- root       root            14171 ./usr/include/evas-1/canvas/evas_canvas3d_node.eo.h
+-rw-r--r-- root       root              299 ./usr/include/evas-1/canvas/evas_canvas3d_node.eo.legacy.h
+-rw-r--r-- root       root             2747 ./usr/include/evas-1/canvas/evas_canvas3d_object.eo.h
+-rw-r--r-- root       root              313 ./usr/include/evas-1/canvas/evas_canvas3d_object.eo.legacy.h
+-rw-r--r-- root       root             5163 ./usr/include/evas-1/canvas/evas_canvas3d_primitive.eo.h
+-rw-r--r-- root       root              334 ./usr/include/evas-1/canvas/evas_canvas3d_primitive.eo.legacy.h
+-rw-r--r-- root       root             5385 ./usr/include/evas-1/canvas/evas_canvas3d_scene.eo.h
+-rw-r--r-- root       root              306 ./usr/include/evas-1/canvas/evas_canvas3d_scene.eo.legacy.h
+-rw-r--r-- root       root             5214 ./usr/include/evas-1/canvas/evas_canvas3d_texture.eo.h
+-rw-r--r-- root       root              320 ./usr/include/evas-1/canvas/evas_canvas3d_texture.eo.legacy.h
+-rw-r--r-- root       root             2172 ./usr/include/evas-1/canvas/evas_clickable_interface.eo.h
 -rw-r--r-- root       root              341 ./usr/include/evas-1/canvas/evas_clickable_interface.eo.legacy.h
--rw-r--r-- root       root              560 ./usr/include/evas-1/canvas/evas_common_interface.eo.h
--rw-r--r-- root       root              442 ./usr/include/evas-1/canvas/evas_common_interface.eo.legacy.h
+-rw-r--r-- root       root              556 ./usr/include/evas-1/canvas/evas_common_interface.eo.h
+-rw-r--r-- root       root              441 ./usr/include/evas-1/canvas/evas_common_interface.eo.legacy.h
 -rw-r--r-- root       root             2193 ./usr/include/evas-1/canvas/evas_draggable_interface.eo.h
 -rw-r--r-- root       root              341 ./usr/include/evas-1/canvas/evas_draggable_interface.eo.legacy.h
--rw-r--r-- root       root             4206 ./usr/include/evas-1/canvas/evas_grid.eo.h
--rw-r--r-- root       root             4423 ./usr/include/evas-1/canvas/evas_grid.eo.legacy.h
--rw-r--r-- root       root            30588 ./usr/include/evas-1/canvas/evas_image.eo.h
--rw-r--r-- root       root            28824 ./usr/include/evas-1/canvas/evas_image.eo.legacy.h
--rw-r--r-- root       root             1186 ./usr/include/evas-1/canvas/evas_line.eo.h
--rw-r--r-- root       root             1127 ./usr/include/evas-1/canvas/evas_line.eo.legacy.h
--rw-r--r-- root       root            47662 ./usr/include/evas-1/canvas/evas_object.eo.h
--rw-r--r-- root       root            44461 ./usr/include/evas-1/canvas/evas_object.eo.legacy.h
--rw-r--r-- root       root            11371 ./usr/include/evas-1/canvas/evas_object_smart.eo.h
--rw-r--r-- root       root             8414 ./usr/include/evas-1/canvas/evas_object_smart.eo.legacy.h
--rw-r--r-- root       root             1481 ./usr/include/evas-1/canvas/evas_out.eo.h
--rw-r--r-- root       root             1449 ./usr/include/evas-1/canvas/evas_out.eo.legacy.h
--rw-r--r-- root       root              780 ./usr/include/evas-1/canvas/evas_polygon.eo.h
--rw-r--r-- root       root              706 ./usr/include/evas-1/canvas/evas_polygon.eo.legacy.h
+-rw-r--r-- root       root             2122 ./usr/include/evas-1/canvas/evas_filter.eo.h
+-rw-r--r-- root       root              250 ./usr/include/evas-1/canvas/evas_filter.eo.legacy.h
+-rw-r--r-- root       root             4363 ./usr/include/evas-1/canvas/evas_grid.eo.h
+-rw-r--r-- root       root             4625 ./usr/include/evas-1/canvas/evas_grid.eo.legacy.h
+-rw-r--r-- root       root            27438 ./usr/include/evas-1/canvas/evas_image.eo.h
+-rw-r--r-- root       root            27354 ./usr/include/evas-1/canvas/evas_image.eo.legacy.h
+-rw-r--r-- root       root             1220 ./usr/include/evas-1/canvas/evas_line.eo.h
+-rw-r--r-- root       root             1167 ./usr/include/evas-1/canvas/evas_line.eo.legacy.h
+-rw-r--r-- root       root            49007 ./usr/include/evas-1/canvas/evas_object.eo.h
+-rw-r--r-- root       root            44206 ./usr/include/evas-1/canvas/evas_object.eo.legacy.h
+-rw-r--r-- root       root            10733 ./usr/include/evas-1/canvas/evas_object_smart.eo.h
+-rw-r--r-- root       root             8045 ./usr/include/evas-1/canvas/evas_object_smart.eo.legacy.h
+-rw-r--r-- root       root             1428 ./usr/include/evas-1/canvas/evas_out.eo.h
+-rw-r--r-- root       root             1408 ./usr/include/evas-1/canvas/evas_out.eo.legacy.h
+-rw-r--r-- root       root              733 ./usr/include/evas-1/canvas/evas_polygon.eo.h
+-rw-r--r-- root       root              665 ./usr/include/evas-1/canvas/evas_polygon.eo.legacy.h
 -rw-r--r-- root       root              379 ./usr/include/evas-1/canvas/evas_rectangle.eo.h
 -rw-r--r-- root       root              271 ./usr/include/evas-1/canvas/evas_rectangle.eo.legacy.h
 -rw-r--r-- root       root             1627 ./usr/include/evas-1/canvas/evas_scrollable_interface.eo.h
@@ -361,17 +380,18 @@ drwxr-xr-x root       root             4096 ./usr/include/evas-1/canvas
 -rw-r--r-- root       root              320 ./usr/include/evas-1/canvas/evas_signal_interface.eo.legacy.h
 -rw-r--r-- root       root              419 ./usr/include/evas-1/canvas/evas_smart_clipped.eo.h
 -rw-r--r-- root       root              299 ./usr/include/evas-1/canvas/evas_smart_clipped.eo.legacy.h
--rw-r--r-- root       root             8400 ./usr/include/evas-1/canvas/evas_table.eo.h
--rw-r--r-- root       root             8734 ./usr/include/evas-1/canvas/evas_table.eo.legacy.h
--rw-r--r-- root       root            12559 ./usr/include/evas-1/canvas/evas_text.eo.h
--rw-r--r-- root       root            11621 ./usr/include/evas-1/canvas/evas_text.eo.legacy.h
--rw-r--r-- root       root             8821 ./usr/include/evas-1/canvas/evas_textblock.eo.h
--rw-r--r-- root       root             9009 ./usr/include/evas-1/canvas/evas_textblock.eo.legacy.h
--rw-r--r-- root       root             7227 ./usr/include/evas-1/canvas/evas_textgrid.eo.h
--rw-r--r-- root       root             7326 ./usr/include/evas-1/canvas/evas_textgrid.eo.legacy.h
--rw-r--r-- root       root              583 ./usr/include/evas-1/canvas/evas_vg.eo.h
--rw-r--r-- root       root              508 ./usr/include/evas-1/canvas/evas_vg.eo.legacy.h
--rw-r--r-- root       root             1102 ./usr/include/evas-1/canvas/evas_zoomable_interface.eo.h
+-rw-r--r-- root       root            11334 ./usr/include/evas-1/canvas/evas_table.eo.h
+-rw-r--r-- root       root            11728 ./usr/include/evas-1/canvas/evas_table.eo.legacy.h
+-rw-r--r-- root       root            13059 ./usr/include/evas-1/canvas/evas_text.eo.h
+-rw-r--r-- root       root            13474 ./usr/include/evas-1/canvas/evas_text.eo.legacy.h
+-rw-r--r-- root       root            10369 ./usr/include/evas-1/canvas/evas_textblock.eo.h
+-rw-r--r-- root       root            10703 ./usr/include/evas-1/canvas/evas_textblock.eo.legacy.h
+-rw-r--r-- root       root             7717 ./usr/include/evas-1/canvas/evas_textgrid.eo.h
+-rw-r--r-- root       root             7885 ./usr/include/evas-1/canvas/evas_textgrid.eo.legacy.h
+-rw-r--r-- root       root            12785 ./usr/include/evas-1/canvas/evas_types.eot.h
+-rw-r--r-- root       root              646 ./usr/include/evas-1/canvas/evas_vg.eo.h
+-rw-r--r-- root       root              574 ./usr/include/evas-1/canvas/evas_vg.eo.legacy.h
+-rw-r--r-- root       root             1099 ./usr/include/evas-1/canvas/evas_zoomable_interface.eo.h
 -rw-r--r-- root       root              334 ./usr/include/evas-1/canvas/evas_zoomable_interface.eo.legacy.h
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/cmake
@@ -447,134 +467,134 @@ drwxr-xr-x root       root             4096 ./usr/lib/cmake/EvasCxx
 drwxr-xr-x root       root             4096 ./usr/lib/ecore
 drwxr-xr-x root       root             4096 ./usr/lib/ecore/system
 drwxr-xr-x root       root             4096 ./usr/lib/ecore/system/upower
-drwxr-xr-x root       root             4096 ./usr/lib/ecore/system/upower/v-1.14
--rwxr-xr-x root       root             1152 ./usr/lib/ecore/system/upower/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/ecore/system/upower/v-1.15
+-rwxr-xr-x root       root             1152 ./usr/lib/ecore/system/upower/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines/extn
-drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines/extn/v-1.14
--rwxr-xr-x root       root             1578 ./usr/lib/ecore_evas/engines/extn/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines/extn/v-1.15
+-rwxr-xr-x root       root             1578 ./usr/lib/ecore_evas/engines/extn/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines/x
-drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines/x/v-1.14
--rwxr-xr-x root       root             2075 ./usr/lib/ecore_evas/engines/x/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/ecore_evas/engines/x/v-1.15
+-rwxr-xr-x root       root             2075 ./usr/lib/ecore_evas/engines/x/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules/xim
-drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules/xim/v-1.14
--rwxr-xr-x root       root             1796 ./usr/lib/ecore_imf/modules/xim/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/ecore_imf/modules/xim/v-1.15
+-rwxr-xr-x root       root             1796 ./usr/lib/ecore_imf/modules/xim/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/edje
 drwxr-xr-x root       root             4096 ./usr/lib/edje/modules
 drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion
-drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion/v-1.14
--rwxr-xr-x root       root             2664 ./usr/lib/edje/modules/emotion/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion/v-1.15
+-rwxr-xr-x root       root             2713 ./usr/lib/edje/modules/emotion/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/eeze
 drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules
 drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor
 drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor/fake
-drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor/fake/v-1.14
--rwxr-xr-x root       root             1402 ./usr/lib/eeze/modules/sensor/fake/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor/fake/v-1.15
+-rwxr-xr-x root       root             1402 ./usr/lib/eeze/modules/sensor/fake/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor/udev
-drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor/udev/v-1.14
--rwxr-xr-x root       root             1402 ./usr/lib/eeze/modules/sensor/udev/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/eeze/modules/sensor/udev/v-1.15
+-rwxr-xr-x root       root             1402 ./usr/lib/eeze/modules/sensor/udev/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/emotion
 drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules
 drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules/gstreamer1
-drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules/gstreamer1/v-1.14
--rwxr-xr-x root       root             2122 ./usr/lib/emotion/modules/gstreamer1/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules/gstreamer1/v-1.15
+-rwxr-xr-x root       root             2122 ./usr/lib/emotion/modules/gstreamer1/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules/emotion
-drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules/emotion/v-1.14
--rwxr-xr-x root       root             2689 ./usr/lib/ethumb/modules/emotion/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules/emotion/v-1.15
+-rwxr-xr-x root       root             2738 ./usr/lib/ethumb/modules/emotion/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/evas
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic
-drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic/v-1.14
--rwxr-xr-x root       root             1868 ./usr/lib/evas/modules/engines/gl_generic/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_generic/v-1.15
+-rwxr-xr-x root       root             1868 ./usr/lib/evas/modules/engines/gl_generic/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11
-drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11/v-1.14
--rwxr-xr-x root       root             1955 ./usr/lib/evas/modules/engines/gl_x11/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/gl_x11/v-1.15
+-rwxr-xr-x root       root             1955 ./usr/lib/evas/modules/engines/gl_x11/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/software_x11
-drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/software_x11/v-1.14
--rwxr-xr-x root       root             2028 ./usr/lib/evas/modules/engines/software_x11/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/engines/software_x11/v-1.15
+-rwxr-xr-x root       root             2028 ./usr/lib/evas/modules/engines/software_x11/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders/gif
-drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders/gif/v-1.14
--rwxr-xr-x root       root             1365 ./usr/lib/evas/modules/image_loaders/gif/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders/gif/v-1.15
+-rwxr-xr-x root       root             1365 ./usr/lib/evas/modules/image_loaders/gif/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders/tiff
-drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders/tiff/v-1.14
--rwxr-xr-x root       root             1430 ./usr/lib/evas/modules/image_loaders/tiff/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_loaders/tiff/v-1.15
+-rwxr-xr-x root       root             1430 ./usr/lib/evas/modules/image_loaders/tiff/v-1.15/module.la
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers
 drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers/tiff
-drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers/tiff/v-1.14
--rwxr-xr-x root       root             1429 ./usr/lib/evas/modules/image_savers/tiff/v-1.14/module.la
+drwxr-xr-x root       root             4096 ./usr/lib/evas/modules/image_savers/tiff/v-1.15
+-rwxr-xr-x root       root             1429 ./usr/lib/evas/modules/image_savers/tiff/v-1.15/module.la
 -rw-r--r-- root       root             1081 ./usr/lib/libecore.la
-lrwxrwxrwx root       root               18 ./usr/lib/libecore.so -> libecore.so.1.14.1
+lrwxrwxrwx root       root               18 ./usr/lib/libecore.so -> libecore.so.1.15.1
 -rw-r--r-- root       root             1986 ./usr/lib/libecore_audio.la
-lrwxrwxrwx root       root               24 ./usr/lib/libecore_audio.so -> libecore_audio.so.1.14.1
+lrwxrwxrwx root       root               24 ./usr/lib/libecore_audio.so -> libecore_audio.so.1.15.1
 -rw-r--r-- root       root             1139 ./usr/lib/libecore_avahi.la
-lrwxrwxrwx root       root               24 ./usr/lib/libecore_avahi.so -> libecore_avahi.so.1.14.1
+lrwxrwxrwx root       root               24 ./usr/lib/libecore_avahi.so -> libecore_avahi.so.1.15.1
 -rw-r--r-- root       root             1209 ./usr/lib/libecore_con.la
-lrwxrwxrwx root       root               22 ./usr/lib/libecore_con.so -> libecore_con.so.1.14.1
+lrwxrwxrwx root       root               22 ./usr/lib/libecore_con.so -> libecore_con.so.1.15.1
 -rw-r--r-- root       root             1522 ./usr/lib/libecore_evas.la
-lrwxrwxrwx root       root               23 ./usr/lib/libecore_evas.so -> libecore_evas.so.1.14.1
+lrwxrwxrwx root       root               23 ./usr/lib/libecore_evas.so -> libecore_evas.so.1.15.1
 -rw-r--r-- root       root             1241 ./usr/lib/libecore_file.la
-lrwxrwxrwx root       root               23 ./usr/lib/libecore_file.so -> libecore_file.so.1.14.1
+lrwxrwxrwx root       root               23 ./usr/lib/libecore_file.so -> libecore_file.so.1.15.1
 -rw-r--r-- root       root             1155 ./usr/lib/libecore_imf.la
-lrwxrwxrwx root       root               22 ./usr/lib/libecore_imf.so -> libecore_imf.so.1.14.1
+lrwxrwxrwx root       root               22 ./usr/lib/libecore_imf.so -> libecore_imf.so.1.15.1
 -rw-r--r-- root       root             1539 ./usr/lib/libecore_imf_evas.la
-lrwxrwxrwx root       root               27 ./usr/lib/libecore_imf_evas.so -> libecore_imf_evas.so.1.14.1
+lrwxrwxrwx root       root               27 ./usr/lib/libecore_imf_evas.so -> libecore_imf_evas.so.1.15.1
 -rw-r--r-- root       root             1139 ./usr/lib/libecore_input.la
-lrwxrwxrwx root       root               24 ./usr/lib/libecore_input.so -> libecore_input.so.1.14.1
+lrwxrwxrwx root       root               24 ./usr/lib/libecore_input.so -> libecore_input.so.1.15.1
 -rw-r--r-- root       root             1525 ./usr/lib/libecore_input_evas.la
-lrwxrwxrwx root       root               29 ./usr/lib/libecore_input_evas.so -> libecore_input_evas.so.1.14.1
+lrwxrwxrwx root       root               29 ./usr/lib/libecore_input_evas.so -> libecore_input_evas.so.1.15.1
 -rw-r--r-- root       root             1235 ./usr/lib/libecore_ipc.la
-lrwxrwxrwx root       root               22 ./usr/lib/libecore_ipc.so -> libecore_ipc.so.1.14.1
+lrwxrwxrwx root       root               22 ./usr/lib/libecore_ipc.so -> libecore_ipc.so.1.15.1
 -rw-r--r-- root       root             1753 ./usr/lib/libecore_x.la
-lrwxrwxrwx root       root               20 ./usr/lib/libecore_x.so -> libecore_x.so.1.14.1
+lrwxrwxrwx root       root               20 ./usr/lib/libecore_x.so -> libecore_x.so.1.15.1
 -rw-r--r-- root       root              994 ./usr/lib/libector.la
-lrwxrwxrwx root       root               18 ./usr/lib/libector.so -> libector.so.1.14.1
--rw-r--r-- root       root             2459 ./usr/lib/libedje.la
-lrwxrwxrwx root       root               17 ./usr/lib/libedje.so -> libedje.so.1.14.1
+lrwxrwxrwx root       root               18 ./usr/lib/libector.so -> libector.so.1.15.1
+-rw-r--r-- root       root             2508 ./usr/lib/libedje.la
+lrwxrwxrwx root       root               17 ./usr/lib/libedje.so -> libedje.so.1.15.1
 -rw-r--r-- root       root             1005 ./usr/lib/libeet.la
-lrwxrwxrwx root       root               16 ./usr/lib/libeet.so -> libeet.so.1.14.1
+lrwxrwxrwx root       root               16 ./usr/lib/libeet.so -> libeet.so.1.15.1
 -rw-r--r-- root       root             1367 ./usr/lib/libeeze.la
-lrwxrwxrwx root       root               17 ./usr/lib/libeeze.so -> libeeze.so.1.14.1
+lrwxrwxrwx root       root               17 ./usr/lib/libeeze.so -> libeeze.so.1.15.1
 -rw-r--r-- root       root              962 ./usr/lib/libefl.la
-lrwxrwxrwx root       root               16 ./usr/lib/libefl.so -> libefl.so.1.14.1
--rw-r--r-- root       root             1290 ./usr/lib/libefreet.la
-lrwxrwxrwx root       root               19 ./usr/lib/libefreet.so -> libefreet.so.1.14.1
--rw-r--r-- root       root             1343 ./usr/lib/libefreet_mime.la
-lrwxrwxrwx root       root               24 ./usr/lib/libefreet_mime.so -> libefreet_mime.so.1.14.1
--rw-r--r-- root       root             1349 ./usr/lib/libefreet_trash.la
-lrwxrwxrwx root       root               25 ./usr/lib/libefreet_trash.so -> libefreet_trash.so.1.14.1
+lrwxrwxrwx root       root               16 ./usr/lib/libefl.so -> libefl.so.1.15.1
+-rw-r--r-- root       root             1270 ./usr/lib/libefreet.la
+lrwxrwxrwx root       root               19 ./usr/lib/libefreet.so -> libefreet.so.1.15.1
+-rw-r--r-- root       root             1323 ./usr/lib/libefreet_mime.la
+lrwxrwxrwx root       root               24 ./usr/lib/libefreet_mime.so -> libefreet_mime.so.1.15.1
+-rw-r--r-- root       root             1329 ./usr/lib/libefreet_trash.la
+lrwxrwxrwx root       root               25 ./usr/lib/libefreet_trash.so -> libefreet_trash.so.1.15.1
 -rw-r--r-- root       root              928 ./usr/lib/libeina.la
-lrwxrwxrwx root       root               17 ./usr/lib/libeina.so -> libeina.so.1.14.1
+lrwxrwxrwx root       root               17 ./usr/lib/libeina.so -> libeina.so.1.15.1
 -rw-r--r-- root       root             1173 ./usr/lib/libeio.la
-lrwxrwxrwx root       root               16 ./usr/lib/libeio.so -> libeio.so.1.14.1
+lrwxrwxrwx root       root               16 ./usr/lib/libeio.so -> libeio.so.1.15.1
 -rw-r--r-- root       root             1132 ./usr/lib/libeldbus.la
-lrwxrwxrwx root       root               19 ./usr/lib/libeldbus.so -> libeldbus.so.1.14.1
+lrwxrwxrwx root       root               19 ./usr/lib/libeldbus.so -> libeldbus.so.1.15.1
 -rw-r--r-- root       root             1173 ./usr/lib/libelocation.la
-lrwxrwxrwx root       root               22 ./usr/lib/libelocation.so -> libelocation.so.1.14.1
+lrwxrwxrwx root       root               22 ./usr/lib/libelocation.so -> libelocation.so.1.15.1
 -rw-r--r-- root       root             1110 ./usr/lib/libelua.la
-lrwxrwxrwx root       root               17 ./usr/lib/libelua.so -> libelua.so.1.14.1
+lrwxrwxrwx root       root               17 ./usr/lib/libelua.so -> libelua.so.1.15.1
 -rw-r--r-- root       root              961 ./usr/lib/libembryo.la
-lrwxrwxrwx root       root               19 ./usr/lib/libembryo.so -> libembryo.so.1.14.1
+lrwxrwxrwx root       root               19 ./usr/lib/libembryo.so -> libembryo.so.1.15.1
 -rw-r--r-- root       root              995 ./usr/lib/libemile.la
-lrwxrwxrwx root       root               18 ./usr/lib/libemile.so -> libemile.so.1.14.1
+lrwxrwxrwx root       root               18 ./usr/lib/libemile.so -> libemile.so.1.15.1
 -rw-r--r-- root       root             1672 ./usr/lib/libemotion.la
-lrwxrwxrwx root       root               20 ./usr/lib/libemotion.so -> libemotion.so.1.14.1
+lrwxrwxrwx root       root               20 ./usr/lib/libemotion.so -> libemotion.so.1.15.1
 -rw-r--r-- root       root              937 ./usr/lib/libeo.la
-lrwxrwxrwx root       root               15 ./usr/lib/libeo.so -> libeo.so.1.14.1
+lrwxrwxrwx root       root               15 ./usr/lib/libeo.so -> libeo.so.1.15.1
 -rw-r--r-- root       root              961 ./usr/lib/libeolian.la
-lrwxrwxrwx root       root               19 ./usr/lib/libeolian.so -> libeolian.so.1.14.1
--rw-r--r-- root       root             2492 ./usr/lib/libethumb.la
-lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so -> libethumb.so.1.14.1
--rw-r--r-- root       root             2580 ./usr/lib/libethumb_client.la
-lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so -> libethumb_client.so.1.14.1
+lrwxrwxrwx root       root               19 ./usr/lib/libeolian.so -> libeolian.so.1.15.1
+-rw-r--r-- root       root             2541 ./usr/lib/libethumb.la
+lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so -> libethumb.so.1.15.1
+-rw-r--r-- root       root             2629 ./usr/lib/libethumb_client.la
+lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so -> libethumb_client.so.1.15.1
 -rw-r--r-- root       root             1300 ./usr/lib/libevas.la
-lrwxrwxrwx root       root               17 ./usr/lib/libevas.so -> libevas.so.1.14.1
+lrwxrwxrwx root       root               17 ./usr/lib/libevas.so -> libevas.so.1.15.1
 drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              436 ./usr/lib/pkgconfig/ecore-audio-cxx.pc
 -rw-r--r-- root       root              390 ./usr/lib/pkgconfig/ecore-audio.pc
@@ -588,15 +608,15 @@ drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              317 ./usr/lib/pkgconfig/ecore-input.pc
 -rw-r--r-- root       root              333 ./usr/lib/pkgconfig/ecore-ipc.pc
 -rw-r--r-- root       root              443 ./usr/lib/pkgconfig/ecore-x.pc
--rw-r--r-- root       root              510 ./usr/lib/pkgconfig/ecore.pc
+-rw-r--r-- root       root              509 ./usr/lib/pkgconfig/ecore.pc
 -rw-r--r-- root       root              315 ./usr/lib/pkgconfig/ector.pc
--rw-r--r-- root       root              799 ./usr/lib/pkgconfig/edje.pc
+-rw-r--r-- root       root              815 ./usr/lib/pkgconfig/edje.pc
 -rw-r--r-- root       root              332 ./usr/lib/pkgconfig/eet.pc
 -rw-r--r-- root       root              389 ./usr/lib/pkgconfig/eeze.pc
--rw-r--r-- root       root              395 ./usr/lib/pkgconfig/efl.pc
--rw-r--r-- root       root              401 ./usr/lib/pkgconfig/efreet-mime.pc
--rw-r--r-- root       root              390 ./usr/lib/pkgconfig/efreet-trash.pc
--rw-r--r-- root       root              375 ./usr/lib/pkgconfig/efreet.pc
+-rw-r--r-- root       root              394 ./usr/lib/pkgconfig/efl.pc
+-rw-r--r-- root       root              404 ./usr/lib/pkgconfig/efreet-mime.pc
+-rw-r--r-- root       root              393 ./usr/lib/pkgconfig/efreet-trash.pc
+-rw-r--r-- root       root              378 ./usr/lib/pkgconfig/efreet.pc
 -rw-r--r-- root       root              351 ./usr/lib/pkgconfig/eina.pc
 -rw-r--r-- root       root              345 ./usr/lib/pkgconfig/eio.pc
 -rw-r--r-- root       root              305 ./usr/lib/pkgconfig/eldbus.pc
@@ -605,14 +625,14 @@ drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              388 ./usr/lib/pkgconfig/embryo.pc
 -rw-r--r-- root       root              341 ./usr/lib/pkgconfig/emile.pc
 -rw-r--r-- root       root              488 ./usr/lib/pkgconfig/emotion.pc
--rw-r--r-- root       root              407 ./usr/lib/pkgconfig/eo.pc
+-rw-r--r-- root       root              406 ./usr/lib/pkgconfig/eo.pc
 -rw-r--r-- root       root              332 ./usr/lib/pkgconfig/eolian.pc
 -rw-r--r-- root       root              473 ./usr/lib/pkgconfig/ethumb.pc
 -rw-r--r-- root       root              432 ./usr/lib/pkgconfig/ethumb_client.pc
 -rw-r--r-- root       root               91 ./usr/lib/pkgconfig/evas-opengl-x11.pc
 -rw-r--r-- root       root               84 ./usr/lib/pkgconfig/evas-software-buffer.pc
 -rw-r--r-- root       root               95 ./usr/lib/pkgconfig/evas-software-x11.pc
--rw-r--r-- root       root              592 ./usr/lib/pkgconfig/evas.pc
+-rw-r--r-- root       root              591 ./usr/lib/pkgconfig/evas.pc
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/eo
 drwxr-xr-x root       root             4096 ./usr/share/eo/gdb
@@ -621,4 +641,4 @@ drwxr-xr-x root       root             4096 ./usr/share/gdb
 drwxr-xr-x root       root             4096 ./usr/share/gdb/auto-load
 drwxr-xr-x root       root             4096 ./usr/share/gdb/auto-load/usr
 drwxr-xr-x root       root             4096 ./usr/share/gdb/auto-load/usr/lib
--rw-r--r-- root       root              121 ./usr/share/gdb/auto-load/usr/lib/libeo.so.1.14.1-gdb.py
+-rw-r--r-- root       root              116 ./usr/share/gdb/auto-load/usr/lib/libeo.so.1.15.1-gdb.py

@@ -1,0 +1,5 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          1103356 ./usr/lib/libtheora.a
+-rw-r--r-- root       root           404356 ./usr/lib/libtheoradec.a
+-rw-r--r-- root       root           845546 ./usr/lib/libtheoraenc.a

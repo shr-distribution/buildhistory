@@ -1,0 +1,6 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            16592 ./usr/sbin/jffs2dump
+-rwxr-xr-x root       root            11004 ./usr/sbin/jffs2reader
+-rwxr-xr-x root       root            35424 ./usr/sbin/mkfs.jffs2
+-rwxr-xr-x root       root            17092 ./usr/sbin/sumtool

@@ -1,0 +1,14 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+-rw-r--r-- root       root          1102916 ./usr/lib/libgstaudio-0.10.a
+-rw-r--r-- root       root           120046 ./usr/lib/libgstcdda-0.10.a
+-rw-r--r-- root       root           204270 ./usr/lib/libgstfft-0.10.a
+-rw-r--r-- root       root           370784 ./usr/lib/libgstinterfaces-0.10.a
+-rw-r--r-- root       root            25590 ./usr/lib/libgstnetbuffer-0.10.a
+-rw-r--r-- root       root           529218 ./usr/lib/libgstpbutils-0.10.a
+-rw-r--r-- root       root           184208 ./usr/lib/libgstriff-0.10.a
+-rw-r--r-- root       root           431058 ./usr/lib/libgstrtp-0.10.a
+-rw-r--r-- root       root           353076 ./usr/lib/libgstrtsp-0.10.a
+-rw-r--r-- root       root            90382 ./usr/lib/libgstsdp-0.10.a
+-rw-r--r-- root       root           884726 ./usr/lib/libgsttag-0.10.a
+-rw-r--r-- root       root           429586 ./usr/lib/libgstvideo-0.10.a

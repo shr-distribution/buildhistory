@@ -1,0 +1,10 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root            10096 ./usr/bin/fc-cache
+-rwxr-xr-x root       root             7932 ./usr/bin/fc-cat
+-rwxr-xr-x root       root             6400 ./usr/bin/fc-list
+-rwxr-xr-x root       root             7148 ./usr/bin/fc-match
+-rwxr-xr-x root       root             6124 ./usr/bin/fc-pattern
+-rwxr-xr-x root       root             5888 ./usr/bin/fc-query
+-rwxr-xr-x root       root             6144 ./usr/bin/fc-scan
+-rwxr-xr-x root       root             6844 ./usr/bin/fc-validate

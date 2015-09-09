@@ -1,0 +1,16 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            25028 ./usr/sbin/flash_erase
+-rwxr-xr-x root       root              150 ./usr/sbin/flash_eraseall
+-rwxr-xr-x root       root             4304 ./usr/sbin/flash_lock
+-rwxr-xr-x root       root             3868 ./usr/sbin/flash_otp_dump
+-rwxr-xr-x root       root             3888 ./usr/sbin/flash_otp_info
+-rwxr-xr-x root       root             4708 ./usr/sbin/flash_otp_lock
+-rwxr-xr-x root       root             4640 ./usr/sbin/flash_otp_write
+-rwxr-xr-x root       root             4312 ./usr/sbin/flash_unlock
+-rwxr-xr-x root       root             7940 ./usr/sbin/flashcp
+-rwxr-xr-x root       root             7448 ./usr/sbin/mtd_debug
+-rwxr-xr-x root       root            33000 ./usr/sbin/mtdinfo
+-rwxr-xr-x root       root            26620 ./usr/sbin/nanddump
+-rwxr-xr-x root       root             7364 ./usr/sbin/nandtest
+-rwxr-xr-x root       root            27352 ./usr/sbin/nandwrite

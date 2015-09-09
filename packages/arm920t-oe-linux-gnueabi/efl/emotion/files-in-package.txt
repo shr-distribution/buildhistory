@@ -3,8 +3,8 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/emotion
 drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules
 drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules/gstreamer1
-drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules/gstreamer1/v-1.14
--rwxr-xr-x root       root            37988 ./usr/lib/emotion/modules/gstreamer1/v-1.14/module.so
+drwxr-xr-x root       root             4096 ./usr/lib/emotion/modules/gstreamer1/v-1.15
+-rwxr-xr-x root       root            39980 ./usr/lib/emotion/modules/gstreamer1/v-1.15/module.so
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/emotion
 -rw-r--r-- root       root               77 ./usr/share/emotion/checkme

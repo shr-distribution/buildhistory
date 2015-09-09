@@ -1,0 +1,31 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/bin
+-rwxr-xr-x root       root             8604 ./usr/bin/gst-feedback
+-rwxr-xr-x root       root             3173 ./usr/bin/gst-feedback-0.10
+-rwxr-xr-x root       root             8600 ./usr/bin/gst-inspect
+-rwxr-xr-x root       root            29632 ./usr/bin/gst-inspect-0.10
+-rwxr-xr-x root       root             8600 ./usr/bin/gst-launch
+-rwxr-xr-x root       root            27728 ./usr/bin/gst-launch-0.10
+-rwxr-xr-x root       root             8604 ./usr/bin/gst-typefind
+-rwxr-xr-x root       root             8088 ./usr/bin/gst-typefind-0.10
+-rwxr-xr-x root       root             8604 ./usr/bin/gst-xmlinspect
+-rwxr-xr-x root       root            15788 ./usr/bin/gst-xmlinspect-0.10
+-rwxr-xr-x root       root             8604 ./usr/bin/gst-xmllaunch
+-rwxr-xr-x root       root            27732 ./usr/bin/gst-xmllaunch-0.10
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-0.10
+-rwxr-xr-x root       root           210876 ./usr/lib/gstreamer-0.10/libgstcoreelements.so
+-rwxr-xr-x root       root            17188 ./usr/lib/gstreamer-0.10/libgstcoreindexers.so
+drwxr-xr-x root       root             4096 ./usr/lib/gstreamer/gstreamer-0.10
+-rwxr-xr-x root       root             3832 ./usr/lib/gstreamer/gstreamer-0.10/gst-plugin-scanner
+lrwxrwxrwx root       root               25 ./usr/lib/libgstbase-0.10.so.0 -> libgstbase-0.10.so.0.30.0
+-rwxr-xr-x root       root           269404 ./usr/lib/libgstbase-0.10.so.0.30.0
+lrwxrwxrwx root       root               31 ./usr/lib/libgstcontroller-0.10.so.0 -> libgstcontroller-0.10.so.0.30.0
+-rwxr-xr-x root       root           111816 ./usr/lib/libgstcontroller-0.10.so.0.30.0
+lrwxrwxrwx root       root               33 ./usr/lib/libgstdataprotocol-0.10.so.0 -> libgstdataprotocol-0.10.so.0.30.0
+-rwxr-xr-x root       root            13616 ./usr/lib/libgstdataprotocol-0.10.so.0.30.0
+lrwxrwxrwx root       root               24 ./usr/lib/libgstnet-0.10.so.0 -> libgstnet-0.10.so.0.30.0
+-rwxr-xr-x root       root            21428 ./usr/lib/libgstnet-0.10.so.0.30.0
+lrwxrwxrwx root       root               27 ./usr/lib/libgstreamer-0.10.so.0 -> libgstreamer-0.10.so.0.30.0
+-rwxr-xr-x root       root           705912 ./usr/lib/libgstreamer-0.10.so.0.30.0

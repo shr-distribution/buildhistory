@@ -1,0 +1,15 @@
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            55724 ./usr/sbin/mkfs.ubifs
+-rwxr-xr-x root       root            21644 ./usr/sbin/ubiattach
+-rwxr-xr-x root       root            18688 ./usr/sbin/ubiblock
+-rwxr-xr-x root       root             9988 ./usr/sbin/ubicrc32
+-rwxr-xr-x root       root            19956 ./usr/sbin/ubidetach
+-rwxr-xr-x root       root            51580 ./usr/sbin/ubiformat
+-rwxr-xr-x root       root            21676 ./usr/sbin/ubimkvol
+-rwxr-xr-x root       root            23300 ./usr/sbin/ubinfo
+-rwxr-xr-x root       root            30608 ./usr/sbin/ubinize
+-rwxr-xr-x root       root            18528 ./usr/sbin/ubirename
+-rwxr-xr-x root       root            19584 ./usr/sbin/ubirmvol
+-rwxr-xr-x root       root            20484 ./usr/sbin/ubirsvol
+-rwxr-xr-x root       root            21000 ./usr/sbin/ubiupdatevol

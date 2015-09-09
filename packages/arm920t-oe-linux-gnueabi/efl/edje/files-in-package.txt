@@ -3,13 +3,13 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/edje
 drwxr-xr-x root       root             4096 ./usr/lib/edje/modules
 drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion
-drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion/v-1.14
--rwxr-xr-x root       root            15476 ./usr/lib/edje/modules/emotion/v-1.14/module.so
+drwxr-xr-x root       root             4096 ./usr/lib/edje/modules/emotion/v-1.15
+-rwxr-xr-x root       root            15500 ./usr/lib/edje/modules/emotion/v-1.15/module.so
 drwxr-xr-x root       root             4096 ./usr/lib/edje/utils
-drwxr-xr-x root       root             4096 ./usr/lib/edje/utils/v-1.14
--rwxr-xr-x root       root            69192 ./usr/lib/edje/utils/v-1.14/epp
-lrwxrwxrwx root       root               17 ./usr/lib/libedje.so.1 -> libedje.so.1.14.1
--rwxr-xr-x root       root           707880 ./usr/lib/libedje.so.1.14.1
+drwxr-xr-x root       root             4096 ./usr/lib/edje/utils/v-1.15
+-rwxr-xr-x root       root            68628 ./usr/lib/edje/utils/v-1.15/epp
+lrwxrwxrwx root       root               17 ./usr/lib/libedje.so.1 -> libedje.so.1.15.1
+-rwxr-xr-x root       root           745128 ./usr/lib/libedje.so.1.15.1
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/mime
 drwxr-xr-x root       root             4096 ./usr/share/mime/packages

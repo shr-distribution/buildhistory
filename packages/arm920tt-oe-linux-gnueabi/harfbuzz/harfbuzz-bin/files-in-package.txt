@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            23060 ./usr/bin/hb-ot-shape-closure
--rwxr-xr-x root       root            23440 ./usr/bin/hb-shape
--rwxr-xr-x root       root            38060 ./usr/bin/hb-view
+-rwxr-xr-x root       root            23096 ./usr/bin/hb-ot-shape-closure
+-rwxr-xr-x root       root            23368 ./usr/bin/hb-shape
+-rwxr-xr-x root       root            37816 ./usr/bin/hb-view
