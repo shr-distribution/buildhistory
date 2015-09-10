@@ -166,6 +166,7 @@ illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
+iw
 kbd
 kbd-consolefonts
 kbd-keymaps
@@ -241,6 +242,7 @@ libacl1
 libapm1
 libapr-1-0
 libaprutil-1-0
+libarchive13
 libasound-module-bluez
 libasound2
 libatk-1.0-0
@@ -460,10 +462,12 @@ locale-base-en-us
 logrotate
 lsof
 ltrace
+luajit
 make
 make-locale-cs
 matchbox-keyboard-im
 mbuffer
+mdbus2
 mime-support
 mioctl
 mkdump

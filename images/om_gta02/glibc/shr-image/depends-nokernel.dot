@@ -160,6 +160,7 @@ digraph depends {
 "e-wm" -> "libxss1";
 "e-wm" -> "libxtst6";
 "e-wm" -> "libz1";
+"e-wm" -> "luajit";
 "e-wm" -> "mime-support";
 "e-wm" -> "setxkbmap";
 "e-wm" -> "shared-mime-info";
@@ -279,6 +280,7 @@ digraph depends {
 "ecore-evas" -> "libssl1.0.0";
 "ecore-evas" -> "libstdc++6";
 "ecore-evas" -> "libz1";
+"ecore-evas" -> "luajit";
 "ecore-file" -> "ecore-con";
 "ecore-file" -> "efl";
 "ecore-file" -> "eina";
@@ -318,6 +320,7 @@ digraph depends {
 "ecore-imf-evas" -> "libssl1.0.0";
 "ecore-imf-evas" -> "libstdc++6";
 "ecore-imf-evas" -> "libz1";
+"ecore-imf-evas" -> "luajit";
 "ecore-input" -> "efl";
 "ecore-input" -> "eina";
 "ecore-input" -> "libc6";
@@ -343,6 +346,7 @@ digraph depends {
 "ecore-input-evas" -> "libssl1.0.0";
 "ecore-input-evas" -> "libstdc++6";
 "ecore-input-evas" -> "libz1";
+"ecore-input-evas" -> "luajit";
 "ecore-ipc" -> "ecore-con";
 "ecore-ipc" -> "efl";
 "ecore-ipc" -> "eina";
@@ -408,11 +412,11 @@ digraph depends {
 "efl" -> "libecore1";
 "efl" -> "libeldbus1";
 "efl" -> "libeo1";
-"efl" -> "libgcc1";
 "efl" -> "libglib-2.0-0";
 "efl" -> "libjpeg8";
 "efl" -> "libssl1.0.0";
 "efl" -> "libz1";
+"efl" -> "luajit";
 "efl-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "efreet" -> "ecore-file";
 "efreet" -> "ecore-ipc";
@@ -492,6 +496,7 @@ digraph depends {
 "elementary" -> "libxss1";
 "elementary" -> "libxtst6";
 "elementary" -> "libz1";
+"elementary" -> "luajit";
 "elementary-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "elementary-theme-gry" -> "e-wm-theme-illume-gry" [style=dotted];
 "elfutils" -> "libc6";
@@ -533,6 +538,7 @@ digraph depends {
 "estardict" -> "ecore-imf-evas";
 "estardict" -> "ecore-input";
 "estardict" -> "ecore-input-evas";
+"estardict" -> "ecore-ipc";
 "estardict" -> "ecore-x";
 "estardict" -> "eeze";
 "estardict" -> "efl";
@@ -593,6 +599,7 @@ digraph depends {
 "estardict" -> "libxss1";
 "estardict" -> "libxtst6";
 "estardict" -> "libz1";
+"estardict" -> "luajit";
 "ethumb" -> "ecore-audio";
 "ethumb" -> "ecore-con";
 "ethumb" -> "ecore-evas";
@@ -649,6 +656,7 @@ digraph depends {
 "ethumb" -> "libxi6";
 "ethumb" -> "libxtst6";
 "ethumb" -> "libz1";
+"ethumb" -> "luajit";
 "evas" -> "ecore-con";
 "evas" -> "ecore-input";
 "evas" -> "ecore-x";
@@ -698,6 +706,7 @@ digraph depends {
 "evas" -> "libxss1";
 "evas" -> "libxtst6";
 "evas" -> "libz1";
+"evas" -> "luajit";
 "evas-generic-loader-svg" -> "libc6";
 "evas-generic-loader-svg" -> "libcairo2";
 "evas-generic-loader-svg" -> "libglib-2.0-0";
@@ -1225,6 +1234,9 @@ digraph depends {
 "iptables" -> "kernel-module-nf-nat" [style=dotted];
 "iptables" -> "kernel-module-x-tables" [style=dotted];
 "iptables" -> "libc6";
+"iw" -> "libc6";
+"iw" -> "libnl-3-200";
+"iw" -> "libnl-3-genl";
 "kbd" -> "libc6";
 "kbd" -> "update-alternatives-opkg";
 "kbd-locale-cs" -> "virtual-locale-cs" [style=dotted];
@@ -1359,6 +1371,11 @@ digraph depends {
 "libaprutil-1-0" -> "libexpat1";
 "libaprutil-1-0" -> "libgdbm4";
 "libaprutil-1-0" -> "libuuid1";
+"libarchive13" -> "libattr1";
+"libarchive13" -> "libbz2-0";
+"libarchive13" -> "libc6";
+"libarchive13" -> "libxml2";
+"libarchive13" -> "libz1";
 "libasound2" -> "alsa-conf";
 "libasound2" -> "alsa-conf-base";
 "libasound2" -> "libc6";
@@ -1466,6 +1483,7 @@ digraph depends {
 "libecore1" -> "libxss1";
 "libecore1" -> "libxtst6";
 "libecore1" -> "libz1";
+"libecore1" -> "luajit";
 "libedbus1" -> "efl";
 "libedbus1" -> "eina";
 "libedbus1" -> "libc6";
@@ -1482,7 +1500,7 @@ digraph depends {
 "libedje-utils" -> "libedje1";
 "libedje-utils" -> "libeet1";
 "libedje-utils" -> "libeio1";
-"libedje-utils" -> "libgcc1";
+"libedje-utils" -> "luajit";
 "libedje1" -> "ecore-audio";
 "libedje1" -> "ecore-con";
 "libedje1" -> "ecore-evas";
@@ -1537,6 +1555,7 @@ digraph depends {
 "libedje1" -> "libxi6";
 "libedje1" -> "libxtst6";
 "libedje1" -> "libz1";
+"libedje1" -> "luajit";
 "libeet1" -> "efl";
 "libeet1" -> "eina";
 "libeet1" -> "libc6";
@@ -1647,6 +1666,7 @@ digraph depends {
 "libemotion1" -> "libudev1";
 "libemotion1" -> "libuuid1";
 "libemotion1" -> "libz1";
+"libemotion1" -> "luajit";
 "libeo1" -> "eina";
 "libeo1" -> "libc6";
 "liberation-fonts" -> "fontconfig-utils";
@@ -1946,7 +1966,12 @@ digraph depends {
 "libnl-route-3-200" -> "libc6";
 "libnl-route-3-200" -> "libnl-3-200";
 "libogg0" -> "libc6";
+"libopkg1" -> "libarchive13";
+"libopkg1" -> "libattr1";
+"libopkg1" -> "libbz2-0";
 "libopkg1" -> "libc6";
+"libopkg1" -> "libxml2";
+"libopkg1" -> "libz1";
 "libpam" -> "libc6";
 "libpam" -> "libpam-runtime-suffix" [style=dotted];
 "libpam-locale-cs" -> "virtual-locale-cs" [style=dotted];
@@ -1973,6 +1998,7 @@ digraph depends {
 "libphone-ui-shr" -> "ecore-imf-evas";
 "libphone-ui-shr" -> "ecore-input";
 "libphone-ui-shr" -> "ecore-input-evas";
+"libphone-ui-shr" -> "ecore-ipc";
 "libphone-ui-shr" -> "ecore-x";
 "libphone-ui-shr" -> "eeze";
 "libphone-ui-shr" -> "efl";
@@ -2046,6 +2072,7 @@ digraph depends {
 "libphone-ui-shr" -> "libxss1";
 "libphone-ui-shr" -> "libxtst6";
 "libphone-ui-shr" -> "libz1";
+"libphone-ui-shr" -> "luajit";
 "libphone-ui-shr-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "libphone-ui0" -> "libasound2";
 "libphone-ui0" -> "libc6";
@@ -2436,6 +2463,8 @@ digraph depends {
 "ltrace" -> "libc6";
 "ltrace" -> "libelf1";
 "ltrace" -> "libstdc++6";
+"luajit" -> "libc6";
+"luajit" -> "libgcc1";
 "make" -> "libc6";
 "make-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "matchbox-keyboard-im" -> "gdk-pixbuf";
@@ -2462,6 +2491,9 @@ digraph depends {
 "matchbox-keyboard-im" -> "libz1";
 "matchbox-keyboard-im" -> "pango";
 "mbuffer" -> "libc6";
+"mdbus2" -> "libc6";
+"mdbus2" -> "libglib-2.0-0";
+"mdbus2" -> "libreadline6";
 "mime-support" -> "file" [style=dotted];
 "mime-support" -> "perl";
 "mioctl" -> "libc6";
@@ -2551,6 +2583,7 @@ digraph depends {
 "opimd-utils" -> "opimd-utils-notes" [style=dotted];
 "opimd-utils" -> "shr-theme";
 "opimd-utils-notes" -> "opimd-utils-data";
+"opkg" -> "libarchive13";
 "opkg" -> "libc6";
 "opkg" -> "libopkg1";
 "opkg" -> "opkg-arch-config";
@@ -2632,6 +2665,7 @@ digraph depends {
 "packagegroup-base-vfat" -> "kernel-module-nls-cp437" [style=dotted];
 "packagegroup-base-vfat" -> "kernel-module-nls-iso8859-1" [style=dotted];
 "packagegroup-base-vfat" -> "kernel-module-vfat" [style=dotted];
+"packagegroup-base-wifi" -> "iw";
 "packagegroup-base-wifi" -> "kernel-module-aes" [style=dotted];
 "packagegroup-base-wifi" -> "kernel-module-aes-generic" [style=dotted];
 "packagegroup-base-wifi" -> "kernel-module-arc4" [style=dotted];
@@ -3424,6 +3458,7 @@ digraph depends {
 "shr-e-gadgets" -> "libxss1";
 "shr-e-gadgets" -> "libxtst6";
 "shr-e-gadgets" -> "libz1";
+"shr-e-gadgets" -> "luajit";
 "shr-settings" -> "dbus-x11";
 "shr-settings" -> "frameworkd";
 "shr-settings" -> "python";
@@ -3514,6 +3549,7 @@ digraph depends {
 "shr-wizard" -> "libxss1";
 "shr-wizard" -> "libxtst6";
 "shr-wizard" -> "libz1";
+"shr-wizard" -> "luajit";
 "shr-wizard" -> "psmisc";
 "shr-wizard" -> "python-dbus";
 "shr-wizard" -> "python-edbus";
