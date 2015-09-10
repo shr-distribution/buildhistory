@@ -37,5 +37,5 @@ meta-samsung      = "jansa/master:7a2d4adb896354f19294e7f027cb644f0675e672"
 meta-browser      = "jansa/master:ca96f4326345dcd779fc539877a04f069f431749"
 meta-games        = "master:58f65b450ee0d4e422a59bc7a505721bf2b35fc9"
 meta-handheld     = "jansa/master:de134304a1a5759cdbabd08a005c816e759cabe6"
-meta              = "jansa/master:a810fba4c46a18a110296db05f30650cc0739721"
+meta              = "jansa/master:005340b765111aedf1e3a9ace5a1e786595ce8a5"
 
