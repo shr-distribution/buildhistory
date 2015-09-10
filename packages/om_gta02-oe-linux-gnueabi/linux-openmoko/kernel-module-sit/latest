@@ -1,10 +1,10 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.49
+PKGR = r14.52
 RPROVIDES = 
 RDEPENDS = kernel-3.2.52 kernel-module-ipv6 kernel-module-tunnel4
 RRECOMMENDS = 
-PKGSIZE = 17776
+PKGSIZE = 17784
 FILES = /lib/modules/3.2.52/kernel/net/ipv6/sit.ko /etc/modules-load.d/sit.conf /etc/modprobe.d/sit.conf
 FILELIST = /lib/modules/3.2.52/kernel/net/ipv6/sit.ko

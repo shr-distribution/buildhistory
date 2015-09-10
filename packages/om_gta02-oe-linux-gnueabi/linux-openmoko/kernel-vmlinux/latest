@@ -1,10 +1,10 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.49
+PKGR = r14.52
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 5450224
+PKGSIZE = 5443136
 FILES = /boot/vmlinux*
 FILELIST = /boot/vmlinux-3.2.52
