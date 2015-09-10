@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            79248 ./usr/bin/bluetooth-player
--rwxr-xr-x root       root           201360 ./usr/bin/gatttool
--rwxr-xr-x root       root           107384 ./usr/bin/obex-client-tool
--rwxr-xr-x root       root           103944 ./usr/bin/obex-server-tool
--rwxr-xr-x root       root            87360 ./usr/bin/obexctl
+-rwxr-xr-x root       root            75568 ./usr/bin/bluetooth-player
+-rwxr-xr-x root       root           200976 ./usr/bin/gatttool
+-rwxr-xr-x root       root           107288 ./usr/bin/obex-client-tool
+-rwxr-xr-x root       root           103624 ./usr/bin/obex-server-tool
+-rwxr-xr-x root       root            87264 ./usr/bin/obexctl

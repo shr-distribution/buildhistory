@@ -6,15 +6,15 @@ drwxr-xr-x root       root             4096 ./lib/systemd
 drwxr-xr-x root       root             4096 ./lib/systemd/system
 -rw-r--r-- root       root              250 ./lib/systemd/system/nfs-statd.service
 drwxr-xr-x root       root             4096 ./sbin
--r-s--x--x root       root           103112 ./sbin/mount.nfs
+-r-s--x--x root       root           102952 ./sbin/mount.nfs
 lrwxrwxrwx root       root                9 ./sbin/mount.nfs4 -> mount.nfs
 lrwxrwxrwx root       root                9 ./sbin/umount.nfs -> mount.nfs
 lrwxrwxrwx root       root                9 ./sbin/umount.nfs4 -> mount.nfs
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root            22544 ./usr/sbin/nfsstat
--rwxr-xr-x root       root            32432 ./usr/sbin/rpc.idmapd
--rwxr-xr-x root       root            69000 ./usr/sbin/rpc.statd
+-rwxr-xr-x root       root            22288 ./usr/sbin/nfsstat
+-rwxr-xr-x root       root            32336 ./usr/sbin/rpc.idmapd
+-rwxr-xr-x root       root            68968 ./usr/sbin/rpc.statd
 -rwxr-xr-x root       root            15976 ./usr/sbin/showmount
 -rwxr-xr-x root       root            46024 ./usr/sbin/sm-notify
 -rwxr-xr-x root       root              641 ./usr/sbin/start-statd

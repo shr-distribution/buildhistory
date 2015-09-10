@@ -1,8 +1,8 @@
-drwxr-xr-x 1026       1026             4096 ./usr
-drwxr-xr-x 1026       1026             4096 ./usr/lib
-drwxr-xr-x 1026       1026             4096 ./usr/lib/enlightenment
-drwxr-xr-x 1026       1026             4096 ./usr/lib/enlightenment/modules
-drwxr-xr-x 1026       1026             4096 ./usr/lib/enlightenment/modules/illume-keyboard
-drwxr-xr-x 1026       1026             4096 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards
--rw-r--r-- 1026       1026             4356 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/Terminal.kbd
--rw-r--r-- 1026       1026             1716 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/qwerty.png
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illume-keyboard
+drwxr-xr-x root       root             4096 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards
+-rw-r--r-- root       root             4356 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/Terminal.kbd
+-rw-r--r-- root       root             1716 ./usr/lib/enlightenment/modules/illume-keyboard/keyboards/qwerty.png

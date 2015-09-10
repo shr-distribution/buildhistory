@@ -1,10 +1,10 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            25464 ./usr/bin/elementary_codegen
--rwxr-xr-x root       root            83264 ./usr/bin/elementary_config
--rwxr-xr-x root       root            15320 ./usr/bin/elementary_quicklaunch
--rwxr-xr-x root       root             9024 ./usr/bin/elementary_run
--rwxr-xr-x root       root           718112 ./usr/bin/elementary_test
+-rwxr-xr-x root       root            25544 ./usr/bin/elementary_codegen
+-rwxr-xr-x root       root            82600 ./usr/bin/elementary_config
+-rwxr-xr-x root       root            15296 ./usr/bin/elementary_quicklaunch
+-rwxr-xr-x root       root             9040 ./usr/bin/elementary_run
+-rwxr-xr-x root       root           715648 ./usr/bin/elementary_test
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/elementary
 drwxr-xr-x root       root             4096 ./usr/lib/elementary/modules
@@ -117,7 +117,7 @@ drwxr-xr-x root       root             4096 ./usr/share/elementary/objects
 -rw-r--r-- root       root             6155 ./usr/share/elementary/objects/postit_ent.edj
 -rw-r--r-- root       root           202776 ./usr/share/elementary/objects/test.edj
 -rw-r--r-- root       root           508466 ./usr/share/elementary/objects/test_external.edj
--rw-r--r-- root       root           149381 ./usr/share/elementary/objects/test_focus_style.edj
+-rw-r--r-- root       root           149344 ./usr/share/elementary/objects/test_focus_style.edj
 -rw-r--r-- root       root            10511 ./usr/share/elementary/objects/test_prefs.edj
 -rw-r--r-- root       root             2548 ./usr/share/elementary/objects/test_prefs.epb
 drwxr-xr-x root       root             4096 ./usr/share/icons

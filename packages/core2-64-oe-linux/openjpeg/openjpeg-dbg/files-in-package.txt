@@ -1,12 +1,12 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root           212544 ./usr/bin/.debug/opj_compress
--rwxr-xr-x root       root           198416 ./usr/bin/.debug/opj_decompress
--rwxr-xr-x root       root           195112 ./usr/bin/.debug/opj_dump
+-rwxr-xr-x root       root           205920 ./usr/bin/.debug/opj_compress
+-rwxr-xr-x root       root           191696 ./usr/bin/.debug/opj_decompress
+-rwxr-xr-x root       root           188920 ./usr/bin/.debug/opj_dump
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           816984 ./usr/lib/.debug/libopenjp2.so.2.1.0
+-rwxr-xr-x root       root           783192 ./usr/lib/.debug/libopenjp2.so.2.1.0
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/openjpeg

@@ -1,11 +1,11 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root           148696 ./usr/bin/.debug/estardict
--rwxr-xr-x root       root            25360 ./usr/bin/.debug/estardict_engine_tests
+-rwxr-xr-x root       root           142424 ./usr/bin/.debug/estardict
+-rwxr-xr-x root       root            25408 ./usr/bin/.debug/estardict_engine_tests
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root            48664 ./usr/lib/.debug/libestardictengine.so.0.0.0
+-rwxr-xr-x root       root            47440 ./usr/lib/.debug/libestardictengine.so.0.0.0
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/estardict

@@ -4,4 +4,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
 drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules
 drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/fsogsm
 drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/fsogsm/.debug
--rwxr-xr-x root       root           187936 ./usr/lib/cornucopia/modules/fsogsm/.debug/modem_freescale_neptune.so
+-rwxr-xr-x root       root           182760 ./usr/lib/cornucopia/modules/fsogsm/.debug/modem_freescale_neptune.so

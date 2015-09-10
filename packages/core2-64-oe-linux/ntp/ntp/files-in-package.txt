@@ -10,7 +10,7 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/ntp
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root           716096 ./usr/sbin/ntpd
+-rwxr-xr-x root       root           716320 ./usr/sbin/ntpd
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/lib
 drwxr-xr-x ntp        ntp              4096 ./var/lib/ntp

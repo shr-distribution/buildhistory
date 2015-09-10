@@ -3,9 +3,9 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/evas
 drwxr-xr-x root       root             4096 ./usr/lib/evas/utils
 drwxr-xr-x root       root             4096 ./usr/lib/evas/utils/.debug
--rwxr-xr-x root       root            88616 ./usr/lib/evas/utils/.debug/evas_image_loader.pdf
--rwxr-xr-x root       root            28176 ./usr/lib/evas/utils/.debug/evas_image_loader.svg
--rwxr-xr-x root       root            84344 ./usr/lib/evas/utils/.debug/evas_image_loader.xcf
+-rwxr-xr-x root       root            89080 ./usr/lib/evas/utils/.debug/evas_image_loader.pdf
+-rwxr-xr-x root       root            27584 ./usr/lib/evas/utils/.debug/evas_image_loader.svg
+-rwxr-xr-x root       root            93744 ./usr/lib/evas/utils/.debug/evas_image_loader.xcf
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/evas-generic-loaders

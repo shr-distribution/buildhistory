@@ -10,11 +10,11 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/openvpn
 drwxr-xr-x root       root             4096 ./usr/lib/openvpn/plugins
 -rwxr-xr-x root       root             1025 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.la
--rwxr-xr-x root       root            12472 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so
+-rwxr-xr-x root       root            12416 ./usr/lib/openvpn/plugins/openvpn-plugin-auth-pam.so
 -rwxr-xr-x root       root             1010 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.la
--rwxr-xr-x root       root             9968 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
+-rwxr-xr-x root       root             9984 ./usr/lib/openvpn/plugins/openvpn-plugin-down-root.so
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root           689344 ./usr/sbin/openvpn
+-rwxr-xr-x root       root           678944 ./usr/sbin/openvpn
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x root       root             4096 ./var/lib
 drwx--x--- root       root             4096 ./var/lib/openvpn

@@ -24,7 +24,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7
 -rw-r--r-- root       root             4216 ./usr/lib/python2.7/__future__.pyc
 -rw-r--r-- root       root            18415 ./usr/lib/python2.7/_abcoll.py
 -rw-r--r-- root       root            25356 ./usr/lib/python2.7/_abcoll.pyc
--rw-r--r-- root       root            18841 ./usr/lib/python2.7/_sysconfigdata.py
+-rw-r--r-- root       root            18248 ./usr/lib/python2.7/_sysconfigdata.py
 -rw-r--r-- root       root            21605 ./usr/lib/python2.7/_sysconfigdata.pyc
 -rw-r--r-- root       root             5911 ./usr/lib/python2.7/_weakrefset.py
 -rw-r--r-- root       root             9582 ./usr/lib/python2.7/_weakrefset.pyc
@@ -41,9 +41,9 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/config
 -rw-r--r-- root       root             7318 ./usr/lib/python2.7/getopt.py
 -rw-r--r-- root       root             6634 ./usr/lib/python2.7/getopt.pyc
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/lib-dynload
--rwxr-xr-x root       root            46328 ./usr/lib/python2.7/lib-dynload/_struct.so
--rwxr-xr-x root       root            21520 ./usr/lib/python2.7/lib-dynload/binascii.so
--rwxr-xr-x root       root            21264 ./usr/lib/python2.7/lib-dynload/time.so
+-rwxr-xr-x root       root            46104 ./usr/lib/python2.7/lib-dynload/_struct.so
+-rwxr-xr-x root       root            22224 ./usr/lib/python2.7/lib-dynload/binascii.so
+-rwxr-xr-x root       root            21072 ./usr/lib/python2.7/lib-dynload/time.so
 -rw-r--r-- root       root             3964 ./usr/lib/python2.7/linecache.py
 -rw-r--r-- root       root             3199 ./usr/lib/python2.7/linecache.pyc
 -rw-r--r-- root       root              610 ./usr/lib/python2.7/new.py

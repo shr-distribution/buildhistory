@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-0.10
--rwxr-xr-x root       root            74616 ./usr/lib/gstreamer-0.10/libgstxvimagesink.so
+-rwxr-xr-x root       root            74520 ./usr/lib/gstreamer-0.10/libgstxvimagesink.so

@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 lrwxrwxrwx root       root               15 ./usr/lib/libeo.so.1 -> libeo.so.1.15.1
--rwxr-xr-x root       root            78856 ./usr/lib/libeo.so.1.15.1
+-rwxr-xr-x root       root            78760 ./usr/lib/libeo.so.1.15.1

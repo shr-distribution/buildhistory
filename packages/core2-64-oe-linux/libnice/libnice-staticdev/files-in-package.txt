@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-0.10
--rw-r--r-- root       root           189278 ./usr/lib/gstreamer-0.10/libgstnice.a
--rw-r--r-- root       root          1382508 ./usr/lib/libnice.a
+-rw-r--r-- root       root           194734 ./usr/lib/gstreamer-0.10/libgstnice.a
+-rw-r--r-- root       root          1394772 ./usr/lib/libnice.a

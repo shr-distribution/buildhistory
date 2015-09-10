@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root        129874088 ./usr/lib/.debug/libQtGui.so.4.8.7
+-rwxr-xr-x root       root        131671008 ./usr/lib/.debug/libQtGui.so.4.8.7

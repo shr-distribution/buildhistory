@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           303984 ./usr/bin/lconvert
--rwxr-xr-x root       root          1509624 ./usr/bin/linguist
--rwxr-xr-x root       root          1659320 ./usr/bin/lrelease
--rwxr-xr-x root       root           923600 ./usr/bin/lupdate
+-rwxr-xr-x root       root           326408 ./usr/bin/lconvert
+-rwxr-xr-x root       root          1594808 ./usr/bin/linguist
+-rwxr-xr-x root       root          1665496 ./usr/bin/lrelease
+-rwxr-xr-x root       root           973200 ./usr/bin/lupdate

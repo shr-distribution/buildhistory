@@ -4,4 +4,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/qt4
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/inputmethods
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/inputmethods/.debug
--rwxr-xr-x root       root           485760 ./usr/lib/qt4/plugins/inputmethods/.debug/libqimsw-multi.so
+-rwxr-xr-x root       root           520984 ./usr/lib/qt4/plugins/inputmethods/.debug/libqimsw-multi.so

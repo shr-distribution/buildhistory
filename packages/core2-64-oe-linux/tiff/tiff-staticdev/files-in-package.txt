@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root          2790068 ./usr/lib/libtiff.a
--rw-r--r-- root       root            78110 ./usr/lib/libtiffxx.a
+-rw-r--r-- root       root          2838044 ./usr/lib/libtiff.a
+-rw-r--r-- root       root            77790 ./usr/lib/libtiffxx.a

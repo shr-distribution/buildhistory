@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root             9440 ./usr/bin/gdk-pixbuf-csource
+-rwxr-xr-x root       root             9360 ./usr/bin/gdk-pixbuf-csource
 drwxr-xr-x root       root             4096 ./usr/include
 drwxr-xr-x root       root             4096 ./usr/include/gdk-pixbuf-2.0
 drwxr-xr-x root       root             4096 ./usr/include/gdk-pixbuf-2.0/gdk-pixbuf

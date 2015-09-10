@@ -1,10 +1,10 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           352968 ./usr/bin/terminology
--rwxr-xr-x root       root             5296 ./usr/bin/tyalpha
--rwxr-xr-x root       root             5496 ./usr/bin/tybg
--rwxr-xr-x root       root            16448 ./usr/bin/tycat
--rwxr-xr-x root       root            23520 ./usr/bin/tyls
+-rwxr-xr-x root       root           351560 ./usr/bin/terminology
+-rwxr-xr-x root       root             5280 ./usr/bin/tyalpha
+-rwxr-xr-x root       root             5480 ./usr/bin/tybg
+-rwxr-xr-x root       root            16416 ./usr/bin/tycat
+-rwxr-xr-x root       root            23488 ./usr/bin/tyls
 -rwxr-xr-x root       root             5264 ./usr/bin/typop
 -rwxr-xr-x root       root             5272 ./usr/bin/tyq
 drwxr-xr-x root       root             4096 ./usr/share

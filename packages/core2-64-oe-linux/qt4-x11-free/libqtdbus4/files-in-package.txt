@@ -2,4 +2,4 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 lrwxrwxrwx root       root               18 ./usr/lib/libQtDBus.so.4 -> libQtDBus.so.4.8.7
 lrwxrwxrwx root       root               18 ./usr/lib/libQtDBus.so.4.8 -> libQtDBus.so.4.8.7
--rwxr-xr-x root       root           512400 ./usr/lib/libQtDBus.so.4.8.7
+-rwxr-xr-x root       root           536656 ./usr/lib/libQtDBus.so.4.8.7

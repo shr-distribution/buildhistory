@@ -7,5 +7,5 @@ drwxr-xr-x root       root             4096 ./lib/systemd/system
 -rw-r--r-- root       root              132 ./lib/systemd/system/rpcbind.socket
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root            48816 ./usr/sbin/rpcbind
--rwxr-xr-x root       root            24648 ./usr/sbin/rpcinfo
+-rwxr-xr-x root       root            48808 ./usr/sbin/rpcbind
+-rwxr-xr-x root       root            24712 ./usr/sbin/rpcinfo

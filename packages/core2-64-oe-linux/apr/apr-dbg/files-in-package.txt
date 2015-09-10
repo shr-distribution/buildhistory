@@ -1,7 +1,7 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           688920 ./usr/lib/.debug/libapr-1.so.0.5.2
+-rwxr-xr-x root       root           744160 ./usr/lib/.debug/libapr-1.so.0.5.2
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/apr

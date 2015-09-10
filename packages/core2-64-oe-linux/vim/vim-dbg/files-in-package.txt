@@ -1,8 +1,8 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root          5903016 ./usr/bin/.debug/vim.vim
--rwxr-xr-x root       root            33256 ./usr/bin/.debug/xxd
+-rwxr-xr-x root       root          5903248 ./usr/bin/.debug/vim.vim
+-rwxr-xr-x root       root            33560 ./usr/bin/.debug/xxd
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/vim

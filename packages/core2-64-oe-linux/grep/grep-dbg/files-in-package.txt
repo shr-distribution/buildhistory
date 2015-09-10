@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./bin
 drwxr-xr-x root       root             4096 ./bin/.debug
--rwxr-xr-x root       root           861072 ./bin/.debug/grep.grep
+-rwxr-xr-x root       root           871088 ./bin/.debug/grep.grep
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug

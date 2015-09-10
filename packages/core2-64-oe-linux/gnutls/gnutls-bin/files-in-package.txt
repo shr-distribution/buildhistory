@@ -1,8 +1,8 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           227976 ./usr/bin/certtool
--rwxr-xr-x root       root           174856 ./usr/bin/gnutls-cli
--rwxr-xr-x root       root           151752 ./usr/bin/gnutls-serv
--rwxr-xr-x root       root           118600 ./usr/bin/ocsptool
--rwxr-xr-x root       root           101696 ./usr/bin/psktool
--rwxr-xr-x root       root           106240 ./usr/bin/srptool
+-rwxr-xr-x root       root           228136 ./usr/bin/certtool
+-rwxr-xr-x root       root           178600 ./usr/bin/gnutls-cli
+-rwxr-xr-x root       root           152072 ./usr/bin/gnutls-serv
+-rwxr-xr-x root       root           119528 ./usr/bin/ocsptool
+-rwxr-xr-x root       root           101440 ./usr/bin/psktool
+-rwxr-xr-x root       root           106464 ./usr/bin/srptool

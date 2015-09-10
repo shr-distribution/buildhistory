@@ -2,7 +2,7 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/phoneui
 drwxr-xr-x root       root             4096 ./usr/lib/phoneui/modules
--rwxr-xr-x root       root           173568 ./usr/lib/phoneui/modules/shr.so
+-rwxr-xr-x root       root           173624 ./usr/lib/phoneui/modules/shr.so
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/libphone-ui-shr
 -rw-r--r-- root       root              976 ./usr/share/libphone-ui-shr/call-start.png

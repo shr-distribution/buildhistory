@@ -7,4 +7,4 @@ drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/k
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless/brcm80211
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmsmac
--rw-r--r-- root       root           715168 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.ko
+-rw-r--r-- root       root           716248 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.ko

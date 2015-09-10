@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 lrwxrwxrwx root       root               16 ./usr/lib/libgisi.so.0 -> libgisi.so.0.0.0
--rwxr-xr-x root       root            40376 ./usr/lib/libgisi.so.0.0.0
+-rwxr-xr-x root       root            40416 ./usr/lib/libgisi.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libgisicomm.so.0 -> libgisicomm.so.0.0.0
--rwxr-xr-x root       root           129832 ./usr/lib/libgisicomm.so.0.0.0
+-rwxr-xr-x root       root           128904 ./usr/lib/libgisicomm.so.0.0.0

@@ -1,14 +1,14 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root          2200424 ./usr/bin/FBReader
+-rwxr-xr-x root       root          2182216 ./usr/bin/FBReader
 drwxr-xr-x root       root             4096 ./usr/lib
--rwxr-xr-x root       root           798192 ./usr/lib/libzlcore.so.0.12.10
+-rwxr-xr-x root       root           827048 ./usr/lib/libzlcore.so.0.12.10
 lrwxrwxrwx root       root               20 ./usr/lib/libzlcore.so.0.13 -> libzlcore.so.0.12.10
--rwxr-xr-x root       root           332280 ./usr/lib/libzltext.so.0.12.10
+-rwxr-xr-x root       root           348040 ./usr/lib/libzltext.so.0.12.10
 lrwxrwxrwx root       root               20 ./usr/lib/libzltext.so.0.13 -> libzltext.so.0.12.10
 drwxr-xr-x root       root             4096 ./usr/lib/zlibrary
 drwxr-xr-x root       root             4096 ./usr/lib/zlibrary/ui
--rwxr-xr-x root       root           220408 ./usr/lib/zlibrary/ui/zlui-gtk.so
+-rwxr-xr-x root       root           226224 ./usr/lib/zlibrary/ui/zlui-gtk.so
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/FBReader
 drwxr-xr-x root       root             4096 ./usr/share/FBReader/default

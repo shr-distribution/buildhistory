@@ -4,4 +4,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/qt4
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/imageformats
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/imageformats/.debug
--rwxr-xr-x root       root           435448 ./usr/lib/qt4/plugins/imageformats/.debug/libqsvg.so
+-rwxr-xr-x root       root           469096 ./usr/lib/qt4/plugins/imageformats/.debug/libqsvg.so

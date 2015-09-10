@@ -4,4 +4,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/qt4
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/graphicssystems
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/graphicssystems/.debug
--rwxr-xr-x root       root           541768 ./usr/lib/qt4/plugins/graphicssystems/.debug/libqtracegraphicssystem.so
+-rwxr-xr-x root       root           577088 ./usr/lib/qt4/plugins/graphicssystems/.debug/libqtracegraphicssystem.so

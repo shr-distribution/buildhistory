@@ -4,4 +4,4 @@ drwxr-xr-x root       root             4096 ./usr/lib/qt4
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/designer
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/designer/.debug
--rwxr-xr-x root       root           616424 ./usr/lib/qt4/plugins/designer/.debug/libworldtimeclockplugin.so
+-rwxr-xr-x root       root           656664 ./usr/lib/qt4/plugins/designer/.debug/libworldtimeclockplugin.so

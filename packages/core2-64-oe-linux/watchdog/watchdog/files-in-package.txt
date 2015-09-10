@@ -4,6 +4,6 @@ drwxr-xr-x root       root             4096 ./etc/init.d
 -rw-r--r-- root       root             1125 ./etc/watchdog.conf
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root            91192 ./usr/sbin/watchdog
+-rwxr-xr-x root       root            91096 ./usr/sbin/watchdog
 -rwxr-xr-x root       root            15200 ./usr/sbin/wd_identify
--rwxr-xr-x root       root            20152 ./usr/sbin/wd_keepalive
+-rwxr-xr-x root       root            20144 ./usr/sbin/wd_keepalive

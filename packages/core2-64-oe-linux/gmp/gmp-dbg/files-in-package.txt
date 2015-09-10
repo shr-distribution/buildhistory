@@ -1,8 +1,8 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root          2127408 ./usr/lib/.debug/libgmp.so.10.2.0
--rwxr-xr-x root       root           239672 ./usr/lib/.debug/libgmpxx.so.4.4.0
+-rwxr-xr-x root       root          2077240 ./usr/lib/.debug/libgmp.so.10.2.0
+-rwxr-xr-x root       root           252608 ./usr/lib/.debug/libgmpxx.so.4.4.0
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/gmp

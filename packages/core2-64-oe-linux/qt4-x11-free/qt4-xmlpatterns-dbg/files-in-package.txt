@@ -1,5 +1,5 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 drwxr-xr-x root       root             4096 ./usr/bin/.debug
--rwxr-xr-x root       root           727032 ./usr/bin/.debug/xmlpatterns
--rwxr-xr-x root       root           159824 ./usr/bin/.debug/xmlpatternsvalidator
+-rwxr-xr-x root       root           811800 ./usr/bin/.debug/xmlpatterns
+-rwxr-xr-x root       root           179656 ./usr/bin/.debug/xmlpatternsvalidator

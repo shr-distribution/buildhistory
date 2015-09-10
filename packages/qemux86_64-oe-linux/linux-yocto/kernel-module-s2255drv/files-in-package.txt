@@ -6,4 +6,4 @@ drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/k
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/media
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/media/usb
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/media/usb/s2255
--rw-r--r-- root       root            52416 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/media/usb/s2255/s2255drv.ko
+-rw-r--r-- root       root            52384 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/media/usb/s2255/s2255drv.ko

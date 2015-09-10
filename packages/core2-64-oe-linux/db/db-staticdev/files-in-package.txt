@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root         25333952 ./usr/lib/libdb-6.0.a
--rw-r--r-- root       root         25333952 ./usr/lib/libdb.a
--rw-r--r-- root       root         28070090 ./usr/lib/libdb_cxx-6.0.a
--rw-r--r-- root       root         28070090 ./usr/lib/libdb_cxx.a
+-rw-r--r-- root       root         25201184 ./usr/lib/libdb-6.0.a
+-rw-r--r-- root       root         25201184 ./usr/lib/libdb.a
+-rw-r--r-- root       root         27929746 ./usr/lib/libdb_cxx-6.0.a
+-rw-r--r-- root       root         27929746 ./usr/lib/libdb_cxx.a

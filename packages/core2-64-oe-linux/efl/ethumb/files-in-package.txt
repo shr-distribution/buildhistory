@@ -1,23 +1,23 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            11584 ./usr/bin/ethumb
--rwxr-xr-x root       root            30328 ./usr/bin/ethumbd
--rwxr-xr-x root       root            12296 ./usr/bin/ethumbd_client
+-rwxr-xr-x root       root            30216 ./usr/bin/ethumbd
+-rwxr-xr-x root       root            12264 ./usr/bin/ethumbd_client
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules/emotion
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb/modules/emotion/v-1.15
--rwxr-xr-x root       root            21056 ./usr/lib/ethumb/modules/emotion/v-1.15/module.so
+-rwxr-xr-x root       root            20992 ./usr/lib/ethumb/modules/emotion/v-1.15/module.so
 -rw-r--r-- root       root             8025 ./usr/lib/ethumb/modules/emotion/v-1.15/template.edj
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb_client
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb_client/utils
 drwxr-xr-x root       root             4096 ./usr/lib/ethumb_client/utils/v-1.15
--rwxr-xr-x root       root            12752 ./usr/lib/ethumb_client/utils/v-1.15/ethumbd_slave
+-rwxr-xr-x root       root            12768 ./usr/lib/ethumb_client/utils/v-1.15/ethumbd_slave
 lrwxrwxrwx root       root               19 ./usr/lib/libethumb.so.1 -> libethumb.so.1.15.1
--rwxr-xr-x root       root            49800 ./usr/lib/libethumb.so.1.15.1
+-rwxr-xr-x root       root            49848 ./usr/lib/libethumb.so.1.15.1
 lrwxrwxrwx root       root               26 ./usr/lib/libethumb_client.so.1 -> libethumb_client.so.1.15.1
--rwxr-xr-x root       root            41528 ./usr/lib/libethumb_client.so.1.15.1
+-rwxr-xr-x root       root            41400 ./usr/lib/libethumb_client.so.1.15.1
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1
 drwxr-xr-x root       root             4096 ./usr/share/dbus-1/services

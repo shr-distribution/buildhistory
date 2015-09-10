@@ -23,5 +23,5 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root              653 ./usr/bin/poff
 -rwxr-xr-x root       root              116 ./usr/bin/pon
 drwxr-xr-x root       root             4096 ./usr/sbin
--rwxr-xr-x root       root            23928 ./usr/sbin/chat
--r-sr-xr-x root       root           319608 ./usr/sbin/pppd
+-rwxr-xr-x root       root            23896 ./usr/sbin/chat
+-r-sr-xr-x root       root           321656 ./usr/sbin/pppd

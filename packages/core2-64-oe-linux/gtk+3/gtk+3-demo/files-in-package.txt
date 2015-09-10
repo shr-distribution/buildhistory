@@ -1,9 +1,9 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           957296 ./usr/bin/gtk3-demo
--rwxr-xr-x root       root           737672 ./usr/bin/gtk3-demo-application
--rwxr-xr-x root       root            70480 ./usr/bin/gtk3-icon-browser
--rwxr-xr-x root       root           160752 ./usr/bin/gtk3-widget-factory
+-rwxr-xr-x root       root           956848 ./usr/bin/gtk3-demo
+-rwxr-xr-x root       root           737640 ./usr/bin/gtk3-demo-application
+-rwxr-xr-x root       root            70416 ./usr/bin/gtk3-icon-browser
+-rwxr-xr-x root       root           160720 ./usr/bin/gtk3-widget-factory
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/applications
 -rw-r--r-- root       root              189 ./usr/share/applications/gtk3-demo.desktop

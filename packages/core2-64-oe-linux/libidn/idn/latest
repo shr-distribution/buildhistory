@@ -1,9 +1,9 @@
 PV = 1.30
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
 RDEPENDS = glibc (>= 2.22) libidn (>= 1.30)
 RRECOMMENDS = 
-PKGSIZE = 36600
+PKGSIZE = 36536
 FILES = /usr/bin/*
 FILELIST = /usr/bin/idn

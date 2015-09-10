@@ -1,4 +1,4 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/pidgin
--rwxr-xr-x root       root            17776 ./usr/lib/pidgin/convcolors.so
+-rwxr-xr-x root       root            17712 ./usr/lib/pidgin/convcolors.so

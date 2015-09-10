@@ -3,4 +3,4 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/qt4
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins
 drwxr-xr-x root       root             4096 ./usr/lib/qt4/plugins/codecs
--rwxr-xr-x root       root           161280 ./usr/lib/qt4/plugins/codecs/libqtwcodecs.so
+-rwxr-xr-x root       root           160888 ./usr/lib/qt4/plugins/codecs/libqtwcodecs.so

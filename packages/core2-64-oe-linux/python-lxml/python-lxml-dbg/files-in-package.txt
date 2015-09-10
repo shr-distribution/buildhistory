@@ -4,8 +4,8 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lxml
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/lxml/.debug
--rwxr-xr-x root       root          6848720 ./usr/lib/python2.7/site-packages/lxml/.debug/etree.so
--rwxr-xr-x root       root          1448688 ./usr/lib/python2.7/site-packages/lxml/.debug/objectify.so
+-rwxr-xr-x root       root          6437624 ./usr/lib/python2.7/site-packages/lxml/.debug/etree.so
+-rwxr-xr-x root       root          1310928 ./usr/lib/python2.7/site-packages/lxml/.debug/objectify.so
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/python-lxml

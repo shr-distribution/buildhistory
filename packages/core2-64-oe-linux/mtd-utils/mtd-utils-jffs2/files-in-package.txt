@@ -1,6 +1,6 @@
-drwxr-xr-x 1026       1026             4096 ./usr
-drwxr-xr-x 1026       1026             4096 ./usr/sbin
--rwxr-xr-x 1026       1026            15488 ./usr/sbin/jffs2dump
--rwxr-xr-x 1026       1026            13680 ./usr/sbin/jffs2reader
--rwxr-xr-x 1026       1026            49608 ./usr/sbin/mkfs.jffs2
--rwxr-xr-x 1026       1026            20576 ./usr/sbin/sumtool
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            15488 ./usr/sbin/jffs2dump
+-rwxr-xr-x root       root            13704 ./usr/sbin/jffs2reader
+-rwxr-xr-x root       root            49448 ./usr/sbin/mkfs.jffs2
+-rwxr-xr-x root       root            20448 ./usr/sbin/sumtool

@@ -5,4 +5,4 @@ drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/k
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/char
 drwxr-xr-x root       root             4096 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/char/hw_random
--rw-r--r-- root       root             6464 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/char/hw_random/via-rng.ko
+-rw-r--r-- root       root             6368 ./lib/modules/4.1.6-yocto-standard/kernel/drivers/char/hw_random/via-rng.ko

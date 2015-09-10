@@ -1,19 +1,19 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            38728 ./usr/bin/gst-inspect-1.0
--rwxr-xr-x root       root            29856 ./usr/bin/gst-launch-1.0
+-rwxr-xr-x root       root            38696 ./usr/bin/gst-inspect-1.0
+-rwxr-xr-x root       root            29808 ./usr/bin/gst-launch-1.0
 -rwxr-xr-x root       root            11144 ./usr/bin/gst-typefind-1.0
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/gstreamer-1.0
--rwxr-xr-x root       root           321288 ./usr/lib/gstreamer-1.0/libgstcoreelements.so
+-rwxr-xr-x root       root           320456 ./usr/lib/gstreamer-1.0/libgstcoreelements.so
 drwxr-xr-x root       root             4096 ./usr/lib/gstreamer1.0
 drwxr-xr-x root       root             4096 ./usr/lib/gstreamer1.0/gstreamer-1.0
 -rwxr-xr-x root       root             5368 ./usr/lib/gstreamer1.0/gstreamer-1.0/gst-plugin-scanner
 lrwxrwxrwx root       root               25 ./usr/lib/libgstbase-1.0.so.0 -> libgstbase-1.0.so.0.405.0
--rwxr-xr-x root       root           385680 ./usr/lib/libgstbase-1.0.so.0.405.0
+-rwxr-xr-x root       root           386256 ./usr/lib/libgstbase-1.0.so.0.405.0
 lrwxrwxrwx root       root               31 ./usr/lib/libgstcontroller-1.0.so.0 -> libgstcontroller-1.0.so.0.405.0
--rwxr-xr-x root       root            58032 ./usr/lib/libgstcontroller-1.0.so.0.405.0
+-rwxr-xr-x root       root            58088 ./usr/lib/libgstcontroller-1.0.so.0.405.0
 lrwxrwxrwx root       root               24 ./usr/lib/libgstnet-1.0.so.0 -> libgstnet-1.0.so.0.405.0
--rwxr-xr-x root       root            32032 ./usr/lib/libgstnet-1.0.so.0.405.0
+-rwxr-xr-x root       root            32048 ./usr/lib/libgstnet-1.0.so.0.405.0
 lrwxrwxrwx root       root               27 ./usr/lib/libgstreamer-1.0.so.0 -> libgstreamer-1.0.so.0.405.0
--rwxr-xr-x root       root          1112784 ./usr/lib/libgstreamer-1.0.so.0.405.0
+-rwxr-xr-x root       root          1111056 ./usr/lib/libgstreamer-1.0.so.0.405.0

@@ -1,11 +1,11 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/.debug
--rwxr-xr-x root       root           131864 ./usr/lib/.debug/libgisi.so.0.0.0
--rwxr-xr-x root       root           510976 ./usr/lib/.debug/libgisicomm.so.0.0.0
+-rwxr-xr-x root       root           131840 ./usr/lib/.debug/libgisi.so.0.0.0
+-rwxr-xr-x root       root           516856 ./usr/lib/.debug/libgisicomm.so.0.0.0
 drwxr-xr-x root       root             4096 ./usr/sbin
 drwxr-xr-x root       root             4096 ./usr/sbin/.debug
--rwxr-xr-x root       root            46088 ./usr/sbin/.debug/sendisi
+-rwxr-xr-x root       root            45304 ./usr/sbin/.debug/sendisi
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/libgisi

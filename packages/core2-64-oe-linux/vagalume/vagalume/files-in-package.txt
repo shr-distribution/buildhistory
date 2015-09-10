@@ -1,6 +1,6 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           178144 ./usr/bin/vagalume
+-rwxr-xr-x root       root           178288 ./usr/bin/vagalume
 -rwxr-xr-x root       root             6686 ./usr/bin/vagalumectl
 drwxr-xr-x root       root             4096 ./usr/share
 drwxr-xr-x root       root             4096 ./usr/share/applications

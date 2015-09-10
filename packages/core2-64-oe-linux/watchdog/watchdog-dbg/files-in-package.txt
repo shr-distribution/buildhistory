@@ -1,9 +1,9 @@
 drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/sbin
 drwxr-xr-x root       root             4096 ./usr/sbin/.debug
--rwxr-xr-x root       root           316544 ./usr/sbin/.debug/watchdog
--rwxr-xr-x root       root            41344 ./usr/sbin/.debug/wd_identify
--rwxr-xr-x root       root            58288 ./usr/sbin/.debug/wd_keepalive
+-rwxr-xr-x root       root           306016 ./usr/sbin/.debug/watchdog
+-rwxr-xr-x root       root            39600 ./usr/sbin/.debug/wd_identify
+-rwxr-xr-x root       root            55840 ./usr/sbin/.debug/wd_keepalive
 drwxr-xr-x root       root             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./usr/src/debug
 drwxr-xr-x root       root             4096 ./usr/src/debug/watchdog

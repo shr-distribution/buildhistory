@@ -11,7 +11,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/Nu
 -rw-r--r-- root       root            14080 ./usr/lib/python2.7/site-packages/Numeric/FFT/FFT.pyc
 -rw-r--r-- root       root              662 ./usr/lib/python2.7/site-packages/Numeric/FFT/__init__.py
 -rw-r--r-- root       root              921 ./usr/lib/python2.7/site-packages/Numeric/FFT/__init__.pyc
--rwxr-xr-x root       root            36240 ./usr/lib/python2.7/site-packages/Numeric/FFT/fftpack.so
+-rwxr-xr-x root       root            36080 ./usr/lib/python2.7/site-packages/Numeric/FFT/fftpack.so
 -rw-r--r-- root       root            17840 ./usr/lib/python2.7/site-packages/Numeric/LinearAlgebra.py
 -rw-r--r-- root       root            17043 ./usr/lib/python2.7/site-packages/Numeric/LinearAlgebra.pyc
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/Numeric/MA
@@ -44,7 +44,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/Nu
 -rw-r--r-- root       root             3245 ./usr/lib/python2.7/site-packages/Numeric/Precision.py
 -rw-r--r-- root       root             3893 ./usr/lib/python2.7/site-packages/Numeric/Precision.pyc
 drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/Numeric/RNG
--rwxr-xr-x root       root            17952 ./usr/lib/python2.7/site-packages/Numeric/RNG/RNG.so
+-rwxr-xr-x root       root            17792 ./usr/lib/python2.7/site-packages/Numeric/RNG/RNG.so
 -rw-r--r-- root       root             1385 ./usr/lib/python2.7/site-packages/Numeric/RNG/Statistics.py
 -rw-r--r-- root       root             2132 ./usr/lib/python2.7/site-packages/Numeric/RNG/Statistics.pyc
 -rw-r--r-- root       root             1008 ./usr/lib/python2.7/site-packages/Numeric/RNG/__init__.py
@@ -53,11 +53,11 @@ drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/Nu
 -rw-r--r-- root       root            17515 ./usr/lib/python2.7/site-packages/Numeric/RandomArray.pyc
 -rw-r--r-- root       root             7502 ./usr/lib/python2.7/site-packages/Numeric/UserArray.py
 -rw-r--r-- root       root            21780 ./usr/lib/python2.7/site-packages/Numeric/UserArray.pyc
--rwxr-xr-x root       root           105440 ./usr/lib/python2.7/site-packages/Numeric/_numpy.so
--rwxr-xr-x root       root            29360 ./usr/lib/python2.7/site-packages/Numeric/arrayfns.so
--rwxr-xr-x root       root           758552 ./usr/lib/python2.7/site-packages/Numeric/lapack_lite.so
--rwxr-xr-x root       root            38560 ./usr/lib/python2.7/site-packages/Numeric/multiarray.so
+-rwxr-xr-x root       root           103584 ./usr/lib/python2.7/site-packages/Numeric/_numpy.so
+-rwxr-xr-x root       root            29200 ./usr/lib/python2.7/site-packages/Numeric/arrayfns.so
+-rwxr-xr-x root       root           755064 ./usr/lib/python2.7/site-packages/Numeric/lapack_lite.so
+-rwxr-xr-x root       root            38272 ./usr/lib/python2.7/site-packages/Numeric/multiarray.so
 -rw-r--r-- root       root               15 ./usr/lib/python2.7/site-packages/Numeric/numeric_version.py
 -rw-r--r-- root       root              255 ./usr/lib/python2.7/site-packages/Numeric/numeric_version.pyc
--rwxr-xr-x root       root            41112 ./usr/lib/python2.7/site-packages/Numeric/ranlib.so
--rwxr-xr-x root       root            75280 ./usr/lib/python2.7/site-packages/Numeric/umath.so
+-rwxr-xr-x root       root            41016 ./usr/lib/python2.7/site-packages/Numeric/ranlib.so
+-rwxr-xr-x root       root            72944 ./usr/lib/python2.7/site-packages/Numeric/umath.so

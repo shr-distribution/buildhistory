@@ -3,6 +3,6 @@ drwxr-xr-x root       root             4096 ./usr/lib
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_x
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_x/bin
 drwxr-xr-x root       root             4096 ./usr/lib/ecore_x/bin/v-1.15
--rwxr-xr-x root       root            11984 ./usr/lib/ecore_x/bin/v-1.15/ecore_x_vsync
+-rwxr-xr-x root       root            12048 ./usr/lib/ecore_x/bin/v-1.15/ecore_x_vsync
 lrwxrwxrwx root       root               20 ./usr/lib/libecore_x.so.1 -> libecore_x.so.1.15.1
--rwxr-xr-x root       root           321432 ./usr/lib/libecore_x.so.1.15.1
+-rwxr-xr-x root       root           321592 ./usr/lib/libecore_x.so.1.15.1
