@@ -6,7 +6,7 @@ if [ -n "$D" ] ; then
 		'base_libdir="/lib"' \
 		'fontconfigcachedir="/var/cache/fontconfig"' \
 		'fontconfigcacheparams="-v"' \
-		'fontconfigcacheenv="FC_DEBUG=16"'
+		'fontconfigcacheenv="FC_DEBUG=1"'
 else
-	FC_DEBUG=16 fc-cache -v
+	FC_DEBUG=1 fc-cache -v
 fi
