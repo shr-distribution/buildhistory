@@ -1,0 +1,13 @@
+drwxr-xr-x root       root             4096 ./lib
+drwxr-xr-x root       root             4096 ./lib/systemd
+drwxr-xr-x root       root             4096 ./lib/systemd/system
+-rw-r--r-- root       root              193 ./lib/systemd/system/gpsd.service
+-rw-r--r-- root       root              211 ./lib/systemd/system/gpsd.socket
+drwxr-xr-x root       root             4096 ./usr
+drwxr-xr-x root       root             4096 ./usr/lib
+lrwxrwxrwx root       root               19 ./usr/lib/libQgpsmm.so.22 -> libQgpsmm.so.22.0.0
+lrwxrwxrwx root       root               19 ./usr/lib/libQgpsmm.so.22.0 -> libQgpsmm.so.22.0.0
+-rwxr-xr-x root       root           180344 ./usr/lib/libQgpsmm.so.22.0.0
+drwxr-xr-x root       root             4096 ./usr/sbin
+-rwxr-xr-x root       root            47352 ./usr/sbin/gpsd
+-rwxr-xr-x root       root             5932 ./usr/sbin/gpsdctl
