@@ -16142,7 +16142,11 @@ drwxr-xr-x 1026       1026             4096 ./usr/src
 drwxr-xr-x root       root             4096 ./var
 drwxr-xr-x 1026       1026             4096 ./var/backups
 drwxr-xr-x 1026       1026             4096 ./var/cache
-drwxr-xr-x 1026       1026             4096 ./var/cache/fontconfig
+drwxr-xr-x root       root             4096 ./var/cache/fontconfig
+-rw-r--r-- root       root              136 ./var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-6
+-rw-r--r-- root       root            18144 ./var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d8.cache-6
+-rw-r--r-- root       root            15368 ./var/cache/fontconfig/94322f4d3cdf1bd54794b691285ca062-le32d8.cache-6
+-rw-r--r-- root       root              200 ./var/cache/fontconfig/CACHEDIR.TAG
 drwx------ root       root             4096 ./var/cache/ldconfig
 -rw------- root       root            18236 ./var/cache/ldconfig/aux-cache
 drwxr-xr-x root       root             4096 ./var/cache/opkg
@@ -16999,8 +17003,8 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libeo1.postinst
 -rw-r--r-- root       root              608 ./var/lib/opkg/info/liberation-fonts.control
 -rw-r--r-- root       root              755 ./var/lib/opkg/info/liberation-fonts.list
--rwxr-xr-x root       root              337 ./var/lib/opkg/info/liberation-fonts.postinst
--rwxr-xr-x root       root              337 ./var/lib/opkg/info/liberation-fonts.postrm
+-rwxr-xr-x root       root              339 ./var/lib/opkg/info/liberation-fonts.postinst
+-rwxr-xr-x root       root              339 ./var/lib/opkg/info/liberation-fonts.postrm
 -rw-r--r-- root       root              440 ./var/lib/opkg/info/libevdev.control
 -rw-r--r-- root       root              137 ./var/lib/opkg/info/libevdev.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libevdev.postinst
@@ -18048,12 +18052,12 @@ drwxr-xr-x root       root            94208 ./var/lib/opkg/info
 -rw-r--r-- root       root               41 ./var/lib/opkg/info/ttf-dejavu-common.list
 -rw-r--r-- root       root              479 ./var/lib/opkg/info/ttf-dejavu-sans-mono.control
 -rw-r--r-- root       root              205 ./var/lib/opkg/info/ttf-dejavu-sans-mono.list
--rwxr-xr-x root       root              341 ./var/lib/opkg/info/ttf-dejavu-sans-mono.postinst
--rwxr-xr-x root       root              341 ./var/lib/opkg/info/ttf-dejavu-sans-mono.postrm
+-rwxr-xr-x root       root              343 ./var/lib/opkg/info/ttf-dejavu-sans-mono.postinst
+-rwxr-xr-x root       root              343 ./var/lib/opkg/info/ttf-dejavu-sans-mono.postrm
 -rw-r--r-- root       root              474 ./var/lib/opkg/info/ttf-dejavu-sans.control
 -rw-r--r-- root       root              268 ./var/lib/opkg/info/ttf-dejavu-sans.list
--rwxr-xr-x root       root              336 ./var/lib/opkg/info/ttf-dejavu-sans.postinst
--rwxr-xr-x root       root              336 ./var/lib/opkg/info/ttf-dejavu-sans.postrm
+-rwxr-xr-x root       root              338 ./var/lib/opkg/info/ttf-dejavu-sans.postinst
+-rwxr-xr-x root       root              338 ./var/lib/opkg/info/ttf-dejavu-sans.postrm
 -rw-r--r-- root       root              384 ./var/lib/opkg/info/tzdata-africa.control
 -rw-r--r-- root       root             1878 ./var/lib/opkg/info/tzdata-africa.list
 -rw-r--r-- root       root              388 ./var/lib/opkg/info/tzdata-americas.control
@@ -18201,7 +18205,7 @@ lrwxrwxrwx root       root               52 ./var/lib/opkg/lists/oe-all -> /OE/b
 lrwxrwxrwx root       root               56 ./var/lib/opkg/lists/oe-arm920t -> /OE/build/shr-core/tmp-glibc/deploy/ipk/arm920t/Packages
 lrwxrwxrwx root       root               57 ./var/lib/opkg/lists/oe-arm920tt -> /OE/build/shr-core/tmp-glibc/deploy/ipk/arm920tt/Packages
 lrwxrwxrwx root       root               57 ./var/lib/opkg/lists/oe-om_gta02 -> /OE/build/shr-core/tmp-glibc/deploy/ipk/om_gta02/Packages
--rw-r--r-- root       root           215515 ./var/lib/opkg/status
+-rw-r--r-- root       root           215518 ./var/lib/opkg/status
 drwxr-xr-x root       root             4096 ./var/lib/systemd
 drwxr-xr-x root       root             4096 ./var/lib/usb_modeswitch
 drwxr-xr-x 1026       1026             4096 ./var/local
