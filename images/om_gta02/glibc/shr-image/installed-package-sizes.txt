@@ -1,10 +1,10 @@
+20240	KiB terminology-themes
 12290	KiB vim-common
-9449	KiB systemd
-6949	KiB terminology-themes
+10118	KiB systemd
 5791	KiB vim-help
 5636	KiB e-wm
 5481	KiB elementary-themes
-5236	KiB udev-hwdb
+5196	KiB udev-hwdb
 4874	KiB fbreader
 4860	KiB vim-syntax
 3877	KiB coreutils
@@ -30,7 +30,7 @@
 2057	KiB vim-tutor
 2029	KiB libpurple
 2021	KiB python-pygtk
-1994	KiB terminology
+2009	KiB terminology
 1975	KiB tcl
 1842	KiB shr-splash-theme-logo
 1630	KiB pidgin-data
@@ -63,6 +63,7 @@
 860	KiB python-netclient
 812	KiB libasound2
 810	KiB libedje1
+782	KiB udev
 763	KiB libfso-glib2
 760	KiB python-ecore
 745	KiB python-gst
@@ -73,7 +74,6 @@
 722	KiB python-xml
 712	KiB python-core
 708	KiB pidgin
-690	KiB udev
 686	KiB numptyphysics
 682	KiB bash
 669	KiB shr-settings
@@ -119,6 +119,7 @@
 388	KiB libfreetype6
 387	KiB libgmp10
 385	KiB glibc-binary-localedata-cs-cz
+375	KiB libsystemd0
 374	KiB sysstat
 369	KiB estardict
 365	KiB libedje-utils
@@ -233,7 +234,6 @@
 127	KiB libapr-1-0
 124	KiB spojegui
 124	KiB linux-firmware-sd8686
-122	KiB libsystemd0
 122	KiB liblightmediascanner0
 121	KiB libopkg1
 120	KiB python-shell
@@ -276,6 +276,7 @@
 91	KiB libexpat1
 91	KiB kernel-module-snd-soc-core
 90	KiB pxaregs
+90	KiB libudev1
 89	KiB libsmartcols1
 88	KiB kmod
 87	KiB libnl-3-200
@@ -329,7 +330,6 @@
 63	KiB libserf-1-1
 63	KiB libgstvideo-0.10-0
 62	KiB openssh-sftp-server
-62	KiB libudev1
 62	KiB elementary-configs
 61	KiB perl
 61	KiB libusb-1.0-0
@@ -614,6 +614,7 @@
 6	KiB babiloo-efl-locale-en-gb
 6	KiB attr-locale-cs
 5	KiB xcursor-transparent-theme
+5	KiB update-rc.d
 5	KiB powertop-locale-en-us
 5	KiB phoneui-apps-messages
 5	KiB phoneui-apps-dialer

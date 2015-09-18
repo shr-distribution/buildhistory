@@ -3177,6 +3177,7 @@ digraph depends {
 "systemd" -> "udev";
 "systemd" -> "udev-hwdb" [style=dotted];
 "systemd" -> "update-alternatives-opkg";
+"systemd" -> "update-rc.d";
 "systemd" -> "util-linux-agetty" [style=dotted];
 "systemd" -> "util-linux-fsck" [style=dotted];
 "systemd" -> "util-linux-mount";
@@ -3185,6 +3186,7 @@ digraph depends {
 "systemd-vconsole-setup" -> "kbd" [style=dotted];
 "systemd-vconsole-setup" -> "kbd-consolefonts" [style=dotted];
 "systemd-vconsole-setup" -> "kbd-keymaps" [style=dotted];
+"systemd-vconsole-setup" -> "libattr1";
 "tar" -> "update-alternatives-opkg";
 "tar-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "tcl" -> "libtcl8.6-0";

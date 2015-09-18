@@ -701,6 +701,7 @@ udev
 udev-extraconf
 udev-hwdb
 update-alternatives-opkg
+update-rc.d
 usb-modeswitch
 usb-modeswitch-data
 usbutils

@@ -3158,6 +3158,7 @@ digraph depends {
 "systemd-vconsole-setup" -> "kbd" [style=dotted];
 "systemd-vconsole-setup" -> "kbd-consolefonts" [style=dotted];
 "systemd-vconsole-setup" -> "kbd-keymaps" [style=dotted];
+"systemd-vconsole-setup" -> "libattr1";
 "tar-locale-cs" -> "virtual-locale-cs" [style=dotted];
 "tcl" -> "libtcl8.6-0";
 "tcpdump" -> "libcrypto1.0.0";
