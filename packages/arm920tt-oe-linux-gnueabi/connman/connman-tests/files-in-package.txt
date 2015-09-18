@@ -2,10 +2,10 @@ drwxr-xr-x root       root             4096 ./usr
 drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root             3372 ./usr/bin/addr-test
 -rwxr-xr-x root       root            13660 ./usr/bin/dbus-test
--rwxr-xr-x root       root            35296 ./usr/bin/dhcp-server-test
--rwxr-xr-x root       root            35812 ./usr/bin/dhcp-test
+-rwxr-xr-x root       root            35304 ./usr/bin/dhcp-server-test
+-rwxr-xr-x root       root            35828 ./usr/bin/dhcp-test
 -rwxr-xr-x root       root             9428 ./usr/bin/dnsproxy-test
--rwxr-xr-x root       root            23608 ./usr/bin/iptables-test
+-rwxr-xr-x root       root            23616 ./usr/bin/iptables-test
 -rwxr-xr-x root       root            10880 ./usr/bin/netlink-test
 -rwxr-xr-x root       root             5916 ./usr/bin/polkit-test
 -rwxr-xr-x root       root             7464 ./usr/bin/private-network-test
