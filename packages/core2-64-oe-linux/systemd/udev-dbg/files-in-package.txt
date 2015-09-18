@@ -1,10 +1,9 @@
 drwxr-xr-x root       root             4096 ./lib
 drwxr-xr-x root       root             4096 ./lib/udev
 drwxr-xr-x root       root             4096 ./lib/udev/.debug
--rwxr-xr-x root       root           195536 ./lib/udev/.debug/accelerometer
--rwxr-xr-x root       root           133480 ./lib/udev/.debug/ata_id
--rwxr-xr-x root       root           187896 ./lib/udev/.debug/cdrom_id
--rwxr-xr-x root       root            66368 ./lib/udev/.debug/collect
--rwxr-xr-x root       root            15648 ./lib/udev/.debug/mtd_probe
--rwxr-xr-x root       root           181344 ./lib/udev/.debug/scsi_id
--rwxr-xr-x root       root            36640 ./lib/udev/.debug/v4l_id
+-rwxr-xr-x root       root           137168 ./lib/udev/.debug/ata_id
+-rwxr-xr-x root       root           192032 ./lib/udev/.debug/cdrom_id
+-rwxr-xr-x root       root            67144 ./lib/udev/.debug/collect
+-rwxr-xr-x root       root            15616 ./lib/udev/.debug/mtd_probe
+-rwxr-xr-x root       root           184880 ./lib/udev/.debug/scsi_id
+-rwxr-xr-x root       root            38432 ./lib/udev/.debug/v4l_id
