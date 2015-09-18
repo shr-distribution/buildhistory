@@ -1,0 +1,4 @@
+PV = 2.32.1
+PR = r3
+DEPENDS = autoconf-native automake-native glib-2.0 gnome-common-native gnu-config-native gtk-engines icon-naming-utils icon-naming-utils-native intltool-native libtool-cross libtool-native libxml-simple-perl-native perl-native pkgconfig-native virtual/arm-oe-linux-gnueabi-compilerlibs virtual/arm-oe-linux-gnueabi-gcc virtual/libc
+PACKAGES = gnome-theme-crux gnome-theme-highcontrast gnome-theme-highcontrastinverse gnome-theme-highcontrastlargeprint gnome-theme-highcontrastlargeprintinverse gnome-theme-largeprint gnome-theme-mist gnome-themes-dbg gnome-themes-staticdev gnome-themes-dev gnome-themes-doc gnome-themes-locale gnome-themes
