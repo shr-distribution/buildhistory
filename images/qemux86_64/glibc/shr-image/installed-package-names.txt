@@ -42,6 +42,7 @@ e-wm-sysactions-shr
 e-wm-theme-illume-gry
 e-wm-utils
 e2fsprogs-e2fsck
+e2fsprogs-locale-cs
 ecalc
 ecore-audio
 ecore-con
@@ -156,13 +157,15 @@ hicolor-icon-theme
 htop
 i2c-tools
 i2c-tools-misc
-illume-keyboard-default-alpha
-illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables
+kbd
+kbd-consolefonts
+kbd-keymaps
+kbd-locale-cs
 kernel
-kernel-4.1.2-yocto-standard
+kernel-4.1.6-yocto-standard
 kernel-module-bnep
 kernel-module-crc-ccitt
 kernel-module-hidp
@@ -189,6 +192,7 @@ kmod
 libacl1
 libapr-1-0
 libaprutil-1-0
+libarchive13
 libasm1
 libasound-module-bluez
 libasound2
@@ -420,6 +424,7 @@ make
 make-locale-cs
 matchbox-keyboard-im
 mbuffer
+mdbus2
 mesa-megadriver
 mime-support
 mioctl
@@ -534,6 +539,7 @@ pulseaudio-locale-cs
 pxaregs
 python-codecs
 python-compression
+python-contextlib
 python-core
 python-crypt
 python-ctypes
@@ -624,6 +630,7 @@ systemd
 systemd-compat-units
 systemd-machine-units
 systemd-serialgetty
+systemd-vconsole-setup
 tar
 tar-locale-cs
 tcl
@@ -645,6 +652,7 @@ udev
 udev-extraconf
 udev-hwdb
 update-alternatives-opkg
+update-rc.d
 usb-modeswitch
 usb-modeswitch-data
 util-linux-agetty
