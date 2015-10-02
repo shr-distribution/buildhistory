@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data/flags
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/enlightenment
+drwxr-xr-x root       root               80 ./usr/share/enlightenment/data
+drwxr-xr-x root       root             2020 ./usr/share/enlightenment/data/flags
 -rw-r--r-- root       root             2562 ./usr/share/enlightenment/data/flags/ad_flag.png
 -rw-r--r-- root       root             2840 ./usr/share/enlightenment/data/flags/af_flag.png
 -rw-r--r-- root       root             3329 ./usr/share/enlightenment/data/flags/al_flag.png
@@ -102,7 +102,7 @@ drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data/flags
 -rw-r--r-- root       root             1165 ./usr/share/enlightenment/data/flags/uz_flag.png
 -rw-r--r-- root       root             1299 ./usr/share/enlightenment/data/flags/vn_flag.png
 -rw-r--r-- root       root             3131 ./usr/share/enlightenment/data/flags/za_flag.png
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data/images
+drwxr-xr-x root       root              140 ./usr/share/enlightenment/data/images
 -rw-r--r-- root       root             2046 ./usr/share/enlightenment/data/images/enlightenment.png
 -rw-r--r-- root       root             4703 ./usr/share/enlightenment/data/images/test.edj
 -rw-r--r-- root       root              625 ./usr/share/enlightenment/data/images/test.jpg
