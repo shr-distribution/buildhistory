@@ -161,8 +161,6 @@ hicolor-icon-theme
 htop
 i2c-tools
 i2c-tools-misc
-illume-keyboard-default-alpha
-illume-keyboard-default-terminal
 illume-keyboard-numeric-alt
 init-ifupdown
 iptables

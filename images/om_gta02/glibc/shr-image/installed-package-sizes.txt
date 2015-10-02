@@ -2,11 +2,11 @@
 12290	KiB vim-common
 10118	KiB systemd
 5791	KiB vim-help
-5636	KiB e-wm
 5481	KiB elementary-themes
 5196	KiB udev-hwdb
 4874	KiB fbreader
 4860	KiB vim-syntax
+4205	KiB e-wm
 3877	KiB coreutils
 3874	KiB file
 3749	KiB gdb
@@ -208,11 +208,11 @@
 159	KiB kernel-module-usbcore
 157	KiB mtd-utils
 157	KiB gst-plugins-base-ogg
-153	KiB e-wm-locale-cs
 152	KiB libfsobasics3
 152	KiB fsousaged
 151	KiB librsvg-2-2
 150	KiB python-datetime
+149	KiB e-wm-locale-cs
 147	KiB grep
 146	KiB glibc-locale-cs
 142	KiB usbutils
@@ -220,7 +220,7 @@
 140	KiB make
 140	KiB kernel-module-scsi-mod
 139	KiB libpng16-16
-139	KiB e-wm-utils
+138	KiB e-wm-utils
 137	KiB python-threading
 137	KiB e2fsprogs-locale-cs
 136	KiB curl
@@ -459,6 +459,7 @@
 22	KiB kernel-module-gadgetfs
 22	KiB gdk-pixbuf-locale-cs
 22	KiB fuser
+22	KiB e-wm-config-default
 21	KiB xz-locale-cs
 21	KiB wpa-supplicant-passphrase
 21	KiB rgb
@@ -469,7 +470,6 @@
 21	KiB kernel-module-x-tables
 21	KiB kernel-module-tun
 21	KiB ecore-file
-21	KiB e-wm-config-default
 20	KiB xserver-common
 20	KiB xmodmap
 20	KiB python-phoneutils
@@ -609,7 +609,6 @@
 6	KiB libpurple-protocol-icq
 6	KiB libgstnetbuffer-0.10-0
 6	KiB kernel-module-nls-iso8859-1
-6	KiB illume-keyboard-default-terminal
 6	KiB frameworkd-config
 6	KiB babiloo-efl-locale-en-gb
 6	KiB attr-locale-cs
@@ -644,7 +643,6 @@
 4	KiB kernel-module-nf-defrag-ipv4
 4	KiB kernel-module-michael-mic
 4	KiB kernel-module-arc4
-4	KiB illume-keyboard-default-alpha
 4	KiB elementary-locale-cs
 4	KiB e-wm-sysactions-shr
 4	KiB e-wm-input-methods
