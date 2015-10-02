@@ -1,9 +1,10 @@
-PV = 0.18.8
+PV = 0.19.4+gitAUTOINC+4545d4a700
 PR = r0
-PKGR = r0.5
+PKGV = 0.19.4+git0+4545d4a700
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = bluez5 (>= 5.33) ecore (>= 1.15.1) ecore-evas (>= 1.15.1) ecore-file (>= 1.15.1) ecore-ipc (>= 1.15.1) edje (>= 1.15.1) eeze (>= 1.15.1) eina (>= 1.15.1) eldbus (>= 1.15.1) evas (>= 1.15.1) glibc (>= 2.22) libeet (>= 1.15.1) libefreet (>= 1.15.1) libxcb (>= 1.11) libxcb-shape (>= 1.11) xcb-util-keysyms (>= 0.4.0)
 RRECOMMENDS = 
-PKGSIZE = 164784
+PKGSIZE = 165480
 FILES = /usr/lib/enlightenment/utils/*
 FILELIST = /usr/lib/enlightenment/utils/enlightenment_alert /usr/lib/enlightenment/utils/enlightenment_backlight /usr/lib/enlightenment/utils/enlightenment_fm /usr/lib/enlightenment/utils/enlightenment_fm_op /usr/lib/enlightenment/utils/enlightenment_static_grabber /usr/lib/enlightenment/utils/enlightenment_sys /usr/lib/enlightenment/utils/enlightenment_thumb

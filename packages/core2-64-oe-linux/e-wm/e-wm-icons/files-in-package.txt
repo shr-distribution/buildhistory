@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data/icons
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/enlightenment
+drwxr-xr-x root       root               60 ./usr/share/enlightenment/data
+drwxr-xr-x root       root              200 ./usr/share/enlightenment/data/icons
 -rw-r--r-- root       root             4278 ./usr/share/enlightenment/data/icons/audio_player.png
 -rw-r--r-- root       root             3848 ./usr/share/enlightenment/data/icons/audio_player2.png
 -rw-r--r-- root       root             6401 ./usr/share/enlightenment/data/icons/image_viewer.png
