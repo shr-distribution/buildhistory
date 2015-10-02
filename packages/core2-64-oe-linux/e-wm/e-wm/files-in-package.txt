@@ -8,7 +8,7 @@ drwxr-xr-x root       root               60 ./lib/systemd/system
 -rw-r--r-- root       root              513 ./lib/systemd/system/enlightenment.service
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              180 ./usr/bin
--rwxr-xr-x root       root          1529280 ./usr/bin/enlightenment
+-rwxr-xr-x root       root          1535712 ./usr/bin/enlightenment
 -rwxr-xr-x root       root            11088 ./usr/bin/enlightenment_filemanager
 -rwxr-xr-x root       root            11024 ./usr/bin/enlightenment_imc
 -rwxr-xr-x root       root            15408 ./usr/bin/enlightenment_open
@@ -129,12 +129,12 @@ drwxr-xr-x root       root              120 ./usr/lib/enlightenment/modules/ever
 -rw-r--r-- root       root            24666 ./usr/lib/enlightenment/modules/everything/e-module-everything-start.edj
 -rw-r--r-- root       root            17660 ./usr/lib/enlightenment/modules/everything/e-module-everything.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root           192312 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-serious-0.19/module.so
+-rwxr-xr-x root       root           192328 ./usr/lib/enlightenment/modules/everything/linux-gnu-x86_64-ver-serious-0.19/module.so
 -rw-r--r-- root       root             2069 ./usr/lib/enlightenment/modules/everything/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/fileman
 -rw-r--r-- root       root            15937 ./usr/lib/enlightenment/modules/fileman/e-module-fileman.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/fileman/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root           126720 ./usr/lib/enlightenment/modules/fileman/linux-gnu-x86_64-ver-serious-0.19/module.so
+-rwxr-xr-x root       root           126816 ./usr/lib/enlightenment/modules/fileman/linux-gnu-x86_64-ver-serious-0.19/module.so
 -rw-r--r-- root       root             1515 ./usr/lib/enlightenment/modules/fileman/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/fileman_opinfo
 -rw-r--r-- root       root             9833 ./usr/lib/enlightenment/modules/fileman_opinfo/e-module-fileman_opinfo.edj
@@ -177,7 +177,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/musi
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/notification
 -rw-r--r-- root       root             7877 ./usr/lib/enlightenment/modules/notification/e-module-notification.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            30576 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-serious-0.19/module.so
+-rwxr-xr-x root       root            33616 ./usr/lib/enlightenment/modules/notification/linux-gnu-x86_64-ver-serious-0.19/module.so
 -rw-r--r-- root       root             2236 ./usr/lib/enlightenment/modules/notification/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/packagekit
 -rw-r--r-- root       root            15007 ./usr/lib/enlightenment/modules/packagekit/e-module-packagekit.edj
@@ -206,7 +206,7 @@ drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/quic
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/shot
 -rw-r--r-- root       root             9475 ./usr/lib/enlightenment/modules/shot/e-module-shot.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/shot/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            37184 ./usr/lib/enlightenment/modules/shot/linux-gnu-x86_64-ver-serious-0.19/module.so
+-rwxr-xr-x root       root            37168 ./usr/lib/enlightenment/modules/shot/linux-gnu-x86_64-ver-serious-0.19/module.so
 -rw-r--r-- root       root             1549 ./usr/lib/enlightenment/modules/shot/module.desktop
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/start
 -rw-r--r-- root       root            24666 ./usr/lib/enlightenment/modules/start/e-module-start.edj
@@ -256,7 +256,7 @@ drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/wiza
 -rw-r--r-- root       root              970 ./usr/lib/enlightenment/modules/wizard/desktop/root.desktop
 -rw-r--r-- root       root              979 ./usr/lib/enlightenment/modules/wizard/desktop/tmp.desktop
 drwxr-xr-x root       root              460 ./usr/lib/enlightenment/modules/wizard/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            17608 ./usr/lib/enlightenment/modules/wizard/linux-gnu-x86_64-ver-serious-0.19/module.so
+-rwxr-xr-x root       root            17944 ./usr/lib/enlightenment/modules/wizard/linux-gnu-x86_64-ver-serious-0.19/module.so
 -rwxr-xr-x root       root             8016 ./usr/lib/enlightenment/modules/wizard/linux-gnu-x86_64-ver-serious-0.19/page_000.so
 -rwxr-xr-x root       root            18216 ./usr/lib/enlightenment/modules/wizard/linux-gnu-x86_64-ver-serious-0.19/page_010.so
 -rwxr-xr-x root       root            12536 ./usr/lib/enlightenment/modules/wizard/linux-gnu-x86_64-ver-serious-0.19/page_011.so
@@ -280,7 +280,7 @@ drwxr-xr-x root       root              460 ./usr/lib/enlightenment/modules/wiza
 drwxr-xr-x root       root              100 ./usr/lib/enlightenment/modules/xkbswitch
 -rw-r--r-- root       root             9213 ./usr/lib/enlightenment/modules/xkbswitch/e-module-xkbswitch.edj
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnu-x86_64-ver-serious-0.19
--rwxr-xr-x root       root            37872 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnu-x86_64-ver-serious-0.19/module.so
+-rwxr-xr-x root       root            37888 ./usr/lib/enlightenment/modules/xkbswitch/linux-gnu-x86_64-ver-serious-0.19/module.so
 -rw-r--r-- root       root             1602 ./usr/lib/enlightenment/modules/xkbswitch/module.desktop
 drwxr-xr-x root       root               80 ./usr/share
 drwxr-xr-x root       root              100 ./usr/share/enlightenment
@@ -296,4 +296,4 @@ drwxr-xr-x root       root              140 ./usr/share/enlightenment/data/favor
 -rw-r--r-- root       root              970 ./usr/share/enlightenment/data/favorites/root.desktop
 -rw-r--r-- root       root              979 ./usr/share/enlightenment/data/favorites/tmp.desktop
 drwxr-xr-x root       root               60 ./usr/share/xsessions
--rw-r--r-- root       root             1582 ./usr/share/xsessions/enlightenment.desktop
+-rw-r--r-- root       root             1598 ./usr/share/xsessions/enlightenment.desktop

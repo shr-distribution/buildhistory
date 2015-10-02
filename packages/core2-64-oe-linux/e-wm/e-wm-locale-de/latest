@@ -1,10 +1,9 @@
-PV = 0.19.4+gitAUTOINC+4545d4a700
+PV = 0.19.10
 PR = r0
-PKGV = 0.19.4+git0+4545d4a700
 PKGR = r0.0
 RPROVIDES = de-translation e-wm-locale
 RDEPENDS = 
 RRECOMMENDS = virtual-locale-de
-PKGSIZE = 157115
+PKGSIZE = 157119
 FILES = /usr/share/locale/de
 FILELIST = /usr/share/locale/de/LC_MESSAGES/enlightenment.mo

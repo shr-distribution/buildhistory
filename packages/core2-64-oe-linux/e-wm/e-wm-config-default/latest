@@ -1,10 +1,9 @@
-PV = 0.19.4+gitAUTOINC+4545d4a700
+PV = 0.19.10
 PR = r0
-PKGV = 0.19.4+git0+4545d4a700
 PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = e-wm-theme-default
-PKGSIZE = 22133
+PKGSIZE = 22135
 FILES = /usr/share/enlightenment/data/config/default
 FILELIST = /usr/share/enlightenment/data/config/default/e.cfg /usr/share/enlightenment/data/config/default/e_bindings.cfg /usr/share/enlightenment/data/config/default/enlightenment-default.png /usr/share/enlightenment/data/config/default/profile.desktop
