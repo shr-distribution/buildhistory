@@ -1,7 +1,7 @@
 PE = 1
 PV = 3.2
 PR = r14
-PKGR = r14.52
+PKGR = r14.56
 PKG = kernel-3.2.52
 RPROVIDES = 3.2 kernel-3.2.52 kernel-base
 RDEPENDS = kernel-image

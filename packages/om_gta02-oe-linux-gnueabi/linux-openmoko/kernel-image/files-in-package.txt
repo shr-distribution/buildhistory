@@ -1,2 +1,2 @@
-drwxr-xr-x root       root             4096 ./boot
--rw-r--r-- root       root          1541024 ./boot/uImage-3.2.52
+drwxr-xr-x root       root               60 ./boot
+-rw-r--r-- root       root          1541128 ./boot/uImage-3.2.52
