@@ -1041,7 +1041,7 @@ digraph depends {
 "i2c-tools-misc" -> "perl";
 "init-ifupdown" -> "netbase";
 "kbd-locale-cs" -> "virtual-locale-cs" [style=dotted];
-"kernel" -> "kernel-4.1.6-yocto-standard";
+"kernel" -> "kernel-4.1.8-yocto-standard";
 "kmod" -> "libz1";
 "libacl1" -> "libattr1";
 "libapr-1-0" -> "libuuid1";
