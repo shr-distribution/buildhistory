@@ -1,2 +1,2 @@
 drwxr-xr-x root       root               60 ./boot
--rw-r--r-- root       root          6911456 ./boot/bzImage-4.1.6-yocto-standard
+-rw-r--r-- root       root          6912768 ./boot/bzImage-4.1.8-yocto-standard

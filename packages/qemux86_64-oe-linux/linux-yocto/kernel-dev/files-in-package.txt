@@ -1,4 +1,4 @@
 drwxr-xr-x root       root              100 ./boot
--rw-r--r-- root       root           541456 ./boot/Module.symvers-4.1.6-yocto-standard
--rw-r--r-- root       root          3243460 ./boot/System.map-4.1.6-yocto-standard
--rw-r--r-- root       root           112004 ./boot/config-4.1.6-yocto-standard
+-rw-r--r-- root       root           541396 ./boot/Module.symvers-4.1.8-yocto-standard
+-rw-r--r-- root       root          3243928 ./boot/System.map-4.1.8-yocto-standard
+-rw-r--r-- root       root           112004 ./boot/config-4.1.8-yocto-standard
