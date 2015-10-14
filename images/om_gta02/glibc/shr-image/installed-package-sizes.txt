@@ -1,15 +1,14 @@
 20240	KiB terminology-themes
-12290	KiB vim-common
+12362	KiB vim-common
 10118	KiB systemd
-5791	KiB vim-help
+5823	KiB vim-help
 5481	KiB elementary-themes
 5196	KiB udev-hwdb
-4874	KiB fbreader
-4860	KiB vim-syntax
+4938	KiB vim-syntax
+4870	KiB fbreader
 4205	KiB e-wm
 3877	KiB coreutils
 3874	KiB file
-3749	KiB gdb
 3531	KiB python-elementary
 3504	KiB libgtk-2.0
 3446	KiB python-codecs
@@ -17,6 +16,7 @@
 3126	KiB evas
 3019	KiB ttf-dejavu-sans
 3019	KiB libc6
+2957	KiB gdb
 2797	KiB ncurses-terminfo
 2760	KiB frameworkd
 2731	KiB xkeyboard-config
@@ -26,8 +26,8 @@
 2185	KiB bluez5
 2161	KiB shared-mime-info
 2118	KiB python-lxml
+2110	KiB vim-tutor
 2087	KiB subversion
-2057	KiB vim-tutor
 2029	KiB libpurple
 2021	KiB python-pygtk
 2009	KiB terminology
@@ -43,7 +43,7 @@
 1461	KiB libsamplerate0
 1373	KiB libphone-ui-shr
 1322	KiB libperl5
-1251	KiB vim
+1269	KiB vim
 1216	KiB libcrypto1.0.0
 1201	KiB libpython2.7-1.0
 1198	KiB libx11-locale
@@ -155,7 +155,7 @@
 268	KiB libreadline6
 267	KiB strace
 264	KiB libharfbuzz0
-261	KiB tzdata-americas
+263	KiB tzdata-americas
 259	KiB python-logging
 258	KiB libnl-route-3-200
 258	KiB libfontconfig1
