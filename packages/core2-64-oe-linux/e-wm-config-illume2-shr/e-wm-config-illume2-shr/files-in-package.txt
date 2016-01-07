@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data/config
-drwxr-xr-x root       root             4096 ./usr/share/enlightenment/data/config/illume2-shr
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/enlightenment
+drwxr-xr-x root       root               60 ./usr/share/enlightenment/data
+drwxr-xr-x root       root               60 ./usr/share/enlightenment/data/config
+drwxr-xr-x root       root              300 ./usr/share/enlightenment/data/config/illume2-shr
 -rw-r--r-- root       root            16009 ./usr/share/enlightenment/data/config/illume2-shr/e.cfg
 -rw-r--r-- root       root             2474 ./usr/share/enlightenment/data/config/illume2-shr/e_remember_restart.cfg
 -rw-r--r-- root       root              298 ./usr/share/enlightenment/data/config/illume2-shr/exehist.src

@@ -1,15 +1,15 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/include
-drwxr-xr-x root       root             4096 ./usr/include/eflvala-1.0
+drwxr-xr-x root       root              100 ./usr
+drwxr-xr-x root       root               60 ./usr/include
+drwxr-xr-x root       root               60 ./usr/include/eflvala-1.0
 -rw-r--r-- root       root             7075 ./usr/include/eflvala-1.0/eflvala.h
-drwxr-xr-x root       root             4096 ./usr/lib
--rwxr-xr-x root       root             4506 ./usr/lib/libeflvala.la
+drwxr-xr-x root       root              100 ./usr/lib
+-rwxr-xr-x root       root             4773 ./usr/lib/libeflvala.la
 lrwxrwxrwx root       root               19 ./usr/lib/libeflvala.so -> libeflvala.so.0.0.0
-drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              304 ./usr/lib/pkgconfig/eflvala-1.0.pc
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/vala
-drwxr-xr-x root       root             4096 ./usr/share/vala/vapi
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/vala
+drwxr-xr-x root       root              400 ./usr/share/vala/vapi
 -rw-r--r-- root       root               17 ./usr/share/vala/vapi/ecore-evas.deps
 -rw-r--r-- root       root             6037 ./usr/share/vala/vapi/ecore-evas.vapi
 -rw-r--r-- root       root               17 ./usr/share/vala/vapi/ecore-x.deps

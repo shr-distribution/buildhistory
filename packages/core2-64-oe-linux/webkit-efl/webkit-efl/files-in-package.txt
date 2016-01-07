@@ -1,12 +1,12 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              160 ./usr/lib
 lrwxrwxrwx root       root               21 ./usr/lib/libewebkit2.so.1 -> libewebkit2.so.1.11.0
--rwxr-xr-x 1026       1026          4699528 ./usr/lib/libewebkit2.so.1.11.0
+-rwxr-xr-x root       root          4700840 ./usr/lib/libewebkit2.so.1.11.0
 lrwxrwxrwx root       root               31 ./usr/lib/libjavascriptcore_efl.so.1 -> libjavascriptcore_efl.so.1.11.0
--rwxr-xr-x 1026       1026          7257720 ./usr/lib/libjavascriptcore_efl.so.1.11.0
+-rwxr-xr-x root       root          7257720 ./usr/lib/libjavascriptcore_efl.so.1.11.0
 lrwxrwxrwx root       root               24 ./usr/lib/libwebcore_efl.so.1 -> libwebcore_efl.so.1.11.0
--rwxr-xr-x 1026       1026         31063952 ./usr/lib/libwebcore_efl.so.1.11.0
+-rwxr-xr-x root       root         31077904 ./usr/lib/libwebcore_efl.so.1.11.0
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x 1026       1026               60 ./usr/share/ewebkit2-1
-drwxr-xr-x 1026       1026               60 ./usr/share/ewebkit2-1/themes
--rw-r--r-- 1026       1026           133163 ./usr/share/ewebkit2-1/themes/default.edj
+drwxr-xr-x root       root               60 ./usr/share/ewebkit2-1
+drwxr-xr-x root       root               60 ./usr/share/ewebkit2-1/themes
+-rw-r--r-- root       root           133163 ./usr/share/ewebkit2-1/themes/default.edj

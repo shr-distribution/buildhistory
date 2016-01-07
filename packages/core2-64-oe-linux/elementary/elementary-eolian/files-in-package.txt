@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/eolian
-drwxr-xr-x root       root             4096 ./usr/share/eolian/include
-drwxr-xr-x root       root             4096 ./usr/share/eolian/include/elementary-1
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/eolian
+drwxr-xr-x root       root               60 ./usr/share/eolian/include
+drwxr-xr-x root       root             2300 ./usr/share/eolian/include/elementary-1
 -rw-r--r-- root       root              233 ./usr/share/eolian/include/elementary-1/elm_access.eo
 -rw-r--r-- root       root             2303 ./usr/share/eolian/include/elementary-1/elm_actionslider.eo
 -rw-r--r-- root       root             1981 ./usr/share/eolian/include/elementary-1/elm_app_client.eo

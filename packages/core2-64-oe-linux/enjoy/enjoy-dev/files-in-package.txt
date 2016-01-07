@@ -1,6 +1,6 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/enjoy
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib/enjoy
 -rwxr-xr-x root       root              946 ./usr/lib/enjoy/albumart-lastfm.la
--rwxr-xr-x root       root             1246 ./usr/lib/enjoy/fso.la
--rwxr-xr-x root       root             1258 ./usr/lib/enjoy/mpris.la
+-rwxr-xr-x root       root             1321 ./usr/lib/enjoy/fso.la
+-rwxr-xr-x root       root             1333 ./usr/lib/enjoy/mpris.la

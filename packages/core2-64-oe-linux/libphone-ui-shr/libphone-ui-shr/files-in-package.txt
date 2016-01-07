@@ -1,10 +1,10 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/phoneui
-drwxr-xr-x root       root             4096 ./usr/lib/phoneui/modules
--rwxr-xr-x root       root           173624 ./usr/lib/phoneui/modules/shr.so
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/libphone-ui-shr
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/phoneui
+drwxr-xr-x root       root               60 ./usr/lib/phoneui/modules
+-rwxr-xr-x root       root           173832 ./usr/lib/phoneui/modules/shr.so
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              360 ./usr/share/libphone-ui-shr
 -rw-r--r-- root       root              976 ./usr/share/libphone-ui-shr/call-start.png
 -rw-r--r-- root       root              764 ./usr/share/libphone-ui-shr/call-stop.png
 -rw-r--r-- root       root            60196 ./usr/share/libphone-ui-shr/contact.png

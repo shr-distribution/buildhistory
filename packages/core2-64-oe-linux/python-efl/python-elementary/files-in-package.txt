@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/python2.7
-drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages
-drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/efl
-drwxr-xr-x root       root             4096 ./usr/lib/python2.7/site-packages/efl/elementary
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/python2.7
+drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages
+drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/efl
+drwxr-xr-x root       root             1420 ./usr/lib/python2.7/site-packages/efl/elementary
 -rw-r--r-- root       root             1861 ./usr/lib/python2.7/site-packages/efl/elementary/__init__.py
 -rwxr-xr-x root       root          4051440 ./usr/lib/python2.7/site-packages/efl/elementary/__init__.so
 -rw-r--r-- root       root              210 ./usr/lib/python2.7/site-packages/efl/elementary/actionslider.py

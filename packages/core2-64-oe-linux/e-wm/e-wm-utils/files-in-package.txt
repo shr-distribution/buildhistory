@@ -3,9 +3,9 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment
 drwxr-xr-x root       root              180 ./usr/lib/enlightenment/utils
 -rwxr-xr-x root       root            15424 ./usr/lib/enlightenment/utils/enlightenment_alert
--r-sr-xr-x root       root             7632 ./usr/lib/enlightenment/utils/enlightenment_backlight
+-r-sr-xr-x root       root             7600 ./usr/lib/enlightenment/utils/enlightenment_backlight
 -rwxr-xr-x root       root            65168 ./usr/lib/enlightenment/utils/enlightenment_fm
--rwxr-xr-x root       root            25624 ./usr/lib/enlightenment/utils/enlightenment_fm_op
+-rwxr-xr-x root       root            25592 ./usr/lib/enlightenment/utils/enlightenment_fm_op
 -rwxr-xr-x root       root            11016 ./usr/lib/enlightenment/utils/enlightenment_static_grabber
 -r-sr-xr-x root       root            15352 ./usr/lib/enlightenment/utils/enlightenment_sys
 -rwxr-xr-x root       root            23912 ./usr/lib/enlightenment/utils/enlightenment_thumb
