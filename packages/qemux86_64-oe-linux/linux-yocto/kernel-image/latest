@@ -1,11 +1,11 @@
-PV = 4.1.8+gitAUTOINC+3d8f1378d0_52a4a9f4a2
+PV = 4.1.15+gitAUTOINC+46bb64d605_788dfc9859
 PR = r0
-PKGV = 4.1.8+git0+3d8f1378d0_52a4a9f4a2
+PKGV = 4.1.15+git0+46bb64d605_788dfc9859
 PKGR = r0.1
-PKG = kernel-image-4.1.8-yocto-standard
-RPROVIDES = 4.1.8+git0+3d8f1378d0 52a4a9f4a2 kernel-image
+PKG = kernel-image-4.1.15-yocto-standard
+RPROVIDES = 4.1.15+git0+46bb64d605 788dfc9859 kernel-image
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 6912768
+PKGSIZE = 6918688
 FILES = /boot/bzImage*
-FILELIST = /boot/bzImage-4.1.8-yocto-standard
+FILELIST = /boot/bzImage-4.1.15-yocto-standard
