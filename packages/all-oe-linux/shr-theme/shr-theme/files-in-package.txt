@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/icons
-drwxr-xr-x root       root             4096 ./usr/share/icons/shr
-drwxr-xr-x root       root             4096 ./usr/share/icons/shr/86x86
-drwxr-xr-x root       root             4096 ./usr/share/icons/shr/86x86/apps
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/icons
+drwxr-xr-x root       root               80 ./usr/share/icons/shr
+drwxr-xr-x root       root               60 ./usr/share/icons/shr/86x86
+drwxr-xr-x root       root              680 ./usr/share/icons/shr/86x86/apps
 -rw-r--r-- root       root             8794 ./usr/share/icons/shr/86x86/apps/bass.png
 -rw-r--r-- root       root             6018 ./usr/share/icons/shr/86x86/apps/elmdentica.png
 -rw-r--r-- root       root             9674 ./usr/share/icons/shr/86x86/apps/ffalarms.png

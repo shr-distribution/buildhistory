@@ -1,28 +1,28 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root             6768 ./usr/bin/chvt.kbd
--rwxr-xr-x root       root             7296 ./usr/bin/deallocvt.kbd
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              560 ./usr/bin
+-rwxr-xr-x root       root             7544 ./usr/bin/chvt.kbd
+-rwxr-xr-x root       root             8096 ./usr/bin/deallocvt.kbd
 -rwxr-xr-x root       root            95272 ./usr/bin/dumpkeys
--rwxr-xr-x root       root             7536 ./usr/bin/fgconsole.kbd
--rwxr-xr-x root       root             7656 ./usr/bin/getkeycodes
--rwxr-xr-x root       root             8016 ./usr/bin/kbd_mode
--rwxr-xr-x root       root             8520 ./usr/bin/kbdinfo
--rwxr-xr-x root       root             8520 ./usr/bin/kbdrate
--rwxr-xr-x root       root           132616 ./usr/bin/loadkeys
+-rwxr-xr-x root       root             8304 ./usr/bin/fgconsole.kbd
+-rwxr-xr-x root       root             8328 ./usr/bin/getkeycodes
+-rwxr-xr-x root       root             8680 ./usr/bin/kbd_mode
+-rwxr-xr-x root       root             9312 ./usr/bin/kbdinfo
+-rwxr-xr-x root       root             9208 ./usr/bin/kbdrate
+-rwxr-xr-x root       root           132680 ./usr/bin/loadkeys
 -rwxr-xr-x root       root            23480 ./usr/bin/loadunimap
 -rwxr-xr-x root       root            16496 ./usr/bin/mapscrn
--rwxr-xr-x root       root            15296 ./usr/bin/openvt.kbd
+-rwxr-xr-x root       root            15408 ./usr/bin/openvt.kbd
 lrwxrwxrwx root       root                9 ./usr/bin/psfaddtable -> psfxtable
 lrwxrwxrwx root       root                9 ./usr/bin/psfgettable -> psfxtable
 lrwxrwxrwx root       root                9 ./usr/bin/psfstriptable -> psfxtable
 -rwxr-xr-x root       root            16344 ./usr/bin/psfxtable
--rwxr-xr-x root       root            15224 ./usr/bin/resizecons
--rwxr-xr-x root       root            37744 ./usr/bin/setfont
--rwxr-xr-x root       root             7240 ./usr/bin/setkeycodes
--rwxr-xr-x root       root             8752 ./usr/bin/setleds
--rwxr-xr-x root       root             6856 ./usr/bin/setmetamode
--rwxr-xr-x root       root             8760 ./usr/bin/setvtrgb
--rwxr-xr-x root       root            15048 ./usr/bin/showconsolefont
--rwxr-xr-x root       root            10912 ./usr/bin/showkey
+-rwxr-xr-x root       root            15992 ./usr/bin/resizecons
+-rwxr-xr-x root       root            37392 ./usr/bin/setfont
+-rwxr-xr-x root       root             8056 ./usr/bin/setkeycodes
+-rwxr-xr-x root       root             9648 ./usr/bin/setleds
+-rwxr-xr-x root       root             7560 ./usr/bin/setmetamode
+-rwxr-xr-x root       root             9144 ./usr/bin/setvtrgb
+-rwxr-xr-x root       root            15064 ./usr/bin/showconsolefont
+-rwxr-xr-x root       root            11432 ./usr/bin/showkey
 -rwxr-xr-x root       root             2425 ./usr/bin/unicode_start
 -rwxr-xr-x root       root              363 ./usr/bin/unicode_stop

@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              100 ./usr/lib
 lrwxrwxrwx root       root               18 ./usr/lib/libts-1.0.so.0 -> libts-1.0.so.0.0.0
 -rwxr-xr-x root       root            10832 ./usr/lib/libts-1.0.so.0.0.0
-drwxr-xr-x root       root             4096 ./usr/lib/ts
+drwxr-xr-x root       root              260 ./usr/lib/ts
 -rwxr-xr-x root       root            11280 ./usr/lib/ts/cy8mrln_palmpre.so
 -rwxr-xr-x root       root             6008 ./usr/lib/ts/dejitter.so
 -rwxr-xr-x root       root             6720 ./usr/lib/ts/dmc.so

@@ -1,10 +1,10 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root           244864 ./usr/bin/numptyphysics
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/applications
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-rwxr-xr-x root       root           244992 ./usr/bin/numptyphysics
+drwxr-xr-x root       root              100 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/applications
 -rw-r--r-- root       root              146 ./usr/share/applications/numptyphysics.desktop
-drwxr-xr-x root       root             4096 ./usr/share/numptyphysics
+drwxr-xr-x root       root             1480 ./usr/share/numptyphysics
 -rw-r--r-- 1026       1026             3993 ./usr/share/numptyphysics/Bullseye.nph
 -rw-r--r-- 1026       1026            12551 ./usr/share/numptyphysics/CatchMe.nph
 -rw-r--r-- 1026       1026            19375 ./usr/share/numptyphysics/FlytoSun.nph
@@ -62,7 +62,7 @@ drwxr-xr-x root       root             4096 ./usr/share/numptyphysics
 -rw-r--r-- 1026       1026            15300 ./usr/share/numptyphysics/melvin3.nph
 -rw-r--r-- 1026       1026             7089 ./usr/share/numptyphysics/next.png
 -rw-r--r-- 1026       1026             9025 ./usr/share/numptyphysics/next_win32.png
-drwxr-xr-x 1026       1026             4096 ./usr/share/numptyphysics/org_level
+drwxr-xr-x 1026       1026              260 ./usr/share/numptyphysics/org_level
 -rw-r--r-- 1026       1026            12885 ./usr/share/numptyphysics/org_level/L00_title.nph
 -rw-r--r-- 1026       1026            15108 ./usr/share/numptyphysics/org_level/L01_tutorial.nph
 -rw-r--r-- 1026       1026              537 ./usr/share/numptyphysics/org_level/L05_plane_sailing.nph
@@ -88,5 +88,5 @@ drwxr-xr-x 1026       1026             4096 ./usr/share/numptyphysics/org_level
 -rw-r--r-- 1026       1026             7927 ./usr/share/numptyphysics/surfs_up.nph
 -rw-r--r-- 1026       1026             5439 ./usr/share/numptyphysics/szymanowski1.nph
 -rw-r--r-- 1026       1026             2078 ./usr/share/numptyphysics/theend.png
-drwxr-xr-x root       root             4096 ./usr/share/pixmaps
+drwxr-xr-x root       root               60 ./usr/share/pixmaps
 -rw-r--r-- root       root             1322 ./usr/share/pixmaps/star.png

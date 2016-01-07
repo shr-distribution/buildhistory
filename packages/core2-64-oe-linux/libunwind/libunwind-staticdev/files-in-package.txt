@@ -1,0 +1,8 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              160 ./usr/lib
+-rw-r--r-- root       root           242066 ./usr/lib/libunwind-coredump.a
+lrwxrwxrwx root       root               18 ./usr/lib/libunwind-generic.a -> libunwind-x86_64.a
+-rw-r--r-- root       root           197752 ./usr/lib/libunwind-ptrace.a
+-rw-r--r-- root       root            36692 ./usr/lib/libunwind-setjmp.a
+-rw-r--r-- root       root          1102332 ./usr/lib/libunwind-x86_64.a
+-rw-r--r-- root       root           834532 ./usr/lib/libunwind.a

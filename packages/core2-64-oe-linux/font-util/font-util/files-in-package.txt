@@ -1,11 +1,11 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root             7632 ./usr/bin/bdftruncate
 -rwxr-xr-x root       root            17640 ./usr/bin/ucs2any
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/fonts
-drwxr-xr-x root       root             4096 ./usr/share/fonts/X11
-drwxr-xr-x root       root             4096 ./usr/share/fonts/X11/util
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/fonts
+drwxr-xr-x root       root               60 ./usr/share/fonts/X11
+drwxr-xr-x root       root              380 ./usr/share/fonts/X11/util
 -rw-r--r-- root       root            10592 ./usr/share/fonts/X11/util/map-ISO8859-1
 -rw-r--r-- root       root            10989 ./usr/share/fonts/X11/util/map-ISO8859-10
 -rw-r--r-- root       root             9730 ./usr/share/fonts/X11/util/map-ISO8859-11

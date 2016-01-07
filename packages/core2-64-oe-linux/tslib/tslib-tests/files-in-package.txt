@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
 -rwxr-xr-x root       root            19976 ./usr/bin/ts_harvest
 -rwxr-xr-x root       root             5576 ./usr/bin/ts_print
 -rwxr-xr-x root       root             5592 ./usr/bin/ts_print_raw

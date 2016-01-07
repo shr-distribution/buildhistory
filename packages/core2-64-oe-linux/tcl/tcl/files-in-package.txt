@@ -1,16 +1,16 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
-drwxr-xr-x root       root             4096 ./usr/bin/crossscripts
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              120 ./usr/bin
+drwxr-xr-x root       root               60 ./usr/bin/crossscripts
 -rwxr-xr-x root       root             7836 ./usr/bin/crossscripts/tclConfig.sh
 lrwxrwxrwx root       root               12 ./usr/bin/tclsh -> ./tclsh8.6.4
 -rwxr-xr-x root       root             5664 ./usr/bin/tclsh8.6
 lrwxrwxrwx root       root                8 ./usr/bin/tclsh8.6.4 -> tclsh8.6
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6
+drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib/tcl8
+drwxr-xr-x root       root              340 ./usr/lib/tcl8.6
 -rw-r--r-- root       root            21317 ./usr/lib/tcl8.6/auto.tcl
 -rw-r--r-- root       root           129701 ./usr/lib/tcl8.6/clock.tcl
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/encoding
+drwxr-xr-x root       root             1600 ./usr/lib/tcl8.6/encoding
 -rw-r--r-- root       root             1090 ./usr/lib/tcl8.6/encoding/ascii.enc
 -rw-r--r-- root       root            92873 ./usr/lib/tcl8.6/encoding/big5.enc
 -rw-r--r-- root       root             1091 ./usr/lib/tcl8.6/encoding/cp1250.enc
@@ -90,11 +90,11 @@ drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/encoding
 -rw-r--r-- root       root             1091 ./usr/lib/tcl8.6/encoding/symbol.enc
 -rw-r--r-- root       root             1091 ./usr/lib/tcl8.6/encoding/tis-620.enc
 -rw-r--r-- root       root             7328 ./usr/lib/tcl8.6/history.tcl
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/http1.0
+drwxr-xr-x root       root               80 ./usr/lib/tcl8.6/http1.0
 -rw-r--r-- root       root             9689 ./usr/lib/tcl8.6/http1.0/http.tcl
 -rw-r--r-- root       root              735 ./usr/lib/tcl8.6/http1.0/pkgIndex.tcl
 -rw-r--r-- root       root            24396 ./usr/lib/tcl8.6/init.tcl
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/msgs
+drwxr-xr-x root       root             2580 ./usr/lib/tcl8.6/msgs
 -rw-r--r-- root       root              989 ./usr/lib/tcl8.6/msgs/af.msg
 -rw-r--r-- root       root              251 ./usr/lib/tcl8.6/msgs/af_za.msg
 -rw-r--r-- root       root             1964 ./usr/lib/tcl8.6/msgs/ar.msg
@@ -222,7 +222,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/msgs
 -rw-r--r-- root       root              752 ./usr/lib/tcl8.6/msgs/zh_hk.msg
 -rw-r--r-- root       root              339 ./usr/lib/tcl8.6/msgs/zh_sg.msg
 -rw-r--r-- root       root              346 ./usr/lib/tcl8.6/msgs/zh_tw.msg
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/opt0.4
+drwxr-xr-x root       root               80 ./usr/lib/tcl8.6/opt0.4
 -rw-r--r-- root       root            32720 ./usr/lib/tcl8.6/opt0.4/optparse.tcl
 -rw-r--r-- root       root              607 ./usr/lib/tcl8.6/opt0.4/pkgIndex.tcl
 -rw-r--r-- root       root            22964 ./usr/lib/tcl8.6/package.tcl
@@ -232,12 +232,12 @@ drwxr-xr-x root       root             4096 ./usr/lib/tcl8.6/opt0.4
 -rw-r--r-- root       root             5415 ./usr/lib/tcl8.6/tclIndex
 -rw-r--r-- root       root            11626 ./usr/lib/tcl8.6/tm.tcl
 -rw-r--r-- root       root             4674 ./usr/lib/tcl8.6/word.tcl
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8/8.4
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8/8.4/platform
+drwxr-xr-x root       root               80 ./usr/lib/tcl8/8.4
+drwxr-xr-x root       root               60 ./usr/lib/tcl8/8.4/platform
 -rw-r--r-- root       root             9890 ./usr/lib/tcl8/8.4/platform-1.0.13.tm
 -rw-r--r-- root       root             5977 ./usr/lib/tcl8/8.4/platform/shell-1.1.4.tm
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8/8.5
+drwxr-xr-x root       root               80 ./usr/lib/tcl8/8.5
 -rw-r--r-- root       root            16406 ./usr/lib/tcl8/8.5/msgcat-1.5.2.tm
 -rw-r--r-- root       root            99905 ./usr/lib/tcl8/8.5/tcltest-2.3.8.tm
-drwxr-xr-x root       root             4096 ./usr/lib/tcl8/8.6
+drwxr-xr-x root       root               60 ./usr/lib/tcl8/8.6
 -rw-r--r-- root       root            41999 ./usr/lib/tcl8/8.6/http-2.8.8.tm

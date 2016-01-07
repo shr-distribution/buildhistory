@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              620 ./usr/bin
 -rwxr-xr-x root       root            17160 ./usr/bin/gif2epsn
 -rwxr-xr-x root       root            16504 ./usr/bin/gif2ps
 -rwxr-xr-x root       root            15320 ./usr/bin/gif2rgb

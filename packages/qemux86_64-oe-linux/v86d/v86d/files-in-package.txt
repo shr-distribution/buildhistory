@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/modules-load.d
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/modules-load.d
 -rw-r--r-- root       root               34 ./etc/modules-load.d/uvesafb.conf
-drwxr-xr-x root       root             4096 ./sbin
+drwxr-xr-x root       root               60 ./sbin
 -rwxr-xr-x root       root           106176 ./sbin/v86d

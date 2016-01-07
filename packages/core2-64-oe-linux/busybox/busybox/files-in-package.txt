@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./bin
+drwxr-xr-x root       root              120 ./bin
 lrwxrwxrwx root       root               14 ./bin/busybox -> busybox.nosuid
--rwxr-xr-x root       root           562792 ./bin/busybox.nosuid
--rwsr-xr-x root       root            53032 ./bin/busybox.suid
+-rwxr-xr-x root       root           569832 ./bin/busybox.nosuid
+-rwsr-xr-x root       root            52712 ./bin/busybox.suid
 lrwxrwxrwx root       root               14 ./bin/sh -> busybox.nosuid
-drwxr-xr-x root       root             4096 ./etc
--rw-r--r-- root       root             2353 ./etc/busybox.links.nosuid
+drwxr-xr-x root       root               80 ./etc
+-rw-r--r-- root       root             2472 ./etc/busybox.links.nosuid
 -rw-r--r-- root       root               91 ./etc/busybox.links.suid

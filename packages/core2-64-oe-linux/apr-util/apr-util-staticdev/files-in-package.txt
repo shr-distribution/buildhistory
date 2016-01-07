@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/apr-util-1
--rw-r--r-- root       root            24490 ./usr/lib/apr-util-1/apr_dbm_gdbm.a
--rw-r--r-- root       root          1188744 ./usr/lib/libaprutil-1.a
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/apr-util-1
+-rw-r--r-- root       root            24450 ./usr/lib/apr-util-1/apr_dbm_gdbm.a
+-rw-r--r-- root       root          1182984 ./usr/lib/libaprutil-1.a

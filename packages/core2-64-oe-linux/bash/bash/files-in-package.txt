@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./bin
--rwxr-xr-x root       root          1025032 ./bin/bash
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--r-xr-xr-x root       root             7186 ./usr/bin/bashbug
+drwxr-xr-x root       root               60 ./bin
+-rwxr-xr-x root       root           988200 ./bin/bash
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+-r-xr-xr-x root       root             6921 ./usr/bin/bashbug

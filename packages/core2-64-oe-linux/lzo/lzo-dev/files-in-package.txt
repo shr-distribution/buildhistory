@@ -1,6 +1,6 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/include
-drwxr-xr-x root       root             4096 ./usr/include/lzo
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/include
+drwxr-xr-x root       root              300 ./usr/include/lzo
 -rw-r--r-- root       root             2634 ./usr/include/lzo/lzo1.h
 -rw-r--r-- root       root             2638 ./usr/include/lzo/lzo1a.h
 -rw-r--r-- root       root             5387 ./usr/include/lzo/lzo1b.h
@@ -14,6 +14,6 @@ drwxr-xr-x root       root             4096 ./usr/include/lzo
 -rw-r--r-- root       root            15994 ./usr/include/lzo/lzoconf.h
 -rw-r--r-- root       root           122223 ./usr/include/lzo/lzodefs.h
 -rw-r--r-- root       root             1823 ./usr/include/lzo/lzoutil.h
-drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib
 -rwxr-xr-x root       root              910 ./usr/lib/liblzo2.la
 lrwxrwxrwx root       root               16 ./usr/lib/liblzo2.so -> liblzo2.so.2.0.0

@@ -1,7 +1,7 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/pixmaps
-drwxr-xr-x root       root             4096 ./usr/share/pixmaps/opimd-utils
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/pixmaps
+drwxr-xr-x root       root              500 ./usr/share/pixmaps/opimd-utils
 -rw-r--r-- root       root             4282 ./usr/share/pixmaps/opimd-utils/delete.png
 -rw-r--r-- root       root             1749 ./usr/share/pixmaps/opimd-utils/delivered.png
 -rw-r--r-- root       root             7462 ./usr/share/pixmaps/opimd-utils/editnote.png

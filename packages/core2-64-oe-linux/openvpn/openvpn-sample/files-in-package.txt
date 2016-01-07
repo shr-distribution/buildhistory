@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./etc
-drwxr-xr-x root       root             4096 ./etc/openvpn
-drwxr-xr-x root       root             4096 ./etc/openvpn/sample
+drwxr-xr-x root       root               60 ./etc
+drwxr-xr-x root       root               60 ./etc/openvpn
+drwxr-xr-x root       root              100 ./etc/openvpn/sample
 -rwxr-xr-x root       root              642 ./etc/openvpn/sample/loopback-client.conf
 -rwxr-xr-x root       root              645 ./etc/openvpn/sample/loopback-server.conf
-drwxr-xr-x root       root             4096 ./etc/openvpn/sample/sample-keys
+drwxr-xr-x root       root              360 ./etc/openvpn/sample/sample-keys
 -rw-r--r-- root       root              737 ./etc/openvpn/sample/sample-keys/README
 -rw-r--r-- root       root             2195 ./etc/openvpn/sample/sample-keys/ca.crt
 -rw-r--r-- root       root             3272 ./etc/openvpn/sample/sample-keys/ca.key
@@ -20,8 +20,8 @@ drwxr-xr-x root       root             4096 ./etc/openvpn/sample/sample-keys
 -rw-r--r-- root       root              237 ./etc/openvpn/sample/sample-keys/server-ec.key
 -rw-r--r-- root       root             6391 ./etc/openvpn/sample/sample-keys/server.crt
 -rw-r--r-- root       root             1704 ./etc/openvpn/sample/sample-keys/server.key
-drwxr-xr-x root       root             4096 ./lib
-drwxr-xr-x root       root             4096 ./lib/systemd
-drwxr-xr-x root       root             4096 ./lib/systemd/system
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/systemd
+drwxr-xr-x root       root               80 ./lib/systemd/system
 -rw-r--r-- root       root              335 ./lib/systemd/system/openvpn@loopback-client.service
 -rw-r--r-- root       root              335 ./lib/systemd/system/openvpn@loopback-server.service

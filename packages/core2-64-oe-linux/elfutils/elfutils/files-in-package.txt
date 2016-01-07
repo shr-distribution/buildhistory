@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              240 ./usr/bin
 -rwxr-xr-x root       root            32408 ./usr/bin/eu-ar
 -rwxr-xr-x root       root            29648 ./usr/bin/eu-elfcmp
 -rwxr-xr-x root       root           102672 ./usr/bin/eu-elflint
@@ -8,5 +8,5 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            30112 ./usr/bin/eu-objdump
 -rwxr-xr-x root       root            16320 ./usr/bin/eu-ranlib
 -rwxr-xr-x root       root            23616 ./usr/bin/eu-stack
--rwxr-xr-x root       root            16544 ./usr/bin/eu-strings
+-rwxr-xr-x root       root            16576 ./usr/bin/eu-strings
 -rwxr-xr-x root       root            42600 ./usr/bin/eu-unstrip

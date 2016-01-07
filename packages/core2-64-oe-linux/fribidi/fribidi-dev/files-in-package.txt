@@ -1,6 +1,6 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/include
-drwxr-xr-x root       root             4096 ./usr/include/fribidi
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/include
+drwxr-xr-x root       root              460 ./usr/include/fribidi
 -rw-r--r-- root       root             3074 ./usr/include/fribidi/fribidi-arabic.h
 -rw-r--r-- root       root               80 ./usr/include/fribidi/fribidi-begindecls.h
 -rw-r--r-- root       root             3752 ./usr/include/fribidi/fribidi-bidi-types-list.h
@@ -22,8 +22,8 @@ drwxr-xr-x root       root             4096 ./usr/include/fribidi
 -rw-r--r-- root       root              515 ./usr/include/fribidi/fribidi-unicode-version.h
 -rw-r--r-- root       root             3349 ./usr/include/fribidi/fribidi-unicode.h
 -rw-r--r-- root       root             2108 ./usr/include/fribidi/fribidi.h
-drwxr-xr-x root       root             4096 ./usr/lib
+drwxr-xr-x root       root              100 ./usr/lib
 -rwxr-xr-x root       root              931 ./usr/lib/libfribidi.la
 lrwxrwxrwx root       root               19 ./usr/lib/libfribidi.so -> libfribidi.so.0.3.1
-drwxr-xr-x root       root             4096 ./usr/lib/pkgconfig
+drwxr-xr-x root       root               60 ./usr/lib/pkgconfig
 -rw-r--r-- root       root              287 ./usr/lib/pkgconfig/fribidi.pc

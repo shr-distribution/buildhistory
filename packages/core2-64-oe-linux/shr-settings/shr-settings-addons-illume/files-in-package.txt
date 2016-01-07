@@ -1,7 +1,7 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/applications
-drwxr-xr-x root       root             4096 ./usr/share/applications/shr-settings-addons-illume
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/applications
+drwxr-xr-x root       root              200 ./usr/share/applications/shr-settings-addons-illume
 -rw-r--r-- root       root              322 ./usr/share/applications/shr-settings-addons-illume/appearance.desktop
 -rw-r--r-- root       root              342 ./usr/share/applications/shr-settings-addons-illume/connectivity.desktop
 -rw-r--r-- root       root              313 ./usr/share/applications/shr-settings-addons-illume/datetime.desktop

@@ -1,4 +1,4 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root          5158164 ./usr/lib/libgmp.a
--rw-r--r-- root       root           609146 ./usr/lib/libgmpxx.a
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+-rw-r--r-- root       root          5135606 ./usr/lib/libgmp.a
+-rw-r--r-- root       root           606970 ./usr/lib/libgmpxx.a

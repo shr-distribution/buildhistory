@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/sbin
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              180 ./usr/sbin
 -rwxr-xr-x root       root            13032 ./usr/sbin/eeprog
 -rwxr-xr-x root       root            11008 ./usr/sbin/eeprom
 -rwxr-xr-x root       root            11912 ./usr/sbin/eepromer

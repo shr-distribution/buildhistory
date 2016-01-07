@@ -1,6 +1,6 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root          2089064 ./usr/lib/libevent.a
--rw-r--r-- root       root          1364912 ./usr/lib/libevent_core.a
--rw-r--r-- root       root           724224 ./usr/lib/libevent_extra.a
--rw-r--r-- root       root            25414 ./usr/lib/libevent_pthreads.a
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              120 ./usr/lib
+-rw-r--r-- root       root          2083776 ./usr/lib/libevent.a
+-rw-r--r-- root       root          1363544 ./usr/lib/libevent_core.a
+-rw-r--r-- root       root           720304 ./usr/lib/libevent_extra.a
+-rw-r--r-- root       root            25574 ./usr/lib/libevent_pthreads.a

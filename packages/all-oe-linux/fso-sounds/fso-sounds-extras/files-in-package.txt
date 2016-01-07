@@ -1,6 +1,6 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/sounds
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              280 ./usr/share/sounds
 -rw-r--r-- root       root           413494 ./usr/share/sounds/female_alert1.wav
 -rw-r--r-- root       root           409316 ./usr/share/sounds/female_alert2.wav
 -rw-r--r-- root       root           309086 ./usr/share/sounds/female_startup.wav

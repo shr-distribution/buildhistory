@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/gtk-doc
-drwxr-xr-x root       root             4096 ./usr/share/gtk-doc/html
-drwxr-xr-x root       root             4096 ./usr/share/gtk-doc/html/libgpewidget
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/gtk-doc
+drwxr-xr-x root       root               60 ./usr/share/gtk-doc/html
+drwxr-xr-x root       root              240 ./usr/share/gtk-doc/html/libgpewidget
 -rw-r--r-- root       root             3332 ./usr/share/gtk-doc/html/libgpewidget/ch01.html
 -rw-r--r-- root       root             1890 ./usr/share/gtk-doc/html/libgpewidget/ch02.html
 -rw-r--r-- root       root              654 ./usr/share/gtk-doc/html/libgpewidget/home.png

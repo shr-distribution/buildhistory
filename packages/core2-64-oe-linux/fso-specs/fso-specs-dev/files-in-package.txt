@@ -1,7 +1,7 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/freesmartphone
-drwxr-xr-x root       root             4096 ./usr/share/freesmartphone/xml
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/freesmartphone
+drwxr-xr-x root       root             1340 ./usr/share/freesmartphone/xml
 -rw-r--r-- root       root             9020 ./usr/share/freesmartphone/xml/org.freesmartphone.Audio.Manager.xml
 -rw-r--r-- root       root              617 ./usr/share/freesmartphone/xml/org.freesmartphone.Context.Client.xml
 -rw-r--r-- root       root             1547 ./usr/share/freesmartphone/xml/org.freesmartphone.Context.Manager.xml
@@ -67,5 +67,5 @@ drwxr-xr-x root       root             4096 ./usr/share/freesmartphone/xml
 -rw-r--r-- root       root             2402 ./usr/share/freesmartphone/xml/org.freesmartphone.Resource.xml
 -rw-r--r-- root       root             1607 ./usr/share/freesmartphone/xml/org.freesmartphone.Time.Alarm.xml
 -rw-r--r-- root       root             7599 ./usr/share/freesmartphone/xml/org.freesmartphone.Usage.xml
-drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+drwxr-xr-x root       root               60 ./usr/share/pkgconfig
 -rw-r--r-- root       root              353 ./usr/share/pkgconfig/fso-specs.pc

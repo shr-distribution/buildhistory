@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./etc
+drwxr-xr-x root       root               60 ./etc
 -rw-r--r-- root       root             3579 ./etc/idmapd.conf
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/libnfsidmap
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib/libnfsidmap
 lrwxrwxrwx root       root               20 ./usr/lib/libnfsidmap.so.0 -> libnfsidmap.so.0.3.0
 -rwxr-xr-x root       root            27464 ./usr/lib/libnfsidmap.so.0.3.0
 -rwxr-xr-x root       root             9200 ./usr/lib/libnfsidmap/nsswitch.so

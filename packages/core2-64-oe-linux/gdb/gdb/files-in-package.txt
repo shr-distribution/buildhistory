@@ -1,10 +1,10 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root             2945 ./usr/bin/gcore
--rwxr-xr-x root       root          5563296 ./usr/bin/gdb
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/gdb
-drwxr-xr-x root       root             4096 ./usr/share/gdb/syscalls
+-rwxr-xr-x root       root          5563872 ./usr/bin/gdb
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               80 ./usr/share/gdb
+drwxr-xr-x root       root              300 ./usr/share/gdb/syscalls
 -rw-r--r-- root       root            13059 ./usr/share/gdb/syscalls/amd64-linux.xml
 -rw-r--r-- root       root            17112 ./usr/share/gdb/syscalls/arm-linux.xml
 -rw-r--r-- root       root              455 ./usr/share/gdb/syscalls/gdb-syscalls.dtd
@@ -18,6 +18,6 @@ drwxr-xr-x root       root             4096 ./usr/share/gdb/syscalls
 -rw-r--r-- root       root            12450 ./usr/share/gdb/syscalls/s390x-linux.xml
 -rw-r--r-- root       root            14396 ./usr/share/gdb/syscalls/sparc-linux.xml
 -rw-r--r-- root       root            13647 ./usr/share/gdb/syscalls/sparc64-linux.xml
-drwxr-xr-x root       root             4096 ./usr/share/gdb/system-gdbinit
+drwxr-xr-x root       root               80 ./usr/share/gdb/system-gdbinit
 -rw-r--r-- root       root             3080 ./usr/share/gdb/system-gdbinit/elinos.py
 -rw-r--r-- root       root             1005 ./usr/share/gdb/system-gdbinit/wrs-linux.py

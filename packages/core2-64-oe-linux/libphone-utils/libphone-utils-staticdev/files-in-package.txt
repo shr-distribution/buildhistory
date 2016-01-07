@@ -1,3 +1,3 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root            85306 ./usr/lib/libphone-utils.a
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+-rw-r--r-- root       root            86466 ./usr/lib/libphone-utils.a

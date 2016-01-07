@@ -1,7 +1,7 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            13760 ./usr/bin/bmp2tiff
--rwxr-xr-x root       root            15432 ./usr/bin/fax2ps
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              500 ./usr/bin
+-rwxr-xr-x root       root            13792 ./usr/bin/bmp2tiff
+-rwxr-xr-x root       root            15560 ./usr/bin/fax2ps
 -rwxr-xr-x root       root            14064 ./usr/bin/fax2tiff
 -rwxr-xr-x root       root            14160 ./usr/bin/gif2tiff
 -rwxr-xr-x root       root            11488 ./usr/bin/pal2rgb
@@ -22,4 +22,4 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            15336 ./usr/bin/tiffinfo
 -rwxr-xr-x root       root            15840 ./usr/bin/tiffmedian
 -rwxr-xr-x root       root            10976 ./usr/bin/tiffset
--rwxr-xr-x root       root            11568 ./usr/bin/tiffsplit
+-rwxr-xr-x root       root            11584 ./usr/bin/tiffsplit

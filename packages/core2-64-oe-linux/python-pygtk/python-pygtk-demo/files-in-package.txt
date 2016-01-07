@@ -1,10 +1,10 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
 -rwxr-xr-x root       root              189 ./usr/bin/pygtk-demo
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/pygtk
-drwxr-xr-x root       root             4096 ./usr/lib/pygtk/2.0
-drwxr-xr-x root       root             4096 ./usr/lib/pygtk/2.0/demos
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/pygtk
+drwxr-xr-x root       root              100 ./usr/lib/pygtk/2.0
+drwxr-xr-x root       root             1180 ./usr/lib/pygtk/2.0/demos
 -rw-r--r-- root       root              627 ./usr/lib/pygtk/2.0/demos/__init__.py
 -rw-r--r-- root       root              716 ./usr/lib/pygtk/2.0/demos/__init__.pyo
 -rw-r--r-- root       root            11602 ./usr/lib/pygtk/2.0/demos/appwindow.py
@@ -29,7 +29,7 @@ drwxr-xr-x root       root             4096 ./usr/lib/pygtk/2.0/demos
 -rw-r--r-- root       root             2009 ./usr/lib/pygtk/2.0/demos/expander.pyo
 -rw-r--r-- root       root             6941 ./usr/lib/pygtk/2.0/demos/hypertext.py
 -rw-r--r-- root       root             6983 ./usr/lib/pygtk/2.0/demos/hypertext.pyo
-drwxr-xr-x root       root             4096 ./usr/lib/pygtk/2.0/demos/images
+drwxr-xr-x root       root              280 ./usr/lib/pygtk/2.0/demos/images
 -rw-r--r-- root       root            10042 ./usr/lib/pygtk/2.0/demos/images.py
 -rw-r--r-- root       root             7858 ./usr/lib/pygtk/2.0/demos/images.pyo
 -rw-r--r-- root       root            26529 ./usr/lib/pygtk/2.0/demos/images/alphatest.png

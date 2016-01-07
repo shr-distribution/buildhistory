@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/tests
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/cornucopia
+drwxr-xr-x root       root               60 ./usr/lib/cornucopia/modules
+drwxr-xr-x root       root              200 ./usr/lib/cornucopia/modules/tests
 -rwxr-xr-x root       root              920 ./usr/lib/cornucopia/modules/tests/plugin.la
 -rwxr-xr-x root       root             6808 ./usr/lib/cornucopia/modules/tests/plugin.so
 -rwxr-xr-x root       root              926 ./usr/lib/cornucopia/modules/tests/plugina.la

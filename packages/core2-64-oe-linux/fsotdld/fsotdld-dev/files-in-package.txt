@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/fsotdl
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/cornucopia
+drwxr-xr-x root       root               60 ./usr/lib/cornucopia/modules
+drwxr-xr-x root       root              340 ./usr/lib/cornucopia/modules/fsotdl
 -rwxr-xr-x root       root             1760 ./usr/lib/cornucopia/modules/fsotdl/alarm.la
 -rwxr-xr-x root       root             1814 ./usr/lib/cornucopia/modules/fsotdl/contextmanager.la
 -rwxr-xr-x root       root             1734 ./usr/lib/cornucopia/modules/fsotdl/libfsotdl.la

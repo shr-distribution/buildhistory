@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/man
-drwxr-xr-x root       root             4096 ./usr/share/man/man1
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              100 ./usr/share/man
+drwxr-xr-x root       root               60 ./usr/share/man/man1
 -r--r--r-- root       root            11868 ./usr/share/man/man1/tclsh.1
-drwxr-xr-x root       root            40960 ./usr/share/man/man3
+drwxr-xr-x root       root            13040 ./usr/share/man/man3
 -r--r--r-- root       root             9503 ./usr/share/man/man3/TCL_MEM_DEBUG.3
 -r--r--r-- root       root             8774 ./usr/share/man/man3/Tcl_Access.3
 -r--r--r-- root       root            19576 ./usr/share/man/man3/Tcl_AddErrorInfo.3
@@ -654,7 +654,7 @@ drwxr-xr-x root       root            40960 ./usr/share/man/man3
 -r--r--r-- root       root             8845 ./usr/share/man/man3/ckalloc.3
 -r--r--r-- root       root             8845 ./usr/share/man/man3/ckfree.3
 -r--r--r-- root       root             8845 ./usr/share/man/man3/ckrealloc.3
-drwxr-xr-x root       root             4096 ./usr/share/man/mann
+drwxr-xr-x root       root             3180 ./usr/share/man/mann
 -r--r--r-- root       root            16470 ./usr/share/man/mann/Tcl.n
 -r--r--r-- root       root            11383 ./usr/share/man/mann/after.n
 -r--r--r-- root       root             7109 ./usr/share/man/mann/append.n

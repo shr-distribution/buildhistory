@@ -1,6 +1,6 @@
 PV = 1.0
 PR = r22
-PKGR = r22.15
+PKGR = r22.16
 RPROVIDES = task-jama-shr
 RDEPENDS = estardict fso-sounds fsoraw linux-firmware-sd8686 ntpdate packagegroup-jama terminology usb-modeswitch-data
 RRECOMMENDS = 

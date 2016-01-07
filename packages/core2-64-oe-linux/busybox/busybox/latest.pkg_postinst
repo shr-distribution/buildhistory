@@ -13,21 +13,10 @@
 			if test -e /etc/busybox.links$suffix; then
 				while read link; do
 					if test ! -e "$link"; then
-						case "$link" in
-							/*/*/*)
-								to="../../bin/busybox$suffix"
-								;;
-							/bin/*)
-								to="busybox$suffix"
-								;;
-							/*/*)
-								to="../bin/busybox$suffix"
-								;;
-						esac
 						# we can use busybox here because even if we are using splitted busybox
 						# we've made a symlink from /bin/busybox to /bin/busybox.nosuid.
 						busybox rm -f $link
-						busybox ln -s $to $link
+						busybox ln -s "/bin/busybox$suffix" $link
 					fi
 				done < /etc/busybox.links$suffix
 			fi
@@ -46,7 +35,9 @@
 	update-alternatives --install /usr/bin/groups groups /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/id id /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/shuf shuf /bin/busybox.nosuid 50
+	update-alternatives --install /bin/sync sync /bin/busybox.nosuid 50
 	update-alternatives --install /bin/touch touch /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/truncate truncate /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/unlink unlink /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/users users /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/who who /bin/busybox.nosuid 50
@@ -64,16 +55,22 @@
 	update-alternatives --install /sbin/halt halt /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/poweroff poweroff /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/reboot reboot /bin/busybox.nosuid 50
+	update-alternatives --install /usr/sbin/i2cget i2cget /bin/busybox.nosuid 50
+	update-alternatives --install /usr/sbin/i2cset i2cset /bin/busybox.nosuid 50
+	update-alternatives --install /usr/sbin/i2cdump i2cdump /bin/busybox.nosuid 50
+	update-alternatives --install /usr/sbin/i2cdetect i2cdetect /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/rfkill rfkill /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/depmod depmod /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/insmod insmod /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/lsmod lsmod /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/modprobe modprobe /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/rmmod rmmod /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/wget wget /bin/busybox.nosuid 50
 	update-alternatives --install /bin/ash ash /bin/busybox.nosuid 50
 	update-alternatives --install /bin/sh sh /bin/busybox.nosuid 50
 	update-alternatives --install /bin/fatattr fatattr /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/fstrim fstrim /bin/busybox.nosuid 50
+	update-alternatives --install /sbin/uevent uevent /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/[ lbracket /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/[[ [[ /bin/busybox.nosuid 50
 	update-alternatives --install /usr/sbin/addgroup addgroup /bin/busybox.nosuid 50
@@ -163,6 +160,7 @@
 	update-alternatives --install /usr/bin/realpath realpath /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/renice renice /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/reset reset /bin/busybox.nosuid 50
+	update-alternatives --install /usr/bin/resize resize /bin/busybox.nosuid 50
 	update-alternatives --install /bin/rm rm /bin/busybox.nosuid 50
 	update-alternatives --install /bin/rmdir rmdir /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/route route /bin/busybox.nosuid 50
@@ -182,7 +180,6 @@
 	update-alternatives --install /sbin/swapoff swapoff /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/swapon swapon /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/switch_root switch_root /bin/busybox.nosuid 50
-	update-alternatives --install /bin/sync sync /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/sysctl sysctl /bin/busybox.nosuid 50
 	update-alternatives --install /sbin/syslogd syslogd /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/tail tail /bin/busybox.nosuid 50
@@ -204,7 +201,6 @@
 	update-alternatives --install /bin/usleep usleep /bin/busybox.nosuid 50
 	update-alternatives --install /bin/watch watch /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/wc wc /bin/busybox.nosuid 50
-	update-alternatives --install /usr/bin/wget wget /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/which which /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/whoami whoami /bin/busybox.nosuid 50
 	update-alternatives --install /usr/bin/yes yes /bin/busybox.nosuid 50

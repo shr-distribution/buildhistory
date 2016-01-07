@@ -1,5 +1,5 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              260 ./usr/bin
 -rwxr-xr-x root       root            15888 ./usr/bin/pdfdetach
 -rwxr-xr-x root       root            12800 ./usr/bin/pdffonts
 -rwxr-xr-x root       root            37984 ./usr/bin/pdfimages
@@ -9,8 +9,8 @@ drwxr-xr-x root       root             4096 ./usr/bin
 -rwxr-xr-x root       root            77536 ./usr/bin/pdftohtml
 -rwxr-xr-x root       root            17784 ./usr/bin/pdftoppm
 -rwxr-xr-x root       root            17952 ./usr/bin/pdftops
--rwxr-xr-x root       root            24840 ./usr/bin/pdftotext
--rwxr-xr-x root       root            20264 ./usr/bin/pdfunite
-drwxr-xr-x root       root             4096 ./usr/lib
+-rwxr-xr-x root       root            29096 ./usr/bin/pdftotext
+-rwxr-xr-x root       root            25048 ./usr/bin/pdfunite
+drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               23 ./usr/lib/libpoppler-cpp.so.0 -> libpoppler-cpp.so.0.2.1
 -rwxr-xr-x root       root            73824 ./usr/lib/libpoppler-cpp.so.0.2.1

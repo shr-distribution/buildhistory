@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
--rwxr-xr-x root       root            35752 ./usr/bin/dristat
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              180 ./usr/bin
+-rwxr-xr-x root       root            36088 ./usr/bin/dristat
 -rwxr-xr-x root       root            12672 ./usr/bin/drmstat
--rwxr-xr-x root       root             5912 ./usr/bin/kmstest
+-rwxr-xr-x root       root             5920 ./usr/bin/kmstest
 -rwxr-xr-x root       root            11552 ./usr/bin/modeprint
--rwxr-xr-x root       root            49032 ./usr/bin/modetest
+-rwxr-xr-x root       root            48712 ./usr/bin/modetest
 -rwxr-xr-x root       root            10976 ./usr/bin/proptest
 -rwxr-xr-x root       root             7296 ./usr/bin/vbltest

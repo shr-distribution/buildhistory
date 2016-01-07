@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/bin
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
 -rwxr-xr-x root       root           192464 ./usr/bin/nano
 lrwxrwxrwx root       root                4 ./usr/bin/rnano -> nano
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/nano
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root              620 ./usr/share/nano
 -rw-r--r-- root       root              783 ./usr/share/nano/asm.nanorc
 -rw-r--r-- root       root             1504 ./usr/share/nano/awk.nanorc
 -rw-r--r-- root       root             1514 ./usr/share/nano/c.nanorc
@@ -16,8 +16,8 @@ drwxr-xr-x root       root             4096 ./usr/share/nano
 -rw-r--r-- root       root              124 ./usr/share/nano/html.nanorc
 -rw-r--r-- root       root              610 ./usr/share/nano/java.nanorc
 -rw-r--r-- root       root              248 ./usr/share/nano/makefile.nanorc
-drwxr-xr-x root       root             4096 ./usr/share/nano/man-html
-drwxr-xr-x root       root             4096 ./usr/share/nano/man-html/fr
+drwxr-xr-x root       root              120 ./usr/share/nano/man-html
+drwxr-xr-x root       root              100 ./usr/share/nano/man-html/fr
 -rw-r--r-- root       root            33854 ./usr/share/nano/man-html/fr/nano.1.html
 -rw-r--r-- root       root            38923 ./usr/share/nano/man-html/fr/nanorc.5.html
 -rw-r--r-- root       root             9322 ./usr/share/nano/man-html/fr/rnano.1.html

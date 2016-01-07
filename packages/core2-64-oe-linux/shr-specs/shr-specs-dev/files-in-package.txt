@@ -1,9 +1,9 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/share
-drwxr-xr-x root       root             4096 ./usr/share/pkgconfig
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/pkgconfig
 -rw-r--r-- root       root              345 ./usr/share/pkgconfig/shr-specs.pc
-drwxr-xr-x root       root             4096 ./usr/share/shr-specs
-drwxr-xr-x root       root             4096 ./usr/share/shr-specs/xml
+drwxr-xr-x root       root               60 ./usr/share/shr-specs
+drwxr-xr-x root       root              220 ./usr/share/shr-specs/xml
 -rw-r--r-- root       root             1408 ./usr/share/shr-specs/xml/org.shr.phonefso.Usage.xml
 -rw-r--r-- root       root             1167 ./usr/share/shr-specs/xml/org.shr.phoneui.CallManagement.xml
 -rw-r--r-- root       root             1002 ./usr/share/shr-specs/xml/org.shr.phoneui.Contacts.xml

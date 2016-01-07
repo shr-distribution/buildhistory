@@ -1,3 +1,3 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
--rw-r--r-- root       root          2689692 ./usr/lib/liblcms2.a
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+-rw-r--r-- root       root          2686012 ./usr/lib/liblcms2.a

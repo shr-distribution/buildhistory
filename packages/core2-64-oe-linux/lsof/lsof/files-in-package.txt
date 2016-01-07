@@ -1,3 +1,3 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/sbin
--rwsr-xr-x root       root           150216 ./usr/sbin/lsof
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwsr-xr-x root       root           150344 ./usr/sbin/lsof

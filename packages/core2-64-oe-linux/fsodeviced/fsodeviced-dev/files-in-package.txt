@@ -1,8 +1,8 @@
-drwxr-xr-x root       root             4096 ./usr
-drwxr-xr-x root       root             4096 ./usr/lib
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules
-drwxr-xr-x root       root             4096 ./usr/lib/cornucopia/modules/fsodevice
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/cornucopia
+drwxr-xr-x root       root               60 ./usr/lib/cornucopia/modules
+drwxr-xr-x root       root              500 ./usr/lib/cornucopia/modules/fsodevice
 -rwxr-xr-x root       root             1871 ./usr/lib/cornucopia/modules/fsodevice/accelerometer.la
 -rwxr-xr-x root       root             1913 ./usr/lib/cornucopia/modules/fsodevice/accelerometer_bma180.la
 -rwxr-xr-x root       root             1823 ./usr/lib/cornucopia/modules/fsodevice/audio.la
