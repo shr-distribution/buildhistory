@@ -20,8 +20,8 @@
 3786	KiB elementary
 3585	KiB python-codecs
 3462	KiB evas
+3284	KiB bluez5
 3269	KiB python-pygtk
-3186	KiB bluez5
 3121	KiB libglib-2.0-0
 3019	KiB ttf-dejavu-sans
 2797	KiB ncurses-terminfo
@@ -92,7 +92,7 @@
 718	KiB s3c24xx-gpio
 718	KiB python-io
 700	KiB python-ctypes
-687	KiB openvpn
+688	KiB openvpn
 670	KiB libpixman-1-0
 669	KiB shr-settings
 669	KiB screen

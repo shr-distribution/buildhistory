@@ -16,7 +16,7 @@ babiloo-efl-locale-en-gb_2.0.9-10-r5.15_core2-64.ipk
 base-files_3.0.14-r89.14_qemux86_64.ipk
 base-passwd_3.5.29-r0.15_core2-64.ipk
 bash_4.3.30-r0.3_core2-64.ipk
-bluez5_5.36-r0.0_core2-64.ipk
+bluez5_5.37-r0.0_core2-64.ipk
 busybox_1.24.1-r0.0_core2-64.ipk
 busybox-syslog_1.24.1-r0.0_core2-64.ipk
 busybox-udhcpc_1.24.1-r0.0_core2-64.ipk
@@ -185,7 +185,7 @@ libapr-1-0_1.5.2-r0.4_core2-64.ipk
 libaprutil-1-0_1.5.4-r1.7_core2-64.ipk
 libarchive13_3.1.2-r0.2_core2-64.ipk
 libasm1_0.163-r0.3_core2-64.ipk
-libasound-module-bluez_5.36-r0.0_core2-64.ipk
+libasound-module-bluez_5.37-r0.0_core2-64.ipk
 libasound2_1.0.29-r0.4_core2-64.ipk
 libaspell15_0.60.6.1-r1.16_core2-64.ipk
 libatk-1.0-0_2.18.0-r0.0_core2-64.ipk
@@ -441,7 +441,7 @@ openssh-ssh_7.1p1-r0.2_core2-64.ipk
 openssh-sshd_7.1p1-r0.2_core2-64.ipk
 openssl_1.0.2e-r0.0_core2-64.ipk
 openssl-conf_1.0.2e-r0.0_core2-64.ipk
-openvpn_2.3.7-r0.3_core2-64.ipk
+openvpn_2.3.8-r0.0_core2-64.ipk
 opimd-utils_1:0.0.3+gitr1+6e120e4dcf-r0.14_core2-64.ipk
 opimd-utils-cli_1:0.0.3+gitr1+6e120e4dcf-r0.14_core2-64.ipk
 opimd-utils-data_1:0.0.3+gitr1+6e120e4dcf-r0.14_core2-64.ipk

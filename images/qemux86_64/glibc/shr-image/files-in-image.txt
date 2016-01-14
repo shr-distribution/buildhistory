@@ -1570,11 +1570,11 @@ lrwxrwxrwx root       root               25 ./usr/bin/babiloo -> /usr/share/babi
 lrwxrwxrwx root       root               27 ./usr/bin/basename -> /usr/bin/basename.coreutils
 -rwxr-xr-x root       root            32560 ./usr/bin/basename.coreutils
 -r-xr-xr-x root       root             6921 ./usr/bin/bashbug
--rwxr-xr-x root       root           158208 ./usr/bin/bccmd
--rwxr-xr-x root       root            29384 ./usr/bin/bluemoon
--rwxr-xr-x root       root           111976 ./usr/bin/bluetoothctl
+-rwxr-xr-x root       root           161152 ./usr/bin/bccmd
+-rwxr-xr-x root       root            31528 ./usr/bin/bluemoon
+-rwxr-xr-x root       root           112296 ./usr/bin/bluetoothctl
 -rwxr-xr-x root       root            76256 ./usr/bin/bootctl
--rwxr-xr-x root       root           468416 ./usr/bin/btmon
+-rwxr-xr-x root       root           500896 ./usr/bin/btmon
 lrwxrwxrwx root       root               19 ./usr/bin/bunzip2 -> /bin/busybox.nosuid
 -rwxr-xr-x root       root           376048 ./usr/bin/busctl
 lrwxrwxrwx root       root               19 ./usr/bin/bzcat -> /bin/busybox.nosuid
@@ -1589,7 +1589,7 @@ lrwxrwxrwx root       root               20 ./usr/bin/chsh -> /usr/bin/chsh.shad
 lrwxrwxrwx root       root               17 ./usr/bin/chvt -> /usr/bin/chvt.kbd
 -rwxr-xr-x root       root             7544 ./usr/bin/chvt.kbd
 -rwxr-xr-x root       root            24728 ./usr/bin/cifsiostat
--rwxr-xr-x root       root           115552 ./usr/bin/ciptool
+-rwxr-xr-x root       root           118528 ./usr/bin/ciptool
 lrwxrwxrwx root       root               24 ./usr/bin/cksum -> /usr/bin/cksum.coreutils
 -rwxr-xr-x root       root            35848 ./usr/bin/cksum.coreutils
 lrwxrwxrwx root       root               19 ./usr/bin/clear -> /bin/busybox.nosuid
@@ -1755,10 +1755,10 @@ lrwxrwxrwx root       root               22 ./usr/bin/groups -> /usr/bin/groups.
 -rwxr-xr-x root       root            10208 ./usr/bin/gtk-query-immodules-2.0
 lrwxrwxrwx root       root               34 ./usr/bin/gtk-update-icon-cache -> /usr/bin/gtk-update-icon-cache-2.0
 -rwxr-xr-x root       root            28384 ./usr/bin/gtk-update-icon-cache-2.0
--rwxr-xr-x root       root           113576 ./usr/bin/hciattach
--rwxr-xr-x root       root           156488 ./usr/bin/hciconfig
--rwxr-xr-x root       root           357792 ./usr/bin/hcidump
--rwxr-xr-x root       root           116160 ./usr/bin/hcitool
+-rwxr-xr-x root       root           114824 ./usr/bin/hciattach
+-rwxr-xr-x root       root           156808 ./usr/bin/hciconfig
+-rwxr-xr-x root       root           361888 ./usr/bin/hcidump
+-rwxr-xr-x root       root           119200 ./usr/bin/hcitool
 lrwxrwxrwx root       root               23 ./usr/bin/head -> /usr/bin/head.coreutils
 -rwxr-xr-x root       root            44104 ./usr/bin/head.coreutils
 -rwxr-xr-x root       root            10976 ./usr/bin/hex2hcd
@@ -1783,8 +1783,8 @@ lrwxrwxrwx root       root               23 ./usr/bin/join -> /usr/bin/join.core
 -rwxr-xr-x root       root             9208 ./usr/bin/kbdrate
 lrwxrwxrwx root       root               23 ./usr/bin/killall -> /usr/bin/killall.psmisc
 -rwxr-xr-x root       root            20520 ./usr/bin/killall.psmisc
--rwxr-xr-x root       root            74400 ./usr/bin/l2ping
--rwxr-xr-x root       root            91136 ./usr/bin/l2test
+-rwxr-xr-x root       root            78496 ./usr/bin/l2ping
+-rwxr-xr-x root       root            95232 ./usr/bin/l2test
 -rwxr-xr-x root       root            13024 ./usr/bin/lastlog
 -rwxr-xr-x root       root            36032 ./usr/bin/lbracket.coreutils
 lrwxrwxrwx root       root               19 ./usr/bin/less -> /bin/busybox.nosuid
@@ -1918,7 +1918,7 @@ lrwxrwxrwx root       root                9 ./usr/bin/python2 -> python2.7
 lrwxrwxrwx root       root               16 ./usr/bin/python2-config -> python2.7-config
 -rwxr-xr-x root       root             5080 ./usr/bin/python2.7
 -rwxr-xr-x root       root             1681 ./usr/bin/python2.7-config
--rwxr-xr-x root       root           119296 ./usr/bin/rctest
+-rwxr-xr-x root       root           122240 ./usr/bin/rctest
 lrwxrwxrwx root       root               27 ./usr/bin/readlink -> /usr/bin/readlink.coreutils
 -rwxr-xr-x root       root            45200 ./usr/bin/readlink.coreutils
 lrwxrwxrwx root       root               27 ./usr/bin/realpath -> /usr/bin/realpath.coreutils
@@ -1928,7 +1928,7 @@ lrwxrwxrwx root       root               19 ./usr/bin/renice -> /bin/busybox.nos
 lrwxrwxrwx root       root               19 ./usr/bin/reset -> /bin/busybox.nosuid
 lrwxrwxrwx root       root               19 ./usr/bin/resize -> /bin/busybox.nosuid
 -rwxr-xr-x root       root            15992 ./usr/bin/resizecons
--rwxr-xr-x root       root            83328 ./usr/bin/rfcomm
+-rwxr-xr-x root       root            87424 ./usr/bin/rfcomm
 lrwxrwxrwx root       root                4 ./usr/bin/rnano -> nano
 -rwxr-xr-x root       root            84760 ./usr/bin/rpcgen
 -rwxr-xr-x root       root           460960 ./usr/bin/rsync
@@ -1944,7 +1944,7 @@ lrwxrwxrwx root       root               20 ./usr/bin/scp -> /usr/bin/scp.openss
 -rwxr-xr-x root       root            79960 ./usr/bin/scp.openssh
 lrwxrwxrwx root       root               12 ./usr/bin/screen -> screen-4.3.1
 -rwsr-xr-x root       root           418104 ./usr/bin/screen-4.3.1
--rwxr-xr-x root       root           173888 ./usr/bin/sdptool
+-rwxr-xr-x root       root           177984 ./usr/bin/sdptool
 lrwxrwxrwx root       root               11 ./usr/bin/see -> run-mailcap
 lrwxrwxrwx root       root               22 ./usr/bin/seq -> /usr/bin/seq.coreutils
 -rwxr-xr-x root       root            52296 ./usr/bin/seq.coreutils
@@ -2224,7 +2224,7 @@ drwxr-xr-x root       root             1780 ./usr/lib/aspell-0.60
 -rw-r--r-- root       root               98 ./usr/lib/aspell-0.60/url.amf
 drwxr-xr-x root       root               60 ./usr/lib/bluez5
 drwxr-xr-x root       root               60 ./usr/lib/bluez5/bluetooth
--rwxr-xr-x root       root           849168 ./usr/lib/bluez5/bluetooth/bluetoothd
+-rwxr-xr-x root       root           877376 ./usr/lib/bluez5/bluetooth/bluetoothd
 drwxr-xr-x root       root               60 ./usr/lib/coreutils
 -rwxr-xr-x root       root             5976 ./usr/lib/coreutils/libstdbuf.so
 drwxr-xr-x root       root               60 ./usr/lib/cornucopia
@@ -2894,8 +2894,8 @@ lrwxrwxrwx root       root               19 ./usr/lib/libaspell.so.15 -> libaspe
 -rwxr-xr-x root       root           671592 ./usr/lib/libaspell.so.15.1.5
 lrwxrwxrwx root       root               23 ./usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.21809.1
 -rwxr-xr-x root       root           155824 ./usr/lib/libatk-1.0.so.0.21809.1
-lrwxrwxrwx root       root               22 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.9
--rwxr-xr-x root       root           135232 ./usr/lib/libbluetooth.so.3.18.9
+lrwxrwxrwx root       root               23 ./usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.10
+-rwxr-xr-x root       root           138176 ./usr/lib/libbluetooth.so.3.18.10
 lrwxrwxrwx root       root               15 ./usr/lib/libbz2.so.0 -> libbz2.so.0.0.0
 -rwxr-xr-x root       root            65344 ./usr/lib/libbz2.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/libcairo.so.2 -> libcairo.so.2.11400.6
@@ -6289,7 +6289,7 @@ lrwxrwxrwx root       root               19 ./usr/sbin/loadfont -> /bin/busybox.
 -rwxr-xr-x root       root             9928 ./usr/sbin/nl-qdisc-list
 lrwxrwxrwx root       root               19 ./usr/sbin/ntpd -> /bin/busybox.nosuid
 -rwxr-xr-x root       root           123424 ./usr/sbin/ntpdate
--rwxr-xr-x root       root           678976 ./usr/sbin/openvpn
+-rwxr-xr-x root       root           679904 ./usr/sbin/openvpn
 lrwxrwxrwx root       root               27 ./usr/sbin/powertop -> /usr/sbin/powertop.powertop
 -rwxr-xr-x root       root           456344 ./usr/sbin/powertop.powertop
 -rwxr-xr-x root       root               36 ./usr/sbin/ppp-dialin
@@ -7739,7 +7739,7 @@ drwxr-xr-x root       root              100 ./usr/share/elementary/config/standa
 -rw-r--r-- root       root            12068 ./usr/share/elementary/config/standard/icon.png
 -rw-r--r-- root       root             3532 ./usr/share/elementary/config/standard/profile.desktop
 drwxr-xr-x root       root               80 ./usr/share/elementary/themes
--rw-r--r-- root       root          5612923 ./usr/share/elementary/themes/default.edj
+-rw-r--r-- root       root          5613047 ./usr/share/elementary/themes/default.edj
 -rw-r--r-- root       root           195235 ./usr/share/elementary/themes/gry.edj
 drwxr-xr-x root       root               60 ./usr/share/enchant
 -rw-r--r-- root       root              167 ./usr/share/enchant/enchant.ordering
@@ -12663,14 +12663,14 @@ drwxr-xr-x root       root              500 ./usr/share/terminology/fonts
 drwxr-xr-x root       root               60 ./usr/share/terminology/images
 -rw-r--r-- root       root            21730 ./usr/share/terminology/images/terminology.png
 drwxr-xr-x root       root              220 ./usr/share/terminology/themes
--rw-r--r-- root       root          1930419 ./usr/share/terminology/themes/base16_ocean_dark.edj
+-rw-r--r-- root       root          1930442 ./usr/share/terminology/themes/base16_ocean_dark.edj
 -rw-r--r-- root       root          1931533 ./usr/share/terminology/themes/black.edj
--rw-r--r-- root       root          2884656 ./usr/share/terminology/themes/default.edj
--rw-r--r-- root       root          1931457 ./usr/share/terminology/themes/mild.edj
+-rw-r--r-- root       root          2884733 ./usr/share/terminology/themes/default.edj
+-rw-r--r-- root       root          1931480 ./usr/share/terminology/themes/mild.edj
 -rw-r--r-- root       root          1930306 ./usr/share/terminology/themes/mustang.edj
 -rw-r--r-- root       root           200106 ./usr/share/terminology/themes/nyanology.edj
 -rw-r--r-- root       root          1932299 ./usr/share/terminology/themes/smyck.edj
--rw-r--r-- root       root          2884873 ./usr/share/terminology/themes/solarized.edj
+-rw-r--r-- root       root          2884950 ./usr/share/terminology/themes/solarized.edj
 -rw-r--r-- root       root          2884737 ./usr/share/terminology/themes/solarized_light.edj
 drwxr-xr-x root       root              140 ./usr/share/themes
 drwxr-xr-x root       root               60 ./usr/share/themes/Default
@@ -15437,8 +15437,8 @@ drwxr-xr-x root       root            36160 ./var/lib/opkg/info
 -rwxr-xr-x root       root              128 ./var/lib/opkg/info/bash.postinst
 -rwxr-xr-x root       root               67 ./var/lib/opkg/info/bash.postrm
 -rwxr-xr-x root       root               54 ./var/lib/opkg/info/bash.prerm
--rw-r--r-- root       root              726 ./var/lib/opkg/info/bluez5.control
--rw-r--r-- root       root              697 ./var/lib/opkg/info/bluez5.list
+-rw-r--r-- root       root              660 ./var/lib/opkg/info/bluez5.control
+-rw-r--r-- root       root              698 ./var/lib/opkg/info/bluez5.list
 -rwxr-xr-x root       root              325 ./var/lib/opkg/info/bluez5.postinst
 -rwxr-xr-x root       root              220 ./var/lib/opkg/info/bluez5.prerm
 -rw-r--r-- root       root             2056 ./var/lib/opkg/info/busybox-syslog.control
@@ -15905,7 +15905,7 @@ drwxr-xr-x root       root            36160 ./var/lib/opkg/info
 -rw-r--r-- root       root             1117 ./var/lib/opkg/info/libasm1.control
 -rw-r--r-- root       root               46 ./var/lib/opkg/info/libasm1.list
 -rwxr-xr-x root       root               90 ./var/lib/opkg/info/libasm1.postinst
--rw-r--r-- root       root              565 ./var/lib/opkg/info/libasound-module-bluez.control
+-rw-r--r-- root       root              499 ./var/lib/opkg/info/libasound-module-bluez.control
 -rw-r--r-- root       root                0 ./var/lib/opkg/info/libasound-module-bluez.list
 -rw-r--r-- root       root              564 ./var/lib/opkg/info/libasound2.control
 -rw-r--r-- root       root               52 ./var/lib/opkg/info/libasound2.list
