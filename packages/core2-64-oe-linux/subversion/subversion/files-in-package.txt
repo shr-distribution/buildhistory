@@ -1,42 +1,42 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              260 ./usr/bin
--rwxr-xr-x root       root           286808 ./usr/bin/svn
+-rwxr-xr-x root       root           286680 ./usr/bin/svn
 -rwxr-xr-x root       root            82248 ./usr/bin/svnadmin
 -rwxr-xr-x root       root            57880 ./usr/bin/svnbench
 -rwxr-xr-x root       root            33752 ./usr/bin/svndumpfilter
 -rwxr-xr-x root       root            34624 ./usr/bin/svnfsfs
--rwxr-xr-x root       root            66280 ./usr/bin/svnlook
+-rwxr-xr-x root       root            65912 ./usr/bin/svnlook
 -rwxr-xr-x root       root            24424 ./usr/bin/svnmucc
 -rwxr-xr-x root       root            50456 ./usr/bin/svnrdump
--rwxr-xr-x root       root            84512 ./usr/bin/svnserve
--rwxr-xr-x root       root            51064 ./usr/bin/svnsync
+-rwxr-xr-x root       root            83936 ./usr/bin/svnserve
+-rwxr-xr-x root       root            51000 ./usr/bin/svnsync
 -rwxr-xr-x root       root            11432 ./usr/bin/svnversion
 drwxr-xr-x root       root              600 ./usr/lib
 lrwxrwxrwx root       root               24 ./usr/lib/libsvn_client-1.so.0 -> libsvn_client-1.so.0.0.0
--rwxr-xr-x root       root           442624 ./usr/lib/libsvn_client-1.so.0.0.0
+-rwxr-xr-x root       root           438528 ./usr/lib/libsvn_client-1.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libsvn_delta-1.so.0 -> libsvn_delta-1.so.0.0.0
--rwxr-xr-x root       root            74824 ./usr/lib/libsvn_delta-1.so.0.0.0
+-rwxr-xr-x root       root            74280 ./usr/lib/libsvn_delta-1.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libsvn_diff-1.so.0 -> libsvn_diff-1.so.0.0.0
--rwxr-xr-x root       root            87768 ./usr/lib/libsvn_diff-1.so.0.0.0
+-rwxr-xr-x root       root            87512 ./usr/lib/libsvn_diff-1.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libsvn_fs-1.so.0 -> libsvn_fs-1.so.0.0.0
--rwxr-xr-x root       root            46288 ./usr/lib/libsvn_fs-1.so.0.0.0
+-rwxr-xr-x root       root            46064 ./usr/lib/libsvn_fs-1.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libsvn_fs_fs-1.so.0 -> libsvn_fs_fs-1.so.0.0.0
--rwxr-xr-x root       root           320600 ./usr/lib/libsvn_fs_fs-1.so.0.0.0
+-rwxr-xr-x root       root           319640 ./usr/lib/libsvn_fs_fs-1.so.0.0.0
 lrwxrwxrwx root       root               25 ./usr/lib/libsvn_fs_util-1.so.0 -> libsvn_fs_util-1.so.0.0.0
 -rwxr-xr-x root       root            10000 ./usr/lib/libsvn_fs_util-1.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libsvn_fs_x-1.so.0 -> libsvn_fs_x-1.so.0.0.0
 -rwxr-xr-x root       root           336152 ./usr/lib/libsvn_fs_x-1.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libsvn_ra-1.so.0 -> libsvn_ra-1.so.0.0.0
--rwxr-xr-x root       root            53776 ./usr/lib/libsvn_ra-1.so.0.0.0
+-rwxr-xr-x root       root            53584 ./usr/lib/libsvn_ra-1.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/libsvn_ra_local-1.so.0 -> libsvn_ra_local-1.so.0.0.0
 -rwxr-xr-x root       root            37296 ./usr/lib/libsvn_ra_local-1.so.0.0.0
 lrwxrwxrwx root       root               25 ./usr/lib/libsvn_ra_serf-1.so.0 -> libsvn_ra_serf-1.so.0.0.0
--rwxr-xr-x root       root           206120 ./usr/lib/libsvn_ra_serf-1.so.0.0.0
+-rwxr-xr-x root       root           202040 ./usr/lib/libsvn_ra_serf-1.so.0.0.0
 lrwxrwxrwx root       root               24 ./usr/lib/libsvn_ra_svn-1.so.0 -> libsvn_ra_svn-1.so.0.0.0
 -rwxr-xr-x root       root           120536 ./usr/lib/libsvn_ra_svn-1.so.0.0.0
 lrwxrwxrwx root       root               23 ./usr/lib/libsvn_repos-1.so.0 -> libsvn_repos-1.so.0.0.0
--rwxr-xr-x root       root           223768 ./usr/lib/libsvn_repos-1.so.0.0.0
+-rwxr-xr-x root       root           223112 ./usr/lib/libsvn_repos-1.so.0.0.0
 lrwxrwxrwx root       root               22 ./usr/lib/libsvn_subr-1.so.0 -> libsvn_subr-1.so.0.0.0
--rwxr-xr-x root       root          1203032 ./usr/lib/libsvn_subr-1.so.0.0.0
+-rwxr-xr-x root       root          1200600 ./usr/lib/libsvn_subr-1.so.0.0.0
 lrwxrwxrwx root       root               20 ./usr/lib/libsvn_wc-1.so.0 -> libsvn_wc-1.so.0.0.0
--rwxr-xr-x root       root           726280 ./usr/lib/libsvn_wc-1.so.0.0.0
+-rwxr-xr-x root       root           725640 ./usr/lib/libsvn_wc-1.so.0.0.0
