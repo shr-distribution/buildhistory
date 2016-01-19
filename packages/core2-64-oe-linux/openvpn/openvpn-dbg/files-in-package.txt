@@ -3,11 +3,11 @@ drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/openvpn
 drwxr-xr-x root       root               60 ./usr/lib/openvpn/plugins
 drwxr-xr-x root       root               80 ./usr/lib/openvpn/plugins/.debug
--rwxr-xr-x root       root            26208 ./usr/lib/openvpn/plugins/.debug/openvpn-plugin-auth-pam.so
--rwxr-xr-x root       root            20736 ./usr/lib/openvpn/plugins/.debug/openvpn-plugin-down-root.so
+-rwxr-xr-x root       root            25984 ./usr/lib/openvpn/plugins/.debug/openvpn-plugin-auth-pam.so
+-rwxr-xr-x root       root            20560 ./usr/lib/openvpn/plugins/.debug/openvpn-plugin-down-root.so
 drwxr-xr-x root       root               60 ./usr/sbin
 drwxr-xr-x root       root               60 ./usr/sbin/.debug
--rwxr-xr-x root       root          2266720 ./usr/sbin/.debug/openvpn
+-rwxr-xr-x root       root          2257952 ./usr/sbin/.debug/openvpn
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/openvpn
