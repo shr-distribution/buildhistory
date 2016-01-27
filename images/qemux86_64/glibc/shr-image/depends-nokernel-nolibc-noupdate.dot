@@ -1395,6 +1395,7 @@ digraph depends {
 "libfontenc1" -> "libz1";
 "libformw5" -> "libncursesw5";
 "libformw5" -> "libtinfo5";
+"libfreetype6" -> "libz1";
 "libfso-glib2" -> "libffi6";
 "libfso-glib2" -> "libglib-2.0-0";
 "libfso-glib2" -> "libz1";
@@ -2492,6 +2493,7 @@ digraph depends {
 "python-datetime" -> "python-core";
 "python-dateutil" -> "python-core";
 "python-dateutil" -> "python-datetime";
+"python-dateutil" -> "python-six";
 "python-dbus" -> "libdbus-1-3";
 "python-dbus" -> "libdbus-glib-1-2";
 "python-dbus" -> "libffi6";
@@ -2660,6 +2662,7 @@ digraph depends {
 "python-resource" -> "python-core";
 "python-shell" -> "python-core";
 "python-shell" -> "python-re";
+"python-six" -> "python-core";
 "python-sqlite3" -> "libpython2.7-1.0";
 "python-sqlite3" -> "libsqlite3-0";
 "python-sqlite3" -> "python-core";

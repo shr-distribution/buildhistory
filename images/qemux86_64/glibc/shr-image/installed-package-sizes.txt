@@ -10,7 +10,7 @@
 5823	KiB vim-help
 5481	KiB elementary-themes
 5276	KiB udev-hwdb
-5158	KiB libgtk-2.0
+5142	KiB libgtk-2.0
 4938	KiB vim-syntax
 4927	KiB e-wm
 4548	KiB subversion
@@ -22,12 +22,12 @@
 3462	KiB evas
 3284	KiB bluez5
 3269	KiB python-pygtk
-3121	KiB libglib-2.0-0
+3139	KiB python-lxml
+3102	KiB libglib-2.0-0
 3019	KiB ttf-dejavu-sans
 2827	KiB ncurses-terminfo
 2758	KiB xkeyboard-config
 2736	KiB frameworkd
-2732	KiB python-lxml
 2725	KiB python-misc
 2478	KiB libicui18n56
 2322	KiB libcrypto1.0.0
@@ -54,7 +54,7 @@
 1430	KiB libxml2
 1422	KiB libphone-ui-shr
 1421	KiB libfso-glib2
-1370	KiB e2fsprogs-e2fsck
+1374	KiB e2fsprogs-e2fsck
 1319	KiB gawk
 1298	KiB libx11-6
 1288	KiB shadow
@@ -73,8 +73,8 @@
 967	KiB libedje1
 891	KiB fso-sounds
 890	KiB luajit
-878	KiB libsoup-2.4
 877	KiB libvorbis
+875	KiB libsoup-2.4
 865	KiB python-netclient
 862	KiB tcpdump
 846	KiB python-ecore
@@ -101,8 +101,8 @@
 644	KiB python-lang
 628	KiB libdw1
 610	KiB busybox
-608	KiB libfreetype6
 606	KiB python-edje
+605	KiB libfreetype6
 596	KiB python-pyyaml
 594	KiB libgl-mesa
 591	KiB fsodeviced
@@ -173,6 +173,7 @@
 278	KiB xserver-xorg-extension-glx
 277	KiB libmount1
 276	KiB libxkbcommon
+273	KiB python-dateutil
 273	KiB gst-plugins-base-playbin
 265	KiB lightmediascanner
 263	KiB tzdata-americas
@@ -186,7 +187,6 @@
 232	KiB libfsobasics3
 230	KiB grep
 228	KiB fsousaged
-226	KiB python-dateutil
 221	KiB libgsttag-0.10-0
 221	KiB e-wm-theme-illume-gry
 219	KiB mtd-utils
@@ -314,6 +314,7 @@
 85	KiB gst-plugins-base-typefindfunctions
 84	KiB libz1
 81	KiB glib-networking
+80	KiB python-six
 79	KiB xkeyboard-config-locale-cs
 78	KiB tzdata-asia
 78	KiB openssh-scp

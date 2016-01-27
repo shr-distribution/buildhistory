@@ -565,6 +565,7 @@ python-re
 python-readline
 python-resource
 python-shell
+python-six
 python-sqlite3
 python-stringold
 python-subprocess
