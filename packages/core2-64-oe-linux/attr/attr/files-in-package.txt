@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root             9408 ./usr/bin/attr
--rwxr-xr-x root       root            17592 ./usr/bin/getfattr
--rwxr-xr-x root       root            14184 ./usr/bin/setfattr
+-rwxr-xr-x root       root             9536 ./usr/bin/attr
+-rwxr-xr-x root       root            17688 ./usr/bin/getfattr
+-rwxr-xr-x root       root            15464 ./usr/bin/setfattr

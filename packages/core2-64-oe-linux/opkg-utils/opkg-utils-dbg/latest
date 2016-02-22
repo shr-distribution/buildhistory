@@ -1,10 +1,10 @@
 PV = 0.1.8+gitAUTOINC+53274f0875
 PR = r0
 PKGV = 0.1.8+git6+53274f0875
-PKGR = r0.8
+PKGR = r0.9
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 23128
+PKGSIZE = 18688
 FILES = /usr/lib/debug /usr/src/debug
-FILELIST = /usr/bin/.debug/opkg-compare-versions /usr/src/debug/opkg-utils/0.1.8+gitAUTOINC+53274f0875-r0/git/opkg-compare-versions.c
+FILELIST = /usr/bin/.debug/opkg-compare-versions

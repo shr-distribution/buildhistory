@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root            11360 ./usr/bin/chacl
--rwxr-xr-x root       root            21200 ./usr/bin/getfacl
--rwxr-xr-x root       root            32528 ./usr/bin/setfacl
+-rwxr-xr-x root       root            11504 ./usr/bin/chacl
+-rwxr-xr-x root       root            21304 ./usr/bin/getfacl
+-rwxr-xr-x root       root            32600 ./usr/bin/setfacl

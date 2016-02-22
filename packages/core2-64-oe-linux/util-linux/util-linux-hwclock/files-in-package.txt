@@ -1,2 +1,2 @@
 drwxr-xr-x root       root               60 ./sbin
--rwxr-xr-x root       root            52504 ./sbin/hwclock.util-linux
+-rwxr-xr-x root       root            52608 ./sbin/hwclock.util-linux

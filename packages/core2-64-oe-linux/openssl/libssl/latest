@@ -1,10 +1,10 @@
-PV = 1.0.2e
+PV = 1.0.2f
 PR = r0
 PKGR = r0.0
 PKG = libssl1.0.0
-RPROVIDES = 1.0.2e libssl
-RDEPENDS = glibc (>= 2.22) libcrypto (>= 1.0.2e)
+RPROVIDES = libssl (=1.0.2f)
+RDEPENDS = glibc (>= 2.23) libcrypto (>= 1.0.2f)
 RRECOMMENDS = 
-PKGSIZE = 463680
+PKGSIZE = 463736
 FILES = /usr/lib/libssl.so.*
 FILELIST = /usr/lib/libssl.so.1.0.0
