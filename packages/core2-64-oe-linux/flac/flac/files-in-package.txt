@@ -1,4 +1,4 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root           236792 ./usr/bin/flac
--rwxr-xr-x root       root           136488 ./usr/bin/metaflac
+-rwxr-xr-x root       root           236864 ./usr/bin/flac
+-rwxr-xr-x root       root           136552 ./usr/bin/metaflac

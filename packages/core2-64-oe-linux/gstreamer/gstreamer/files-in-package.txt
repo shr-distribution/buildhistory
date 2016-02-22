@@ -1,31 +1,31 @@
-drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root              280 ./usr/bin
--rwxr-xr-x root       root            11752 ./usr/bin/gst-feedback
+-rwxr-xr-x root       root            11920 ./usr/bin/gst-feedback
 -rwxr-xr-x root       root             3173 ./usr/bin/gst-feedback-0.10
--rwxr-xr-x root       root            11752 ./usr/bin/gst-inspect
--rwxr-xr-x root       root            36496 ./usr/bin/gst-inspect-0.10
--rwxr-xr-x root       root            11752 ./usr/bin/gst-launch
--rwxr-xr-x root       root            32288 ./usr/bin/gst-launch-0.10
--rwxr-xr-x root       root            11752 ./usr/bin/gst-typefind
--rwxr-xr-x root       root            11152 ./usr/bin/gst-typefind-0.10
--rwxr-xr-x root       root            11752 ./usr/bin/gst-xmlinspect
--rwxr-xr-x root       root            20208 ./usr/bin/gst-xmlinspect-0.10
--rwxr-xr-x root       root            11752 ./usr/bin/gst-xmllaunch
--rwxr-xr-x root       root            32296 ./usr/bin/gst-xmllaunch-0.10
-drwxr-xr-x root       root              280 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/gstreamer
+-rwxr-xr-x root       root            11912 ./usr/bin/gst-inspect
+-rwxr-xr-x root       root            36640 ./usr/bin/gst-inspect-0.10
+-rwxr-xr-x root       root            11912 ./usr/bin/gst-launch
+-rwxr-xr-x root       root            32352 ./usr/bin/gst-launch-0.10
+-rwxr-xr-x root       root            11920 ./usr/bin/gst-typefind
+-rwxr-xr-x root       root            11208 ./usr/bin/gst-typefind-0.10
+-rwxr-xr-x root       root            11920 ./usr/bin/gst-xmlinspect
+-rwxr-xr-x root       root            20328 ./usr/bin/gst-xmlinspect-0.10
+-rwxr-xr-x root       root            11920 ./usr/bin/gst-xmllaunch
+-rwxr-xr-x root       root            32352 ./usr/bin/gst-xmllaunch-0.10
+drwxr-xr-x root       root              260 ./usr/lib
 drwxr-xr-x root       root               80 ./usr/lib/gstreamer-0.10
--rwxr-xr-x root       root           283864 ./usr/lib/gstreamer-0.10/libgstcoreelements.so
--rwxr-xr-x root       root            24840 ./usr/lib/gstreamer-0.10/libgstcoreindexers.so
-drwxr-xr-x root       root               60 ./usr/lib/gstreamer/gstreamer-0.10
--rwxr-xr-x root       root             5368 ./usr/lib/gstreamer/gstreamer-0.10/gst-plugin-scanner
+-rwxr-xr-x root       root           282752 ./usr/lib/gstreamer-0.10/libgstcoreelements.so
+-rwxr-xr-x root       root            24808 ./usr/lib/gstreamer-0.10/libgstcoreindexers.so
 lrwxrwxrwx root       root               25 ./usr/lib/libgstbase-0.10.so.0 -> libgstbase-0.10.so.0.30.0
--rwxr-xr-x root       root           365952 ./usr/lib/libgstbase-0.10.so.0.30.0
+-rwxr-xr-x root       root           366000 ./usr/lib/libgstbase-0.10.so.0.30.0
 lrwxrwxrwx root       root               31 ./usr/lib/libgstcontroller-0.10.so.0 -> libgstcontroller-0.10.so.0.30.0
--rwxr-xr-x root       root           160976 ./usr/lib/libgstcontroller-0.10.so.0.30.0
+-rwxr-xr-x root       root           161048 ./usr/lib/libgstcontroller-0.10.so.0.30.0
 lrwxrwxrwx root       root               33 ./usr/lib/libgstdataprotocol-0.10.so.0 -> libgstdataprotocol-0.10.so.0.30.0
--rwxr-xr-x root       root            19392 ./usr/lib/libgstdataprotocol-0.10.so.0.30.0
+-rwxr-xr-x root       root            19456 ./usr/lib/libgstdataprotocol-0.10.so.0.30.0
 lrwxrwxrwx root       root               24 ./usr/lib/libgstnet-0.10.so.0 -> libgstnet-0.10.so.0.30.0
--rwxr-xr-x root       root            24872 ./usr/lib/libgstnet-0.10.so.0.30.0
+-rwxr-xr-x root       root            24816 ./usr/lib/libgstnet-0.10.so.0.30.0
 lrwxrwxrwx root       root               27 ./usr/lib/libgstreamer-0.10.so.0 -> libgstreamer-0.10.so.0.30.0
--rwxr-xr-x root       root           970128 ./usr/lib/libgstreamer-0.10.so.0.30.0
+-rwxr-xr-x root       root           966640 ./usr/lib/libgstreamer-0.10.so.0.30.0
+drwxr-xr-x root       root               60 ./usr/libexec
+drwxr-xr-x root       root               60 ./usr/libexec/gstreamer-0.10
+-rwxr-xr-x root       root             5504 ./usr/libexec/gstreamer-0.10/gst-plugin-scanner
