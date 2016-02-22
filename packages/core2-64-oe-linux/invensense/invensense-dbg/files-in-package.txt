@@ -1,0 +1,5 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               80 ./usr/lib/.debug
+-rwxr-xr-x root       root           372568 ./usr/lib/.debug/libmllite.so
+-rwxr-xr-x root       root            26992 ./usr/lib/.debug/libmlplatform.so
