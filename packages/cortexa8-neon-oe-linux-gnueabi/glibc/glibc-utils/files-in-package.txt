@@ -1,0 +1,14 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              240 ./usr/bin
+-rwxr-xr-x root       root            18040 ./usr/bin/gencat
+-rwxr-xr-x root       root            17936 ./usr/bin/getconf
+-rwxr-xr-x root       root            18388 ./usr/bin/getent
+-rwxr-xr-x root       root            46896 ./usr/bin/iconv
+-rwxr-xr-x root       root            31772 ./usr/bin/locale
+-rwxr-xr-x root       root            13952 ./usr/bin/makedb
+-rwxr-xr-x root       root             5664 ./usr/bin/pcprofiledump
+-rwxr-xr-x root       root            13920 ./usr/bin/pldd
+-rwxr-xr-x root       root            75608 ./usr/bin/rpcgen
+-rwxr-xr-x root       root            22172 ./usr/bin/sprof
+drwxr-xr-x root       root               60 ./usr/sbin
+-rwxr-xr-x root       root            18040 ./usr/sbin/iconvconfig

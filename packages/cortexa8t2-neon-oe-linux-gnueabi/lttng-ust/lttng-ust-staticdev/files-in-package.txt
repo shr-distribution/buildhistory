@@ -1,0 +1,11 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              220 ./usr/lib
+-rw-r--r-- root       root          1958968 ./usr/lib/liblttng-ust-ctl.a
+-rw-r--r-- root       root            40230 ./usr/lib/liblttng-ust-cyg-profile-fast.a
+-rw-r--r-- root       root            38638 ./usr/lib/liblttng-ust-cyg-profile.a
+-rw-r--r-- root       root            63046 ./usr/lib/liblttng-ust-dl.a
+-rw-r--r-- root       root             9838 ./usr/lib/liblttng-ust-fork.a
+-rw-r--r-- root       root           102338 ./usr/lib/liblttng-ust-libc-wrapper.a
+-rw-r--r-- root       root            63434 ./usr/lib/liblttng-ust-pthread-wrapper.a
+-rw-r--r-- root       root           154508 ./usr/lib/liblttng-ust-tracepoint.a
+-rw-r--r-- root       root          2640582 ./usr/lib/liblttng-ust.a

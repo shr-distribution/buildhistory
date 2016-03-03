@@ -1,0 +1,4 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+-rw-r--r-- root       root            43086 ./usr/lib/libX11-xcb.a
+-rw-r--r-- root       root         19883888 ./usr/lib/libX11.a

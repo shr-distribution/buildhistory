@@ -1,0 +1,7 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              140 ./usr/lib
+-rw-r--r-- root       root          1258140 ./usr/lib/libical.a
+-rw-r--r-- root       root           932176 ./usr/lib/libical_cxx.a
+-rw-r--r-- root       root           365218 ./usr/lib/libicalss.a
+-rw-r--r-- root       root            59316 ./usr/lib/libicalss_cxx.a
+-rw-r--r-- root       root           206972 ./usr/lib/libicalvcal.a

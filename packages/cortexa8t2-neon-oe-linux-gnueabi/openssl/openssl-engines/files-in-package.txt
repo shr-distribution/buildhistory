@@ -1,0 +1,17 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root               40 ./usr/lib/engines
+drwxr-xr-x root       root               60 ./usr/lib/ssl
+drwxr-xr-x root       root              280 ./usr/lib/ssl/engines
+-r-xr-xr-x root       root            10576 ./usr/lib/ssl/engines/lib4758cca.so
+-r-xr-xr-x root       root            10680 ./usr/lib/ssl/engines/libaep.so
+-r-xr-xr-x root       root             8452 ./usr/lib/ssl/engines/libatalla.so
+-r-xr-xr-x root       root             3016 ./usr/lib/ssl/engines/libcapi.so
+-r-xr-xr-x root       root            13784 ./usr/lib/ssl/engines/libchil.so
+-r-xr-xr-x root       root            11944 ./usr/lib/ssl/engines/libcswift.so
+-r-xr-xr-x root       root             3016 ./usr/lib/ssl/engines/libgmp.so
+-r-xr-xr-x root       root            58772 ./usr/lib/ssl/engines/libgost.so
+-r-xr-xr-x root       root             7224 ./usr/lib/ssl/engines/libnuron.so
+-r-xr-xr-x root       root             3024 ./usr/lib/ssl/engines/libpadlock.so
+-r-xr-xr-x root       root            14808 ./usr/lib/ssl/engines/libsureware.so
+-r-xr-xr-x root       root            10884 ./usr/lib/ssl/engines/libubsec.so

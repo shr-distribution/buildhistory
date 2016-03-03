@@ -1,0 +1,12 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root              220 ./usr/lib/.debug
+-rwxr-xr-x root       root           961520 ./usr/lib/.debug/liblttng-ust-ctl.so.2.0.0
+-rwxr-xr-x root       root            29812 ./usr/lib/.debug/liblttng-ust-cyg-profile-fast.so.0.0.0
+-rwxr-xr-x root       root            28500 ./usr/lib/.debug/liblttng-ust-cyg-profile.so.0.0.0
+-rwxr-xr-x root       root            39776 ./usr/lib/.debug/liblttng-ust-dl.so.0.0.0
+-rwxr-xr-x root       root            10364 ./usr/lib/.debug/liblttng-ust-fork.so.0.0.0
+-rwxr-xr-x root       root            61372 ./usr/lib/.debug/liblttng-ust-libc-wrapper.so.0.0.0
+-rwxr-xr-x root       root            43120 ./usr/lib/.debug/liblttng-ust-pthread-wrapper.so.0.0.0
+-rwxr-xr-x root       root            85360 ./usr/lib/.debug/liblttng-ust-tracepoint.so.0.0.0
+-rwxr-xr-x root       root          1294656 ./usr/lib/.debug/liblttng-ust.so.0.0.0

@@ -1,0 +1,14 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/python2.7
+drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages
+drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/gtk-2.0
+drwxr-xr-x root       root              120 ./usr/lib/python2.7/site-packages/gtk-2.0/.debug
+-rwxr-xr-x root       root           435780 ./usr/lib/python2.7/site-packages/gtk-2.0/.debug/atk.so
+-rwxr-xr-x root       root            83348 ./usr/lib/python2.7/site-packages/gtk-2.0/.debug/gtkunixprint.so
+-rwxr-xr-x root       root           253712 ./usr/lib/python2.7/site-packages/gtk-2.0/.debug/pango.so
+-rwxr-xr-x root       root            53164 ./usr/lib/python2.7/site-packages/gtk-2.0/.debug/pangocairo.so
+drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages/gtk-2.0/gtk
+drwxr-xr-x root       root               80 ./usr/lib/python2.7/site-packages/gtk-2.0/gtk/.debug
+-rwxr-xr-x root       root          3956868 ./usr/lib/python2.7/site-packages/gtk-2.0/gtk/.debug/_gtk.so
+-rwxr-xr-x root       root            61352 ./usr/lib/python2.7/site-packages/gtk-2.0/gtk/.debug/glade.so
