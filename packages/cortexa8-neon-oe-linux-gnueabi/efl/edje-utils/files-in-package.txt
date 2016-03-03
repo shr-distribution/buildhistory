@@ -1,0 +1,15 @@
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              220 ./usr/bin
+-rwxr-xr-x root       root           224352 ./usr/bin/edje_cc
+-rwxr-xr-x root       root            31628 ./usr/bin/edje_codegen
+-rwxr-xr-x root       root            17764 ./usr/bin/edje_decc
+-rwxr-xr-x root       root            15160 ./usr/bin/edje_external_inspector
+-rwxr-xr-x root       root            41184 ./usr/bin/edje_inspector
+-rwxr-xr-x root       root            23880 ./usr/bin/edje_pick
+-rwxr-xr-x root       root            20164 ./usr/bin/edje_player
+-rwxr-xr-x root       root             1177 ./usr/bin/edje_recc
+-rwxr-xr-x root       root             6856 ./usr/bin/edje_watch
+drwxr-xr-x root       root               60 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/edje
+drwxr-xr-x root       root               60 ./usr/share/edje/include
+-rw-r--r-- root       root            10628 ./usr/share/edje/include/edje.inc
