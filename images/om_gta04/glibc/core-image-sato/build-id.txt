@@ -14,7 +14,7 @@ meta-jama         = "master:a687ccd50fdd1f7e5584814d45a04c0c7c9cb861"
 meta-shr-distro   
 meta-shr          
 meta-fso          
-meta-android      = "jansa/master:3d94647d0fccb6b91dffda7cbdf9df3899319fc1"
+meta-android      = "jansa/master:34fbcff6fc317087d4c91c1a4b5fd809ea4428dd"
 meta-oe           
 meta-efl          
 meta-gnome        
@@ -32,7 +32,7 @@ meta-nokia
 meta-htc          
 meta-palm         
 meta-openmoko     
-meta-samsung      = "jansa/master:3d94647d0fccb6b91dffda7cbdf9df3899319fc1"
+meta-samsung      = "jansa/master:34fbcff6fc317087d4c91c1a4b5fd809ea4428dd"
 meta-browser      = "jansa/master:6ae3c6dddfe12124d9ac70fd1517821b0b10f43a"
 meta-games        = "master:58f65b450ee0d4e422a59bc7a505721bf2b35fc9"
 meta-handheld     = "jansa/master:7a3fd6e1c7630ccfa065a9c0afa4f603068c2d73"
