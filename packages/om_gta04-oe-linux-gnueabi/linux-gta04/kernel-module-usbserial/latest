@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0
+RRECOMMENDS = 
+PKGSIZE = 46444
+FILES = /lib/modules/4.4.0/kernel/drivers/usb/serial/usbserial.ko /etc/modules-load.d/usbserial.conf /etc/modprobe.d/usbserial.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/usb/serial/usbserial.ko

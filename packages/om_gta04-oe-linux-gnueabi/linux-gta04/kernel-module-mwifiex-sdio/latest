@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-cfg80211 kernel-module-mwifiex
+RRECOMMENDS = 
+PKGSIZE = 35496
+FILES = /lib/modules/4.4.0/kernel/drivers/net/wireless/mwifiex/mwifiex_sdio.ko /etc/modules-load.d/mwifiex_sdio.conf /etc/modprobe.d/mwifiex_sdio.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/net/wireless/mwifiex/mwifiex_sdio.ko

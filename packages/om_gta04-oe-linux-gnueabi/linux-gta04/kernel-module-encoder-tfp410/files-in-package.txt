@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/modules
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/video
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/video/fbdev
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/video/fbdev/omap2
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/video/fbdev/omap2/displays-new
+-rw-r--r-- root       root             8444 ./lib/modules/4.4.0/kernel/drivers/video/fbdev/omap2/displays-new/encoder-tfp410.ko

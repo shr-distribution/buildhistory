@@ -1,11 +1,11 @@
 PE = 5
-PV = 3.13.6+gitrAUTOINC+b31d3318b6
+PV = 4.4+gitrAUTOINC+c8d2206e45
 PR = r16
-PKGV = 3.13.6+gitr2+b31d3318b6
+PKGV = 4.4+gitr0+c8d2206e45
 PKGR = r16.1
 RPROVIDES = 
-RDEPENDS = kernel-3.13.6 kernel-module-bluetooth
+RDEPENDS = kernel-4.4.0 kernel-module-bluetooth
 RRECOMMENDS = 
-PKGSIZE = 23344
-FILES = /lib/modules/3.13.6/kernel/drivers/bluetooth/hci_uart.ko /etc/modules-load.d/hci_uart.conf /etc/modprobe.d/hci_uart.conf
-FILELIST = /lib/modules/3.13.6/kernel/drivers/bluetooth/hci_uart.ko
+PKGSIZE = 27636
+FILES = /lib/modules/4.4.0/kernel/drivers/bluetooth/hci_uart.ko /etc/modules-load.d/hci_uart.conf /etc/modprobe.d/hci_uart.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/bluetooth/hci_uart.ko

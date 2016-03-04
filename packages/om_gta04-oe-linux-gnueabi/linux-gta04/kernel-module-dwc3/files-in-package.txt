@@ -1,0 +1,8 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/modules
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/usb
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/usb/dwc3
+-rw-r--r-- root       root            99168 ./lib/modules/4.4.0/kernel/drivers/usb/dwc3/dwc3.ko

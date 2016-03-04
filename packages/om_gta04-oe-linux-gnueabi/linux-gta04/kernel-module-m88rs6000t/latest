@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0
+RRECOMMENDS = 
+PKGSIZE = 12040
+FILES = /lib/modules/4.4.0/kernel/drivers/media/tuners/m88rs6000t.ko /etc/modules-load.d/m88rs6000t.conf /etc/modprobe.d/m88rs6000t.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/media/tuners/m88rs6000t.ko

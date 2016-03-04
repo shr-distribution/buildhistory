@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0
+RRECOMMENDS = 
+PKGSIZE = 14100
+FILES = /lib/modules/4.4.0/kernel/sound/soc/generic/snd-soc-simple-card.ko /etc/modules-load.d/snd-soc-simple-card.conf /etc/modprobe.d/snd-soc-simple-card.conf
+FILELIST = /lib/modules/4.4.0/kernel/sound/soc/generic/snd-soc-simple-card.ko

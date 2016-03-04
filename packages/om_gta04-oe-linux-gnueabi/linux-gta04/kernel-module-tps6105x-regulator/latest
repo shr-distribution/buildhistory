@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0
+RRECOMMENDS = 
+PKGSIZE = 6540
+FILES = /lib/modules/4.4.0/kernel/drivers/regulator/tps6105x-regulator.ko /etc/modules-load.d/tps6105x-regulator.conf /etc/modprobe.d/tps6105x-regulator.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/regulator/tps6105x-regulator.ko

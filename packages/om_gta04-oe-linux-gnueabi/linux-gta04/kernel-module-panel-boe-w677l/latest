@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0
+RRECOMMENDS = 
+PKGSIZE = 18980
+FILES = /lib/modules/4.4.0/kernel/drivers/video/fbdev/omap2/displays-new/panel-boe-w677l.ko /etc/modules-load.d/panel-boe-w677l.conf /etc/modprobe.d/panel-boe-w677l.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/video/fbdev/omap2/displays-new/panel-boe-w677l.ko

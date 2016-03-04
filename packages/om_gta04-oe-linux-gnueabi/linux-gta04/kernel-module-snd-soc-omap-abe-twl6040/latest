@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-snd-pcm-dmaengine kernel-module-snd-soc-omap kernel-module-snd-soc-omap-mcpdm kernel-module-snd-soc-twl6040
+RRECOMMENDS = 
+PKGSIZE = 13412
+FILES = /lib/modules/4.4.0/kernel/sound/soc/omap/snd-soc-omap-abe-twl6040.ko /etc/modules-load.d/snd-soc-omap-abe-twl6040.conf /etc/modprobe.d/snd-soc-omap-abe-twl6040.conf
+FILELIST = /lib/modules/4.4.0/kernel/sound/soc/omap/snd-soc-omap-abe-twl6040.ko

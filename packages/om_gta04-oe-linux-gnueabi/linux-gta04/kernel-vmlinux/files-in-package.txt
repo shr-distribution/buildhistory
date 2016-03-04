@@ -1,2 +1,2 @@
 drwxr-xr-x root       root               60 ./boot
--rw-r--r-- root       root          9812812 ./boot/vmlinux-3.13.6
+-rw-r--r-- root       root        100298276 ./boot/vmlinux-4.4.0

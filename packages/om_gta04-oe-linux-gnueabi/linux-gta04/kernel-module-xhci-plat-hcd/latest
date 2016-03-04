@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-xhci-hcd
+RRECOMMENDS = 
+PKGSIZE = 12256
+FILES = /lib/modules/4.4.0/kernel/drivers/usb/host/xhci-plat-hcd.ko /etc/modules-load.d/xhci-plat-hcd.conf /etc/modprobe.d/xhci-plat-hcd.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/usb/host/xhci-plat-hcd.ko

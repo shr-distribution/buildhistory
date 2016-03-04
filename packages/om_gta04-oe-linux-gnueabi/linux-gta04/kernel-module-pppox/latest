@@ -1,11 +1,11 @@
 PE = 5
-PV = 3.13.6+gitrAUTOINC+b31d3318b6
+PV = 4.4+gitrAUTOINC+c8d2206e45
 PR = r16
-PKGV = 3.13.6+gitr2+b31d3318b6
+PKGV = 4.4+gitr0+c8d2206e45
 PKGR = r16.1
 RPROVIDES = 
-RDEPENDS = kernel-3.13.6 kernel-module-ppp-generic kernel-module-slhc
+RDEPENDS = kernel-4.4.0 kernel-module-ppp-generic kernel-module-slhc
 RRECOMMENDS = 
-PKGSIZE = 6836
-FILES = /lib/modules/3.13.6/kernel/drivers/net/ppp/pppox.ko /etc/modules-load.d/pppox.conf /etc/modprobe.d/pppox.conf
-FILELIST = /lib/modules/3.13.6/kernel/drivers/net/ppp/pppox.ko
+PKGSIZE = 7360
+FILES = /lib/modules/4.4.0/kernel/drivers/net/ppp/pppox.ko /etc/modules-load.d/pppox.conf /etc/modprobe.d/pppox.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/net/ppp/pppox.ko

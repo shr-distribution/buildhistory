@@ -1,11 +1,11 @@
 PE = 5
-PV = 3.13.6+gitrAUTOINC+b31d3318b6
+PV = 4.4+gitrAUTOINC+c8d2206e45
 PR = r16
-PKGV = 3.13.6+gitr2+b31d3318b6
+PKGV = 4.4+gitr0+c8d2206e45
 PKGR = r16.1
 RPROVIDES = 
-RDEPENDS = kernel-3.13.6
+RDEPENDS = kernel-4.4.0
 RRECOMMENDS = 
-PKGSIZE = 7404
-FILES = /lib/modules/3.13.6/kernel/drivers/usb/misc/cypress_cy7c63.ko /etc/modules-load.d/cypress_cy7c63.conf /etc/modprobe.d/cypress_cy7c63.conf
-FILELIST = /lib/modules/3.13.6/kernel/drivers/usb/misc/cypress_cy7c63.ko
+PKGSIZE = 7512
+FILES = /lib/modules/4.4.0/kernel/drivers/usb/misc/cypress_cy7c63.ko /etc/modules-load.d/cypress_cy7c63.conf /etc/modprobe.d/cypress_cy7c63.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/usb/misc/cypress_cy7c63.ko

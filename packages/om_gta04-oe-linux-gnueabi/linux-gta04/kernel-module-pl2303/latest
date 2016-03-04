@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-usbserial
+RRECOMMENDS = 
+PKGSIZE = 19792
+FILES = /lib/modules/4.4.0/kernel/drivers/usb/serial/pl2303.ko /etc/modules-load.d/pl2303.conf /etc/modprobe.d/pl2303.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/usb/serial/pl2303.ko

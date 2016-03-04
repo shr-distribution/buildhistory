@@ -1,0 +1,17 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              340 ./usr/lib
+-rw-r--r-- root       root            17222 ./usr/lib/libBrokenLocale.a
+-rw-r--r-- root       root           101320 ./usr/lib/libanl.a
+-rw-r--r-- root       root         17730018 ./usr/lib/libc.a
+-rw-r--r-- root       root           167964 ./usr/lib/libcrypt.a
+-rw-r--r-- root       root            49958 ./usr/lib/libdl.a
+-rw-r--r-- root       root             2142 ./usr/lib/libg.a
+-rw-r--r-- root       root             2076 ./usr/lib/libieee.a
+-rw-r--r-- root       root          2941928 ./usr/lib/libm.a
+-rw-r--r-- root       root             7612 ./usr/lib/libmcheck.a
+-rw-r--r-- root       root           878542 ./usr/lib/libnsl.a
+-rw-r--r-- root       root          1910512 ./usr/lib/libpthread.a
+-rw-r--r-- root       root           460406 ./usr/lib/libresolv.a
+-rw-r--r-- root       root           245370 ./usr/lib/librpcsvc.a
+-rw-r--r-- root       root           374204 ./usr/lib/librt.a
+-rw-r--r-- root       root            41068 ./usr/lib/libutil.a

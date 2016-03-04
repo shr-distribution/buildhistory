@@ -3,10 +3,10 @@ drwxr-xr-x root       root               60 ./etc/modules-load.d
 -rw-r--r-- root       root               14 ./etc/modules-load.d/libertas_sdio.conf
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/modules
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel/drivers
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel/drivers/net
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel/drivers/net/wireless
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel/drivers/net/wireless/libertas
--rw-r--r-- root       root            29796 ./lib/modules/3.13.6/kernel/drivers/net/wireless/libertas/libertas_sdio.ko
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/net
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/net/wireless
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/net/wireless/libertas
+-rw-r--r-- root       root            29640 ./lib/modules/4.4.0/kernel/drivers/net/wireless/libertas/libertas_sdio.ko

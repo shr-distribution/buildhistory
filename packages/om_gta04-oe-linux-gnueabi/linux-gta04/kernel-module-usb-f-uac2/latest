@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-configfs kernel-module-libcomposite
+RRECOMMENDS = 
+PKGSIZE = 22000
+FILES = /lib/modules/4.4.0/kernel/drivers/usb/gadget/function/usb_f_uac2.ko /etc/modules-load.d/usb_f_uac2.conf /etc/modprobe.d/usb_f_uac2.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/usb/gadget/function/usb_f_uac2.ko

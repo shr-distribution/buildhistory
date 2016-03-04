@@ -1,0 +1,8 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/modules
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/input
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/input/misc
+-rw-r--r-- root       root            10272 ./lib/modules/4.4.0/kernel/drivers/input/misc/palmas-pwrbutton.ko

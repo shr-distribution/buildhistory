@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/modules
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel/fs
-drwxr-xr-x root       root               60 ./lib/modules/3.13.6/kernel/fs/hfs
--rw-r--r-- root       root            63948 ./lib/modules/3.13.6/kernel/fs/hfs/hfs.ko
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/fs
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/fs/hfs
+-rw-r--r-- root       root            68684 ./lib/modules/4.4.0/kernel/fs/hfs/hfs.ko

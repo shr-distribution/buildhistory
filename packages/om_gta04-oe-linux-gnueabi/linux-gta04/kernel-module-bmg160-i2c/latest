@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-bmg160-core
+RRECOMMENDS = 
+PKGSIZE = 5872
+FILES = /lib/modules/4.4.0/kernel/drivers/iio/gyro/bmg160_i2c.ko /etc/modules-load.d/bmg160_i2c.conf /etc/modprobe.d/bmg160_i2c.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/iio/gyro/bmg160_i2c.ko

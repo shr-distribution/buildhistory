@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-musb-hdrc kernel-module-omap2430
+RRECOMMENDS = 
+PKGSIZE = 17788
+FILES = /lib/modules/4.4.0/kernel/drivers/phy/phy-twl4030-usb.ko /etc/modules-load.d/phy-twl4030-usb.conf /etc/modprobe.d/phy-twl4030-usb.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/phy/phy-twl4030-usb.ko

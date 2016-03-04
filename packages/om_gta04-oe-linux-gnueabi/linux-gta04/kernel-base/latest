@@ -1,12 +1,12 @@
 PE = 5
-PV = 3.13.6+gitrAUTOINC+b31d3318b6
+PV = 4.4+gitrAUTOINC+c8d2206e45
 PR = r16
-PKGV = 3.13.6+gitr2+b31d3318b6
+PKGV = 4.4+gitr0+c8d2206e45
 PKGR = r16.1
-PKG = kernel-3.13.6
-RPROVIDES = kernel-3.13.6 kernel-base (=3.13.6+gitr2+b31d3318b6)
+PKG = kernel-4.4.0
+RPROVIDES = kernel-4.4.0 kernel-base (=4.4+gitr0+c8d2206e45)
 RDEPENDS = kernel-image
 RRECOMMENDS = 
-PKGSIZE = 20741
-FILES = /lib/modules/3.13.6/modules.order /lib/modules/3.13.6/modules.builtin
-FILELIST = /lib/modules/3.13.6/modules.builtin /lib/modules/3.13.6/modules.order
+PKGSIZE = 23441
+FILES = /lib/modules/4.4.0/modules.order /lib/modules/4.4.0/modules.builtin
+FILELIST = /lib/modules/4.4.0/modules.builtin /lib/modules/4.4.0/modules.order

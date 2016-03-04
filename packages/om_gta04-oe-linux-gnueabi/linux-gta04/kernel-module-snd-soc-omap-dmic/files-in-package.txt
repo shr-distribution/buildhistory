@@ -1,0 +1,8 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/modules
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/sound
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/sound/soc
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/sound/soc/omap
+-rw-r--r-- root       root            10400 ./lib/modules/4.4.0/kernel/sound/soc/omap/snd-soc-omap-dmic.ko

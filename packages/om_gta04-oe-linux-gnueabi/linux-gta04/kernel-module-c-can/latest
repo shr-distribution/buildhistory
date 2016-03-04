@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-can-dev
+RRECOMMENDS = 
+PKGSIZE = 16596
+FILES = /lib/modules/4.4.0/kernel/drivers/net/can/c_can/c_can.ko /etc/modules-load.d/c_can.conf /etc/modprobe.d/c_can.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/net/can/c_can/c_can.ko

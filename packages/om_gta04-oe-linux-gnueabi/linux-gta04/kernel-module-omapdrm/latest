@@ -1,0 +1,11 @@
+PE = 5
+PV = 4.4+gitrAUTOINC+c8d2206e45
+PR = r16
+PKGV = 4.4+gitr0+c8d2206e45
+PKGR = r16.1
+RPROVIDES = 
+RDEPENDS = kernel-4.4.0 kernel-module-cfbcopyarea kernel-module-cfbfillrect kernel-module-cfbimgblt kernel-module-drm kernel-module-drm-kms-helper kernel-module-fb-sys-fops kernel-module-syscopyarea kernel-module-sysfillrect kernel-module-sysimgblt
+RRECOMMENDS = 
+PKGSIZE = 109676
+FILES = /lib/modules/4.4.0/kernel/drivers/gpu/drm/omapdrm/omapdrm.ko /etc/modules-load.d/omapdrm.conf /etc/modprobe.d/omapdrm.conf
+FILELIST = /lib/modules/4.4.0/kernel/drivers/gpu/drm/omapdrm/omapdrm.ko

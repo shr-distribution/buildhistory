@@ -1,0 +1,8 @@
+drwxr-xr-x root       root               60 ./lib
+drwxr-xr-x root       root               60 ./lib/modules
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/gpu
+drwxr-xr-x root       root               60 ./lib/modules/4.4.0/kernel/drivers/gpu/drm
+-rw-r--r-- root       root           153020 ./lib/modules/4.4.0/kernel/drivers/gpu/drm/drm_kms_helper.ko
