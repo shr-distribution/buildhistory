@@ -1,4 +1,0 @@
-drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root           542192 ./usr/bin/bsdcpio
--rwxr-xr-x root       root           570432 ./usr/bin/bsdtar

@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root            19976 ./usr/bin/ts_harvest
--rwxr-xr-x root       root             5576 ./usr/bin/ts_print
--rwxr-xr-x root       root             5592 ./usr/bin/ts_print_raw
--rwxr-xr-x root       root            18400 ./usr/bin/ts_test
+-rwxr-xr-x root       root            20104 ./usr/bin/ts_harvest
+-rwxr-xr-x root       root             5720 ./usr/bin/ts_print
+-rwxr-xr-x root       root             5728 ./usr/bin/ts_print_raw
+-rwxr-xr-x root       root            18536 ./usr/bin/ts_test

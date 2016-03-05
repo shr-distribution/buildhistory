@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root            11208 ./usr/bin/notify-send
+-rwxr-xr-x root       root            11336 ./usr/bin/notify-send
 drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               18 ./usr/lib/libnotify.so.4 -> libnotify.so.4.0.0
--rwxr-xr-x root       root            28688 ./usr/lib/libnotify.so.4.0.0
+-rwxr-xr-x root       root            28632 ./usr/lib/libnotify.so.4.0.0

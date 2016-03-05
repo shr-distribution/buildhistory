@@ -3,18 +3,18 @@ drwxr-xr-x root       root              400 ./usr/lib
 lrwxrwxrwx root       root               25 ./usr/lib/liblttng-ust-ctl.so.2 -> liblttng-ust-ctl.so.2.0.0
 -rwxr-xr-x root       root           245560 ./usr/lib/liblttng-ust-ctl.so.2.0.0
 lrwxrwxrwx root       root               38 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0 -> liblttng-ust-cyg-profile-fast.so.0.0.0
--rwxr-xr-x root       root            12104 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0
+-rwxr-xr-x root       root            12144 ./usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0
 lrwxrwxrwx root       root               33 ./usr/lib/liblttng-ust-cyg-profile.so.0 -> liblttng-ust-cyg-profile.so.0.0.0
--rwxr-xr-x root       root            12424 ./usr/lib/liblttng-ust-cyg-profile.so.0.0.0
+-rwxr-xr-x root       root            12456 ./usr/lib/liblttng-ust-cyg-profile.so.0.0.0
 lrwxrwxrwx root       root               24 ./usr/lib/liblttng-ust-dl.so.0 -> liblttng-ust-dl.so.0.0.0
--rwxr-xr-x root       root            17600 ./usr/lib/liblttng-ust-dl.so.0.0.0
+-rwxr-xr-x root       root            17632 ./usr/lib/liblttng-ust-dl.so.0.0.0
 lrwxrwxrwx root       root               26 ./usr/lib/liblttng-ust-fork.so.0 -> liblttng-ust-fork.so.0.0.0
--rwxr-xr-x root       root             6728 ./usr/lib/liblttng-ust-fork.so.0.0.0
+-rwxr-xr-x root       root             6784 ./usr/lib/liblttng-ust-fork.so.0.0.0
 lrwxrwxrwx root       root               34 ./usr/lib/liblttng-ust-libc-wrapper.so.0 -> liblttng-ust-libc-wrapper.so.0.0.0
--rwxr-xr-x root       root            29992 ./usr/lib/liblttng-ust-libc-wrapper.so.0.0.0
+-rwxr-xr-x root       root            30032 ./usr/lib/liblttng-ust-libc-wrapper.so.0.0.0
 lrwxrwxrwx root       root               37 ./usr/lib/liblttng-ust-pthread-wrapper.so.0 -> liblttng-ust-pthread-wrapper.so.0.0.0
--rwxr-xr-x root       root            18544 ./usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0
+-rwxr-xr-x root       root            18608 ./usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0
 lrwxrwxrwx root       root               32 ./usr/lib/liblttng-ust-tracepoint.so.0 -> liblttng-ust-tracepoint.so.0.0.0
--rwxr-xr-x root       root            40088 ./usr/lib/liblttng-ust-tracepoint.so.0.0.0
+-rwxr-xr-x root       root            40208 ./usr/lib/liblttng-ust-tracepoint.so.0.0.0
 lrwxrwxrwx root       root               21 ./usr/lib/liblttng-ust.so.0 -> liblttng-ust.so.0.0.0
--rwxr-xr-x root       root           406784 ./usr/lib/liblttng-ust.so.0.0.0
+-rwxr-xr-x root       root           406848 ./usr/lib/liblttng-ust.so.0.0.0

@@ -1,9 +1,9 @@
 PV = 8.6.4
 PR = r0
-PKGR = r0.4
+PKGR = r0.5
 RPROVIDES = 
-RDEPENDS = tcl-dev (= 8.6.4-r0.4)
+RDEPENDS = tcl-dev (= 8.6.4-r0.5)
 RRECOMMENDS = 
-PKGSIZE = 402872
+PKGSIZE = 401048
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/tcl/*.a
 FILELIST = /usr/lib/libtclstub8.6.a

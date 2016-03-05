@@ -1,8 +1,8 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root            76640 ./usr/bin/sbcdec
--rwxr-xr-x root       root            76768 ./usr/bin/sbcenc
--rwxr-xr-x root       root            10856 ./usr/bin/sbcinfo
+-rwxr-xr-x root       root            76712 ./usr/bin/sbcdec
+-rwxr-xr-x root       root            76840 ./usr/bin/sbcenc
+-rwxr-xr-x root       root            10920 ./usr/bin/sbcinfo
 drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               15 ./usr/lib/libsbc.so.1 -> libsbc.so.1.2.1
--rwxr-xr-x root       root            72264 ./usr/lib/libsbc.so.1.2.1
+-rwxr-xr-x root       root            72312 ./usr/lib/libsbc.so.1.2.1

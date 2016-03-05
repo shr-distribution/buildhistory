@@ -1,11 +1,11 @@
 drwxr-xr-x root       root              100 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
--rwxr-xr-x root       root           123808 ./usr/bin/enjoy
+-rwxr-xr-x root       root           123872 ./usr/bin/enjoy
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root              100 ./usr/lib/enjoy
--rwxr-xr-x root       root             6792 ./usr/lib/enjoy/albumart-lastfm.so
--rwxr-xr-x root       root             9160 ./usr/lib/enjoy/fso.so
--rwxr-xr-x root       root            21624 ./usr/lib/enjoy/mpris.so
+-rwxr-xr-x root       root             6840 ./usr/lib/enjoy/albumart-lastfm.so
+-rwxr-xr-x root       root             9328 ./usr/lib/enjoy/fso.so
+-rwxr-xr-x root       root            21752 ./usr/lib/enjoy/mpris.so
 drwxr-xr-x root       root              100 ./usr/share
 drwxr-xr-x root       root               60 ./usr/share/applications
 -rw-r--r-- root       root              387 ./usr/share/applications/enjoy.desktop

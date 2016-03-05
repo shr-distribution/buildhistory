@@ -1,6 +1,6 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/share
-drwxr-xr-x 1026       1026               60 ./usr/share/locale
-drwxr-xr-x 1026       1026               60 ./usr/share/locale/pl
-drwxr-xr-x 1026       1026               60 ./usr/share/locale/pl/LC_MESSAGES
--rw-r--r-- 1026       1026             6686 ./usr/share/locale/pl/LC_MESSAGES/babiloo.mo
+drwxr-xr-x root       root               60 ./usr/share/locale
+drwxr-xr-x root       root               60 ./usr/share/locale/pl
+drwxr-xr-x root       root               60 ./usr/share/locale/pl/LC_MESSAGES
+-rw-r--r-- root       root             6686 ./usr/share/locale/pl/LC_MESSAGES/babiloo.mo

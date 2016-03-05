@@ -1,9 +1,9 @@
 PV = 22.21
 PR = r0
-PKGR = r0.15
+PKGR = r0.16
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) ncurses-libtinfo (>= 5.9)
+RDEPENDS = glibc (>= 2.23) ncurses-libtinfo (>= 6.0+20160213)
 RRECOMMENDS = 
-PKGSIZE = 23696
+PKGSIZE = 23768
 FILES = /usr/bin/pstree
 FILELIST = /usr/bin/pstree

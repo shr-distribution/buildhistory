@@ -15,7 +15,7 @@ drwxr-xr-x root       root              300 ./usr/lib/.debug
 -rwxr-xr-x root       root           297544 ./usr/lib/.debug/libgstrtp-0.10.so.0.25.0
 -rwxr-xr-x root       root           232192 ./usr/lib/.debug/libgstrtsp-0.10.so.0.25.0
 -rwxr-xr-x root       root            69176 ./usr/lib/.debug/libgstsdp-0.10.so.0.25.0
--rwxr-xr-x root       root           605200 ./usr/lib/.debug/libgsttag-0.10.so.0.25.0
+-rwxr-xr-x root       root           613392 ./usr/lib/.debug/libgsttag-0.10.so.0.25.0
 -rwxr-xr-x root       root           299296 ./usr/lib/.debug/libgstvideo-0.10.so.0.25.0
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-0.10
 drwxr-xr-x root       root              580 ./usr/lib/gstreamer-0.10/.debug

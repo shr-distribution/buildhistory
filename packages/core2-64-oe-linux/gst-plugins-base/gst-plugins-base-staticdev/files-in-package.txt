@@ -10,5 +10,5 @@ drwxr-xr-x root       root              280 ./usr/lib
 -rw-r--r-- root       root           690302 ./usr/lib/libgstrtp-0.10.a
 -rw-r--r-- root       root           564932 ./usr/lib/libgstrtsp-0.10.a
 -rw-r--r-- root       root           142366 ./usr/lib/libgstsdp-0.10.a
--rw-r--r-- root       root          1431086 ./usr/lib/libgsttag-0.10.a
+-rw-r--r-- root       root          1449366 ./usr/lib/libgsttag-0.10.a
 -rw-r--r-- root       root           674226 ./usr/lib/libgstvideo-0.10.a

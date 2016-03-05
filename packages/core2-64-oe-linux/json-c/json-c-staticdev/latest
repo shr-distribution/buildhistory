@@ -1,10 +1,10 @@
 PV = 0.12
 PR = r0
-PKGR = r0.6
+PKGR = r0.7
 PKG = libjson-c-staticdev
-RPROVIDES = 0.12 json-c-staticdev
-RDEPENDS = json-c-dev (= 0.12-r0.6)
+RPROVIDES = json-c-staticdev (=0.12)
+RDEPENDS = json-c-dev (= 0.12-r0.7)
 RRECOMMENDS = 
-PKGSIZE = 231308
+PKGSIZE = 228316
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/json-c/*.a
 FILELIST = /usr/lib/libjson-c.a

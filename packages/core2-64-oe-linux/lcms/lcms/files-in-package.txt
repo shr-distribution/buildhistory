@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root            32048 ./usr/bin/jpgicc
--rwxr-xr-x root       root            19464 ./usr/bin/linkicc
--rwxr-xr-x root       root            15968 ./usr/bin/psicc
--rwxr-xr-x root       root            29632 ./usr/bin/tificc
--rwxr-xr-x root       root            31952 ./usr/bin/transicc
+-rwxr-xr-x root       root            32112 ./usr/bin/jpgicc
+-rwxr-xr-x root       root            19592 ./usr/bin/linkicc
+-rwxr-xr-x root       root            16088 ./usr/bin/psicc
+-rwxr-xr-x root       root            29768 ./usr/bin/tificc
+-rwxr-xr-x root       root            32008 ./usr/bin/transicc
 drwxr-xr-x root       root               80 ./usr/lib
 lrwxrwxrwx root       root               17 ./usr/lib/liblcms2.so.2 -> liblcms2.so.2.0.7
--rwxr-xr-x root       root           362312 ./usr/lib/liblcms2.so.2.0.7
+-rwxr-xr-x root       root           361352 ./usr/lib/liblcms2.so.2.0.7

@@ -1,9 +1,9 @@
 PV = 0.117
 PR = r5
-PKGR = r5.16
+PKGR = r5.17
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) libgpewidget (>= 0.117) libx11 (>= 1.6.3)
+RDEPENDS = glibc (>= 2.23) libgpewidget (>= 0.117) libx11 (>= 1.6.3)
 RRECOMMENDS = 
-PKGSIZE = 5336
+PKGSIZE = 5472
 FILES = /usr/bin/* /usr/sbin/*
 FILELIST = /usr/bin/infoprint

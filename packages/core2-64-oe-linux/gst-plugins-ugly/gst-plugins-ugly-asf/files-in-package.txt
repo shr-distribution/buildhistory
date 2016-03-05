@@ -1,4 +1,4 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gstreamer-0.10
--rwxr-xr-x root       root           114672 ./usr/lib/gstreamer-0.10/libgstasf.so
+-rwxr-xr-x root       root           114456 ./usr/lib/gstreamer-0.10/libgstasf.so

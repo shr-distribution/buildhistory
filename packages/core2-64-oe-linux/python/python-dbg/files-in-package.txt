@@ -23,7 +23,7 @@ drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.deb
 -rwxr-xr-x root       root            29880 ./usr/lib/python2.7/lib-dynload/.debug/_curses_panel.so
 -rwxr-xr-x root       root           108112 ./usr/lib/python2.7/lib-dynload/.debug/_elementtree.so
 -rwxr-xr-x root       root            25104 ./usr/lib/python2.7/lib-dynload/.debug/_functools.so
--rwxr-xr-x root       root            49088 ./usr/lib/python2.7/lib-dynload/.debug/_hashlib.so
+-rwxr-xr-x root       root            49112 ./usr/lib/python2.7/lib-dynload/.debug/_hashlib.so
 -rwxr-xr-x root       root            34032 ./usr/lib/python2.7/lib-dynload/.debug/_heapq.so
 -rwxr-xr-x root       root            73720 ./usr/lib/python2.7/lib-dynload/.debug/_hotshot.so
 -rwxr-xr-x root       root           360480 ./usr/lib/python2.7/lib-dynload/.debug/_io.so
@@ -35,7 +35,7 @@ drwxr-xr-x root       root             1260 ./usr/lib/python2.7/lib-dynload/.deb
 -rwxr-xr-x root       root            28512 ./usr/lib/python2.7/lib-dynload/.debug/_random.so
 -rwxr-xr-x root       root           171264 ./usr/lib/python2.7/lib-dynload/.debug/_socket.so
 -rwxr-xr-x root       root           188608 ./usr/lib/python2.7/lib-dynload/.debug/_sqlite3.so
--rwxr-xr-x root       root           184056 ./usr/lib/python2.7/lib-dynload/.debug/_ssl.so
+-rwxr-xr-x root       root           184008 ./usr/lib/python2.7/lib-dynload/.debug/_ssl.so
 -rwxr-xr-x root       root           107416 ./usr/lib/python2.7/lib-dynload/.debug/_struct.so
 -rwxr-xr-x root       root            89840 ./usr/lib/python2.7/lib-dynload/.debug/_testcapi.so
 -rwxr-xr-x root       root           100464 ./usr/lib/python2.7/lib-dynload/.debug/array.so

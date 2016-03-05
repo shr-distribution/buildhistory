@@ -1,9 +1,9 @@
 PV = 7.1p2
 PR = r0
-PKGR = r0.0
+PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.22) update-alternatives-opkg
+RDEPENDS = glibc (>= 2.23) update-alternatives-opkg
 RRECOMMENDS = 
-PKGSIZE = 79968
+PKGSIZE = 75872
 FILES = /usr/bin/scp.openssh
 FILELIST = /usr/bin/scp.openssh

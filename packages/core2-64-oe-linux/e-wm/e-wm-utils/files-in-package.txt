@@ -2,10 +2,10 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/enlightenment
 drwxr-xr-x root       root              180 ./usr/lib/enlightenment/utils
--rwxr-xr-x root       root            15424 ./usr/lib/enlightenment/utils/enlightenment_alert
--r-sr-xr-x root       root             7600 ./usr/lib/enlightenment/utils/enlightenment_backlight
--rwxr-xr-x root       root            65168 ./usr/lib/enlightenment/utils/enlightenment_fm
--rwxr-xr-x root       root            25592 ./usr/lib/enlightenment/utils/enlightenment_fm_op
--rwxr-xr-x root       root            11016 ./usr/lib/enlightenment/utils/enlightenment_static_grabber
--r-sr-xr-x root       root            15352 ./usr/lib/enlightenment/utils/enlightenment_sys
--rwxr-xr-x root       root            23912 ./usr/lib/enlightenment/utils/enlightenment_thumb
+-rwxr-xr-x root       root            15496 ./usr/lib/enlightenment/utils/enlightenment_alert
+-r-sr-xr-x root       root             7720 ./usr/lib/enlightenment/utils/enlightenment_backlight
+-rwxr-xr-x root       root            65232 ./usr/lib/enlightenment/utils/enlightenment_fm
+-rwxr-xr-x root       root            25720 ./usr/lib/enlightenment/utils/enlightenment_fm_op
+-rwxr-xr-x root       root            11080 ./usr/lib/enlightenment/utils/enlightenment_static_grabber
+-r-sr-xr-x root       root            15416 ./usr/lib/enlightenment/utils/enlightenment_sys
+-rwxr-xr-x root       root            23968 ./usr/lib/enlightenment/utils/enlightenment_thumb

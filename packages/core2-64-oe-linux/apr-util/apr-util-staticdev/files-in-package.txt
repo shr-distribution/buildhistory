@@ -1,5 +1,6 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/apr-util-1
--rw-r--r-- root       root            24450 ./usr/lib/apr-util-1/apr_dbm_gdbm.a
--rw-r--r-- root       root          1182984 ./usr/lib/libaprutil-1.a
+drwxr-xr-x root       root               80 ./usr/lib/apr-util-1
+-rw-r--r-- root       root            51004 ./usr/lib/apr-util-1/apr_crypto_openssl.a
+-rw-r--r-- root       root            24090 ./usr/lib/apr-util-1/apr_dbm_gdbm.a
+-rw-r--r-- root       root          1192512 ./usr/lib/libaprutil-1.a
