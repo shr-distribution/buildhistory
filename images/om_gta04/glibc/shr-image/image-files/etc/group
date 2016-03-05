@@ -47,5 +47,4 @@ sshd:x:995:
 crontab:x:994:
 lock:x:993:
 systemd-journal:x:992:
-systemd-journal-gateway:x:991:
-systemd-timesync:x:990:
+systemd-timesync:x:991:
