@@ -1,0 +1,10 @@
+PV = 1.11
+PR = r0
+PKGR = r0.0
+PKG = libmb-staticdev
+RPROVIDES = libmatchbox-staticdev (=1.11)
+RDEPENDS = libmatchbox-dev (= 1.11-r0.0)
+RRECOMMENDS = 
+PKGSIZE = 376766
+FILES = /usr/lib/*.a /lib/*.a /usr/lib/libmatchbox/*.a
+FILELIST = /usr/lib/libmb.a
