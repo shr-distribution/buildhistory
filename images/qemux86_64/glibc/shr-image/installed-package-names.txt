@@ -6,9 +6,6 @@ alsa-utils-alsactl
 alsa-utils-alsamixer
 alsa-utils-amixer
 alsa-utils-aplay
-aspell
-aspell-locale-cs
-aspell-locale-en-gb
 attr-locale-cs
 babiloo-efl
 babiloo-efl-locale-en
@@ -59,7 +56,6 @@ efl
 efl-locale-cs
 efreet
 eina
-elbow
 elementary
 elementary-configs
 elementary-locale-cs
@@ -67,7 +63,6 @@ elementary-theme-gry
 elementary-themes
 elfutils
 embryo
-enchant
 enjoy
 estardict
 ethumb
@@ -156,7 +151,7 @@ kbd-consolefonts
 kbd-keymaps
 kbd-locale-cs
 kernel
-kernel-4.4.0-yocto-standard
+kernel-4.4.3-yocto-standard
 kernel-module-bnep
 kernel-module-crc-ccitt
 kernel-module-hidp
@@ -187,7 +182,6 @@ libarchive13
 libasm1
 libasound-module-bluez
 libasound2
-libaspell15
 libatk-1.0-0
 libatk-1.0-locale-cs
 libatk-1.0-locale-en-gb
@@ -281,15 +275,11 @@ libgstriff-0.10-0
 libgsttag-0.10-0
 libgstvideo-0.10-0
 libgtk-2.0
-libharfbuzz-icu0
 libharfbuzz0
 libice6
-libicudata56
-libicui18n56
-libicuuc56
 libidn-locale-cs
 libidn11
-libjpeg8
+libjpeg62
 libjson-c2
 libkmod2
 liblinebreak1
@@ -316,6 +306,7 @@ libpanelw5
 libpcap1
 libpci3
 libpciaccess0
+libpcre1
 libperl5
 libphone-ui-config
 libphone-ui-shr
@@ -533,7 +524,6 @@ python-ecore
 python-edbus
 python-edje
 python-elementary
-python-elementtree
 python-evas
 python-fcntl
 python-gst
@@ -578,6 +568,7 @@ python-xml
 python-zlib
 rfkill
 rgb
+rng-tools
 rpcbind
 rsync
 run-postinsts
@@ -611,6 +602,7 @@ sysstat
 sysstat-locale-cs
 systemd
 systemd-compat-units
+systemd-extra-utils
 systemd-machine-units
 systemd-serialgetty
 systemd-vconsole-setup
@@ -654,7 +646,6 @@ vim-tutor
 vim-vimrc
 volatile-binds
 watchdog
-webkit-efl
 wmiconfig
 xauth
 xcursor-transparent-theme
