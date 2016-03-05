@@ -1,11 +1,11 @@
 PV = 1.0
 PR = r22
-PKGR = r22.16
+PKGR = r22.17
 RPROVIDES = task-jama-shr
 RDEPENDS = estardict fso-sounds fsoraw linux-firmware-sd8686 ntpdate packagegroup-jama terminology usb-modeswitch-data
 RRECOMMENDS = 
 RREPLACES = task-jama-shr
 RCONFLICTS = task-jama-shr
 PKGSIZE = 0
-FILES = /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-jama-shr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-jama-shr /usr/lib/packagegroup-jama-shr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-jama-shr /usr/lib/packagegroup-jama-shr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILELIST = 

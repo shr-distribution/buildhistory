@@ -1,0 +1,11 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/sbin
+drwxr-xr-x root       root              200 ./usr/sbin/.debug
+-rwxr-xr-x root       root           478972 ./usr/sbin/.debug/ntp-keygen
+-rwxr-xr-x root       root          1932184 ./usr/sbin/.debug/ntpd
+-rwxr-xr-x root       root           400096 ./usr/sbin/.debug/ntpdate
+-rwxr-xr-x root       root           706792 ./usr/sbin/.debug/ntpdc
+-rwxr-xr-x root       root           743736 ./usr/sbin/.debug/ntpq
+-rwxr-xr-x root       root           271476 ./usr/sbin/.debug/ntptime
+-rwxr-xr-x root       root           672120 ./usr/sbin/.debug/sntp
+-rwxr-xr-x root       root            11656 ./usr/sbin/.debug/tickadj

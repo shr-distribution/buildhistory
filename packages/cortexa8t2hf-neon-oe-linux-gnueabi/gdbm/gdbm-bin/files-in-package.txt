@@ -1,0 +1,5 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              100 ./usr/bin
+-rwxr-xr-x root       root            10632 ./usr/bin/gdbm_dump
+-rwxr-xr-x root       root            12724 ./usr/bin/gdbm_load
+-rwxr-xr-x root       root            52448 ./usr/bin/gdbmtool

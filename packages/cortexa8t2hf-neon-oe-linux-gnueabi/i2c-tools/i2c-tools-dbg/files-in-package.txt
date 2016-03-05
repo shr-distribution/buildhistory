@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/sbin
+drwxr-xr-x root       root              180 ./usr/sbin/.debug
+-rwxr-xr-x root       root            27496 ./usr/sbin/.debug/eeprog
+-rwxr-xr-x root       root            16656 ./usr/sbin/.debug/eeprom
+-rwxr-xr-x root       root            23736 ./usr/sbin/.debug/eepromer
+-rwxr-xr-x root       root            28696 ./usr/sbin/.debug/i2cdetect
+-rwxr-xr-x root       root            36204 ./usr/sbin/.debug/i2cdump
+-rwxr-xr-x root       root            30400 ./usr/sbin/.debug/i2cget
+-rwxr-xr-x root       root            36652 ./usr/sbin/.debug/i2cset

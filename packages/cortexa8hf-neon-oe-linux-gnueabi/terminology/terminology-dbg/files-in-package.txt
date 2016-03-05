@@ -1,0 +1,10 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/bin
+drwxr-xr-x root       root              180 ./usr/bin/.debug
+-rwxr-xr-x root       root          1009752 ./usr/bin/.debug/terminology
+-rwxr-xr-x root       root            11216 ./usr/bin/.debug/tyalpha
+-rwxr-xr-x root       root            12096 ./usr/bin/.debug/tybg
+-rwxr-xr-x root       root            28808 ./usr/bin/.debug/tycat
+-rwxr-xr-x root       root            32756 ./usr/bin/.debug/tyls
+-rwxr-xr-x root       root            10972 ./usr/bin/.debug/typop
+-rwxr-xr-x root       root            10960 ./usr/bin/.debug/tyq

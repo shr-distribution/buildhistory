@@ -1,2 +1,2 @@
 drwxr-xr-x root       root               60 ./boot
--rw-r--r-- root       root          4463064 ./boot/uImage-4.4.0
+-rw-r--r-- root       root          4463056 ./boot/uImage-4.4.0

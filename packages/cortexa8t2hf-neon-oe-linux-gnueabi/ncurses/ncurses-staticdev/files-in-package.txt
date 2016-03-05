@@ -1,0 +1,16 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              320 ./usr/lib
+lrwxrwxrwx root       root               12 ./usr/lib/libcurses.a -> libncurses.a
+-rw-r--r-- root       root           514030 ./usr/lib/libform.a
+-rw-r--r-- root       root           577138 ./usr/lib/libformw.a
+-rw-r--r-- root       root           296798 ./usr/lib/libmenu.a
+-rw-r--r-- root       root           303078 ./usr/lib/libmenuw.a
+-rw-r--r-- root       root           445440 ./usr/lib/libncurses++.a
+-rw-r--r-- root       root           446940 ./usr/lib/libncurses++w.a
+-rw-r--r-- root       root          1290738 ./usr/lib/libncurses.a
+-rw-r--r-- root       root          1603760 ./usr/lib/libncursesw.a
+-rw-r--r-- root       root           114666 ./usr/lib/libpanel.a
+-rw-r--r-- root       root           117234 ./usr/lib/libpanelw.a
+-rw-r--r-- root       root           193226 ./usr/lib/libtic.a
+-rw-r--r-- root       root           193454 ./usr/lib/libticw.a
+-rw-r--r-- root       root           742388 ./usr/lib/libtinfo.a

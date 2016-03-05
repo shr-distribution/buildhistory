@@ -1,0 +1,9 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              180 ./usr/lib
+-rw-r--r-- root       root           255196 ./usr/lib/libebluez.a
+-rw-r--r-- root       root           357430 ./usr/lib/libeconnman0_7x.a
+-rw-r--r-- root       root           220952 ./usr/lib/libedbus.a
+-rw-r--r-- root       root            71830 ./usr/lib/libehal.a
+-rw-r--r-- root       root           139218 ./usr/lib/libenotify.a
+-rw-r--r-- root       root           232148 ./usr/lib/libeofono.a
+-rw-r--r-- root       root            91376 ./usr/lib/libeukit.a

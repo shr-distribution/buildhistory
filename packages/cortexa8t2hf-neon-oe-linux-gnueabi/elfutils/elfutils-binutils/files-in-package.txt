@@ -1,0 +1,8 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              160 ./usr/bin
+-rwxr-xr-x root       root            13532 ./usr/bin/eu-addr2line
+-rwxr-xr-x root       root           127696 ./usr/bin/eu-ld
+-rwxr-xr-x root       root            29612 ./usr/bin/eu-nm
+-rwxr-xr-x root       root           132600 ./usr/bin/eu-readelf
+-rwxr-xr-x root       root            11168 ./usr/bin/eu-size
+-rwxr-xr-x root       root            33524 ./usr/bin/eu-strip

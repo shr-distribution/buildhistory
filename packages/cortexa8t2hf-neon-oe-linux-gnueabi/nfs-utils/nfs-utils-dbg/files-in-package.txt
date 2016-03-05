@@ -1,0 +1,14 @@
+drwxr-xr-x root       root               60 ./sbin
+drwxr-xr-x root       root               60 ./sbin/.debug
+-rwxr-xr-x root       root           313660 ./sbin/.debug/mount.nfs
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               60 ./usr/sbin
+drwxr-xr-x root       root              200 ./usr/sbin/.debug
+-rwxr-xr-x root       root           177744 ./usr/sbin/.debug/exportfs
+-rwxr-xr-x root       root            40092 ./usr/sbin/.debug/nfsstat
+-rwxr-xr-x root       root            54528 ./usr/sbin/.debug/rpc.idmapd
+-rwxr-xr-x root       root           342808 ./usr/sbin/.debug/rpc.mountd
+-rwxr-xr-x root       root            51648 ./usr/sbin/.debug/rpc.nfsd
+-rwxr-xr-x root       root           252616 ./usr/sbin/.debug/rpc.statd
+-rwxr-xr-x root       root            50940 ./usr/sbin/.debug/showmount
+-rwxr-xr-x root       root           124864 ./usr/sbin/.debug/sm-notify

@@ -1,0 +1,16 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root              320 ./usr/lib
+-rw-r--r-- root       root          3464092 ./usr/lib/libsvn_client-1.a
+-rw-r--r-- root       root           388514 ./usr/lib/libsvn_delta-1.a
+-rw-r--r-- root       root           485978 ./usr/lib/libsvn_diff-1.a
+-rw-r--r-- root       root           230432 ./usr/lib/libsvn_fs-1.a
+-rw-r--r-- root       root          2267462 ./usr/lib/libsvn_fs_fs-1.a
+-rw-r--r-- root       root            45120 ./usr/lib/libsvn_fs_util-1.a
+-rw-r--r-- root       root          2322984 ./usr/lib/libsvn_fs_x-1.a
+-rw-r--r-- root       root           301690 ./usr/lib/libsvn_ra-1.a
+-rw-r--r-- root       root           164974 ./usr/lib/libsvn_ra_local-1.a
+-rw-r--r-- root       root          1594798 ./usr/lib/libsvn_ra_serf-1.a
+-rw-r--r-- root       root           734374 ./usr/lib/libsvn_ra_svn-1.a
+-rw-r--r-- root       root          1209066 ./usr/lib/libsvn_repos-1.a
+-rw-r--r-- root       root          3578944 ./usr/lib/libsvn_subr-1.a
+-rw-r--r-- root       root          3978766 ./usr/lib/libsvn_wc-1.a

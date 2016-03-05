@@ -1,0 +1,9 @@
+PV = 0.4.6
+PR = r0
+PKGR = r0.0
+RPROVIDES = 
+RDEPENDS = consolekit (>= 0.4.6) dbus-lib (>= 1.10.6) glibc (>= 2.23) libcap (>= 2.24) liblzma (>= 5.2.2) libpam (>= 1.2.1) libsystemd (>= 229+git0+714c62b463)
+RRECOMMENDS = 
+PKGSIZE = 7108
+FILES = /lib/security/*.so
+FILELIST = /lib/security/pam_ck_connector.so
