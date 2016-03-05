@@ -44,6 +44,4 @@ messagebus:x:998:
 lock:x:997:
 systemd-journal:x:996:
 systemd-timesync:x:995:
-rpc:x:994:
-rpcuser:x:993:
 pulse:x:1006:pulse
