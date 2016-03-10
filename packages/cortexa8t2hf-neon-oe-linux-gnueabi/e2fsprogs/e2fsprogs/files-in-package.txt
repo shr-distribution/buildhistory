@@ -1,10 +1,10 @@
 drwxr-xr-x root       root               60 ./bin
 -rwxr-xr-x root       root             6964 ./bin/chattr.e2fsprogs
 drwxr-xr-x root       root              260 ./sbin
--rwxr-xr-x root       root           121980 ./sbin/debugfs
--rwxr-xr-x root       root            18740 ./sbin/dumpe2fs
+-rwxr-xr-x root       root           121996 ./sbin/debugfs
+-rwxr-xr-x root       root            18884 ./sbin/dumpe2fs
 -rwxr-xr-x root       root             8384 ./sbin/e2freefrag
--rwxr-xr-x root       root            26948 ./sbin/e2image
+-rwxr-xr-x root       root            26968 ./sbin/e2image
 -rwxr-xr-x root       root            11328 ./sbin/e2undo
 -rwxr-xr-x root       root            18552 ./sbin/e4crypt
 -rwxr-xr-x root       root            18716 ./sbin/e4defrag
