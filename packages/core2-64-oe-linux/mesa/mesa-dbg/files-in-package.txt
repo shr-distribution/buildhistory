@@ -1,12 +1,13 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
-drwxr-xr-x root       root              160 ./usr/lib/.debug
--rwxr-xr-x root       root           570400 ./usr/lib/.debug/libEGL.so.1.0.0
+drwxr-xr-x root       root              180 ./usr/lib/.debug
+-rwxr-xr-x root       root           672048 ./usr/lib/.debug/libEGL.so.1.0.0
 -rwxr-xr-x root       root          2469368 ./usr/lib/.debug/libGL.so.1.2.0
 -rwxr-xr-x root       root            56800 ./usr/lib/.debug/libGLESv1_CM.so.1.1.0
 -rwxr-xr-x root       root           108920 ./usr/lib/.debug/libGLESv2.so.2.0.0
--rwxr-xr-x root       root           145984 ./usr/lib/.debug/libgbm.so.1.0.0
+-rwxr-xr-x root       root           165608 ./usr/lib/.debug/libgbm.so.1.0.0
 -rwxr-xr-x root       root           544888 ./usr/lib/.debug/libglapi.so.0.0.0
+-rwxr-xr-x root       root            10128 ./usr/lib/.debug/libwayland-egl.so.1.0.0
 drwxr-xr-x root       root               60 ./usr/lib/dri
 drwxr-xr-x root       root              160 ./usr/lib/dri/.debug
 -rwxr-xr-x root       root         45066528 ./usr/lib/dri/.debug/i915_dri.so
