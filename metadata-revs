@@ -593,5 +593,5 @@ wp	git@github.com:webOS-ports/oe-core.git (push)
 	layer:  meta
 	branch: jansa/master
 	remote: contrib/jansa/master
-	HEAD:   c278358a96204ec383bda66ce5e06bbc985e2127
+	HEAD:   6d1cc1890c636704073522cc2d5dd4aba1483e56
 
