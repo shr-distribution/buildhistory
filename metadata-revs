@@ -20,7 +20,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-shr-distro
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -37,7 +37,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-shr
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -54,7 +54,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-fso
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -71,7 +71,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-android
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -102,7 +102,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-oe
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -133,7 +133,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-efl
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -164,7 +164,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-gnome
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -195,7 +195,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-gpe
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -226,7 +226,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-ruby
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -257,7 +257,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-xfce
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -288,7 +288,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-python
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -319,7 +319,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-multimedia
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -350,7 +350,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-networking
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -381,7 +381,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-initramfs
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -412,7 +412,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-webserver
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -443,7 +443,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-systemd
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   5983b59adad1ccbabe93ab32e94836de07a63553
+	HEAD:   8d682b0c16c6c7f5e8392dac6e513ce02fd24d92
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -460,7 +460,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-osmocombb
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -477,7 +477,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-nokia
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -494,7 +494,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-htc
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -511,7 +511,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-palm
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -528,7 +528,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-openmoko
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -545,7 +545,7 @@ wp	git@github.com:webOS-ports/meta-smartphone.git (push)
 	layer:  ../meta-smartphone/meta-samsung
 	branch: jansa/master
 	remote: shr/master
-	HEAD:   0663d41c1cd78c8035d550f30302ee447c549136
+	HEAD:   1b1edc6c28fd5f8df4090903eec0bddc7f97e142
 
 github	git@github.com:shr-distribution/meta-browser.git (fetch)
 github	git@github.com:shr-distribution/meta-browser.git (push)
