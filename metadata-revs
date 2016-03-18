@@ -102,7 +102,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-oe
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -133,7 +133,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-efl
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -164,7 +164,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-gnome
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -195,7 +195,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-gpe
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -226,7 +226,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-ruby
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -257,7 +257,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-xfce
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -288,7 +288,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-python
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -319,7 +319,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-multimedia
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -350,7 +350,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-networking
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -381,7 +381,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-initramfs
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -412,7 +412,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-webserver
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 akuster	https://github.com/akuster/meta-openembedded.git (fetch)
 akuster	https://github.com/akuster/meta-openembedded.git (push)
@@ -443,7 +443,7 @@ shr	git+ssh://git@git.shr-project.org/meta-oe.git (push)
 	layer:  ../meta-openembedded/meta-systemd
 	branch: jansa/master
 	remote: (HEAD does not point to a remote branch)
-	HEAD:   b4ca2d16b3b85f84d5ac6426b996468552c66b35
+	HEAD:   0aa57417966e18cfceec8cf9170a8dbcd238f96a
 
 github	git@github.com:shr-distribution/meta-smartphone.git (fetch)
 github	git@github.com:shr-distribution/meta-smartphone.git (push)
@@ -593,5 +593,5 @@ wp	git@github.com:webOS-ports/oe-core.git (push)
 	layer:  meta
 	branch: jansa/master
 	remote: contrib/jansa/master
-	HEAD:   6d1cc1890c636704073522cc2d5dd4aba1483e56
+	HEAD:   64855d6f15db2072fd2b38d4240831f99aa22b5c
 
