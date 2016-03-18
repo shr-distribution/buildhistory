@@ -1,0 +1,4 @@
+PV = 0.1.0+gitrAUTOINC+db81eaaed9
+PR = r2
+DEPENDS = autoconf-native automake-native glib-2.0 gnu-config-native initscripts libsamsung-ipc libtool-cross libtool-native pkgconfig-native systemd-systemctl-native update-rc.d update-rc.d-native virtual/libc virtual/x86_64-oe-linux-compilerlibs virtual/x86_64-oe-linux-gcc
+PACKAGES = samsung-rfs-mgr-dbg samsung-rfs-mgr-staticdev samsung-rfs-mgr-dev samsung-rfs-mgr-doc samsung-rfs-mgr-locale samsung-rfs-mgr

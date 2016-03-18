@@ -1,0 +1,12 @@
+PV = 0.1.0+gitrAUTOINC+db81eaaed9
+PR = r2
+PKGV = 0.1.0+gitr0+db81eaaed9
+PKGR = r2.0
+RPROVIDES = samsung-rfs-mgr-systemd
+RDEPENDS = glib-2.0 (>= 2.46.2) glibc (>= 2.23) libsamsung-ipc (>= 0.2.0)
+RRECOMMENDS = 
+RREPLACES = samsung-rfs-mgr-systemd
+RCONFLICTS = samsung-rfs-mgr-systemd
+PKGSIZE = 12045
+FILES = /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/samsung-rfs-mgr /usr/lib/samsung-rfs-mgr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/systemd/system/samsung-rfs-mgr.service
+FILELIST = /lib/systemd/system/samsung-rfs-mgr.service /usr/sbin/samsung-rfs-mgr

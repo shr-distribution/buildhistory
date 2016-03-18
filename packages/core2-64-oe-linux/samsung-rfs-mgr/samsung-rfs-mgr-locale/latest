@@ -1,6 +1,7 @@
-PV = 1.5.2
-PR = r0
-PKGR = r0.2
+PV = 0.1.0+gitrAUTOINC+db81eaaed9
+PR = r2
+PKGV = 0.1.0+gitr0+db81eaaed9
+PKGR = r2.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
