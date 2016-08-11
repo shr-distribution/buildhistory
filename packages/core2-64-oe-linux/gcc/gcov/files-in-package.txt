@@ -1,0 +1,4 @@
+drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr/bin
+-rwxr-xr-x root       root           511512 ./usr/bin/x86_64-oe-linux-gcov
+-rwxr-xr-x root       root           470544 ./usr/bin/x86_64-oe-linux-gcov-tool
