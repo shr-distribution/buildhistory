@@ -1,9 +1,9 @@
 PV = 1.1
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
-RDEPENDS = glibc (>= 2.23) tslib (>= 1.1)
+RDEPENDS = glibc (>= 2.24) tslib (>= 1.1)
 RRECOMMENDS = 
-PKGSIZE = 21456
+PKGSIZE = 25000
 FILES = /usr/bin/ts_calibrate
 FILELIST = /usr/bin/ts_calibrate

@@ -1,10 +1,10 @@
-PV = 0.19.2
-PR = r1
-PKGR = r1.17
+PV = 0.19.7
+PR = r0
 PKG = libfribidi-staticdev
-RPROVIDES = fribidi-staticdev (=0.19.2)
-RDEPENDS = fribidi-dev (= 0.19.2-r1.17)
+PKGR = r0.0
+RPROVIDES = fribidi-staticdev (=0.19.7)
+RDEPENDS = fribidi-dev (= 0.19.7-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 317882
+PKGSIZE = 0
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/fribidi/*.a
-FILELIST = /usr/lib/libfribidi.a
+FILELIST = 

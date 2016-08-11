@@ -1,10 +1,10 @@
 PE = 1
 PV = 1.7.6
 PR = r0
-PKGR = r0.2
+PKGR = r0.3
 RPROVIDES = 
-RDEPENDS = libxi-dev (= 1:1.7.6-r0.2)
+RDEPENDS = libxi-dev (= 1:1.7.6-r0.3)
 RRECOMMENDS = 
-PKGSIZE = 3977678
+PKGSIZE = 2880182
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libxi/*.a
 FILELIST = /usr/lib/libXi.a

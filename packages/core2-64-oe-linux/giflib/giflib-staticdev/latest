@@ -1,10 +1,10 @@
-PV = 4.1.6
-PR = r3
-PKGR = r3.17
+PV = 5.1.4
+PR = r0
 PKG = libgif-staticdev
-RPROVIDES = giflib-staticdev (=4.1.6)
-RDEPENDS = giflib-dev (= 4.1.6-r3.17)
+PKGR = r0.0
+RPROVIDES = giflib-staticdev (=5.1.4)
+RDEPENDS = giflib-dev (= 5.1.4-r0.0)
 RRECOMMENDS = 
-PKGSIZE = 190866
+PKGSIZE = 138576
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/giflib/*.a
 FILELIST = /usr/lib/libgif.a

@@ -1,10 +1,10 @@
-PV = 4.4.3+gitAUTOINC+ce5b35bc76_3d2455f9da
+PV = 4.4.15+gitAUTOINC+86bf91f444_ddab242999
 PR = r0
-PKGV = 4.4.3+git1+ce5b35bc76_3d2455f9da
+PKGV = 4.4.15+git0+86bf91f444_ddab242999
 PKGR = r0.1
 RPROVIDES = 
-RDEPENDS = kernel-4.4.3-yocto-standard kernel-module-llc
+RDEPENDS = kernel-4.4.15-yocto-standard kernel-module-llc
 RRECOMMENDS = 
-PKGSIZE = 7384
-FILES = /lib/modules/4.4.3-yocto-standard/kernel/net/802/psnap.ko /etc/modules-load.d/psnap.conf /etc/modprobe.d/psnap.conf
-FILELIST = /lib/modules/4.4.3-yocto-standard/kernel/net/802/psnap.ko
+PKGSIZE = 7288
+FILES = /lib/modules/4.4.15-yocto-standard/kernel/net/802/psnap.ko /etc/modules-load.d/psnap.conf /etc/modprobe.d/psnap.conf
+FILELIST = /lib/modules/4.4.15-yocto-standard/kernel/net/802/psnap.ko

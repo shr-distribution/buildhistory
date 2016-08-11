@@ -1,25 +1,27 @@
 drwxr-xr-x root       root              100 ./usr
-drwxr-xr-x root       root              100 ./usr/bin
--rwxr-xr-x root       root            38528 ./usr/bin/gst-inspect-1.0
--rwxr-xr-x root       root            29928 ./usr/bin/gst-launch-1.0
--rwxr-xr-x root       root            11200 ./usr/bin/gst-typefind-1.0
+drwxr-xr-x root       root              120 ./usr/bin
+-rwxr-xr-x root       root            40160 ./usr/bin/gst-inspect-1.0
+-rwxr-xr-x root       root            31752 ./usr/bin/gst-launch-1.0
+-rwxr-xr-x root       root            23056 ./usr/bin/gst-stats-1.0
+-rwxr-xr-x root       root            14736 ./usr/bin/gst-typefind-1.0
 drwxr-xr-x root       root              240 ./usr/lib
-drwxr-xr-x root       root              120 ./usr/lib/girepository-1.0
--rw-r--r-- root       root           210532 ./usr/lib/girepository-1.0/Gst-1.0.typelib
--rw-r--r-- root       root            43680 ./usr/lib/girepository-1.0/GstBase-1.0.typelib
--rw-r--r-- root       root             6420 ./usr/lib/girepository-1.0/GstController-1.0.typelib
--rw-r--r-- root       root             6052 ./usr/lib/girepository-1.0/GstNet-1.0.typelib
-drwxr-xr-x root       root               60 ./usr/lib/gstreamer-1.0
--rwxr-xr-x root       root           347312 ./usr/lib/gstreamer-1.0/libgstcoreelements.so
-lrwxrwxrwx root       root               25 ./usr/lib/libgstbase-1.0.so.0 -> libgstbase-1.0.so.0.603.0
--rwxr-xr-x root       root           403688 ./usr/lib/libgstbase-1.0.so.0.603.0
-lrwxrwxrwx root       root               31 ./usr/lib/libgstcontroller-1.0.so.0 -> libgstcontroller-1.0.so.0.603.0
--rwxr-xr-x root       root            61168 ./usr/lib/libgstcontroller-1.0.so.0.603.0
-lrwxrwxrwx root       root               24 ./usr/lib/libgstnet-1.0.so.0 -> libgstnet-1.0.so.0.603.0
--rwxr-xr-x root       root            86040 ./usr/lib/libgstnet-1.0.so.0.603.0
-lrwxrwxrwx root       root               27 ./usr/lib/libgstreamer-1.0.so.0 -> libgstreamer-1.0.so.0.603.0
--rwxr-xr-x root       root          1169040 ./usr/lib/libgstreamer-1.0.so.0.603.0
 drwxr-xr-x root       root               60 ./usr/libexec
 drwxr-xr-x root       root               80 ./usr/libexec/gstreamer-1.0
--rwxr-xr-x root       root             5504 ./usr/libexec/gstreamer-1.0/gst-plugin-scanner
--rwxr-xr-x root       root            15576 ./usr/libexec/gstreamer-1.0/gst-ptp-helper
+-rwxr-xr-x root       root             6232 ./usr/libexec/gstreamer-1.0/gst-plugin-scanner
+-rwxr-xr-x root       root            14960 ./usr/libexec/gstreamer-1.0/gst-ptp-helper
+drwxr-xr-x root       root              120 ./usr/lib/girepository-1.0
+-rw-r--r-- root       root           214248 ./usr/lib/girepository-1.0/Gst-1.0.typelib
+-rw-r--r-- root       root            43712 ./usr/lib/girepository-1.0/GstBase-1.0.typelib
+-rw-r--r-- root       root             6500 ./usr/lib/girepository-1.0/GstController-1.0.typelib
+-rw-r--r-- root       root             6272 ./usr/lib/girepository-1.0/GstNet-1.0.typelib
+drwxr-xr-x root       root               80 ./usr/lib/gstreamer-1.0
+-rwxr-xr-x root       root           364112 ./usr/lib/gstreamer-1.0/libgstcoreelements.so
+-rwxr-xr-x root       root            64208 ./usr/lib/gstreamer-1.0/libgstcoretracers.so
+-rwxr-xr-x root       root           410472 ./usr/lib/libgstbase-1.0.so.0.802.0
+lrwxrwxrwx root       root               25 ./usr/lib/libgstbase-1.0.so.0 -> libgstbase-1.0.so.0.802.0
+-rwxr-xr-x root       root            64200 ./usr/lib/libgstcontroller-1.0.so.0.802.0
+lrwxrwxrwx root       root               31 ./usr/lib/libgstcontroller-1.0.so.0 -> libgstcontroller-1.0.so.0.802.0
+-rwxr-xr-x root       root            93672 ./usr/lib/libgstnet-1.0.so.0.802.0
+lrwxrwxrwx root       root               24 ./usr/lib/libgstnet-1.0.so.0 -> libgstnet-1.0.so.0.802.0
+-rwxr-xr-x root       root          1206096 ./usr/lib/libgstreamer-1.0.so.0.802.0
+lrwxrwxrwx root       root               27 ./usr/lib/libgstreamer-1.0.so.0 -> libgstreamer-1.0.so.0.802.0

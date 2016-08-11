@@ -1,10 +1,10 @@
 PV = 4.0.6
 PR = r0
-PKGR = r0.2
 PKG = libtiffxx5
+PKGR = r0.3
 RPROVIDES = tiffxx (=4.0.6)
-RDEPENDS = glibc (>= 2.23) libgcc (>= 5.3.0) libjpeg-turbo (>= 8d+1.4.2) liblzma (>= 5.2.2) libstdc++ (>= 5.3.0) tiff (>= 4.0.6) zlib (>= 1.2.8)
+RDEPENDS = glibc (>= 2.24) libgcc (>= 6.1.1) libjpeg-turbo (>= 1.5.0) liblzma (>= 5.2.2) libstdc++ (>= 6.1.1) tiff (>= 4.0.6) zlib (>= 1.2.8)
 RRECOMMENDS = 
-PKGSIZE = 8786
+PKGSIZE = 10434
 FILES = /usr/lib/libtiffxx.so.*
 FILELIST = /usr/lib/libtiffxx.so.5 /usr/lib/libtiffxx.so.5.2.4

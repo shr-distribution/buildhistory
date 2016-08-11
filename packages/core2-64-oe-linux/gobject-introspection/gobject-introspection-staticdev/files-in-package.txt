@@ -2,5 +2,5 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gobject-introspection
 drwxr-xr-x root       root               60 ./usr/lib/gobject-introspection/giscanner
--rw-r--r-- root       root           380110 ./usr/lib/gobject-introspection/giscanner/_giscanner.a
--rw-r--r-- root       root          1906310 ./usr/lib/libgirepository-1.0.a
+-rw-r--r-- root       root           334306 ./usr/lib/gobject-introspection/giscanner/_giscanner.a
+-rw-r--r-- root       root          1585550 ./usr/lib/libgirepository-1.0.a

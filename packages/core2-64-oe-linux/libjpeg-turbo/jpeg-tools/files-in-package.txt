@@ -1,8 +1,8 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              160 ./usr/bin
--rwxr-xr-x root       root            29928 ./usr/bin/cjpeg
--rwxr-xr-x root       root            30280 ./usr/bin/djpeg
--rwxr-xr-x root       root            28520 ./usr/bin/jpegtran
--rwxr-xr-x root       root             9320 ./usr/bin/rdjpgcom
--rwxr-xr-x root       root            48784 ./usr/bin/tjbench
--rwxr-xr-x root       root             9536 ./usr/bin/wrjpgcom
+-rwxr-xr-x root       root            31008 ./usr/bin/cjpeg
+-rwxr-xr-x root       root            35136 ./usr/bin/djpeg
+-rwxr-xr-x root       root            31048 ./usr/bin/jpegtran
+-rwxr-xr-x root       root            10384 ./usr/bin/rdjpgcom
+-rwxr-xr-x root       root            52296 ./usr/bin/tjbench
+-rwxr-xr-x root       root            10384 ./usr/bin/wrjpgcom

@@ -1,12 +1,12 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              140 ./usr/bin
--rwxr-xr-x root       root             9952 ./usr/bin/nettle-hash
--rwxr-xr-x root       root             5496 ./usr/bin/nettle-lfib-stream
--rwxr-xr-x root       root             9408 ./usr/bin/nettle-pbkdf2
--rwxr-xr-x root       root            14112 ./usr/bin/pkcs1-conv
--rwxr-xr-x root       root            20144 ./usr/bin/sexp-conv
+-rwxr-xr-x root       root            10448 ./usr/bin/nettle-hash
+-rwxr-xr-x root       root             6248 ./usr/bin/nettle-lfib-stream
+-rwxr-xr-x root       root            10464 ./usr/bin/nettle-pbkdf2
+-rwxr-xr-x root       root            14720 ./usr/bin/pkcs1-conv
+-rwxr-xr-x root       root            22752 ./usr/bin/sexp-conv
 drwxr-xr-x root       root              120 ./usr/lib
+-rw-r--r-- root       root           212656 ./usr/lib/libhogweed.so.4.2
 lrwxrwxrwx root       root               17 ./usr/lib/libhogweed.so.4 -> libhogweed.so.4.2
--rw-r--r-- root       root           211136 ./usr/lib/libhogweed.so.4.2
+-rw-r--r-- root       root           224472 ./usr/lib/libnettle.so.6.2
 lrwxrwxrwx root       root               16 ./usr/lib/libnettle.so.6 -> libnettle.so.6.2
--rw-r--r-- root       root           221544 ./usr/lib/libnettle.so.6.2
