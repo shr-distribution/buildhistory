@@ -1,4 +1,10 @@
-drwxr-xr-x root       root               60 ./usr
+drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/bin
 drwxr-xr-x root       root               60 ./usr/bin/.debug
--rwxr-xr-x root       root            18688 ./usr/bin/.debug/opkg-compare-versions
+-rwxr-xr-x root       root            19424 ./usr/bin/.debug/opkg-compare-versions
+drwxr-xr-x root       root               60 ./usr/src
+drwxr-xr-x root       root               60 ./usr/src/debug
+drwxr-xr-x root       root               60 ./usr/src/debug/opkg-utils
+drwxr-xr-x root       root               60 ./usr/src/debug/opkg-utils/0.3.2+gitAUTOINC+3ffece9bf1-r0
+drwxr-xr-x root       root               60 ./usr/src/debug/opkg-utils/0.3.2+gitAUTOINC+3ffece9bf1-r0/git
+-rw-r--r-- 1026       1026             4040 ./usr/src/debug/opkg-utils/0.3.2+gitAUTOINC+3ffece9bf1-r0/git/opkg-compare-versions.c

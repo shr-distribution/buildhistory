@@ -1,7 +1,2 @@
 drwxr-xr-x root       root               60 ./lib
--rw-r--r-- root       root           139324 ./lib/libcrack.a
-drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root               60 ./usr/lib
-drwxr-xr-x root       root               60 ./usr/lib/python2.7
-drwxr-xr-x root       root               60 ./usr/lib/python2.7/site-packages
--rw-r--r-- root       root            29342 ./usr/lib/python2.7/site-packages/_cracklib.a
+-rw-r--r-- root       root           111548 ./lib/libcrack.a

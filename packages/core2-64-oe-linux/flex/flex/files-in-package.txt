@@ -1,9 +1,9 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               80 ./usr/bin
--rwxr-xr-x root       root           315464 ./usr/bin/flex
+-rwxr-xr-x root       root           318848 ./usr/bin/flex
 lrwxrwxrwx root       root                4 ./usr/bin/flex++ -> flex
 drwxr-xr-x root       root              120 ./usr/lib
-lrwxrwxrwx root       root               14 ./usr/lib/libfl.so.2 -> libfl.so.2.0.0
--rwxr-xr-x root       root             4480 ./usr/lib/libfl.so.2.0.0
+-rwxr-xr-x root       root             6048 ./usr/lib/libfl_pic.so.2.0.0
 lrwxrwxrwx root       root               18 ./usr/lib/libfl_pic.so.2 -> libfl_pic.so.2.0.0
--rwxr-xr-x root       root             4488 ./usr/lib/libfl_pic.so.2.0.0
+-rwxr-xr-x root       root             6040 ./usr/lib/libfl.so.2.0.0
+lrwxrwxrwx root       root               14 ./usr/lib/libfl.so.2 -> libfl.so.2.0.0

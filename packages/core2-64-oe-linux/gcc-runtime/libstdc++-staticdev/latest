@@ -1,9 +1,9 @@
-PV = 5.3.0
+PV = 6.1.1
 PR = r0
-PKGR = r0.3
+PKGR = r0.0
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 
-PKGSIZE = 41209972
+PKGSIZE = 27935596
 FILES = /usr/lib/libstdc++*.a /usr/lib/libsupc++.a
 FILELIST = /usr/lib/libstdc++.a /usr/lib/libstdc++fs.a /usr/lib/libsupc++.a

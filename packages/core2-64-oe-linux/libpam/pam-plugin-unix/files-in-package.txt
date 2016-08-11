@@ -1,7 +1,7 @@
 drwxr-xr-x root       root               60 ./lib
 drwxr-xr-x root       root               60 ./lib/security
--rwxr-xr-x root       root            49104 ./lib/security/pam_unix.so
+-rwxr-xr-x root       root            47792 ./lib/security/pam_unix.so
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/sbin
--rwsr-xr-x root       root            29240 ./usr/sbin/unix_chkpwd
--rwxr-xr-x root       root            29032 ./usr/sbin/unix_update
+-rwsr-xr-x root       root            31328 ./usr/sbin/unix_chkpwd
+-rwxr-xr-x root       root            31304 ./usr/sbin/unix_update
