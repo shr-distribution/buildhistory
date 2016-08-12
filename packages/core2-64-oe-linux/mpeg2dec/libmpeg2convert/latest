@@ -1,10 +1,10 @@
 PV = 0.4.1
 PR = r2
-PKGR = r2.16
 PKG = libmpeg2convert0
+PKGR = r2.17
 RPROVIDES = libmpeg2convert (=0.4.1)
-RDEPENDS = glibc (>= 2.23)
+RDEPENDS = glibc (>= 2.24)
 RRECOMMENDS = 
-PKGSIZE = 48000
+PKGSIZE = 43192
 FILES = /usr/lib/libmpeg2convert.so.*
 FILELIST = /usr/lib/libmpeg2convert.so.0 /usr/lib/libmpeg2convert.so.0.0.0

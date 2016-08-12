@@ -1,4 +1,12 @@
-drwxr-xr-x root       root               60 ./usr
-drwxr-xr-x root       root               80 ./usr/lib
+drwxr-xr-x root       root               80 ./usr
+drwxr-xr-x root       root              100 ./usr/lib
+drwxr-xr-x root       root               60 ./usr/lib/girepository-1.0
+-rw-r--r-- root       root            76700 ./usr/lib/girepository-1.0/Gee-0.8.typelib
+-rwxr-xr-x root       root           824424 ./usr/lib/libgee-0.8.so.2.5.1
 lrwxrwxrwx root       root               19 ./usr/lib/libgee-0.8.so.2 -> libgee-0.8.so.2.5.1
--rwxr-xr-x root       root           826432 ./usr/lib/libgee-0.8.so.2.5.1
+drwxr-xr-x root       root               80 ./usr/share
+drwxr-xr-x root       root               60 ./usr/share/gir-1.0
+-rw-r--r-- root       root           420777 ./usr/share/gir-1.0/Gee-0.8.gir
+drwxr-xr-x root       root               60 ./usr/share/vala
+drwxr-xr-x root       root               60 ./usr/share/vala/vapi
+-rw-r--r-- root       root            36843 ./usr/share/vala/vapi/gee-0.8.vapi

@@ -2,5 +2,5 @@ drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/gtk-2.0
 drwxr-xr-x root       root               80 ./usr/lib/gtk-2.0/modules
--rwxr-xr-x root       root            54112 ./usr/lib/gtk-2.0/modules/libferret.so
--rwxr-xr-x root       root           327440 ./usr/lib/gtk-2.0/modules/libgail.so
+-rwxr-xr-x root       root            57024 ./usr/lib/gtk-2.0/modules/libferret.so
+-rwxr-xr-x root       root           331536 ./usr/lib/gtk-2.0/modules/libgail.so

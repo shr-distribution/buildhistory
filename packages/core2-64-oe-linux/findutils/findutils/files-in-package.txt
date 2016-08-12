@@ -1,11 +1,11 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root              120 ./usr/bin
--rwxr-xr-x root       root           279760 ./usr/bin/find.findutils
--rwxr-xr-x root       root           163568 ./usr/bin/locate
+-rwxr-xr-x root       root           275144 ./usr/bin/find.findutils
+-rwxr-xr-x root       root           163048 ./usr/bin/locate
 -rwxr-xr-x root       root            10453 ./usr/bin/updatedb
--rwxr-xr-x root       root            71056 ./usr/bin/xargs.findutils
+-rwxr-xr-x root       root            72520 ./usr/bin/xargs.findutils
 drwxr-xr-x root       root              100 ./usr/libexec
--rwxr-xr-x root       root            20984 ./usr/libexec/bigram
--rwxr-xr-x root       root            27800 ./usr/libexec/code
--rwxr-xr-x root       root            32168 ./usr/libexec/frcode
+-rwxr-xr-x root       root            23000 ./usr/libexec/bigram
+-rwxr-xr-x root       root            31288 ./usr/libexec/code
+-rwxr-xr-x root       root            35360 ./usr/libexec/frcode
 drwxr-xr-x root       root               40 ./var

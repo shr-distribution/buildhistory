@@ -1,10 +1,10 @@
 PV = 0.1.6
 PR = r0
-PKGR = r0.6
 PKG = libyaml-0-staticdev
+PKGR = r0.7
 RPROVIDES = libyaml-staticdev (=0.1.6)
-RDEPENDS = libyaml-dev (= 0.1.6-r0.6)
+RDEPENDS = libyaml-dev (= 0.1.6-r0.7)
 RRECOMMENDS = 
-PKGSIZE = 723080
+PKGSIZE = 499032
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/libyaml/*.a
 FILELIST = /usr/lib/libyaml.a

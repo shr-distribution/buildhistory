@@ -1,2 +1,2 @@
 drwxr-xr-x root       root               60 ./sbin
--rwxr-xr-x root       root            38056 ./sbin/rtacct
+-rwxr-xr-x root       root            37504 ./sbin/rtacct

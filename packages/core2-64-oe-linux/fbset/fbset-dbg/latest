@@ -1,9 +1,9 @@
 PV = 2.1
 PR = r4
-PKGR = r4.16
+PKGR = r4.17
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = glibc-dbg
-PKGSIZE = 14960
+PKGSIZE = 15136
 FILES = /usr/lib/debug /usr/src/debug
 FILELIST = /usr/sbin/.debug/fbset.real

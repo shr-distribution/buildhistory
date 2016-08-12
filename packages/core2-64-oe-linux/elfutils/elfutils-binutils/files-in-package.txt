@@ -1,8 +1,8 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              160 ./usr/bin
--rwxr-xr-x root       root            19760 ./usr/bin/eu-addr2line
--rwxr-xr-x root       root           171184 ./usr/bin/eu-ld
--rwxr-xr-x root       root            40288 ./usr/bin/eu-nm
--rwxr-xr-x root       root           173264 ./usr/bin/eu-readelf
--rwxr-xr-x root       root            15264 ./usr/bin/eu-size
--rwxr-xr-x root       root            46064 ./usr/bin/eu-strip
+-rwxr-xr-x root       root            23088 ./usr/bin/eu-addr2line
+-rwxr-xr-x root       root           175344 ./usr/bin/eu-ld
+-rwxr-xr-x root       root            44184 ./usr/bin/eu-nm
+-rwxr-xr-x root       root           175664 ./usr/bin/eu-readelf
+-rwxr-xr-x root       root            18808 ./usr/bin/eu-size
+-rwxr-xr-x root       root            48016 ./usr/bin/eu-strip

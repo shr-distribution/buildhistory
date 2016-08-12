@@ -13,6 +13,6 @@ drwxr-xr-x root       root               60 ./sbin
 -rwxr-xr-x root       root             2613 ./sbin/osd_login
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              100 ./usr/sbin
--rwxr-xr-x root       root            56752 ./usr/sbin/exportfs
--rwxr-xr-x root       root           101520 ./usr/sbin/rpc.mountd
--rwxr-xr-x root       root            19920 ./usr/sbin/rpc.nfsd
+-rwxr-xr-x root       root            60336 ./usr/sbin/exportfs
+-rwxr-xr-x root       root           105040 ./usr/sbin/rpc.mountd
+-rwxr-xr-x root       root            19408 ./usr/sbin/rpc.nfsd

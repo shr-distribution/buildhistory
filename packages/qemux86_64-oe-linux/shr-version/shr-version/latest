@@ -1,6 +1,6 @@
 PV = 2013.07-next
 PR = r0
-PKGR = r0.17
+PKGR = r0.18
 RPROVIDES = 
 RDEPENDS = 
 RRECOMMENDS = 

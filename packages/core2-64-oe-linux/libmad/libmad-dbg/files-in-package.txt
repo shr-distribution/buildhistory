@@ -1,12 +1,12 @@
 drwxr-xr-x root       root               80 ./usr
 drwxr-xr-x root       root               60 ./usr/lib
 drwxr-xr-x root       root               60 ./usr/lib/.debug
--rwxr-xr-x root       root           133720 ./usr/lib/.debug/libmad.so.0.2.1
+-rwxr-xr-x root       root           140616 ./usr/lib/.debug/libmad.so.0.2.1
 drwxr-xr-x root       root               60 ./usr/src
 drwxr-xr-x root       root               60 ./usr/src/debug
 drwxr-xr-x root       root               60 ./usr/src/debug/libmad
 drwxr-xr-x root       root               60 ./usr/src/debug/libmad/0.15.1b-r3
-drwxr-xr-x root       root              420 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b
+drwxr-xr-x root       root              440 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b
 -rw-r--r-- 1026       1026             6853 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/bit.c
 -rw-r--r-- 1026       1026             1613 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/bit.h
 -rw-r--r-- 1026       1026            11570 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/decoder.c
@@ -26,3 +26,4 @@ drwxr-xr-x root       root              420 ./usr/src/debug/libmad/0.15.1b-r3/li
 -rw-r--r-- 1026       1026            10577 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/timer.c
 -rw-r--r-- 1026       1026             2879 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/timer.h
 -rw-r--r-- 1026       1026             2105 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/version.c
+-rw-r--r-- 1026       1026             1610 ./usr/src/debug/libmad/0.15.1b-r3/libmad-0.15.1b/version.h

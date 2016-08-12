@@ -1,10 +1,10 @@
 PV = 1.5.2
 PR = r0
-PKGR = r0.5
 PKG = libapr-1-staticdev
+PKGR = r0.6
 RPROVIDES = apr-staticdev (=1.5.2)
-RDEPENDS = apr-dev (= 1.5.2-r0.5)
+RDEPENDS = apr-dev (= 1.5.2-r0.6)
 RRECOMMENDS = 
-PKGSIZE = 1679686
+PKGSIZE = 1251142
 FILES = /usr/lib/*.a /lib/*.a /usr/lib/apr/*.a
 FILELIST = /usr/lib/libapr-1.a

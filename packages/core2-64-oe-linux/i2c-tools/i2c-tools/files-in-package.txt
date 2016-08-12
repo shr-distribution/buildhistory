@@ -1,9 +1,9 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              180 ./usr/sbin
--rwxr-xr-x root       root            13176 ./usr/sbin/eeprog
--rwxr-xr-x root       root            11152 ./usr/sbin/eeprom
--rwxr-xr-x root       root            12048 ./usr/sbin/eepromer
--rwxr-xr-x root       root            15272 ./usr/sbin/i2cdetect
--rwxr-xr-x root       root            17808 ./usr/sbin/i2cdump
--rwxr-xr-x root       root            15168 ./usr/sbin/i2cget
--rwxr-xr-x root       root            17496 ./usr/sbin/i2cset
+-rwxr-xr-x root       root            14536 ./usr/sbin/eeprog
+-rwxr-xr-x root       root            14488 ./usr/sbin/eeprom
+-rwxr-xr-x root       root            14568 ./usr/sbin/eepromer
+-rwxr-xr-x root       root            18752 ./usr/sbin/i2cdetect
+-rwxr-xr-x root       root            18752 ./usr/sbin/i2cdump
+-rwxr-xr-x root       root            18736 ./usr/sbin/i2cget
+-rwxr-xr-x root       root            18744 ./usr/sbin/i2cset
