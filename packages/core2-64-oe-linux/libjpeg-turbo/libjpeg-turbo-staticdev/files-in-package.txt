@@ -1,4 +1,4 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root               80 ./usr/lib
--rw-r--r-- root       root          1935530 ./usr/lib/libjpeg.a
--rw-r--r-- root       root          2163970 ./usr/lib/libturbojpeg.a
+-rw-r--r-- root       root          1934698 ./usr/lib/libjpeg.a
+-rw-r--r-- root       root          2163074 ./usr/lib/libturbojpeg.a

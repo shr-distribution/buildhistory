@@ -1,5 +1,5 @@
 drwxr-xr-x root       root               60 ./usr
 drwxr-xr-x root       root              100 ./usr/lib
--rw-r--r-- root       root         19996880 ./usr/lib/libstdc++.a
--rw-r--r-- root       root          6929118 ./usr/lib/libstdc++fs.a
--rw-r--r-- root       root          1009598 ./usr/lib/libsupc++.a
+-rw-r--r-- root       root         20003456 ./usr/lib/libstdc++.a
+-rw-r--r-- root       root          6901478 ./usr/lib/libstdc++fs.a
+-rw-r--r-- root       root          1018030 ./usr/lib/libsupc++.a
